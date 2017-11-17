@@ -1,7 +1,8 @@
-baseurl: "https://example.org/"
+baseurl: "https://rinpharma.github.io/site-2018/"
 title: "R in Pharma"
 canonifyurls: true
 theme: "hugo-conference"
+publishDir: "docs"
 
 GoogleAnalytics: "UA-109863434-1"
 
@@ -10,7 +11,7 @@ params:
   Name: "R in Pharma"
   Description: "Using R to bring medicines to patients"
   Date: "August 15"
-  Price: "$200" # If your event is free, just comment this line
+  Price: "Registration closes April 1st" # If your event is free, just comment this line
   Venue: "Harvard Medical School"
   Address: "77 Avenue Louis Pasteur"
   City:  "Boston"
@@ -56,7 +57,7 @@ params:
 
   # List of Partners
   Partners:
-    - name: "R-Consortium"
+    - name: "Also the R-Consortium"
       logo: "/img/r_consortium.jpg"
       url: "https://www.r-consortium.org/"
 
@@ -95,7 +96,7 @@ params:
     - name: "Chuck Norris"
       photo: "/img/speaker.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Delta Command"
+      company: "Delta Command Six"
       link:
         href: "http://twitter.com/littlechuck"
         text: "@littlechuck"

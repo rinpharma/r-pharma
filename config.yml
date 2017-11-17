@@ -1,5 +1,5 @@
 baseurl: "https://rinpharma.github.io/site-2018/"
-title: "R in Pharma"
+title: "R / Pharma"
 canonifyurls: true
 theme: "hugo-conference"
 publishDir: "docs"
@@ -8,7 +8,7 @@ GoogleAnalytics: "UA-109863434-1"
 
 params:
   # Conference info
-  Name: "R in Pharma"
+  Name: "R / Pharma"
   Description: "Using R to bring medicines to patients"
   Date: "August 15"
   Price: "Registration closes April 1st" # If your event is free, just comment this line
@@ -35,7 +35,7 @@ params:
     location: "Location"
     speakers: "Speakers"
     schedule: "Schedule"
-    sponsors: "Sponsors"
+    sponsors: "Sponsor"
     partners: "Partners"
     contact: "Contact"
 

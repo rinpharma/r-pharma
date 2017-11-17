@@ -13,7 +13,7 @@
         Google Maps implementation
     ***/
     conf.map = {
-        marker: '/img/Rlogo.png'
+        marker: 'img/Rlogo.png'
     };
 
     // Google Maps configs

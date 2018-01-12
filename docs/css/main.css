@@ -7,7 +7,6 @@
   list-style: none;
   border: 0;
   text-decoration: none;
-  z-index: 10;
 }
 img,
 input,
@@ -277,9 +276,9 @@ hr {
    MAIN LAYOUT
    ========================================================================== */
 .wrapper {
-  margin: 50 auto;
+  margin: 0 auto;
   width: 960px;
-  position: absolute;
+  position: relative;
 }
 .content {
   padding: 50px 0;
@@ -322,7 +321,6 @@ nav {
   position: fixed;
   width: 100%;
   z-index: 10;
-  padding-bottom: 30px;
 }
 .nav-item {
   display: inline-block;
@@ -339,7 +337,6 @@ nav {
   text-align: center;
 }
 .logo-name {
-  padding-top: 100px;
   margin-bottom: 0;
   font-size: 10em;
   letter-spacing: -0.04em;
@@ -902,17 +899,4 @@ nav {
   .github-link {
     display: none;
   }
-}
-
-
-#particles-js {
-  position: relative;
-  z-index: 1;
-  width: 100%;
-  height: 100%;
-  background-color: #2FA7DC;
-  background-image: url("../img/cover.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%;
 }

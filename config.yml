@@ -10,11 +10,11 @@ params:
   # Conference info
   Name: "R / Pharma"
   Description: "Using R to bring medicines to patients"
-  Date: "August 15"
-  Price: "Registration closes April 1st" # If your event is free, just comment this line
-  Venue: "Harvard Medical School"
-  Address: "77 Avenue Louis Pasteur"
-  City:  "Boston"
+  Date: "August **nd 2018"
+  #Price: "Registration closes April 1st" # If your event is free, just comment this line
+  Venue: "Harvard University"
+  Address: ""
+  City:  "Cambridge"
   State: "MA"
   Images: ["/img/badge.jpg"]
 
@@ -23,10 +23,10 @@ params:
   Sections:
     - about
     - location
-    - speakers
-    - schedule
+    #- speakers
+    #- schedule
     - sponsors
-    - partners
+    #- partners
     - contact
 
   # Titles which you can translate to other languages
@@ -41,9 +41,9 @@ params:
 
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
-  CallToAction:
-    text: "Register now!"
-    link: "http://register.example.com"
+  #CallToAction:
+  #  text: "Register now!"
+  #  link: "http://register.example.com"
 
   # Fork me on GitHub, if you don't want this, just remove the forkButton property
   #ForkButton:

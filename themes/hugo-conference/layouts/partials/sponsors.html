@@ -1,0 +1,14 @@
+<h2 class="section-title">{{ .titles.sponsors }}</h2>
+
+<p>R Consortium, Inc., a Linux Foundation Project</p>
+<p>Harvard University, Harvard Data Science Initiative and Harvard Institute for Quantitative Social Science</p>
+
+<ul class="sponsors-list">
+{{ range $sponsor := .sponsors }}
+  <li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
+    <a href="{{ .url }}" class="sponsor--link" itemprop="url" target="_blank">
+      <img src="{{ .logo }}" alt="{{ .name }}" class="photo" itemprop="image">
+    </a>
+  </li>
+{{ end }}
+</ul>

@@ -1,21 +1,20 @@
-baseurl: "http://rinpharma.com"
-title: "R / Pharma"
+baseurl: "https://example.org/"
+title: "Conference name"
 canonifyurls: true
 theme: "hugo-conference"
-publishDir: "docs"
 
-GoogleAnalytics: "UA-109863434-1"
+GoogleAnalytics: "UA-9232216-1"
 
 params:
   # Conference info
-  Name: "R / Pharma"
-  Description: "Using R to bring medicines to patients"
-  Date: "Late Summer 2018"
-  #Price: "Registration closes April 1st" # If your event is free, just comment this line
-  Venue: "Harvard University"
-  Address: ""
-  City:  "Cambridge"
-  State: "MA"
+  Name: "Conference name"
+  Description: "Conference description"
+  Date: "November 15"
+  Price: "Only $100" # If your event is free, just comment this line
+  Venue: "Coco Bongo"
+  Address: "Boulevard Kukulcan, 30"
+  City:  "Cancún"
+  State: "Quintana"
   Images: ["/img/badge.jpg"]
 
   # Active sections on the website to deactivate comment out with '#'
@@ -23,11 +22,11 @@ params:
   Sections:
     - about
     - location
-    #- speakers
-    #- schedule
+    - speakers
+    - schedule
     - sponsors
-    #- partners
-    - contact
+    - partners
+    #- contact
 
   # Titles which you can translate to other languages
   Titles:
@@ -35,31 +34,34 @@ params:
     location: "Location"
     speakers: "Speakers"
     schedule: "Schedule"
-    sponsors: "Sponsor"
+    sponsors: "Sponsors"
     partners: "Partners"
     contact: "Contact"
 
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
-  #CallToAction:
-  #  text: "Register now!"
-  #  link: "http://register.example.com"
+  CallToAction:
+    text: "Register now!"
+    link: "http://register.example.com"
 
   # Fork me on GitHub, if you don't want this, just remove the forkButton property
-  #ForkButton:
-  #  repository: "https://github.com/jweslley/hugo-conference/"
+  ForkButton:
+    repository: "https://github.com/jweslley/hugo-conference/"
 
   # List of Sponsors
   Sponsors:
-    - name: "R-Consortium"
-      logo: "/img/r_consortium.jpg"
-      url: "https://www.r-consortium.org/"
+    - name: "Hugo"
+      logo: "/img/hugo.png"
+      url: "http://gohugo.io"
 
   # List of Partners
   Partners:
-    - name: "Also the R-Consortium"
-      logo: "/img/r_consortium.jpg"
-      url: "https://www.r-consortium.org/"
+    - name: "Hugo"
+      logo: "/img/hugo.jpg"
+      url: "https://gohugo.io"
+    - name: "BrazilJS"
+      logo: "/img/partner.png"
+      url: "http://braziljs.org"
 
   # The entire schedule
   Schedule:
@@ -96,7 +98,7 @@ params:
     - name: "Chuck Norris"
       photo: "/img/speaker.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Delta Command Six"
+      company: "Delta Command"
       link:
         href: "http://twitter.com/littlechuck"
         text: "@littlechuck"

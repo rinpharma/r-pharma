@@ -22,21 +22,23 @@ params:
   # you can also change order here and it will reflect on page
   Sections:
     - about
+    - call4papers
     - location
     #- speakers
     #- schedule
-    - sponsors
-    #- partners
+    #- sponsors
+    - governance
     - contact
 
   # Titles which you can translate to other languages
   Titles:
     about: "About"
+    call4papers: "Call for papers"
     location: "Location"
     speakers: "Speakers"
     schedule: "Schedule"
-    sponsors: "Governance"
-    partners: "Partners"
+    sponsors: "Sponsors"
+    governance: "Governance"
     contact: "Contact"
 
   # The Call To Action button at the header,

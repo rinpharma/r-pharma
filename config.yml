@@ -26,7 +26,7 @@ params:
     - location
     #- speakers
     #- schedule
-    #- sponsors
+    - sponsors
     - governance
     - contact
 
@@ -58,7 +58,7 @@ params:
       url: "https://www.r-consortium.org/"
 
   # List of Partners
-  Partners:
+  Governance:
     - name: "Also the R-Consortium"
       logo: "/img/r_consortium.jpg"
       url: "https://www.r-consortium.org/"

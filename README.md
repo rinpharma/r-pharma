@@ -1,6 +1,6 @@
 # r-pharma
 
-R/Pharma website.
+R/Pharma website: [rinpharma.com](http://rinpharma.com)
 
 **The todo is here: https://github.com/RConsortium/r-pharma/projects/1**
 

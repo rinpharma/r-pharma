@@ -27,7 +27,7 @@ params:
     #- speakers
     #- schedule
     - sponsors
-    - governance
+    #- governance
     - contact
 
   # Titles which you can translate to other languages

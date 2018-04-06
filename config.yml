@@ -13,7 +13,7 @@ params:
   Date: "Late Summer 2018"
   #Price: "Registration closes April 1st" # If your event is free, just comment this line
   Venue: "Harvard University"
-  Address: ""
+  Address: "Harvard University, CGIS South, Cambridge Street, Cambridge, MA, USA"
   City:  "Cambridge"
   State: "MA"
   Images: ["/img/badge.jpg"]

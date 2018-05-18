@@ -43,8 +43,8 @@ params:
 
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
-  #CallToAction:
-  #  text: "Register now!"
+  CallToAction:
+    text: "Click here to register now!"
   #  link: "http://register.example.com"
 
   # Fork me on GitHub, if you don't want this, just remove the forkButton property

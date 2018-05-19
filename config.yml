@@ -10,7 +10,7 @@ params:
   # Conference info
   Name: "R / Pharma"
   Description: "Using R to bring medicines to patients"
-  Date: "15th and 16th of August, 2018"
+  Date: "August 15-16, 2018"
   #Price: "Registration closes April 1st" # If your event is free, just comment this line
   Venue: "Harvard University"
   Address: "Harvard University, CGIS South, Cambridge Street, Cambridge, MA, USA"

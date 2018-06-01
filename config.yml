@@ -22,7 +22,7 @@ params:
   # you can also change order here and it will reflect on page
   Sections:
     - about
-    - call4papers
+    # call4papers
     - location
     #- speakers
     #- schedule

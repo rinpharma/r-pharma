@@ -20,7 +20,13 @@
       {{ end }}
 
       {{ with .calltoaction }}
+        <!--
         <a href="{{ .link }}" class="call-action-link" target="_blank" title="{{ .text }}">{{ .text }}</a>
+        -->
+        <!-- Start Picatic widget embed -->
+        <script async src="https://widget.picatic.com/latest/js/embed.min.js" id="picatic-widget-script"></script>
+        <a href="https://www.picatic.com/143776" class="picatic-widget-button pwb-small pwb-shamrock">{{ .text }}</a>
+        <!-- End Picatic widget embed -->
       {{ end }}
     </div>
   </div>

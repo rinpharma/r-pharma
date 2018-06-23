@@ -1,5 +1,7 @@
 <h2 class="section-title">{{ .titles.speakers }}</h2>
 
+<p>Confirmed keynote speakers below. More keynote abstracts will added in the coming weeks.</p>
+
 <ul class="speakers-list">
 {{ range $speaker := (where .schedule "presentation" "ne" nil) }}
   <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">

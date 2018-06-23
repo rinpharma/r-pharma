@@ -6,9 +6,12 @@
 
 <header class="header">
   <div class="wrapper">
+    <!--
     <h1 class="logo-name">
       <a class="logo-link" href="#" title="{{ .name }}" itemprop="name">{{ .name }}</a>
     </h1>
+    -->
+    <img src = "img/logotext_small.png" alt="R/Pharma logo">
     <h2 class="tagline">{{ .date }}, {{ .venue }}, {{ .city }}</h2>
 
     <div class="call-action-area">
@@ -17,7 +20,13 @@
       {{ end }}
 
       {{ with .calltoaction }}
+        <!--
         <a href="{{ .link }}" class="call-action-link" target="_blank" title="{{ .text }}">{{ .text }}</a>
+        -->
+        <!-- Start Picatic widget embed -->
+        <script async src="https://widget.picatic.com/latest/js/embed.min.js" id="picatic-widget-script"></script>
+        <a href="https://www.picatic.com/143776" class="picatic-widget-button pwb-small pwb-shamrock">{{ .text }}</a>
+        <!-- End Picatic widget embed -->
       {{ end }}
     </div>
   </div>

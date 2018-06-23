@@ -25,6 +25,7 @@ params:
     - speakers
     # call4papers
     - location
+    - hotel
     #- schedule
     - sponsors
     #- governance
@@ -34,6 +35,7 @@ params:
   Titles:
     about: "About"
     call4papers: "Call for papers"
+    hotel: "Hotel"
     location: "Location"
     speakers: "Keynotes"
     schedule: "Schedule"
@@ -78,4 +80,15 @@ params:
         description: "The tidyverse (tidyverse.org) is an opinionated collection of R packages designed for data science. All packages share an underlying design philosophy, grammar, and data structures. The packages primarily consist of tools for data ingest, manipulation, and visualization. In the last year or so, Rstudio and others have been creating a set of packages focused on the modeling process. In this talk, we will introduce the tidyverse and illustrate these new tools whose goals are to: simplify the modeling process, encourage empirical validation and good methodology, and to enable a wider variety of approaches."
         time: "Max Kuhn"
 
+    - name: "FDA"
+      photo: "/img/Lilliam.jpeg"
+      bio: "Lilliam is Director of the Office of Computational Science at the FDA. Lilliam will provide a perspective on what the office of computational science is doing to support regulatory  review for safety assessments.  This includes exploring the concept of collaborations and sharing to support process and transparency bringing in a perspective of the use of R."
+      company: "FDA"
+      link:
+        href: "https://www.fda.gov/AboutFDA/CentersOffices/OfficeofMedicalProductsandTobacco/CDER/ucm428946.htm"
+        text: "Bio"
+      presentation:
+        title: "Modeling in the tidyverse"
+        description: "Lilliam is Director of the Office of Computational Science at the FDA. Lilliam will provide a perspective on what the office of computational science is doing to support regulatory  review for safety assessments.  This includes exploring the concept of collaborations and sharing to support process and transparency bringing in a perspective of the use of R."
+        time: "Lilliam Rosario"
 

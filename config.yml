@@ -88,7 +88,7 @@ params:
         href: "https://www.fda.gov/AboutFDA/CentersOffices/OfficeofMedicalProductsandTobacco/CDER/ucm428946.htm"
         text: "Bio"
       presentation:
-        title: "Modeling in the tidyverse"
+        title: "TBD"
         description: "Lilliam is Director of the Office of Computational Science at the FDA. Lilliam will provide a perspective on what the office of computational science is doing to support regulatory  review for safety assessments.  This includes exploring the concept of collaborations and sharing to support process and transparency bringing in a perspective of the use of R."
         time: "Lilliam Rosario"
 

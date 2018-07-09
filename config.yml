@@ -92,3 +92,15 @@ params:
         description: "Lilliam will be presenting a perspective on what the office of computational science is doing to support regulatory review for safety assessments. She will explore the concept of collaborations and sharing to support process and transparency, along with a perspective with the use of R."
         time: "Lilliam Rosario"
 
+    - name: "Roche/Genentech"
+      photo: "/img/michael.jpeg"
+      bio: "The open-source analytics community is driving innovation in precompetitive spaces like statistical methodology, reproducibility approaches, visualization techniques, and scaling strategies. The diverse and rapidly evolving ecosystem of open-source tools and standards stands in contrast with the disposition of the enterprise towards stability, standardization, and reliability. This talk will present the policies and frameworks we have developed at Genentech to enable internal scientists to responsibly leverage open-source tools and to participate in the community process through their own contributions."
+      company: "Roche/Genentech"
+      link:
+        href: "https://twitter.com/lawremi?lang=en"
+        text: "Twitter"
+      presentation:
+        title: "Enabling open-source analytics in the enterprise"
+        description: "The open-source analytics community is driving innovation in precompetitive spaces like statistical methodology, reproducibility approaches, visualization techniques, and scaling strategies. The diverse and rapidly evolving ecosystem of open-source tools and standards stands in contrast with the disposition of the enterprise towards stability, standardization, and reliability. This talk will present the policies and frameworks we have developed at Genentech to enable internal scientists to responsibly leverage open-source tools and to participate in the community process through their own contributions."
+        time: "Michael Lawrence"
+

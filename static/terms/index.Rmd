@@ -1,6 +1,6 @@
 ---
 title: "Terms and conditions"
-output: pdf_document
+output: html_document
 ---
 
 R/Pharma is free event and comes with ABSOLUTELY NO WARRANTY. YOUR PARTICIPATION IS AT YOUR SOLE AND EXCLUSIVE RISK. By accepting the invitation to attend and registering a ticket, you freely and voluntarily assume all risks.  Visit https://www.r-consortium.org/about/governance for more info.

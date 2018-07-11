@@ -1,0 +1,11 @@
+---
+title: "Terms and conditions"
+output: pdf_document
+---
+
+R/Pharma is free event and comes with ABSOLUTELY NO WARRANTY. YOUR PARTICIPATION IS AT YOUR SOLE AND EXCLUSIVE RISK. By accepting the invitation to attend and registering a ticket, you freely and voluntarily assume all risks.  Visit https://www.r-consortium.org/about/governance for more info.
+
+R/Pharma assumes no responsibility for any costs (e.g. travel) in the event that the conference is cancelled, or named speakers are unable to attend. 
+
+You agree to indemnify, defend, and hold R/Pharma and all parites and its subsidiaries, affiliates, officers, directors, agents, co-branders or other partners, employees, and representatives harmless from and against any and all claims, damages, losses, costs or expenses (including reasonable attorneys’ fees and disbursements) which arise directly or indirectly out of or from (i) your breach of this Agreement, (ii) any allegation that any materials that you submit to R/Pharma or present (e.g., conference, github, website) infringe or otherwise violate the copyright, trade secret, trademark or other intellectual property rights of a third party, and (iii) your access or use of the Sites and/or the Services. No confidential information should be disclosed at meetings and no warranty of confidentiality is made by the event organizers. Recordings of events may be taken by event organizers and general content may be used in discussion postings or meeting highlights on our website, github or used elsewhere. Attendees of events acknowledge this content may be shared and release the event organizers to use this content freely. Audio or video recordings of events by attendees are prohibited."),
+   

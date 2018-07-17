@@ -73,8 +73,8 @@ params:
       bio: "The tidyverse (tidyverse.org) is an opinionated collection of R packages designed for data science. All packages share an underlying design philosophy, grammar, and data structures. The packages primarily consist of tools for data ingest, manipulation, and visualization. In the last year or so, Rstudio and others have been creating a set of packages focused on the modeling process. In this talk, we will introduce the tidyverse and illustrate these new tools whose goals are to: simplify the modeling process, encourage empirical validation and good methodology, and to enable a wider variety of approaches."
       company: "RStudio"
       link:
-        href: "https://www.linkedin.com/in/max-kuhn-864a9110"
-        text: "linkedin profile"
+        href: "https://twitter.com/topepos?lang=en"
+        text: "Twitter"
       presentation:
         title: "Modeling in the tidyverse"
         description: "The tidyverse (tidyverse.org) is an opinionated collection of R packages designed for data science. All packages share an underlying design philosophy, grammar, and data structures. The packages primarily consist of tools for data ingest, manipulation, and visualization. In the last year or so, Rstudio and others have been creating a set of packages focused on the modeling process. In this talk, we will introduce the tidyverse and illustrate these new tools whose goals are to: simplify the modeling process, encourage empirical validation and good methodology, and to enable a wider variety of approaches."
@@ -88,7 +88,7 @@ params:
         href: "https://www.fda.gov/AboutFDA/CentersOffices/OfficeofMedicalProductsandTobacco/CDER/ucm428946.htm"
         text: "Bio"
       presentation:
-        title: "TBD"
+        title: ""
         description: "Lilliam will be presenting a perspective on what the office of computational science is doing to support regulatory review for safety assessments. She will explore the concept of collaborations and sharing to support process and transparency, along with a perspective with the use of R."
         time: "Lilliam Rosario"
 
@@ -103,4 +103,16 @@ params:
         title: "Enabling open-source analytics in the enterprise"
         description: "The open-source analytics community is driving innovation in precompetitive spaces like statistical methodology, reproducibility approaches, visualization techniques, and scaling strategies. The diverse and rapidly evolving ecosystem of open-source tools and standards stands in contrast with the disposition of the enterprise towards stability, standardization, and reliability. This talk will present the policies and frameworks we have developed at Genentech to enable internal scientists to responsibly leverage open-source tools and to participate in the community process through their own contributions."
         time: "Michael Lawrence"
+
+    - name: "RStudio"
+      photo: "/img/joecheng.jpeg"
+      bio: "Shiny is a package for turning analyses written in R into interactive web applications. This capability has obvious applications in pharma, as it lets biostatisticians build interactive apps for their collaborators to explore models or results, or to automate workflows. However, the interactivity of Shiny apps is a double-edged sword, as it introduces challenges to the traceability, reproducibility, and integrity of your analysis. To use interactive applications in pharma responsibly, these challenges must be addressed. In this talk, I'll look at some of the tools and techniques you can use in Shiny to deal with these challenges head-on."
+      company: "RStudio"
+      link:
+        href: "https://twitter.com/jcheng?lang=en"
+        text: "Twitter"
+      presentation:
+        title: "Using interactivity responsibly in pharma"
+        description: "Shiny is a package for turning analyses written in R into interactive web applications. This capability has obvious applications in pharma, as it lets biostatisticians build interactive apps for their collaborators to explore models or results, or to automate workflows. However, the interactivity of Shiny apps is a double-edged sword, as it introduces challenges to the traceability, reproducibility, and integrity of your analysis. To use interactive applications in pharma responsibly, these challenges must be addressed. In this talk, I'll look at some of the tools and techniques you can use in Shiny to deal with these challenges head-on."
+        time: "Joe Cheng"
 

@@ -88,7 +88,7 @@ params:
         href: "https://www.fda.gov/AboutFDA/CentersOffices/OfficeofMedicalProductsandTobacco/CDER/ucm428946.htm"
         text: "Bio"
       presentation:
-        title: ""
+        title: "Modernizing the new drug regulatory program in FDA/CDER:  Can Collaborations and Sharing Help?"
         description: "Lilliam will be presenting a perspective on what the office of computational science is doing to support regulatory review for safety assessments. She will explore the concept of collaborations and sharing to support process and transparency, along with a perspective with the use of R."
         time: "Lilliam Rosario"
 
@@ -106,7 +106,7 @@ params:
 
     - name: "RStudio"
       photo: "/img/joecheng.jpeg"
-      bio: "Shiny is a package for turning analyses written in R into interactive web applications. This capability has obvious applications in pharma, as it lets biostatisticians build interactive apps for their collaborators to explore models or results, or to automate workflows. However, the interactivity of Shiny apps is a double-edged sword, as it introduces challenges to the traceability, reproducibility, and integrity of your analysis. To use interactive applications in pharma responsibly, these challenges must be addressed. In this talk, I'll look at some of the tools and techniques you can use in Shiny to deal with these challenges head-on."
+      bio: "Shiny is a package for turning analyses written in R into interactive web applications. This capability has obvious applications in pharma, as it lets R users build interactive apps for their collaborators to explore models or results, or to automate workflows. However, the interactivity of Shiny apps is a double-edged sword, as it introduces challenges to the traceability and reproducibility of your analysis. To use interactive applications in pharma responsibly, these challenges must be addressed. In this talk, I'll look at some of the tools and techniques you can use in Shiny to deal with these challenges head-on."
       company: "RStudio"
       link:
         href: "https://twitter.com/jcheng?lang=en"

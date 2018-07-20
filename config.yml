@@ -26,7 +26,7 @@ params:
     # call4papers
     - location
     - hotel
-    #- schedule
+    - schedule
     - sponsors
     #- governance
     - contact

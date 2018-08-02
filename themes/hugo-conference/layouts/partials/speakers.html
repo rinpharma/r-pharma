@@ -1,6 +1,6 @@
 <h2 class="section-title">{{ .titles.speakers }}</h2>
 
-<p>Confirmed keynote speakers below. More keynote abstracts will added in the coming weeks.</p>
+<p>Confirmed keynote speakers below.</p>
 
 <ul class="speakers-list">
 {{ range $speaker := (where .schedule "presentation" "ne" nil) }}

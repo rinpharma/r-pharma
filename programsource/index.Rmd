@@ -8,7 +8,6 @@ lot: yes
 lof: yes
 documentclass: book
 link-citations: yes
-github-repo: https://github.com/RConsortium/r-pharma
 description: "Example analyses using propensity scores."
 ---
 

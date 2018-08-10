@@ -1,0 +1,5 @@
+book_filename: "rinpharma2018"
+chapter_name: ""
+repo: https://github.com/RConsortium/r-pharma
+output_dir: output
+delete_merged_file: true

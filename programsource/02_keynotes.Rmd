@@ -2,6 +2,8 @@
 
 # Keynotes
 
+To start viewing abstracts, either 1) press right on your keyboard, 2) click the arrow or 3) select a talk from the menu.
+
 ## _Modernizing the new drug regulatory program in FDA/CDER:  Can Collaborations and Sharing Help?_
 
 **Lilliam Rosario**, FDA Center for Drug Evaluation & Research

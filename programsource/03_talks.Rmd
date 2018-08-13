@@ -1,5 +1,7 @@
 # Talks - by author
 
+To start viewing abstracts, either 1) press right on your keyboard, 2) click the arrow or 3) select a talk from the menu.
+
 ## _Analyzing Clinical Trials Data with R_
 
 **Adrian Waddell**, Roche

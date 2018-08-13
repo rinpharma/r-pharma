@@ -1,8 +1,0 @@
-# Summary plots
-
-Following section provides information 
-
-## Attendees
-![](tree.png)
-## Abstract wordcloud
-![](wc_abstracts.png)

@@ -17,4 +17,6 @@ A wordcloud based on speaker abstracts
 
 A wordcloud based on speaker presentation titles
 
-![](wc_titles.png)
+![](wc_titles.png)A wordcloud based on companies present
+
+![](wc_comps.png)

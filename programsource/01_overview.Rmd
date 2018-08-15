@@ -36,7 +36,7 @@
   <tr>
    <td style="text-align:left; padding-left: 2em;" indentlevel="1"> 08:00 - 09:00 </td>
    <td style="text-align:left;"> Workshop </td>
-   <td style="text-align:left;"> Bayesian Models for Smaller Trial Sizes - Stan with R for analysis </td>
+   <td style="text-align:left;"> Stan for Pharma </td>
   </tr>
   <tr>
    <td style="text-align:left; padding-left: 2em;" indentlevel="1"> 08:00 - 09:00 </td>
@@ -51,7 +51,7 @@
   <tr>
    <td style="text-align:left; padding-left: 2em;" indentlevel="1"> 09:25 - 10:10 </td>
    <td style="text-align:left;"> Keynote </td>
-   <td style="text-align:left;"> Modernizing the new drug regulatory program in FDA/CDER:  Can Collaborations and Sharing Help? **(Lilliam Rosario)** </td>
+   <td style="text-align:left;"> Modernizing the new drug regulatory program in FDA/CDER:  Can Collaborations and Sharing Help? **(Lilliam Rosario)** </td>
   </tr>
   <tr>
    <td style="text-align:left; padding-left: 2em;" indentlevel="1"> 10:10 - 10:30 </td>
@@ -247,7 +247,7 @@
   <tr>
    <td style="text-align:left; padding-left: 2em;" indentlevel="1"> 13:50 - 14:00 </td>
    <td style="text-align:left;"> Lightning Talk </td>
-   <td style="text-align:left;"> Assisting clinical trial simulation with the use of Shiny **(Jia Kang)** </td>
+   <td style="text-align:left;"> Assisting pharmacometric simulation with the use of Shiny **(Jia Kang)** </td>
   </tr>
   <tr>
    <td style="text-align:left; padding-left: 2em;" indentlevel="1"> 14:00 - 14:10 </td>
@@ -341,10 +341,10 @@ This is the shortened schedule, please go to [the Full Schedule](http://rinpharm
 * **07:30 - 09:15** _Registration_ 
 * **08:00 - 09:00** _Keeping things Peachy when Shiny gets Hairy (Workshop)_ 
 * **08:00 - 09:00** _Analyzing Clinical Trials Data with R (Workshop)_ 
-* **08:00 - 09:00** _Bayesian Models for Smaller Trial Sizes - Stan with R for analysis (Workshop)_ 
+* **08:00 - 09:00** _Stan for Pharma (Workshop)_ 
 * **08:00 - 09:00** _Moving Fast Without Breaking Things: Navigating the R Ecosystem in an Enterprise Environment (Workshop)_ 
 * **09:15 - 09:25** _Opening Remarks_ 
-* **09:25 - 10:10** _Modernizing the new drug regulatory program in FDA/CDER:  Can Collaborations and Sharing Help?_ 
+* **09:25 - 10:10** _Modernizing the new drug regulatory program in FDA/CDER:  Can Collaborations and Sharing Help?_ 
 * **10:10 - 10:30** _Using R in a regulatory environment: some FDA perspectives_ 
 * **10:30 - 10:40** _Using R in a GxP Environment_ 
 * **10:40 - 10:50** _IDBac: A New Paradigm in Developing Microbial Libraries for Drug Discovery_ 
@@ -389,7 +389,7 @@ This is the shortened schedule, please go to [the Full Schedule](http://rinpharm
 * **12:10 - 13:30** _Lunch_ 
 * **13:30 - 13:40** _Unification in a Compartmentalized Culture_ 
 * **13:40 - 13:50** _R4SPA: R Packages and Training to enable Statistical Programming in R_ 
-* **13:50 - 14:00** _Assisting clinical trial simulation with the use of Shiny_ 
+* **13:50 - 14:00** _Assisting pharmacometric simulation with the use of Shiny_ 
 * **14:00 - 14:10** _R/Shiny Clinical Dashboards For Fun* and Profit *Note: Fun is Relative_ 
 * **14:10 - 14:20** _The drake R package: reproducible data analysis at scale_ 
 * **14:20 - 14:50** _Break_ 

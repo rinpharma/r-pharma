@@ -324,9 +324,9 @@ R/Pharma 2018 participants.
 
 
 This version of the document was rendered via \texttt{make} at
-2018-08-13 11:45:51 by James Black.
+2018-08-15 13:59:35 by James Black.
 
-The git hash is: 487830ef91d8d9b6bab50baca2c3112952638357.
+The git hash is: 5a362f0820c84d104ce33125ef47bed6746279e9.
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -378,7 +378,7 @@ Analyzing Clinical Trials Data with R
 
 Workshop
 
-Bayesian Models for Smaller Trial Sizes - Stan with R for analysis
+Stan for Pharma
 
 08:00 - 09:00
 
@@ -397,7 +397,7 @@ Richard McCullough, Ph.D.~Vice Provost of Research, Harvard University
 
 Keynote
 
-Modernizing the new drug regulatory program in FDA/CDER:~ Can
+Modernizing the new drug regulatory program in FDA/CDER: Can
 Collaborations and Sharing Help? \textbf{(Lilliam Rosario)}
 
 10:10 - 10:30
@@ -640,7 +640,7 @@ R4SPA: R Packages and Training to enable Statistical Programming in R
 
 Lightning Talk
 
-Assisting clinical trial simulation with the use of Shiny \textbf{(Jia
+Assisting pharmacometric simulation with the use of Shiny \textbf{(Jia
 Kang)}
 
 14:00 - 14:10
@@ -771,8 +771,7 @@ When & What\tabularnewline
   \textbf{08:00 - 09:00} \emph{Analyzing Clinical Trials Data with R
   (Workshop)}
 \item
-  \textbf{08:00 - 09:00} \emph{Bayesian Models for Smaller Trial Sizes -
-  Stan with R for analysis (Workshop)}
+  \textbf{08:00 - 09:00} \emph{Stan for Pharma (Workshop)}
 \item
   \textbf{08:00 - 09:00} \emph{Moving Fast Without Breaking Things:
   Navigating the R Ecosystem in an Enterprise Environment (Workshop)}
@@ -780,7 +779,7 @@ When & What\tabularnewline
   \textbf{09:15 - 09:25} \emph{Opening Remarks}
 \item
   \textbf{09:25 - 10:10} \emph{Modernizing the new drug regulatory
-  program in FDA/CDER:~ Can Collaborations and Sharing Help?}
+  program in FDA/CDER: Can Collaborations and Sharing Help?}
 \item
   \textbf{10:10 - 10:30} \emph{Using R in a regulatory environment: some
   FDA perspectives}
@@ -896,7 +895,7 @@ more detailed information.
   \textbf{13:40 - 13:50} \emph{R4SPA: R Packages and Training to enable
   Statistical Programming in R}
 \item
-  \textbf{13:50 - 14:00} \emph{Assisting clinical trial simulation with
+  \textbf{13:50 - 14:00} \emph{Assisting pharmacometric simulation with
   the use of Shiny}
 \item
   \textbf{14:00 - 14:10} \_R/Shiny Clinical Dashboards For Fun* and
@@ -956,8 +955,8 @@ click the arrow or 3) select a talk from the menu.
 
 \hypertarget{modernizing-the-new-drug-regulatory-program-in-fdacder-can-collaborations-and-sharing-help}{%
 \section{\texorpdfstring{\emph{Modernizing the new drug regulatory
-program in FDA/CDER:~ Can Collaborations and Sharing
-Help?}}{Modernizing the new drug regulatory program in FDA/CDER:~ Can Collaborations and Sharing Help?}}\label{modernizing-the-new-drug-regulatory-program-in-fdacder-can-collaborations-and-sharing-help}}
+program in FDA/CDER: Can Collaborations and Sharing
+Help?}}{Modernizing the new drug regulatory program in FDA/CDER: Can Collaborations and Sharing Help?}}\label{modernizing-the-new-drug-regulatory-program-in-fdacder-can-collaborations-and-sharing-help}}
 
 \textbf{Lilliam Rosario}, FDA Center for Drug Evaluation \& Research
 
@@ -1419,28 +1418,26 @@ realistic simulated datasets based on a real cohort study. In this talk,
 I will give an overview of our progress so far and what is left to be
 done.
 
-\hypertarget{assisting-clinical-trial-simulation-with-the-use-of-shiny}{%
-\section{\texorpdfstring{\emph{Assisting clinical trial simulation with
+\hypertarget{assisting-pharmacometric-simulation-with-the-use-of-shiny}{%
+\section{\texorpdfstring{\emph{Assisting pharmacometric simulation with
 the use of
-Shiny}}{Assisting clinical trial simulation with the use of Shiny}}\label{assisting-clinical-trial-simulation-with-the-use-of-shiny}}
+Shiny}}{Assisting pharmacometric simulation with the use of Shiny}}\label{assisting-pharmacometric-simulation-with-the-use-of-shiny}}
 
 \textbf{Jia Kang }, Metrum Research Group
 
 \emph{Thursday, 16th August from 13:50 - 14:00}
 
 During the drug development, pharmacometric models are often built to
-better characterize and understand the clinical pharmacology attributes
-of the drug. Simulations based on these models can assist drug
-development and clinical trial design. However, such simulations can be
-time-consuming and difficult to demonstrate the results in an efficient
-way.
-
-A shiny application can be used as a simulation tool which allows rapid
-real-time simulations based on user-selected inputs and dynamic
-visualization of the results. It also provides an easy access to
-individuals with no specific background of modeling and simulation. In
-the talk, I will present some case studies where the shiny application
-was used to perform simulations to facilitate clinical trial design.
+characterize and understand drug efficacy and safety. Simulations based
+on these models can assist drug development and quantitative decision
+making. However, computation can be time-consuming and communication
+with the project team may not be productive. Shiny applications are
+developed as a simulation tool which allows rapid real-time simulations
+based on user-selected inputs and dynamic visualization of the results.
+It provides an easy access to individuals with no specific background of
+modeling and simulation. In the talk, I will present some case studies
+where the shiny application was used to perform simulations and
+facilitate the communication with decision makers.
 
 \hypertarget{reproducible-computational-research-at-eisai-leadership-technology-and-culture}{%
 \section{\texorpdfstring{\emph{Reproducible computational research at
@@ -1527,25 +1524,25 @@ Development}}{Data-Driven Strategies for Synthetic Route Design and Operational 
 
 Decision analysis balancing both data analytics and human gut feeling is
 critical in designing efficient routes to synthesize new, complex small
-molecules.~ This challenge is faced by any organization seeking to
+molecules. This challenge is faced by any organization seeking to
 deliver modern pharmaceutical compounds to patients in a prompt manner.
 In this presentation, we highlight the incorporation of data science
 approaches using R to develop metrics that aid in the development
-process:~ current complexity, risk quantification, and process
-efficiency forecasting.~ Current complexity is a metric established from
-human insights that assesses a molecule's complexity in the context of
+process: current complexity, risk quantification, and process efficiency
+forecasting. Current complexity is a metric established from human
+insights that assesses a molecule's complexity in the context of
 capability, tracking the `current' complexity of a given molecule over
-time and enabling the quantitative assessment of a new route or
-process.~ Risk quantification utilizes a Bayesian framework to quantify
-risk from real data and operational patterns, at both the project and
-portfolio level, for assessing the delivery risk of early candidate
-nomination assets in areas such as FTE resource modeling.~ Process
-efficiency can be estimated with a predictive analytics framework
-capable of quantifying the probable efficiency of a proposed synthesis
-or benchmarking the outcome performance of the developed process,
-thereby minimizing the environmental impact of pharmaceutical
-production.~ These strategies have been effectively used to aid the
-decision-making processes for pharmaceutical R\&D.
+time and enabling the quantitative assessment of a new route or process.
+Risk quantification utilizes a Bayesian framework to quantify risk from
+real data and operational patterns, at both the project and portfolio
+level, for assessing the delivery risk of early candidate nomination
+assets in areas such as FTE resource modeling. Process efficiency can be
+estimated with a predictive analytics framework capable of quantifying
+the probable efficiency of a proposed synthesis or benchmarking the
+outcome performance of the developed process, thereby minimizing the
+environmental impact of pharmaceutical production. These strategies have
+been effectively used to aid the decision-making processes for
+pharmaceutical R\&D.
 
 \hypertarget{r4spa-r-packages-and-training-to-enable-statistical-programming-in-r}{%
 \section{\texorpdfstring{\emph{R4SPA: R Packages and Training to enable
@@ -1804,7 +1801,7 @@ cloud}}{R reproducibility by containers and cloud}}\label{r-reproducibility-by-c
 
 R is pretty good in backwards compatibility but still reproducing
 analysis even given script and data can be a challenge as packages, R,
-and math libraries keep evolving.~www.rocker-project.org~offers among
+and math libraries keep evolving. www.rocker-project.org offers among
 other things version-stable R in docker (Rocker) images. A small example
 will be presented how this allows on any docker runtime environment to
 execute analysis with highest reproducibility. Such environments are
@@ -1823,16 +1820,16 @@ Growth}}{The Use of R in the Development of Physiological Model for Healthy Grow
 A physiologically-based mathematical model was developed as a series of
 ordinary differential equations to describe compositional changes (in
 fat and fat-free mass, FM \& FFM) due to metabolizable energy exchanges
-in babies from birth to 2 years in low-to-middle income countries.1 ~The
+in babies from birth to 2 years in low-to-middle income countries.1 The
 objective of this work was to identify potential biomarkers for future
 intervention studies, identify when to intervene to protect and/or
 rescue growth in individuals suffering from malnutrition, and to
 identify which of these individuals would be more or less likely to
 respond to a nutritional intervention.
 
-A translation of this model (155 parameters and 26 compartments) using
-~R and the open-source mrgsolve package2 provided an ~efficient platform
-for ~multi-parameter optimization, as required during additional model
+A translation of this model (155 parameters and 26 compartments) using R
+and the open-source mrgsolve package2 provided an efficient platform for
+multi-parameter optimization, as required during additional model
 development and for subsequent simulations. For comparison, a 8.62
 seconds simulation with viral and bacterial infections (no
 interventions) in the R/mrgsolve implementation required 226 seconds in
@@ -2046,7 +2043,9 @@ A wordcloud based on speaker abstracts
 
 A wordcloud based on speaker presentation titles
 
-\includegraphics{wc_titles.png}
+\includegraphics{wc_titles.png}A wordcloud based on companies present
+
+\includegraphics{wc_comps.png}
 
 \backmatter
 \printindex

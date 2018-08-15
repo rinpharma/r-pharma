@@ -377,6 +377,18 @@ This is the shortened schedule, please go to [the Full Schedule](http://rinpharm
             colors=brewer.pal(8, "Dark2"))
   dev.off()
 
+  png(filename="wc_comps.png",width=600, height=600)
+  temp <- abstracts %>%
+    group_by(affiliation) %>%
+    summarise(
+      n = n()
+    )
+  wordcloud(words = temp$affiliation, freq = temp$n, min.freq = 1,
+            scale=c(2,.2),
+            max.words=200, random.order=FALSE, rot.per=0.35,
+            colors=brewer.pal(8, "Dark2"))
+  dev.off()
+
 
   sink("04_summary.Rmd")
   cat("# Summary plots")
@@ -396,5 +408,8 @@ This is the shortened schedule, please go to [the Full Schedule](http://rinpharm
   cat("A wordcloud based on speaker presentation titles")
   cat("\n\n")
   cat("![](wc_titles.png)")
+  cat("A wordcloud based on companies present")
+  cat("\n\n")
+  cat("![](wc_comps.png)")
 
   sink()

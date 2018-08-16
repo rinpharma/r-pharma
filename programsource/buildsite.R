@@ -27,8 +27,8 @@
   abstracts <- abstracts %>%
     mutate(
       day = case_when(
-        date == "2018/8/15" ~ "Wednesday, 15th August",
-        date == "2018/8/16" ~ "Thursday, 16th August",
+        date == "15.08.18" ~ "Wednesday, 15th August",
+        date == "16.08.18" ~ "Thursday, 16th August",
         TRUE ~ date
       ),
       when = paste0(
@@ -116,10 +116,10 @@
       "Tuesday", 1, 1,label_row_css = "background-color: #666; color: #fff;"
       ) %>%
     kableExtra::group_rows(
-      "Wednesday", 2, 32, label_row_css = "background-color: #666; color: #fff;"
+      "Wednesday", 2, 31, label_row_css = "background-color: #666; color: #fff;"
       ) %>%
     kableExtra::group_rows(
-      "Thursday", 33, 63, label_row_css = "background-color: #666; color: #fff;"
+      "Thursday", 32, 63, label_row_css = "background-color: #666; color: #fff;"
       ) %>%
     cat(sep = "\n")
 

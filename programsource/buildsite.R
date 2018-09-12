@@ -12,6 +12,9 @@
   # schedule
   schedule <- readr::read_csv("import/rpharma2018_schedule.csv")
 
+  # slide links
+  slides <- readr::read_csv("import/rpharma2018_slides.csv")
+
 #### Add order
   abstracts <- abstracts %>%
     left_join(
@@ -72,12 +75,18 @@
         select(speaker_id,title,speakerName),
       by = "speaker_id"
     ) %>%
+    left_join(
+      slides %>%
+        select(speaker, slides),
+      by = "speaker"
+    ) %>%
     mutate(
       info  = case_when(
         type == "Tutorial" ~ paste(talk_desc,"(Workshop)"),
         type %in% c("Keynote","Talk","Lightning Talk") ~ title,
         TRUE ~ type
-      )
+      ),
+      slides = ifelse(is.na(slides), "", slides)
     )
 
 
@@ -132,13 +141,13 @@ This is the shortened schedule, please go to [the Full Schedule](http://rinpharm
 ")
   # day 1
   temp <- schedule_withtalks %>%
-    filter(date == "2018/8/15")
+    filter(date == "15.08.18")
 
-  cat(paste0("| When | What | \n"))
-  cat(paste0("|----|----| \n"))
+  cat(paste0("| When | What | Slides | \n"))
+  cat(paste0("|----|----|----| \n"))
   cat(
     paste0(
-      "* **",temp$time,"** _",temp$info,"_ \n"
+      "| **",temp$time,"** | _",temp$info,"_ | ", temp$slides, " | \n"
     ),
     sep = ""
   )
@@ -153,10 +162,10 @@ This is the shortened schedule, please go to [the Full Schedule](http://rinpharm
 
   # day 2
   temp <- schedule_withtalks %>%
-    filter(date == "2018/8/16")
+    filter(date == "16.08.18")
   cat(
     paste0(
-      "* **",temp$time,"** _",temp$info,"_ \n"
+      "* **",temp$time,"** _",temp$info,"_ ", temp$slides, " \n"
     ),
     sep = ""
   )
@@ -413,3 +422,4 @@ This is the shortened schedule, please go to [the Full Schedule](http://rinpharm
   cat("![](wc_comps.png)")
 
   sink()
+

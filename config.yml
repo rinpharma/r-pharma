@@ -25,9 +25,9 @@ params:
     - speakers
     # call4papers
     - location
-    - hotel
-    - schedule
-    - sponsors
+    #- hotel
+    #- schedule
+    #- sponsors
     #- governance
     - contact
 
@@ -37,7 +37,7 @@ params:
     call4papers: "Call for papers"
     hotel: "Hotel"
     location: "Location"
-    speakers: "Keynotes"
+    speakers: "2018 Keynotes"
     schedule: "Schedule"
     sponsors: "Sponsors"
     governance: "Governance"
@@ -88,7 +88,7 @@ params:
         href: "https://www.fda.gov/AboutFDA/CentersOffices/OfficeofMedicalProductsandTobacco/CDER/ucm428946.htm"
         text: "Bio"
       presentation:
-        title: "Modernizing the new drug regulatory program in FDA/CDER:  Can Collaborations and Sharing Help?"
+        title: "Modernizing the new drug regulatory program in FDA/CDER"
         description: "Lilliam will be presenting a perspective on what the office of computational science is doing to support regulatory review for safety assessments. She will explore the concept of collaborations and sharing to support process and transparency, along with a perspective with the use of R."
         time: "Lilliam Rosario"
 

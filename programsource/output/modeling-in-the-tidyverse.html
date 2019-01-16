@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>R/Pharma 2018</title>
+  <meta name="description" content="Example analyses using propensity scores.">
+  <meta name="generator" content="bookdown 0.7 and GitBook 2.6.7">
+
+  <meta property="og:title" content="R/Pharma 2018" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Example analyses using propensity scores." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="R/Pharma 2018" />
+  
+  <meta name="twitter:description" content="Example analyses using propensity scores." />
+  
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="modernizing-the-new-drug-regulatory-program-in-fdacder-can-collaborations-and-sharing-help.html">
+<link rel="next" href="using-interactivity-responsibly-in-pharma.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; position: absolute; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; }
+pre.numberSource a.sourceLine:empty
+  { position: absolute; }
+pre.numberSource a.sourceLine::before
+  { content: attr(data-line-number);
+    position: absolute; left: -5em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./"><img src="images/smalllogo.png" alt="Roche" align="middle"></a></li>
+
+<li class="divider"></li>
+<li><a href="index.html#section"></a></li>
+<li class="chapter" data-level="" data-path="the-team.html"><a href="the-team.html"><i class="fa fa-check"></i>The team</a></li>
+<li class="chapter" data-level="" data-path="version.html"><a href="version.html"><i class="fa fa-check"></i>Version</a></li>
+<li class="part"><span><b>I Overview</b></span></li>
+<li class="chapter" data-level="1" data-path="schedule.html"><a href="schedule.html"><i class="fa fa-check"></i><b>1</b> Schedule</a><ul>
+<li class="chapter" data-level="1.1" data-path="wednesday.html"><a href="wednesday.html"><i class="fa fa-check"></i><b>1.1</b> Wednesday</a></li>
+<li class="chapter" data-level="1.2" data-path="thursday.html"><a href="thursday.html"><i class="fa fa-check"></i><b>1.2</b> Thursday</a></li>
+</ul></li>
+<li class="part"><span><b>II Talks</b></span></li>
+<li class="chapter" data-level="2" data-path="keynotes.html"><a href="keynotes.html"><i class="fa fa-check"></i><b>2</b> Keynotes</a><ul>
+<li class="chapter" data-level="2.1" data-path="modernizing-the-new-drug-regulatory-program-in-fdacder-can-collaborations-and-sharing-help.html"><a href="modernizing-the-new-drug-regulatory-program-in-fdacder-can-collaborations-and-sharing-help.html"><i class="fa fa-check"></i><b>2.1</b> <em>Modernizing the new drug regulatory program in FDA/CDER: Can Collaborations and Sharing Help?</em></a></li>
+<li class="chapter" data-level="2.2" data-path="modeling-in-the-tidyverse.html"><a href="modeling-in-the-tidyverse.html"><i class="fa fa-check"></i><b>2.2</b> <em>Modeling in the tidyverse</em></a></li>
+<li class="chapter" data-level="2.3" data-path="using-interactivity-responsibly-in-pharma.html"><a href="using-interactivity-responsibly-in-pharma.html"><i class="fa fa-check"></i><b>2.3</b> <em>Using interactivity responsibly in pharma</em></a></li>
+<li class="chapter" data-level="2.4" data-path="enabling-open-source-analytics-in-the-enterprise.html"><a href="enabling-open-source-analytics-in-the-enterprise.html"><i class="fa fa-check"></i><b>2.4</b> <em>Enabling open-source analytics in the enterprise</em></a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="talks-by-author.html"><a href="talks-by-author.html"><i class="fa fa-check"></i><b>3</b> Talks - by author</a><ul>
+<li class="chapter" data-level="3.1" data-path="analyzing-clinical-trials-data-with-r.html"><a href="analyzing-clinical-trials-data-with-r.html"><i class="fa fa-check"></i><b>3.1</b> <em>Analyzing Clinical Trials Data with R</em></a></li>
+<li class="chapter" data-level="3.2" data-path="the-challenges-of-validating-r.html"><a href="the-challenges-of-validating-r.html"><i class="fa fa-check"></i><b>3.2</b> <em>The Challenges of Validating R</em></a></li>
+<li class="chapter" data-level="3.3" data-path="becoming-bilingual-in-sas-and-r.html"><a href="becoming-bilingual-in-sas-and-r.html"><i class="fa fa-check"></i><b>3.3</b> <em>Becoming bilingual in SAS and R</em></a></li>
+<li class="chapter" data-level="3.4" data-path="using-r-in-a-gxp-environment.html"><a href="using-r-in-a-gxp-environment.html"><i class="fa fa-check"></i><b>3.4</b> <em>Using R in a GxP Environment</em></a></li>
+<li class="chapter" data-level="3.5" data-path="interactive-data-visualization-with-r-plotly-and-dashr.html"><a href="interactive-data-visualization-with-r-plotly-and-dashr.html"><i class="fa fa-check"></i><b>3.5</b> <em>Interactive data visualization with R, plotly, and dashR</em></a></li>
+<li class="chapter" data-level="3.6" data-path="idbac-a-new-paradigm-in-developing-microbial-libraries-for-drug-discovery.html"><a href="idbac-a-new-paradigm-in-developing-microbial-libraries-for-drug-discovery.html"><i class="fa fa-check"></i><b>3.6</b> <em>IDBac: A New Paradigm in Developing Microbial Libraries for Drug Discovery</em></a></li>
+<li class="chapter" data-level="3.7" data-path="bayesian-models-for-smaller-trial-sizes.html"><a href="bayesian-models-for-smaller-trial-sizes.html"><i class="fa fa-check"></i><b>3.7</b> <em>Bayesian Models for Smaller Trial Sizes</em></a></li>
+<li class="chapter" data-level="3.8" data-path="moving-fast-without-breaking-things-navigating-the-r-ecosystem-in-an-enterprise-environment.html"><a href="moving-fast-without-breaking-things-navigating-the-r-ecosystem-in-an-enterprise-environment.html"><i class="fa fa-check"></i><b>3.8</b> <em>Moving Fast Without Breaking Things: Navigating the R Ecosystem in an Enterprise Environment</em></a></li>
+<li class="chapter" data-level="3.9" data-path="managing-r-and-associated-tools-in-large-environments-an-r-admins-perspective.html"><a href="managing-r-and-associated-tools-in-large-environments-an-r-admins-perspective.html"><i class="fa fa-check"></i><b>3.9</b> <em>Managing R and Associated Tools in Large Environments - an R-Admin’s Perspective</em></a></li>
+<li class="chapter" data-level="3.10" data-path="the-magic-r-shiny-app-that-can-boost-your-sdtm-usability-and-viability-while-saving-time.html"><a href="the-magic-r-shiny-app-that-can-boost-your-sdtm-usability-and-viability-while-saving-time.html"><i class="fa fa-check"></i><b>3.10</b> <em>The Magic R-Shiny App that can Boost your SDTM Usability and Viability while Saving Time</em></a></li>
+<li class="chapter" data-level="3.11" data-path="developing-powerful-shiny-applications-in-an-enterprise-environment-best-practices-and-lessons-learned.html"><a href="developing-powerful-shiny-applications-in-an-enterprise-environment-best-practices-and-lessons-learned.html"><i class="fa fa-check"></i><b>3.11</b> <em>Developing powerful Shiny applications in an enterprise environment: Best practices and lessons learned</em></a></li>
+<li class="chapter" data-level="3.12" data-path="beyond-simple-reproducibility-discoverability-provenance-and-improving-the-impact-of-results.html"><a href="beyond-simple-reproducibility-discoverability-provenance-and-improving-the-impact-of-results.html"><i class="fa fa-check"></i><b>3.12</b> <em>Beyond Simple Reproducibility - Discoverability, Provenance, and Improving the Impact of Results</em></a></li>
+<li class="chapter" data-level="3.13" data-path="the-role-of-r-in-converting-clinical-trial-programmers-to-data-scientists.html"><a href="the-role-of-r-in-converting-clinical-trial-programmers-to-data-scientists.html"><i class="fa fa-check"></i><b>3.13</b> <em>The role of R in converting clinical trial programmers to data scientists</em></a></li>
+<li class="chapter" data-level="3.14" data-path="enhance-r-overview.html"><a href="enhance-r-overview.html"><i class="fa fa-check"></i><b>3.14</b> <em>Enhance R Overview</em></a></li>
+<li class="chapter" data-level="3.15" data-path="shiny-apps-in-genomics-and-clinical-trials.html"><a href="shiny-apps-in-genomics-and-clinical-trials.html"><i class="fa fa-check"></i><b>3.15</b> <em>Shiny Apps in Genomics and Clinical Trials</em></a></li>
+<li class="chapter" data-level="3.16" data-path="evaluating-the-performance-of-advanced-causal-inference-methods-applied-to-healthcare-claims-data.html"><a href="evaluating-the-performance-of-advanced-causal-inference-methods-applied-to-healthcare-claims-data.html"><i class="fa fa-check"></i><b>3.16</b> <em>Evaluating the performance of advanced causal inference methods applied to healthcare claims data</em></a></li>
+<li class="chapter" data-level="3.17" data-path="assisting-pharmacometric-simulation-with-the-use-of-shiny.html"><a href="assisting-pharmacometric-simulation-with-the-use-of-shiny.html"><i class="fa fa-check"></i><b>3.17</b> <em>Assisting pharmacometric simulation with the use of Shiny</em></a></li>
+<li class="chapter" data-level="3.18" data-path="reproducible-computational-research-at-eisai-leadership-technology-and-culture.html"><a href="reproducible-computational-research-at-eisai-leadership-technology-and-culture.html"><i class="fa fa-check"></i><b>3.18</b> <em>Reproducible computational research at Eisai: leadership, technology, and culture</em></a></li>
+<li class="chapter" data-level="3.19" data-path="multi-state-model-for-the-analysis-of-an-association-between-safety-and-efficacy-events.html"><a href="multi-state-model-for-the-analysis-of-an-association-between-safety-and-efficacy-events.html"><i class="fa fa-check"></i><b>3.19</b> <em>Multi-state Model for the Analysis of an Association between Safety and Efficacy Events</em></a></li>
+<li class="chapter" data-level="3.20" data-path="data-driven-strategies-for-synthetic-route-design-and-operational-modeling-within-pharmaceutical-development.html"><a href="data-driven-strategies-for-synthetic-route-design-and-operational-modeling-within-pharmaceutical-development.html"><i class="fa fa-check"></i><b>3.20</b> <em>Data-Driven Strategies for Synthetic Route Design and Operational Modeling within Pharmaceutical Development</em></a></li>
+<li class="chapter" data-level="3.21" data-path="r4spa-r-packages-and-training-to-enable-statistical-programming-in-r.html"><a href="r4spa-r-packages-and-training-to-enable-statistical-programming-in-r.html"><i class="fa fa-check"></i><b>3.21</b> <em>R4SPA: R Packages and Training to enable Statistical Programming in R</em></a></li>
+<li class="chapter" data-level="3.22" data-path="nettcr-towards-accurate-prediction-of-t-cell-targets-using-deep-learning.html"><a href="nettcr-towards-accurate-prediction-of-t-cell-targets-using-deep-learning.html"><i class="fa fa-check"></i><b>3.22</b> <em>NetTCR: Towards Accurate Prediction of T-cell Targets using Deep Learning</em></a></li>
+<li class="chapter" data-level="3.23" data-path="visualization-methods-for-rna-sequencing-data-analysis.html"><a href="visualization-methods-for-rna-sequencing-data-analysis.html"><i class="fa fa-check"></i><b>3.23</b> <em>Visualization methods for RNA-sequencing data analysis</em></a></li>
+<li class="chapter" data-level="3.24" data-path="r-as-the-core-technology-to-support-modeling-and-simulation-in-pharma-research-development-and-post-approval-activities.html"><a href="r-as-the-core-technology-to-support-modeling-and-simulation-in-pharma-research-development-and-post-approval-activities.html"><i class="fa fa-check"></i><b>3.24</b> <em>R as the Core Technology to Support Modeling and Simulation in Pharma Research, Development, and Post Approval Activities</em></a></li>
+<li class="chapter" data-level="3.25" data-path="keeping-things-peachy-when-shiny-gets-hairy.html"><a href="keeping-things-peachy-when-shiny-gets-hairy.html"><i class="fa fa-check"></i><b>3.25</b> <em>Keeping things Peachy when Shiny gets Hairy</em></a></li>
+<li class="chapter" data-level="3.26" data-path="unification-in-a-compartmentalized-culture.html"><a href="unification-in-a-compartmentalized-culture.html"><i class="fa fa-check"></i><b>3.26</b> <em>Unification in a Compartmentalized Culture</em></a></li>
+<li class="chapter" data-level="3.27" data-path="rshiny-clinical-dashboards-for-fun-and-profit-note-fun-is-relative-.html"><a href="rshiny-clinical-dashboards-for-fun-and-profit-note-fun-is-relative-.html"><i class="fa fa-check"></i><b>3.27</b> _R/Shiny Clinical Dashboards For Fun* and Profit *Note: Fun is Relative_</a></li>
+<li class="chapter" data-level="3.28" data-path="building-a-community-of-competent-developers-and-users-of-r-based-tools-in-mass-spectrometry-based-research.html"><a href="building-a-community-of-competent-developers-and-users-of-r-based-tools-in-mass-spectrometry-based-research.html"><i class="fa fa-check"></i><b>3.28</b> <em>Building a community of competent developers and users of R-based tools in mass spectrometry-based research</em></a></li>
+<li class="chapter" data-level="3.29" data-path="using-r-in-a-regulatory-environment-some-fda-perspectives.html"><a href="using-r-in-a-regulatory-environment-some-fda-perspectives.html"><i class="fa fa-check"></i><b>3.29</b> <em>Using R in a regulatory environment: some FDA perspectives</em></a></li>
+<li class="chapter" data-level="3.30" data-path="reap-r-shiny-exploratory-analysis-platform-in-clinical-pharmacology.html"><a href="reap-r-shiny-exploratory-analysis-platform-in-clinical-pharmacology.html"><i class="fa fa-check"></i><b>3.30</b> <em>REAP - R-Shiny Exploratory Analysis Platform in Clinical Pharmacology</em></a></li>
+<li class="chapter" data-level="3.31" data-path="r-reproducibility-by-containers-and-cloud.html"><a href="r-reproducibility-by-containers-and-cloud.html"><i class="fa fa-check"></i><b>3.31</b> <em>R reproducibility by containers and cloud</em></a></li>
+<li class="chapter" data-level="3.32" data-path="the-use-of-r-in-the-development-of-physiological-model-for-healthy-growth.html"><a href="the-use-of-r-in-the-development-of-physiological-model-for-healthy-growth.html"><i class="fa fa-check"></i><b>3.32</b> <em>The Use of R in the Development of Physiological Model for Healthy Growth</em></a></li>
+<li class="chapter" data-level="3.33" data-path="the-largest-shiny-application-in-the-world-roche-diagnostics-biowarp.html"><a href="the-largest-shiny-application-in-the-world-roche-diagnostics-biowarp.html"><i class="fa fa-check"></i><b>3.33</b> <em>The largest Shiny application in the world. Roche.Diagnostics.bioWARP</em></a></li>
+<li class="chapter" data-level="3.34" data-path="ropensci-enabling-open-and-reproducible-research.html"><a href="ropensci-enabling-open-and-reproducible-research.html"><i class="fa fa-check"></i><b>3.34</b> <em>rOpenSci - enabling open and reproducible research</em></a></li>
+<li class="chapter" data-level="3.35" data-path="optimization-of-raw-materials-genealogy-in-drug-manufacturing-with-r-shiny-and-d3.html"><a href="optimization-of-raw-materials-genealogy-in-drug-manufacturing-with-r-shiny-and-d3.html"><i class="fa fa-check"></i><b>3.35</b> <em>Optimization of raw materials genealogy in drug manufacturing with R, Shiny and d3</em></a></li>
+<li class="chapter" data-level="3.36" data-path="antibody-characterization-using-next-generation-sequencing-made-easier-with-group-my-abs-shiny-app-.html"><a href="antibody-characterization-using-next-generation-sequencing-made-easier-with-group-my-abs-shiny-app-.html"><i class="fa fa-check"></i><b>3.36</b> <em>Antibody Characterization Using Next Generation Sequencing made easier with Group My Abs shiny app.</em></a></li>
+<li class="chapter" data-level="3.37" data-path="the-drake-r-package-reproducible-data-analysis-at-scale.html"><a href="the-drake-r-package-reproducible-data-analysis-at-scale.html"><i class="fa fa-check"></i><b>3.37</b> <em>The drake R package: reproducible data analysis at scale</em></a></li>
+<li class="chapter" data-level="3.38" data-path="shinyrap-a-framework-for-analysis-and-building-interactivedynamic-reports-using-shinymarkdown.html"><a href="shinyrap-a-framework-for-analysis-and-building-interactivedynamic-reports-using-shinymarkdown.html"><i class="fa fa-check"></i><b>3.38</b> <em>ShinyRAP - a framework for analysis and building interactive/dynamic reports using Shiny/Markdown</em></a></li>
+<li class="chapter" data-level="3.39" data-path="accelerate-personalized-health-care-by-empowering-biomarker-data.html"><a href="accelerate-personalized-health-care-by-empowering-biomarker-data.html"><i class="fa fa-check"></i><b>3.39</b> <em>Accelerate Personalized Health Care by Empowering Biomarker Data</em></a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="summary-plots.html"><a href="summary-plots.html"><i class="fa fa-check"></i><b>4</b> Summary plots</a><ul>
+<li class="chapter" data-level="4.1" data-path="attendees.html"><a href="attendees.html"><i class="fa fa-check"></i><b>4.1</b> Attendees</a></li>
+<li class="chapter" data-level="4.2" data-path="wordclouds.html"><a href="wordclouds.html"><i class="fa fa-check"></i><b>4.2</b> Wordclouds</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/RConsortium/r-pharma/pulse/monthly">Source code</a></li>
+<li><a href="https://github.com/RConsortium/r-pharma/issues">Feedback</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">R/Pharma 2018</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="modeling-in-the-tidyverse" class="section level2">
+<h2><span class="header-section-number">2.2</span> <em>Modeling in the tidyverse</em></h2>
+<p><strong>Max Kuhn</strong>, RStudio</p>
+<p><em>Wednesday, 15th August from 14:50 - 15:35</em></p>
+<p>The tidyverse (tidyverse.org) is an opinionated collection of R packages designed for data science. All packages share an underlying design philosophy, grammar, and data structures. The packages primarily consist of tools for data ingest, manipulation, and visualization. In the last year or so, Rstudio and others have been creating a set of packages focused on the modeling process. In this talk, we will introduce the tidyverse and illustrate these new tools whose goals are to: simplify the modeling process, encourage empirical validation and good methodology, and to enable a wider variety of approaches.</p>
+</div>
+<div id="disqus_thread"></div>
+<script>
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = '//rinpharma.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the
+<a href="https://disqus.com/?ref_noscript">
+  comments powered by Disqus.</a></noscript>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="modernizing-the-new-drug-regulatory-program-in-fdacder-can-collaborations-and-sharing-help.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="using-interactivity-responsibly-in-pharma.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": true,
+"linkedin": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": null
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"download": [["rinpharma2018.pdf", "PDF"], ["rinpharma2018.docx", "Word"]],
+"toc": {
+"collapse": "section",
+"scroll_highlight": true
+},
+"search": true
+});
+});
+</script>
+
+</body>
+
+</html>

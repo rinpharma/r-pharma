@@ -1,0 +1,22 @@
+# Summary plots
+
+Following section provides summary information about the conference.
+
+## Attendees
+
+
+![](tree.png)
+
+
+## Wordclouds
+
+
+A wordcloud based on speaker abstracts
+
+![](wc_abstracts.png)
+
+A wordcloud based on speaker presentation titles
+
+![](wc_titles.png)A wordcloud based on companies present
+
+![](wc_comps.png)

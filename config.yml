@@ -23,7 +23,7 @@ params:
   Sections:
     - about
     - speakers
-    # call4papers
+    - call4papers
     - location
     #- hotel
     #- schedule

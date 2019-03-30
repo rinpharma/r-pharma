@@ -37,7 +37,7 @@ params:
     call4papers: "Call for papers"
     hotel: "Hotel"
     location: "Location"
-    speakers: "2018 Keynotes"
+    speakers: "2019 Keynotes"
     schedule: "Schedule"
     sponsors: "Sponsors"
     governance: "Governance"
@@ -69,49 +69,37 @@ params:
   Schedule:
 
     - name: "RStudio"
-      photo: "/img/MaxKuhn.jpeg"
-      bio: "The tidyverse (tidyverse.org) is an opinionated collection of R packages designed for data science. All packages share an underlying design philosophy, grammar, and data structures. The packages primarily consist of tools for data ingest, manipulation, and visualization. In the last year or so, Rstudio and others have been creating a set of packages focused on the modeling process. In this talk, we will introduce the tidyverse and illustrate these new tools whose goals are to: simplify the modeling process, encourage empirical validation and good methodology, and to enable a wider variety of approaches."
+      photo: "/img/GarrettGrolemund.png"
+      bio: "Garrett Grolemund is the co-author of R for Data Science and R Markdown: The Definitive Guide, as well as the author of Hands-On Programming with R. He wrote the lubridate R package and works for RStudio as both an educator and advocate of data science with R."
       company: "RStudio"
       link:
-        href: "https://twitter.com/topepos?lang=en"
-        text: "Twitter"
+        href: "https://github.com/garrettgman"
+        text: "Github"
       presentation:
-        title: "Modeling in the tidyverse"
+        title: "Title TBD"
         description: "The tidyverse (tidyverse.org) is an opinionated collection of R packages designed for data science. All packages share an underlying design philosophy, grammar, and data structures. The packages primarily consist of tools for data ingest, manipulation, and visualization. In the last year or so, Rstudio and others have been creating a set of packages focused on the modeling process. In this talk, we will introduce the tidyverse and illustrate these new tools whose goals are to: simplify the modeling process, encourage empirical validation and good methodology, and to enable a wider variety of approaches."
-        time: "Max Kuhn"
+        time: "Garrett Grolemund"
 
     - name: "FDA"
-      photo: "/img/Lilliam.jpeg"
-      bio: "Lilliam will be presenting a perspective on what the office of computational science is doing to support regulatory review for safety assessments. She will explore the concept of collaborations and sharing to support process and transparency, along with a perspective with the use of R."
+      photo: "/img/PaulSchuette.png"
+      bio: "Scientific Computing Coordinator for the Office of Biostatistics. Paul serves as subject matter expert for Scientific and Statistical Computing, manages scientific workstations, acquisition and deployment of software, and with additional projects dealing with statistical methodology appropriate for pregnancy registries and clinical trials."
       company: "FDA"
       link:
-        href: "https://www.fda.gov/AboutFDA/CentersOffices/OfficeofMedicalProductsandTobacco/CDER/ucm428946.htm"
-        text: "Bio"
+        href: "https://blog.revolutionanalytics.com/2017/06/r-fda.html"
+        text: "Blog on R use at the FDA"
       presentation:
-        title: "Modernizing the new drug regulatory program in FDA/CDER"
+        title: "Title TBD"
         description: "Lilliam will be presenting a perspective on what the office of computational science is doing to support regulatory review for safety assessments. She will explore the concept of collaborations and sharing to support process and transparency, along with a perspective with the use of R."
-        time: "Lilliam Rosario"
+        time: "Paul Schuette"
 
-    - name: "Roche/Genentech"
-      photo: "/img/michael.jpeg"
-      bio: "The open-source analytics community is driving innovation in precompetitive spaces like statistical methodology, reproducibility approaches, visualization techniques, and scaling strategies. The diverse and rapidly evolving ecosystem of open-source tools and standards stands in contrast with the disposition of the enterprise towards stability, standardization, and reliability. This talk will present the policies and frameworks we have developed at Genentech to enable internal scientists to responsibly leverage open-source tools and to participate in the community process through their own contributions."
-      company: "Roche/Genentech"
+    - name: "Technical University of Denmark"
+      photo: "/img/LeonJessen.png"
+      bio: "Leon is an Assistant Professor in the Immunoinformatics and Machine Learning Group (Morten Nielsen Lab) at the Section for Bioinformatics at Technical University of Denmark. I apply advanced machine learning methods to model molecular interactions in the human immune system."
+      company: "Technical University of Denmark"
       link:
-        href: "https://twitter.com/lawremi?lang=en"
-        text: "Twitter"
+        href: "https://github.com/leonjessen"
+        text: "Github"
       presentation:
-        title: "Enabling open-source analytics in the enterprise"
+        title: "Title TBD"
         description: "The open-source analytics community is driving innovation in precompetitive spaces like statistical methodology, reproducibility approaches, visualization techniques, and scaling strategies. The diverse and rapidly evolving ecosystem of open-source tools and standards stands in contrast with the disposition of the enterprise towards stability, standardization, and reliability. This talk will present the policies and frameworks we have developed at Genentech to enable internal scientists to responsibly leverage open-source tools and to participate in the community process through their own contributions."
         time: "Michael Lawrence"
-
-    - name: "RStudio"
-      photo: "/img/joecheng.jpeg"
-      bio: "Shiny is a package for turning analyses written in R into interactive web applications. This capability has obvious applications in pharma, as it lets R users build interactive apps for their collaborators to explore models or results, or to automate workflows. However, the interactivity of Shiny apps is a double-edged sword, as it introduces challenges to the traceability and reproducibility of your analysis. To use interactive applications in pharma responsibly, these challenges must be addressed. In this talk, I'll look at some of the tools and techniques you can use in Shiny to deal with these challenges head-on."
-      company: "RStudio"
-      link:
-        href: "https://twitter.com/jcheng?lang=en"
-        text: "Twitter"
-      presentation:
-        title: "Using interactivity responsibly in pharma"
-        description: "Shiny is a package for turning analyses written in R into interactive web applications. This capability has obvious applications in pharma, as it lets biostatisticians build interactive apps for their collaborators to explore models or results, or to automate workflows. However, the interactivity of Shiny apps is a double-edged sword, as it introduces challenges to the traceability, reproducibility, and integrity of your analysis. To use interactive applications in pharma responsibly, these challenges must be addressed. In this talk, I'll look at some of the tools and techniques you can use in Shiny to deal with these challenges head-on."
-        time: "Joe Cheng"

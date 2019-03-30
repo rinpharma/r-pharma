@@ -26,7 +26,7 @@ params:
     - call4papers
     - location
     #- hotel
-    #- schedule
+    - programs
     #- sponsors
     #- governance
     - contact
@@ -40,6 +40,7 @@ params:
     speakers: "2019 Keynotes"
     schedule: "Schedule"
     sponsors: "Sponsors"
+    programs: "Prior programs"
     governance: "Governance"
     contact: "Contact"
 
@@ -52,6 +53,12 @@ params:
   # Fork me on GitHub, if you don't want this, just remove the forkButton property
   #ForkButton:
   #  repository: "https://github.com/jweslley/hugo-conference/"
+
+  # List of Programs
+  Programs:
+    - name: "2018 program"
+      logo: "/img/2018programshot.jpeg"
+      url: "http://rinpharma.com/program/"
 
   # List of Sponsors
   Sponsors:

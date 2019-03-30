@@ -22,11 +22,13 @@ params:
   # you can also change order here and it will reflect on page
   Sections:
     - about
-    - speakers
+    - keynotes
+    - workshops
     - call4papers
     - location
     #- hotel
     - programs
+    - grants
     #- sponsors
     #- governance
     - contact
@@ -37,10 +39,12 @@ params:
     call4papers: "Call for papers"
     hotel: "Hotel"
     location: "Location"
-    speakers: "2019 Keynotes"
+    keynotes: "Keynotes"
+    workshops: "Workshops"
     schedule: "Schedule"
     sponsors: "Sponsors"
-    programs: "Prior programs"
+    grants: "Scholars"
+    programs: "Programs"
     governance: "Governance"
     contact: "Contact"
 
@@ -72,41 +76,71 @@ params:
       logo: "/img/r_consortium.jpg"
       url: "https://www.r-consortium.org/"
 
-  # The entire schedule
-  Schedule:
+  # The keynotes
+  Keynotes:
 
-    - name: "RStudio"
+    - name: "Garrett Grolemund"
+      affaliation: "RStudio"
       photo: "/img/GarrettGrolemund.png"
       bio: "Garrett Grolemund is the co-author of R for Data Science and R Markdown: The Definitive Guide, as well as the author of Hands-On Programming with R. He wrote the lubridate R package and works for RStudio as both an educator and advocate of data science with R."
-      company: "RStudio"
+      title: "Title TBD"
       link:
         href: "https://github.com/garrettgman"
         text: "Github"
-      presentation:
-        title: "Title TBD"
-        description: "The tidyverse (tidyverse.org) is an opinionated collection of R packages designed for data science. All packages share an underlying design philosophy, grammar, and data structures. The packages primarily consist of tools for data ingest, manipulation, and visualization. In the last year or so, Rstudio and others have been creating a set of packages focused on the modeling process. In this talk, we will introduce the tidyverse and illustrate these new tools whose goals are to: simplify the modeling process, encourage empirical validation and good methodology, and to enable a wider variety of approaches."
-        time: "Garrett Grolemund"
 
-    - name: "FDA"
+    - name: "Paul Schuette"
+      affaliation: "FDA"
       photo: "/img/PaulSchuette.png"
       bio: "Scientific Computing Coordinator for the Office of Biostatistics. Paul serves as subject matter expert for Scientific and Statistical Computing, manages scientific workstations, acquisition and deployment of software, and with additional projects dealing with statistical methodology appropriate for pregnancy registries and clinical trials."
-      company: "FDA"
+      title: "Title TBD"
       link:
         href: "https://blog.revolutionanalytics.com/2017/06/r-fda.html"
         text: "Blog on R use at the FDA"
-      presentation:
-        title: "Title TBD"
-        description: "Lilliam will be presenting a perspective on what the office of computational science is doing to support regulatory review for safety assessments. She will explore the concept of collaborations and sharing to support process and transparency, along with a perspective with the use of R."
-        time: "Paul Schuette"
 
-    - name: "Technical University of Denmark"
+    - name: "Leon Jessen"
+      affaliation: "Technical University of Denmark"
       photo: "/img/LeonJessen.png"
       bio: "Leon is an Assistant Professor in the Immunoinformatics and Machine Learning Group (Morten Nielsen Lab) at the Section for Bioinformatics at Technical University of Denmark. I apply advanced machine learning methods to model molecular interactions in the human immune system."
-      company: "Technical University of Denmark"
+      title: "Title TBD"
       link:
         href: "https://github.com/leonjessen"
         text: "Github"
-      presentation:
-        title: "Title TBD"
-        description: "The open-source analytics community is driving innovation in precompetitive spaces like statistical methodology, reproducibility approaches, visualization techniques, and scaling strategies. The diverse and rapidly evolving ecosystem of open-source tools and standards stands in contrast with the disposition of the enterprise towards stability, standardization, and reliability. This talk will present the policies and frameworks we have developed at Genentech to enable internal scientists to responsibly leverage open-source tools and to participate in the community process through their own contributions."
-        time: "Michael Lawrence"
+
+  # The workshops
+  Workshops:
+
+    - name: "Joe"
+      affaliation: "RStudio"
+      photo: "/img/GarrettGrolemund.png"
+      bio: "Garrett Grolemund is the co-author of R for Data Science and R Markdown: The Definitive Guide, as well as the author of Hands-On Programming with R. He wrote the lubridate R package and works for RStudio as both an educator and advocate of data science with R."
+      title: "Title TBD"
+      link:
+        href: "https://github.com/garrettgman"
+        text: "Github"
+
+    - name: "Leon"
+      affaliation: "FDA"
+      photo: "/img/PaulSchuette.png"
+      bio: "Scientific Computing Coordinator for the Office of Biostatistics. Paul serves as subject matter expert for Scientific and Statistical Computing, manages scientific workstations, acquisition and deployment of software, and with additional projects dealing with statistical methodology appropriate for pregnancy registries and clinical trials."
+      title: "Title TBD"
+      link:
+        href: "https://blog.revolutionanalytics.com/2017/06/r-fda.html"
+        text: "Blog on R use at the FDA"
+
+    - name: "Andy"
+      affaliation: "Technical University of Denmark"
+      photo: "/img/LeonJessen.png"
+      bio: "Leon is an Assistant Professor in the Immunoinformatics and Machine Learning Group (Morten Nielsen Lab) at the Section for Bioinformatics at Technical University of Denmark. I apply advanced machine learning methods to model molecular interactions in the human immune system."
+      title: "Title TBD"
+      link:
+        href: "https://github.com/leonjessen"
+        text: "Github"
+
+    - name: "Max"
+      affaliation: "Technical University of Denmark"
+      photo: "/img/LeonJessen.png"
+      bio: "Leon is an Assistant Professor in the Immunoinformatics and Machine Learning Group (Morten Nielsen Lab) at the Section for Bioinformatics at Technical University of Denmark. I apply advanced machine learning methods to model molecular interactions in the human immune system."
+      title: "Title TBD"
+      link:
+        href: "https://github.com/leonjessen"
+        text: "Github"

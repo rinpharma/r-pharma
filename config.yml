@@ -1,0 +1,173 @@
+baseurl: "http://rinpharma.com"
+title: "R/Pharma"
+canonifyurls: true
+theme: "hugo-conference"
+publishDir: "docs"
+
+GoogleAnalytics: "UA-109863434-1"
+
+params:
+  # Conference info
+  Name: "R / Pharma"
+  Description: "Using R to bring medicines to patients"
+  Date: "August 21, 22, and 23, 2019"
+  #Price: "Registration closes April 1st" # If your event is free, just comment this line
+  Venue: "Harvard University"
+  Address: "Harvard University, CGIS South, Cambridge Street, Cambridge, MA, USA"
+  City:  "Cambridge"
+  State: "MA"
+  Images: ["/img/badge.jpg"]
+
+  # Active sections on the website to deactivate comment out with '#'
+  # you can also change order here and it will reflect on page
+  Sections:
+    - about
+    - keynotes
+    - workshops
+    - call4papers
+    - location
+    #- hotel
+    - programs
+    - grants
+    #- sponsors
+    #- governance
+    - contact
+
+  # Titles which you can translate to other languages
+  Titles:
+    about: "About"
+    call4papers: "Call for papers"
+    hotel: "Hotel"
+    location: "Location"
+    keynotes: "Keynotes"
+    workshops: "Workshops"
+    schedule: "Schedule"
+    sponsors: "Sponsors"
+    grants: "Scholars"
+    programs: "Programs"
+    governance: "Governance"
+    contact: "Contact"
+
+  # The Call To Action button at the header,
+  # If you don't want this, just remove the callToAction property.
+  #CallToAction:
+  #  text: "Click here to register now!"
+  #  link: "http://register.example.com"
+
+  # Fork me on GitHub, if you don't want this, just remove the forkButton property
+  #ForkButton:
+  #  repository: "https://github.com/jweslley/hugo-conference/"
+
+  # List of Programs
+  Programs:
+    - name: "2018 program"
+      logo: "/img/2018programshot.jpeg"
+      url: "http://rinpharma.com/program/"
+
+  # List of Sponsors
+  Sponsors:
+    - name: "R-Consortium"
+      logo: "/img/r_consortium.jpg"
+      url: "https://www.r-consortium.org/"
+
+  # List of Partners
+  Governance:
+    - name: "Also the R-Consortium"
+      logo: "/img/r_consortium.jpg"
+      url: "https://www.r-consortium.org/"
+
+  # The keynotes
+  Keynotes:
+
+    - name: "Garrett Grolemund"
+      affaliation: "RStudio"
+      photo: "/img/GarrettGrolemund.png"
+      bio: "Garrett Grolemund is the co-author of R for Data Science and R Markdown: The Definitive Guide, as well as the author of Hands-On Programming with R. He wrote the lubridate R package and works for RStudio as both an educator and advocate of data science with R."
+      title: "Reproducibility and the role of code in reproducible data science"
+      link:
+        href: "https://github.com/garrettgman"
+        text: "Github"
+
+    - name: "Paul Schuette"
+      affaliation: "FDA"
+      photo: "/img/PaulSchuette.png"
+      bio: "Scientific Computing Coordinator for the Office of Biostatistics. Paul serves as subject matter expert for Scientific and Statistical Computing, manages scientific workstations, acquisition and deployment of software, and with additional projects dealing with statistical methodology appropriate for pregnancy registries and clinical trials."
+      title: "Simulations, and Complex Innovative Trial Designs"
+      link:
+        href: "https://blog.revolutionanalytics.com/2017/06/r-fda.html"
+        text: "Blog on R use at the FDA"
+
+    - name: "Marianna Foos"
+      affaliation: "Biogen"
+      photo: "/img/MariannaFoos.jpg"
+      bio: "Scientific developer specializing in removing roadblocks to data access, with diverse experience independently moving projects forward with a focus on implementation details. Enthusiastic about empowering downstream analysis consumers with training, support and documentation."
+      title: "Title TBD"
+      link:
+        href: "https://mfoos.github.io/blog/author/marianna-foos.html"
+        text: "Blog"
+
+    - name: "Aedin Culhane"
+      affaliation: "Harvard"
+      photo: "/img/AedinCulhane.jpg"
+      bio: " Computational Biologist at Dana-Farber Cancer Institue, Harvard School of Public Health. Her lab maintains ~6 Bioconductor packages."
+      title: "Title TBD"
+      link:
+        href: "https://www.hsph.harvard.edu/aedin-culhane/"
+        text: "Lab website"
+
+  # The workshops
+  Workshops:
+
+    - name: "Joe Cheng"
+      affaliation: "RStudio"
+      photo: "/img/joecheng.jpeg"
+      bio: "Joe is the Chief Technology Officer and Shiny team leader at RStudio."
+      title: "Shiny Reproducibility"
+      link:
+        href: "https://github.com/jcheng5"
+        text: "Github"
+
+    - name: "Max Kuhn"
+      affaliation: "RStudio"
+      photo: "/img/MaxKuhn.jpeg"
+      bio: "Max is a Software Engineer at RStudio. He is the author or maintainer of several R packages for predictive modeling including caret, AppliedPredictiveModeling, Cubist, C50 and SparseLDA. He routinely teaches classes in predictive modeling at Predictive Analytics World and UseR! and his publications include work on neuroscience biomarkers, drug discovery, molecular diagnostics and response surface methodology."
+      title: "Machine Learning"
+      link:
+        href: "https://github.com/jcheng5"
+        text: "Github"
+
+    - name: "Carson Sievert"
+      affaliation: "Sievert Consulting LLC"
+      photo: "/img/CarsonSievert.jpg"
+      bio: "Carson is a freelance data scientist, well known as the maintainer of the plotly R package on CRAN."
+      title: "Plotly"
+      link:
+        href: "https://cpsievert.me/"
+        text: "Website"
+
+    - name: "Leon Eyrich Jessen"
+      affaliation: "Technical University of Denmark"
+      photo: "/img/LeonJessen.png"
+      bio: "Leon is an Assistant Professor in the Immunoinformatics and Machine Learning Group (Morten Nielsen Lab) at the Section for Bioinformatics at Technical University of Denmark. I apply advanced machine learning methods to model molecular interactions in the human immune system."
+      title: "Artificial neural networks in R with Keras and TensorFlow"
+      link:
+        href: "https://github.com/leonjessen"
+        text: "Github"
+
+    - name: "Andy Nicholls"
+      affaliation: "GSK"
+      photo: "/img/AndyNicholls.jpg"
+      bio: "The R-Consortium in June 2018 awarded funding to create an online repository for R package validation in accordance with regulatory standards. Since the main hurdle for widespread use of R in late phase trials is ensuring adequate validation documentation, we are now focused on designing a framework which will specify a set of requirements, including metadata and examples of tests, which together would form evidence of the quality of an R package."
+      title: " R Validation Hub (past, current and future state)"
+      link:
+        href: "https://www.pharmar.org/"
+        text: "R validation hub website"
+
+    - name: "Will Landau"
+      affaliation: "Eli Lilly"
+      photo: "/img/WillLandau.jpg"
+      bio: "Data analysis can be slow. A round of scientific computation can take several minutes, hours, or even days to complete. After it finishes, if you update your code or data, your hard-earned results may no longer be valid. How much of that valuable output can you keep, and how much do you need to update? How much runtime must you endure all over again?"
+      title: "Pipeline toolkit for reproducibility and high-performance computing"
+      link:
+        href: "https://github.com/ropensci/drake"
+        text: "Drake website"

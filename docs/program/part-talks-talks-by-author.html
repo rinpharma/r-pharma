@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>R/Pharma 2018</title>
+  <meta name="description" content="Example analyses using propensity scores.">
+  <meta name="generator" content="bookdown 0.7 and GitBook 2.6.7">
+
+  <meta property="og:title" content="R/Pharma 2018" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Example analyses using propensity scores." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="R/Pharma 2018" />
+  
+  <meta name="twitter:description" content="Example analyses using propensity scores." />
+  
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="keynotes.html">
+<link rel="next" href="talks-chronological.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; position: absolute; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; }
+pre.numberSource a.sourceLine:empty
+  { position: absolute; }
+pre.numberSource a.sourceLine::before
+  { content: attr(data-line-number);
+    position: absolute; left: -5em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./"><img src="images/smalllogo.png" alt="Roche" align="middle"></a></li>
+
+<li class="divider"></li>
+<li><a href="index.html#section"></a></li>
+<li class="chapter" data-level="" data-path="the-team.html"><a href="the-team.html"><i class="fa fa-check"></i>The team</a></li>
+<li class="chapter" data-level="" data-path="version.html"><a href="version.html"><i class="fa fa-check"></i>Version</a></li>
+<li class="part"><span><b>I Overview</b></span></li>
+<li class="chapter" data-level="1" data-path="schedule.html"><a href="schedule.html"><i class="fa fa-check"></i><b>1</b> Schedule</a><ul>
+<li class="chapter" data-level="1.1" data-path="schedule.html"><a href="schedule.html#wednesday"><i class="fa fa-check"></i><b>1.1</b> Wednesday</a></li>
+<li class="chapter" data-level="1.2" data-path="schedule.html"><a href="schedule.html#thursday"><i class="fa fa-check"></i><b>1.2</b> Thursday</a></li>
+</ul></li>
+<li class="part"><span><b>II Overview</b></span></li>
+<li class="chapter" data-level="2" data-path="keynotes.html"><a href="keynotes.html"><i class="fa fa-check"></i><b>2</b> Keynotes</a><ul>
+<li class="chapter" data-level="2.1" data-path="keynotes.html"><a href="keynotes.html#modernizing-the-new-drug-regulatory-program-in-fdacder-can-collaborations-and-sharing-help"><i class="fa fa-check"></i><b>2.1</b> <em>Modernizing the new drug regulatory program in FDA/CDER:  Can Collaborations and Sharing Help?</em></a></li>
+<li class="chapter" data-level="2.2" data-path="keynotes.html"><a href="keynotes.html#modeling-in-the-tidyverse"><i class="fa fa-check"></i><b>2.2</b> <em>Modeling in the tidyverse</em></a></li>
+<li class="chapter" data-level="2.3" data-path="keynotes.html"><a href="keynotes.html#using-interactivity-responsibly-in-pharma"><i class="fa fa-check"></i><b>2.3</b> <em>Using interactivity responsibly in pharma</em></a></li>
+<li class="chapter" data-level="2.4" data-path="keynotes.html"><a href="keynotes.html#enabling-open-source-analytics-in-the-enterprise"><i class="fa fa-check"></i><b>2.4</b> <em>Enabling open-source analytics in the enterprise</em></a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="part-talks-talks-by-author.html"><a href="part-talks-talks-by-author.html"><i class="fa fa-check"></i><b>3</b> (PART) Talks {-}# Talks - by author</a><ul>
+<li class="chapter" data-level="3.1" data-path="part-talks-talks-by-author.html"><a href="part-talks-talks-by-author.html#analyzing-clinical-trials-data-with-r"><i class="fa fa-check"></i><b>3.1</b> <em>Analyzing Clinical Trials Data with R</em></a></li>
+<li class="chapter" data-level="3.2" data-path="part-talks-talks-by-author.html"><a href="part-talks-talks-by-author.html#the-challenges-of-validating-r"><i class="fa fa-check"></i><b>3.2</b> <em>The Challenges of Validating R</em></a></li>
+<li class="chapter" data-level="3.3" data-path="part-talks-talks-by-author.html"><a href="part-talks-talks-by-author.html#becoming-bilingual-in-sas-and-r"><i class="fa fa-check"></i><b>3.3</b> <em>Becoming bilingual in SAS and R</em></a></li>
+<li class="chapter" data-level="3.4" data-path="part-talks-talks-by-author.html"><a href="part-talks-talks-by-author.html#using-r-in-a-gxp-environment"><i class="fa fa-check"></i><b>3.4</b> <em>Using R in a GxP Environment</em></a></li>
+<li class="chapter" data-level="3.5" data-path="part-talks-talks-by-author.html"><a href="part-talks-talks-by-author.html#interactive-data-visualization-with-r-plotly-and-dashr"><i class="fa fa-check"></i><b>3.5</b> <em>Interactive data visualization with R, plotly, and dashR</em></a></li>
+<li class="chapter" data-level="3.6" data-path="part-talks-talks-by-author.html"><a href="part-talks-talks-by-author.html#idbac-a-new-paradigm-in-developing-microbial-libraries-for-drug-discovery"><i class="fa fa-check"></i><b>3.6</b> <em>IDBac: A New Paradigm in Developing Microbial Libraries for Drug Discovery</em></a></li>
+<li class="chapter" data-level="3.7" data-path="part-talks-talks-by-author.html"><a href="part-talks-talks-by-author.html#bayesian-models-for-smaller-trial-sizes"><i class="fa fa-check"></i><b>3.7</b> <em>Bayesian Models for Smaller Trial Sizes</em></a></li>
+<li class="chapter" data-level="3.8" data-path="part-talks-talks-by-author.html"><a href="part-talks-talks-by-author.html#moving-fast-without-breaking-things-navigating-the-r-ecosystem-in-an-enterprise-environment"><i class="fa fa-check"></i><b>3.8</b> <em>Moving Fast Without Breaking Things: Navigating the R Ecosystem in an Enterprise Environment</em></a></li>
+<li class="chapter" data-level="3.9" data-path="part-talks-talks-by-author.html"><a href="part-talks-talks-by-author.html#managing-r-and-associated-tools-in-large-environments---an-r-admins-perspective"><i class="fa fa-check"></i><b>3.9</b> <em>Managing R and Associated Tools in Large Environments - an R-Admin’s Perspective</em></a></li>
+<li class="chapter" data-level="3.10" data-path="part-talks-talks-by-author.html"><a href="part-talks-talks-by-author.html#the-magic-r-shiny-app-that-can-boost-your-sdtm-usability-and-viability-while-saving-time"><i class="fa fa-check"></i><b>3.10</b> <em>The Magic R-Shiny App that can Boost your SDTM Usability and Viability while Saving Time</em></a></li>
+<li class="chapter" data-level="3.11" data-path="part-talks-talks-by-author.html"><a href="part-talks-talks-by-author.html#developing-powerful-shiny-applications-in-an-enterprise-environment-best-practices-and-lessons-learned"><i class="fa fa-check"></i><b>3.11</b> <em>Developing powerful Shiny applications in an enterprise environment: Best practices and lessons learned</em></a></li>
+<li class="chapter" data-level="3.12" data-path="part-talks-talks-by-author.html"><a href="part-talks-talks-by-author.html#beyond-simple-reproducibility---discoverability-provenance-and-improving-the-impact-of-results"><i class="fa fa-check"></i><b>3.12</b> <em>Beyond Simple Reproducibility - Discoverability, Provenance, and Improving the Impact of Results</em></a></li>
+<li class="chapter" data-level="3.13" data-path="part-talks-talks-by-author.html"><a href="part-talks-talks-by-author.html#the-role-of-r-in-converting-clinical-trial-programmers-to-data-scientists"><i class="fa fa-check"></i><b>3.13</b> <em>The role of R in converting clinical trial programmers to data scientists</em></a></li>
+<li class="chapter" data-level="3.14" data-path="part-talks-talks-by-author.html"><a href="part-talks-talks-by-author.html#enhance-r-overview"><i class="fa fa-check"></i><b>3.14</b> <em>Enhance R Overview</em></a></li>
+<li class="chapter" data-level="3.15" data-path="part-talks-talks-by-author.html"><a href="part-talks-talks-by-author.html#shiny-apps-in-genomics-and-clinical-trials"><i class="fa fa-check"></i><b>3.15</b> <em>Shiny Apps in Genomics and Clinical Trials</em></a></li>
+<li class="chapter" data-level="3.16" data-path="part-talks-talks-by-author.html"><a href="part-talks-talks-by-author.html#evaluating-the-performance-of-advanced-causal-inference-methods-applied-to-healthcare-claims-data"><i class="fa fa-check"></i><b>3.16</b> <em>Evaluating the performance of advanced causal inference methods applied to healthcare claims data</em></a></li>
+<li class="chapter" data-level="3.17" data-path="part-talks-talks-by-author.html"><a href="part-talks-talks-by-author.html#assisting-clinical-trial-simulation-with-the-use-of-shiny"><i class="fa fa-check"></i><b>3.17</b> <em>Assisting clinical trial simulation with the use of Shiny</em></a></li>
+<li class="chapter" data-level="3.18" data-path="part-talks-talks-by-author.html"><a href="part-talks-talks-by-author.html#reproducible-computational-research-at-eisai-leadership-technology-and-culture"><i class="fa fa-check"></i><b>3.18</b> <em>Reproducible computational research at Eisai: leadership, technology, and culture</em></a></li>
+<li class="chapter" data-level="3.19" data-path="part-talks-talks-by-author.html"><a href="part-talks-talks-by-author.html#multi-state-model-for-the-analysis-of-an-association-between-safety-and-efficacy-events"><i class="fa fa-check"></i><b>3.19</b> <em>Multi-state Model for the Analysis of an Association between Safety and Efficacy Events</em></a></li>
+<li class="chapter" data-level="3.20" data-path="part-talks-talks-by-author.html"><a href="part-talks-talks-by-author.html#data-driven-strategies-for-synthetic-route-design-and-operational-modeling-within-pharmaceutical-development"><i class="fa fa-check"></i><b>3.20</b> <em>Data-Driven Strategies for Synthetic Route Design and Operational Modeling within Pharmaceutical Development</em></a></li>
+<li class="chapter" data-level="3.21" data-path="part-talks-talks-by-author.html"><a href="part-talks-talks-by-author.html#r4spa-r-packages-and-training-to-enable-statistical-programming-in-r"><i class="fa fa-check"></i><b>3.21</b> <em>R4SPA: R Packages and Training to enable Statistical Programming in R</em></a></li>
+<li class="chapter" data-level="3.22" data-path="part-talks-talks-by-author.html"><a href="part-talks-talks-by-author.html#nettcr-towards-accurate-prediction-of-t-cell-targets-using-deep-learning"><i class="fa fa-check"></i><b>3.22</b> <em>NetTCR: Towards Accurate Prediction of T-cell Targets using Deep Learning</em></a></li>
+<li class="chapter" data-level="3.23" data-path="part-talks-talks-by-author.html"><a href="part-talks-talks-by-author.html#visualization-methods-for-rna-sequencing-data-analysis"><i class="fa fa-check"></i><b>3.23</b> <em>Visualization methods for RNA-sequencing data analysis</em></a></li>
+<li class="chapter" data-level="3.24" data-path="part-talks-talks-by-author.html"><a href="part-talks-talks-by-author.html#r-as-the-core-technology-to-support-modeling-and-simulation-in-pharma-research-development-and-post-approval-activities"><i class="fa fa-check"></i><b>3.24</b> <em>R as the Core Technology to Support Modeling and Simulation in Pharma Research, Development, and Post Approval Activities</em></a></li>
+<li class="chapter" data-level="3.25" data-path="part-talks-talks-by-author.html"><a href="part-talks-talks-by-author.html#keeping-things-peachy-when-shiny-gets-hairy"><i class="fa fa-check"></i><b>3.25</b> <em>Keeping things Peachy when Shiny gets Hairy</em></a></li>
+<li class="chapter" data-level="3.26" data-path="part-talks-talks-by-author.html"><a href="part-talks-talks-by-author.html#unification-in-a-compartmentalized-culture"><i class="fa fa-check"></i><b>3.26</b> <em>Unification in a Compartmentalized Culture</em></a></li>
+<li class="chapter" data-level="3.27" data-path="part-talks-talks-by-author.html"><a href="part-talks-talks-by-author.html#rshiny-clinical-dashboards-for-fun-and-profit-note-fun-is-relative_"><i class="fa fa-check"></i><b>3.27</b> _R/Shiny Clinical Dashboards For Fun* and Profit *Note: Fun is Relative_</a></li>
+<li class="chapter" data-level="3.28" data-path="part-talks-talks-by-author.html"><a href="part-talks-talks-by-author.html#building-a-community-of-competent-developers-and-users-of-r-based-tools-in-mass-spectrometry-based-research"><i class="fa fa-check"></i><b>3.28</b> <em>Building a community of competent developers and users of R-based tools in mass spectrometry-based research</em></a></li>
+<li class="chapter" data-level="3.29" data-path="part-talks-talks-by-author.html"><a href="part-talks-talks-by-author.html#using-r-in-a-regulatory-environment-some-fda-perspectives"><i class="fa fa-check"></i><b>3.29</b> <em>Using R in a regulatory environment: some FDA perspectives</em></a></li>
+<li class="chapter" data-level="3.30" data-path="part-talks-talks-by-author.html"><a href="part-talks-talks-by-author.html#reap---r-shiny-exploratory-analysis-platform-in-clinical-pharmacology"><i class="fa fa-check"></i><b>3.30</b> <em>REAP - R-Shiny Exploratory Analysis Platform in Clinical Pharmacology</em></a></li>
+<li class="chapter" data-level="3.31" data-path="part-talks-talks-by-author.html"><a href="part-talks-talks-by-author.html#r-reproducibility-by-containers-and-cloud"><i class="fa fa-check"></i><b>3.31</b> <em>R reproducibility by containers and cloud</em></a></li>
+<li class="chapter" data-level="3.32" data-path="part-talks-talks-by-author.html"><a href="part-talks-talks-by-author.html#the-use-of-r-in-the-development-of-physiological-model-for-healthy-growth"><i class="fa fa-check"></i><b>3.32</b> <em>The Use of R in the Development of Physiological Model for Healthy Growth</em></a></li>
+<li class="chapter" data-level="3.33" data-path="part-talks-talks-by-author.html"><a href="part-talks-talks-by-author.html#the-largest-shiny-application-in-the-world.-roche.diagnostics.biowarp"><i class="fa fa-check"></i><b>3.33</b> <em>The largest Shiny application in the world. Roche.Diagnostics.bioWARP</em></a></li>
+<li class="chapter" data-level="3.34" data-path="part-talks-talks-by-author.html"><a href="part-talks-talks-by-author.html#ropensci---enabling-open-and-reproducible-research"><i class="fa fa-check"></i><b>3.34</b> <em>rOpenSci - enabling open and reproducible research</em></a></li>
+<li class="chapter" data-level="3.35" data-path="part-talks-talks-by-author.html"><a href="part-talks-talks-by-author.html#optimization-of-raw-materials-genealogy-in-drug-manufacturing-with-r-shiny-and-d3"><i class="fa fa-check"></i><b>3.35</b> <em>Optimization of raw materials genealogy in drug manufacturing with R, Shiny and d3</em></a></li>
+<li class="chapter" data-level="3.36" data-path="part-talks-talks-by-author.html"><a href="part-talks-talks-by-author.html#antibody-characterization-using-next-generation-sequencing-made-easier-with-group-my-abs-shiny-app."><i class="fa fa-check"></i><b>3.36</b> <em>Antibody Characterization Using Next Generation Sequencing made easier with Group My Abs shiny app.</em></a></li>
+<li class="chapter" data-level="3.37" data-path="part-talks-talks-by-author.html"><a href="part-talks-talks-by-author.html#the-drake-r-package-reproducible-data-analysis-at-scale"><i class="fa fa-check"></i><b>3.37</b> <em>The drake R package: reproducible data analysis at scale</em></a></li>
+<li class="chapter" data-level="3.38" data-path="part-talks-talks-by-author.html"><a href="part-talks-talks-by-author.html#shinyrap---a-framework-for-analysis-and-building-interactivedynamic-reports-using-shinymarkdown"><i class="fa fa-check"></i><b>3.38</b> <em>ShinyRAP - a framework for analysis and building interactive/dynamic reports using Shiny/Markdown</em></a></li>
+<li class="chapter" data-level="3.39" data-path="part-talks-talks-by-author.html"><a href="part-talks-talks-by-author.html#accelerate-personalized-health-care-by-empowering-biomarker-data"><i class="fa fa-check"></i><b>3.39</b> <em>Accelerate Personalized Health Care by Empowering Biomarker Data</em></a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="talks-chronological.html"><a href="talks-chronological.html"><i class="fa fa-check"></i><b>4</b> Talks - chronological</a><ul>
+<li class="chapter" data-level="4.1" data-path="talks-chronological.html"><a href="talks-chronological.html#using-r-in-a-regulatory-environment-some-fda-perspectives-1"><i class="fa fa-check"></i><b>4.1</b> <em>Using R in a regulatory environment: some FDA perspectives</em></a></li>
+<li class="chapter" data-level="4.2" data-path="talks-chronological.html"><a href="talks-chronological.html#using-r-in-a-gxp-environment-1"><i class="fa fa-check"></i><b>4.2</b> <em>Using R in a GxP Environment</em></a></li>
+<li class="chapter" data-level="4.3" data-path="talks-chronological.html"><a href="talks-chronological.html#idbac-a-new-paradigm-in-developing-microbial-libraries-for-drug-discovery-1"><i class="fa fa-check"></i><b>4.3</b> <em>IDBac: A New Paradigm in Developing Microbial Libraries for Drug Discovery</em></a></li>
+<li class="chapter" data-level="4.4" data-path="talks-chronological.html"><a href="talks-chronological.html#the-largest-shiny-application-in-the-world.-roche.diagnostics.biowarp-1"><i class="fa fa-check"></i><b>4.4</b> <em>The largest Shiny application in the world. Roche.Diagnostics.bioWARP</em></a></li>
+<li class="chapter" data-level="4.5" data-path="talks-chronological.html"><a href="talks-chronological.html#r-reproducibility-by-containers-and-cloud-1"><i class="fa fa-check"></i><b>4.5</b> <em>R reproducibility by containers and cloud</em></a></li>
+<li class="chapter" data-level="4.6" data-path="talks-chronological.html"><a href="talks-chronological.html#multi-state-model-for-the-analysis-of-an-association-between-safety-and-efficacy-events-1"><i class="fa fa-check"></i><b>4.6</b> <em>Multi-state Model for the Analysis of an Association between Safety and Efficacy Events</em></a></li>
+<li class="chapter" data-level="4.7" data-path="talks-chronological.html"><a href="talks-chronological.html#becoming-bilingual-in-sas-and-r-1"><i class="fa fa-check"></i><b>4.7</b> <em>Becoming bilingual in SAS and R</em></a></li>
+<li class="chapter" data-level="4.8" data-path="talks-chronological.html"><a href="talks-chronological.html#visualization-methods-for-rna-sequencing-data-analysis-1"><i class="fa fa-check"></i><b>4.8</b> <em>Visualization methods for RNA-sequencing data analysis</em></a></li>
+<li class="chapter" data-level="4.9" data-path="talks-chronological.html"><a href="talks-chronological.html#the-use-of-r-in-the-development-of-physiological-model-for-healthy-growth-1"><i class="fa fa-check"></i><b>4.9</b> <em>The Use of R in the Development of Physiological Model for Healthy Growth</em></a></li>
+<li class="chapter" data-level="4.10" data-path="talks-chronological.html"><a href="talks-chronological.html#antibody-characterization-using-next-generation-sequencing-made-easier-with-group-my-abs-shiny-app.-1"><i class="fa fa-check"></i><b>4.10</b> <em>Antibody Characterization Using Next Generation Sequencing made easier with Group My Abs shiny app.</em></a></li>
+<li class="chapter" data-level="4.11" data-path="talks-chronological.html"><a href="talks-chronological.html#managing-r-and-associated-tools-in-large-environments---an-r-admins-perspective-1"><i class="fa fa-check"></i><b>4.11</b> <em>Managing R and Associated Tools in Large Environments - an R-Admin’s Perspective</em></a></li>
+<li class="chapter" data-level="4.12" data-path="talks-chronological.html"><a href="talks-chronological.html#shinyrap---a-framework-for-analysis-and-building-interactivedynamic-reports-using-shinymarkdown-1"><i class="fa fa-check"></i><b>4.12</b> <em>ShinyRAP - a framework for analysis and building interactive/dynamic reports using Shiny/Markdown</em></a></li>
+<li class="chapter" data-level="4.13" data-path="talks-chronological.html"><a href="talks-chronological.html#data-driven-strategies-for-synthetic-route-design-and-operational-modeling-within-pharmaceutical-development-1"><i class="fa fa-check"></i><b>4.13</b> <em>Data-Driven Strategies for Synthetic Route Design and Operational Modeling within Pharmaceutical Development</em></a></li>
+<li class="chapter" data-level="4.14" data-path="talks-chronological.html"><a href="talks-chronological.html#evaluating-the-performance-of-advanced-causal-inference-methods-applied-to-healthcare-claims-data-1"><i class="fa fa-check"></i><b>4.14</b> <em>Evaluating the performance of advanced causal inference methods applied to healthcare claims data</em></a></li>
+<li class="chapter" data-level="4.15" data-path="talks-chronological.html"><a href="talks-chronological.html#optimization-of-raw-materials-genealogy-in-drug-manufacturing-with-r-shiny-and-d3-1"><i class="fa fa-check"></i><b>4.15</b> <em>Optimization of raw materials genealogy in drug manufacturing with R, Shiny and d3</em></a></li>
+<li class="chapter" data-level="4.16" data-path="talks-chronological.html"><a href="talks-chronological.html#reap---r-shiny-exploratory-analysis-platform-in-clinical-pharmacology-1"><i class="fa fa-check"></i><b>4.16</b> <em>REAP - R-Shiny Exploratory Analysis Platform in Clinical Pharmacology</em></a></li>
+<li class="chapter" data-level="4.17" data-path="talks-chronological.html"><a href="talks-chronological.html#ropensci---enabling-open-and-reproducible-research-1"><i class="fa fa-check"></i><b>4.17</b> <em>rOpenSci - enabling open and reproducible research</em></a></li>
+<li class="chapter" data-level="4.18" data-path="talks-chronological.html"><a href="talks-chronological.html#moving-fast-without-breaking-things-navigating-the-r-ecosystem-in-an-enterprise-environment-1"><i class="fa fa-check"></i><b>4.18</b> <em>Moving Fast Without Breaking Things: Navigating the R Ecosystem in an Enterprise Environment</em></a></li>
+<li class="chapter" data-level="4.19" data-path="talks-chronological.html"><a href="talks-chronological.html#beyond-simple-reproducibility---discoverability-provenance-and-improving-the-impact-of-results-1"><i class="fa fa-check"></i><b>4.19</b> <em>Beyond Simple Reproducibility - Discoverability, Provenance, and Improving the Impact of Results</em></a></li>
+<li class="chapter" data-level="4.20" data-path="talks-chronological.html"><a href="talks-chronological.html#interactive-data-visualization-with-r-plotly-and-dashr-1"><i class="fa fa-check"></i><b>4.20</b> <em>Interactive data visualization with R, plotly, and dashR</em></a></li>
+<li class="chapter" data-level="4.21" data-path="talks-chronological.html"><a href="talks-chronological.html#developing-powerful-shiny-applications-in-an-enterprise-environment-best-practices-and-lessons-learned-1"><i class="fa fa-check"></i><b>4.21</b> <em>Developing powerful Shiny applications in an enterprise environment: Best practices and lessons learned</em></a></li>
+<li class="chapter" data-level="4.22" data-path="talks-chronological.html"><a href="talks-chronological.html#nettcr-towards-accurate-prediction-of-t-cell-targets-using-deep-learning-1"><i class="fa fa-check"></i><b>4.22</b> <em>NetTCR: Towards Accurate Prediction of T-cell Targets using Deep Learning</em></a></li>
+<li class="chapter" data-level="4.23" data-path="talks-chronological.html"><a href="talks-chronological.html#analyzing-clinical-trials-data-with-r-1"><i class="fa fa-check"></i><b>4.23</b> <em>Analyzing Clinical Trials Data with R</em></a></li>
+<li class="chapter" data-level="4.24" data-path="talks-chronological.html"><a href="talks-chronological.html#unification-in-a-compartmentalized-culture-1"><i class="fa fa-check"></i><b>4.24</b> <em>Unification in a Compartmentalized Culture</em></a></li>
+<li class="chapter" data-level="4.25" data-path="talks-chronological.html"><a href="talks-chronological.html#r4spa-r-packages-and-training-to-enable-statistical-programming-in-r-1"><i class="fa fa-check"></i><b>4.25</b> <em>R4SPA: R Packages and Training to enable Statistical Programming in R</em></a></li>
+<li class="chapter" data-level="4.26" data-path="talks-chronological.html"><a href="talks-chronological.html#assisting-clinical-trial-simulation-with-the-use-of-shiny-1"><i class="fa fa-check"></i><b>4.26</b> <em>Assisting clinical trial simulation with the use of Shiny</em></a></li>
+<li class="chapter" data-level="4.27" data-path="talks-chronological.html"><a href="talks-chronological.html#rshiny-clinical-dashboards-for-fun-and-profit-note-fun-is-relative_-1"><i class="fa fa-check"></i><b>4.27</b> _R/Shiny Clinical Dashboards For Fun* and Profit *Note: Fun is Relative_</a></li>
+<li class="chapter" data-level="4.28" data-path="talks-chronological.html"><a href="talks-chronological.html#the-drake-r-package-reproducible-data-analysis-at-scale-1"><i class="fa fa-check"></i><b>4.28</b> <em>The drake R package: reproducible data analysis at scale</em></a></li>
+<li class="chapter" data-level="4.29" data-path="talks-chronological.html"><a href="talks-chronological.html#the-role-of-r-in-converting-clinical-trial-programmers-to-data-scientists-1"><i class="fa fa-check"></i><b>4.29</b> <em>The role of R in converting clinical trial programmers to data scientists</em></a></li>
+<li class="chapter" data-level="4.30" data-path="talks-chronological.html"><a href="talks-chronological.html#accelerate-personalized-health-care-by-empowering-biomarker-data-1"><i class="fa fa-check"></i><b>4.30</b> <em>Accelerate Personalized Health Care by Empowering Biomarker Data</em></a></li>
+<li class="chapter" data-level="4.31" data-path="talks-chronological.html"><a href="talks-chronological.html#keeping-things-peachy-when-shiny-gets-hairy-1"><i class="fa fa-check"></i><b>4.31</b> <em>Keeping things Peachy when Shiny gets Hairy</em></a></li>
+<li class="chapter" data-level="4.32" data-path="talks-chronological.html"><a href="talks-chronological.html#shiny-apps-in-genomics-and-clinical-trials-1"><i class="fa fa-check"></i><b>4.32</b> <em>Shiny Apps in Genomics and Clinical Trials</em></a></li>
+<li class="chapter" data-level="4.33" data-path="talks-chronological.html"><a href="talks-chronological.html#r-as-the-core-technology-to-support-modeling-and-simulation-in-pharma-research-development-and-post-approval-activities-1"><i class="fa fa-check"></i><b>4.33</b> <em>R as the Core Technology to Support Modeling and Simulation in Pharma Research, Development, and Post Approval Activities</em></a></li>
+<li class="chapter" data-level="4.34" data-path="talks-chronological.html"><a href="talks-chronological.html#building-a-community-of-competent-developers-and-users-of-r-based-tools-in-mass-spectrometry-based-research-1"><i class="fa fa-check"></i><b>4.34</b> <em>Building a community of competent developers and users of R-based tools in mass spectrometry-based research</em></a></li>
+<li class="chapter" data-level="4.35" data-path="talks-chronological.html"><a href="talks-chronological.html#bayesian-models-for-smaller-trial-sizes-1"><i class="fa fa-check"></i><b>4.35</b> <em>Bayesian Models for Smaller Trial Sizes</em></a></li>
+<li class="chapter" data-level="4.36" data-path="talks-chronological.html"><a href="talks-chronological.html#enhance-r-overview-1"><i class="fa fa-check"></i><b>4.36</b> <em>Enhance R Overview</em></a></li>
+<li class="chapter" data-level="4.37" data-path="talks-chronological.html"><a href="talks-chronological.html#the-magic-r-shiny-app-that-can-boost-your-sdtm-usability-and-viability-while-saving-time-1"><i class="fa fa-check"></i><b>4.37</b> <em>The Magic R-Shiny App that can Boost your SDTM Usability and Viability while Saving Time</em></a></li>
+<li class="chapter" data-level="4.38" data-path="talks-chronological.html"><a href="talks-chronological.html#reproducible-computational-research-at-eisai-leadership-technology-and-culture-1"><i class="fa fa-check"></i><b>4.38</b> <em>Reproducible computational research at Eisai: leadership, technology, and culture</em></a></li>
+<li class="chapter" data-level="4.39" data-path="talks-chronological.html"><a href="talks-chronological.html#the-challenges-of-validating-r-1"><i class="fa fa-check"></i><b>4.39</b> <em>The Challenges of Validating R</em></a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.roche.com/RWDSsme/PropensityScores/pulse/monthly">Source code</a></li>
+<li><a href="https://github.roche.com/RWDSsme/PropensityScores/issues">Feedback</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">R/Pharma 2018</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="part-talks---talks---by-author" class="section level1">
+<h1><span class="header-section-number">3</span> (PART) Talks {-}# Talks - by author</h1>
+<div id="analyzing-clinical-trials-data-with-r" class="section level2">
+<h2><span class="header-section-number">3.1</span> <em>Analyzing Clinical Trials Data with R</em></h2>
+<p><strong>Adrian Waddell</strong>, Roche</p>
+<p><em>Thursday, 16th August from 11:30 - 11:50</em></p>
+<p>Creating datasets and tables, listings and graphs (TLGs) for analyzing clinical trials data with R, such that in the final stage the code, datasets and TLGs can be submitted to the health authorities, is a multifaceted problem. We have been working on a number of R packages to create an R-based analysis environment that can be used for exploratory and regulatory analysis of clinical trials data. These projects include: table creation (open source <a href="http://github.com/Roche/rtables" class="uri">http://github.com/Roche/rtables</a>); random data generation; querying CDISC standards; TLG creation; a pipeline for specifying and producing data and TLG deliverables (with logs, automation, titles and footnotes, etc.); a modular shiny-based exploratory framework that provides dynamic encodings, variable-based filtering, and R-code generation for the displayed outputs. The maturity of these projects varies, but the workflow and analysis environment as a whole can be demonstrated nicely. In this talk, we would like to generate interest in collaboration in order to make these projects more general and with the final goal of open-sourcing some of them.</p>
+</div>
+<div id="the-challenges-of-validating-r" class="section level2">
+<h2><span class="header-section-number">3.2</span> <em>The Challenges of Validating R</em></h2>
+<p><strong>Andy Nicholls</strong>, GlaxoSmithKline</p>
+<p><em>Thursday, 16th August from 17:15 - 17:25</em></p>
+<p>The first challenge in validating an analytic tool for the pharmaceutical industry is that, despite a formal FDA definition, there is still no cross-industry agreement on what ‘validation’ really means with respect to an analytic tool. AIMS (Application and Implementation of Methodologies in Statistics), a Special Interest Group within PSI have been attempting to answer this question with respect to R. In doing so we recently received approval from the R Consortium for an online R package validation repository and are now looking to formalise some early definitions. In this presentation I will walk through some of the challenges that we have identified thus far and outline what we’re hoping to achieve with the platform.</p>
+</div>
+<div id="becoming-bilingual-in-sas-and-r" class="section level2">
+<h2><span class="header-section-number">3.3</span> <em>Becoming bilingual in SAS and R</em></h2>
+<p><strong>Bella Feng</strong>, Amgen</p>
+<p><em>Wednesday, 15th August from 13:30 - 13:40</em></p>
+<p>In this talk, I will speak about my personal journey of learning R and transforming from a clinical study statistical programmer to a SAS/R bilingual, as well as my journey of leading the R initiative in Amgen’s Global Statistical Programming Department and Amgen R meetup, working with IS, statistician, quality, LMS and external partners. I will conclude by talking about the areas of challenge and the direction of R for statistical programming in a regulated environment and proposals for R in Pharma collaboration.</p>
+</div>
+<div id="using-r-in-a-gxp-environment" class="section level2">
+<h2><span class="header-section-number">3.4</span> <em>Using R in a GxP Environment</em></h2>
+<p><strong>Boyd Gonnerman, John Sims, Frank DePierro and Peter Giardina</strong>, Pfizer</p>
+<p><em>Wednesday, 15th August from 10:30 - 10:40</em></p>
+<p>The Data Science team in Pfizer’s Vaccine Research and Development division (VRD) creates and maintains validated applications used during high-throughput clinical testing that enable advanced analytic and reporting requirements. SAS has long been the de-facto standard for analyzing data in a regulated GxP environment. Web deployment of these applications has been the best approach, and Pfizer VRD has developed several mid-tier applications in Java that submit batch SAS processes on a High Performance Computing grid. Pfizer VRD’s high level approach is the same across different assay platforms: data are pulled from a combination of electronic files and Oracle databases and analyzed, results are written back to an Oracle database, and electronic output files are made in various formats (e.g. PDF). The regulated nature of Pfizer VRD’s work and the difficulty in deploying R-based applications over the web have previously been an impediment to the use of R, but new tools such as RStudio’s Shiny Server Pro have helped us overcome those challenges. This presentation focuses on a comparison of the architecture used to deploy our SAS applications and the infrastructure required to deploy R-based applications to meet GxP requirements. Real life examples will be provided to illustrate the usefulness of this platform in a regulated laboratory environment.</p>
+</div>
+<div id="interactive-data-visualization-with-r-plotly-and-dashr" class="section level2">
+<h2><span class="header-section-number">3.5</span> <em>Interactive data visualization with R, plotly, and dashR</em></h2>
+<p><strong>Carson Sievert</strong>, Sievert Consulting</p>
+<p><em>Thursday, 16th August from 10:10 - 10:30</em></p>
+<p>Interactive web graphics are a popular and convenient medium for conveying information. However, web graphics are rarely used during the initial exploratory phase of a data analysis, largely due to the lack tools for seamless iteration between data manipulation, modeling, and visualization. As we’ve known for several decades, interactive graphics can augment exploratory analysis, but are only practical when we can iterate quickly. This talk demonstrates how to use the R packages plotly and dashR to rapidly produce interactive web graphics and applications that augment data exploration in addition to being easily distributed.</p>
+</div>
+<div id="idbac-a-new-paradigm-in-developing-microbial-libraries-for-drug-discovery" class="section level2">
+<h2><span class="header-section-number">3.6</span> <em>IDBac: A New Paradigm in Developing Microbial Libraries for Drug Discovery</em></h2>
+<p><strong>Chase Clark</strong>, Student, University of Illinois at Chicago</p>
+<p><em>Wednesday, 15th August from 10:40 - 10:50</em></p>
+<p>The success of a bacterial drug discovery program can be no greater than the phylogenetic diversity and capacity of those bacteria in the library to produce specialized metabolites (SM). However, the methods used to create bacterial strain libraries have seen little innovation in nearly 80 years. Current practice relies entirely on colony morphology and/or 16S rRNA gene sequencing analysis to decide which isolated strains to retain for addition to a drug discovery library. However, these practices create inefficient libraries plagued with a high degree of taxonomic and chemical redundancy by relying on physical characteristics that have limited correlation with strains’ SM, the foundation of drug discovery. Therefore, the development of a platform to rapidly prioritize unknown bacterial strains based on phylogeny and SM would greatly increase the efficiency of the front-end of microbial drug discovery. Our lab has recently developed such a platform, called IDBac, which uses in situ matrix-assisted laser desorption/ionization time-of-flight mass spectrometry (MALDI-TOF MS) to analyze protein and specialized metabolite spectra of single bacterial colonies. Utilizing R and Shiny, alongside state-of-the-art packages and techniques in MALDI processing and data visualization, we created a stand-alone executable program for MALDI-TOF MS bacterial analysis. Using unsupervised learning methods and visualizations we have demonstrated IDBac’s capabilities by creating protein and specialized metabolite MS profiles, generating protein MS hierarchical groupings that accurately mirrored phylogenetic groupings and further distinguishing isolates based on inter- and intra-species differences in specialized metabolite production. With the ease of use of modern MALDI instrumentation and interactive, intuitive data exploration, IDBac can rapidly profile up to 384 bacteria in 4 hours. To our knowledge, IDBac is the first attempt to couple in situ MS analyses of protein content and specialized metabolite production and will enable laboratories with access to a MALDI-TOF MS the ability to rapidly create more efficient libraries for their drug discovery programs.</p>
+</div>
+<div id="bayesian-models-for-smaller-trial-sizes" class="section level2">
+<h2><span class="header-section-number">3.7</span> <em>Bayesian Models for Smaller Trial Sizes</em></h2>
+<p><strong>Daniel Lee</strong>, Generable</p>
+<p><em>Thursday, 16th August from 16:35 - 16:45</em></p>
+<p>Precision medicine typically refers to the development of drugs and other interventions for individual patients. But how do you assess efficacy and make predictions in this extreme small data regime?</p>
+<p>The Bayesian framework is ideal for this type of inference as it allows us to combine population and personal effects in a principled way and make predictions for both groups and individuals. The inferences are further improved when we introduce mechanistically inspired components into the modeling framework.</p>
+<p>I’ll talk about building pharma models in the small data regime and how we use Stan (a statistical modeling language for Bayesian inference) with R for analysis.</p>
+</div>
+<div id="moving-fast-without-breaking-things-navigating-the-r-ecosystem-in-an-enterprise-environment" class="section level2">
+<h2><span class="header-section-number">3.8</span> <em>Moving Fast Without Breaking Things: Navigating the R Ecosystem in an Enterprise Environment</em></h2>
+<p><strong>Devin Pastoor</strong>, Metrum Research Group</p>
+<p><em>Wednesday, 15th August from 16:45 - 17:05</em></p>
+<p>Despite the explosive growth and adoption of R globally, concerns over how to qualify and administrate R continues to echo in discussions about use in regulated environments. In this talk, I’ll discuss the how to bridge the conceptual tenants of reproducibility, traceability, and accuracy to robust, yet agile, implementations such that and organization can maintain validated systems without imposing the shackles found in traditional validated environments. Furthermore, I will discuss a number of design elements specific to the open-source R ecosystem, such as using packages from CRAN and github, and cover how to embrace these, while responsibly managing risk in enterprise environments.</p>
+</div>
+<div id="managing-r-and-associated-tools-in-large-environments---an-r-admins-perspective" class="section level2">
+<h2><span class="header-section-number">3.9</span> <em>Managing R and Associated Tools in Large Environments - an R-Admin’s Perspective</em></h2>
+<p><strong>Edward Lauzier</strong>, Merck</p>
+<p><em>Wednesday, 15th August from 14:10 - 14:20</em></p>
+<p>The dramatic increase of R in the computational, analytics, and data science areas has led to some innovative techniques in recent years for interactive analytics. This rate of change presents challenges for IT organizations to keep up and to maintain their software stacks for scientists for regulated and non-regulated environments.
+Techniques and Best Practices for managing updates and use cases will be presented from an R-Admin’s perspective using a combination of opensource and professional tools.</p>
+</div>
+<div id="the-magic-r-shiny-app-that-can-boost-your-sdtm-usability-and-viability-while-saving-time" class="section level2">
+<h2><span class="header-section-number">3.10</span> <em>The Magic R-Shiny App that can Boost your SDTM Usability and Viability while Saving Time</em></h2>
+<p><strong>Elma Zannatul Ferdousy, Katrina Paz and Nasser Al Ali
+</strong>, Genetech</p>
+<p><em>Thursday, 16th August from 16:55 - 17:05</em></p>
+<p>The United States Food and Drug Administration (FDA) requires that clinical trial data be submitted in the Study Data Tabulation Model (SDTM) standard format. The process of developing SDTM involves mapping captured raw data to their correspondent SDTM domains based on rules and conditions put by the Clinical Data Interchange Standards Consortium (CDISC) organization. SDTM data is further used for building the Analysis Data Model (ADaM) which is used for clinical trial statistical analysis. Mistakes in the mapping process are common due to the process complexities; issues that are missed may potentially affect the clinical trial result. Therefore, it is very essential to preserve the quality of the SDTM data. Currently, the main tool for checking SDTM conformance is Pinnacle21 (formerly known as OpenCDISC). Notably, there are usability and viability checks that are not included in Pinnacle21. This work describes the creation of an R shiny app to supplement the Pinnacle21 checks. This interactive app applies various CDISC-compliant SDTM data validation checks, and provides the user with a comprehensive report on possible inconsistencies in the data. The app would allow programmers to proactively find data mapping errors. In addition, it is straightforward to use and can save tremendous amounts of time. Additionally, this app’s audience extends beyond the programming community and covers other individuals who have an interest in data quality, particularly Data Managers and individuals in Clinical Science and Clinical Operations.</p>
+</div>
+<div id="developing-powerful-shiny-applications-in-an-enterprise-environment-best-practices-and-lessons-learned" class="section level2">
+<h2><span class="header-section-number">3.11</span> <em>Developing powerful Shiny applications in an enterprise environment: Best practices and lessons learned</em></h2>
+<p><strong>Eric Nantz</strong>, Lilly</p>
+<p><em>Thursday, 16th August from 10:30 - 10:50</em></p>
+<p>Recent advances in the Shiny ecosystem boost the scale and scope of serious enterprise-wide web applications. More specifically, it is entirely possible to utilize key features of Shiny Server Professional and additional R packages such as shinyjs, DT, and batchtools to build Shiny applications that supports session management, high-performance computing, and reproducibility in a friendly and logical interface. Additionally, the shinytest package enables a robust workflow for developing applications efficiently, as well as being an important component to automate a validation testing framework. In this talk, I will share examples of key features and lessons learned in creating a technically powerful shiny application that integrates these pieces together.</p>
+</div>
+<div id="beyond-simple-reproducibility---discoverability-provenance-and-improving-the-impact-of-results" class="section level2">
+<h2><span class="header-section-number">3.12</span> <em>Beyond Simple Reproducibility - Discoverability, Provenance, and Improving the Impact of Results</em></h2>
+<p><strong>Gabe Becker</strong>, Genentech</p>
+<p><em>Wednesday, 15th August from 17:05 - 17:25</em></p>
+<p>Research is an incremental, iterative process, with new results relying and building upon previous ones. Scientists need to find, retrieve, understand, and trust results in order to confidently extend them, even when the results are their own. We present the GREX framework, which facilitates this iterative process via the principled management of computational results. GREX combines robust storage, provenance tracking, automated annotation, discoverability, and reproduciblity of computational results. We will discuss both the underlying conceptual work and our reference implementation of our framework.</p>
+</div>
+<div id="the-role-of-r-in-converting-clinical-trial-programmers-to-data-scientists" class="section level2">
+<h2><span class="header-section-number">3.13</span> <em>The role of R in converting clinical trial programmers to data scientists</em></h2>
+<p><strong>James Black</strong>, Roche</p>
+<p><em>Thursday, 16th August from 15:35 - 15:45</em></p>
+<p>In 3 years Real World Data Science Analytics in Roche/Genentech transitioned from a small team of former clinical trial programmers supporting a real world evidence team to become the largest department within the Personalised Healthcare (PHC) Centre of Excellence. This transition was driven by industry-wide acknowledgement of the growing importance of leveraging analytics to support PHC, but this change necessitated radical changes in workflows and competencies. To adapt to this change, the team has moved from using a single proprietary software (SAS) to becoming an open source-focused, R based but increasingly programming language agnostic, department. A core driver of this transition was the development of an internal suite of R packages that handled markdown templates and database access through to wrappers for common plots and documenting git hashes of all code used. Bringing this diverse set of tools into a coherent eco-system is a meta-package modelled on the tidyverse.</p>
+</div>
+<div id="enhance-r-overview" class="section level2">
+<h2><span class="header-section-number">3.14</span> <em>Enhance R Overview</em></h2>
+<p><strong>Jay Timmerman</strong>, Covance</p>
+<p><em>Thursday, 16th August from 16:45 - 16:55</em></p>
+<p>Recruitment models for clinical trials are notoriously difficult to build due to many complex factors within a study. With input from experienced practitioners, we have built an interactive tool to allow individuals to build complex recruitment models using the R/Shiny framework. The Tool Enhance R, our platform for study modeling, was ported from an Excel-based tool to the R/Shiny platform to increase model development speed, expand capability and drive transparency into model development. The tool allows users to specify critical model attributes (i.e. country site distribution, recruitment/activation rates, country-specific vacations), and provide instantaneous feedback that changes have on a model’s probability of success. Using the RStudio Connect platform, we are able to grant multi-level access to users through a single web interface. Model development is tracked by exporting results to a SharePoint site and logging versions for future review/auditing. This gives significant levels of transparency on how a model was created and evolved over time. For web analytics, we used Piwik, and internal web analytics platform, to monitor how users navigate through the platform and identify browsing behavior. The application was built upon the Shiny Dashboard framework and leverages many visualization packages, including Plotly, Timevis, ggplot2 and many more. Many challenges arose in its develop, from controlling over-zealous user clicks causing out of control execution, to integrating service account execution of apps to facilitate centralized data control. This project pushed the limits of what the R/Shiny platform is capable of and demonstrates how data scientists can build useful solutions.</p>
+</div>
+<div id="shiny-apps-in-genomics-and-clinical-trials" class="section level2">
+<h2><span class="header-section-number">3.15</span> <em>Shiny Apps in Genomics and Clinical Trials</em></h2>
+<p><strong>Jessica Minnier</strong>, Oregon Health &amp; Science University (OHSU)</p>
+<p><em>Thursday, 16th August from 16:05 - 16:15</em></p>
+<p>R Shiny has revolutionized the way statisticians and analysts distribute analytic results and research methods. We can easily build interactive web tools that enhance data visualization and facilitate data and information sharing. Shiny apps can empower non-statisticians to explore and visualize their data or perform their own analyses with methods we develop. Harnessing this power, R users have developed Shiny apps for visualizing clinical trials and pharmaceutical data, as well as applications that aid in study design and analysis. I will present examples of how Shiny can be used in many stages of the drug development process and discuss the challenges as well as benefits of incorporating these tools in pharmaceutical workflows.</p>
+</div>
+<div id="evaluating-the-performance-of-advanced-causal-inference-methods-applied-to-healthcare-claims-data" class="section level2">
+<h2><span class="header-section-number">3.16</span> <em>Evaluating the performance of advanced causal inference methods applied to healthcare claims data</em></h2>
+<p><strong>Jessica Myers Franklin</strong>, Harvard Medical School, Brigham and Women’s Hospital</p>
+<p><em>Wednesday, 15th August from 16:05 - 16:15</em></p>
+<p>Cohort studies of treatments developed from healthcare claims often have hundreds of thousands of patients and up to several thousand measured covariates. Therefore, new causal inference methods that combine ideas from machine learning and causal inference may improve analysis of these studies by taking advantage of the wealth of information measured in claims. In order to evaluate the performance of these methods as applied to claims-based studies, we use a combination of real data examples and plasmode simulation, implemented in R package ‘plasmode’, which creates realistic simulated datasets based on a real cohort study. In this talk, I will give an overview of our progress so far and what is left to be done.</p>
+</div>
+<div id="assisting-clinical-trial-simulation-with-the-use-of-shiny" class="section level2">
+<h2><span class="header-section-number">3.17</span> <em>Assisting clinical trial simulation with the use of Shiny</em></h2>
+<p><strong>Jia Kang
+</strong>, Metrum Research Group</p>
+<p><em>Thursday, 16th August from 13:50 - 14:00</em></p>
+<p>During the drug development, pharmacometric models are often built to better characterize and understand the clinical pharmacology attributes of the drug. Simulations based on these models can assist drug development and clinical trial design. However, such simulations can be time-consuming and difficult to demonstrate the results in an efficient way.</p>
+<p>A shiny application can be used as a simulation tool which allows rapid real-time simulations based on user-selected inputs and dynamic visualization of the results. It also provides an easy access to individuals with no specific background of modeling and simulation. In the talk, I will present some case studies where the shiny application was used to perform simulations to facilitate clinical trial design.</p>
+</div>
+<div id="reproducible-computational-research-at-eisai-leadership-technology-and-culture" class="section level2">
+<h2><span class="header-section-number">3.18</span> <em>Reproducible computational research at Eisai: leadership, technology, and culture</em></h2>
+<p><strong>Joseph Gerrein</strong>, Eisai</p>
+<p><em>Thursday, 16th August from 17:05 - 17:15</em></p>
+<p>The pharmaceutical industry depends on accurate and reproducible data science for both preclinical and clinical analysis. Unfortunately, often an analysis cannot be reproduced and therefore its computational methodology and merit are unknown. Often, the data, code, or description of computational methods is not maintained. In order to implement good practices of reproducible computational research, the leadership of the company must invest time and resources into planning, training, ensuring adoption of common practices and tools, implementing documentation systems, encouraging discipline on the individual and group level, creating incentives, and requiring accountability. At Eisai, we have developed a working system for reproducible computational research that is enabled by leadership, technology, and culture. With regards to technology, we primarily use Rmarkdown and R Notebooks on an Rstudio server used by all our analysts. The Rstudio server is maintained by an administrator who installs packages for all users, creating a common package environment that ensures that code can be rerun in the future. Data and code are stored in a shared network drive and version control is accomplished by using Git. A wiki that is editable by all analysts is used to organize all analyses (tracked with unique analysis IDs) and provides links to code and results.</p>
+<p>With regards to culture, the leadership has promoted the values of quality and reproducibility. When yearly objectives are set, the performance criteria includes the creation of analysis documents (e.g. Rmarkdown reports), use of version control, and organization of data on shared network drives. Setting aside time for wiki documentation in the midst of high demands from project teams is helped by having periodic “documentation day” parties. To verify reproducibility, we have implemented “witnessing”: once the analysis is finished, it is reviewed by an independent team member who officially signs off on the work, stating that the reproducibility criteria have been met. Our success in implementing reproducible computational research can serve as a model for other companies to use. Here we have provided a model based on leadership, technology, and culture.</p>
+</div>
+<div id="multi-state-model-for-the-analysis-of-an-association-between-safety-and-efficacy-events" class="section level2">
+<h2><span class="header-section-number">3.19</span> <em>Multi-state Model for the Analysis of an Association between Safety and Efficacy Events</em></h2>
+<p><strong>Juliane Manitz</strong>, EMD Serono</p>
+<p><em>Wednesday, 15th August from 11:40 - 11:50</em></p>
+<p>Safety and efficacy data in clinical trials are mostly analyzed separately. However, especially the treatment of life-threatening disease such as cancer requires a good understanding of benefit and associated risks to make an informed therapy decision for an individual patient. Recently approved immunotherapeutic drugs in oncology are associated with potential side effects such as immune-related hypothyroidism, rash and colitis. There is some biological reasoning that the occurrence of immune-related adverse events and corresponding management may compromise the drug response. On the other hand, it has been observed that patients responding to treatment might face a higher likelihood of adverse drug reactions. A multi-state model is able to explore these hypotheses and offers the opportunity of insights into potential associations while addressing some of the methodological challenges. For example, the necessity of a time-dependent approach to accommodate the fact that safety and efficacy events can occur throughout the treatment. Moreover, longer treatment duration can impact simultaneously the likelihood of efficacy as well as safety events, i.e., introducing immortal time bias. The multistate model is able to unfold this spurious correlation. We present an approach for analysis and exemplify the methodology with simulated data.</p>
+</div>
+<div id="data-driven-strategies-for-synthetic-route-design-and-operational-modeling-within-pharmaceutical-development" class="section level2">
+<h2><span class="header-section-number">3.20</span> <em>Data-Driven Strategies for Synthetic Route Design and Operational Modeling within Pharmaceutical Development</em></h2>
+<p><strong>Jun Li</strong>, Bristol Myers Squibb</p>
+<p><em>Wednesday, 15th August from 15:55 - 16:05</em></p>
+<p>Decision analysis balancing both data analytics and human gut feeling is critical in designing efficient routes to synthesize new, complex small molecules.  This challenge is faced by any organization seeking to deliver modern pharmaceutical compounds to patients in a prompt manner. In this presentation, we highlight the incorporation of data science approaches using R to develop metrics that aid in the development process:  current complexity, risk quantification, and process efficiency forecasting.  Current complexity is a metric established from human insights that assesses a molecule’s complexity in the context of capability, tracking the ‘current’ complexity of a given molecule over time and enabling the quantitative assessment of a new route or process.  Risk quantification utilizes a Bayesian framework to quantify risk from real data and operational patterns, at both the project and portfolio level, for assessing the delivery risk of early candidate nomination assets in areas such as FTE resource modeling.  Process efficiency can be estimated with a predictive analytics framework capable of quantifying the probable efficiency of a proposed synthesis or benchmarking the outcome performance of the developed process, thereby minimizing the environmental impact of pharmaceutical production.  These strategies have been effectively used to aid the decision-making processes for pharmaceutical R&amp;D.</p>
+</div>
+<div id="r4spa-r-packages-and-training-to-enable-statistical-programming-in-r" class="section level2">
+<h2><span class="header-section-number">3.21</span> <em>R4SPA: R Packages and Training to enable Statistical Programming in R</em></h2>
+<p><strong>Kieran Martin</strong>, Roche</p>
+<p><em>Thursday, 16th August from 13:40 - 13:50</em></p>
+<p>R is a very powerful tool for performing statistical programming, but has had a lower uptake in the life sciences when compared to SAS. As a result, many of the packages created for R are not focused on the type of tasks Statistical Programmers do. In this talk I introduce several packages and in house training we are developing to aid regulatory outputs. The R packages include rcompare, a package to allow comparison of datasets, analogous to proc compare in SAS, and r4spa which allows outputs to be in the correct format for production. Each package solves a problem particular to the life sciences, and is intended to improve uptake of R usage within the industry. Similarly, to the R packages, the training is focused on providing examples of actual work, so that users of the training will be able to immediately apply their knowledge.</p>
+</div>
+<div id="nettcr-towards-accurate-prediction-of-t-cell-targets-using-deep-learning" class="section level2">
+<h2><span class="header-section-number">3.22</span> <em>NetTCR: Towards Accurate Prediction of T-cell Targets using Deep Learning</em></h2>
+<p><strong>Leon Eyrich Jessen</strong>, DTU Technical University of Denmark</p>
+<p><em>Thursday, 16th August from 11:10 - 11:30</em></p>
+<p>Vanessa Isabell Jurtz(1), Leon Eyrich Jessen(1), Martin Closter Jespersen(1), Kamilla Kjærgaard Jensen(1),
+Bjoern Peters(2), Paolo Marcatili(1), Morten Nielsen(1).
+(1). Department of Bio and Health Informatics, Technical University of Denmark, Lyngby, Denmark.
+(2). La Jolla Institute for Allergy and Immunology, San Diego, California, USA.</p>
+<p>The interaction between the Major Histocompatibility Complex type I (MHC-I), a peptide and the
+T-cell receptor (TCR) (MHCI::p::TCR) is a key determinant of immune response elicitation and
+therefore of paramount importance in infectious- and autoimmune diseases and cancer.
+Current state-of-the-art models developed by our group can with great precision model MHCI::p
+interactions. Using data from VDJdb and IEDB, we created an ensemble of convolutional neural
+networks, which to the best of our knowledge is the world’s first sequence based model capable
+of capturing the entire MHCI::p::TCR system. Due to limited data, we however currently can only
+model the interaction between the CDR3 region of the TCR’s beta chain with HLA-A*02:01 and 3
+peptides. However, as the model framework is easily extendable, we will increase the breadth and
+thus improve the model, as soon as more data become available. Using the current model and an
+independent test set, we obtained AUC = 0.747.</p>
+<p>TensorFlow is an open source software library for neural network models made by Google.
+Recently RStudio released Keras an API for accessing TensorFlow in R. Keras enables fast
+experimentation - Being able to go from idea to result with the least possible delay is key to doing
+good research.</p>
+</div>
+<div id="visualization-methods-for-rna-sequencing-data-analysis" class="section level2">
+<h2><span class="header-section-number">3.23</span> <em>Visualization methods for RNA-sequencing data analysis</em></h2>
+<p><strong>Lindsay Rutter</strong>, Iowa State University</p>
+<p><em>Wednesday, 15th August from 13:40 - 13:50</em></p>
+<p>RNA-seq data is biased and accurate detection of differentially expressed genes (DEGs) is not a trivial task. While the data collection can be considered high-throughput, data analysis has intricacies that require careful human attention. The most effective approach to modern data analysis is to iterate between models and visuals, and to enhance the appropriateness of models based on feedback from visuals. As it stands, there is a need to make it easier for scientists and clinicians to use models and visuals in a complimentary fashion during RNA-seq data analysis. Here, we use public RNA-seq data to show that our visualization tools can detect normalization problems, DEG designation problems, and common errors in RNA-seq analysis. We also show that our tools can identify genes of interest that cannot be obtained with models. Through this project, we propose that users slightly modify their approach to data analysis by quickly assessing the sensibility of their models with statistical graphics. We plan to publish a new R software package that includes the plotting techniques introduced in this project, which can be useful for exploring several types of multivariate biological data such as RNA-sequencing data.</p>
+</div>
+<div id="r-as-the-core-technology-to-support-modeling-and-simulation-in-pharma-research-development-and-post-approval-activities" class="section level2">
+<h2><span class="header-section-number">3.24</span> <em>R as the Core Technology to Support Modeling and Simulation in Pharma Research, Development, and Post Approval Activities</em></h2>
+<p><strong>Marc Gastonquay</strong>, Metrum Research Group</p>
+<p><em>Thursday, 16th August from 16:15 - 16:25</em></p>
+<p>Since its foundation in 2004, Metrum Research Group has relied on R as the core technology and central framework for all of the company’s biomedical modeling and simulation (M&amp;S) service activities, spanning more than 475 projects with 150+ different sponsors. Projects include pharmacokinetic-pharmacodynamic modeling, quantitative systems pharmacology models, simulation-based trial design evaluations, disease progression and patient population modeling, model-based meta analysis of competitor data, model-based comparative effectiveness assessments, and data management activities, etc., all within a regulated environment. Analyses were conducted in R or via other software tools which are managed via R scripts, functions, or packages. Key deliverables of M&amp;S projects are routinely provided as R packages or interactive simulation applications, driven by R (and R Shiny). R has also been an essential component of Metrum’s vision for Open Science in biomedical M&amp;S, allowing for accessibility and reproducibility of platform models developed for multiple disease areas.</p>
+</div>
+<div id="keeping-things-peachy-when-shiny-gets-hairy" class="section level2">
+<h2><span class="header-section-number">3.25</span> <em>Keeping things Peachy when Shiny gets Hairy</em></h2>
+<p><strong>Marianna Foos</strong>, Biogen</p>
+<p><em>Thursday, 16th August from 15:55 - 16:05</em></p>
+<p>Shiny is a popular R package that lets users develop interactive web applications using just R code. The ease of use and downstream boost in productivity mean that working with Shiny can kick off a rapid request-implementation-inspiration-request cycle. Designing your applications with an eye toward future expansion can save time and reduce human error in the long term.</p>
+</div>
+<div id="unification-in-a-compartmentalized-culture" class="section level2">
+<h2><span class="header-section-number">3.26</span> <em>Unification in a Compartmentalized Culture</em></h2>
+<p><strong>Mat Soukup</strong>, FDA</p>
+<p><em>Thursday, 16th August from 13:30 - 13:40</em></p>
+<p>When it comes to analytics of data collected in medical research, today’s culture is compartmentalized – not only across institutions, but even within institutions. Such a culture stagnates analytical development and limits the ability to fully master the data thereby reducing the effectiveness in communicating clinical information to stakeholders. A unified culture can exist – statisticians, programmers, and clinicians need to speak to each other; regulatory agencies, pharmaceutical companies, and academics need to speak to each other. Once everyone comes together to discuss how the medical research data should be collected, interrogated and presented; analytics can be developed and shared within and across institutions. From an analytics perspective, nothing new needs to be developed, solutions are already available – many of them free. We just need to come together and start talking. So let’s talk.</p>
+</div>
+<div id="rshiny-clinical-dashboards-for-fun-and-profit-note-fun-is-relative_" class="section level2">
+<h2><span class="header-section-number">3.27</span> _R/Shiny Clinical Dashboards For Fun* and Profit *Note: Fun is Relative_</h2>
+<p><strong>Nate Mockler</strong>, Biogen</p>
+<p><em>Thursday, 16th August from 14:00 - 14:10</em></p>
+<p>For the Pharma Company How many times have you made a graph and gotten an email back saying: “Can we change the axes?” or “Can we change the symbols?” or “I really need to look at the graph before I can tell you what I want”. It would be much more efficient for your customers to explore the data and the visualizations in an easy-to-use method and can free you up to work on the myriad other tasks you have to do. Rather than learn another programming language, the shiny package uses the R code you already know to create interactive visualizations with a small bit of additional learning. This talk will go over example dashboards for such data as adverse events, labs, and primary endpoints that will aid data managers, statisticians, clinical people, and… even you.</p>
+</div>
+<div id="building-a-community-of-competent-developers-and-users-of-r-based-tools-in-mass-spectrometry-based-research" class="section level2">
+<h2><span class="header-section-number">3.28</span> <em>Building a community of competent developers and users of R-based tools in mass spectrometry-based research</em></h2>
+<p><strong>Olga Vitek</strong>, Northeastern University</p>
+<p><em>Thursday, 16th August from 16:25 - 16:35</em></p>
+<p>The R-based ecosystem, and its open-source methods for data manipulation, modeling and interpretation, is key for effective and reproducible research. This is certainly true in experiments relying on quantitative mass spectrometry. This relatively new and rapidly evolving field must overcome many sources of unwanted variation. It has many unsolved challenges, both in the appropriate use of the existing methods and tools, and in developing methods that address specialized problems.</p>
+<p>This talk will illustrate our R-based efforts to promote sound statistical practice, and build a community of competent practitioners. First, we will present Cardinal, a comprehensive tool for quantitative mass spectrometry-based imaging, as well as MSstats, a general but flexible framework for mass spectrometry-based proteomics. We will highlight the importance of these tools for pharmaceutical research in an example of statistical characterization of therapeutic protein modifications. Second, we will detail our efforts of building a community of competent users through a world-wide series of short courses, intended for experimentalists and computational scientists alike.</p>
+</div>
+<div id="using-r-in-a-regulatory-environment-some-fda-perspectives" class="section level2">
+<h2><span class="header-section-number">3.29</span> <em>Using R in a regulatory environment: some FDA perspectives</em></h2>
+<p><strong>Paul Schuette</strong>, FDA</p>
+<p><em>Wednesday, 15th August from 10:10 - 10:30</em></p>
+<p>The United States Food and Drug Administration (FDA) uses a variety of statistical software packages for review and research. This presentation will focus on the uses of R in the Center for Drug Evaluation and Research (CDER), including graphics for labels, Bayesian designs and analyses, simulations, machine learning, data quality and data integrity efforts, as well as interactive visualizations using R Shiny. Some of the challenges with using R will be discussed, as well as advantages of using R to collaborate with colleagues in industry and academe through Cooperative Research and Development Agreements (CRADAs), Broad Agency Agreements (BAAs), and working groups associated with professional societies (ASA, DIA, PhUSE).</p>
+</div>
+<div id="reap---r-shiny-exploratory-analysis-platform-in-clinical-pharmacology" class="section level2">
+<h2><span class="header-section-number">3.30</span> <em>REAP - R-Shiny Exploratory Analysis Platform in Clinical Pharmacology</em></h2>
+<p><strong>Qi Liu</strong>, Genentech</p>
+<p><em>Wednesday, 15th August from 16:25 - 16:35</em></p>
+<p>Qi Liu, Christopher Wen, Scott Pivirotto, Jin Jin, Matts Kagedal
+Genentech, Inc., South San Francisco, CA, USA</p>
+<p>REAP (R-Shiny Exploratory Analysis Platform) was developed by the Modeling and Simulation group within the Clinical Pharmacology department at Genentech, Inc., to support exploratory analyses of clinical data. REAP is a web-based, user-friendly, tool providing standard methods and outputs for conducting typical analyses within a clinical pharmacology group. With REAP, a clinical pharmacologist or pharmacometrician can perform Exposure-Response, dose linearity, and concentration-corrected QT analyses, PKPD simulations, NONMEM data quality checks, and PK graphic analyses without writing code. Results can be used to enhance scientific understanding of the relationship between exposure, response, and the PK characteristics of the molecule. In this talk, I will demonstrate how REAP can be used to perform dose linearity and Exposure-Response analyses.</p>
+</div>
+<div id="r-reproducibility-by-containers-and-cloud" class="section level2">
+<h2><span class="header-section-number">3.31</span> <em>R reproducibility by containers and cloud</em></h2>
+<p><strong>Reinhold Koch</strong>, Roche</p>
+<p><em>Wednesday, 15th August from 11:30 - 11:40</em></p>
+<p>R is pretty good in backwards compatibility but still reproducing analysis even given script and data can be a challenge as packages, R, and math libraries keep evolving. www.rocker-project.org offers among other things version-stable R in docker (Rocker) images. A small example will be presented how this allows on any docker runtime environment to execute analysis with highest reproducibility. Such environments are part of all major commercial cloud providers but also allow on-premises installations.</p>
+</div>
+<div id="the-use-of-r-in-the-development-of-physiological-model-for-healthy-growth" class="section level2">
+<h2><span class="header-section-number">3.32</span> <em>The Use of R in the Development of Physiological Model for Healthy Growth</em></h2>
+<p><strong>Rena J. Eudy-Byrne</strong>, Metrum Research Group</p>
+<p><em>Wednesday, 15th August from 13:50 - 14:00</em></p>
+<p>A physiologically-based mathematical model was developed as a series of ordinary differential equations to describe compositional changes (in fat and fat-free mass, FM &amp; FFM) due to metabolizable energy exchanges in babies from birth to 2 years in low-to-middle income countries.1  The objective of this work was to identify potential biomarkers for future intervention studies, identify when to intervene to protect and/or rescue growth in individuals suffering from malnutrition, and to identify which of these individuals would be more or less likely to respond to a nutritional intervention.</p>
+<p>A translation of this model (155 parameters and 26 compartments) using  R and the open-source mrgsolve package2 provided an  efficient platform for  multi-parameter optimization, as required during additional model development and for subsequent simulations. For comparison, a 8.62 seconds simulation with viral and bacterial infections (no interventions) in the R/mrgsolve implementation required 226 seconds in Matlab. Model translation to R also enabled simulations with a Shiny App, allowing users to simulate individual infant phenotypes and infection events and visualize growth and energy levels over time, relative to healthy (WHO) standards.</p>
+<p>The model currently also includes a relatively simple implementation of persistent antibiotic therapy with a potential for inclusion of drug exposure-related effects, i.e. - through a pharmacokinetic (PK) model, to describe effects of antiviral or antibiotic therapy. The challenge to this development is the scarcity of available data describing this therapy in malnourished children that would be needed for model calibration. Further development of the model includes linking to other systems models such Mother-fetus energy exchange or PBPK mother-fetus models, to enable simulations of growth beginning at gestation.</p>
+<p>References:
+1.) Bill &amp; Melinda Gates Foundation Healthy birth, growth and development knowledge integration (HBGDki) project provided access to data and also funded this work. Model was developed by Mike Morimoto and Lyn Powell.
+2.) Kyle T Baron (2018). mrgsolve: Simulate from ODE-Based Population PK/PD and Systems Pharmacology Models. R package version 0.8.12.https://CRAN.R-project.org/package=mrgsolve</p>
+</div>
+<div id="the-largest-shiny-application-in-the-world.-roche.diagnostics.biowarp" class="section level2">
+<h2><span class="header-section-number">3.33</span> <em>The largest Shiny application in the world. Roche.Diagnostics.bioWARP</em></h2>
+<p><strong>Sebastian Wolf</strong>, Roche</p>
+<p><em>Wednesday, 15th August from 11:10 - 11:30</em></p>
+<p>bioWARP (biostatistical Web-Applications and R Procedures) is a Shiny application enabling employees at Roche Diagnostics to create validated reports for regulatory authorities submissions.
+bioWARP enables people using advanced statistical methods, who cannot program R. It builds a connection to the validated R-packages developed at Roche with an easy to use and elegant user interface. Its modular environment can host an unlimited number of such interfaces. bioWARP now consists of tools for reporting reference ranges, equality by linear regression, precision by variance component analysis and homogeneity by inhouse developed equivalence tests .
+bioWARP’s most important feature is the ability to move all statistical evaluations right into PDF reports. These are validated and can directly be used for submission to regulatory authorities.
+bioWARP is called the “largest shiny application in the world” by us as it already consists of 16 tools, has over 100.000 lines of code, &gt;500 buttons and interaction items and is growing and growing and growing.</p>
+</div>
+<div id="ropensci---enabling-open-and-reproducible-research" class="section level2">
+<h2><span class="header-section-number">3.34</span> <em>rOpenSci - enabling open and reproducible research</em></h2>
+<p><strong>Stefanie Butland</strong>, rOpenSci</p>
+<p><em>Wednesday, 15th August from 16:35 - 16:45</em></p>
+<p>The rOpenSci project is a non-profit initiative founded as a grassroots effort in 2011. We have evolved into a truly global community of researchers and data scientists who are R users and developers from a wide range of disciplines. rOpenSci advocates for a culture of open and reproducible research. We do this by creating technical infrastructure in the form of carefully vetted, staff- and community-contributed R software tools that lower barriers to working with scientific data sources on the web. We have developed a highly successful model for peer review of scientific software that provides transparent, constructive and collegial review of R packages.</p>
+<p>Our community is our best asset. We are building social infrastructure in the form of a welcoming and diverse community. rOpenSci.org hosts blog posts by authors and reviewers of onboarded packages to share both functionality and lessons learned; we promote these on social media to bring their work to a wider audience. Our discussion forum, community calls and annual hackathon-flavored unconference are designed to share best practices and to build a trust network for the often challenging discussions about doing research more reproducibly.</p>
+</div>
+<div id="optimization-of-raw-materials-genealogy-in-drug-manufacturing-with-r-shiny-and-d3" class="section level2">
+<h2><span class="header-section-number">3.35</span> <em>Optimization of raw materials genealogy in drug manufacturing with R, Shiny and d3</em></h2>
+<p><strong>Tanya Cashorali</strong>, TCB Analytics</p>
+<p><em>Wednesday, 15th August from 16:15 - 16:25</em></p>
+<p>Failure to thoroughly review discrepancies and deviations in drug manufacturing is consistently one of the top citations in FDA inspectional observations. Learn how a leading biotechnology organization successfully replaced an inefficient, manual inspection process with a genealogy visualization and inspection solution to optimize drug manufacturing quality control. This session will cover implementation approaches and lessons learned in data mapping, technology selection, visualization development, and predictive model generation.</p>
+</div>
+<div id="antibody-characterization-using-next-generation-sequencing-made-easier-with-group-my-abs-shiny-app." class="section level2">
+<h2><span class="header-section-number">3.36</span> <em>Antibody Characterization Using Next Generation Sequencing made easier with Group My Abs shiny app.</em></h2>
+<p><strong>Volha Tryputsen</strong>, Johnson &amp; Johnson</p>
+<p><em>Wednesday, 15th August from 14:00 - 14:10</em></p>
+<p>Next-generation sequencing (NGS), phage display technology and high throughput capacities enables biologists in drug discovery to characterize antibodies (Abs) based on their HCDR3 sequences and further group them into families before moving to hit-to-lead stage of drug discovery and development. This enables diversification of Ab portfolio and insures back up options if Ab candidate fails. However, there was no method or software available in-house to support Ab discovery with capacities to apply biophysical rules to classify the sequences.
+Shiny app “Group My Abs” was developed to apply biophysical properties for Ab characterization to the NGS data. Several Multiple Sequence Alignment algorithms implemented in the app enable sequence comparability. A method was developed to evaluate differences between comparable sequences and subsequently classify sequences into families. The app provides custom-made and interactive data visualization, enables refined Ab classification in a mathematical manner, considerably increases efficiency and insures reproducibility. This all decreases bias and enables informative decision making during the hit-to-lead stage in biologics drug discovery.</p>
+</div>
+<div id="the-drake-r-package-reproducible-data-analysis-at-scale" class="section level2">
+<h2><span class="header-section-number">3.37</span> <em>The drake R package: reproducible data analysis at scale</em></h2>
+<p><strong>Will Landau</strong>, Lilly</p>
+<p><em>Thursday, 16th August from 14:10 - 14:20</em></p>
+<p>The drake package is a general-purpose workflow manager for data-driven tasks in R, with applications in the pharmaceutical industry ranging from tailored medicine to clinical trial simulation and beyond. Drake rebuilds intermediate data objects when their dependencies change, and it skips work when the results are already up to date. Not every runthrough starts from scratch, and completed workflows have tangible evidence of reproducibility. Drake is more scalable than knitr, more thorough than memoization, and more R-focused than other pipeline toolkits such as GNU Make, remake, and snakemake.</p>
+</div>
+<div id="shinyrap---a-framework-for-analysis-and-building-interactivedynamic-reports-using-shinymarkdown" class="section level2">
+<h2><span class="header-section-number">3.38</span> <em>ShinyRAP - a framework for analysis and building interactive/dynamic reports using Shiny/Markdown</em></h2>
+<p><strong>Xiao Ni</strong>, Novartis</p>
+<p><em>Wednesday, 15th August from 15:35 - 15:55</em></p>
+<p>R has become a prominent data science tool, empowered by a fast-growing modern R eco-system. At Novartis, Shiny and markdown have gained a lot of popularity in analyzing, visualizing and reporting of clinical trial data. Traditional report analysis plan (RAP) process was designed to create static table, figure and listings. In this talk, I will use ShinyRAP (a shiny app) to illustrate a novel framework/workflow of planning and executing of both pre-specified and ad-hoc analyses, as well as building dynamic/interactive reports through R/Shiny/Markdown. The app features efficient and organized programming through meta-data and shiny modules, and dynamic display of results via multi-select, grouping and searching, etc. Although motivated from a clinical trial data context, this framework can also be used for other types of data.</p>
+</div>
+<div id="accelerate-personalized-health-care-by-empowering-biomarker-data" class="section level2">
+<h2><span class="header-section-number">3.39</span> <em>Accelerate Personalized Health Care by Empowering Biomarker Data</em></h2>
+<p><strong>Xiuting Mi</strong>, Roche</p>
+<p><em>Thursday, 16th August from 15:45 - 15:55</em></p>
+<p>In Pharmaceutical industry, personalized patient care is about having access to traditional and new data sources including comprehensive diagnostic data, sensor data, real-world data, etc., applying traditional and advanced analytics like machine learning to create meaningful insights, and then realizing value from those insights for smarter and more efficient research and development (R&amp;D) and improving patient access and personalized patient care. Biomarker research is a key component of the PHC Strategy, complementing efforts to access high-dimensional genomics data and conducting appropriated analysis using right tools differentiate from those for current well-established clinical trials. This paper, in perspective of R&amp;D, describes the close collaboration between China Oncology Biomarker Data group (OBD China) and Product Development Biometrics (PDB) expertise, from sample collection, lab process in biomarker stand-alone studies to meaningful results mainly conducted in R, which enables to prioritize molecule development, inform the design of specific trials and identify R&amp;D opportunities for regional diseases.</p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="keynotes.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="talks-chronological.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": false,
+"twitter": false,
+"google": true,
+"linkedin": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": null
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"download": [["rinpharma2018.pdf", "PDF"]],
+"toc": {
+"collapse": "section",
+"scroll_highlight": true
+},
+"search": true
+});
+});
+</script>
+
+</body>
+
+</html>

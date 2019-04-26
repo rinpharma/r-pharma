@@ -28,7 +28,7 @@ params:
     - location
     #- hotel
     - programs
-    - grants
+    #- grants
     #- sponsors
     #- governance
     - contact
@@ -137,9 +137,9 @@ params:
         text: "Github"
 
     - name: "Carson Sievert"
-      affaliation: "RStudio"
+      affaliation: "Sievert Consulting LLC"
       photo: "/img/CarsonSievert.jpg"
-      bio: "Carson is well known as the maintainer of the plotly R package on CRAN."
+      bio: "Carson is a freelance data scientist, well known as the maintainer of the plotly R package on CRAN."
       title: "Plotly"
       link:
         href: "https://cpsievert.me/"

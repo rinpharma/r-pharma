@@ -28,7 +28,7 @@ params:
     - location
     #- hotel
     - programs
-    #- grants
+    - grants
     #- sponsors
     #- governance
     - contact
@@ -43,7 +43,7 @@ params:
     workshops: "Workshops"
     schedule: "Schedule"
     sponsors: "Sponsors"
-    grants: "Scholars"
+    grants: "Diversity scholarships"
     programs: "Programs"
     governance: "Governance"
     contact: "Contact"

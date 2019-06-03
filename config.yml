@@ -24,11 +24,11 @@ params:
     - about
     - keynotes
     - workshops
-    - call4papers
+    #- call4papers
     - location
     #- hotel
     - programs
-    - grants
+    #- grants
     #- sponsors
     #- governance
     - contact

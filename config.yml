@@ -24,7 +24,7 @@ params:
     - about
     - keynotes
     - workshops
-    - call4papers
+    #- call4papers
     - location
     #- hotel
     - programs
@@ -43,7 +43,7 @@ params:
     workshops: "Workshops"
     schedule: "Schedule"
     sponsors: "Sponsors"
-    grants: "Scholars"
+    grants: "Diversity scholarships"
     programs: "Programs"
     governance: "Governance"
     contact: "Contact"

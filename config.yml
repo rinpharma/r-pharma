@@ -101,7 +101,7 @@ params:
       affaliation: "Biogen"
       photo: "/img/MariannaFoos.jpg"
       bio: "Scientific developer specializing in removing roadblocks to data access, with diverse experience independently moving projects forward with a focus on implementation details. Enthusiastic about empowering downstream analysis consumers with training, support and documentation."
-      title: "Title TBD"
+      title: "Breaking the Speed Limit: How R Gets Faster"
       link:
         href: "https://mfoos.github.io/blog/author/marianna-foos.html"
         text: "Blog"

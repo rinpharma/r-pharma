@@ -1,9 +1,9 @@
 
 build:
 	Rscript make_schedule.R ; \
-	hugo
+	hugo --disableFastRender
 
 test:
 	Rscript make_schedule.R ; \
-	hugo server
+	hugo serve --disableFastRender
 

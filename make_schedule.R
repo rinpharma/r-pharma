@@ -6,6 +6,7 @@ schedule <- read_lines(
 
 schedule <- c(
   '<h2 class="section-title">Schedule</h2>',
+  '<h4 class="section-title">DRAFT schedule - speakers, order and rooms are subject to change.</h4>',
   schedule
 )
 

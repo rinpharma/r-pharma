@@ -24,6 +24,7 @@ params:
     - about
     - keynotes
     - workshops
+    - schedule
     #- call4papers
     - location
     #- hotel

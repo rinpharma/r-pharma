@@ -99,7 +99,7 @@ params:
         text: "Blog on R use at the FDA"
 
     - name: "Marianna Foos"
-      affaliation: "Biogen"
+      affaliation: "Bluebird Bio"
       photo: "/img/MariannaFoos.jpg"
       bio: "Scientific developer specializing in removing roadblocks to data access, with diverse experience independently moving projects forward with a focus on implementation details. Enthusiastic about empowering downstream analysis consumers with training, support and documentation."
       title: "Breaking the Speed Limit: How R Gets Faster"

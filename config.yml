@@ -111,7 +111,7 @@ params:
       affaliation: "Harvard"
       photo: "/img/AedinCulhane.jpg"
       bio: " Computational Biologist at Dana-Farber Cancer Institue, Harvard School of Public Health. Her lab maintains ~6 Bioconductor packages."
-      title: "Title TBD"
+      title: "Multi-modal data integration"
       link:
         href: "https://www.hsph.harvard.edu/aedin-culhane/"
         text: "Lab website"

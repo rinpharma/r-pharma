@@ -167,8 +167,8 @@ params:
     - name: "Will Landau"
       affaliation: "Eli Lilly"
       photo: "/img/WillLandau.jpg"
-      bio: "Data analysis can be slow. A round of scientific computation can take several minutes, hours, or even days to complete. After it finishes, if you update your code or data, your hard-earned results may no longer be valid. How much of that valuable output can you keep, and how much do you need to update? How much runtime must you endure all over again?"
-      title: "Pipeline toolkit for reproducibility and high-performance computing"
+      bio: "Machine learning workflows can be difficult to manage. A single round of computation can take several hours to complete, and routine updates to the code and data tend to invalidate hard-earned results. You can enhance the maintainability, hygiene, speed, scale, and reproducibility of such projects with the drake R package. drake resolves the dependency structure of your analysis pipeline, skips tasks that are already up to date, executes the rest with optional distributed computing, and organizes the output so you rarely have to think about data files. This talk demonstrates a deep learning project with drake-powered automation."
+      title: "Machine learning workflow management with drake"
       link:
         href: "https://github.com/ropensci/drake"
         text: "drake website"

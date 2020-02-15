@@ -1,0 +1,20 @@
+{{ define "main" }}
+
+<section class="error section">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-lg-6">
+				<img src="{{`images/about/404-Error-Concept.png` | absURL }}" alt="" class="img-fluid">
+			</div>
+			<div class="col-lg-6">
+				<div class="error-content mt-5 mt-lg-0">
+					<h3>Nothing Found!</h3>
+					<p class="mt-3">Sorry, but nothing matched your search terms. Please try again with some different keywords.Lets search again .</p>
+					<a href="{{ .Site.BaseURL }}" class="btn btn-hero btn-rounded mt-3">Go to home</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+{{ end }}

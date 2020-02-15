@@ -1,0 +1,73 @@
+################################# timer ############################
+timer:
+  enable : true
+  title : "**Count the day** <br>until conference start"
+  content : "Our intensive 2-day business conferences will teach you the specific steps and proven systems you need to
+              implement and grow your business. We hope you’ll join us!"
+  # timer value comes from "homepage.yml" file
+
+################################# Pricing ##########################
+pricing:
+  enable : true
+  titleOutline : "Price"
+  title : "Get your Ticket"
+  content : "Accusantium provident suscipit dicta magni dolor deserunt nam obcaecati non veritatis optio."
+  pricingTable:
+    # pricing table loop
+    - style : "1"
+      title : "Early"
+      price : "70$"
+      icon : "tf-ion-android-bulb"
+      bgImage : "images/bg/page-header.jpg"
+      serviceList:
+        - listItem : "Two Days Ticket"
+        - listItem : "Coffee & Launch"
+        - listItem : "Networking"
+        - listItem : "Certificate"
+        - listItem : "Gift Box"
+        - listItem : "Email listing"
+      button:
+        label : "Get now"
+        link : "#"
+        
+    # pricing table loop
+    - style : "2"
+      title : "Team"
+      price : "250$"
+      icon : "tf-ion-android-hangout"
+      bgImage : "images/bg/page-header.jpg"
+      serviceList:
+        - listItem : "Two Days Ticket"
+        - listItem : "Coffee & Launch"
+        - listItem : "Networking"
+        - listItem : "Certificate"
+        - listItem : "Gift Box"
+        - listItem : "Public ad listing"
+        - listItem : "Email listing"
+      button:
+        label : "Get now"
+        link : "#"
+        
+    # pricing table loop
+    - style : "3"
+      title : "Economic"
+      price : "300$"
+      icon : "tf-ion-android-person"
+      bgImage : "images/bg/page-header.jpg"
+      serviceList:
+        - listItem : "Two Days Ticket"
+        - listItem : "Coffee & Launch"
+        - listItem : "Networking"
+        - listItem : "Certificate"
+        - listItem : "Gift Box"
+        - listItem : "Public ad listing"
+        - listItem : "Dinner Serve"
+        - listItem : "Email listing"
+      button:
+        label : "Get now"
+        link : "#"
+        
+############################## Event ##############################
+event:
+  enable : true
+  # event content comes from "homepage.yml" file

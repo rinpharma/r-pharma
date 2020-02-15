@@ -1,0 +1,58 @@
+{{ define "main" }}
+
+{{ partial "page-title.html" . }}
+
+<section class="speaker-single section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-5">
+        <img src="{{ .Params.Image | absURL }}" alt="{{ .Title }}" class="img-fluid w-100">
+      </div>
+      <div class="col-lg-6 col-md-7">
+        <div class="speaker-single-wrap mt-5 mt-lg-0">
+          <div class="speaker-header mb-4">
+            <h2>{{ .Title }}</h2>
+            <span class="text-color">{{ .Params.Designation }}</span>
+          </div>
+
+          <div class="content">{{ .Content }}</div>
+
+          <h5 class="mb-3 mt-5">Follow Me</h5>
+          <ul class="list-inline social-single">
+            {{ range .Params.Social }}
+            <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+            {{ end }}
+          </ul>
+
+          <h5 class="mt-4">Email</h5>
+          <p>{{ .Params.Email }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="mb-5">
+          <h2>Professional Skills</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      {{ range .Params.skill }}
+      <div class="col-lg-4 col-md-6 mb-5">
+        <div class="skill-item">
+          <i class="{{ .icon }}"></i>
+          <h4 class="mb-3">{{ .title | markdownify }}</h4>
+          <p>{{ .content | markdownify }}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ end }}

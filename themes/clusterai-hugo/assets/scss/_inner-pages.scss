@@ -1,0 +1,86 @@
+// Page Header
+
+
+.page-header{
+	background: url("../images/bg/cta-bg.jpg")no-repeat;
+	background-size: cover;
+	padding: 80px 0px;
+	position: relative;
+
+	.content{
+
+	}
+}
+
+.overly{
+	position: absolute;
+	content:"";
+	left: 0px;
+	top:0px;
+	width: 100%;
+	height: 100%;
+	background: $secondary-color;
+	opacity: .90;
+}
+
+// FAQ
+
+#faqs {
+
+	h4{
+		color: #444;
+	}
+}
+
+// CONTACT PAGE
+// 
+
+
+
+.text-sm-2{
+	font-size: 16px;
+}
+
+.socials-links{
+	a{
+		font-size: 18px;
+		padding: 5px 10px 0px 0px;
+	}
+}
+
+#map{
+	
+	min-height:550px;
+}
+
+.google-map{
+	position: relative;
+}
+.contact-info-block {
+	position: absolute;
+	content:"";
+	left: 30px;
+	top:30px;
+	z-index: 1;
+	background: $white;
+}
+
+// Responsive
+
+
+@include mobile{
+	.latest-blog {
+		padding-top: 100px;
+	}
+}
+
+@include mobile-xs{
+	.latest-blog {
+		padding-top: 100px;
+	}
+}
+@include tablet{
+	.latest-blog {
+		padding-top: 100px;
+	}
+}

@@ -1,0 +1,48 @@
+.footer{
+	background: url("../images/bg/footer-bg.jpg") no-repeat;
+	background-image: cover;
+	padding-bottom: 35px;
+}
+
+.footer-socails{
+	a {
+		padding: 0px 10px;
+		i{
+			font-size: 30px;
+			color: $white;
+		}
+	}
+}
+
+.copy.border-top{
+	border-top: 1px solid rgba(255, 255, 255, 0.04) !important;
+}
+
+
+@include mobile{
+	.sub-form .btn {
+	    position: relative;
+	    margin-top: 16px !important;
+	    border-radius: 5px;
+	     right: 0px;
+	}
+}
+
+@include mobile-xs{
+	.sub-form .btn {
+	    position: relative;
+	    margin-top: 16px !important;
+	    border-radius: 5px;
+	     right: 0px;
+	}
+}
+
+@include tablet{
+	.sub-form .btn {
+	    position: relative;
+	    margin-top: 16px !important;
+	    border-radius: 5px;
+	    right: 0px;
+	}
+}
+

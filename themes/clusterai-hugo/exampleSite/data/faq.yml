@@ -1,0 +1,27 @@
+################################# Faq ####################################
+faq:
+  titleOutline : "Faq"
+  title : "Frequently Asked Question"
+  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis fugit doloribus sunt sapiente,
+            corrupti numquam, earum molestiae iure maxime in nostrum sit facilis nemo. Magnam quam voluptate consequatur
+            inventore numquam?"
+  faqItem:
+    # faq item loop
+    - title : "How to buy a Tickets"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore beatae eius incidunt repudiandae deserunt illum quaerat ipsum rem odio, commodi."
+      
+    # faq item loop
+    - title : "Which payments method are avaliable?"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore beatae eius incidunt repudiandae deserunt illum quaerat ipsum rem odio, commodi."
+      
+    # faq item loop
+    - title : "Is refund is avalaible for valid reason?"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore beatae eius incidunt repudiandae deserunt illum quaerat ipsum rem odio, commodi."
+      
+    # faq item loop
+    - title : "How to buy a Tickets"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore beatae eius incidunt repudiandae deserunt illum quaerat ipsum rem odio, commodi."
+      
+    # faq item loop
+    - title : "When i wil have to reach?"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore beatae eius incidunt repudiandae deserunt illum quaerat ipsum rem odio, commodi."

@@ -1,0 +1,15 @@
+####################### contact info #################
+contactInfo:
+  enable : true
+  title : "Venue location"
+  subtitle : "18 - 21 December, 2019"
+  content : "85 Golden Street, Darlinghurst <br>ERP 2019, United States"
+  email : "info@yourdomain.com"
+
+
+#################### contact form ######################
+form:
+  enable : true
+  title : "Contact for any support!"
+  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, natus."
+  # please add your email in "sendmail.php" file

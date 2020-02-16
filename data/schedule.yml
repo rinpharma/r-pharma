@@ -426,7 +426,7 @@ schedule:
 
     ################################# tab itam loop
     - title : "Day 3"
-      subtitle : "8 Aug ,2019 [08.10am - 08.00pm]"
+      subtitle : "9 Aug ,2019 [08.10am - 08.00pm]"
       tabContentList:
         # tab content list
         - time : "8-9am"
@@ -775,5 +775,3 @@ schedule:
 
           Beat Brew Hall: https://www.beatbrewhall.com/
           "
-
-  

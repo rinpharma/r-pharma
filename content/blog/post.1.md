@@ -6,7 +6,7 @@ description: "this is meta description"
 # page title backgrount image
 bgImage : "images/bg/cta-bg.jpg"
 # post thumb
-image : "images/blog/blog-2.jpg"
+image :
 # Taxonomies
 categories:
   - "Exec update"

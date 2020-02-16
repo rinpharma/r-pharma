@@ -6,7 +6,7 @@ description: "this is meta description"
 # page title backgrount image
 bgImage : "images/bg/cta-bg.jpg"
 # post thumb
-image : "images/blog/blog-1.jpg"
+image :
 # Taxonomies
 categories:
   - "Terms"
@@ -16,7 +16,7 @@ tags:
 type: "post"
 ---
 
-# Key Notes:
+### Key Notes:
 
 * This is a free event brought to you by passionate volunteers
 * By signing up, you agree that R/Pharma assumes no responsibility, and any
@@ -42,7 +42,7 @@ at the event may not be the views of R in Pharma.
 * Event materials are provided on an “as is” basis and R in Pharma makes
 no warranty regarding the accuracy or completeness of those materials.
 
-# Diversity:
+### Diversity:
 
 R/Pharma is dedicated to providing a harassment-free conference experience
 for everyone regardless of gender, sexual orientation, disability or any
@@ -51,7 +51,7 @@ the R Consortium
 code of conduct. https://wiki.r-consortium.org/view/R_Consortium_and_the_R_Community_Code_of_Conduct
 
 
-# Policy Statement of the R in Pharma Conference:
+### Policy Statement of the R in Pharma Conference:
 
 The purpose of the R in Pharma conference is to foster discussion on the use of
 R in the pharmaceutical industry. R in Pharma is not, and hopefully never will
@@ -61,7 +61,8 @@ to participate in the meeting in any role other than as scientists/practitioners
 interested in learning or discussing the application of R in Pharma. All attendees
 are requested to adhere to the spirit of this policy. Please don’t spam attendees.
 
-# Terms
+### Terms
+
 R/Pharma is free event and comes with ABSOLUTELY NO WARRANTY. YOUR PARTICIPATION
 IS AT YOUR SOLE AND EXCLUSIVE RISK. By accepting the invitation to attend and
 registering a ticket, you freely and voluntarily assume all risks. You also
@@ -90,7 +91,8 @@ AND EMPLOYEES, FROM ANY AND ALL LIABILITY ON ACCOUNT OF, OR IN ANY WAY
 RESULTING FROM INJURIES AND DAMAGES IN ANY WAY CONNECTED WITH ANY
 EVENTS OR ACTIVITIES.
 
-# Notes
+### Notes
+
 No confidential information should be disclosed at meetings and no warranty of
 confidentiality is made by the event organizers. Audio Recordings of events
 may be taken by event organizers and general content may be used in discussion

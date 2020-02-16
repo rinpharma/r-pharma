@@ -22,8 +22,8 @@ event:
   enable : true
   titleOutline : "about"
   title : "What is R/Pharma?"
-  imageBG: "images/about/h1-gallery-img-7.jpg"
-  image : "images/about/main-home-img-1.jpg"
+  imageBG: "images/pharma/drugs.jpg"
+  image : "images/pharma/rstudio.png"
   content : "R/Pharma is an <a href='www.r-consortium.org/projects/isc-working-groups'>ISC working group</a>
    under the R Consortium. </br>
 
@@ -40,7 +40,7 @@ cta:
   enable : true
   subtitle : ""
   title : "Get in contact with the organisors"
-  image : "images/banner/rev-slider-09.png"
+  image : "images/pharma/rstudio.png"
   button:
     enable :  true
     label : "Send message"
@@ -256,6 +256,6 @@ cta2:
 blog:
   enable : true
   titleOutline : "Updates"
-  title : "Get the lastest news"
-  content : "Accusantium provident suscipit dicta magni dolor deserunt nam obcaecati non veritatis optio."
+  title : "Get the latest news"
+  content : "Check out the posts below for messages from the organisors."
   # blog content comes from "content/blog" folder

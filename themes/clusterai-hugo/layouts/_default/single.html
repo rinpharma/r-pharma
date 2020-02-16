@@ -22,16 +22,16 @@
                 <h2>{{ .Title | markdownify }}</h2>
               </div>
 
-              <div class="single-post-thumbnail my-4">
+              <!-- <div class="single-post-thumbnail my-4">
                 <img class="img-fluid w-100" src="{{ .Params.Image | absURL }}" alt="{{ .Title | markdownify }}" />
-              </div>
+              </div> -->
 
               <div class="post-blog">
                 <div class="content">
                   {{ .Content }}
                 </div>
                 <!--author info start-->
-                <div class="post-author-info mt-5 border p-4">
+                <!-- <div class="post-author-info mt-5 border p-4">
                   <div class="media">
                     {{ if ne .Params.AuthorImage "" }}
                     <img class="img-fluid mr-3" src="{{ .Params.AuthorImage | absURL }}" alt="{{ .Params.Author }}" />
@@ -41,7 +41,7 @@
                       <p>{{ .Params.AuthorBio | markdownify }}</p>
                     </div>
                   </div>
-                </div>
+                </div> -->
               </div>
             </article>
           </div>

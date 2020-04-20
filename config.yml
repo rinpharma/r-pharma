@@ -10,25 +10,25 @@ params:
   # Conference info
   Name: "R / Pharma"
   Description: "Using R to bring medicines to patients"
-  Date: "August 21, 22, and 23, 2019"
+  Date: "TBD"
   #Price: "Registration closes April 1st" # If your event is free, just comment this line
-  Venue: "Harvard University"
+  #Venue: "Harvard University"
   Address: "Harvard University, CGIS South, Cambridge Street, Cambridge, MA, USA"
-  City:  "Cambridge"
-  State: "MA"
+  #City:  "Cambridge"
+  #State: "MA"
   Images: ["/img/badge.jpg"]
 
   # Active sections on the website to deactivate comment out with '#'
   # you can also change order here and it will reflect on page
   Sections:
     - about
-    - keynotes
-    - workshops
-    - schedule
+    #- keynotes
+    #- workshops
+    #- schedule
     #- call4papers
-    - location
+    #- location
     #- hotel
-    - programs
+    #- programs
     #- grants
     #- sponsors
     #- governance

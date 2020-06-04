@@ -1,0 +1,41 @@
+{{ define "main" }}
+
+{{ partial "page-title.html" . }}
+
+  {{ with .Site.Data.faq.faq }}
+  <section class="section faq">
+    <div class="container">
+      <div class="row justify-content-center mb-5">
+        <div class="col-lg-8">
+          <div class="heading">
+            <span class="stroke-text">{{ .titleOutline }}</span>
+            <h3 class="mb-4 h2 mt-2">{{ .title | markdownify }}</h3>
+            <p>{{ .content | markdownify }}</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          {{ $.Scratch.Set "counter" 0 }}
+          {{ range .faqItem }}
+          {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+          <div class="mb-4">
+            <h4 class="mb-3 border-bottom pb-3">{{$.Scratch.Get `counter`}}. {{ .title | markdownify }}</h4>
+            <p>{{ .content | markdownify }}</p>
+          </div>
+          {{ end }}
+        </div>
+
+        <div class="col-lg-8">
+          <div class="info">
+            <h4 class="mt-5 mb-4">Need Any further Support?</h4>
+            <a href="https://epijim.typeform.com/to/zy7oAM" class="btn btn-hero btn-rounded">Contact us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ end }}
+
+{{ end }}

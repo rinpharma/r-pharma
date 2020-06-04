@@ -1,0 +1,61 @@
+{{ with .Site.Data.schedule.schedule }}
+<section class="section-schedule section">
+  <div class="container">
+    <div class="row section-heading">
+      <div class="col-lg-6">
+        <div class="heading">
+          <span class="stroke-text">{{ .titleOutline }}</span>
+          <div class="pl-90">
+            <h2 class="mt-2">{{ .title | markdownify }}</h2>
+            <p>{{ .content | markdownify }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <nav class="nav nav-pills nav-fill" role="tablist">
+          {{ $.Scratch.Set "counter" 0 }}
+          {{ range $index, $element := .scheduleTab }}
+          {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+          <a class="nav-item nav-link {{ if eq $index 0 }} active {{ end }}" data-toggle="tab" href="#scheduleTab{{$.Scratch.Get `counter`}}"
+            role="tab">
+            <h2>{{ .title | markdownify }}</h2>
+            <p>{{ .subtitle | markdownify }}</p>
+          </a>
+          {{ end }}
+        </nav>
+
+        <div class="tab-content">
+          {{ $.Scratch.Set "counter" 0 }}
+          {{ range $index, $element := .scheduleTab }}
+          {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+          <div class="tab-pane fade {{ if eq $index 0 }} show active {{ end }} " id="scheduleTab{{$.Scratch.Get `counter`}}" role="tabpanel">
+            <ul class="mt-5 time-table pl-0 list-unstyled">
+              {{ range .tabContentList }}
+              <li class="d-lg-flex align-items-center justify-content-between bg-light p-4 mb-3">
+                {{ if ne .time "" }}
+                <h4 class="time text-color">{{ .time }}</h4>
+                {{ end }}
+                <div class="content">
+                  {{ .content | markdownify }}
+                </div>
+                {{ if ne .image "" }}
+                <div class="content-img text-lg-right">
+                  <img src="{{ .image | absURL }}" alt="" class="img-fluid w-25">
+                </div>
+                {{ end }}
+              </li>
+              {{ end }}
+            </ul>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

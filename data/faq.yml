@@ -1,0 +1,25 @@
+################################# Faq ####################################
+faq:
+  titleOutline : "Faq"
+  title : "Frequently Asked Questions"
+  content : "A quick guide to some the important questions we are often asked."
+  faqItem:
+    # faq item loop
+    - title : "How do I get a ticket for 2020?"
+      content : "Details will come soon! Please check back often or use the contact button if you 
+      would like to get in touch with us."
+
+    # faq item loop
+    - title : "What is the mission and history of R/Pharma?"
+      content : "Please check out our first [blog post!](/blog/post.1/)"
+
+    # faq item loop
+    - title: "What's your policy on creating a safe place for attendees?"
+      content: "R/Pharma is dedicated to providing a harassment-free conference
+      experience for everyone regardless of gender, sexual orientation,
+      disability or any feature that distinguishes human beings. For more
+      information, please see the R Consortium code of conduct."
+
+    # faq item loop
+    - title: "Terms and conditions"
+      content: "Terms and conditions statement can be found here [terms and conditions](/terms)."

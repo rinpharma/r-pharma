@@ -1,0 +1,109 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800&display=swap');
+body{
+  font-family: $base-font;
+  font-size: $base-font-size;
+  font-weight: 400;
+  line-height: 25px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: 100%;
+  color: $black-lighter;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+a {
+  color: $black;
+  transition: .3s all;
+  &:hover{
+    color: $primary-color;
+  }
+}
+
+a,
+a:hover,
+button,
+button:focus {
+  transition: all .3s;
+  text-decoration: none;
+  outline: 0;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-weight: 700;
+  color: $black;
+}
+
+
+h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{
+  color: inherit;
+}
+
+h1, .h1 {
+  font-size: 48px;
+}
+
+h2, .h2 {
+  font-size: 36px;
+}
+
+
+h3, .h3 {
+  font-size: 26px;
+}
+
+h4, .h4 {
+  font-size: 22px;
+}
+
+
+h5, .h5 {
+  font-size: 18px;
+}
+
+h6, .h6 {
+  font-size: 16px;
+  
+}
+
+p{
+  line-height: 28px;
+}
+
+
+.lead{
+  line-height: 35px;
+}
+
+
+.text-secondary{
+  color: $secondary-color!important;
+}
+.text-primary{
+  color: $primary-color!important;
+}
+
+.subtitle{
+  font-family: $base-font;
+  text-transform: capitalize;
+}
+
+.lg-title{
+  font-size:62px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+
+

@@ -1,0 +1,30 @@
+{{ with .Site.Data.homepage.event }}
+<section class="section about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5">
+        <div class="about-img position-relative">
+          <img src="{{ .imageBG| absURL }}" alt="" class="img-fluid w-100">
+          <div class="img-block">
+            <img src="{{ .image | absURL }}" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-7">
+        <div class="about-content-wrap mt-5 mt-lg-0">
+          <span class="stroke-text">{{ .titleOutline }}</span>
+          <div class="ml-90">
+            <h2 class="text-lg mb-3 mt-3">{{ .title | markdownify }} </h2>
+            <p>{{ .content | markdownify }}</p>
+            {{ if .button.enable }}
+            {{ with .button }}
+            <a href="{{ .link | absURL }}" class="btn btn-hero btn-rounded mt-3">{{ .label }}</a>
+            {{ end}}
+            {{ end}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

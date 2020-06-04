@@ -23,7 +23,7 @@ event:
   titleOutline : "about"
   title : "What is R/Pharma?"
   imageBG: "images/pharma/drugs.jpg"
-  image : "images/pharma/rstudio.png"
+  image : "images/pharma/r-pharma-conf-example.jpg"
   content : "R/Pharma is an <a href='www.r-consortium.org/projects/isc-working-groups'>ISC working group</a>
    under the R Consortium. </br>
 
@@ -40,7 +40,7 @@ cta:
   enable : true
   subtitle : ""
   title : "Get in contact with the organisors"
-  image : "images/pharma/rstudio.png"
+  image : "images/pharma/quino-al-4SNUcHPiC8c-unsplash.jpg"
   button:
     enable :  true
     label : "Send message"

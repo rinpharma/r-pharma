@@ -253,7 +253,7 @@ cta2:
   enable : true
   image : "images/bg/map-1025845_1280.jpg"
   title : "Virtual Conference"
-  date : "12 - 16th August, 2020"
+  date : "12 - 16th October, 2020"
   content : "R/Pharma 2020 will be a virtual conference - Stay tuned for details"
   button:
     enable : false

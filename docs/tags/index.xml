@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on R/Pharma</title>
+    <link>http://rinpharma.com/tags/</link>
+    <description>Recent content in Tags on R/Pharma</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 03 Jun 2020 20:57:25 +0000</lastBuildDate>
+    
+	<atom:link href="http://rinpharma.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>motivation</title>
+      <link>http://rinpharma.com/tags/motivation/</link>
+      <pubDate>Wed, 03 Jun 2020 20:57:25 +0000</pubDate>
+      
+      <guid>http://rinpharma.com/tags/motivation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>update</title>
+      <link>http://rinpharma.com/tags/update/</link>
+      <pubDate>Wed, 03 Jun 2020 20:57:25 +0000</pubDate>
+      
+      <guid>http://rinpharma.com/tags/update/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

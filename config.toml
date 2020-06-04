@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "http://rinpharma.com"
+baseURL = "https://rinpharma.com"
 languageCode = "en-us"
 title = "R/Pharma"
 theme = "clusterai-hugo"

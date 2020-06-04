@@ -1,0 +1,17 @@
+<section class="page-header" style="background-image: url('{{ .Params.BgImage | absURL }}'), url('{{`images/bg/cta-bg.jpg` | absURL }}');">
+  <div class="overly"></div>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="content text-center">
+          <h1 class="mb-3 text-white text-capitalize letter-spacing">{{ .Title }}</h1>
+          <div class="divider mx-auto mb-4 bg-white"></div>
+          <ul class="list-inline">
+            <li class="list-inline-item"><a href="{{ .Site.BaseURL }}">{{ .Site.Params.Home }}</a> /</li>
+            <li class="list-inline-item">{{ .Title }}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

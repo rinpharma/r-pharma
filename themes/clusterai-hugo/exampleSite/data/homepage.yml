@@ -1,0 +1,177 @@
+############################# banner ################################
+banner:
+  title : "The future <br>& Tech Expo"
+  date : "November 12, at 10.00am"
+  button:
+    enable : "Discover more"
+    label : "Discover more"
+    link : "service"
+
+########################## Counter #################################
+counter:
+  enable : true
+  title : "**Count the day** <br> until conference start"
+  # set timer
+  year: "2020"
+  month: "09"
+  day: "01"
+  hour: "01"
+
+############################## Event ##############################
+event:
+  enable : true
+  titleOutline : "event"
+  title : "The New Era of Tech Companies"
+  imageBG: "images/about/h1-gallery-img-7.jpg"
+  image : "images/about/main-home-img-1.jpg"
+  content : "Lorem ipsum proin gravida nibh vel velit auctor aliquet. Aeneansollicitudin, lorem quis bibendum
+              auctonisi elit consequat ipsum nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate
+              cursusa sit nibh vel velit."
+  button:
+    enable : true
+    label : "Discover More"
+    link : "service"
+
+######################### Call to action #########################
+cta:
+  enable : true
+  subtitle : "10% Sale offer for early birds"
+  title : "Meet top **digital masters** <br>& influencers in a unique **3-days** experience."
+  image : "images/banner/rev-slider-09.png"
+  button:
+    enable :  true
+    label : "get ticket"
+    link: "pricing"
+
+############################# Feature ###########################
+feature:
+  enable: true
+  featureItem: 
+    # feature item loop
+    - title : "Valuable Insight"
+      icon : "tf-ion-android-microphone"
+      content : "Events Drinks and Dancing are hosting an After Party and YOU ARE INVITED!!"
+      
+    # feature item loop
+    - title : "Global Audience"
+      icon : "tf-ion-android-globe"
+      content : "Starting a mentoring program might be the closest you'll ever get to making a business decision that has exclusively positive impact."
+      
+    # feature item loop
+    - title : "Great Community"
+      icon : "tf-ion-android-share"
+      content : "Networking is the exchange of information and ideas among people with a common profession or special interest, usually in an informal social setting."
+
+####################### Schedule #############################
+schedule:
+  enable : true
+  # schedule data comes from "schedule.yml" file
+
+####################### pricing #############################
+pricing:
+  enable : true
+  # pricing data comes from "pricing.yml" file
+
+########################## speaker ##########################
+speaker:
+  enable : true
+  titleOutline : "Speakers"
+  title : "Who're speaking"
+  content : "Accusantium provident suscipit dicta magni dolor deserunt nam obcaecati non veritatis optio."
+  # speaker content comes from "content/speaker" folder
+
+######################### sponsor ############################
+sponsor:
+  enable :  true
+  titleOutline : "Sponsors"
+  title : "Amazing Partners & Sponsors"
+  sponsorGroup:
+    ############################ sponsor group loop
+    - title : "Amazing Partners & Sponsors"
+      sponsor:
+        # sponcor loop
+        - logo : "images/clients/client-img-1.png"
+          link : "#"
+          
+        # sponcor loop
+        - logo : "images/clients/client-img-2.png"
+          link : "#"
+          
+        # sponcor loop
+        - logo : "images/clients/client-img-3.png"
+          link : "#"
+          
+        # sponcor loop
+        - logo : "images/clients/client-img-4.png"
+          link : "#"
+          
+        # sponcor loop
+        - logo : "images/clients/client-img-5.png"
+          link : "#"
+          
+    ############################ sponsor group loop
+    - title : "Platinum Sponsors"
+      sponsor:
+        # sponcor loop
+        - logo : "images/clients/client-img-6.png"
+          link : "#"
+          
+        # sponcor loop
+        - logo : "images/clients/client-img-7.png"
+          link : "#"
+          
+        # sponcor loop
+        - logo : "images/clients/client-img-8.png"
+          link : "#"
+          
+        # sponcor loop
+        - logo : "images/clients/client-img-9.png"
+          link : "#"
+
+        # sponcor loop
+        - logo : "images/clients/client-img-1.png"
+          link : "#"
+          
+        # sponcor loop
+        - logo : "images/clients/client-img-2.png"
+          link : "#"
+          
+        # sponcor loop
+        - logo : "images/clients/client-img-3.png"
+          link : "#"
+          
+        # sponcor loop
+        - logo : "images/clients/client-img-4.png"
+          link : "#"
+          
+        # sponcor loop
+        - logo : "images/clients/client-img-5.png"
+          link : "#"
+  
+  # call to action in sponsor
+  cta:
+    enable : true
+    title : "Want to be a sponsor ?"
+    #button
+    label : "apply now"
+    link : "#"
+
+################################ call to action 2 ########################
+cta2:
+  enable : true
+  image : "images/bg/cta-bg.jpg"
+  title : "Venue location"
+  date : "18 - 21 December, 2019"
+  content : "85 Golden Street, Darlinghurst <br>ERP 2019, United States"
+  button: 
+    enable : true
+    label : "View Map location"
+    link : "contact"
+
+############################### Blog ######################################
+blog:
+  enable : true
+  titleOutline : "News"
+  title : "Latest News"
+  content : "Accusantium provident suscipit dicta magni dolor deserunt nam obcaecati non veritatis optio."
+  # blog content comes from "content/blog" folder

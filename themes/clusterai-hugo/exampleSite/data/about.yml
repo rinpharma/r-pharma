@@ -1,0 +1,46 @@
+################## about #################################
+about:
+  enable : true
+  image : "images/bg/ctg.jpg"
+  title : "Inovation & <span class=\"text-color\">Inspiration</span> Connect People"
+  content : "The Event Company is an event design and production company that specializes in corporate and social events as well as non-profit fundraisers. We consider ourselves experts when it comes to event fundraising and public/media relations and offer consultation services to our clients to help make their event a sensational success."
+################## sponsor ###############################
+sponsor:
+  enable : true
+  # sponsor data comes from "homepage.yml" file
+
+
+################## Feature ##############################
+feature:
+  enable : true
+  subtitle : "10% Sale offer for early birds"
+  title : "Meet top <span class=\"text-color\">digital masters </span> & influencers in a unique <span class=\"text-color\">3-days</span> experience."
+  button:
+    enable : true
+    label : "Get ticket"
+    link : "pricing"
+  
+  featureItem : 
+    # feature item loop
+    - bgColor : "info" # bootstrap bg-info color
+      title : "Global Audience"
+      icon : "tf-ion-android-globe"
+      content : "Starting a mentoring program might be the closest you'll ever get."
+      
+    # feature item loop
+    - bgColor : "dark" # bootstrap bg-dark color
+      title : "Valuable Insight"
+      icon : "tf-ion-android-microphone"
+      content : "Starting a mentoring program might be the closest you'll ever get."
+      
+    # feature item loop
+    - bgColor : "orange" # bootstrap bg-orange color
+      title : "Global Audience"
+      icon : "tf-ion-android-globe"
+      content : "Starting a mentoring program might be the closest you'll ever get."
+      
+    # feature item loop
+    - bgColor : "secondary" # bootstrap bg-secondary color
+      title : "Global Audience"
+      icon : "tf-ion-android-microphone"
+      content : "Starting a mentoring program might be the closest you'll ever get."

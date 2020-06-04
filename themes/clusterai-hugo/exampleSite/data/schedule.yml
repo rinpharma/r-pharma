@@ -1,0 +1,149 @@
+schedule:
+  enable : true
+  titleOutline : "schedule"
+  title : "Topic Discussion"
+  content : "Accusantium provident suscipit dicta magni dolor deserunt nam obcaecati non veritatis option."
+  scheduleTab:
+    ################################# tab itam loop
+    - title : "Day 1"
+      subtitle : "13 Nov ,2019 [09.00am - 04.00pm]"
+      tabContentList:
+        # tab content list
+        - time : "9.00am"
+          image : "images/about/wordpress.png"
+          content : "
+          
+          ### Introduction of material Design
+
+          ###### By Risabh moinul
+
+          CEo of themefisher
+          "
+          
+        # tab content list
+        - time : "9.00am"
+          image : "images/about/big-data.png"
+          content : "
+          
+          ### Marketing Matters in design area
+
+          ###### By Risabh moinul
+
+          CEo of themefisher
+          "
+          
+        # tab content list
+        - time : "9.00am"
+          image : "images/about/lunch.jpg"
+          content : "
+          
+          ### Launch Break
+
+          ###### By Risabh moinul
+
+          CEo of themefisher
+          "
+          
+        # tab content list
+        - time : "2.00pm"
+          image : "images/about/creativity.jpg"
+          content : "
+          
+          ### Cultures of Creativity
+
+          ###### By Risabh moinul
+
+          CEo of themefisher
+          "
+          
+    ################################# tab itam loop
+    - title : "Day 2"
+      subtitle : "14 Nov ,2019 [09.00am - 04.00pm]"
+      tabContentList:
+        # tab content list
+        - time : "2.00pm"
+          image : "images/about/creativity.jpg"
+          content : "
+          
+          ### Cultures of Creativity
+
+          ###### By Risabh moinul
+
+          CEo of themefisher
+          "
+
+        # tab content list
+        - time : "9.00am"
+          image : "images/about/wordpress.png"
+          content : "
+          
+          ### Launch Break
+
+          ###### By Risabh moinul
+
+          CEo of themefisher
+          "
+          
+        # tab content list
+        - time : "9.00am"
+          image : "images/about/big-data.png"
+          content : "
+          
+          ### Marketing Matters in design area
+
+          ###### By Risabh moinul
+
+          CEo of themefisher
+          "
+          
+    ################################# tab itam loop
+    - title : "Day 3"
+      subtitle : "15 Nov ,2019 [09.00am - 04.00pm]"
+      tabContentList:
+        # tab content list
+        - time : "9.00am"
+          image : "images/about/big-data.png"
+          content : "
+          
+          ### Marketing Matters in design area
+
+          ###### By Risabh moinul
+
+          CEo of themefisher
+          "
+          
+        # tab content list
+        - time : "9.00am"
+          image : "images/about/lunch.jpg"
+          content : "
+          
+          ### Launch Break
+
+          ###### By Risabh moinul
+
+          CEo of themefisher
+          "
+
+        # tab content list
+        - time : "9.00am"
+          image : "images/about/wordpress.png"
+          content : "
+          
+          ### Introduction of material Design
+
+          ###### By Risabh moinul
+
+          CEo of themefisher
+          "
+          
+        # tab content list
+        - time : "2.00pm"
+          image : "images/about/creativity.jpg"
+          content : "
+          
+          ### Cultures of Creativity
+
+          ###### By Risabh moinul
+
+          CEo of themefisher
+          "

@@ -1,0 +1,42 @@
+{{ define "main" }}
+
+{{ partial "page-title.html" . }}
+
+<!-- timer -->
+{{ if .Site.Data.pricing.timer.enable }}
+<section class="section">
+  <div class="container">
+    <div class="position-relative">
+      <div class="row align-items-center">
+        <div class="col-lg-6 ">
+          {{ with .Site.Data.pricing.timer }}
+          <div class="counter-stat">
+            <h2 class="mb-4">{{ .title | markdownify }}</h2>
+            <p>{{ .content | markdownify }}</p>
+          </div>
+          {{ end }}
+        </div>
+        {{ with .Site.Data.homepage.counter }}
+        <div id="simple-timer" class="syotimer" data-year="{{ .year }}" data-month="{{ .month }}" data-day="{{ .day }}"
+        data-hour="{{ .hour }}"></div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+<!-- /timer -->
+
+<!-- pricing -->
+{{ if .Site.Data.pricing.pricing.enable }}
+{{ partial "pricing.html" . }}
+{{ end }}
+<!-- /pricing  -->
+
+<!-- event  -->
+{{ if .Site.Data.pricing.event.enable }}
+{{ partial "event.html" . }}
+{{ end }}
+<!-- /event -->
+
+{{ end }}

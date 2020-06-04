@@ -1,0 +1,38 @@
+{{ with .Site.Data.pricing.pricing }}
+<section class="section section-pricing">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="heading mb-5">
+          <span class="stroke-text">{{ .titleOutline }}</span>
+          <div class="pl-90">
+            <h2 class="text-white mt-3">{{ .title | markdownify }}</h2>
+            <p class="text-white-50">{{ .content | markdownify }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center align-items-center">
+      {{ range .pricingTable }}
+      <div class="col-lg-4 col-md-6">
+        <div class="package style-{{ .style }} bg-white mb-5 mb-lg-0">
+          <div class="price-header mb-4" style="background-image: url('{{ .bgImage | absURL }}');">
+            <i class="{{ .icon }}"></i>
+            <h2 class="mt-4 text-white">{{ .price }}</h2>
+          </div>
+          <h6 class="pname">{{ .title }}</h6>
+          <ul class="list-unstyled ">
+            {{ range .serviceList}}
+            <li>{{ .listItem }}</li>
+            {{ end }}
+          </ul>
+          {{ with .button }}
+          <a href="{{ .link | safeURL }}" class="btn btn-secondary btn-rounded mt-3 mb-5">{{ .label }}</a>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

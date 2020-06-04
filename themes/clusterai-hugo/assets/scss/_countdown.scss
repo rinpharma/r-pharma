@@ -1,0 +1,123 @@
+.counter-wrapper{
+	margin-top: -70px;
+}
+
+.counter-inner {
+	padding: 50px;
+	position: relative;
+
+	&:before {
+		position: absolute;
+		content: "";
+		left: -5%;
+		top: 0;
+		width: 200%;
+		height: 100%;
+		background: $white;
+		border-radius: 100px 0px 0px 100px;
+		box-shadow: 0 15px 38px 0 rgba(0, 0, 0, 0.1);
+	}
+
+	.counter-stat {
+		h3 {
+			font-size: 80px;
+			line-height: 1;
+		}
+	}
+
+	.syotimer {
+		position: relative;
+		z-index: 1;
+	}
+}
+
+.font-weight-light {
+	font-weight: 300;
+}
+
+.syotimer.large .syotimer-cell {
+	height: 100px;
+	width: 100px;
+}
+
+.syotimer-cell {
+	display: inline-block;
+	height: 100px;
+	width: 115px;
+	border-radius: 3px;
+	background: rgba(255, 255, 255, .7);
+	text-align: center;
+	padding-top: 15px;
+	margin-right: 10px;
+}
+
+.syotimer-cell__unit {
+	text-transform: capitalize;
+	color: $gray;
+}
+
+.syotimer-cell__value {
+	font-weight: 800;
+	font-size: 45px;
+	line-height: 45px;
+	color: $black;
+}
+
+.syotimer-cell_type_day .syotimer-cell__value {
+	color: $primary-color;
+}
+
+
+
+@include mobile{
+	.syotimer-cell{
+		width: 46%;
+		margin-bottom: 20px;
+	}
+
+	.syotimer-cell__value {
+	    font-size: 69px;
+	    line-height: 70px;
+	}
+
+	.counter-inner:before {
+	    left: 0%;
+	}
+
+	.counter-stat h2{
+		font-size: 32px;
+	}
+}
+
+@include mobile-xs{
+	.syotimer-cell{
+		width: 46%;
+		margin-bottom: 20px;
+	}
+	.counter-inner:before {
+	    left: 0%;
+	}
+	.counter-stat h2{
+		font-size: 32px;
+	}
+
+}
+
+@include tablet{
+	.syotimer-cell{
+		width: 46%;
+		margin-bottom: 20px;
+	}
+
+	.syotimer-cell__value {
+	    font-size: 69px;
+	    line-height: 70px;
+	}
+
+	.counter-inner:before {
+	    left: 0%;
+	}
+	.counter-stat h2{
+		font-size: 32px;
+	}
+}

@@ -1,0 +1,62 @@
+.section-banner {
+  min-height: 700px;
+  position: relative;
+  background: #eee;
+  background-repeat: no-repeat;
+  background-position: 65% 50%;
+  background-size: cover;
+
+  .banner-content {
+    h1 {
+      font-size: 100px;
+      line-height: 1.2;
+      letter-spacing: -.04em;
+
+      @include desktop {
+        font-size: 80px;
+      }
+
+      @include tablet {
+        font-size: 60px;
+      }
+    }
+
+    span {
+      color: #444;
+      font-size: 18px;
+    }
+  }
+}
+
+.banner-img {
+  position: absolute;
+  right: -160px;
+  top: 0px;
+}
+
+.divider {
+  width: 120px;
+  height: 6px;
+  background: $primary-color;
+  display: block;
+}
+
+
+@include mobile{
+  .section-banner {
+    background: #eee !important;
+    min-height: 500px;
+  }
+}
+@include mobile-xs{
+  .section-banner {
+    background: #eee !important;
+    min-height: 400px;
+  }
+}
+@include tablet{
+  .section-banner {
+    background: #eee !important;
+    min-height: 515px;
+  }
+}

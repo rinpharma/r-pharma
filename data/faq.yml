@@ -19,3 +19,7 @@ faq:
       experience for everyone regardless of gender, sexual orientation,
       disability or any feature that distinguishes human beings. For more
       information, please see the R Consortium code of conduct."
+
+    # faq item loop
+    - title: "Terms and conditions"
+      content: "Terms and conditions statement can be found here [terms and conditions](/terms)."

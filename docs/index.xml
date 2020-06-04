@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R/Pharma</title>
-    <link>http://rinpharma.com/</link>
+    <link>https://rinpharma.com/</link>
     <description>Recent content on R/Pharma</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 03 Jun 2020 20:57:25 +0000</lastBuildDate>
     
-	<atom:link href="http://rinpharma.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rinpharma.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The what and the why for R/Pharma</title>
-      <link>http://rinpharma.com/blog/post.1/</link>
+      <link>https://rinpharma.com/blog/post.1/</link>
       <pubDate>Wed, 03 Jun 2020 20:57:25 +0000</pubDate>
       
-      <guid>http://rinpharma.com/blog/post.1/</guid>
+      <guid>https://rinpharma.com/blog/post.1/</guid>
       <description>By design, R / Pharma is deliberately a smaller conference in terms of attendance in order to encourage maximum opportunities for direct interaction with speakers.</description>
     </item>
     
     <item>
       <title>Terms and Conditions</title>
-      <link>http://rinpharma.com/terms/</link>
+      <link>https://rinpharma.com/terms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://rinpharma.com/terms/</guid>
+      <guid>https://rinpharma.com/terms/</guid>
       <description>This is a free event brought to you by passionate volunteers By signing up, you agree that R/Pharma assumes no responsibility, and any costs, annoyances or catastrophic events incurred due to attending this conference are yours and yours alone We’ll take some photos and audio recordings of the talks.</description>
     </item>
     

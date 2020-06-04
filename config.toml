@@ -6,6 +6,9 @@ theme = "clusterai-hugo"
 summaryLength = "10"
 paginate = 4
 
+## deploy to docs for github pages
+publishDir = "docs"
+
 [outputs]
   home = ["HTML", "AMP", "RSS", "JSON"]
 

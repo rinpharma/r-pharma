@@ -1,7 +1,7 @@
 ############################# banner ################################
 banner:
   title : "R/Pharma <br>Conference"
-  date : "24th-26th, August, 2020"
+  date : "12th-16th, October, 2020"
   button:
     enable : true
     label : "Read the FAQ"
@@ -13,8 +13,8 @@ counter:
   title : "**Count the days** <br> until conference start"
   # set timer
   year: "2020"
-  month: "08"
-  day: "24"
+  month: "10"
+  day: "12"
   hour: "09"
 
 ############################## Event ##############################
@@ -67,7 +67,7 @@ feature:
 
 ####################### Schedule #############################
 schedule:
-  enable : true
+  enable : false
   # schedule data comes from "schedule.yml" file
 
 ####################### pricing #############################
@@ -77,7 +77,7 @@ pricing:
 
 ########################## speaker ##########################
 speaker:
-  enable : true
+  enable : false
   titleOutline : "Previous Speakers"
   title : "Who're speaking"
   content : "The 2020 speaker list is still being prepared. Until that's ready,
@@ -95,15 +95,39 @@ exec:
   execItem:
 
     # execItem item loop
-    - name : "Harvey Lieberman"
-      affiliation : "Sanofi"
+    - name : "Paulo Bargo"
+      affiliation : "Janssen"
+
+    # execItem item loop
+    - name : "James Black"
+      affiliation : "Roche / Genentech"
+
+    # execItem item loop
+    - name : "Michael Blanks"
+      affiliation : "Beigene"
 
     # execItem item loop
     - name : "Phil Bowsher"
       affiliation : "RStudio"
 
     # execItem item loop
-    - name : "James Black"
+    - name : "Bella Feng"
+      affiliation : "KitePharma, A Gilead Company"
+
+    # execItem item loop
+    - name : "Elizabeth Hess"
+      affiliation : "IQSS Harvard University"
+
+    # execItem item loop
+    - name : "Ellis Hughes"
+      affiliation : "Fred Hutch"
+
+    # execItem item loop
+    - name : "Devin Incerti"
+      affiliation : "Roche / Genentech"
+
+    # execItem item loop
+    - name : "Reinhold Koch"
       affiliation : "Roche / Genentech"
 
     # execItem item loop
@@ -111,8 +135,16 @@ exec:
       affiliation : "Merck"
 
     # execItem item loop
-    - name : "Elena Rantou"
-      affiliation : "FDA"
+    - name : "Michael Lawrence"
+      affiliation : "Roche / Genentech"
+
+    # execItem item loop
+    - name : "Min Lee"
+      affiliation : "Amgen"
+
+    # execItem item loop
+    - name : "Harvey Lieberman"
+      affiliation : "Novartis"
 
     # execItem item loop
     - name : "Melvin Munsaka"
@@ -123,44 +155,20 @@ exec:
       affiliation : "Eli Lilly"
 
     # execItem item loop
+    - name : "Elena Rantou"
+      affiliation : "FDA"
+
+    # execItem item loop
     - name : "Paul Schuette"
       affiliation : "FDA"
 
     # execItem item loop
-    - name : "Michael Blanks"
-      affiliation : "Beigene"
-
-    # execItem item loop
-    - name : "Min Lee"
-      affiliation : "Amgen"
-
-    # execItem item loop
-    - name : "Reinhold Koch"
-      affiliation : "Roche / Genentech"
-
-    # execItem item loop
-    - name : "Paulo Bargo"
-      affiliation : "Janssen"
+    - name : "John Sims"
+      affiliation : "Pfizer"
 
     # execItem item loop
     - name : "Volha Tryputsen"
       affiliation : "Janssen"
-
-    # execItem item loop
-    - name : "Elizabeth Hess"
-      affiliation : "IQSS Harvard University"
-
-    # execItem item loop
-    - name : "John Sims"
-      affiliation : "Pfizer (& Program Committee link)"
-
-    # execItem item loop
-    - name : "Bella Fang"
-      affiliation : "KitePharma, A Gilead Company (& Program Committee link)"
-
-    # execItem item loop
-    - name : "Michael Lawrence"
-      affiliation : "Roche/Genentech (& R Foundation link)"
 
 
 
@@ -245,8 +253,8 @@ cta2:
   enable : true
   image : "images/bg/tsai.jpg"
   title : "Conference venue"
-  date : "24 - 26th August, 2020"
-  content : "Tsai Auditorium<br>1737 Cambridge St<br>Cambridge, United States"
+  date : "12 - 16th August, 2020"
+  content : "R/Pharma 2020 will be a virtual conference - Stay tuned for details"
   button:
     enable : false
     label : "View Map location"

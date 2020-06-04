@@ -57,17 +57,19 @@ publishDir = "docs"
 
     [[menu.main]]
     parent = "Menu"
+    weight = 1
     name = "Blog"
     URL = "blog"
 
-    [[menu.main]]
-    parent = "Menu"
-    name = "Schedule"
-    URL = "schedule"
+#    [[menu.main]]
+#    parent = "Menu"
+#    name = "Schedule"
+#    URL = "schedule"
 
 
     [[menu.main]]
     parent = "Menu"
+    weight = 9
     name = "Contact"
     URL = "https://epijim.typeform.com/to/zy7oAM"
 

@@ -1,4 +1,4 @@
-baseurl: "http://rinpharma.com"
+baseurl: "https://rinpharma.com"
 title: "R/Pharma"
 canonifyurls: true
 theme: "hugo-conference"

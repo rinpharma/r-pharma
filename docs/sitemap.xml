@@ -1,20 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://rinpharma.com/categories/</loc>
-    <priority>0</priority>
+    <loc>https://rinpharma.com/categories/</loc>
   </url>
   
   <url>
-    <loc>http://rinpharma.com/</loc>
-    <priority>0</priority>
+    <loc>https://rinpharma.com/</loc>
   </url>
   
   <url>
-    <loc>http://rinpharma.com/tags/</loc>
-    <priority>0</priority>
+    <loc>https://rinpharma.com/tags/</loc>
   </url>
   
 </urlset>

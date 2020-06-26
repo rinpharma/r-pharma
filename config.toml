@@ -78,7 +78,7 @@ publishDir = "docs"
 logo = "images/logotext_small.png"
 home = "Home"
 # Meta data
-description = "R/Pharma - 2020 Conference for practicioners of R in the Pharmaceutical Industry"
+description = "R/Pharma - 2020 Conference for practitioners of R in the Pharmaceutical Industry"
 author = "R/Pharma"
 # google map
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"

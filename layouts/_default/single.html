@@ -1,0 +1,55 @@
+{{ define "main" }}
+
+{{ partial "page-title.html" . }}
+
+<section class="blog section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 pr-lg-5">
+        <div class="row">
+          <div class="col-md-12">
+            <article class="post">
+              <div class="post-header">
+                <!-- tags and share start-->
+                <div class="meta-row mb-3">
+                  <div class="tags">
+                    {{ range .Params.Tags }}
+                    <a href="{{ "tags/" | absURL }}{{ . | lower }}">{{ . }}</a>
+                    {{ end }}
+                  </div>
+                </div>
+                <!-- tags and share end-->
+                <h2>{{ .Title | markdownify }}</h2>
+              </div>
+
+              <div class="single-post-thumbnail my-4">
+                <img class="img-fluid w-100" src="{{ .Params.Image | absURL }}" alt="{{ .Title | markdownify }}" />
+              </div>
+
+              <div class="post-blog">
+                <div class="content">
+                  {{ .Content }}
+                </div>
+                <!--author info start-->
+                <!-- <div class="post-author-info mt-5 border p-4">
+                  <div class="media">
+                    {{ if ne .Params.AuthorImage "" }}
+                    <img class="img-fluid mr-3" src="{{ .Params.AuthorImage | absURL }}" alt="{{ .Params.Author }}" />
+                    {{ end }}
+                    <div class="media-body author-details">
+                      <h5>{{ .Params.Author }}</h5>
+                      <p>{{ .Params.AuthorBio | markdownify }}</p>
+                    </div>
+                  </div>
+                </div> -->
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+      {{ partial "blog-sidebar.html" . }}
+    </div>
+  </div>
+</section>
+
+{{ end }}

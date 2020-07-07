@@ -2,13 +2,11 @@
 title: "The what and the why for R/Pharma"
 date: 2020-06-03T20:57:25
 draft: false
-description: "The what and the why for R/Pharma"
+description: "this is meta description"
 # page title backgrount image
 bgImage : "images/bg/cta-bg.jpg"
 # post thumb
-image : "images/blog/felicia-buitenwerf-5yn5rGI5IUw-unsplash.jpg"
-# about author
-author: "R/Pharma"
+image :
 # Taxonomies
 categories:
   - "Exec update"

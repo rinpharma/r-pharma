@@ -4,9 +4,11 @@ date: 2020-06-03T20:57:25
 draft: false
 description: "this is meta description"
 # page title backgrount image
-bgImage : "images/bg/cta-bg.jpg"
+bgImage : "images/blog/felicia-buitenwerf-5yn5rGI5IUw-unsplash_small.png"
 # post thumb
 image :
+# about author
+author: "R/Pharma"
 # Taxonomies
 categories:
   - "Exec update"

@@ -6,7 +6,7 @@ description: "this is meta description"
 # page title backgrount image
 bgImage : "images/blog/felicia-buitenwerf-5yn5rGI5IUw-unsplash_small.png"
 # post thumb
-image :
+image : "images/blog/felicia-buitenwerf-5yn5rGI5IUw-unsplash_small.png"
 # about author
 author: "R/Pharma"
 # Taxonomies

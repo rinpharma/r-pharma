@@ -41,3 +41,5 @@ To apply, please submit the form found at this [link](https://rinpharmaconf.type
 There are 5-10 minute long talks that are scheduled alongside talks by invited speakers. We are looking for interesting topics and engaging speakers on the entire drug development process, medical devices and other pharma related topics.
 
 APPLY NOW!
+
+By participating in R/Pharma 2020, you consent to audio and video recording by any means and form of your workshop, presentation, lecture or demonstration as a speaker or as an attendee.  This can include the use of your name, photograph and biographical information in connection with reproduction and dissemination of the presentation. Presenters are solely accountable for the content within their presentation and are expected to comply with R/Pharma [terms and conditions](/terms).

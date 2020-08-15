@@ -46,6 +46,17 @@ cta:
     label : "Send message"
     link: "https://epijim.typeform.com/to/zy7oAM"
 
+######################### Call to action #########################
+cta3:
+  enable : true
+  subtitle : "Please submit a paper before August 31st"
+  title : "Call for papers"
+  image : "images/pharma/richard-waterworth-pNBZAofGcgU-unsplash_small.png"
+  button:
+    enable :  true
+    label : "call for papers"
+    link: "https://rinpharmaconf.typeform.com/to/Adeq04hn"
+
 ############################# Feature ###########################
 feature:
   enable: true

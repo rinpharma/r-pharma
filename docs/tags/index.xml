@@ -6,10 +6,19 @@
     <description>Recent content in Tags on R/Pharma</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Jun 2020 20:57:25 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2020 20:57:25 +0000</lastBuildDate>
     
 	<atom:link href="https://rinpharma.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>update</title>
+      <link>https://rinpharma.com/tags/update/</link>
+      <pubDate>Fri, 14 Aug 2020 20:57:25 +0000</pubDate>
+      
+      <guid>https://rinpharma.com/tags/update/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>motivation</title>
@@ -17,15 +26,6 @@
       <pubDate>Wed, 03 Jun 2020 20:57:25 +0000</pubDate>
       
       <guid>https://rinpharma.com/tags/motivation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>update</title>
-      <link>https://rinpharma.com/tags/update/</link>
-      <pubDate>Wed, 03 Jun 2020 20:57:25 +0000</pubDate>
-      
-      <guid>https://rinpharma.com/tags/update/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,25 @@
+
+.about-img .img-block {
+    position: absolute;
+    content: "";
+    bottom: -70px;
+    right: 0;
+    left: 30%;
+    width: 100%;
+    border: 10px solid #fff;
+}
+
+@media (max-width: 991px) {
+.about-img .img-block {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    bottom: -20px;
+}
+}
+
+@media (max-width: 767px) {
+  .cta-img .contact-info {
+      position: static;
+  }
+}

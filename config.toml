@@ -21,6 +21,10 @@ publishDir = "docs"
   [[params.plugins.css]]
   URL = "plugins/themefisher-font/style.css"
 
+  [[params.plugins.extracss]]
+  URL = "css/custom.css"
+  
+
   # JS Plugins
   [[params.plugins.js]]
   URL = "plugins/jquery/jquery.js"

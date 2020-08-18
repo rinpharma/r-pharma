@@ -11,14 +11,10 @@
 
 @media (max-width: 991px) {
 .about-img .img-block {
-    position: absolute;
-    content: "";
-    right: 0;
     left: 50%;
     transform: translateX(-50%);
     width: 80%;
     bottom: -20px;
-    border: 10px solid #fff;
 }
 }
 

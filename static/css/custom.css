@@ -21,3 +21,9 @@
     border: 10px solid #fff;
 }
 }
+
+@media (max-width: 767px) {
+  .cta-img .contact-info {
+      position: static;
+  }
+}

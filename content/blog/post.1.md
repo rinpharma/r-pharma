@@ -27,6 +27,13 @@ For 2020 we are taking a hiatus from holding the meeting at Harvard and will be 
 
 Our entire event is a community-lead effort and 100% volunteer run. The event is vendor neutral and very much an academic conference. Harvard has been very helpful in hosting the event.
 
-R/Pharma is an [ISC working group](https://www.r-consortium.org/projects/isc-working-groups) under the R Consortium. The conference is a relatively small, scientifically & industry oriented, collegial event focused on the use of R in the development of pharmaceuticals. The conference covers topics including reproducible research, regulatory compliance and validation, safety monitoring, clinical trials, drug discovery, research & development, PK/PD/pharmacometrics, genomics, diagnostics, immunogenicity and more. All are discussed within the context of using R as a primary tool within the drug development process. The conference showcases the current use of R that is helping to drive biomedical research, drug discovery & development, and clinical initiatives. (Note that topics related to the use of R in hospitals/clinics for patient care by clinicians, doctors, and researchers is the focus of [R/Medicine](https://events.linuxfoundation.org/r-medicine/).)
+R/Pharma is an
+{{< rawhtml >}}
+<a href="https://www.r-consortium.org/projects/isc-working-groups" style="text-decoration: underline;">ISC working group</a>
+{{< /rawhtml >}}
+under the R Consortium. The conference is a relatively small, scientifically & industry oriented, collegial event focused on the use of R in the development of pharmaceuticals. The conference covers topics including reproducible research, regulatory compliance and validation, safety monitoring, clinical trials, drug discovery, research & development, PK/PD/pharmacometrics, genomics, diagnostics, immunogenicity and more. All are discussed within the context of using R as a primary tool within the drug development process. The conference showcases the current use of R that is helping to drive biomedical research, drug discovery & development, and clinical initiatives. (Note that topics related to the use of R in hospitals/clinics for patient care by clinicians, doctors, and researchers is the focus of
+{{< rawhtml >}}
+<a href="https://events.linuxfoundation.org/r-medicine/" style="text-decoration: underline;">R/Medicine</a>.
+{{< /rawhtml >}}
 
 R/Pharma is dedicated to providing a harassment-free conference experience for everyone regardless of gender, sexual orientation, disability or any feature that distinguishes human beings. For more information, please see the R Consortium code of conduct.

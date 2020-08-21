@@ -50,11 +50,11 @@ cta:
 cta3:
   enable : true
   subtitle : "Please submit a paper before August 31st"
-  title : "Call for papers"
+  title : "Call for Talks"
   image : "images/pharma/richard-waterworth-pNBZAofGcgU-unsplash_small.png"
   button:
     enable :  true
-    label : "call for papers"
+    label : "call for talks"
     link: "https://rinpharmaconf.typeform.com/to/Adeq04hn"
 
 ############################# Feature ###########################

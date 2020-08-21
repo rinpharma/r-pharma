@@ -1,5 +1,5 @@
 ---
-title: "Call For Papers"
+title: "Call For Talks"
 date: 2020-08-14T20:57:25
 draft: false
 description: "this is meta description"

@@ -65,6 +65,12 @@ publishDir = "docs"
     name = "Blog"
     URL = "blog"
 
+  
+    [[menu.main]]
+    name = "Speakers"
+    URL = "speaker"
+    weight = 3
+    
 #    [[menu.main]]
 #    parent = "Menu"
 #    name = "Schedule"

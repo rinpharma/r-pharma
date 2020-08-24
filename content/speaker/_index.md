@@ -6,6 +6,6 @@ description: "this is meta description"
 bgImage : "images/bg/cta-bg.jpg"
 ---
 
-## Who're speaking
+## Keynote Speakers
 
-Accusantium provident suscipit dicta magni dolor deserunt nam obcaecati non veritatis optio.
+R/Pharma is excited to host the following keynote speakers.

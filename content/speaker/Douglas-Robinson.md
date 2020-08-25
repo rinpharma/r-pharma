@@ -6,7 +6,6 @@ description: "this is meta description"
 bgImage : "images/bg/cta-bg.jpg"
 image : "images/speakers/douglas-robinson.jpg"
 designation : "Global Head Scientific Computing and Consulting, Novartis"
-email : "douglas.robinson@novartis.com"
 type : "speaker"
 social:
   # social site loop

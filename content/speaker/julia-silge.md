@@ -7,6 +7,7 @@ bgImage : "images/bg/cta-bg.jpg"
 image : "images/speakers/julia-silge.jpg"
 designation : "Data Scientist and Software Engineer, RStudio"
 type : "speaker"
+subtype : "keynote"
 social:
   # social site loop
   - icon : "tf-ion-social-linkedin"

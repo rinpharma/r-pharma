@@ -7,6 +7,7 @@ bgImage : "images/bg/cta-bg.jpg"
 image : "images/speakers/douglas-robinson.jpg"
 designation : "Global Head Scientific Computing and Consulting, Novartis"
 type : "speaker"
+subtype : "keynote"
 social:
   # social site loop
   - icon : "tf-ion-social-linkedin"

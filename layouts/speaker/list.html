@@ -55,7 +55,7 @@
       </div>
     </div>
     <div class="row">
-      {{ range .Data.Pages }}
+      {{ range where .Data.Pages  ".Params.subtype" "keynote" }}
       <div class="col-lg-4 col-md-6">
         <div class="speaker-block style-2 mb-5">
           <div class="img-block">
@@ -91,7 +91,7 @@
       </div>
     </div>
     <div class="row">
-      {{ range .Data.Pages }}
+      {{ range where .Data.Pages  ".Params.subtype" "workshop" }}
       <div class="col-lg-4 col-md-6">
         <div class="speaker-block style-2 mb-5">
           <div class="img-block">

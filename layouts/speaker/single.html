@@ -17,12 +17,14 @@
 
           <div class="content">{{ .Content }}</div>
 
+          {{ if isset .Params "social" }}
           <h5 class="mb-3 mt-5">Follow Me</h5>
           <ul class="list-inline social-single">
             {{ range .Params.Social }}
             <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
             {{ end }}
           </ul>
+          {{ end }}
 
 <!--          <h5 class="mt-4">Email</h5>
           <p>{{ .Params.Email }}</p> -->

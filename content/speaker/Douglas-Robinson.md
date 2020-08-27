@@ -9,10 +9,6 @@ designation : "Global Head Scientific Computing and Consulting, Novartis"
 type : "speaker"
 subtype : "keynote"
 surname: "Robinson"
-social:
-  # social site loop
-  - icon : "tf-ion-social-linkedin"
-    link : "https://www.linkedin.com/in/douglas-robinson-7024182/"
 
 ---
 

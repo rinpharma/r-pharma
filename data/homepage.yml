@@ -88,11 +88,10 @@ pricing:
 
 ########################## speaker ##########################
 speaker:
-  enable : false
-  titleOutline : "Previous Speakers"
-  title : "Who're speaking"
-  content : "The 2020 speaker list is still being prepared. Until that's ready,
-  review our previous speakers."
+  enable : true
+  titleOutline : "Speakers"
+  title : "Keynote Speakers"
+  content : "R/Pharma is excited to host the following keynote speakers."
   # speaker content comes from "content/speaker" folder
 
 ############################# Feature ###########################

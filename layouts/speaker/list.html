@@ -55,7 +55,7 @@
       </div>
     </div>
     <div class="row">
-      {{ range where .Data.Pages  ".Params.subtype" "keynote" }}
+      {{ range sort (where .Data.Pages  ".Params.subtype" "keynote") ".Params.surname" "asc" }}
       <div class="col-lg-4 col-md-6">
         <div class="speaker-block style-2 mb-5">
           <div class="img-block">
@@ -78,7 +78,7 @@
 </section>
 <!-- /speaker style 2 -->
 
-<!-- speaker style 2 -->
+<!-- 
 <section class="speaker-2 section bg-gray">
   <div class="container">
     <div class="row section-heading">
@@ -91,7 +91,7 @@
       </div>
     </div>
     <div class="row">
-      {{ range where .Data.Pages  ".Params.subtype" "workshop" }}
+      {{ range sort (where .Data.Pages  ".Params.subtype" "workshop") ".Params.surname" "asc" }}
       <div class="col-lg-4 col-md-6">
         <div class="speaker-block style-2 mb-5">
           <div class="img-block">
@@ -112,7 +112,6 @@
     </div>
   </div>
 </section>
-<!-- /speaker style 2 -->
-
+-->
 
 {{ end }}

@@ -8,6 +8,7 @@ image : "images/speakers/matilde-kam.jpg"
 designation : "Associate Director for Analytics and Informatics, Office of Biostatistics, FDA"
 type : "speaker"
 subtype : "keynote"
+surname: "Kam"
 
 ---
 

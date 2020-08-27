@@ -8,6 +8,7 @@ image : "images/speakers/julia-silge.jpg"
 designation : "Data Scientist and Software Engineer, RStudio"
 type : "speaker"
 subtype : "keynote"
+surname: "Silge"
 social:
   # social site loop
   - icon : "tf-ion-social-linkedin"

@@ -27,13 +27,13 @@ R/Pharma invites keynote speakers to impart their knowledge and experience in to
 
 Here, with just 4 weeks ahead of R/Pharma 2020, we take time to introduce our eminent guest speakers.
 
-#### Matilde Kam
+##### Matilde Kam
 Associate Director for Analytics and Informatics, Office of Biostatistics, FDA
 
-#### Douglas Robinson
+##### Douglas Robinson
 Global Head Scientific Computing and Consulting, Novartis
 
-#### Julia Silge
+##### Julia Silge
 Data Scientist and Software Engineer, RStudio
 
 More detailed biographies can be found 

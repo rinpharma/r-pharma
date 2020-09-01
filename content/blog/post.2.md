@@ -11,14 +11,14 @@ image : "images/blog/alex-litvin-MAYsdoYpGuk-unsplash_small.png"
 author: "R/Pharma"
 # Taxonomies
 categories:
-  - "Exec update"
-tags:
   - "update"
+tags:
+  - "presentations"
 # type
 type: "post"
 ---
 
-We’re excited to announce that the call for talks for R/Pharma 2020 is now open!
+Call for talks has now closed.  Registration details will be available shortly.
 
 R/Pharma 2020, the conference on all things R (some python, Julia and Stan too) in Pharma, will take place October 12th-15th 2020, preceded by Training Days the week prior.
 
@@ -48,7 +48,7 @@ By participating in R/Pharma 2020, you consent to audio and video recording by a
 {{< /rawhtml >}}
 
 
-
+<!--
 {{< rawhtml >}}
 <div class="col-lg-8">
   <div class="info">
@@ -58,3 +58,4 @@ By participating in R/Pharma 2020, you consent to audio and video recording by a
   <br/>
 </div>
 {{< /rawhtml >}}
+-->

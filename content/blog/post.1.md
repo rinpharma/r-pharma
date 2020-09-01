@@ -11,9 +11,8 @@ image : "images/blog/felicia-buitenwerf-5yn5rGI5IUw-unsplash_small.png"
 author: "R/Pharma"
 # Taxonomies
 categories:
-  - "Exec update"
-tags:
   - "update"
+tags:
   - "motivation"
 # type
 type: "post"

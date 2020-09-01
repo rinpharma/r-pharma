@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>speakers on R/Pharma</title>
+    <link>https://rinpharma.com/tags/speakers/</link>
+    <description>Recent content in speakers on R/Pharma</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 31 Aug 2020 20:57:25 +0000</lastBuildDate>
+    
+	<atom:link href="https://rinpharma.com/tags/speakers/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introducing Our 2020 Keynote Speakers</title>
+      <link>https://rinpharma.com/blog/post.3/</link>
+      <pubDate>Mon, 31 Aug 2020 20:57:25 +0000</pubDate>
+      
+      <guid>https://rinpharma.com/blog/post.3/</guid>
+      <description>The annual R/Pharma gathering attracts professionals from industry, academia and regulatory alike to come together to share and discuss the use of R in pharma, including progress, findings and achievements across various areas of interest such as machine learning, reproducible research, regulatory compliance and validation, safety monitoring, clinical trials, drug discovery, research &amp;amp; development, PK/PD/pharmacometrics, genomics, diagnostics, immunogenicity and more.</description>
+    </item>
+    
+  </channel>
+</rss>

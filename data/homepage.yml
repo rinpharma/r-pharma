@@ -48,7 +48,7 @@ cta:
 
 ######################### Call to action #########################
 cta3:
-  enable : true
+  enable : false
   subtitle : "Please submit a paper before August 31st"
   title : "Call for Talks"
   image : "images/pharma/richard-waterworth-pNBZAofGcgU-unsplash_small.png"

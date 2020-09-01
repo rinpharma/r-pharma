@@ -279,7 +279,11 @@
           <img src="{{ .Params.Image | absURL }}" alt="{{ .Title | markdownify }}" class="img-fluid">
           <div class="p-4">
             <h4 class="mt-2 mb-3"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h4>
-            <p>{{ .Summary }}</p>
+            {{ if .Params.postSummary }}
+              <p>{{ .Params.postSummary }}</p>
+            {{ else }}
+              <p>{{ .Summary }}</p>
+            {{ end }}
             <a href="{{ .Permalink }}" class="read-more text-color h6">Read More</a>
           </div>
         </div>

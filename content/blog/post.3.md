@@ -11,9 +11,10 @@ image : "images/blog/franck-v-tiNCpHudGrw-unsplash_small.png"
 author: "R/Pharma"
 # Taxonomies
 categories:
-  - "Exec update"
-tags:
   - "update"
+tags:
+  - "speakers"
+  - "presentations"
 # type
 type: "post"
 # summary

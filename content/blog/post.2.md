@@ -11,9 +11,9 @@ image : "images/blog/alex-litvin-MAYsdoYpGuk-unsplash_small.png"
 author: "R/Pharma"
 # Taxonomies
 categories:
-  - "Exec update"
-tags:
   - "update"
+tags:
+  - "presentations"
 # type
 type: "post"
 ---

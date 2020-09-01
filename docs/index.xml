@@ -6,10 +6,19 @@
     <description>Recent content on R/Pharma</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 14 Aug 2020 20:57:25 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2020 20:57:25 +0000</lastBuildDate>
     
 	<atom:link href="https://rinpharma.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Introducing Our 2020 Keynote Speakers</title>
+      <link>https://rinpharma.com/blog/post.3/</link>
+      <pubDate>Mon, 31 Aug 2020 20:57:25 +0000</pubDate>
+      
+      <guid>https://rinpharma.com/blog/post.3/</guid>
+      <description>The annual R/Pharma gathering attracts professionals from industry, academia and regulatory alike to come together to share and discuss the use of R in pharma, including progress, findings and achievements across various areas of interest such as machine learning, reproducible research, regulatory compliance and validation, safety monitoring, clinical trials, drug discovery, research &amp;amp; development, PK/PD/pharmacometrics, genomics, diagnostics, immunogenicity and more.</description>
+    </item>
     
     <item>
       <title>Call For Talks</title>
@@ -17,7 +26,7 @@
       <pubDate>Fri, 14 Aug 2020 20:57:25 +0000</pubDate>
       
       <guid>https://rinpharma.com/blog/post.2/</guid>
-      <description>We’re excited to announce that the call for talks for R/Pharma 2020 is now open!</description>
+      <description>Call for talks has now closed. Registration details will be available shortly.</description>
     </item>
     
     <item>

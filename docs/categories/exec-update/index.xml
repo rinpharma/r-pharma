@@ -2,30 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Exec update on R/Pharma</title>
-    <link>https://rinpharma.com/categories/exec-update/</link>
+    <link>/categories/exec-update/</link>
     <description>Recent content in Exec update on R/Pharma</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 14 Aug 2020 20:57:25 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2020 20:57:25 +0000</lastBuildDate>
     
-	<atom:link href="https://rinpharma.com/categories/exec-update/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/exec-update/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Call For Talks</title>
-      <link>https://rinpharma.com/blog/post.2/</link>
-      <pubDate>Fri, 14 Aug 2020 20:57:25 +0000</pubDate>
-      
-      <guid>https://rinpharma.com/blog/post.2/</guid>
-      <description>We’re excited to announce that the call for talks for R/Pharma 2020 is now open!</description>
-    </item>
     
     <item>
       <title>The what and the why for R/Pharma</title>
-      <link>https://rinpharma.com/blog/post.1/</link>
+      <link>/blog/post.1/</link>
       <pubDate>Wed, 03 Jun 2020 20:57:25 +0000</pubDate>
       
-      <guid>https://rinpharma.com/blog/post.1/</guid>
+      <guid>/blog/post.1/</guid>
       <description>By design, R / Pharma is deliberately a smaller conference in terms of attendance in order to encourage maximum opportunities for direct interaction with speakers.</description>
     </item>
     

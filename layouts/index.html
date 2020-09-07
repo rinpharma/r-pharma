@@ -162,11 +162,27 @@
         <div class="speaker-block mb-5">
           <div class="img-block">
             <img src="{{ .Params.Image | absURL }}" alt="{{ .Title }}" class="img-fluid">
-            <ul class="list-inline speaker-social">
-              {{ range .Params.Social }}
-              <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+            {{ if isset .Params "social" }}
+              {{ if eq (len .Params.Social) 1 }}
+              <ul class="list-inline speaker-social speaker-social-1">
+                {{ range .Params.Social }}
+                <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+                {{ end }}
+              </ul>
+              {{ else if eq (len .Params.Social) 2 }}
+              <ul class="list-inline speaker-social speaker-social-2">
+                {{ range .Params.Social }}
+                <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+                {{ end }}
+              </ul>
+              {{ else }}
+              <ul class="list-inline speaker-social">
+                {{ range .Params.Social }}
+                <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+                {{ end }}
+              </ul>
               {{ end }}
-            </ul>
+            {{ end }}
           </div>
           <div class="speaker-info">
             <h4 class="mb-0 mt-3"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>

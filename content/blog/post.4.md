@@ -1,6 +1,6 @@
 ---
 title: "Register for R/Pharma"
-date: 2020-08-31T20:57:25
+date: 2020-09-08T20:57:25
 draft: false
 description: "this is meta description"
 # page title backgrount image

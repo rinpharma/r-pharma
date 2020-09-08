@@ -94,6 +94,40 @@
 </section>
 <!-- /speaker style 2 -->
 
+
+<!-- general speaker list -->
+<section class="speaker-2 section bg-gray">
+  <div class="container">
+    <div class="row section-heading">
+      <div class="col-lg-6">
+        <div class="heading">
+          <div class="pl-90 content">
+            {{ .Params.content_3 | markdownify }}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      {{ range (where .Data.Pages  ".Params.subtype" "speakerlist") }}
+        {{ range .Params.program }}
+          <div class="col-lg-4 col-md-3">
+            <div class="speaker-block mb-4">
+              <div class="speaker-info">
+                <h4 class="mb-0 mt-4">{{ .name | markdownify }}</h4>
+                <p>{{ .affiliation | markdownify }}</p>
+              </div>
+            </div>
+          </div>
+        {{ end }}
+      {{ end }}
+    </div>      
+  </div>
+</section>
+<!-- /general speaker list -->
+
+
+
 <!-- 
 <section class="speaker-2 section bg-gray">
   <div class="container">

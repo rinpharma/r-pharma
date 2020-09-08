@@ -78,6 +78,33 @@
 <!-- /call to action -->
 
 <!-- call to action -->
+{{ if .Site.Data.homepage.cta4.enable }}
+{{ with .Site.Data.homepage.cta4 }}
+<section class="section cta-wrap">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-7">
+        <div class="cta-content">
+          <span class="lead">{{ .subtitle | markdownify }}</span>
+          <h2 class="mt-3 mb-4 text-md">{{ .title | markdownify }}</h2>
+          {{ if .button.enable }}
+          {{ with .button }}
+          <a href="{{ .link | absURL }}" class="btn btn-secondary btn-rounded">{{ .label }}</a>
+          {{ end }}
+          {{ end }}
+        </div>
+      </div>
+      <div class="col-lg-5 mt-5 mt-lg-0 d-none d-lg-block">
+        <img src="{{ .image | absURL }}" alt="" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /call to action -->
+
+<!-- call to action -->
 {{ if .Site.Data.homepage.cta3.enable }}
 {{ with .Site.Data.homepage.cta3 }}
 <section class="section cta-wrap">

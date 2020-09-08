@@ -105,9 +105,9 @@ googleAnalitycsID = "UA-168676822-1"
 
   # Navigation get start button
   [params.navBtn]
-  enable = false
+  enable = true
   label = "Get Ticket"
-  link = "LINK TO TICKETS"
+  link = "https://hopin.to/events/r-pharma-2020"
 
   ############################## footer ################################
   [params.footer]

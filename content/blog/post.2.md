@@ -20,7 +20,7 @@ type: "post"
 
 Call for talks has now closed.  Registration details will be available shortly.
 
-R/Pharma 2020, the conference on all things R (some python, Julia and Stan too) in Pharma, will take place October 12th-15th 2020, preceded by Training Days the week prior.
+R/Pharma 2020, the conference on all things R (some python, Julia and Stan too) in Pharma, will take place October 13th-15th 2020, preceded by Training Days the week prior.
 
 This year we are particularly interested in talks from people who can’t usually make it in person to Harvard University, or are newer to conference speaking.  R/Pharma committee members are offering free speaker coaching: as long as you have an interesting R in pharma idea and are willing to put in some work, we’ll help you develop a great talk.  Talks are short (5-10 minutes) high energy presentations that give you the chance to talk about an interesting project that you’ve tackled with R in pharma. Short talks, or demos of your R code, R packages, and shiny apps are great options. 
 

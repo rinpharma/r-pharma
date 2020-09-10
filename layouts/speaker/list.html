@@ -110,7 +110,7 @@
 
     <div class="row">
       {{ range (where .Data.Pages  ".Params.subtype" "speakerlist") }}
-        {{ range .Params.program }}
+        {{ range sort .Params.program ".sort" "asc" }}
           <div class="col-lg-4 col-md-3">
             <div class="speaker-block mb-4">
               <div class="speaker-info">

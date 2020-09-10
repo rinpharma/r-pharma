@@ -6,10 +6,19 @@
     <description>Recent content on R/Pharma</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 31 Aug 2020 20:57:25 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2020 20:57:25 +0000</lastBuildDate>
     
 	<atom:link href="https://rinpharma.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Register for R/Pharma</title>
+      <link>https://rinpharma.com/blog/post.4/</link>
+      <pubDate>Tue, 08 Sep 2020 20:57:25 +0000</pubDate>
+      
+      <guid>https://rinpharma.com/blog/post.4/</guid>
+      <description>We are excited to announce that registration is now open for R/Pharma 2020.</description>
+    </item>
     
     <item>
       <title>Introducing Our 2020 Keynote Speakers</title>
@@ -63,6 +72,15 @@
       
       <guid>https://rinpharma.com/speaker/matilde-kam/</guid>
       <description>Matilde Kam, PhD., serves as the Associate Director for Analytics and Informatics for the Office of Biostatistics (OB), OTS/CDER/FDA.</description>
+    </item>
+    
+    <item>
+      <title>Speakers</title>
+      <link>https://rinpharma.com/speaker/speakers-general/</link>
+      <pubDate>Tue, 10 Sep 2019 13:51:25 +0600</pubDate>
+      
+      <guid>https://rinpharma.com/speaker/speakers-general/</guid>
+      <description></description>
     </item>
     
     <item>

@@ -1,7 +1,7 @@
 ############################# banner ################################
 banner:
   title : "R/Pharma <br>Conference"
-  date : "12th-15th, October, 2020"
+  date : "13th-15th, October, 2020"
   button:
     enable : true
     label : "Read the FAQ"
@@ -14,8 +14,8 @@ counter:
   # set timer
   year: "2020"
   month: "10"
-  day: "12"
-  hour: "09"
+  day: "13"
+  hour: "10"
 
 ############################## Event ##############################
 event:
@@ -263,7 +263,7 @@ cta2:
   enable : true
   image : "images/bg/map-1025845_1280.jpg"
   title : "Virtual Conference"
-  date : "12 - 15th October, 2020"
+  date : "13 - 15th October, 2020"
   content : "R/Pharma 2020 will be a virtual conference - Stay tuned for details"
   button:
     enable : false

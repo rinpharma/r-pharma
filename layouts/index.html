@@ -78,6 +78,33 @@
 <!-- /call to action -->
 
 <!-- call to action -->
+{{ if .Site.Data.homepage.cta4.enable }}
+{{ with .Site.Data.homepage.cta4 }}
+<section class="section cta-wrap">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-7">
+        <div class="cta-content">
+          <span class="lead">{{ .subtitle | markdownify }}</span>
+          <h2 class="mt-3 mb-4 text-md">{{ .title | markdownify }}</h2>
+          {{ if .button.enable }}
+          {{ with .button }}
+          <a href="{{ .link | absURL }}" class="btn btn-secondary btn-rounded">{{ .label }}</a>
+          {{ end }}
+          {{ end }}
+        </div>
+      </div>
+      <div class="col-lg-5 mt-5 mt-lg-0 d-none d-lg-block">
+        <img src="{{ .image | absURL }}" alt="" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /call to action -->
+
+<!-- call to action -->
 {{ if .Site.Data.homepage.cta3.enable }}
 {{ with .Site.Data.homepage.cta3 }}
 <section class="section cta-wrap">
@@ -162,11 +189,27 @@
         <div class="speaker-block mb-5">
           <div class="img-block">
             <img src="{{ .Params.Image | absURL }}" alt="{{ .Title }}" class="img-fluid">
-            <ul class="list-inline speaker-social">
-              {{ range .Params.Social }}
-              <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+            {{ if isset .Params "social" }}
+              {{ if eq (len .Params.Social) 1 }}
+              <ul class="list-inline speaker-social speaker-social-1">
+                {{ range .Params.Social }}
+                <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+                {{ end }}
+              </ul>
+              {{ else if eq (len .Params.Social) 2 }}
+              <ul class="list-inline speaker-social speaker-social-2">
+                {{ range .Params.Social }}
+                <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+                {{ end }}
+              </ul>
+              {{ else }}
+              <ul class="list-inline speaker-social">
+                {{ range .Params.Social }}
+                <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+                {{ end }}
+              </ul>
               {{ end }}
-            </ul>
+            {{ end }}
           </div>
           <div class="speaker-info">
             <h4 class="mb-0 mt-3"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>

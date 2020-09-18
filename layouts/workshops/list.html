@@ -1,0 +1,62 @@
+{{ define "main" }}
+
+{{ partial "page-title.html" . }}
+
+
+<!-- workshops -->
+<!-- speaker style 2 -->
+<section class="speaker-2 section bg-gray">
+  <div class="container">
+    <div class="row section-heading">
+      <div class="col-lg-6">
+        <div class="heading">
+          <span class="stroke-text">{{ .Title }}</span>
+          <div class="pl-90 content">
+            {{ .Params.content | markdownify }}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      {{ range .Data.Pages }}
+      <div class="col-lg-4 col-md-6">
+        <div class="speaker-block style-2 mb-5">
+          <div class="img-block">
+            <img src="{{ .Params.Image | absURL }}" alt="{{ .Title }}" class="img-fluid rounded-circle">
+            {{ if isset .Params "social" }}
+              {{ if eq (len .Params.Social) 1 }}
+              <ul class="list-inline speaker-social speaker-social-1">
+                {{ range .Params.Social }}
+                <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+                {{ end }}
+              </ul>
+              {{ else if eq (len .Params.Social) 2 }}
+              <ul class="list-inline speaker-social speaker-social-2">
+                {{ range .Params.Social }}
+                <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+                {{ end }}
+              </ul>
+              {{ else }}
+              <ul class="list-inline speaker-social">
+                {{ range .Params.Social }}
+                <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+                {{ end }}
+              </ul>
+              {{ end }}
+            {{ end }}
+          </div>
+          <div class="speaker-info text-center">
+            <h4 class="mb-0 mt-3"><a href="{{.Permalink}}">{{ .Title }}</a></h4>
+            <p>{{ .Params.Designation}}</p>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+<!-- /speaker style 2 -->
+
+
+
+{{ end }}

@@ -5,7 +5,7 @@ draft: false
 description: "this is meta description"
 bgImage : "images/bg/cta-bg.jpg"
 image : "images/speakers/david-granjon.jpg"
-designation : "RInterface"
+designation : "Novartis/RInterface"
 type : "workshops"
 surname: "Granjon"
 social:

@@ -8,11 +8,64 @@
 <section class="speaker-2 section bg-gray">
   <div class="container">
     <div class="row section-heading">
-      <div class="col-lg-6">
+      <div class="col-lg-12">
         <div class="heading">
           <span class="stroke-text">{{ .Title }}</span>
           <div class="pl-90 content">
-            {{ .Params.content | markdownify }}
+            {{ .Params.content_1 | markdownify }}
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row section-heading">
+      <div class="col-lg-12">
+        {{ range .Params.WorkshopDates }}
+          <div class="heading">
+            <span class="stroke-text">{{ .Title }}</span>
+            <div class="pl-90 content">
+              {{ .date | markdownify }}
+              {{ range .workshops }}
+                <div class="row workshoprow">
+                  <div class="col-lg-6">
+                    <h4>{{ .title }}<br>{{ .authorlist }}</h4>
+                  </div>
+                    
+                    <!-- author images -->
+                    {{ range .authors }}
+                      <div class="col-lg-1">
+                        <img src="{{ .image | absURL }}" alt="{{ .name }}" class="img-fluid rounded-circle">
+                      </div>
+                    {{ end }}
+                    
+                    <!-- registration button -->
+                    {{ if eq (len .authors) 1 }}
+                      <div class="col-lg-2 offset-lg-1">
+                    {{ else if eq (len .authors) 2 }}
+                      <div class="col-lg-2">
+                    {{ end }}
+                    {{ if .available }}
+                      <a href="{{ .ticketurl }}" target="_blank" class="btn btn-primary btn-rounded">Register</a>
+                    {{ else }}
+                      <span class="btn btn-danger btn-rounded disabled">Filled</span>
+                    {{ end }}
+                    </div>
+                </div>
+              {{ end }}
+            </div>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+
+    
+    
+    <div class="row section-heading">
+      <div class="col-lg-6">
+        <div class="heading">
+          <div class="pl-90 content">
+            {{ .Params.content_2 | markdownify }}
           </div>
         </div>
       </div>

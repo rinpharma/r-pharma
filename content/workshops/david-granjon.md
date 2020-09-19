@@ -18,6 +18,9 @@ social:
   # social site loop
   - icon : "tf-ion-ios-world-outline"
     link : "https://rinterface.com/"
+  # social site loop
+  - icon : "tf-ion-ios-book"
+    link : "https://divadnojnarg.github.io/outstanding-shiny-ui/"
 
 ---
 

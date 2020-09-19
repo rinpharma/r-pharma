@@ -34,7 +34,7 @@
                     <!-- author images -->
                     {{ range .authors }}
                       <div class="col-lg-1">
-                        <img src="{{ .image | absURL }}" alt="{{ .name }}" class="img-fluid rounded-circle">
+                        <a href="#presenters" title="{{ .name }}"><img src="{{ .image | absURL }}" alt="{{ .name }}" class="img-fluid rounded-circle"></a>
                       </div>
                     {{ end }}
                     
@@ -58,9 +58,13 @@
       </div>
     </div>
   </div>
+  </div>
+</section>
 
     
     
+<section id="presenters" class="speaker-2 section bg-gray">
+  <div class="container">
     <div class="row section-heading">
       <div class="col-lg-6">
         <div class="heading">

@@ -18,6 +18,9 @@ social:
   # social site loop
   - icon : "tf-ion-social-github"
     link : "https://github.com/rich-iannone"
+  # social site loop
+  - icon : "tf-ion-ios-world-outline"
+    link : "https://randr.rocks"
 
 ---
 

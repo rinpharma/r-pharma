@@ -95,7 +95,7 @@
               </ul>
               {{ else }}
               <ul class="list-inline speaker-social">
-                {{ range .Params.Social }}
+                {{ range first 3 .Params.Social }}
                 <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
                 {{ end }}
               </ul>

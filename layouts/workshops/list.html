@@ -24,7 +24,8 @@
           <div class="heading">
             <span class="stroke-text">{{ .Title }}</span>
             <div class="pl-90 content">
-              {{ .date | markdownify }}
+              <h2 class="h2-before-blue">{{ .date }}</h2>
+<!--              {{ .date | markdownify }}  -->
               {{ range .workshops }}
                 <div class="row workshoprow">
                   <div class="col-lg-7">

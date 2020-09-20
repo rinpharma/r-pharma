@@ -8,7 +8,7 @@ content_1: "## R/Pharma is excited to offer the following workshops to attendees
 content_2: "## Workshop presenters\nMeet our amazing workshop presenters."
 workshopDates:
   # Workshop date loop
-  - date : "## October 5th"
+  - date : "October 5th"
     workshops:
     - title: "Stan Workshop: the workshop I wish I had"
       authorlist: "Daniel Lee, Generable"
@@ -28,7 +28,7 @@ workshopDates:
         image: "images/speakers/david-granjon.jpg"
       - name: "John Coene"
         image: "images/speakers/john-coene.jpg"
-  - date : "## October 6th"
+  - date : "October 6th"
     workshops:
     - title: "Targets"
       authorlist: "Will Landau, Eli Lilly"

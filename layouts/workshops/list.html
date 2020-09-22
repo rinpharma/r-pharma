@@ -25,9 +25,11 @@
             <span class="stroke-text">{{ .Title }}</span>
             <div class="pl-90 content">
               <h2 class="h2-before-blue">{{ .date }}</h2>
-<!--              {{ .date | markdownify }}  -->
               {{ range .workshops }}
                 <div class="row workshoprow">
+                  <div class="col-lg-7">
+                    <h5 class="text-color-grey">{{ .time }}</h5>
+                  </div>
                   <div class="col-lg-7">
                     <h4>{{ .title }}</h4><h5 class="text-color-grey">{{ .authorlist }}</h5>
                   </div>

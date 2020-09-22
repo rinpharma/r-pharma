@@ -37,7 +37,7 @@
 }
 
 .text-color-grey {
-  color: #5b5b5b;
+  color: #5b5b5b !important;
 }
 
 .h2-before-blue::before {

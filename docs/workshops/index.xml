@@ -1,87 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>R/Pharma</title>
-    <link>https://rinpharma.com/</link>
-    <description>Recent content on R/Pharma</description>
+    <title>Workshops on R/Pharma</title>
+    <link>https://rinpharma.com/workshops/</link>
+    <description>Recent content in Workshops on R/Pharma</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Sep 2020 20:57:25 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Sep 2019 13:51:25 +0600</lastBuildDate>
     
-	<atom:link href="https://rinpharma.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rinpharma.com/workshops/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Register for R/Pharma</title>
-      <link>https://rinpharma.com/blog/post.4/</link>
-      <pubDate>Tue, 08 Sep 2020 20:57:25 +0000</pubDate>
-      
-      <guid>https://rinpharma.com/blog/post.4/</guid>
-      <description>We are excited to announce that registration is now open for R/Pharma 2020.</description>
-    </item>
-    
-    <item>
-      <title>Introducing Our 2020 Keynote Speakers</title>
-      <link>https://rinpharma.com/blog/post.3/</link>
-      <pubDate>Mon, 31 Aug 2020 20:57:25 +0000</pubDate>
-      
-      <guid>https://rinpharma.com/blog/post.3/</guid>
-      <description>The annual R/Pharma gathering attracts professionals from industry, academia and regulatory alike to come together to share and discuss the use of R in pharma, including progress, findings and achievements across various areas of interest such as machine learning, reproducible research, regulatory compliance and validation, safety monitoring, clinical trials, drug discovery, research &amp;amp; development, PK/PD/pharmacometrics, genomics, diagnostics, immunogenicity and more.</description>
-    </item>
-    
-    <item>
-      <title>Call For Talks</title>
-      <link>https://rinpharma.com/blog/post.2/</link>
-      <pubDate>Fri, 14 Aug 2020 20:57:25 +0000</pubDate>
-      
-      <guid>https://rinpharma.com/blog/post.2/</guid>
-      <description>Call for talks has now closed. Registration details will be available shortly.</description>
-    </item>
-    
-    <item>
-      <title>The what and the why for R/Pharma</title>
-      <link>https://rinpharma.com/blog/post.1/</link>
-      <pubDate>Wed, 03 Jun 2020 20:57:25 +0000</pubDate>
-      
-      <guid>https://rinpharma.com/blog/post.1/</guid>
-      <description>By design, R / Pharma is deliberately a smaller conference in terms of attendance in order to encourage maximum opportunities for direct interaction with speakers.</description>
-    </item>
-    
-    <item>
-      <title>Douglas Robinson</title>
-      <link>https://rinpharma.com/speaker/douglas-robinson/</link>
-      <pubDate>Tue, 10 Sep 2019 13:51:25 +0600</pubDate>
-      
-      <guid>https://rinpharma.com/speaker/douglas-robinson/</guid>
-      <description>Douglas Robinson has worked for Novartis for over eleven years with his most recent role of leading the Scientific Computing and Consulting (SCC) team, which was founded on January 1, 2019.</description>
-    </item>
-    
-    <item>
-      <title>Julia Silge</title>
-      <link>https://rinpharma.com/speaker/julia-silge/</link>
-      <pubDate>Tue, 10 Sep 2019 13:51:25 +0600</pubDate>
-      
-      <guid>https://rinpharma.com/speaker/julia-silge/</guid>
-      <description>Julia Silge is a data scientist and software engineer at RStudio PBC.</description>
-    </item>
-    
-    <item>
-      <title>Matilde Kam</title>
-      <link>https://rinpharma.com/speaker/matilde-kam/</link>
-      <pubDate>Tue, 10 Sep 2019 13:51:25 +0600</pubDate>
-      
-      <guid>https://rinpharma.com/speaker/matilde-kam/</guid>
-      <description>Matilde Kam, PhD., serves as the Associate Director for Analytics and Informatics for the Office of Biostatistics (OB), OTS/CDER/FDA.</description>
-    </item>
-    
-    <item>
-      <title>Speakers</title>
-      <link>https://rinpharma.com/speaker/speakers-general/</link>
-      <pubDate>Tue, 10 Sep 2019 13:51:25 +0600</pubDate>
-      
-      <guid>https://rinpharma.com/speaker/speakers-general/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Alison Hill</title>
@@ -99,15 +27,6 @@
       
       <guid>https://rinpharma.com/workshops/andy-nicholls/</guid>
       <description>Andy Nicholls is an experienced R Professional, having spent 6 years at Mango Solutions as Head of Data Science Consultancy before re-joining GSK, becoming Head of Statistical Data Sciences in 2019.</description>
-    </item>
-    
-    <item>
-      <title>Christina Fillmore</title>
-      <link>https://rinpharma.com/speaker/christina-fillmore/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rinpharma.com/speaker/christina-fillmore/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -165,15 +84,6 @@
     </item>
     
     <item>
-      <title>Max Kuhn</title>
-      <link>https://rinpharma.com/speaker/max-kuhn/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rinpharma.com/speaker/max-kuhn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Mike Stackhouse</title>
       <link>https://rinpharma.com/workshops/mike-stackhouse/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -198,24 +108,6 @@
       
       <guid>https://rinpharma.com/workshops/rich-iannone/</guid>
       <description>Rich Iannone is a software engineer at RStudio, PBC. His work there involves creating open-source packages for R that make people more productive.</description>
-    </item>
-    
-    <item>
-      <title>Terms and Conditions</title>
-      <link>https://rinpharma.com/terms/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rinpharma.com/terms/</guid>
-      <description>This is a free event brought to you by passionate volunteers By signing up, you agree that R/Pharma assumes no responsibility, and any costs, annoyances or catastrophic events incurred due to attending this conference are yours and yours alone We’ll take some photos and audio recordings of the talks.</description>
-    </item>
-    
-    <item>
-      <title>Viral Shah</title>
-      <link>https://rinpharma.com/speaker/viral-shah/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rinpharma.com/speaker/viral-shah/</guid>
-      <description></description>
     </item>
     
     <item>

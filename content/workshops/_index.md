@@ -4,7 +4,7 @@ date: 2019-09-10T13:51:25+06:00
 draft: false
 description: "this is meta description"
 bgImage : "images/bg/cta-bg.jpg"
-content_1: "## R/Pharma is excited to offer the following workshops to attendees\nWe hope you have the opportunity to attend a workshop in the week prior to the R/Pharma conference.  Due to the high attendance and demand please choose just one workshop."
+content_1: "## R/Pharma is excited to offer the following workshops to attendees\nWe hope you have the opportunity to attend a workshop in the week prior to the R/Pharma conference.  Due to the high attendance and demand please consider choosing just one or two workshops."
 content_2: "## Workshop presenters\nMeet our amazing workshop presenters."
 workshopDates:
   # Workshop date loop

@@ -10,7 +10,7 @@ workshopDates:
   # Workshop date loop
   - date : "October 5th"
     workshops:
-    - title: "Atificial Neural Networks"
+    - title: "Artificial neural networks in R with Keras and TensorFlow"
       time: "9:00-13:00 ET"
       authorlist: "Leon Eyrich Jessen (DTU)"
       maxattendees: 100
@@ -96,19 +96,10 @@ workshopDates:
         image: "images/speakers/rich-iannone.jpg"
   - date : "October 9th"
     workshops:
-    - title: "Tidytext Modelling"
-      time: "9:00-13:00 ET"
-      authorlist: "Emil Hvitfeldt (University Southern California)"
-      maxattendees: 100
-      ticketurl: "#"
-      available: true
-      authors:
-      - name: "Emil Hvitfelt"
-        image: "images/speakers/emil-hvitfeldt.jpg"
     - title: "Unleash Shiny"
-      time: "14:00-18:00 ET"
+      time: "9:00-13:00 ET"
       authorlist: "David Granjon (Novartis) & John Coene (World Economic Forum)"
-      maxattendees: 20
+      maxattendees: 40
       ticketurl: "#"
       available: true
       authors:
@@ -116,6 +107,15 @@ workshopDates:
         image: "images/speakers/david-granjon.jpg"
       - name: "John Coene"
         image: "images/speakers/john-coene.jpg"
+    - title: "Tidytext Modelling"
+      time: "14:00-18:00 ET"
+      authorlist: "Emil Hvitfeldt (University Southern California)"
+      maxattendees: 80
+      ticketurl: "#"
+      available: true
+      authors:
+      - name: "Emil Hvitfelt"
+        image: "images/speakers/emil-hvitfeldt.jpg"
 
 ---
 

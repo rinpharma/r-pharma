@@ -97,7 +97,7 @@ workshopDates:
   - date : "October 9th"
     workshops:
     - title: "Unleash Shiny"
-      time: "9:00-13:00 ET"
+      time: "8:00-12:00 ET"
       authorlist: "David Granjon (Novartis) & John Coene (World Economic Forum)"
       maxattendees: 40
       ticketurl: "#"

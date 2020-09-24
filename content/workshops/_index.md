@@ -4,13 +4,13 @@ date: 2019-09-10T13:51:25+06:00
 draft: false
 description: "this is meta description"
 bgImage : "images/bg/cta-bg.jpg"
-content_1: "## R/Pharma is excited to offer the following workshops to attendees\nWe hope you have the opportunity to attend a workshop in the week prior to the R/Pharma conference.  Due to the high attendance and demand please consider choosing just one or two workshops."
+content_1: "## R/Pharma is excited to offer the following workshops to attendees\nWe hope you have the opportunity to attend a workshop in the week prior to the R/Pharma conference.  Due to the high attendance and demand please choose just one or two workshops."
 content_2: "## Workshop presenters\nMeet our amazing workshop presenters."
 workshopDates:
   # Workshop date loop
   - date : "October 5th"
     workshops:
-    - title: "Artificial neural networks in R with Keras and TensorFlow"
+    - title: "Artificial Neural Networks in R with Keras and TensorFlow"
       time: "9:00-13:00 ET"
       authorlist: "Leon Eyrich Jessen (DTU)"
       maxattendees: 100
@@ -19,8 +19,8 @@ workshopDates:
       authors:
       - name: "Leon Eyrich Jessen"
         image: "images/speakers/leon-jessen.jpg"
-    - title: "Python"
-      time: "14:00-16:00 ET"
+    - title: "Multilingual Markdown with R and Python Using Reticulate"
+      time: "14:00-17:00 ET"
       authorlist: "Mike Stackhouse (Atorus), Nathan Kosiba (Atorus)"
       maxattendees: 50
       ticketurl: "https://www.eventbrite.com/e/122006734427"
@@ -33,7 +33,7 @@ workshopDates:
   - date : "October 6th"
     workshops:
     - title: "Tidy Transciptomics"
-      time: "8:00-12:00 ET"
+      time: "8:00-11:00 ET"
       authorlist: "Stefano Mangiola (Walter and Eliza Hall of Medical Research), Maria Doyle (Peter MacCallum Cancer Center)"
       maxattendees: 100
       ticketurl: "https://www.eventbrite.com/e/122007637127"
@@ -43,7 +43,7 @@ workshopDates:
         image: "images/speakers/stefano-mangiola.jpg"
       - name: "Maria Doyle"
         image: "images/speakers/maria-doyle.jpg"
-    - title: "R Validation"
+    - title: "Implementing a Risk-based Approach to R Validation"
       time: "12:00-14:00 ET"
       authorlist: "Andy Nicholls (Glaxosmithkline), Marly Gotti (Biogen)"
       maxattendees: 100

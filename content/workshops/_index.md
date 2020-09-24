@@ -14,7 +14,7 @@ workshopDates:
       time: "9:00-13:00 ET"
       authorlist: "Leon Eyrich Jessen (DTU)"
       maxattendees: 100
-      ticketurl: "#"
+      ticketurl: "https://www.eventbrite.com/e/122007572935"
       available: true
       authors:
       - name: "Leon Eyrich Jessen"
@@ -23,7 +23,7 @@ workshopDates:
       time: "14:00-16:00 ET"
       authorlist: "Mike Stackhouse (Atorus), Nathan Kosiba (Atorus)"
       maxattendees: 50
-      ticketurl: "#"
+      ticketurl: "https://www.eventbrite.com/e/122006734427"
       available: true
       authors:
       - name: "Mike Stackhouse"
@@ -33,10 +33,10 @@ workshopDates:
   - date : "October 6th"
     workshops:
     - title: "Tidy Transciptomics"
-      time: "8:00-     ???? ET"
+      time: "8:00-12:00 ET"
       authorlist: "Stefano Mangiola (Walter and Eliza Hall of Medical Research), Maria Doyle (Peter MacCallum Cancer Center)"
       maxattendees: 100
-      ticketurl: "#"
+      ticketurl: "https://www.eventbrite.com/e/122007637127"
       available: true
       authors:
       - name: "Stefano Mangiola"
@@ -47,7 +47,7 @@ workshopDates:
       time: "12:00-14:00 ET"
       authorlist: "Andy Nicholls (Glaxosmithkline), Marly Gotti (Biogen)"
       maxattendees: 100
-      ticketurl: "#"
+      ticketurl: "https://www.eventbrite.com/e/122006862811"
       available: true
       authors:
       - name: "Andy Nicholls"
@@ -60,7 +60,7 @@ workshopDates:
       time: "8:00-12:00 ET"
       authorlist: "Alison Hill (RStudio)"
       maxattendees: 100
-      ticketurl: "#"
+      ticketurl: "https://www.eventbrite.com/e/122005813673"
       available: true
       authors:
       - name: "Alison Hill"
@@ -69,18 +69,18 @@ workshopDates:
       time: "13:00-16:00 ET"
       authorlist: "Daniel Lee (Generable)"
       maxattendees: 100
-      ticketurl: "#"
+      ticketurl: "https://www.eventbrite.com/e/122006429515"
       available: true
       authors:
       - name: "Daniel Lee"
         image: "images/speakers/daniel-lee.jpg"
   - date : "October 8th"
     workshops:
-    - title: "Targets / ML"
+    - title: "Targets / Reproducible ML Pipelines"
       time: "8:00-12:00 ET"
       authorlist: "Will Landau (Eli Lilly)"
       maxattendees: 100
-      ticketurl: "#"
+      ticketurl: "https://www.eventbrite.com/e/122007087483"
       available: true
       authors:
       - name: "Will Landau"
@@ -89,7 +89,7 @@ workshopDates:
       time: "13:00-16:00 ET"
       authorlist: "Rich Iannone (RStudio)"
       maxattendees: 100
-      ticketurl: "#"
+      ticketurl: "https://www.eventbrite.com/e/122197025593"
       available: true
       authors:
       - name: "Rich Iannone"
@@ -100,7 +100,7 @@ workshopDates:
       time: "8:00-12:00 ET"
       authorlist: "David Granjon (Novartis) & John Coene (World Economic Forum)"
       maxattendees: 40
-      ticketurl: "#"
+      ticketurl: "https://www.eventbrite.com/e/122007695301"
       available: true
       authors:
       - name: "David Granjon"
@@ -111,7 +111,7 @@ workshopDates:
       time: "14:00-18:00 ET"
       authorlist: "Emil Hvitfeldt (University Southern California)"
       maxattendees: 80
-      ticketurl: "#"
+      ticketurl: "https://www.eventbrite.com/e/122007659193"
       available: true
       authors:
       - name: "Emil Hvitfelt"

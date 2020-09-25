@@ -101,7 +101,7 @@ workshopDates:
       authorlist: "David Granjon (Novartis) & John Coene (World Economic Forum)"
       maxattendees: 40
       ticketurl: "https://www.eventbrite.com/e/122007695301"
-      available: true
+      available: false
       authors:
       - name: "David Granjon"
         image: "images/speakers/david-granjon.jpg"

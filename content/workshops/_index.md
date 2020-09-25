@@ -58,13 +58,15 @@ workshopDates:
     workshops:
     - title: "RMarkdown"
       time: "8:00-12:00 ET"
-      authorlist: "Alison Hill (RStudio)"
+      authorlist: "Alison Hill (RStudio), Tom Mock (RStudio)"
       maxattendees: 100
       ticketurl: "https://www.eventbrite.com/e/122005813673"
       available: true
       authors:
       - name: "Alison Hill"
         image: "images/speakers/alison-hill.jpg"
+      - name: "Tom Mock"
+        image: "images/speakers/tom-mock.jpg"
     - title: "Stan Workshop"
       time: "13:00-16:00 ET"
       authorlist: "Daniel Lee (Generable)"

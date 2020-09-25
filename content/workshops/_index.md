@@ -109,7 +109,7 @@ workshopDates:
         image: "images/speakers/david-granjon.jpg"
       - name: "John Coene"
         image: "images/speakers/john-coene.jpg"
-    - title: "Tidytext Modelling"
+    - title: "Predictive modeling with text using tidy data principles"
       time: "14:00-18:00 ET"
       authorlist: "Emil Hvitfeldt (University Southern California)"
       maxattendees: 80

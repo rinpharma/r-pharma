@@ -65,7 +65,7 @@ workshopDates:
       authors:
       - name: "Alison Hill"
         image: "images/speakers/alison-hill.jpg"
-    - title: "Stan Workshop: The Workshop I Wish I Had"
+    - title: "Stan Workshop"
       time: "13:00-16:00 ET"
       authorlist: "Daniel Lee (Generable)"
       maxattendees: 100

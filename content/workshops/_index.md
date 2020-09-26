@@ -24,7 +24,7 @@ workshopDates:
       authorlist: "Mike Stackhouse (Atorus), Nathan Kosiba (Atorus)"
       maxattendees: 50
       ticketurl: "https://www.eventbrite.com/e/122006734427"
-      available: true
+      available: false
       authors:
       - name: "Mike Stackhouse"
         image: "images/speakers/mike-stackhouse.jpg"

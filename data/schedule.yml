@@ -10,7 +10,7 @@ schedule:
       tabContentList:
         # tab content list
         - time : "10:00am"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/opening-remarks.jpg"
           content : "
 
           ### Opening Remarks
@@ -18,7 +18,7 @@ schedule:
 
         # tab content list
         - time : "10:10am"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/keynote.jpg"
           content : "
 
           ### Title to follow
@@ -30,7 +30,7 @@ schedule:
 
         # tab content list
         - time : "10:50am"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/coffee.jpg"
           content : "
 
           ### Break
@@ -38,7 +38,7 @@ schedule:
 
         # tab content list
         - time : "11:00am"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/talk.jpg"
           content : "
 
           ### Title to follow
@@ -50,7 +50,7 @@ schedule:
 
         # tab content list
         - time : "11:20am"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/talk.jpg"
           content : "
 
           ### Title to follow
@@ -62,7 +62,7 @@ schedule:
 
         # tab content list
         - time : "11:40am"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/talk.jpg"
           content : "
 
           ### Interactive medical oversight reporting in R
@@ -74,7 +74,7 @@ schedule:
 
         # tab content list
         - time : "11:50am"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/talk.jpg"
           content : "
 
           ### Implementing Mixed Models with Repeated Measures (MMRM) in R and Shiny for Regulatory Purposes
@@ -86,7 +86,7 @@ schedule:
           
         # tab content list
         - time : "12:00pm"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/coffee.jpg"
           content : "
 
           ### Break
@@ -94,7 +94,7 @@ schedule:
 
         # tab content list
         - time : "12:10pm"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/talk.jpg"
           content : "
 
           ### R Package Validation Framework
@@ -106,7 +106,7 @@ schedule:
 
         # tab content list
         - time : "12:30pm"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/talk.jpg"
           content : "
 
           ### metashiny: Build Shiny Apps with a Shiny App
@@ -118,7 +118,7 @@ schedule:
 
         # tab content list
         - time : "12:40pm"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/talk.jpg"
           content : "
 
           ### Out of chaos, comes order: Adventures in standardized and reproducible research
@@ -130,7 +130,7 @@ schedule:
           
         # tab content list
         - time : "1:00pm"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/coffee.jpg"
           content : "
 
           ### Break
@@ -138,7 +138,7 @@ schedule:
 
         # tab content list
         - time : "1:10pm"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/talk.jpg"
           content : "
 
           ### Title to follow
@@ -150,7 +150,7 @@ schedule:
 
         # tab content list
         - time : "1:20pm"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/talk.jpg"
           content : "
 
           ### Title to follow
@@ -162,7 +162,7 @@ schedule:
 
         # tab content list
         - time : "1:40pm"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/talk.jpg"
           content : "
 
           ### Becoming Multilingual
@@ -174,7 +174,7 @@ schedule:
 
         # tab content list
         - time : "1:50pm"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/closing-remarks.jpg"
           content : "
 
           ### Closing Remarks
@@ -191,7 +191,7 @@ schedule:
       tabContentList:
         # tab content list
         - time : "10:00am"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/opening-remarks.jpg"
           content : "
 
           ### Opening Remarks
@@ -199,7 +199,7 @@ schedule:
 
         # tab content list
         - time : "10:10am"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/keynote.jpg"
           content : "
 
           ### Data visualization practices for real world machine learning
@@ -211,7 +211,7 @@ schedule:
 
         # tab content list
         - time : "10:50am"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/coffee.jpg"
           content : "
 
           ### Break
@@ -219,7 +219,7 @@ schedule:
 
         # tab content list
         - time : "11:00am"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/talk.jpg"
           content : "
 
           ### Title to follow
@@ -231,7 +231,7 @@ schedule:
 
         # tab content list
         - time : "11:20am"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/talk.jpg"
           content : "
 
           ### Title to follow
@@ -243,10 +243,10 @@ schedule:
 
         # tab content list
         - time : "11:40am"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/talk.jpg"
           content : "
 
-          ### Title to follow
+          ### visR - A Package for Effective Visualizations in Pharma
 
           ###### Charlotta Früchtenicht
 
@@ -255,7 +255,7 @@ schedule:
 
         # tab content list
         - time : "11:50am"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/talk.jpg"
           content : "
 
           ### safetyGraphics v2.0 - Open Source Collaboration in Pharma using R and Shiny
@@ -267,7 +267,7 @@ schedule:
           
         # tab content list
         - time : "12:00pm"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/coffee.jpg"
           content : "
 
           ### Break
@@ -275,7 +275,7 @@ schedule:
 
         # tab content list
         - time : "12:10pm"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/talk.jpg"
           content : "
 
           ### Styling Shiny & R Markdown with bootstraplib & thematic
@@ -287,7 +287,7 @@ schedule:
 
         # tab content list
         - time : "12:30pm"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/talk.jpg"
           content : "
 
           ### Clinical Reporting Using R at GSK
@@ -299,7 +299,7 @@ schedule:
 
         # tab content list
         - time : "12:40pm"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/talk.jpg"
           content : "
 
           ### Leveraging Nested Data Frames in Regulatory Submissions
@@ -311,7 +311,7 @@ schedule:
           
         # tab content list
         - time : "12:50pm"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/talk.jpg"
           content : "
 
           ### Title to follow
@@ -323,7 +323,7 @@ schedule:
           
         # tab content list
         - time : "1:00pm"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/coffee.jpg"
           content : "
 
           ### Break
@@ -331,7 +331,7 @@ schedule:
 
         # tab content list
         - time : "1:10pm"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/talk.jpg"
           content : "
 
           ### openNCA - open source Pharmacokinetic data repository and Non-compartmental Analysis System
@@ -343,7 +343,7 @@ schedule:
 
         # tab content list
         - time : "1:30pm"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/talk.jpg"
           content : "
 
           ### tidyCDISC an Open Source Platform in R to Analyze Clinical Trial Data
@@ -355,7 +355,7 @@ schedule:
 
         # tab content list
         - time : "1:40pm"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/talk.jpg"
           content : "
 
           ### Becoming Multilingual
@@ -367,7 +367,7 @@ schedule:
 
         # tab content list
         - time : "1:50pm"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/talk.jpg"
           content : "
 
           ### yspec: an R package to create and deploy data set specification objects in a modeling and simulation workflow
@@ -379,7 +379,7 @@ schedule:
 
         # tab content list
         - time : "2:00pm"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/closing-remarks.jpg"
           content : "
 
           ### Closing Remarks
@@ -395,7 +395,7 @@ schedule:
       tabContentList:
         # tab content list
         - time : "10:00am"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/opening-remarks.jpg"
           content : "
 
           ### Opening Remarks
@@ -403,7 +403,7 @@ schedule:
 
         # tab content list
         - time : "10:10am"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/keynote.jpg"
           content : "
 
           ### Would John, Paul, George or Ringo have been famous if it were not for the Beatles
@@ -415,7 +415,7 @@ schedule:
 
         # tab content list
         - time : "10:50am"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/coffee.jpg"
           content : "
 
           ### Break
@@ -423,10 +423,10 @@ schedule:
 
         # tab content list
         - time : "11:00am"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/talk.jpg"
           content : "
 
-          ### Title to follow
+          ### Julia in Pharma: The ease of R combined with the speed of C++
 
           ###### Viral Shah
 
@@ -435,7 +435,7 @@ schedule:
 
         # tab content list
         - time : "11:20am"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/talk.jpg"
           content : "
 
           ### Building and managing unified R environments for data science and software development
@@ -447,7 +447,7 @@ schedule:
 
         # tab content list
         - time : "11:30am"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/talk.jpg"
           content : "
 
           ### Using R Markdown to Generate Clinical Trials Summary Reports
@@ -459,7 +459,7 @@ schedule:
 
         # tab content list
         - time : "11:40am"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/talk.jpg"
           content : "
 
           ### Reproducible computation at scale with targets
@@ -471,10 +471,10 @@ schedule:
 
         # tab content list
         - time : "11:50am"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/talk.jpg"
           content : "
 
-          ### The “See”-Value App: Visual Decision Making for Drug Development
+          ### Seamless visualisation of complex genomic variations in GMOs and edited cell lines using gmoviz
 
           ###### Kathleen Zeglinski
 
@@ -483,7 +483,7 @@ schedule:
           
         # tab content list
         - time : "12:00pm"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/coffee.jpg"
           content : "
 
           ### Break
@@ -491,7 +491,7 @@ schedule:
 
         # tab content list
         - time : "12:10pm"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/talk.jpg"
           content : "
 
           ### Improving Robustness of Evidence when Evaluating Causal Effects of Pharmaceutical Drugs in Healthcare Databases
@@ -503,10 +503,10 @@ schedule:
 
         # tab content list
         - time : "12:30pm"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/talk.jpg"
           content : "
 
-          ### Title to follow
+          ### r2rtf - a Lightweight R Package to Produce Tables and Figures in RTF Format
 
           ###### Yilong Zhang
 
@@ -515,7 +515,7 @@ schedule:
 
         # tab content list
         - time : "12:40pm"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/talk.jpg"
           content : "
 
           ### Benchmarking algorithms for subgroup detection
@@ -527,7 +527,7 @@ schedule:
           
         # tab content list
         - time : "12:50pm"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/talk.jpg"
           content : "
 
           ### The “See”-Value App: Visual Decision Making for Drug Development
@@ -539,7 +539,7 @@ schedule:
           
         # tab content list
         - time : "1:00pm"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/coffee.jpg"
           content : "
 
           ### Break
@@ -547,7 +547,7 @@ schedule:
 
         # tab content list
         - time : "1:10pm"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/talk.jpg"
           content : "
 
           ### Title to follow
@@ -559,7 +559,7 @@ schedule:
 
         # tab content list
         - time : "1:30pm"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/talk.jpg"
           content : "
 
           ### X-Omics Platform
@@ -571,7 +571,7 @@ schedule:
 
         # tab content list
         - time : "1:40pm"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/talk.jpg"
           content : "
 
           ### RStudio's Pharma Updates
@@ -583,7 +583,7 @@ schedule:
 
         # tab content list
         - time : "1:50pm"
-          image : "images/schedule/workshop.png"
+          image : "images/schedule/closing-remarks.jpg"
           content : "
 
           ### Closing Remarks

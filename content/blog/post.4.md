@@ -24,7 +24,8 @@ We are excited to announce that registration is now open for R/Pharma 2020.  R/P
 <div class="col-lg-8">
   <div class="info">
     <h4 class="mt-5 mb-4"></h4>
-    <a href="https://hopin.to/events/r-pharma-2020" class="btn btn-secondary btn-rounded">Get Ticket</a>
+<!--      <a href="https://hopin.to/events/r-pharma-2020" class="btn btn-secondary btn-rounded">Get Ticket</a> --> 
+      <a href="#" class="btn btn-danger btn-rounded disabled">Sold Out</a>
   </div>
   <br/>
 </div>

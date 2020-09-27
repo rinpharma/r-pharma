@@ -1,777 +1,594 @@
 schedule:
   enable : true
   titleOutline : "schedule"
-  title : "Last years schedule"
-  content : "The 2020 schedule is in development. Below lies the 2019 schedule."
+  title : "R/Pharma 2020"
+  content : "All times below in US ET"
   scheduleTab:
     ################################# tab itam loop
     - title : "Day 1"
-      subtitle : "7 Aug ,2019 [08.10am - 05.20pm]"
+      subtitle : "13 Oct [10.00am - 2.00pm ET]"
       tabContentList:
         # tab content list
-        - time : "Morning workshop"
+        - time : "10:00am"
           image : "images/schedule/workshop.png"
           content : "
 
-          ### Shiny Reproducibility
-
-          ###### Joe Cheng
-
-          Chief Technology Officer and Shiny team leader at RStudio
+          ### Opening Remarks
           "
 
         # tab content list
-        - time : "Morning workshop"
+        - time : "10:10am"
           image : "images/schedule/workshop.png"
           content : "
 
-          ### R Validation Hub (past, current and future state)
+          ### Title to follow
 
-          ###### Andy Nicholls
+          ###### Matilde Kam
 
-          Head of Statistical Data Sciences at GSK
+          FDA
           "
 
         # tab content list
-        - time : "Morning workshop"
+        - time : "10:50am"
           image : "images/schedule/workshop.png"
           content : "
 
-          ### Artificial neural networks in R with Keras and TensorFlow
-
-          ###### Leon Eyrich Jessen
-
-          Assistant Professor at the Technical University of Denmark
+          ### Break
           "
 
         # tab content list
-        - time : "Afternoon workshop"
+        - time : "11:00am"
           image : "images/schedule/workshop.png"
           content : "
 
-          ### Machine learning
+          ### Title to follow
 
           ###### Max Kuhn
 
-          Software Engineer at RStudio.
+          RStudio.
           "
 
         # tab content list
-        - time : "Afternoon workshop"
+        - time : "11:20am"
           image : "images/schedule/workshop.png"
           content : "
 
-          ### plottly
+          ### Title to follow
+          
+          ###### Andy Nicholls
+
+          Glaxosmithkline
+          "
+
+        # tab content list
+        - time : "11:40am"
+          image : "images/schedule/workshop.png"
+          content : "
+
+          ### Interactive medical oversight reporting in R
+
+          ###### Laure Cougnaud, Michela Pasetto, Arne de Roeck
+
+          openanalytics
+          "
+
+        # tab content list
+        - time : "11:50am"
+          image : "images/schedule/workshop.png"
+          content : "
+
+          ### Implementing Mixed Models with Repeated Measures (MMRM) in R and Shiny for Regulatory Purposes
+
+          ###### Daniel Sabanes Bove
+
+          Roche
+          "
+          
+        # tab content list
+        - time : "12:00pm"
+          image : "images/schedule/workshop.png"
+          content : "
+
+          ### Break
+          "
+
+        # tab content list
+        - time : "12:10pm"
+          image : "images/schedule/workshop.png"
+          content : "
+
+          ### R Package Validation Framework
+
+          ###### Ellis Hughes
+
+          Fred Hutch
+          "
+
+        # tab content list
+        - time : "12:30pm"
+          image : "images/schedule/workshop.png"
+          content : "
+
+          ### metashiny: Build Shiny Apps with a Shiny App
+
+          ###### Bo Wang
+
+          Novartis
+          "
+
+        # tab content list
+        - time : "12:40pm"
+          image : "images/schedule/workshop.png"
+          content : "
+
+          ### Out of chaos, comes order: Adventures in standardized and reproducible research
+
+          ###### Leigh Alexander
+
+          SomaLogic
+          "
+          
+        # tab content list
+        - time : "1:00pm"
+          image : "images/schedule/workshop.png"
+          content : "
+
+          ### Break
+          "
+
+        # tab content list
+        - time : "1:10pm"
+          image : "images/schedule/workshop.png"
+          content : "
+
+          ### Title to follow
+
+          ###### Adrian Olszewski
+
+          2kmm
+          "
+
+        # tab content list
+        - time : "1:20pm"
+          image : "images/schedule/workshop.png"
+          content : "
+
+          ### Title to follow
+
+          ###### Jae Joon Song
+
+          FDA
+          "
+
+        # tab content list
+        - time : "1:40pm"
+          image : "images/schedule/workshop.png"
+          content : "
+
+          ### Becoming Multilingual
+
+          ###### Bella Feng
+
+          Gilead
+          "
+
+        # tab content list
+        - time : "1:50pm"
+          image : "images/schedule/workshop.png"
+          content : "
+
+          ### Closing Remarks
+
+          ###### Devin Pastoor
+
+          Metrum
+          "
+
+
+    ################################# tab itam loop
+    - title : "Day 2"
+      subtitle : "14 Oct [10.00am - 2.10pm ET]"
+      tabContentList:
+        # tab content list
+        - time : "10:00am"
+          image : "images/schedule/workshop.png"
+          content : "
+
+          ### Opening Remarks
+          "
+
+        # tab content list
+        - time : "10:10am"
+          image : "images/schedule/workshop.png"
+          content : "
+
+          ### Data visualization practices for real world machine learning
+
+          ###### Julia Silge
+
+          RStudio
+          "
+
+        # tab content list
+        - time : "10:50am"
+          image : "images/schedule/workshop.png"
+          content : "
+
+          ### Break
+          "
+
+        # tab content list
+        - time : "11:00am"
+          image : "images/schedule/workshop.png"
+          content : "
+
+          ### Title to follow
+
+          ###### Christina Fillmore
+
+          Glaxosmithkline
+          "
+
+        # tab content list
+        - time : "11:20am"
+          image : "images/schedule/workshop.png"
+          content : "
+
+          ### Title to follow
+          
+          ###### Baldur Magnusson
+
+          Novartis
+          "
+
+        # tab content list
+        - time : "11:40am"
+          image : "images/schedule/workshop.png"
+          content : "
+
+          ### Title to follow
+
+          ###### Charlotta Früchtenicht
+
+          Roche
+          "
+
+        # tab content list
+        - time : "11:50am"
+          image : "images/schedule/workshop.png"
+          content : "
+
+          ### safetyGraphics v2.0 - Open Source Collaboration in Pharma using R and Shiny
+
+          ###### Jeremy Wildfire
+
+          Gilead
+          "
+          
+        # tab content list
+        - time : "12:00pm"
+          image : "images/schedule/workshop.png"
+          content : "
+
+          ### Break
+          "
+
+        # tab content list
+        - time : "12:10pm"
+          image : "images/schedule/workshop.png"
+          content : "
+
+          ### Styling Shiny & R Markdown with bootstraplib & thematic
 
           ###### Carson Sievert
 
-          Software Engineer at RStudio.
+          RStudio
           "
 
         # tab content list
-        - time : "Afternoon workshop"
+        - time : "12:30pm"
           image : "images/schedule/workshop.png"
           content : "
 
-          ### Machine learning workflow management with drake
+          ### Clinical Reporting Using R at GSK
 
-          ###### Will Landau
+          ###### Michael Rimler
 
-          Research Scientist at Eli Lilly
+          Glaxosmithkline
           "
 
-    ################################# tab itam loop
-    - title : "Day 2"
-      subtitle : "8 Aug ,2019 [08.10am - 07.30pm]"
-      tabContentList:
         # tab content list
-        - time : "8-9am"
-          image : "images/schedule/coffee.jpg"
+        - time : "12:40pm"
+          image : "images/schedule/workshop.png"
           content : "
 
-          ### Registration at CGIS South
+          ### Leveraging Nested Data Frames in Regulatory Submissions
 
+          ###### Mike Mehan
+
+          SomaLogic
           "
-
+          
         # tab content list
-        - time : "9.00am"
-          image : "images/schedule/lecture.png"
+        - time : "12:50pm"
+          image : "images/schedule/workshop.png"
           content : "
 
-          ### Opening Remarks
+          ### Title to follow
 
-          ###### By Merce Crosas
+          ###### J. Kyle Wathen
 
-          Auditorium
+          SomaLogic
           "
-
+          
         # tab content list
-        - time : "9.15am"
-          image : "images/schedule/lecture.png"
-          content : "
-
-          ### Reproducibility and the role of code in reproducible data science
-
-          ###### By Garrett Grolemund
-
-          Auditorium
-          "
-
-        # tab content list
-        - time : "10.00am"
-          image : "images/schedule/lecture.png"
-          content : "
-
-          ### Using R for Generic Drug Evaluation and SABE R-package for
-          Assessing Bioequivalence of Topical Dermatological Products
-
-          ###### By Elena Rantou
-
-          Auditorium
-          "
-
-        # tab content list
-        - time : "10.20am"
-          image : "images/schedule/lecture.png"
-          content : "
-
-          ### How to win friends and influence people: Efficiency,
-          Reproducibility, and Scalability with R Project templates and
-          parameterized R Markdown
-
-          ###### By Leigh Alexander
-
-          Auditorium
-          "
-
-        # tab content list
-        - time : "10.30am"
-          image : "images/schedule/lecture.png"
-          content : "
-
-          ### Teaching an old dog new tricks: modernizing gsDesign
-
-          ###### By Keaven Anderson
-
-          Auditorium
-          "
-
-        # tab content list
-        - time : "10.50"
-          image : "images/schedule/coffee.png"
+        - time : "1:00pm"
+          image : "images/schedule/workshop.png"
           content : "
 
           ### Break
-
-          Concourse
           "
 
         # tab content list
-        - time : "11.10am"
-          image : "images/schedule/lecture.png"
+        - time : "1:10pm"
+          image : "images/schedule/workshop.png"
           content : "
 
-          ### nlmixr: an R package for population PKPD modeling
+          ### openNCA - open source Pharmacokinetic data repository and Non-compartmental Analysis System
 
-          ###### By Mirjam Trame
+          ###### Thomas Tensfeldt
 
-          Auditorium
+          Pfizer
           "
 
         # tab content list
-        - time : "11.30am"
-          image : "images/schedule/lecture.png"
+        - time : "1:30pm"
+          image : "images/schedule/workshop.png"
           content : "
 
-          ### Creating and reviving Shiny apps with {golem}
+          ### tidyCDISC an Open Source Platform in R to Analyze Clinical Trial Data
 
-          ###### By Eric Nantz
+          ###### Maya Gans / Maryl Gotti
 
-          Auditorium
+          Biogen
           "
 
         # tab content list
-        - time : "11.40am"
-          image : "images/schedule/lecture.png"
+        - time : "1:40pm"
+          image : "images/schedule/workshop.png"
           content : "
 
-          ### Exploratory Graphics (xGx): Promoting the purposeful
-          exploration of PKPD data
+          ### Becoming Multilingual
 
-          ###### By Alison Margolskee
+          ###### Mike Stackhouse
 
-          Auditorium
+          Atorus
           "
 
         # tab content list
-        - time : "12.00pm"
-          image : "images/schedule/lecture.png"
+        - time : "1:50pm"
+          image : "images/schedule/workshop.png"
           content : "
 
-          ### Interactive Visualization of Standardized CDISC-SEND-Formatted
-          Toxicology Study Data Using R Shiny
+          ### yspec: an R package to create and deploy data set specification objects in a modeling and simulation workflow
 
-          ###### By Kevin Snyder
+          ###### Kyle Baron
 
-          Auditorium
+          Metrum
           "
 
         # tab content list
-        - time : "12.10pm"
-          image : "images/schedule/lecture.png"
+        - time : "2:00pm"
+          image : "images/schedule/workshop.png"
           content : "
 
-          ### Using RStudio.Cloud to advance R proficiency: a crowdsourcing training experience
+          ### Closing Remarks
 
-          ###### By Paulo Bargo
+          ###### Paul Schuette
 
-          Auditorium
+          FDA
           "
-
-        # tab content list
-        - time : "12.30pm"
-          image : "images/schedule/food.png"
-          content : "
-
-          ### Lunch
-
-          Concourse
-          "
-
-        # tab content list
-        - time : "1.30pm"
-          image : "images/schedule/lecture.png"
-          content : "
-
-          ### Updates on Analyzing Clinical Trials Data with R
-
-          ###### By Adrian Waddell
-
-          Auditorium
-          "
-
-        # tab content list
-        - time : "1.50pm"
-          image : "images/schedule/lecture.png"
-          content : "
-
-          ### R Packages for Analyzing Clinical Trials Data with R
-          Focusing on Safety And Early Efficacy
-
-          ###### By Nina Qi
-
-          Auditorium
-          "
-
-        # tab content list
-        - time : "2.00pm"
-          image : "images/schedule/lecture.png"
-          content : "
-
-          ### Package management
-
-          ###### By Devin Pastoor
-
-          Auditorium
-          "
-
-        # tab content list
-        - time : "2.20pm"
-          image : "images/schedule/lecture.png"
-          content : "
-
-          ### Shinytized R Markdown: A Potent OTC Alternative to
-          1,3,7‐Trimethylxanthine & Currently Indicated for
-          NDA Document Generation, Among Others
-
-          ###### By Mark Rothe
-
-          Auditorium
-          "
-
-        # tab content list
-        - time : "2.30pm"
-          image : "images/schedule/lecture.png"
-          content : "
-
-          ### Collaborating at scale: managing an enterprise
-          analytical computing ecosystem
-
-          ###### By Rena Yang
-
-          Auditorium
-          "
-
-        # tab content list
-        - time : "2.50pm"
-          image : "images/schedule/lecture.png"
-          content : "
-
-          ### Embrace R in Pharma - building internal R
-          community and establishing fit-for-purpose R pilots
-
-          ###### By Ning Leng
-
-          Auditorium
-          "
-
-        # tab content list
-        - time : "3.00pm"
-          image : "images/schedule/lecture.png"
-          content : "
-
-          ### Re-envisioning Clinical Content Delivery in the Open Source World
-
-          ###### By Doug Kelkhoff
-
-          Auditorium
-          "
-
-        # tab content list
-        - time : "3.20pm"
-          image : "images/schedule/lecture.png"
-          content : "
-
-          ### The use of R for improved reproducibility of biomarker
-          detection in liquid biopsies
-
-          ###### By Vivian Zhuang
-
-          Auditorium
-          "
-
-        # tab content list
-        - time : "3.30pm"
-          image : "images/schedule/coffee.png"
-          content : "
-
-          ### Break
-
-          Concourse
-          "
-
-        # tab content list
-        - time : "3.50pm"
-          image : "images/schedule/lecture.png"
-          content : "
-
-          ### Breaking the Speed Limit: How R Gets Faster
-
-          ###### By Marianna Foos
-
-          Auditorium
-          "
-
-        # tab content list
-        - time : "4.35pm"
-          image : "images/schedule/lecture.png"
-          content : "
-
-          ### Leveraging multiple R tools to make effective
-          pediatric dosing decisions
-
-          ###### By Jeannine Fisher
-
-          Auditorium
-          "
-
-        # tab content list
-        - time : "4.45pm"
-          image : "images/schedule/lecture.png"
-          content : "
-
-          ### Using Machine Learning and Interactive Graphics to
-          Find New Cancer Targets
-
-          ###### By David Cooper
-
-          Auditorium
-          "
-
-        # tab content list
-        - time : "5.05pm"
-          image : "images/schedule/lecture.png"
-          content : "
-
-          ### 	Machine learning workflow management with drake
-
-          ###### By Will Landau
-
-          Auditorium
-          "
-
-        # tab content list
-        - time : "5.15pm"
-          image : "images/schedule/lecture.png"
-          content : "
-
-          ### An R package for Data Science and Deep Visualization of a
-          complex clinical database
-
-          ###### By David James
-
-          Auditorium
-          "
-
-        # tab content list
-        - time : "6.00pm"
-          image : "images/schedule/beer.png"
-          content : "
-
-          ### Conference Reception
-
-          Cambridge Innovation Center, 245 Main Street, Cambridge MA
-          "
-
 
     ################################# tab itam loop
     - title : "Day 3"
-      subtitle : "9 Aug ,2019 [08.10am - 08.00pm]"
+      subtitle : "15 Oct [10.00am - 2.00pm ET]"
       tabContentList:
         # tab content list
-        - time : "8-9am"
-          image : "images/schedule/coffee.jpg"
-          content : "
-
-          ### Registration at CGIS South
-
-          "
-
-        # tab content list
-        - time : "9.00am"
-          image : "images/schedule/lecture.png"
+        - time : "10:00am"
+          image : "images/schedule/workshop.png"
           content : "
 
           ### Opening Remarks
-
-          ###### By Xiao-Li Meng
-
-          Auditorium
           "
 
         # tab content list
-        - time : "9.15am"
-          image : "images/schedule/lecture.png"
+        - time : "10:10am"
+          image : "images/schedule/workshop.png"
           content : "
 
-          ### Multi-modal data integration
+          ### Would John, Paul, George or Ringo have been famous if it were not for the Beatles
 
-          ###### By Aedin Culhane
+          ###### Douglas Robinson
 
-          Auditorium
+          Novartis
           "
 
         # tab content list
-        - time : "10.00am"
-          image : "images/schedule/lecture.png"
-          content : "
-
-          ### Your Missing Step in Reproducible R Programming:
-            Continuous Deployment
-
-          ###### By Chase Clark
-
-          Auditorium
-          "
-
-        # tab content list
-        - time : "10.20am"
-          image : "images/schedule/lecture.png"
-          content : "
-
-          ### From playing in the backyard to designing one: Shiny transforms
-          study designs, data analyses and statistical thinking of
-          oncology in vivo group at Janssen
-
-          ###### By Volha Tryputsen
-
-          Auditorium
-          "
-
-        # tab content list
-        - time : "10.30am"
-          image : "images/schedule/lecture.png"
-          content : "
-
-          ### ModViz POP: R-Shiny Based PK/PD Interface for Empowering
-          Teams to Perform Real-Time Simulations
-
-          ###### By Pavan Vaddady
-
-          Auditorium
-          "
-
-        # tab content list
-        - time : "10.50"
-          image : "images/schedule/coffee.png"
+        - time : "10:50am"
+          image : "images/schedule/workshop.png"
           content : "
 
           ### Break
-
-          Concourse
           "
 
         # tab content list
-        - time : "11.10am"
-          image : "images/schedule/lecture.png"
+        - time : "11:00am"
+          image : "images/schedule/workshop.png"
           content : "
 
-          ### Building Open Source Tools for Safety Monitoring:
-            Advancing Research Through Community Collaboration
+          ### Title to follow
 
-          ###### By Becca Krouse
+          ###### Viral Shah
 
-          Auditorium
+          Julia Computing
           "
 
         # tab content list
-        - time : "11.30am"
-          image : "images/schedule/lecture.png"
+        - time : "11:20am"
+          image : "images/schedule/workshop.png"
           content : "
 
-          ### It's Not What's on the Outside, but It's What's on the
-          Back-end That Matters: The World Beyond CSV Files
+          ### Building and managing unified R environments for data science and software development
+          
+          ###### Dariusz Ratman
 
-          ###### By Marcus Adams
-
-          Auditorium
+          Roche
           "
 
         # tab content list
-        - time : "11.40am"
-          image : "images/schedule/lecture.png"
+        - time : "11:30am"
+          image : "images/schedule/workshop.png"
           content : "
 
-          ### Improve installation sequences for R package cohorts
+          ### Using R Markdown to Generate Clinical Trials Summary Reports
+          
+          ###### Radhika Etikala / Xuehan (Emily) Zhang
 
-          ###### By Juliane Manitz
-
-          Auditorium
+          Fred Hutch
           "
 
         # tab content list
-        - time : "12.00pm"
-          image : "images/schedule/lecture.png"
+        - time : "11:40am"
+          image : "images/schedule/workshop.png"
           content : "
 
-          ### 	Evaluating the performance of advanced causal inference
-          methods applied to healthcare claims data
+          ### Reproducible computation at scale with targets
 
-          ###### By Jessica Myers Franklin
+          ###### Will Landau
 
-          Auditorium
+          Eli Lilly
           "
 
         # tab content list
-        - time : "12.10pm"
-          image : "images/schedule/lecture.png"
+        - time : "11:50am"
+          image : "images/schedule/workshop.png"
           content : "
 
-          ### Tidysq for Working with Biological Sequence Data in ML Driven
-          Epitope Prediction in Cancer Immunotherapy
+          ### The “See”-Value App: Visual Decision Making for Drug Development
 
-          ###### By Leon Eyrich Jessen
+          ###### Kathleen Zeglinski
 
-          Auditorium
+          csl
           "
-
+          
         # tab content list
-        - time : "12.30pm"
-          image : "images/schedule/food.png"
-          content : "
-
-          ### Lunch
-
-          Concourse
-          "
-
-        # tab content list
-        - time : "1.30pm"
-          image : "images/schedule/lecture.png"
-          content : "
-
-          ### This one is not like the others: Applicability Domain methods in R
-
-          ###### By Max Kuhn
-
-          Auditorium
-          "
-
-        # tab content list
-        - time : "1.50pm"
-          image : "images/schedule/lecture.png"
-          content : "
-
-          ### 	Accelerating Chemistry Research through the Integration of
-          Data Science with High-Throughput Experimentation
-
-          ###### By Jason Stevens
-
-          Auditorium
-          "
-
-        # tab content list
-        - time : "2.00pm"
-          image : "images/schedule/lecture.png"
-          content : "
-
-          ### Reproducible shiny apps with shinymeta
-
-          ###### By Carson Sievert
-
-          Auditorium
-          "
-
-        # tab content list
-        - time : "2.20pm"
-          image : "images/schedule/lecture.png"
-          content : "
-
-          ### 	Shiny apps for accelerating early drug discovery research
-
-          ###### By Gordon Turner
-
-          Auditorium
-          "
-
-        # tab content list
-        - time : "2.30pm"
-          image : "images/schedule/coffee.png"
-          content : "
-
-          ### Break - stretch your legs!
-
-          Concourse
-          "
-
-        # tab content list
-        - time : "2.40pm"
-          image : "images/schedule/lecture.png"
-          content : "
-
-          ### Using R to foster the communication with non-statisticians on
-          Bayesian dose escalation models
-
-          ###### By Marianna Grinberg
-
-          Auditorium
-          "
-
-        # tab content list
-        - time : "3.00pm"
-          image : "images/schedule/lecture.png"
-          content : "
-
-          ### Prediction of maternal-fetal exposures of CYP450-metabolized drugs
-          using physiologic pharmacokinetic modeling implemented in
-          R and mrgsolve.
-
-          ###### By Madeleine S. Gastonguay
-
-          Auditorium
-          "
-
-        # tab content list
-        - time : "3.10pm"
-          image : "images/schedule/lecture.png"
-          content : "
-
-          ### Making Better Decisions
-
-          ###### By Andy Nicholls
-
-          Auditorium
-          "
-
-        # tab content list
-        - time : "3.30pm"
-          image : "images/schedule/lecture.png"
-          content : "
-
-          ### From CDISC to TLFs, using R to support Pharmacokinetic Analyses
-
-          ###### By Jessica Higgins
-
-          Auditorium
-          "
-
-        # tab content list
-        - time : "3.40pm"
-          image : "images/schedule/coffee.png"
+        - time : "12:00pm"
+          image : "images/schedule/workshop.png"
           content : "
 
           ### Break
-
-          Concourse
           "
 
         # tab content list
-        - time : "4.00pm"
-          image : "images/schedule/lecture.png"
+        - time : "12:10pm"
+          image : "images/schedule/workshop.png"
           content : "
 
-          ### Simulations, and Complex Innovative Trial Designs
+          ### Improving Robustness of Evidence when Evaluating Causal Effects of Pharmaceutical Drugs in Healthcare Databases
 
-          ###### By Paul Schuette
+          ###### Richie Wyss
 
-          Auditorium
+          Harvard Medical School
           "
 
         # tab content list
-        - time : "4.45pm"
-          image : "images/schedule/lecture.png"
+        - time : "12:30pm"
+          image : "images/schedule/workshop.png"
           content : "
 
-          ### Validation Framework for Assay Processing Pipelines
+          ### Title to follow
 
-          ###### By Ellis Hughes
+          ###### Yilong Zhang
 
-          Auditorium
+          Merck
           "
 
         # tab content list
-        - time : "4.55pm"
-          image : "images/schedule/lecture.png"
+        - time : "12:40pm"
+          image : "images/schedule/workshop.png"
           content : "
 
-          ### Shiny in Production: Building bridges from data science to IT
+          ### Benchmarking algorithms for subgroup detection
 
-          ###### By Kelly O'Briant
+          ###### Sophie Sun
 
-          Auditorium
+          Novartis
+          "
+          
+        # tab content list
+        - time : "12:50pm"
+          image : "images/schedule/workshop.png"
+          content : "
+
+          ### The “See”-Value App: Visual Decision Making for Drug Development
+
+          ###### Hannah Diehl
+
+          MIT
+          "
+          
+        # tab content list
+        - time : "1:00pm"
+          image : "images/schedule/workshop.png"
+          content : "
+
+          ### Break
           "
 
         # tab content list
-        - time : "5.15pm"
-          image : "images/schedule/lecture.png"
+        - time : "1:10pm"
+          image : "images/schedule/workshop.png"
           content : "
 
-          ### 	Identifying progression-free survival in Veterans with
-          Diffuse Large B-Cell Lymphoma using electronic healthcare records
+          ### Title to follow
 
-          ###### By Debbie Morreall
+          ###### Leon Eyrich Jessen
 
-          Auditorium
+          DTU
           "
 
         # tab content list
-        - time : "5.25pm"
-          image : "images/schedule/lecture.png"
+        - time : "1:30pm"
+          image : "images/schedule/workshop.png"
           content : "
 
-          ### Democratizing Natural Language Processing with I2E and R Shiny
+          ### X-Omics Platform
 
-          ###### By Abhik Seal
+          ###### Stefan Pinkert
 
-          Auditorium
+          Merck
           "
 
         # tab content list
-        - time : "5.45pm"
-          image : "images/schedule/beer.png"
+        - time : "1:40pm"
+          image : "images/schedule/workshop.png"
           content : "
 
-          ### Drinks Offsite
+          ### RStudio's Pharma Updates
 
-          Beat Brew Hall: https://www.beatbrewhall.com/
+          ###### Sean Lopp
+
+          RStudio
+          "
+
+        # tab content list
+        - time : "1:50pm"
+          image : "images/schedule/workshop.png"
+          content : "
+
+          ### Closing Remarks
+
+          ###### Joe Rickert
+
+          R Consortium
           "

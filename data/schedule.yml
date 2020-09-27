@@ -246,7 +246,7 @@ schedule:
           image : "images/schedule/talk.jpg"
           content : "
 
-          ### Title to follow
+          ### visR - A Package for Effective Visualizations in Pharma
 
           ###### Charlotta Früchtenicht
 
@@ -426,7 +426,7 @@ schedule:
           image : "images/schedule/talk.jpg"
           content : "
 
-          ### Title to follow
+          ### Julia in Pharma: The ease of R combined with the speed of C++
 
           ###### Viral Shah
 
@@ -474,7 +474,7 @@ schedule:
           image : "images/schedule/talk.jpg"
           content : "
 
-          ### The “See”-Value App: Visual Decision Making for Drug Development
+          ### Seamless visualisation of complex genomic variations in GMOs and edited cell lines using gmoviz
 
           ###### Kathleen Zeglinski
 
@@ -506,7 +506,7 @@ schedule:
           image : "images/schedule/talk.jpg"
           content : "
 
-          ### Title to follow
+          ### r2rtf - a Lightweight R Package to Produce Tables and Figures in RTF Format
 
           ###### Yilong Zhang
 

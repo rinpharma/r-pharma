@@ -22,9 +22,9 @@ workshopDates:
     - title: "Multilingual Markdown with R and Python Using Reticulate"
       time: "14:00-17:00 ET"
       authorlist: "Mike Stackhouse (Atorus), Nathan Kosiba (Atorus)"
-      maxattendees: 50
+      maxattendees: 75
       ticketurl: "https://www.eventbrite.com/e/122006734427"
-      available: false
+      available: true
       authors:
       - name: "Mike Stackhouse"
         image: "images/speakers/mike-stackhouse.jpg"

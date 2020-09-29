@@ -21,7 +21,7 @@ schedule:
           image : "images/schedule/keynote.jpg"
           content : "
 
-          ### Title to follow
+          ### Challenges in an Evolving Regulatory Landscape: How Statisticians can Contribute
 
           ###### Matilde Kam
 
@@ -53,7 +53,7 @@ schedule:
           image : "images/schedule/talk.jpg"
           content : "
 
-          ### Title to follow
+          ### The R Validation Hub: Implementing a Risk-Based Approach to R
           
           ###### Andy Nicholls
 
@@ -222,7 +222,7 @@ schedule:
           image : "images/schedule/talk.jpg"
           content : "
 
-          ### Title to follow
+          ### Using R to Create End to End Process Predicting Delay in Recruitment from Covid-19
 
           ###### Christina Fillmore
 
@@ -358,7 +358,7 @@ schedule:
           image : "images/schedule/talk.jpg"
           content : "
 
-          ### Becoming Multilingual
+          ### Tplyr: An Intuitive Framework for Building Clinical Safety Summaries
 
           ###### Mike Stackhouse
 

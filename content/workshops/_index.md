@@ -44,7 +44,7 @@ workshopDates:
       - name: "Maria Doyle"
         image: "images/speakers/maria-doyle.jpg"
     - title: "Implementing a Risk-based Approach to R Validation"
-      time: "12:00-14:00 ET"
+      time: "12:00-15:00 ET"
       authorlist: "Andy Nicholls (Glaxosmithkline), Marly Gotti (Biogen)"
       maxattendees: 100
       ticketurl: "https://www.eventbrite.com/e/122006862811"

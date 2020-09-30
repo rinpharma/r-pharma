@@ -61,7 +61,7 @@ workshopDates:
       authorlist: "Alison Hill (RStudio), Tom Mock (RStudio)"
       maxattendees: 100
       ticketurl: "https://www.eventbrite.com/e/122005813673"
-      available: true
+      available: false
       authors:
       - name: "Alison Hill"
         image: "images/speakers/alison-hill.jpg"

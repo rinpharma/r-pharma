@@ -64,19 +64,17 @@ publishDir = "docs"
   name = "Menu"
   hasChildren = true
 
+    [[menu.main]]
+    parent = "Menu"
+    weight = 2
+    name = "Schedule"
+    URL = "schedule"
 
     [[menu.main]]
     parent = "Menu"
-    weight = 1
+    weight = 3
     name = "Blog"
     URL = "blog"
-
-    
-#    [[menu.main]]
-#    parent = "Menu"
-#    name = "Schedule"
-#    URL = "schedule"
-
 
     [[menu.main]]
     parent = "Menu"

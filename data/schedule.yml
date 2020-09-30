@@ -67,9 +67,9 @@ schedule:
 
           ### Interactive medical oversight reporting in R
 
-          ###### Laure Cougnaud, Michela Pasetto, Arne de Roeck
+          ###### Laure Cougnaud / Michela Pasetto / Arne de Roeck
 
-          openanalytics
+          OpenAnalytics and Galapagos
           "
 
         # tab content list
@@ -234,7 +234,7 @@ schedule:
           image : "images/schedule/talk.jpg"
           content : "
 
-          ### Title to follow
+          ### With Great Graphs Comes Great Power
           
           ###### Baldur Magnusson
 
@@ -348,9 +348,9 @@ schedule:
 
           ### tidyCDISC an Open Source Platform in R to Analyze Clinical Trial Data
 
-          ###### Maya Gans / Maryl Gotti
+          ###### Maya Gans / Marly Gotti
 
-          Biogen
+          Cytel and Biogen
           "
 
         # tab content list
@@ -496,7 +496,7 @@ schedule:
 
           ### Improving Robustness of Evidence when Evaluating Causal Effects of Pharmaceutical Drugs in Healthcare Databases
 
-          ###### Richie Wyss
+          ###### Richard Wyss
 
           Harvard Medical School
           "

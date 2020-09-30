@@ -15,7 +15,7 @@ workshopDates:
       authorlist: "Leon Eyrich Jessen (DTU)"
       maxattendees: 100
       ticketurl: "https://www.eventbrite.com/e/122007572935"
-      available: false
+      available: true
       authors:
       - name: "Leon Eyrich Jessen"
         image: "images/speakers/leon-jessen.jpg"

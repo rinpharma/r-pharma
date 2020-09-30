@@ -15,7 +15,7 @@ workshopDates:
       authorlist: "Leon Eyrich Jessen (DTU)"
       maxattendees: 100
       ticketurl: "https://www.eventbrite.com/e/122007572935"
-      available: true
+      available: false
       authors:
       - name: "Leon Eyrich Jessen"
         image: "images/speakers/leon-jessen.jpg"
@@ -48,7 +48,7 @@ workshopDates:
       authorlist: "Andy Nicholls (Glaxosmithkline), Marly Gotti (Biogen)"
       maxattendees: 100
       ticketurl: "https://www.eventbrite.com/e/122006862811"
-      available: true
+      available: false
       authors:
       - name: "Andy Nicholls"
         image: "images/speakers/andy-nicholls.jpg"

@@ -38,6 +38,11 @@ If you would like to showcase a package or app please complete the online form b
 -  Description of your package or app
 -  Images (a larger background image and a smaller thumbnail - hex stickers make great thumbnails!)
 
+For a demonstration check out this 
+{{< rawhtml >}}
+<a href="https://www.youtube.com/watch?v=DqhAM9c7jnE" style="text-decoration: underline;">video from hopin</a>.
+{{< /rawhtml >}}
+
 
 {{< rawhtml >}}
 <div class="col-lg-8">

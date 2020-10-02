@@ -1,0 +1,52 @@
+---
+title: "The R/Pharma Expo"
+date: 2020-10-02T20:57:25
+draft: false
+description: "this is meta description"
+# page title background image
+bgImage : "images/blog/rpharma_tickets.jpg"
+# post thumb
+image : "images/blog/rpharma_tickets.jpg"
+# about author
+author: "R/Pharma"
+# Taxonomies
+categories:
+  - "update"
+# type
+type: "post"
+# summary
+postSummary: "Come Show off your packages and apps!"
+---
+
+#### Come Show off your packages and apps!  
+
+Do you have an R package or app that you want to showcase at R/Pharma?  
+We are excited to announce that R/Pharma 2020 will feature a virtual exposition hall which will give you the opportunity to showcase an R package or shiny app in a virtual booth.  The expo will be open throughout the entire three day conference.
+
+-  You can run a google slideshow or video for people to see when they enter
+-  If you are present in your booth you can video chat with visitors or show a live demo
+-  Up to 10 people can fit in your booth - you'll all be able to see and hear each other
+-  Each booth has its own dedicated chat
+-  You can schedule a demo and invite people
+-  **We'll do all the virtual booth set-up work for you**
+
+If you would like to showcase a package or app please complete the online form by clicking the button below.  To make it fantastic please be prepared with the following:
+
+-  Video or slideshow
+    -  Youtube, Vimeo or Wistia video
+    -  *OR* Local video (we can host on our Youtube channel)
+    -  *OR* Google slideshow
+-  Description of your package or app
+-  Images (a larger background image and a smaller thumbnail - hex stickers make great thumbnails!)
+
+
+{{< rawhtml >}}
+<div class="col-lg-8">
+  <div class="info">
+    <h4 class="mt-5 mb-4"></h4>
+      <a href="#" class="btn btn-secondary btn-rounded">Take me to the Expo submission form</a>
+  </div>
+  <br/>
+</div>
+{{< /rawhtml >}}
+

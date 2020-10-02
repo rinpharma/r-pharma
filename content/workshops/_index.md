@@ -15,7 +15,7 @@ workshopDates:
       authorlist: "Leon Eyrich Jessen (DTU)"
       maxattendees: 100
       ticketurl: "https://www.eventbrite.com/e/122007572935"
-      available: true
+      available: false
       authors:
       - name: "Leon Eyrich Jessen"
         image: "images/speakers/leon-jessen.jpg"
@@ -114,7 +114,7 @@ workshopDates:
       authorlist: "Emil Hvitfeldt (University Southern California)"
       maxattendees: 80
       ticketurl: "https://www.eventbrite.com/e/122007659193"
-      available: true
+      available: false
       authors:
       - name: "Emil Hvitfelt"
         image: "images/speakers/emil-hvitfeldt.jpg"

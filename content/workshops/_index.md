@@ -109,6 +109,17 @@ workshopDates:
         image: "images/speakers/david-granjon.jpg"
       - name: "John Coene"
         image: "images/speakers/john-coene.jpg"
+    - title: "A PK & PBPK Modelling Workflow in R: Simulation, Optimization & Visualization"
+      time: "11:00-15:00 ET"
+      authorlist: "Devin Pastoor (Metrum Research Group) & Kyle Baron (Metrum Research Group)"
+      maxattendees: 80
+      ticketurl: "https://www.eventbrite.com/e/123429451813"
+      available: true
+      authors:
+      - name: "Devin Pastoor"
+        image: "images/speakers/devin-pastoor.jpg"
+      - name: "Kyle Baron"
+        image: "images/speakers/kyle-baron.jpg"
     - title: "Predictive modeling with text using tidy data principles"
       time: "14:00-18:00 ET"
       authorlist: "Emil Hvitfeldt (University Southern California)"

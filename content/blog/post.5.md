@@ -24,7 +24,9 @@ Do you have an R package or app that you want to showcase at R/Pharma?
 We are excited to announce that R/Pharma 2020 will feature a virtual exposition hall which will give you the opportunity to showcase an R package or shiny app in a virtual booth.  The expo will be open throughout the entire three day conference.
 
 -  You can run a google slideshow or video for people to see when they enter
--  If you are present in your booth you can video chat with visitors or show a live demo - up to 10 people can fit in your booth
+    - Suggestion - a video of your app in use
+-  If you are present in your booth you can video chat with visitors or show a live demo 
+    - Up to 10 people can fit in your booth
 -  Each booth has its own dedicated chat window
 -  You can schedule a demo and invite other attendees
 -  **We'll do all the virtual booth set-up work for you**
@@ -36,7 +38,7 @@ If you would like to showcase a package or app please complete the online form b
     -  *OR* Local video (we can host on our Youtube channel)
     -  *OR* Google slideshow
 -  Description of your package or app
--  Images (a larger background image and a smaller thumbnail - hex stickers make great thumbnails!)
+-  Images (a larger background image as well as a smaller thumbnail - hex stickers make great thumbnails!)
 
 For a demonstration check out this 
 {{< rawhtml >}}
@@ -48,7 +50,7 @@ For a demonstration check out this
 <div class="col-lg-8">
   <div class="info">
     <h4 class="mt-5 mb-4"></h4>
-      <a href="#" class="btn btn-secondary btn-rounded">Take me to the Expo submission form</a>
+      <a href="https://itu1gwh0.paperform.co/" class="btn btn-secondary btn-rounded">Take me to the Expo submission form</a>
   </div>
   <br/>
 </div>

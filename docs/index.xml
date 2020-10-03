@@ -6,10 +6,19 @@
     <description>Recent content on R/Pharma</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Sep 2020 20:57:25 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2020 20:57:25 +0000</lastBuildDate>
     
 	<atom:link href="https://rinpharma.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The R/Pharma Expo</title>
+      <link>https://rinpharma.com/blog/post.5/</link>
+      <pubDate>Fri, 02 Oct 2020 20:57:25 +0000</pubDate>
+      
+      <guid>https://rinpharma.com/blog/post.5/</guid>
+      <description>Come Show off your packages and apps! Do you have an R package or app that you want to showcase at R/Pharma?</description>
+    </item>
     
     <item>
       <title>Register for R/Pharma</title>
@@ -129,6 +138,15 @@
     </item>
     
     <item>
+      <title>Devin Pastoor</title>
+      <link>https://rinpharma.com/workshops/devin-pastoor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rinpharma.com/workshops/devin-pastoor/</guid>
+      <description>Devin joined MetrumRG in 2018 as the Senior Director of Technology Solutions.</description>
+    </item>
+    
+    <item>
       <title>Emil Hvitfeldt</title>
       <link>https://rinpharma.com/workshops/emil-hvitfeldt/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -144,6 +162,15 @@
       
       <guid>https://rinpharma.com/workshops/john-coene/</guid>
       <description>John is part of the World Economic Forum Strategic Intelligence team and spends most of his free time working on open source R packages, namely {echarts4r} which brings the powerful Echarts.</description>
+    </item>
+    
+    <item>
+      <title>Kyle Baron</title>
+      <link>https://rinpharma.com/workshops/kyle-baron/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rinpharma.com/workshops/kyle-baron/</guid>
+      <description>Kyle joined MetrumRG in 2010 after receiving his Pharm.D. and Ph.</description>
     </item>
     
     <item>

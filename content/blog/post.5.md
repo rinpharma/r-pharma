@@ -18,9 +18,9 @@ type: "post"
 postSummary: "Come Show off your packages and apps!"
 ---
 
-#### Come Show off your packages and apps!  
+#### Come Show off your packages and shiny apps!  
 
-Do you have an R package or app that you want to showcase at R/Pharma?  
+Do you have an R package or shiny app that you want to showcase at R/Pharma?  
 We are excited to announce that R/Pharma 2020 will feature a virtual exposition hall which will give you the opportunity to showcase an R package or shiny app in a virtual booth.  The expo will be open throughout the entire three day conference.
 
 -  You can run a google slideshow or video for people to see when they enter
@@ -45,6 +45,11 @@ For a demonstration check out this
 <a href="https://www.youtube.com/watch?v=DqhAM9c7jnE" style="text-decoration: underline;">video from hopin</a>.
 {{< /rawhtml >}}
 
+Please note - no vendor or commercial products (see our 
+{{< rawhtml >}}
+<a href="/terms" style="text-decoration: underline;">terms</a>.
+{{< /rawhtml >}}
+ for more details).  
 
 {{< rawhtml >}}
 <div class="col-lg-8">

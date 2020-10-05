@@ -114,7 +114,7 @@ workshopDates:
       authorlist: "Devin Pastoor (Metrum Research Group) & Kyle Baron (Metrum Research Group)"
       maxattendees: 80
       ticketurl: "https://www.eventbrite.com/e/123429451813"
-      available: true
+      available: false
       authors:
       - name: "Devin Pastoor"
         image: "images/speakers/devin-pastoor.jpg"

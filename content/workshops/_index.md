@@ -83,7 +83,7 @@ workshopDates:
       authorlist: "Will Landau (Eli Lilly)"
       maxattendees: 100
       ticketurl: "https://www.eventbrite.com/e/122007087483"
-      available: true
+      available: false
       authors:
       - name: "Will Landau"
         image: "images/speakers/will-landau.jpg"
@@ -92,7 +92,7 @@ workshopDates:
       authorlist: "Rich Iannone (RStudio)"
       maxattendees: 100
       ticketurl: "https://www.eventbrite.com/e/122197025593"
-      available: true
+      available: false
       authors:
       - name: "Rich Iannone"
         image: "images/speakers/rich-iannone.jpg"

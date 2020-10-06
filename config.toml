@@ -73,6 +73,12 @@ publishDir = "docs"
     [[menu.main]]
     parent = "Menu"
     weight = 3
+    name = "Workshops"
+    URL = "workshops"
+
+    [[menu.main]]
+    parent = "Menu"
+    weight = 4
     name = "Blog"
     URL = "blog"
 

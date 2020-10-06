@@ -4,7 +4,7 @@ date: 2019-09-10T13:51:25+06:00
 draft: false
 description: "this is meta description"
 bgImage : "images/bg/cta-bg.jpg"
-content_1: "## R/Pharma is excited to offer the following workshops to attendees\nWe hope you have the opportunity to attend a workshop in the week prior to the R/Pharma conference.  Due to the high attendance and demand please choose just one or two workshops."
+content_1: "## R/Pharma is excited to offer the following workshops to attendees\nAll workshops are now full."
 content_2: "## Workshop presenters\nMeet our amazing workshop presenters."
 workshopDates:
   # Workshop date loop
@@ -37,7 +37,7 @@ workshopDates:
       authorlist: "Stefano Mangiola (Walter and Eliza Hall of Medical Research), Maria Doyle (Peter MacCallum Cancer Center)"
       maxattendees: 100
       ticketurl: "https://www.eventbrite.com/e/122007637127"
-      available: true
+      available: false
       authors:
       - name: "Stefano Mangiola"
         image: "images/speakers/stefano-mangiola.jpg"
@@ -72,7 +72,7 @@ workshopDates:
       authorlist: "Daniel Lee (Generable)"
       maxattendees: 100
       ticketurl: "https://www.eventbrite.com/e/122006429515"
-      available: true
+      available: false
       authors:
       - name: "Daniel Lee"
         image: "images/speakers/daniel-lee.jpg"

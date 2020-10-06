@@ -41,11 +41,11 @@ schedule:
           image : "images/schedule/talk.jpg"
           content : "
 
-          ### Title to follow
+          ### Stack'Em High! Ensembles Using tidymodels
 
           ###### Max Kuhn
 
-          RStudio.
+          RStudio
           "
 
         # tab content list
@@ -306,7 +306,7 @@ schedule:
 
           ###### Mike Mehan
 
-          SomaLogic
+          Illumina Inc
           "
           
         # tab content list
@@ -318,7 +318,7 @@ schedule:
 
           ###### J. Kyle Wathen
 
-          SomaLogic
+          Gilead
           "
           
         # tab content list

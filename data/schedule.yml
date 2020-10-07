@@ -6,7 +6,7 @@ schedule:
   scheduleTab:
     ################################# tab itam loop
     - title : "Day 1"
-      subtitle : "13 Oct [10.00am - 2.00pm ET]"
+      subtitle : "13 Oct [10.00am - 2.10pm ET]"
       tabContentList:
         # tab content list
         - time : "10:00am"
@@ -93,7 +93,7 @@ schedule:
           "
 
         # tab content list
-        - time : "12:10pm"
+        - time : "12:20pm"
           image : "images/schedule/talk.jpg"
           content : "
 
@@ -105,7 +105,7 @@ schedule:
           "
 
         # tab content list
-        - time : "12:30pm"
+        - time : "12:40pm"
           image : "images/schedule/talk.jpg"
           content : "
 
@@ -117,7 +117,7 @@ schedule:
           "
 
         # tab content list
-        - time : "12:40pm"
+        - time : "12:50pm"
           image : "images/schedule/talk.jpg"
           content : "
 
@@ -129,7 +129,7 @@ schedule:
           "
           
         # tab content list
-        - time : "1:00pm"
+        - time : "1:10pm"
           image : "images/schedule/coffee.jpg"
           content : "
 
@@ -137,7 +137,7 @@ schedule:
           "
 
         # tab content list
-        - time : "1:10pm"
+        - time : "1:20pm"
           image : "images/schedule/talk.jpg"
           content : "
 
@@ -149,7 +149,7 @@ schedule:
           "
 
         # tab content list
-        - time : "1:20pm"
+        - time : "1:30pm"
           image : "images/schedule/talk.jpg"
           content : "
 
@@ -161,7 +161,7 @@ schedule:
           "
 
         # tab content list
-        - time : "1:40pm"
+        - time : "1:50pm"
           image : "images/schedule/talk.jpg"
           content : "
 
@@ -173,7 +173,7 @@ schedule:
           "
 
         # tab content list
-        - time : "1:50pm"
+        - time : "2:00pm"
           image : "images/schedule/closing-remarks.jpg"
           content : "
 
@@ -187,7 +187,7 @@ schedule:
 
     ################################# tab itam loop
     - title : "Day 2"
-      subtitle : "14 Oct [10.00am - 2.10pm ET]"
+      subtitle : "14 Oct [10.00am - 2.20pm ET]"
       tabContentList:
         # tab content list
         - time : "10:00am"
@@ -274,7 +274,7 @@ schedule:
           "
 
         # tab content list
-        - time : "12:10pm"
+        - time : "12:20pm"
           image : "images/schedule/talk.jpg"
           content : "
 
@@ -286,7 +286,7 @@ schedule:
           "
 
         # tab content list
-        - time : "12:30pm"
+        - time : "12:40pm"
           image : "images/schedule/talk.jpg"
           content : "
 
@@ -298,7 +298,7 @@ schedule:
           "
 
         # tab content list
-        - time : "12:40pm"
+        - time : "12:50pm"
           image : "images/schedule/talk.jpg"
           content : "
 
@@ -310,7 +310,7 @@ schedule:
           "
           
         # tab content list
-        - time : "12:50pm"
+        - time : "1:00pm"
           image : "images/schedule/talk.jpg"
           content : "
 
@@ -322,7 +322,7 @@ schedule:
           "
           
         # tab content list
-        - time : "1:00pm"
+        - time : "1:10pm"
           image : "images/schedule/coffee.jpg"
           content : "
 
@@ -330,7 +330,7 @@ schedule:
           "
 
         # tab content list
-        - time : "1:10pm"
+        - time : "1:20pm"
           image : "images/schedule/talk.jpg"
           content : "
 
@@ -342,7 +342,7 @@ schedule:
           "
 
         # tab content list
-        - time : "1:30pm"
+        - time : "1:40pm"
           image : "images/schedule/talk.jpg"
           content : "
 
@@ -354,7 +354,7 @@ schedule:
           "
 
         # tab content list
-        - time : "1:40pm"
+        - time : "1:50pm"
           image : "images/schedule/talk.jpg"
           content : "
 
@@ -366,7 +366,7 @@ schedule:
           "
 
         # tab content list
-        - time : "1:50pm"
+        - time : "2:00pm"
           image : "images/schedule/talk.jpg"
           content : "
 
@@ -378,7 +378,7 @@ schedule:
           "
 
         # tab content list
-        - time : "2:00pm"
+        - time : "2:10pm"
           image : "images/schedule/closing-remarks.jpg"
           content : "
 
@@ -391,7 +391,7 @@ schedule:
 
     ################################# tab itam loop
     - title : "Day 3"
-      subtitle : "15 Oct [10.00am - 2.00pm ET]"
+      subtitle : "15 Oct [10.00am - 2.10pm ET]"
       tabContentList:
         # tab content list
         - time : "10:00am"
@@ -490,7 +490,7 @@ schedule:
           "
 
         # tab content list
-        - time : "12:10pm"
+        - time : "12:20pm"
           image : "images/schedule/talk.jpg"
           content : "
 
@@ -502,7 +502,7 @@ schedule:
           "
 
         # tab content list
-        - time : "12:30pm"
+        - time : "12:40pm"
           image : "images/schedule/talk.jpg"
           content : "
 
@@ -514,7 +514,7 @@ schedule:
           "
 
         # tab content list
-        - time : "12:40pm"
+        - time : "12:50pm"
           image : "images/schedule/talk.jpg"
           content : "
 
@@ -526,7 +526,7 @@ schedule:
           "
           
         # tab content list
-        - time : "12:50pm"
+        - time : "1:00pm"
           image : "images/schedule/talk.jpg"
           content : "
 
@@ -538,7 +538,7 @@ schedule:
           "
           
         # tab content list
-        - time : "1:00pm"
+        - time : "1:10pm"
           image : "images/schedule/coffee.jpg"
           content : "
 
@@ -546,7 +546,7 @@ schedule:
           "
 
         # tab content list
-        - time : "1:10pm"
+        - time : "1:20pm"
           image : "images/schedule/talk.jpg"
           content : "
 
@@ -554,11 +554,11 @@ schedule:
 
           ###### Leon Eyrich Jessen
 
-          DTU
+          Technical University of Denmark
           "
 
         # tab content list
-        - time : "1:30pm"
+        - time : "1:40pm"
           image : "images/schedule/talk.jpg"
           content : "
 
@@ -570,7 +570,7 @@ schedule:
           "
 
         # tab content list
-        - time : "1:40pm"
+        - time : "1:50pm"
           image : "images/schedule/talk.jpg"
           content : "
 
@@ -582,7 +582,7 @@ schedule:
           "
 
         # tab content list
-        - time : "1:50pm"
+        - time : "2:00pm"
           image : "images/schedule/closing-remarks.jpg"
           content : "
 

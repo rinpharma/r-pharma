@@ -59,3 +59,6 @@ You'll notice a collapsible pane on the right which contains tabs for Chat, Poll
 -  Polls are a way for conference organizers to gain feedback.
 -  People lets you see who's here.  You can also direct message any attendee.
 
+
+##### R/Pharma aims to provide amazing workshops and presentations within a highly social atmosphere.  This is clearly more challenging in a virtual environment and we hope you enjoy the conference and have the chance to make some new connections.
+

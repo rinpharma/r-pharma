@@ -69,7 +69,7 @@ schedule:
           image : "images/schedule/talk.jpg"
           content : "
 
-          ### Interactive medical oversight reporting in R
+          ### Interactive Medical Oversight Reporting in R
 
           ###### Laure Cougnaud / Michela Pasetto / Arne de Roeck
 
@@ -125,7 +125,7 @@ schedule:
           image : "images/schedule/talk.jpg"
           content : "
 
-          ### Out of chaos, comes order: Adventures in standardized and reproducible research
+          ### Out of Chaos, Comes Order: Adventures in Standardized and Reproducible Research
 
           ###### Leigh Alexander
 
@@ -145,7 +145,7 @@ schedule:
           image : "images/schedule/talk.jpg"
           content : "
 
-          ### Numerical validation as a critical aspect in bringing R to the Clinical Research
+          ### Numerical Validation as a Critical Aspect in Bringing R to the Clinical Research
 
           ###### Adrian Olszewski
 
@@ -157,7 +157,7 @@ schedule:
           image : "images/schedule/talk.jpg"
           content : "
 
-          ### Title to follow
+          ### geoMapr: A Shiny Application for Enriched Analysis of Drug Utilization Data
 
           ###### Jae Joon Song
 
@@ -210,7 +210,7 @@ schedule:
           image : "images/schedule/keynote.jpg"
           content : "
 
-          ### Data visualization practices for real world machine learning
+          ### Data Visualization Practices for Real World Machine Learning
 
           ###### Julia Silge
 
@@ -378,7 +378,7 @@ schedule:
           image : "images/schedule/talk.jpg"
           content : "
 
-          ### yspec: an R package to create and deploy data set specification objects in a modeling and simulation workflow
+          ### yspec: an R Package to Create and Deploy Data Set Specification Objects in a Modeling and Simulation Workflow
 
           ###### Kyle Baron
 
@@ -418,7 +418,7 @@ schedule:
           image : "images/schedule/keynote.jpg"
           content : "
 
-          ### Would John, Paul, George or Ringo have been famous if it were not for the Beatles
+          ### Would John, Paul, George or Ringo Have Been Famous if it Were Not For The Beatles
 
           ###### Douglas Robinson
 
@@ -438,7 +438,7 @@ schedule:
           image : "images/schedule/talk.jpg"
           content : "
 
-          ### Julia in Pharma: The ease of R combined with the speed of C++
+          ### Julia in Pharma: The Ease of R Combined With The Speed of C++
 
           ###### Viral Shah
 
@@ -450,7 +450,7 @@ schedule:
           image : "images/schedule/talk.jpg"
           content : "
 
-          ### Building and managing unified R environments for data science and software development
+          ### Building and Managing Unified R Environments For Data Science and Software Development
           
           ###### Dariusz Ratman
 
@@ -474,7 +474,7 @@ schedule:
           image : "images/schedule/talk.jpg"
           content : "
 
-          ### Reproducible computation at scale with targets
+          ### Reproducible Computation at Scale With targets
 
           ###### Will Landau
 
@@ -486,7 +486,7 @@ schedule:
           image : "images/schedule/talk.jpg"
           content : "
 
-          ### Seamless visualisation of complex genomic variations in GMOs and edited cell lines using gmoviz
+          ### Seamless Visualisation of Complex Genomic Variations in GMOs and Edited Cell Lines Using gmoviz
 
           ###### Kathleen Zeglinski
 
@@ -530,7 +530,7 @@ schedule:
           image : "images/schedule/talk.jpg"
           content : "
 
-          ### Benchmarking algorithms for subgroup detection
+          ### Benchmarking Algorithms for Subgroup Detection
 
           ###### Sophie Sun
 
@@ -562,7 +562,7 @@ schedule:
           image : "images/schedule/talk.jpg"
           content : "
 
-          ### It's a trap! A data science case story
+          ### It's a trap! A Data Science Case Story
 
           ###### Leon Eyrich Jessen
 

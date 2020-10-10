@@ -1,7 +1,7 @@
 ---
 title: "Meet The R/Pharma Conference Platform"
 date: 2020-10-02T20:57:25
-draft: true
+draft: false
 description: "this is meta description"
 # page title background image
 bgImage : "images/blog/engin-akyurt-KtYvqysesC4-unsplash_small.jpg"

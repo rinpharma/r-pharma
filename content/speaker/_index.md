@@ -6,7 +6,7 @@ description: "this is meta description"
 bgImage : "images/bg/cta-bg.jpg"
 content_1: "## Keynote Speakers\nR/Pharma is excited to host the following keynote speakers."
 content_2: "## Featured Speakers\nR/Pharma is excited to host the following featured speakers."
-content_3: "## Presenters\nR/Pharma is excited to host the following presenters."
+content_3: "## Opening Remarks\nThe following speakers will open each day of R/Pharma."
 content_4: "## Workshop Presenters\nR/Pharma is excited to host the following workshop presenters."
 ---
 

@@ -159,6 +159,37 @@
 </section>
 <!-- opening speaker list -->
 
+<!-- closing speaker list -->
+<section class="speaker-2 section bg-gray">
+  <div class="container">
+    <div class="row section-heading">
+      <div class="col-lg-6">
+        <div class="heading">
+          <div class="pl-90 content">
+            {{ .Params.content_4 | markdownify }}
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row">
+      {{ range sort (where .Data.Pages  ".Params.subtype" "closing") ".Params.surname" "asc" }}
+      <div class="col-lg-4 col-md-6">
+        <div class="speaker-block style-2 mb-5">
+          <div class="img-block">
+            <img src="{{ .Params.Image | absURL }}" alt="{{ .Title }}" class="img-fluid rounded-circle">
+          </div>
+          <div class="speaker-info text-center">
+            <h4 class="mb-0 mt-3">{{ .Title }}</h4>
+            <p>{{ .Params.Designation}}</p>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+<!-- closing speaker list -->
 
 
 

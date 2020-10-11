@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>store on R/Pharma</title>
+    <link>https://rinpharma.com/tags/store/</link>
+    <description>Recent content in store on R/Pharma</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 Oct 2020 20:57:25 +0000</lastBuildDate>
+    
+	<atom:link href="https://rinpharma.com/tags/store/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Get your R/Pharma Merch</title>
+      <link>https://rinpharma.com/blog/post.7/</link>
+      <pubDate>Fri, 02 Oct 2020 20:57:25 +0000</pubDate>
+      
+      <guid>https://rinpharma.com/blog/post.7/</guid>
+      <description>R/Pharma 2021 hopes to continue our tradition of diversity scholarships.</description>
+    </item>
+    
+  </channel>
+</rss>

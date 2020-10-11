@@ -1,7 +1,7 @@
 ---
 title: "Get your R/Pharma Merch"
 date: 2020-10-02T20:57:25
-draft: true
+draft: false
 description: "this is meta description"
 # page title background image
 bgImage : "images/blog/merch.jpg"
@@ -12,6 +12,8 @@ author: "R/Pharma"
 # Taxonomies
 categories:
   - "update"
+tags:
+  - "store"
 # type
 type: "post"
 # summary

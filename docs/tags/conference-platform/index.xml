@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>conference platform on R/Pharma</title>
+    <link>https://rinpharma.com/tags/conference-platform/</link>
+    <description>Recent content in conference platform on R/Pharma</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 Oct 2020 20:57:25 +0000</lastBuildDate>
+    
+	<atom:link href="https://rinpharma.com/tags/conference-platform/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Meet The R/Pharma Conference Platform</title>
+      <link>https://rinpharma.com/blog/post.6/</link>
+      <pubDate>Fri, 02 Oct 2020 20:57:25 +0000</pubDate>
+      
+      <guid>https://rinpharma.com/blog/post.6/</guid>
+      <description>We have chosen to use hopin.toto host R/Pharma this year.</description>
+    </item>
+    
+    <item>
+      <title>The R/Pharma Expo</title>
+      <link>https://rinpharma.com/blog/post.5/</link>
+      <pubDate>Fri, 02 Oct 2020 20:57:25 +0000</pubDate>
+      
+      <guid>https://rinpharma.com/blog/post.5/</guid>
+      <description>Come Show off your packages and shiny apps! Do you have an R package or shiny app that you want to showcase at R/Pharma?</description>
+    </item>
+    
+    <item>
+      <title>Register for R/Pharma</title>
+      <link>https://rinpharma.com/blog/post.4/</link>
+      <pubDate>Tue, 08 Sep 2020 20:57:25 +0000</pubDate>
+      
+      <guid>https://rinpharma.com/blog/post.4/</guid>
+      <description>We are excited to announce that registration is now open for R/Pharma 2020.</description>
+    </item>
+    
+  </channel>
+</rss>

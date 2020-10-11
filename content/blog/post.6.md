@@ -12,6 +12,8 @@ author: "R/Pharma"
 # Taxonomies
 categories:
   - "update"
+tags:
+  - "conference platform"
 # type
 type: "post"
 # summary

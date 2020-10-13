@@ -9,7 +9,7 @@ banner:
 
 ########################## Counter #################################
 counter:
-  enable : true
+  enable : false
   title : "**Count the days** <br> until conference start"
   # set timer
   year: "2020"

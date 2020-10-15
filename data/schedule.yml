@@ -450,11 +450,11 @@ schedule:
           image : "images/schedule/talk.jpg"
           content : "
 
-          ### Building and Managing Unified R Environments For Data Science and Software Development
-          
-          ###### Dariusz Ratman
+          ### Seamless Visualisation of Complex Genomic Variations in GMOs and Edited Cell Lines Using gmoviz
 
-          Roche
+          ###### Kathleen Zeglinski
+
+          csl
           "
 
         # tab content list
@@ -486,11 +486,11 @@ schedule:
           image : "images/schedule/talk.jpg"
           content : "
 
-          ### Seamless Visualisation of Complex Genomic Variations in GMOs and Edited Cell Lines Using gmoviz
+          ### Building and Managing Unified R Environments For Data Science and Software Development
+          
+          ###### Dariusz Ratman
 
-          ###### Kathleen Zeglinski
-
-          csl
+          Roche
           "
           
         # tab content list

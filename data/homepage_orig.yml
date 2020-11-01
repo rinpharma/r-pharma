@@ -1,7 +1,7 @@
 ############################# banner ################################
 banner:
   title : "R/Pharma <br>Conference"
-#  date : "13th-15th, October, 2020"
+  date : "13th-15th, October, 2020"
   button:
     enable : true
     label : "Read the FAQ"
@@ -30,12 +30,6 @@ event:
 Our entire event is a community-lead effort and 100% volunteer run.
 The event is vendor neutral and very much an academic conference.
 Harvard has been very helpful in hosting the event."
-
-  title_2: "R/Pharma 2020"
-  content_2: "In 2020 the R/Pharma conference was held as a virtual event.  Over 1000 people registered from 26 countries 
-  registered for the main conference which was held between October 13-15 2020.  The conference was preceeded by 11 workshops
-  held the week before."
-
   button:
     enable : true
     label : "Read more about R/Pharma's purpose"
@@ -65,7 +59,7 @@ cta3:
 
 ############################# Feature ###########################
 feature:
-  enable: false
+  enable: true
   featureItem:
     # feature item loop
     - title : "Share experiences"
@@ -94,7 +88,7 @@ pricing:
 
 ########################## speaker ##########################
 speaker:
-  enable : false
+  enable : true
   titleOutline : "Speakers"
   title : "Keynote Speakers"
   content : "R/Pharma is excited to host the following keynote speakers."
@@ -102,7 +96,7 @@ speaker:
 
 ############################# Feature ###########################
 exec:
-  enable: false
+  enable: true
   titleOutline : "Governance"
   title : "Organising Committee"
   content : "The organising committee focuses on the logistics of running this
@@ -266,7 +260,7 @@ sponsor:
 
 ################################ call to action 2 ########################
 cta2:
-  enable : false
+  enable : true
   image : "images/bg/map-1025845_1280.jpg"
   title : "Virtual Conference"
   date : "13 - 15th October, 2020"

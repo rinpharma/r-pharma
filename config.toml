@@ -53,40 +53,55 @@ publishDir = "docs"
   URL = "faq"
   weight = 2
 
-
   [[menu.main]]
-  name = "Speakers"
-  URL = "speaker"
+  name = "Workshops"
+  URL = "workshops"
   weight = 3
-    
+
   [[menu.main]]
+  name = "Schedule"
+  URL = "schedule"
   weight = 4
-  name = "Menu"
-  hasChildren = true
 
-    [[menu.main]]
-    parent = "Menu"
-    weight = 2
-    name = "Schedule"
-    URL = "schedule"
+  [[menu.main]]
+  name = "Blog"
+  URL = "blog"
+  weight = 5
 
-    [[menu.main]]
-    parent = "Menu"
-    weight = 3
-    name = "Workshops"
-    URL = "workshops"
 
-    [[menu.main]]
-    parent = "Menu"
-    weight = 4
-    name = "Blog"
-    URL = "blog"
-
-    [[menu.main]]
-    parent = "Menu"
-    weight = 9
-    name = "Contact"
-    URL = "https://epijim.typeform.com/to/zy7oAM"
+#  [[menu.main]]
+#  name = "Speakers"
+#  URL = "speaker"
+#  weight = 3
+    
+#  [[menu.main]]
+#  weight = 4
+#  name = "Menu"
+#  hasChildren = true
+#
+#    [[menu.main]]
+#    parent = "Menu"
+#    weight = 2
+#    name = "Schedule"
+#    URL = "schedule"
+#
+#    [[menu.main]]
+#    parent = "Menu"
+#    weight = 3
+#    name = "Workshops"
+#    URL = "workshops"
+#
+#    [[menu.main]]
+#    parent = "Menu"
+#    weight = 4
+#    name = "Blog"
+#    URL = "blog"
+#
+#    [[menu.main]]
+#    parent = "Menu"
+#    weight = 9
+#    name = "Contact"
+#    URL = "https://epijim.typeform.com/to/zy7oAM"
 
 #################### default parameters ################################
 [params]

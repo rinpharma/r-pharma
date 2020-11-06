@@ -59,14 +59,24 @@ publishDir = "docs"
   weight = 3
 
   [[menu.main]]
-  name = "Schedule"
-  URL = "schedule"
+  name = "2018 Schedule"
+  URL = "rpharma_2018"
   weight = 4
+
+  [[menu.main]]
+  name = "2019 Schedule"
+  URL = "rpharma_2019"
+  weight = 5
+
+  [[menu.main]]
+  name = "2020 Schedule"
+  URL = "schedule"
+  weight = 6
 
   [[menu.main]]
   name = "Blog"
   URL = "blog"
-  weight = 5
+  weight = 7
 
 
 #  [[menu.main]]

@@ -16,7 +16,7 @@ schedule:
           youtube: ""
           content: "
         
-          ### Package Management
+          ### Coffee Session \n ### Package Management
                
           ###### Devin Pastoor
                
@@ -31,7 +31,7 @@ schedule:
           youtube: ""
           content: "
         
-          ### R Education in Pharma
+          ### Coffee Session \n ### R Education in Pharma
                
           ###### Paulo Bargo and Satish Murthy
                
@@ -46,7 +46,7 @@ schedule:
           youtube: ""
           content: "
         
-          ### R and Python Interoperability
+          ### Coffee Session \n ### R and Python Interoperability
                
           ###### Sean Lopp
                
@@ -55,8 +55,8 @@ schedule:
           
         # tab content list
         - time : "8:45 AM"
-          image : "images/schedule/break.jpg"
-          icons: true
+          image : "images/schedule/coffee.jpg"
+          icons: false
           slides: ""
           youtube: ""
           content: "
@@ -91,7 +91,7 @@ schedule:
           youtube: ""
           content: "
         
-          ### Reproducibility and the role of code in reproducible data science
+          ### Keynote \n ### Reproducibility and the role of code in reproducible data science
                
           ###### Garrett Grolemund
                
@@ -145,8 +145,8 @@ schedule:
           
         # tab content list
         - time : "10:50 AM"
-          image : "images/schedule/break.jpg"
-          icons: true
+          image : "images/schedule/coffee.jpg"
+          icons: false
           slides: ""
           youtube: ""
           content: "
@@ -235,8 +235,8 @@ schedule:
           
         # tab content list
         - time : "12:30 PM"
-          image : "images/schedule/break.jpg"
-          icons: true
+          image : "images/schedule/lunch.jpg"
+          icons: false
           slides: ""
           youtube: ""
           content: "
@@ -370,8 +370,8 @@ schedule:
           
         # tab content list
         - time : "3:30 PM"
-          image : "images/schedule/break.jpg"
-          icons: true
+          image : "images/schedule/coffee.jpg"
+          icons: false
           slides: ""
           youtube: ""
           content: "
@@ -391,7 +391,7 @@ schedule:
           youtube: ""
           content: "
         
-          ### Breaking the Speed Limit: How R Gets Faster
+          ### Keynote \n ### Breaking the Speed Limit: How R Gets Faster
                
           ###### Marianna Foos
                
@@ -470,7 +470,7 @@ schedule:
           youtube: ""
           content: "
         
-          ### Shiny for Early Drug Discovery Research
+          ### Coffee Session \n ### Shiny for Early Drug Discovery Research
                
           ###### Gordon Turner
                
@@ -485,7 +485,7 @@ schedule:
           youtube: ""
           content: "
         
-          ### Shiny in Production
+          ### Coffee Session \n ### Shiny in Production
                
           ###### Kelly O'Briant
                
@@ -500,7 +500,7 @@ schedule:
           youtube: ""
           content: "
         
-          ### SAS & R
+          ### Coffee Session \n ### SAS & R
                
           ###### Bella Feng and Nate Mockler
                
@@ -509,8 +509,8 @@ schedule:
           
         # tab content list
         - time : "8:45 AM"
-          image : "images/schedule/break.jpg"
-          icons: true
+          image : "images/schedule/coffee.jpg"
+          icons: false
           slides: ""
           youtube: ""
           content: "
@@ -545,7 +545,7 @@ schedule:
           youtube: ""
           content: "
         
-          ### Multi-modal data integration
+          ### Keynote \n ### Multi-modal data integration
                
           ###### Aedin Culhane
                
@@ -599,8 +599,8 @@ schedule:
           
         # tab content list
         - time : "10:30 AM"
-          image : "images/schedule/break.jpg"
-          icons: true
+          image : "images/schedule/coffee.jpg"
+          icons: false
           slides: ""
           youtube: ""
           content: "
@@ -689,8 +689,8 @@ schedule:
           
         # tab content list
         - time : "12:10 PM"
-          image : "images/schedule/break.jpg"
-          icons: true
+          image : "images/schedule/lunch.jpg"
+          icons: false
           slides: ""
           youtube: ""
           content: "
@@ -764,13 +764,13 @@ schedule:
           
         # tab content list
         - time : "2:20 PM"
-          image : "images/schedule/break.jpg"
-          icons: true
+          image : "images/schedule/coffee.jpg"
+          icons: false
           slides: ""
           youtube: ""
           content: "
         
-          ### Break - stretch your legs!
+          ### Break
                
           ###### 
                
@@ -839,8 +839,8 @@ schedule:
           
         # tab content list
         - time : "3:30 PM"
-          image : "images/schedule/break.jpg"
-          icons: true
+          image : "images/schedule/coffee.jpg"
+          icons: false
           slides: ""
           youtube: ""
           content: "
@@ -860,7 +860,7 @@ schedule:
           youtube: ""
           content: "
         
-          ### Simulations, and Complex Innovative Trial Designs
+          ### Keynote \n ### Simulations, and Complex Innovative Trial Designs
                
           ###### Paul Schuette
                

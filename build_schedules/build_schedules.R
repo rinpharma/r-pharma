@@ -11,6 +11,18 @@ meta <- list(
     file = "./build_schedules/RPharma_schedule_2018.csv",
     days = c(1,2),
     titles = c("15 Aug [9:15am - 5:25pm ET]", "16 Aug [9:15am - 5:25pm ET]")
+  ),
+  schedule2019 = list(
+    year = 2019,
+    file = "./build_schedules/RPharma_schedule_2019.csv",
+    days = c(1,2),
+    titles = c("21 Aug [8:15am - 5:35pm ET]", "22 Aug [8:15am - 5:45pm ET]")
+  ),
+  schedule2018 = list(
+    year = 2020,
+    file = "./build_schedules/RPharma_schedule_2020.csv",
+    days = c(1,2,3),
+    titles = c("13 Oct [10:00am - 2:10 pm ET]", "14 Oct [10:00am - 2:20 pm ET]", "15 Oct [10:00am - 2:10 pm ET]")
   )
 )
 
@@ -26,7 +38,7 @@ for (yr in seq_along(meta)) {
     'schedule:
   enable : true
   titleOutline : "schedule"
-  title : "R/Pharma 2018"
+  title : "R/Pharma {meta[[yr]]$year}"
   content : "All times below in US ET"
   scheduleTab:', .trim = FALSE, .na = ""
   ))

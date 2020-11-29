@@ -1,0 +1,18 @@
+schedule:
+  enable : true
+  titleOutline : "schedule"
+  title : "R/Pharma 2018"
+  content : "All times below in US ET"
+  scheduleTab:
+    ################################# tab itam loop
+    - title : "Day 1"
+      subtitle : "13 Oct [10:00am - 2:10 pm ET]"
+      tabContentList:
+    ################################# tab itam loop
+    - title : "Day 2"
+      subtitle : "14 Oct [10:00am - 2:20 pm ET]"
+      tabContentList:
+    ################################# tab itam loop
+    - title : "Day 3"
+      subtitle : "15 Oct [10:00am - 2:10 pm ET]"
+      tabContentList:

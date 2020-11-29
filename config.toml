@@ -70,7 +70,7 @@ publishDir = "docs"
 
   [[menu.main]]
   name = "2020 Schedule"
-  URL = "schedule"
+  URL = "rpharma_2020"
   weight = 6
 
   [[menu.main]]

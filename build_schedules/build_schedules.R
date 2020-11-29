@@ -20,7 +20,7 @@ meta <- list(
     titles = c("Day 1", "Day 2"),
     subtitles = c("21 Aug [8:15am - 5:35pm ET]", "22 Aug [8:15am - 5:45pm ET]")
   ),
-  schedule2018 = list(
+  schedule2020 = list(
     year = 2020,
     file = "./build_schedules/RPharma_schedule_2020.csv",
     days = c(1,2,3),

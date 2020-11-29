@@ -10,19 +10,22 @@ meta <- list(
     year = 2018,
     file = "./build_schedules/RPharma_schedule_2018.csv",
     days = c(1,2),
-    titles = c("15 Aug [9:15am - 5:25pm ET]", "16 Aug [9:15am - 5:25pm ET]")
+    titles = c("Day 1", "Day 2"),
+    subtitles = c("15 Aug [9:15am - 5:25pm ET]", "16 Aug [9:15am - 5:25pm ET]")
   ),
   schedule2019 = list(
     year = 2019,
     file = "./build_schedules/RPharma_schedule_2019.csv",
     days = c(1,2),
-    titles = c("21 Aug [8:15am - 5:35pm ET]", "22 Aug [8:15am - 5:45pm ET]")
+    titles = c("Day 1", "Day 2"),
+    subtitles = c("21 Aug [8:15am - 5:35pm ET]", "22 Aug [8:15am - 5:45pm ET]")
   ),
   schedule2018 = list(
     year = 2020,
     file = "./build_schedules/RPharma_schedule_2020.csv",
     days = c(1,2,3),
-    titles = c("13 Oct [10:00am - 2:10 pm ET]", "14 Oct [10:00am - 2:20 pm ET]", "15 Oct [10:00am - 2:10 pm ET]")
+    titles = c("Day 1", "Day 2", "Day 3"),
+    subtitles = c("13 Oct [10:00am - 2:10 pm ET]", "14 Oct [10:00am - 2:20 pm ET]", "15 Oct [10:00am - 2:10 pm ET]")
   )
 )
 
@@ -49,8 +52,8 @@ for (yr in seq_along(meta)) {
     cat(glue(
       '
     ################################# tab itam loop
-    - title : "Day {day_val}"
-      subtitle : "{meta[[yr]]$titles[[day_val]]}"
+    - title : "{meta[[yr]]$titles[[day_val]]}"
+      subtitle : "{meta[[yr]]$subtitles[[day_val]]}"
       tabContentList:', .trim = FALSE, .na = ""
     ))
     
@@ -66,17 +69,15 @@ for (yr in seq_along(meta)) {
       v_author <- unique(unlist(strsplit(data$author, " // ")))
       if (length(v_author) == 0) {
         v_author <- ""
-      }
-      else if (length(v_author) > 1) {
-        v_author <- paste0(paste0(v_author[-length(v_author) - 1], collapse = ", "), v_author[length(v_author)], collapse = " and ")
+      } else if (length(v_author) > 1) {
+        v_author <- paste(paste0(v_author[-length(v_author)], collapse = ", "), v_author[length(v_author)], sep = " and ")
       }
       
       v_affiliation <- unique(unlist(strsplit(data$affiliation, " // ")))
       if (length(v_affiliation) == 0) {
         v_affiliation <- ""
-      }
-      else if (length(v_affiliation) > 1) {
-        v_affiliation <- paste0(paste0(v_affiliation[-length(v_affiliation) - 1], collapse = ", "), v_affiliation[length(v_affiliation)], collapse = " and ")
+      } else if (length(v_affiliation) > 1) {
+        v_affiliation <- paste(paste0(v_affiliation[-length(v_affiliation)], collapse = ", "), v_affiliation[length(v_affiliation)], sep = " and ")
       }
       
       cat(glue(

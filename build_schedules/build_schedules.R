@@ -16,9 +16,9 @@ meta <- list(
   schedule2019 = list(
     year = 2019,
     file = "./build_schedules/RPharma_schedule_2019.csv",
-    days = c(1,2),
-    titles = c("Day 1", "Day 2"),
-    subtitles = c("21 Aug [8:15am - 5:35pm ET]", "22 Aug [8:15am - 5:45pm ET]")
+    days = c(1,2,3),
+    titles = c("Day 1 - Workshops", "Day 2", "Day 3"),
+    subtitles = c("20 Aug [8:00am - 5:20pm ET]", "21 Aug [8:15am - 5:35pm ET]", "22 Aug [8:15am - 5:45pm ET]")
   ),
   schedule2020 = list(
     year = 2020,

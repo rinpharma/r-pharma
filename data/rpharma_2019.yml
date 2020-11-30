@@ -5,7 +5,101 @@ schedule:
   content : "All times below in US ET"
   scheduleTab:
     ################################# tab itam loop
-    - title : "Day 1"
+    - title : "Day 1 - Workshops"
+      subtitle : "20 Aug [8:00am - 5:20pm ET]"
+      tabContentList:
+        # tab content list
+        - time : "8:40 AM -12:30 PM"
+          image : "images/schedule/workshop.jpg"
+          icons: true
+          slides: "https://github.com/jcheng5/rpharma-shinymeta-workshop"
+          youtube: ""
+          content: "
+        
+          ### Shiny Reproducibility
+               
+          ###### Joe Cheng
+               
+          Rstudio
+          "
+          
+        # tab content list
+        - time : "8:40 AM -12:30 PM"
+          image : "images/schedule/workshop.jpg"
+          icons: true
+          slides: "https://github.com/pharmaR/rpharma2019"
+          youtube: ""
+          content: "
+        
+          ### R Validation Hub (past, current and future state)
+               
+          ###### Andy Nicholls
+               
+          Glaxosmithkline
+          "
+          
+        # tab content list
+        - time : "8:40 AM -12:30 PM"
+          image : "images/schedule/workshop.jpg"
+          icons: true
+          slides: "https://github.com/leonjessen/RPharma2019"
+          youtube: ""
+          content: "
+        
+          ### Artificial neural networks in R with Keras and TensorFlow
+               
+          ###### Leon Eyrich Jessen
+               
+          Technical University of Denmark
+          "
+          
+        # tab content list
+        - time : "1:30 PM - 5:20 PM"
+          image : "images/schedule/workshop.jpg"
+          icons: true
+          slides: "https://github.com/topepo/RPharma-2019-Workshop"
+          youtube: ""
+          content: "
+        
+          ### Machine learning
+               
+          ###### Max Kuhn
+               
+          Rstudio
+          "
+          
+        # tab content list
+        - time : "1:30 PM - 5:20 PM"
+          image : "images/schedule/workshop.jpg"
+          icons: true
+          slides: "https://github.com/cpsievert/tutorials/tree/master/20190821"
+          youtube: ""
+          content: "
+        
+          ### plottly
+               
+          ###### Carson Sievert
+               
+          Rstudio
+          "
+          
+        # tab content list
+        - time : "1:30 PM - 5:20 PM"
+          image : "images/schedule/workshop.jpg"
+          icons: true
+          slides: "https://github.com/wlandau/learndrake"
+          youtube: ""
+          content: "
+        
+          ### Machine learning workflow management with drake
+               
+          ###### Will Landau
+               
+          Eli Lilly
+          "
+          
+    ################################# tab itam loop
+    - title : "Day 2"
       subtitle : "21 Aug [8:15am - 5:35pm ET]"
       tabContentList:
         # tab content list
@@ -459,7 +553,7 @@ schedule:
           "
           
     ################################# tab itam loop
-    - title : "Day 2"
+    - title : "Day 3"
       subtitle : "22 Aug [8:15am - 5:45pm ET]"
       tabContentList:
         # tab content list

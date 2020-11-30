@@ -38,7 +38,7 @@
               {{ range .tabContentList }}
               <li class="d-lg-flex align-items-center justify-content-between bg-light p-4 mb-3">
                 {{ if ne .time "" }}
-                <h4 class="time text-color">{{ .time }}</h4>
+                <h4 class="time text-color">{{ .time | markdownify }}</h4>
                 {{ end }}
                 <div class="content">
                   {{ .content | markdownify }}

@@ -9,6 +9,66 @@ schedule:
       subtitle : "15 Aug [9:15am - 5:25pm ET]"
       tabContentList:
         # tab content list
+        - time : "8:00 AM - 9:00AM"
+          image : "images/schedule/workshop.jpg"
+          icons: true
+          slides: ""
+          youtube: ""
+          content: "
+        
+          ### Workshop\n ### Keeping things Peachy when Shiny gets Hairy
+               
+          ###### Marianna Foos
+               
+          Biogen
+          "
+          
+        # tab content list
+        - time : "8:00 AM - 9:00AM"
+          image : "images/schedule/workshop.jpg"
+          icons: true
+          slides: ""
+          youtube: ""
+          content: "
+        
+          ### Workshop\n ### Analyzing Clinical Trials Data with R
+               
+          ###### Adrian Waddell
+               
+          Roche
+          "
+          
+        # tab content list
+        - time : "8:00 AM - 9:00AM"
+          image : "images/schedule/workshop.jpg"
+          icons: true
+          slides: ""
+          youtube: ""
+          content: "
+        
+          ### Workshop\n ### Stan for Pharma
+               
+          ###### Daniel Lee
+               
+          Generable
+          "
+          
+        # tab content list
+        - time : "8:00 AM - 9:00AM"
+          image : "images/schedule/workshop.jpg"
+          icons: true
+          slides: ""
+          youtube: ""
+          content: "
+        
+          ### Workshop\n ### Moving Fast Without Breaking Things: Navigating the R Ecosystem in an Enterprise Environment
+               
+          ###### Devin Pastoor
+               
+          Metrum Research Group
+          "
+          
+        # tab content list
         - time : "9:15 AM"
           image : "images/schedule/opening-remarks.jpg"
           icons: true
@@ -372,6 +432,51 @@ schedule:
     - title : "Day 2"
       subtitle : "16 Aug [9:15am - 5:25pm ET]"
       tabContentList:
+        # tab content list
+        - time : "8:00 AM - 9:00AM"
+          image : "images/schedule/workshop.jpg"
+          icons: true
+          slides: ""
+          youtube: ""
+          content: "
+        
+          ### Workshop\n ### Interactive data visualization with R, plotly, and dashR
+               
+          ###### Carson Sievert
+               
+          Sievert Consulting LLC
+          "
+          
+        # tab content list
+        - time : "8:00 AM - 9:00AM"
+          image : "images/schedule/workshop.jpg"
+          icons: true
+          slides: ""
+          youtube: ""
+          content: "
+        
+          ### Workshop\n ### The Challenges of Validating R
+               
+          ###### Andy Nicholls
+               
+          Glaxosmithkline
+          "
+          
+        # tab content list
+        - time : "8:00 AM - 9:00AM"
+          image : "images/schedule/workshop.jpg"
+          icons: true
+          slides: ""
+          youtube: ""
+          content: "
+        
+          ### Workshop\n ### The largest Shiny application in the world. Roche.Diagnostics.bioWARP
+               
+          ###### Sebastian Wolf
+               
+          Roche
+          "
+          
         # tab content list
         - time : "9:15 AM"
           image : "images/schedule/opening-remarks.jpg"

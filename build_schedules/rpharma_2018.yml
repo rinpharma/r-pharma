@@ -9,7 +9,7 @@ schedule:
       subtitle : "15 Aug [9:15am - 5:25pm ET]"
       tabContentList:
         # tab content list
-        - time : "8:00 AM - 9:00AM"
+        - time : "8:00 AM - 9:00 AM"
           image : "images/schedule/workshop.jpg"
           icons: true
           slides: ""
@@ -24,7 +24,7 @@ schedule:
           "
           
         # tab content list
-        - time : "8:00 AM - 9:00AM"
+        - time : "8:00 AM - 9:00 AM"
           image : "images/schedule/workshop.jpg"
           icons: true
           slides: ""
@@ -39,7 +39,7 @@ schedule:
           "
           
         # tab content list
-        - time : "8:00 AM - 9:00AM"
+        - time : "8:00 AM - 9:00 AM"
           image : "images/schedule/workshop.jpg"
           icons: true
           slides: ""
@@ -54,7 +54,7 @@ schedule:
           "
           
         # tab content list
-        - time : "8:00 AM - 9:00AM"
+        - time : "8:00 AM - 9:00 AM"
           image : "images/schedule/workshop.jpg"
           icons: true
           slides: ""
@@ -433,7 +433,7 @@ schedule:
       subtitle : "16 Aug [9:15am - 5:25pm ET]"
       tabContentList:
         # tab content list
-        - time : "8:00 AM - 9:00AM"
+        - time : "8:00 AM - 9:00 AM"
           image : "images/schedule/workshop.jpg"
           icons: true
           slides: ""
@@ -448,7 +448,7 @@ schedule:
           "
           
         # tab content list
-        - time : "8:00 AM - 9:00AM"
+        - time : "8:00 AM - 9:00 AM"
           image : "images/schedule/workshop.jpg"
           icons: true
           slides: ""
@@ -463,7 +463,7 @@ schedule:
           "
           
         # tab content list
-        - time : "8:00 AM - 9:00AM"
+        - time : "8:00 AM - 9:00 AM"
           image : "images/schedule/workshop.jpg"
           icons: true
           slides: ""

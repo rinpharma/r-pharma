@@ -5,6 +5,175 @@ schedule:
   content : "All times below in US ET"
   scheduleTab:
     ################################# tab itam loop
+    - title : "Workshops"
+      subtitle : "5 Oct - 9 Oct"
+      tabContentList:
+        # tab content list
+        - time : "Oct 5 <br /> 9:00 AM"
+          image : "images/schedule/workshop.jpg"
+          icons: true
+          slides: "https://github.com/leonjessen/RPharma2020"
+          youtube: ""
+          content: "
+        
+          ### Artificial Neural Networks in R with Keras and TensorFlow
+               
+          ###### Leon Eyrich Jessen
+               
+          Technical University of Denmark
+          "
+          
+        # tab content list
+        - time : "Oct 5 <br /> 2:00 PM"
+          image : "images/schedule/workshop.jpg"
+          icons: true
+          slides: "https://github.com/atorus-research/MultilingualMarkdown"
+          youtube: "https://www.youtube.com/watch?v=fEoZynvUrkc"
+          content: "
+        
+          ### Multilingual Markdown with R and Python Using Reticulate
+               
+          ###### Mike Stackhouse and Nathan Kosiba
+               
+          Atorus
+          "
+          
+        # tab content list
+        - time : "Oct 6 <br /> 8:00 AM"
+          image : "images/schedule/workshop.jpg"
+          icons: true
+          slides: "https://github.com/stemangiola/rpharma2020_tidytranscriptomics/"
+          youtube: ""
+          content: "
+        
+          ### Tidy Transcriptomics
+               
+          ###### Stefano Mangiola and Maria Doyle
+               
+          Walter and Eliza Hall of Medical Research and Peter MacCallum Cancer Center
+          "
+          
+        # tab content list
+        - time : "Oct 6 <br /> 12:00 PM"
+          image : "images/schedule/workshop.jpg"
+          icons: true
+          slides: "https://pharmar.github.io/rpharma2020/"
+          youtube: "https://www.youtube.com/watch?v=9AiJSEZAz4g"
+          content: "
+        
+          ### Implementing a Risk-based Approach to R Validation
+               
+          ###### Andy Nicholls and Marly Gotti
+               
+          Glaxosmithkline and Biogen
+          "
+          
+        # tab content list
+        - time : "Oct 7 <br /> 8:00 AM"
+          image : "images/schedule/workshop.jpg"
+          icons: true
+          slides: "https://rmd4pharma.netlify.app/"
+          youtube: ""
+          content: "
+        
+          ### RMarkdown
+               
+          ###### Alison Hill and Tom Mock
+               
+          RStudio
+          "
+          
+        # tab content list
+        - time : "Oct 7 <br /> 1:00 PM"
+          image : "images/schedule/workshop.jpg"
+          icons: true
+          slides: ""
+          youtube: ""
+          content: "
+        
+          ### Stan
+               
+          ###### Daniel Lee
+               
+          Generable
+          "
+          
+        # tab content list
+        - time : "Oct 8 <br /> 8:00 AM"
+          image : "images/schedule/workshop.jpg"
+          icons: true
+          slides: "https://wlandau.github.io/rpharma2020/"
+          youtube: ""
+          content: "
+        
+          ### targets / Reproducible Pipelines
+               
+          ###### Will Landau
+               
+          Eli Lilly
+          "
+          
+        # tab content list
+        - time : "Oct 8 <br /> 1:00 PM"
+          image : "images/schedule/workshop.jpg"
+          icons: true
+          slides: "https://github.com/rich-iannone/gt-workshop-2020"
+          youtube: ""
+          content: "
+        
+          ### gt
+               
+          ###### Rich Iannone
+               
+          RStudio
+          "
+          
+        # tab content list
+        - time : "Oct 9 <br /> 8:00 AM"
+          image : "images/schedule/workshop.jpg"
+          icons: true
+          slides: "https://rinterface.com/shiny/talks/RPharma2020/"
+          youtube: ""
+          content: "
+        
+          ### Unleash Shiny
+               
+          ###### David Granjon and John Coene
+               
+          Novartis and World Economic Forum
+          "
+          
+        # tab content list
+        - time : "Oct 9 <br /> 11:00 AM"
+          image : "images/schedule/workshop.jpg"
+          icons: true
+          slides: "https://github.com/metrumresearchgroup/r-pharma-pkpd-2020"
+          youtube: ""
+          content: "
+        
+          ### A PK & PBPK Modelling Workflow in R: Simulation, Optimization & Visualization
+               
+          ###### Devin Pastoor and Kyle Baron
+               
+          Metrum Research Group
+          "
+          
+        # tab content list
+        - time : "Oct 9 <br /> 2:00 PM"
+          image : "images/schedule/workshop.jpg"
+          icons: true
+          slides: "https://textmodels4pharma.netlify.app/"
+          youtube: ""
+          content: "
+        
+          ### Predictive modeling with text using tidy data principles
+               
+          ###### Emil Hvitfeldt
+               
+          University Southern California
+          "
+          
+    ################################# tab itam loop
     - title : "Day 1"
       subtitle : "13 Oct [10:00am - 2:10 pm ET]"
       tabContentList:

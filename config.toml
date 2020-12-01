@@ -6,6 +6,9 @@ theme = "clusterai-hugo"
 summaryLength = "10"
 paginate = 4
 
+[markup.goldmark.renderer]
+unsafe= true
+
 ## deploy to docs for github pages
 publishDir = "docs"
 
@@ -53,40 +56,65 @@ publishDir = "docs"
   URL = "faq"
   weight = 2
 
+#  [[menu.main]]
+#  name = "Workshops"
+#  URL = "workshops"
+#  weight = 3
 
   [[menu.main]]
-  name = "Speakers"
-  URL = "speaker"
-  weight = 3
-    
-  [[menu.main]]
+  name = "2018 Schedule"
+  URL = "rpharma_2018"
   weight = 4
-  name = "Menu"
-  hasChildren = true
 
-    [[menu.main]]
-    parent = "Menu"
-    weight = 2
-    name = "Schedule"
-    URL = "schedule"
+  [[menu.main]]
+  name = "2019 Schedule"
+  URL = "rpharma_2019"
+  weight = 5
 
-    [[menu.main]]
-    parent = "Menu"
-    weight = 3
-    name = "Workshops"
-    URL = "workshops"
+  [[menu.main]]
+  name = "2020 Schedule"
+  URL = "rpharma_2020"
+  weight = 6
 
-    [[menu.main]]
-    parent = "Menu"
-    weight = 4
-    name = "Blog"
-    URL = "blog"
+  [[menu.main]]
+  name = "Blog"
+  URL = "blog"
+  weight = 7
 
-    [[menu.main]]
-    parent = "Menu"
-    weight = 9
-    name = "Contact"
-    URL = "https://epijim.typeform.com/to/zy7oAM"
+
+#  [[menu.main]]
+#  name = "Speakers"
+#  URL = "speaker"
+#  weight = 3
+    
+#  [[menu.main]]
+#  weight = 4
+#  name = "Menu"
+#  hasChildren = true
+#
+#    [[menu.main]]
+#    parent = "Menu"
+#    weight = 2
+#    name = "Schedule"
+#    URL = "schedule"
+#
+#    [[menu.main]]
+#    parent = "Menu"
+#    weight = 3
+#    name = "Workshops"
+#    URL = "workshops"
+#
+#    [[menu.main]]
+#    parent = "Menu"
+#    weight = 4
+#    name = "Blog"
+#    URL = "blog"
+#
+#    [[menu.main]]
+#    parent = "Menu"
+#    weight = 9
+#    name = "Contact"
+#    URL = "https://epijim.typeform.com/to/zy7oAM"
 
 #################### default parameters ################################
 [params]

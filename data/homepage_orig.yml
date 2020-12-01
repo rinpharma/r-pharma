@@ -1,0 +1,279 @@
+############################# banner ################################
+banner:
+  title : "R/Pharma <br>Conference"
+  date : "13th-15th, October, 2020"
+  button:
+    enable : true
+    label : "Read the FAQ"
+    link : "faq"
+
+########################## Counter #################################
+counter:
+  enable : false
+  title : "**Count the days** <br> until conference start"
+  # set timer
+  year: "2020"
+  month: "10"
+  day: "13"
+  hour: "10"
+
+############################## Event ##############################
+event:
+  enable : true
+  titleOutline : "about"
+  title : "What is R/Pharma?"
+  imageBG: "images/pharma/drugs.jpg"
+  image : "images/pharma/r-pharma-conf-example.jpg"
+  content : "R/Pharma is an <a href='www.r-consortium.org/projects/isc-working-groups'>ISC working group</a>
+   under the R Consortium. </br>
+
+Our entire event is a community-lead effort and 100% volunteer run.
+The event is vendor neutral and very much an academic conference.
+Harvard has been very helpful in hosting the event."
+  button:
+    enable : true
+    label : "Read more about R/Pharma's purpose"
+    link : "blog/post.1/"
+
+######################### Call to action #########################
+cta:
+  enable : true
+  subtitle : ""
+  title : "Get in contact with the organisors"
+  image : "images/pharma/quino-al-4SNUcHPiC8c-unsplash.jpg"
+  button:
+    enable :  true
+    label : "Send message"
+    link: "https://epijim.typeform.com/to/zy7oAM"
+
+######################### Call to action #########################
+cta3:
+  enable : false
+  subtitle : "Please submit a paper before August 31st"
+  title : "Call for Talks"
+  image : "images/pharma/richard-waterworth-pNBZAofGcgU-unsplash_small.png"
+  button:
+    enable :  true
+    label : "call for talks"
+    link: "https://rinpharmaconf.typeform.com/to/Adeq04hn"
+
+############################# Feature ###########################
+feature:
+  enable: true
+  featureItem:
+    # feature item loop
+    - title : "Share experiences"
+      icon : "tf-ion-android-microphone"
+      content : "Get a chance to share your experiences using R in Pharma"
+
+    # feature item loop
+    - title : "Global Audience"
+      icon : "tf-ion-android-globe"
+      content : "Learn from your peers, who attend from around the globe."
+
+    # feature item loop
+    - title : "Network with peers"
+      icon : "tf-ion-android-share"
+      content : "Build your network of future collaborators."
+
+####################### Schedule #############################
+schedule:
+  enable : false
+  # schedule data comes from "schedule.yml" file
+
+####################### pricing #############################
+pricing:
+  enable : false
+  # pricing data comes from "pricing.yml" file
+
+########################## speaker ##########################
+speaker:
+  enable : true
+  titleOutline : "Speakers"
+  title : "Keynote Speakers"
+  content : "R/Pharma is excited to host the following keynote speakers."
+  # speaker content comes from "content/speaker" folder
+
+############################# Feature ###########################
+exec:
+  enable: true
+  titleOutline : "Governance"
+  title : "Organising Committee"
+  content : "The organising committee focuses on the logistics of running this
+  conference. The content of this conference is shaped by dozens of Pharma
+  industry colleagues in a community effort, led by John Sims and Bella Feng."
+  execItem:
+
+    # execItem item loop
+    - name : "Paulo Bargo"
+      affiliation : "Janssen"
+
+    # execItem item loop
+    - name : "James Black"
+      affiliation : "Roche / Genentech"
+
+    # execItem item loop
+    - name : "Michael Blanks"
+      affiliation : "Beigene"
+
+    # execItem item loop
+    - name : "Phil Bowsher"
+      affiliation : "RStudio"
+
+    # execItem item loop
+    - name : "Bella Feng"
+      affiliation : "KitePharma, A Gilead Company"
+
+    # execItem item loop
+    - name : "Elizabeth Hess"
+      affiliation : "IQSS Harvard University"
+
+    # execItem item loop
+    - name : "Ellis Hughes"
+      affiliation : "Fred Hutch"
+
+    # execItem item loop
+    - name : "Devin Incerti"
+      affiliation : "Roche / Genentech"
+
+    # execItem item loop
+    - name : "Reinhold Koch"
+      affiliation : "Roche / Genentech"
+
+    # execItem item loop
+    - name : "Edward Lauzier"
+      affiliation : "Merck"
+
+    # execItem item loop
+    - name : "Michael Lawrence"
+      affiliation : "Roche / Genentech"
+
+    # execItem item loop
+    - name : "Min Lee"
+      affiliation : "Amgen"
+
+    # execItem item loop
+    - name : "Harvey Lieberman"
+      affiliation : "Novartis"
+
+    # execItem item loop
+    - name : "Melvin Munsaka"
+      affiliation : "AbbVie"
+
+    # execItem item loop
+    - name : "Eric Nantz"
+      affiliation : "Eli Lilly"
+
+    # execItem item loop
+    - name : "Elena Rantou"
+      affiliation : "FDA"
+
+    # execItem item loop
+    - name : "Paul Schuette"
+      affiliation : "FDA"
+
+    # execItem item loop
+    - name : "John Sims"
+      affiliation : "Pfizer"
+
+    # execItem item loop
+    - name : "Volha Tryputsen"
+      affiliation : "Janssen"
+
+
+
+######################### sponsor ############################
+sponsor:
+  enable :  false
+  titleOutline : "Sponsors"
+  title : "Amazing Partners & Sponsors"
+  sponsorGroup:
+    ############################ sponsor group loop
+    - title : "Amazing Partners & Sponsors"
+      sponsor:
+        # sponcor loop
+        - logo : "images/clients/client-img-1.png"
+          link : "#"
+
+        # sponcor loop
+        - logo : "images/clients/client-img-2.png"
+          link : "#"
+
+        # sponcor loop
+        - logo : "images/clients/client-img-3.png"
+          link : "#"
+
+        # sponcor loop
+        - logo : "images/clients/client-img-4.png"
+          link : "#"
+
+        # sponcor loop
+        - logo : "images/clients/client-img-5.png"
+          link : "#"
+
+    ############################ sponsor group loop
+    - title : "Platinum Sponsors"
+      sponsor:
+        # sponcor loop
+        - logo : "images/clients/client-img-6.png"
+          link : "#"
+
+        # sponcor loop
+        - logo : "images/clients/client-img-7.png"
+          link : "#"
+
+        # sponcor loop
+        - logo : "images/clients/client-img-8.png"
+          link : "#"
+
+        # sponcor loop
+        - logo : "images/clients/client-img-9.png"
+          link : "#"
+
+        # sponcor loop
+        - logo : "images/clients/client-img-1.png"
+          link : "#"
+
+        # sponcor loop
+        - logo : "images/clients/client-img-2.png"
+          link : "#"
+
+        # sponcor loop
+        - logo : "images/clients/client-img-3.png"
+          link : "#"
+
+        # sponcor loop
+        - logo : "images/clients/client-img-4.png"
+          link : "#"
+
+        # sponcor loop
+        - logo : "images/clients/client-img-5.png"
+          link : "#"
+
+  # call to action in sponsor
+  cta:
+    enable : true
+    title : "Want to be a sponsor ?"
+    #button
+    label : "apply now"
+    link : "#"
+
+################################ call to action 2 ########################
+cta2:
+  enable : true
+  image : "images/bg/map-1025845_1280.jpg"
+  title : "Virtual Conference"
+  date : "13 - 15th October, 2020"
+  content : "R/Pharma 2020 will be a virtual conference - Stay tuned for details"
+  button:
+    enable : false
+    label : "View Map location"
+    link : "contact"
+
+############################### Blog ######################################
+blog:
+  enable : true
+  titleOutline : "Updates"
+  title : "Get the latest news"
+  content : "Check out the posts below for messages from the organisors."
+  # blog content comes from "content/blog" folder

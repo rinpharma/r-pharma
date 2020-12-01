@@ -9,7 +9,7 @@ schedule:
       subtitle : "20 Aug [8:00am - 5:20pm ET]"
       tabContentList:
         # tab content list
-        - time : "8:40 AM -12:30 PM"
+        - time : "8:40 AM - <br /> 12:30 PM"
           image : "images/schedule/workshop.jpg"
           icons: true
           slides: "https://github.com/jcheng5/rpharma-shinymeta-workshop"
@@ -24,7 +24,7 @@ schedule:
           "
           
         # tab content list
-        - time : "8:40 AM -12:30 PM"
+        - time : "8:40 AM - <br /> 12:30 PM"
           image : "images/schedule/workshop.jpg"
           icons: true
           slides: "https://github.com/pharmaR/rpharma2019"
@@ -39,7 +39,7 @@ schedule:
           "
           
         # tab content list
-        - time : "8:40 AM -12:30 PM"
+        - time : "8:40 AM - <br /> 12:30 PM"
           image : "images/schedule/workshop.jpg"
           icons: true
           slides: "https://github.com/leonjessen/RPharma2019"
@@ -54,7 +54,7 @@ schedule:
           "
           
         # tab content list
-        - time : "1:30 PM - 5:20 PM"
+        - time : "1:30 PM - <br /> 5:20 PM"
           image : "images/schedule/workshop.jpg"
           icons: true
           slides: "https://github.com/topepo/RPharma-2019-Workshop"
@@ -69,7 +69,7 @@ schedule:
           "
           
         # tab content list
-        - time : "1:30 PM - 5:20 PM"
+        - time : "1:30 PM - <br /> 5:20 PM"
           image : "images/schedule/workshop.jpg"
           icons: true
           slides: "https://github.com/cpsievert/tutorials/tree/master/20190821"
@@ -84,7 +84,7 @@ schedule:
           "
           
         # tab content list
-        - time : "1:30 PM - 5:20 PM"
+        - time : "1:30 PM - <br /> 5:20 PM"
           image : "images/schedule/workshop.jpg"
           icons: true
           slides: "https://github.com/wlandau/learndrake"

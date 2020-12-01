@@ -1,10 +1,10 @@
 day,time,type,title,abstract,author,affiliation,slides,youtube
-1,8:40 AM -12:30 PM,workshop,Shiny Reproducibility,"",Joe Cheng,Rstudio,https://github.com/jcheng5/rpharma-shinymeta-workshop,""
-1,8:40 AM -12:30 PM,workshop,"R Validation Hub (past, current and future state)","",Andy Nicholls,Glaxosmithkline,https://github.com/pharmaR/rpharma2019,""
-1,8:40 AM -12:30 PM,workshop,Artificial neural networks in R with Keras and TensorFlow,"",Leon Eyrich Jessen,Technical University of Denmark,https://github.com/leonjessen/RPharma2019,""
-1,1:30 PM - 5:20 PM,workshop,Machine learning,"",Max Kuhn,Rstudio,https://github.com/topepo/RPharma-2019-Workshop,""
-1,1:30 PM - 5:20 PM,workshop,plotly,"",Carson Sievert,Rstudio,https://github.com/cpsievert/tutorials/tree/master/20190821,""
-1,1:30 PM - 5:20 PM,workshop,Machine learning workflow management with drake,"",Will Landau,Eli Lilly,https://github.com/wlandau/learndrake,""
+1,8:40 AM - <br /> 12:30 PM,workshop,Shiny Reproducibility,"",Joe Cheng,Rstudio,https://github.com/jcheng5/rpharma-shinymeta-workshop,""
+1,8:40 AM - <br /> 12:30 PM,workshop,"R Validation Hub (past, current and future state)","",Andy Nicholls,Glaxosmithkline,https://github.com/pharmaR/rpharma2019,""
+1,8:40 AM - <br /> 12:30 PM,workshop,Artificial neural networks in R with Keras and TensorFlow,"",Leon Eyrich Jessen,Technical University of Denmark,https://github.com/leonjessen/RPharma2019,""
+1,1:30 PM - <br /> 5:20 PM,workshop,Machine learning,"",Max Kuhn,Rstudio,https://github.com/topepo/RPharma-2019-Workshop,""
+1,1:30 PM - <br /> 5:20 PM,workshop,plotly,"",Carson Sievert,Rstudio,https://github.com/cpsievert/tutorials/tree/master/20190821,""
+1,1:30 PM - <br /> 5:20 PM,workshop,Machine learning workflow management with drake,"",Will Landau,Eli Lilly,https://github.com/wlandau/learndrake,""
 2,8:15 AM,coffee-session,Coffee Session \n ### Package Management,,Devin Pastoor,Metrum Research Group,,
 2,8:15 AM,coffee-session,Coffee Session \n ### R Education in Pharma,,Paulo Bargo // Satish Murthy,Janssen // Janssen,,
 2,8:15 AM,coffee-session,Coffee Session \n ### R and Python Interoperability,,Sean Lopp,RStudio,,

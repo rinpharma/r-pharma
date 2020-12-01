@@ -182,7 +182,7 @@ schedule:
           image : "images/schedule/opening-remarks.jpg"
           icons: true
           slides: ""
-          youtube: ""
+          youtube: "https://youtu.be/4_or19J0Mqo"
           content: "
         
           ### Opening Remarks 
@@ -407,7 +407,7 @@ schedule:
           image : "images/schedule/closing-remarks.jpg"
           icons: true
           slides: ""
-          youtube: ""
+          youtube: "https://youtu.be/54WAnoFGyKg"
           content: "
         
           ### Closing Remarks
@@ -426,7 +426,7 @@ schedule:
           image : "images/schedule/opening-remarks.jpg"
           icons: true
           slides: ""
-          youtube: ""
+          youtube: "https://youtu.be/OOp2LaF99Cc"
           content: "
         
           ### Opening Remarks
@@ -681,7 +681,7 @@ schedule:
           image : "images/schedule/closing-remarks.jpg"
           icons: true
           slides: ""
-          youtube: ""
+          youtube: "https://youtu.be/YxbKkdkTkgw"
           content: "
         
           ### Closing Remarks
@@ -700,7 +700,7 @@ schedule:
           image : "images/schedule/opening-remarks.jpg"
           icons: true
           slides: ""
-          youtube: ""
+          youtube: "https://youtu.be/yKabYEnSBSM"
           content: "
         
           ### Opening Remarks
@@ -955,7 +955,7 @@ schedule:
           image : "images/schedule/closing-remarks.jpg"
           icons: true
           slides: ""
-          youtube: ""
+          youtube: "https://youtu.be/yYS1lOWerfE"
           content: "
         
           ### Closing Remarks

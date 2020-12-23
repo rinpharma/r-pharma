@@ -102,7 +102,7 @@ speaker:
 
 ############################# Feature ###########################
 exec:
-  enable: false
+  enable: true
   titleOutline : "Governance"
   title : "Organising Committee"
   content : "The organising committee focuses on the logistics of running this

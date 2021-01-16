@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 10 Sep 2019 13:51:25 +0600</lastBuildDate><atom:link href="https://rinpharma.com/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>rstudio::global</title>
+      <link>https://rinpharma.com/blog/post.8/</link>
+      <pubDate>Fri, 15 Jan 2021 10:51:25 +0000</pubDate>
+      
+      <guid>https://rinpharma.com/blog/post.8/</guid>
+      <description>R/Pharma is hosting a session at rstudio::global next week on Tuesday, Jan 19, 2021 at 12:00 PM to 3:00 PM EST.</description>
+    </item>
+    
+    <item>
       <title>Get your R/Pharma Merch</title>
       <link>https://rinpharma.com/blog/post.7/</link>
       <pubDate>Fri, 02 Oct 2020 20:57:25 +0000</pubDate>

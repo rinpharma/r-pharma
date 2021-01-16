@@ -4,9 +4,9 @@ date: 2021-01-15T10:51:25
 draft: false
 description: "rstudio::global"
 # page title background image
-bgImage : "images/blog/merch.jpg"
+bgImage : "images/blog/procogia_xsession.jpg"
 # post thumb
-image : "images/blog/merch.jpg"
+image : "images/blog/procogia_xsession.jpg"
 # about author
 author: "R/Pharma"
 # Taxonomies

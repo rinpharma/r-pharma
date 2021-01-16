@@ -118,7 +118,7 @@ schedule:
           image : "images/schedule/workshop.jpg"
           icons: true
           slides: "https://github.com/rich-iannone/gt-workshop-2020"
-          youtube: ""
+          youtube: "https://www.youtube.com/watch?v=puzMITLVrqE"
           content: "
         
           ### gt
@@ -148,7 +148,7 @@ schedule:
           image : "images/schedule/workshop.jpg"
           icons: true
           slides: "https://github.com/metrumresearchgroup/r-pharma-pkpd-2020"
-          youtube: ""
+          youtube: "https://www.youtube.com/watch?v=EbDeZ5PgNlQ"
           content: "
         
           ### A PK & PBPK Modelling Workflow in R: Simulation, Optimization & Visualization

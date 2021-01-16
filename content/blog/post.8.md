@@ -44,3 +44,12 @@ More information on this and other X-sessions can be found at the {{< rawhtml >}
 <a href="https://blog.rstudio.com/2021/01/11/x-sessions-at-rstudio-global/" style="text-decoration: underline;">RStudio blog</a>
 {{< /rawhtml >}}. 
 
+{{< rawhtml >}}
+<div class="col-lg-8">
+  <div class="info">
+    <h4 class="mt-5 mb-4"></h4>
+      <a href="https://global.rstudio.com/student/page/40726" class="btn btn-secondary btn-rounded">Enroll in Pharma X-Session</a>
+  </div>
+  <br/>
+</div>
+{{< /rawhtml >}}

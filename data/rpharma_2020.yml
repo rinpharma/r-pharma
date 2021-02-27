@@ -13,7 +13,7 @@ schedule:
           image : "images/schedule/workshop.jpg"
           icons: true
           slides: "https://github.com/leonjessen/RPharma2020"
-          youtube: ""
+          youtube: "https://www.youtube.com/watch?v=6HNjZVBArmQ"
           content: "
         
           ### Artificial Neural Networks in R with Keras and TensorFlow

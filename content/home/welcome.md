@@ -16,7 +16,7 @@ design:
     # Name of image in `assets/media/`.
     image: coverwhite-pills.png
     # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
-    image_darken: 0.6
+    image_darken: 0.5
     #  Options are `cover` (default), `contain`, or `actual` size.
     image_size: actual
     # Options include `left`, `center` (default), or `right`.
@@ -32,11 +32,17 @@ cta:
   icon_pack: fas
   icon: door-open
 cta_alt:
-  url: '/publication'
-  label: See proceedings
+  url: '/post/faq'
+  label: Read the FAQ
 ---
 
-R/Pharma is an ISC working group under the R Consortium.
-Our entire event is a community-lead effort and 100% volunteer run. The event
-is vendor neutral and very much an academic conference.
-Harvard has been very helpful in hosting the event.
+The conference is a relatively small, scientifically &
+industry oriented, collegial event focused on the use of R in the development of
+pharmaceuticals.
+
+The conference covers topics including reproducible research,
+regulatory compliance and validation, safety monitoring, clinical trials, drug
+discovery, research & development, PK/PD/pharmacometrics, genomics, diagnostics,
+immunogenicity and more within the context of using R. The conference showcases
+the current use of R that is helping to drive biomedical research, drug discovery
+& development, and clinical initiatives.

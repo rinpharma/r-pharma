@@ -1,8 +1,8 @@
 # IDEs
 .idea/
-
 # Hugo
 /resources/
 public/
 assets/jsconfig.json
 .Rproj.user
+.secrets

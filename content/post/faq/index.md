@@ -1,7 +1,7 @@
 ---
 title: The what and the why for R/Pharma
 date: 2020-08-01
-summary: A summary of my post for previews and search engines.
+summary: An explanation of why R/Pharma exists, with an FAQ on commonly asked questions.
 ---
 
 {{< toc >}}

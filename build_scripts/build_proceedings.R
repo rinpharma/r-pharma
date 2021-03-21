@@ -1,4 +1,3 @@
-library(pins)
 library(glue)
 library(tidyverse)
 library(googlesheets4)
@@ -17,11 +16,12 @@ publishDate: '20001-01-01T00:00:00Z'
 # proceeding type.
 # Legend: 0 = Uncategorized; 1 = Talk, 2 = Keynote, 3 = Workshop
 # To add more update publications_types.toml and en.yaml
-proceeding_types: ['{type}']
+publication_types: ['{type}']
+publication_type_description: {type_text}
 
 # proceeding name and optional abbreviated proceeding name.
-proceeding: Presented at {event}
-proceeding_short: Presented at {event}
+publication: Presented at {event}
+publication_short: Presented at {event}
 
 abstract: {abstract}
 
@@ -96,6 +96,7 @@ for (i in d_proceedings$ID) {
     glue(
       template,
       date = i_proceeding$Date,
+      type_text = i_proceeding$Type,
       title = i_proceeding$Title,
       authors = i_proceeding$author,
       type = i_proceeding$type,

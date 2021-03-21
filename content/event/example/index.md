@@ -1,5 +1,5 @@
 ---
-title: 2020 Conference
+title: 2020 Conference (PLACEHOLDER)
 
 event: 2020 Conference
 event_url:

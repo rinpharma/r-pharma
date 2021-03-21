@@ -1,0 +1,115 @@
+library(pins)
+library(glue)
+library(tidyverse)
+library(googlesheets4)
+
+## Template
+template <- "
+---
+title: '{title}'
+authors:
+{authors}
+date: '{date}T00:00:00Z'
+
+# Schedule page publish date (NOT proceeding's date).
+publishDate: '20001-01-01T00:00:00Z'
+
+# proceeding type.
+# Legend: 0 = Uncategorized; 1 = Talk, 2 = Keynote, 3 = Workshop
+# To add more update publications_types.toml and en.yaml
+proceeding_types: ['{type}']
+
+# proceeding name and optional abbreviated proceeding name.
+proceeding: Presented at {event}
+proceeding_short: Presented at {event}
+
+abstract: {abstract}
+
+tags:
+{affaliations}
+featured: false
+
+links:
+url_slides: '{slides}'
+url_video: '{video}'
+
+---
+"
+
+# Get data
+
+  sheet_url <- "https://docs.google.com/spreadsheets/d/1NaDnMRh2nOBCzBUxbIyJBVWd_InaEMLTW0rEJtD2ywE/edit#gid=0"
+  # check the value of the option, if you like
+  options(gargle_oauth_email = "james.black.jb2@roche.com")
+  gs4_auth(email = "james.black.jb2@roche.com", cache = ".secrets")
+  d_raw_proceedings <- read_sheet(sheet_url, sheet = "all_conferences")
+  
+# Clean data
+  
+  d_all <- d_raw_proceedings %>%
+    arrange(Date,Start) %>%
+    mutate(
+      # Modify col
+      Title = gsub("'","",Title),
+      # Add col
+      Year = format(Date, format="%Y"),
+      ID = paste0("rinpharma_",row_number())
+    ) %>%
+    select(
+      ID,Event,Abstract,Type, Year,Date, Speaker, Affiliation, Title, Slides, Video
+    )
+  
+  d_proceedings <- d_all %>% 
+    filter(
+      Type %in% c("Workshop","Keynote","Talk")
+    )
+  
+# Remove NA 
+  d_proceedings[is.na(d_proceedings)] <- ""
+  
+# Fill template
+for (i in d_proceedings$ID) {
+  
+  i_proceeding <- d_proceedings %>%
+    filter(ID == i) # i <- "rinpharma_70" i <- "rinpharma_127"
+  
+  i_proceeding <- i_proceeding %>%
+    mutate(
+      type = case_when(
+        Type == "Talk" ~ 1,
+        Type == "Keynote" ~ 2,
+        Type == "Workshop" ~ 3
+      ),
+      
+      # sanitize abstract
+      abstract = gsub(":","",Abstract),
+      
+      # split speaker and author
+      author = paste("-",Speaker),
+      author = gsub(" and ","\n- ",author),
+      
+      affaliations = paste("-",i_proceeding$Affiliation),
+      affaliations = gsub(" \\| ","\n- ",affaliations)
+    )
+
+  proceeding_output <-
+    glue(
+      template,
+      date = i_proceeding$Date,
+      title = i_proceeding$Title,
+      authors = i_proceeding$author,
+      type = i_proceeding$type,
+      event = i_proceeding$Event,
+      abstract = i_proceeding$abstract,
+      affaliations = i_proceeding$affaliations,
+      slides = i_proceeding$Slides,
+      video = i_proceeding$Video
+    )
+  
+  i_folder <- glue("content/publication/",i_proceeding$ID)
+  dir.create(i_folder, showWarnings = FALSE)
+  sink(paste0(i_folder,"/index.md"))
+  cat(proceeding_output)
+  sink()
+}
+  

@@ -1,0 +1,8 @@
+- id: pub_talk
+  translation: Talk
+
+- id: pub_keynote
+  translation: Keynote
+
+- id: pub_workshop
+  translation: Workshop

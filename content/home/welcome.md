@@ -8,7 +8,7 @@ headless: true  # This file represents a page section.
 weight: 10  # Order that this section will appear.
 title: "R/Pharma Conference"
 subtitle: ""
-hero_media: welcome.jpg
+hero_media: iStock-1147932850.jpeg
 design:
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns: '2'
@@ -39,10 +39,3 @@ cta_alt:
 The conference is a relatively small, scientifically &
 industry oriented, collegial event focused on the use of R in the development of
 pharmaceuticals.
-
-The conference covers topics including reproducible research,
-regulatory compliance and validation, safety monitoring, clinical trials, drug
-discovery, research & development, PK/PD/pharmacometrics, genomics, diagnostics,
-immunogenicity and more within the context of using R. The conference showcases
-the current use of R that is helping to drive biomedical research, drug discovery
-& development, and clinical initiatives.

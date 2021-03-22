@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Devin Pastoor | R/Pharma</title>
+    <link>https://epijim.github.io/rinpharma/author/devin-pastoor/</link>
+      <atom:link href="https://epijim.github.io/rinpharma/author/devin-pastoor/index.xml" rel="self" type="application/rss+xml" />
+    <description>Devin Pastoor</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2021</copyright><lastBuildDate>Fri, 09 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://epijim.github.io/rinpharma/images/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>Devin Pastoor</title>
+      <link>https://epijim.github.io/rinpharma/author/devin-pastoor/</link>
+    </image>
+    
+    <item>
+      <title>A PK &amp; PBPK Modelling Workflow in R: Simulation, Optimization &amp; Visualization</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_135/</link>
+      <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_135/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Package management</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_83/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_83/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Moving Fast Without Breaking Things: Navigating the R Ecosystem in an Enterprise Environment</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_39/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_39/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Moving Fast Without Breaking Things: Navigating the R Ecosystem in an Enterprise Environment</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_4/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_4/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

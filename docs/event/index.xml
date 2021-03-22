@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R/Pharma conferences | R/Pharma</title>
+    <link>https://epijim.github.io/rinpharma/event/</link>
+      <atom:link href="https://epijim.github.io/rinpharma/event/index.xml" rel="self" type="application/rss+xml" />
+    <description>R/Pharma conferences</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2021</copyright>
+    <image>
+      <url>https://epijim.github.io/rinpharma/images/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>R/Pharma conferences</title>
+      <link>https://epijim.github.io/rinpharma/event/</link>
+    </image>
+    
+    <item>
+      <title>Tidy Transcriptomics Workshop</title>
+      <link>https://epijim.github.io/rinpharma/event/tidytranscriptomics2020/</link>
+      <pubDate>Tue, 06 Oct 2020 13:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/event/tidytranscriptomics2020/</guid>
+      <description>&lt;p&gt;The tidy transcriptomics workshop was held on October 6, 2020 and taught by S
+tefano Mangiola (Walter and Eliza Hall of Medical Research) and
+Maria Doyle (Peter MacCallum Cancer Center). 100 people from the
+following academic and industrial affiliations attended the workshop:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;AbbVie&lt;/li&gt;
+&lt;li&gt;Bayer&lt;/li&gt;
+&lt;li&gt;Bioinformatics center&lt;/li&gt;
+&lt;li&gt;BioMarin&lt;/li&gt;
+&lt;li&gt;Bionivid technology private limited&lt;/li&gt;
+&lt;li&gt;BMS&lt;/li&gt;
+&lt;li&gt;Children’s Hospital of Philadelphia&lt;/li&gt;
+&lt;li&gt;Covance&lt;/li&gt;
+&lt;li&gt;Flagship&lt;/li&gt;
+&lt;li&gt;Fred Hutchinson CRC&lt;/li&gt;
+&lt;li&gt;Free University of Bolzano&lt;/li&gt;
+&lt;li&gt;Genesis Research&lt;/li&gt;
+&lt;li&gt;Genmab&lt;/li&gt;
+&lt;li&gt;German Cancer Research Center&lt;/li&gt;
+&lt;li&gt;Gilead&lt;/li&gt;
+&lt;li&gt;Helmholtz Centre for Infection Research&lt;/li&gt;
+&lt;li&gt;HTG Molecular Diagnostics&lt;/li&gt;
+&lt;li&gt;Independent Consultant&lt;/li&gt;
+&lt;li&gt;J&amp;amp;J&lt;/li&gt;
+&lt;li&gt;Janssen&lt;/li&gt;
+&lt;li&gt;Kmd&lt;/li&gt;
+&lt;li&gt;KMUTT&lt;/li&gt;
+&lt;li&gt;Knight Cancer Institute, Oregon Health &amp;amp; Sciences University&lt;/li&gt;
+&lt;li&gt;McMaster University&lt;/li&gt;
+&lt;li&gt;Medidata Solutions&lt;/li&gt;
+&lt;li&gt;Merck&lt;/li&gt;
+&lt;li&gt;Metrum Research Group&lt;/li&gt;
+&lt;li&gt;Novartis&lt;/li&gt;
+&lt;li&gt;Novo Nordisk&lt;/li&gt;
+&lt;li&gt;Nuventra Pharma Sciences&lt;/li&gt;
+&lt;li&gt;Obsidian Therapeutics&lt;/li&gt;
+&lt;li&gt;OHSU&lt;/li&gt;
+&lt;li&gt;OpenAnalytics&lt;/li&gt;
+&lt;li&gt;Ous&lt;/li&gt;
+&lt;li&gt;PennState&lt;/li&gt;
+&lt;li&gt;Pfizer&lt;/li&gt;
+&lt;li&gt;PSI CRO&lt;/li&gt;
+&lt;li&gt;Ranchos&lt;/li&gt;
+&lt;li&gt;Roche&lt;/li&gt;
+&lt;li&gt;Rush University Medical Center&lt;/li&gt;
+&lt;li&gt;Sanofi&lt;/li&gt;
+&lt;li&gt;Takeda Pharmaceuticals&lt;/li&gt;
+&lt;li&gt;Temple university&lt;/li&gt;
+&lt;li&gt;The BioTeam&lt;/li&gt;
+&lt;li&gt;The Ohio State University&lt;/li&gt;
+&lt;li&gt;Tufts University&lt;/li&gt;
+&lt;li&gt;University of Lagos&lt;/li&gt;
+&lt;li&gt;University of Michigan&lt;/li&gt;
+&lt;li&gt;University of Minnesota&lt;/li&gt;
+&lt;li&gt;University of Toronto&lt;/li&gt;
+&lt;li&gt;University of Wisconsin-Madison&lt;/li&gt;
+&lt;li&gt;Upland Software&lt;/li&gt;
+&lt;li&gt;Vertex&lt;/li&gt;
+&lt;li&gt;West Virginia University&lt;/li&gt;
+&lt;li&gt;Xencor&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2020 Conference</title>
+      <link>https://epijim.github.io/rinpharma/event/rinpharma2020/</link>
+      <pubDate>Mon, 05 Oct 2020 13:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/event/rinpharma2020/</guid>
+      <description>&lt;p&gt;James will add an html schedule here.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

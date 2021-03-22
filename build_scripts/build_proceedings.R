@@ -2,7 +2,13 @@ library(glue)
 library(tidyverse)
 library(googlesheets4)
 
-## Template
+library(pins)
+# devtools::install_github(
+#   "OpenPharma/GithubMetrics", ref = "add/activity"
+# )
+#library(GithubMetrics) for gh_file_get()
+
+## Template -------------------------------------------------------------------
 template <- "
 ---
 title: '{title}'
@@ -36,7 +42,7 @@ url_video: '{video}'
 ---
 "
 
-# Get data
+# Get data -------------------------------------------------------------------
 
   sheet_url <- "https://docs.google.com/spreadsheets/d/1NaDnMRh2nOBCzBUxbIyJBVWd_InaEMLTW0rEJtD2ywE/edit#gid=0"
   # check the value of the option, if you like
@@ -44,7 +50,7 @@ url_video: '{video}'
   gs4_auth(email = "james.black.jb2@roche.com", cache = ".secrets")
   d_raw_proceedings <- read_sheet(sheet_url, sheet = "all_conferences")
   
-# Clean data
+# Clean data -----------------------------------------------------------------
   
   d_all <- d_raw_proceedings %>%
     arrange(Date,Start) %>%
@@ -67,13 +73,8 @@ url_video: '{video}'
 # Remove NA 
   d_proceedings[is.na(d_proceedings)] <- ""
   
-# Fill template
-for (i in d_proceedings$ID) {
-  
-  i_proceeding <- d_proceedings %>%
-    filter(ID == i) # i <- "rinpharma_70" i <- "rinpharma_127"
-  
-  i_proceeding <- i_proceeding %>%
+# Sanitise
+  d_proceedings <- d_proceedings %>%
     mutate(
       type = case_when(
         Type == "Talk" ~ 1,
@@ -91,6 +92,12 @@ for (i in d_proceedings$ID) {
       affaliations = paste("-",i_proceeding$Affiliation),
       affaliations = gsub(" \\| ","\n- ",affaliations)
     )
+  
+# Fill template --------------------------------------------------------------
+for (i in d_proceedings$ID) {
+  
+  i_proceeding <- d_proceedings %>%
+    filter(ID == i) # i <- "rinpharma_70" i <- "rinpharma_127"
 
   proceeding_output <-
     glue(
@@ -113,4 +120,30 @@ for (i in d_proceedings$ID) {
   cat(proceeding_output)
   sink()
 }
+  
+#### Pins -------------------------------------------------------------------
+  board_register_github(repo = "rinpharma/rinpharma-data", branch = "master")
+  
+  # old_proceedings <- gh_file_get(
+  #   repo = "rinpharma-data",
+  #   org = "rinpharma",
+  #   file = "d-proceedings/data.csv"
+  # ) %>%
+  # read_csv(quoted_na = FALSE)
+  
+  # Proceedings
+  proceedings <- d_proceedings %>%
+    select(
+      ID,Event,Type,Year,Date,Speaker, 
+      Affiliation,Title,Slides,Video,Abstract = abstract
+    )
+
+  
+  pin(proceedings, 
+      description = "Full proceedings data", 
+      board = "github",
+      branch = "master"
+  )  
+  
+
   

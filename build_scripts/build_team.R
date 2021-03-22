@@ -1,8 +1,9 @@
 library(glue)
 library(tidyverse)
 library(googlesheets4)
+library(pins)
 
-## Template
+## Template -------------------------------------------------------------------
 template <- "
 ---
 # Display name
@@ -38,7 +39,7 @@ user_groups:
 ---
 "
 
-# Get data
+# Get data -------------------------------------------------------------------
 
   sheet_url <- "https://docs.google.com/spreadsheets/d/1NaDnMRh2nOBCzBUxbIyJBVWd_InaEMLTW0rEJtD2ywE/edit#gid=0"
   # check the value of the option, if you like
@@ -46,12 +47,12 @@ user_groups:
   gs4_auth(email = "james.black.jb2@roche.com", cache = ".secrets")
   d_raw_team <- read_sheet(sheet_url, sheet = "team")
   
-# Clean data
+# Clean data -------------------------------------------------------------------
   
   d_team <- d_raw_team %>%
     filter(!is.na(linkedin)) 
   
-# Fill template
+# Fill template ----------------------------------------------------------------
 for (i in d_team$linkedin) {
   
   i_team <- d_team %>%
@@ -73,4 +74,20 @@ for (i in d_team$linkedin) {
   cat(team_output)
   sink()
 }
+  
+#### Pins -------------------------------------------------------------------
+board_register_github(repo = "rinpharma/rinpharma-data", branch = "master")
+
+# remove email
+organising_team <- d_team %>%
+  select(
+    name,role,custom_link,linkedin,organising_comm,exec_comm,program_comm
+  )
+
+
+pin(organising_team, 
+    description = "Full proceedings data", 
+    board = "github",
+    branch = "master"
+)  
   

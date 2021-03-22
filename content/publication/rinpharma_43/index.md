@@ -10,16 +10,17 @@ publishDate: '20001-01-01T00:00:00Z'
 # proceeding type.
 # Legend: 0 = Uncategorized; 1 = Talk, 2 = Keynote, 3 = Workshop
 # To add more update publications_types.toml and en.yaml
-proceeding_types: ['1']
+publication_types: ['1']
+publication_type_description: Talk
 
 # proceeding name and optional abbreviated proceeding name.
-proceeding: Presented at 2018 Conference
-proceeding_short: Presented at 2018 Conference
+publication: Presented at 2018 Conference
+publication_short: Presented at 2018 Conference
 
-abstract: 
+abstract: During the drug development, pharmacometric models are often built to characterize and understand drug efficacy and safety. Simulations based on these models can assist drug development and quantitative decision making. However, computation can be time-consuming and communication with the project team may not be productive. Shiny applications are developed as a simulation tool which allows rapid real-time simulations based on user-selected inputs and dynamic visualization of the results. It provides an easy access to individuals with no specific background of modeling and simulation. In the talk, I will present some case studies where the shiny application was used to perform simulations and facilitate the communication with decision makers.
 
 tags:
-- Metrum Research Group
+- Rstudio
 featured: false
 
 links:

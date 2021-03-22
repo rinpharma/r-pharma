@@ -10,16 +10,17 @@ publishDate: '20001-01-01T00:00:00Z'
 # proceeding type.
 # Legend: 0 = Uncategorized; 1 = Talk, 2 = Keynote, 3 = Workshop
 # To add more update publications_types.toml and en.yaml
-proceeding_types: ['1']
+publication_types: ['1']
+publication_type_description: Talk
 
 # proceeding name and optional abbreviated proceeding name.
-proceeding: Presented at 2018 Conference
-proceeding_short: Presented at 2018 Conference
+publication: Presented at 2018 Conference
+publication_short: Presented at 2018 Conference
 
-abstract: 
+abstract: R is pretty good in backwards compatibility but still reproducing analysis even given script and data can be a challenge as packages, R, and math libraries keep evolving. www.rocker-project.org offers among other things version-stable R in docker (Rocker) images. A small example will be presented how this allows on any docker runtime environment to execute analysis with highest reproducibility. Such environments are part of all major commercial cloud providers but also allow on-premises installations.
 
 tags:
-- Roche / Genentech
+- Rstudio
 featured: false
 
 links:

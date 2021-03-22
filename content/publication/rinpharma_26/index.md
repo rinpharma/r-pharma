@@ -10,16 +10,17 @@ publishDate: '20001-01-01T00:00:00Z'
 # proceeding type.
 # Legend: 0 = Uncategorized; 1 = Talk, 2 = Keynote, 3 = Workshop
 # To add more update publications_types.toml and en.yaml
-proceeding_types: ['1']
+publication_types: ['1']
+publication_type_description: Talk
 
 # proceeding name and optional abbreviated proceeding name.
-proceeding: Presented at 2018 Conference
-proceeding_short: Presented at 2018 Conference
+publication: Presented at 2018 Conference
+publication_short: Presented at 2018 Conference
 
-abstract: 
+abstract: REAP (R-Shiny Exploratory Analysis Platform) was developed by the Modeling and Simulation group within the Clinical Pharmacology department at Genentech, Inc., to support exploratory analyses of clinical data. REAP is a web-based, user-friendly, tool providing standard methods and outputs for conducting typical analyses within a clinical pharmacology group. With REAP, a clinical pharmacologist or pharmacometrician can perform Exposure-Response, dose linearity, and concentration-corrected QT analyses, PKPD simulations, NONMEM data quality checks, and PK graphic analyses without writing code. Results can be used to enhance scientific understanding of the relationship between exposure, response, and the PK characteristics of the molecule. In this talk, I will demonstrate how REAP can be used to perform dose linearity and Exposure-Response analyses.
 
 tags:
-- Roche / Genentech
+- Rstudio
 featured: false
 
 links:

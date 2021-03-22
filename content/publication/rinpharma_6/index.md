@@ -10,16 +10,17 @@ publishDate: '20001-01-01T00:00:00Z'
 # proceeding type.
 # Legend: 0 = Uncategorized; 1 = Talk, 2 = Keynote, 3 = Workshop
 # To add more update publications_types.toml and en.yaml
-proceeding_types: ['2']
+publication_types: ['2']
+publication_type_description: Keynote
 
 # proceeding name and optional abbreviated proceeding name.
-proceeding: Presented at 2018 Conference
-proceeding_short: Presented at 2018 Conference
+publication: Presented at 2018 Conference
+publication_short: Presented at 2018 Conference
 
-abstract: 
+abstract: Lilliam will be presenting a perspective on what the office of computational science is doing to support regulatory review for safety assessments. She will explore the concept of collaborations and sharing to support process and transparency, along with a perspective with the use of R.
 
 tags:
-- FDA
+- Rstudio
 featured: false
 
 links:

@@ -12,13 +12,13 @@ content:
   filters:
     author: ""
     category: ""
-    exclude_featured: false
+    exclude_featured: true
     publication_type: ""
     tag: ""
   offset: 0
   order: desc
   page_type: post
 design:
-  view: 3
-  columns: "1"
+  view: 2
+  columns: "2"
 ---

@@ -5,11 +5,11 @@
   "theme_color": "#1565c0",
   "background_color": "#1565c0",
   "icons": [{
-    "src": "/r-pharma/images/icon_hu236aa79531c1f54a56235d0cfffed976_6959_192x192_fill_lanczos_center_2.png",
+    "src": "/r-pharma/media/icon_hu236aa79531c1f54a56235d0cfffed976_6959_192x192_fill_lanczos_center_2.png",
     "sizes": "192x192",
     "type": "image/png"
     }, {
-    "src": "/r-pharma/images/icon_hu236aa79531c1f54a56235d0cfffed976_6959_512x512_fill_lanczos_center_2.png",
+    "src": "/r-pharma/media/icon_hu236aa79531c1f54a56235d0cfffed976_6959_512x512_fill_lanczos_center_2.png",
     "sizes": "512x512",
     "type": "image/png"
      }],

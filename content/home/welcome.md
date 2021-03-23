@@ -11,7 +11,7 @@ subtitle: ""
 hero_media: iStock-1147932850.jpeg
 design:
   # Choose how many columns the section has. Valid values: 1 or 2.
-  columns: '2'
+  columns: '1'
   background:
     # Name of image in `assets/media/`.
     image: coverwhite-pills.png

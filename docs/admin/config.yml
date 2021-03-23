@@ -69,7 +69,7 @@ collections:
         required: false
         widget: boolean
       - label: Image
-        media_folder: /static/media
+        media_folder: /assets/media
         media_library:
           config:
             multiple: false
@@ -101,7 +101,7 @@ collections:
   folder: content/home
   identifier_field: widget_id
   label: Homepage
-  media_folder: /static/media
+  media_folder: /assets/media
   name: home
   path: '{{slug}}'
   public_folder: ""
@@ -828,5 +828,5 @@ collections:
     name: terms
   label: Pages
   name: pages
-media_folder: static/media
+media_folder: assets/media
 public_folder: /media

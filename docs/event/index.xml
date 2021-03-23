@@ -7,7 +7,7 @@
     <description>R/Pharma conferences</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2021</copyright>
     <image>
-      <url>https://epijim.github.io/r-pharma/images/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <url>https://epijim.github.io/r-pharma/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
       <title>R/Pharma conferences</title>
       <link>https://epijim.github.io/r-pharma/event/</link>
     </image>
@@ -86,6 +86,15 @@ following academic and industrial affiliations attended the workshop:&lt;/p&gt;
       <link>https://epijim.github.io/r-pharma/event/rinpharma2020/</link>
       <pubDate>Mon, 05 Oct 2020 13:00:00 +0000</pubDate>
       <guid>https://epijim.github.io/r-pharma/event/rinpharma2020/</guid>
+      <description>&lt;p&gt;James will add an html schedule here.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2019 Conference</title>
+      <link>https://epijim.github.io/r-pharma/event/rinpharma2019/</link>
+      <pubDate>Tue, 20 Aug 2019 13:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/r-pharma/event/rinpharma2019/</guid>
       <description>&lt;p&gt;James will add an html schedule here.&lt;/p&gt;
 </description>
     </item>

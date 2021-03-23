@@ -79,7 +79,7 @@
   
   <url>
     <loc>https://epijim.github.io/r-pharma/</loc>
-    <lastmod>2021-03-22T22:47:55+01:00</lastmod>
+    <lastmod>2021-03-23T09:28:01+01:00</lastmod>
   </url>
   
   <url>
@@ -978,6 +978,11 @@
   </url>
   
   <url>
+    <loc>https://epijim.github.io/r-pharma/event/rinpharma2019/</loc>
+    <lastmod>2021-03-23T09:28:01+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://epijim.github.io/r-pharma/publication/rinpharma_61/</loc>
     <lastmod>2021-03-22T22:47:55+01:00</lastmod>
   </url>
@@ -1529,11 +1534,6 @@
   <url>
     <loc>https://epijim.github.io/r-pharma/terms/</loc>
     <lastmod>2020-06-03T21:13:15-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://epijim.github.io/r-pharma/tidytranscriptomics/</loc>
-    <lastmod>2021-03-03T21:59:08-05:00</lastmod>
   </url>
   
   <url>

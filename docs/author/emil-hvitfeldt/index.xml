@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Emil Hvitfeldt | R/Pharma</title>
-    <link>https://epijim.github.io/rinpharma/author/emil-hvitfeldt/</link>
-      <atom:link href="https://epijim.github.io/rinpharma/author/emil-hvitfeldt/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://epijim.github.io/r-pharma/author/emil-hvitfeldt/</link>
+      <atom:link href="https://epijim.github.io/r-pharma/author/emil-hvitfeldt/index.xml" rel="self" type="application/rss+xml" />
     <description>Emil Hvitfeldt</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2021</copyright><lastBuildDate>Fri, 09 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://epijim.github.io/rinpharma/images/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <url>https://epijim.github.io/r-pharma/images/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
       <title>Emil Hvitfeldt</title>
-      <link>https://epijim.github.io/rinpharma/author/emil-hvitfeldt/</link>
+      <link>https://epijim.github.io/r-pharma/author/emil-hvitfeldt/</link>
     </image>
     
     <item>
       <title>Predictive modeling with text using tidy data principles</title>
-      <link>https://epijim.github.io/rinpharma/publication/rinpharma_136/</link>
+      <link>https://epijim.github.io/r-pharma/publication/rinpharma_136/</link>
       <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_136/</guid>
+      <guid>https://epijim.github.io/r-pharma/publication/rinpharma_136/</guid>
       <description></description>
     </item>
     

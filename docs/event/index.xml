@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R/Pharma conferences | R/Pharma</title>
-    <link>https://epijim.github.io/rinpharma/event/</link>
-      <atom:link href="https://epijim.github.io/rinpharma/event/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://epijim.github.io/r-pharma/event/</link>
+      <atom:link href="https://epijim.github.io/r-pharma/event/index.xml" rel="self" type="application/rss+xml" />
     <description>R/Pharma conferences</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2021</copyright>
     <image>
-      <url>https://epijim.github.io/rinpharma/images/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <url>https://epijim.github.io/r-pharma/images/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
       <title>R/Pharma conferences</title>
-      <link>https://epijim.github.io/rinpharma/event/</link>
+      <link>https://epijim.github.io/r-pharma/event/</link>
     </image>
     
     <item>
       <title>Tidy Transcriptomics Workshop</title>
-      <link>https://epijim.github.io/rinpharma/event/tidytranscriptomics2020/</link>
+      <link>https://epijim.github.io/r-pharma/event/tidytranscriptomics2020/</link>
       <pubDate>Tue, 06 Oct 2020 13:00:00 +0000</pubDate>
-      <guid>https://epijim.github.io/rinpharma/event/tidytranscriptomics2020/</guid>
+      <guid>https://epijim.github.io/r-pharma/event/tidytranscriptomics2020/</guid>
       <description>&lt;p&gt;The tidy transcriptomics workshop was held on October 6, 2020 and taught by S
 tefano Mangiola (Walter and Eliza Hall of Medical Research) and
 Maria Doyle (Peter MacCallum Cancer Center). 100 people from the
@@ -83,9 +83,9 @@ following academic and industrial affiliations attended the workshop:&lt;/p&gt;
     
     <item>
       <title>2020 Conference</title>
-      <link>https://epijim.github.io/rinpharma/event/rinpharma2020/</link>
+      <link>https://epijim.github.io/r-pharma/event/rinpharma2020/</link>
       <pubDate>Mon, 05 Oct 2020 13:00:00 +0000</pubDate>
-      <guid>https://epijim.github.io/rinpharma/event/rinpharma2020/</guid>
+      <guid>https://epijim.github.io/r-pharma/event/rinpharma2020/</guid>
       <description>&lt;p&gt;James will add an html schedule here.&lt;/p&gt;
 </description>
     </item>

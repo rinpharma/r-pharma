@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://epijim.github.io/r-pharma/post/faq/</loc>
+    <lastmod>2021-03-23T12:47:31+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://epijim.github.io/r-pharma/</loc>
+    <lastmod>2021-03-23T12:47:31+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://epijim.github.io/r-pharma/publication-type/1/</loc>
     <lastmod>2021-03-22T22:47:55+01:00</lastmod>
   </url>
@@ -75,11 +85,6 @@
   <url>
     <loc>https://epijim.github.io/r-pharma/publication_types/</loc>
     <lastmod>2021-03-22T22:47:55+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://epijim.github.io/r-pharma/</loc>
-    <lastmod>2021-03-23T09:28:01+01:00</lastmod>
   </url>
   
   <url>
@@ -573,8 +578,13 @@
   </url>
   
   <url>
-    <loc>https://epijim.github.io/r-pharma/post/faq/</loc>
-    <lastmod>2021-03-21T21:21:21+01:00</lastmod>
+    <loc>https://epijim.github.io/r-pharma/post/2020-10-01-merch/</loc>
+    <lastmod>2021-03-23T12:47:31+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://epijim.github.io/r-pharma/post/thewhy/</loc>
+    <lastmod>2021-03-23T12:47:31+01:00</lastmod>
   </url>
   
   <url>

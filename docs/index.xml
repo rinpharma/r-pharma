@@ -1,370 +1,1599 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R/Pharma</title>
-    <link>https://rinpharma.com/</link>
-    <description>Recent content on R/Pharma</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 15 Jan 2021 10:51:25 +0000</lastBuildDate><atom:link href="https://rinpharma.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>rstudio::global</title>
-      <link>https://rinpharma.com/blog/post.8/</link>
-      <pubDate>Fri, 15 Jan 2021 10:51:25 +0000</pubDate>
-      
-      <guid>https://rinpharma.com/blog/post.8/</guid>
-      <description>R/Pharma is hosting a session at rstudio::global next week on Tuesday, Jan 19, 2021 at 12:00 PM to 3:00 PM EST.</description>
-    </item>
+    <link>https://epijim.github.io/rinpharma/</link>
+      <atom:link href="https://epijim.github.io/rinpharma/index.xml" rel="self" type="application/rss+xml" />
+    <description>R/Pharma</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2021</copyright><lastBuildDate>Thu, 15 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://epijim.github.io/rinpharma/images/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>R/Pharma</title>
+      <link>https://epijim.github.io/rinpharma/</link>
+    </image>
     
     <item>
-      <title>Get your R/Pharma Merch</title>
-      <link>https://rinpharma.com/blog/post.7/</link>
-      <pubDate>Fri, 02 Oct 2020 20:57:25 +0000</pubDate>
-      
-      <guid>https://rinpharma.com/blog/post.7/</guid>
-      <description>R/Pharma 2021 hopes to continue our tradition of diversity scholarships.</description>
-    </item>
-    
-    <item>
-      <title>Meet The R/Pharma Conference Platform</title>
-      <link>https://rinpharma.com/blog/post.6/</link>
-      <pubDate>Fri, 02 Oct 2020 20:57:25 +0000</pubDate>
-      
-      <guid>https://rinpharma.com/blog/post.6/</guid>
-      <description>We have chosen to use hopin.toto host R/Pharma this year.</description>
-    </item>
-    
-    <item>
-      <title>The R/Pharma Expo</title>
-      <link>https://rinpharma.com/blog/post.5/</link>
-      <pubDate>Fri, 02 Oct 2020 20:57:25 +0000</pubDate>
-      
-      <guid>https://rinpharma.com/blog/post.5/</guid>
-      <description>Come Show off your packages and shiny apps! Do you have an R package or shiny app that you want to showcase at R/Pharma?</description>
-    </item>
-    
-    <item>
-      <title>Register for R/Pharma</title>
-      <link>https://rinpharma.com/blog/post.4/</link>
-      <pubDate>Tue, 08 Sep 2020 20:57:25 +0000</pubDate>
-      
-      <guid>https://rinpharma.com/blog/post.4/</guid>
-      <description>We are excited to announce that registration is now open for R/Pharma 2020.</description>
-    </item>
-    
-    <item>
-      <title>Introducing Our 2020 Keynote Speakers</title>
-      <link>https://rinpharma.com/blog/post.3/</link>
-      <pubDate>Mon, 31 Aug 2020 20:57:25 +0000</pubDate>
-      
-      <guid>https://rinpharma.com/blog/post.3/</guid>
-      <description>The annual R/Pharma gathering attracts professionals from industry, academia and regulatory alike to come together to share and discuss the use of R in pharma, including progress, findings and achievements across various areas of interest such as machine learning, reproducible research, regulatory compliance and validation, safety monitoring, clinical trials, drug discovery, research &amp;amp; development, PK/PD/pharmacometrics, genomics, diagnostics, immunogenicity and more.</description>
-    </item>
-    
-    <item>
-      <title>Call For Talks</title>
-      <link>https://rinpharma.com/blog/post.2/</link>
-      <pubDate>Fri, 14 Aug 2020 20:57:25 +0000</pubDate>
-      
-      <guid>https://rinpharma.com/blog/post.2/</guid>
-      <description>Call for talks has now closed. Registration details will be available shortly.</description>
-    </item>
-    
-    <item>
-      <title>The what and the why for R/Pharma</title>
-      <link>https://rinpharma.com/blog/post.1/</link>
-      <pubDate>Wed, 03 Jun 2020 20:57:25 +0000</pubDate>
-      
-      <guid>https://rinpharma.com/blog/post.1/</guid>
-      <description>By design, R / Pharma is deliberately a smaller conference in terms of attendance in order to encourage maximum opportunities for direct interaction with speakers.</description>
-    </item>
-    
-    <item>
-      <title>Douglas Robinson</title>
-      <link>https://rinpharma.com/speaker/douglas-robinson/</link>
-      <pubDate>Tue, 10 Sep 2019 13:51:25 +0600</pubDate>
-      
-      <guid>https://rinpharma.com/speaker/douglas-robinson/</guid>
-      <description>Douglas Robinson has worked for Novartis for over eleven years with his most recent role of leading the Scientific Computing and Consulting (SCC) team, which was founded on January 1, 2019.</description>
-    </item>
-    
-    <item>
-      <title>Julia Silge</title>
-      <link>https://rinpharma.com/speaker/julia-silge/</link>
-      <pubDate>Tue, 10 Sep 2019 13:51:25 +0600</pubDate>
-      
-      <guid>https://rinpharma.com/speaker/julia-silge/</guid>
-      <description>Julia Silge is a data scientist and software engineer at RStudio PBC.</description>
-    </item>
-    
-    <item>
-      <title>Matilde Kam</title>
-      <link>https://rinpharma.com/speaker/matilde-kam/</link>
-      <pubDate>Tue, 10 Sep 2019 13:51:25 +0600</pubDate>
-      
-      <guid>https://rinpharma.com/speaker/matilde-kam/</guid>
-      <description>Matilde Kam, PhD., serves as the Associate Director for Analytics and Informatics for the Office of Biostatistics (OB), OTS/CDER/FDA.</description>
-    </item>
-    
-    <item>
-      <title>Speakers</title>
-      <link>https://rinpharma.com/speaker/speakers-general/</link>
-      <pubDate>Tue, 10 Sep 2019 13:51:25 +0600</pubDate>
-      
-      <guid>https://rinpharma.com/speaker/speakers-general/</guid>
+      <title>Automated Data-Adaptive Analytics to Improve Robustness of Confounding Control when Estimating Treatment Effects in Electronic Healthcare Databases</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_180/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_180/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Alison Hill</title>
-      <link>https://rinpharma.com/workshops/alison-hill/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rinpharma.com/workshops/alison-hill/</guid>
-      <description>Alison Hill is a Data Scientist &amp;amp; Professional Educator at RStudio.</description>
-    </item>
-    
-    <item>
-      <title>Andy Nicholls</title>
-      <link>https://rinpharma.com/workshops/andy-nicholls/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rinpharma.com/workshops/andy-nicholls/</guid>
-      <description>Andy Nicholls is an experienced R Professional, having spent 6 years at Mango Solutions as Head of Data Science Consultancy before re-joining GSK, becoming Head of Statistical Data Sciences in 2019.</description>
-    </item>
-    
-    <item>
-      <title>Christina Fillmore</title>
-      <link>https://rinpharma.com/speaker/christina-fillmore/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rinpharma.com/speaker/christina-fillmore/</guid>
+      <title>Building and Managing Unified R Environments for Data Science and Software Development</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_178/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_178/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Daniel Lee</title>
-      <link>https://rinpharma.com/workshops/daniel-lee/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rinpharma.com/workshops/daniel-lee/</guid>
-      <description>Daniel Lee is a cofounder of Generable; Generable reduces late phase trial failure in oncology by making predictions of drug efficacy from early clinical data.</description>
-    </item>
-    
-    <item>
-      <title>David Granjon</title>
-      <link>https://rinpharma.com/workshops/david-granjon/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rinpharma.com/workshops/david-granjon/</guid>
-      <description>David holds a PhD from Université Pierre et Marie Curie and Université de Lausanne where he harnessed the power of mathematical models to develop insightful visualizations, thereby addressing questions in the physiological area.</description>
-    </item>
-    
-    <item>
-      <title>Devin Pastoor</title>
-      <link>https://rinpharma.com/speaker/devin-pastoor/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rinpharma.com/speaker/devin-pastoor/</guid>
+      <title>Its a trap! A data science case story</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_185/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_185/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Devin Pastoor</title>
-      <link>https://rinpharma.com/workshops/devin-pastoor/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rinpharma.com/workshops/devin-pastoor/</guid>
-      <description>Devin joined MetrumRG in 2018 as the Senior Director of Technology Solutions.</description>
-    </item>
-    
-    <item>
-      <title>Emil Hvitfeldt</title>
-      <link>https://rinpharma.com/workshops/emil-hvitfeldt/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rinpharma.com/workshops/emil-hvitfeldt/</guid>
-      <description>Emil Hvitfeldt is a research programmer at the University of Southern California, a co-organizer of East Los Angeles R Users Group, and the author of Supervised Machine Learning for Text Analysis in R) with his coauthor Julia Silge.</description>
-    </item>
-    
-    <item>
-      <title>Harvey Lieberman</title>
-      <link>https://rinpharma.com/speaker/harvey-lieberman/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rinpharma.com/speaker/harvey-lieberman/</guid>
+      <title>Julia in Pharma</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_174/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_174/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>John Coene</title>
-      <link>https://rinpharma.com/workshops/john-coene/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rinpharma.com/workshops/john-coene/</guid>
-      <description>John is part of the World Economic Forum Strategic Intelligence team and spends most of his free time working on open source R packages, namely {echarts4r} which brings the powerful Echarts.</description>
-    </item>
-    
-    <item>
-      <title>Joseph Rickert</title>
-      <link>https://rinpharma.com/speaker/joseph-rickert/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rinpharma.com/speaker/joseph-rickert/</guid>
+      <title>r2rtf - a Lightweight R Package to Produce Tables and Figures in RTF Format</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_181/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_181/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Kyle Baron</title>
-      <link>https://rinpharma.com/workshops/kyle-baron/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rinpharma.com/workshops/kyle-baron/</guid>
-      <description>Kyle joined MetrumRG in 2010 after receiving his Pharm.D. and Ph.</description>
-    </item>
-    
-    <item>
-      <title>Leon Eyrich Jessen</title>
-      <link>https://rinpharma.com/workshops/leon-jessen/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rinpharma.com/workshops/leon-jessen/</guid>
-      <description>Leon Eyrich Jessen is an Asst. Prof., PhD at Section for Bioinformatics, Department of Health Technology, Technical University of Denmark, where he is heading the newly founded bioML-group.</description>
-    </item>
-    
-    <item>
-      <title>Maria Doyle</title>
-      <link>https://rinpharma.com/workshops/maria-doyle/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rinpharma.com/workshops/maria-doyle/</guid>
-      <description>Maria Doyle is the Application and Training Specialist for Research Computing at the Peter MacCallum Cancer Centre in Melbourne, Australia.</description>
-    </item>
-    
-    <item>
-      <title>Marly Gotti</title>
-      <link>https://rinpharma.com/workshops/marly-gotti/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rinpharma.com/workshops/marly-gotti/</guid>
-      <description>Marly Gotti is a Senior Data Scientist at Biogen and holds a Ph.</description>
-    </item>
-    
-    <item>
-      <title>Max Kuhn</title>
-      <link>https://rinpharma.com/speaker/max-kuhn/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rinpharma.com/speaker/max-kuhn/</guid>
+      <title>Reproducible computation at scale in R with targets</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_177/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_177/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Mike Stackhouse</title>
-      <link>https://rinpharma.com/workshops/mike-stackhouse/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rinpharma.com/workshops/mike-stackhouse/</guid>
-      <description>Mike Stackhouse is the Chief Innovation Officer at Atorus Research. He is a 2020 UC Berkeley School of Information Master of Information and Data Science (MIDS) program graduate, where he worked on projects involving computer vision, natural language processing, cluster computing, and deep learning.</description>
-    </item>
-    
-    <item>
-      <title>Nathan Kosiba</title>
-      <link>https://rinpharma.com/workshops/nathan-kosiba/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rinpharma.com/workshops/nathan-kosiba/</guid>
-      <description>Nathan Kosiba is a data scientist in the pharmaceutical industry with 4 years of clinical trials programming and data science experience.</description>
-    </item>
-    
-    <item>
-      <title>Paul Schuette</title>
-      <link>https://rinpharma.com/speaker/paul-schuette/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rinpharma.com/speaker/paul-schuette/</guid>
+      <title>RStudio Pharma Updates</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_187/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_187/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Raul Torres</title>
-      <link>https://rinpharma.com/speaker/raul-torres/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rinpharma.com/speaker/raul-torres/</guid>
+      <title>Seamless Visualisation of Complex Genomic Variations in GMOs and Edited Cell Lines Using gmoviz</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_175/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_175/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Rich Iannone</title>
-      <link>https://rinpharma.com/workshops/rich-iannone/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rinpharma.com/workshops/rich-iannone/</guid>
-      <description>Rich Iannone is a software engineer at RStudio, PBC. His work there involves creating open-source packages for R that make people more productive.</description>
+      <title>Subgroup Benchmarking Framework</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_182/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_182/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Stefano Mangiola</title>
-      <link>https://rinpharma.com/workshops/stefano-mangiola/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rinpharma.com/workshops/stefano-mangiola/</guid>
-      <description>Stefano Mangiola is currently a Postdoctoral researcher at the WEHI institute.</description>
+      <title>The See Value App: Visual Decision Making for Drug Development</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_183/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_183/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Terms and Conditions</title>
-      <link>https://rinpharma.com/terms/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rinpharma.com/terms/</guid>
-      <description>This is a free event brought to you by passionate volunteers By signing up, you agree that R/Pharma assumes no responsibility, and any costs, annoyances or catastrophic events incurred due to attending this conference are yours and yours alone We’ll take some photos and audio recordings of the talks.</description>
+      <title>Using R Markdown to Generate Clinical Trials Summary Reports</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_176/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_176/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Would John, Paul, George or Ringo have been famous if it were not for The Beatles</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_172/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_172/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>X-Omics Platform</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_186/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_186/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Clinical Reporting Using R at GSK</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_162/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_162/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data visualization for real-world machine learning</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_154/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_154/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leveraging Nested Data Frames for Analytical Studies</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_163/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_163/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>openNCA Pharmacokinetic data repository and Non-compartmental Analysis System</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_166/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_166/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PREP - Packages fRom tEmPlates - An R Package to Streamline Development of Shiny Apps and R Packages</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_164/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_164/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>safetyGraphics v2.0 - Open Source Collaboration in Pharma using R and Shiny</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_159/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_159/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Styling Shiny &amp; R Markdown with bootstraplib &amp; thematic</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_161/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_161/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tidyCDISC an Open Source Platform in R to Analyze Clinical Trial Data</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_167/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_167/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tplyr: An Intuitive Framework for Building Clinical Safety Summaries</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_168/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_168/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using R to Create an End to End Process for Predicting Delays in Recruitment from Covid-19</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_156/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_156/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>visR - a package for effective visualization in Pharma</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_158/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_158/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>With great graphs comes great power</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_157/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_157/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>yspec: an R Package to Create and Deploy Data Set Specification Objects in a Modeling and Simulation Workflow</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_169/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_169/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Becoming Multilingual</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_151/</link>
+      <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_151/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Challenges in an Evolving Regulatory Landscape: How Statisticians Can Contribute</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_138/</link>
+      <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_138/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>geoMapr: A Shiny Application for Enriched Analysis of Drug Utilization Data</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_150/</link>
+      <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_150/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Implementing Mixed Models with Repeated Measures (MMRM) in R and Shiny for Regulatory Purposes</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_143/</link>
+      <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_143/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interactive medical oversight reporting in R</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_142/</link>
+      <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_142/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>metashiny: build Shiny apps with a Shiny app</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_146/</link>
+      <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_146/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Numerical validation as a critical aspect in bringing R to the Clinical Research</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_149/</link>
+      <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_149/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Out of Chaos, Comes Order: Adventures in Standardized and Reproducible Research</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_147/</link>
+      <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_147/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R Package Validation Framework</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_145/</link>
+      <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_145/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>StackEm High! Ensembles Using tidymodels</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_140/</link>
+      <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_140/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The R Validation Hub: Implementing a Risk-Based Approach to R</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_141/</link>
+      <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_141/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A PK &amp; PBPK Modelling Workflow in R: Simulation, Optimization &amp; Visualization</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_135/</link>
+      <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_135/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predictive modeling with text using tidy data principles</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_136/</link>
+      <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_136/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unleash Shiny</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_134/</link>
+      <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_134/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gt</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_133/</link>
+      <pubDate>Thu, 08 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_133/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Targets and Reproducible Pipelines</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_132/</link>
+      <pubDate>Thu, 08 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_132/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RMarkdown</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_130/</link>
+      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_130/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stan</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_131/</link>
+      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_131/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tidy Transcriptomics Workshop</title>
+      <link>https://epijim.github.io/rinpharma/event/tidytranscriptomics2020/</link>
+      <pubDate>Tue, 06 Oct 2020 13:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/event/tidytranscriptomics2020/</guid>
+      <description>&lt;p&gt;The tidy transcriptomics workshop was held on October 6, 2020 and taught by S
+tefano Mangiola (Walter and Eliza Hall of Medical Research) and
+Maria Doyle (Peter MacCallum Cancer Center). 100 people from the
+following academic and industrial affiliations attended the workshop:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;AbbVie&lt;/li&gt;
+&lt;li&gt;Bayer&lt;/li&gt;
+&lt;li&gt;Bioinformatics center&lt;/li&gt;
+&lt;li&gt;BioMarin&lt;/li&gt;
+&lt;li&gt;Bionivid technology private limited&lt;/li&gt;
+&lt;li&gt;BMS&lt;/li&gt;
+&lt;li&gt;Children’s Hospital of Philadelphia&lt;/li&gt;
+&lt;li&gt;Covance&lt;/li&gt;
+&lt;li&gt;Flagship&lt;/li&gt;
+&lt;li&gt;Fred Hutchinson CRC&lt;/li&gt;
+&lt;li&gt;Free University of Bolzano&lt;/li&gt;
+&lt;li&gt;Genesis Research&lt;/li&gt;
+&lt;li&gt;Genmab&lt;/li&gt;
+&lt;li&gt;German Cancer Research Center&lt;/li&gt;
+&lt;li&gt;Gilead&lt;/li&gt;
+&lt;li&gt;Helmholtz Centre for Infection Research&lt;/li&gt;
+&lt;li&gt;HTG Molecular Diagnostics&lt;/li&gt;
+&lt;li&gt;Independent Consultant&lt;/li&gt;
+&lt;li&gt;J&amp;amp;J&lt;/li&gt;
+&lt;li&gt;Janssen&lt;/li&gt;
+&lt;li&gt;Kmd&lt;/li&gt;
+&lt;li&gt;KMUTT&lt;/li&gt;
+&lt;li&gt;Knight Cancer Institute, Oregon Health &amp;amp; Sciences University&lt;/li&gt;
+&lt;li&gt;McMaster University&lt;/li&gt;
+&lt;li&gt;Medidata Solutions&lt;/li&gt;
+&lt;li&gt;Merck&lt;/li&gt;
+&lt;li&gt;Metrum Research Group&lt;/li&gt;
+&lt;li&gt;Novartis&lt;/li&gt;
+&lt;li&gt;Novo Nordisk&lt;/li&gt;
+&lt;li&gt;Nuventra Pharma Sciences&lt;/li&gt;
+&lt;li&gt;Obsidian Therapeutics&lt;/li&gt;
+&lt;li&gt;OHSU&lt;/li&gt;
+&lt;li&gt;OpenAnalytics&lt;/li&gt;
+&lt;li&gt;Ous&lt;/li&gt;
+&lt;li&gt;PennState&lt;/li&gt;
+&lt;li&gt;Pfizer&lt;/li&gt;
+&lt;li&gt;PSI CRO&lt;/li&gt;
+&lt;li&gt;Ranchos&lt;/li&gt;
+&lt;li&gt;Roche&lt;/li&gt;
+&lt;li&gt;Rush University Medical Center&lt;/li&gt;
+&lt;li&gt;Sanofi&lt;/li&gt;
+&lt;li&gt;Takeda Pharmaceuticals&lt;/li&gt;
+&lt;li&gt;Temple university&lt;/li&gt;
+&lt;li&gt;The BioTeam&lt;/li&gt;
+&lt;li&gt;The Ohio State University&lt;/li&gt;
+&lt;li&gt;Tufts University&lt;/li&gt;
+&lt;li&gt;University of Lagos&lt;/li&gt;
+&lt;li&gt;University of Michigan&lt;/li&gt;
+&lt;li&gt;University of Minnesota&lt;/li&gt;
+&lt;li&gt;University of Toronto&lt;/li&gt;
+&lt;li&gt;University of Wisconsin-Madison&lt;/li&gt;
+&lt;li&gt;Upland Software&lt;/li&gt;
+&lt;li&gt;Vertex&lt;/li&gt;
+&lt;li&gt;West Virginia University&lt;/li&gt;
+&lt;li&gt;Xencor&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Implementing a Risk-based Approach to R Validation</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_129/</link>
+      <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_129/</guid>
+      <description></description>
     </item>
     
     <item>
       <title>Tidy Transcriptomics</title>
-      <link>https://rinpharma.com/tidytranscriptomics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rinpharma.com/tidytranscriptomics/</guid>
-      <description>The tidy transcriptomics workshop was held on October 6, 2020 and taught by Stefano Mangiola (Walter and Eliza Hall of Medical Research) and Maria Doyle (Peter MacCallum Cancer Center).</description>
-    </item>
-    
-    <item>
-      <title>Tim Tsai</title>
-      <link>https://rinpharma.com/speaker/tim-tsai/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rinpharma.com/speaker/tim-tsai/</guid>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_128/</link>
+      <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_128/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Tom Mock</title>
-      <link>https://rinpharma.com/workshops/tom-mock/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rinpharma.com/workshops/tom-mock/</guid>
-      <description>Tom Mock is a Customer Success Representative at RStudio. He fell in love with R and data science through his PhD research, which he did in Neurobiology at the University of North Texas Health Science Center.</description>
+      <title>2020 Conference</title>
+      <link>https://epijim.github.io/rinpharma/event/rinpharma2020/</link>
+      <pubDate>Mon, 05 Oct 2020 13:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/event/rinpharma2020/</guid>
+      <description>&lt;p&gt;James will add an html schedule here.&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>Viral Shah</title>
-      <link>https://rinpharma.com/speaker/viral-shah/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rinpharma.com/speaker/viral-shah/</guid>
+      <title>Artificial Neural Networks in R with Keras and TensorFlow</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_126/</link>
+      <pubDate>Mon, 05 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_126/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Will Landau</title>
-      <link>https://rinpharma.com/workshops/will-landau/</link>
+      <title>Multilingual Markdown with R and Python Using Reticulate</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_127/</link>
+      <pubDate>Mon, 05 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_127/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The what and the why for R/Pharma</title>
+      <link>https://epijim.github.io/rinpharma/post/faq/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/post/faq/</guid>
+      <description>&lt;details class=&#34;toc-inpage d-print-none  &#34; open&gt;
+  &lt;summary class=&#34;font-weight-bold&#34;&gt;Table of Contents&lt;/summary&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#background&#34;&gt;Background&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#faq&#34;&gt;FAQ&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
+&lt;p&gt;By design, R / Pharma is deliberately a smaller conference in terms of attendance
+in order to encourage maximum opportunities for direct interaction with speakers.
+In 2018 and 2019 the conference was held in the Tsai Auditorium at the
+Center for Government and International Studies, Harvard University and capped at
+150 attendees. The conference was run as a free event. Invitations were based on
+committee membership and advisory support, speaker acceptance, academic/student and diversity.&lt;/p&gt;
+&lt;p&gt;The conference has been run with single track consisting of keynotes from renowned
+industry practitioners to key R developers to leading academics. In addition
+there were a number of pre-conference workshops and full-length presentations as
+well as a number of shorter, highly-energetic lightning talks.&lt;/p&gt;
+&lt;p&gt;For 2020 we are taking a hiatus from holding the meeting at Harvard and
+will be running a virtual conference. More details will follow.&lt;/p&gt;
+&lt;p&gt;Our entire event is a community-lead effort and 100% volunteer run. The
+event is vendor neutral and very much an academic conference. Harvard has been very helpful in hosting the event.&lt;/p&gt;
+&lt;p&gt;R/Pharma is an (ISC working group)[https://www.r-consortium.org/projects/isc-working-groups]
+under the R Consortium. The conference is a relatively small, scientifically &amp;amp;
+industry oriented, collegial event focused on the use of R in the development of
+pharmaceuticals. The conference covers topics including reproducible research,
+regulatory compliance and validation, safety monitoring, clinical trials, drug
+discovery, research &amp;amp; development, PK/PD/pharmacometrics, genomics, diagnostics,
+immunogenicity and more. All are discussed within the context of using R as a
+primary tool within the drug development process. The conference showcases
+the current use of R that is helping to drive biomedical research, drug discovery
+&amp;amp; development, and clinical initiatives. (Note that topics related to the use of
+R in hospitals/clinics for patient care by clinicians, doctors, and
+researchers is the focus of
+(R/Medicine)[https://events.linuxfoundation.org/r-medicine/].&lt;/p&gt;
+&lt;p&gt;R/Pharma is dedicated to providing a harassment-free conference experience for
+everyone regardless of gender, sexual orientation, disability or any feature that
+distinguishes human beings. For more information, please see the R Consortium
+code of conduct.&lt;/p&gt;
+&lt;h2 id=&#34;faq&#34;&gt;FAQ&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Accelerating Chemistry Research through the Integration of Data Science with High-Throughput Experimentation</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_112/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_112/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building Open Source Tools for Safety Monitoring: Advancing Research Through Community Collaboration</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_105/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_105/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Democratizing Natural Language Processing with I2E and R Shiny</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_125/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_125/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evaluating the performance of advanced causal inference methods applied to healthcare claims data</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_108/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_108/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>From CDISC to TLFs, using R to support Pharmacokinetic Analyses</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_119/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_119/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>From playing in the backyard to designing one: Shiny transforms study designs, data analyses and statistical thinking of oncology in vivo group at Janssen</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_102/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_102/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Identifying progression-free survival in Veterans with Diffuse Large B-Cell Lymphoma using electronic healthcare records</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_124/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_124/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Improve installation sequences for R package cohorts</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_107/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_107/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Its Not Whats on the Outside, but Its Whats on the Back-end That Matters: The World Beyond CSV Files</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_106/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_106/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Making Better Decisions</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_118/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_118/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ModViz POP: R-Shiny Based PK/PD Interface for Empowering Teams to Perform Real-Time Simulations</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_103/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_103/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-modal data integration</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_100/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_100/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prediction of maternal-fetal exposures of CYP450-metabolized drugs using physiologic pharmacokinetic modeling implemented in R and mrgsolve</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_117/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_117/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reproducible shiny apps with shinymeta</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_113/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_113/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shiny apps for accelerating early drug discovery research</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_114/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_114/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shiny in Production: Building bridges from data science to IT</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_123/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_123/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simulations, and Complex Innovative Trial Designs</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_121/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_121/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>This one is not like the others: Applicability Domain methods in R</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_111/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_111/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tidysq for Working with Biological Sequence Data in ML Driven Epitope Prediction in Cancer Immunotherapy</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_109/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_109/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using R to foster the communication with non-statisticians on Bayesian dose escalation models</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_116/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_116/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Validation Framework for Assay Processing Pipelines</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_122/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_122/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Your Missing Step in Reproducible R Programming: Continuous Deployment</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_101/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_101/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An R package for Data Science and Deep Visualization of a complex clinical database</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_94/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_94/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Breaking the Speed Limit: How R Gets Faster</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_90/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_90/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Collaborating at scale: managing an enterprise analytical computing ecosystem</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_85/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_85/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Creating and reviving Shiny apps with golem</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_76/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_76/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Embrace R in Pharma - building internal R community and establishing fit-for-purpose R pilots</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_86/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_86/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploratory Graphics (xGx): Promoting the purposeful exploration of PKPD data</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_77/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_77/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How to win friends and influence people: Efficiency, Reproducibility, and Scalability with R Project templates and parameterized R Markdown</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_72/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_72/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interactive Visualization of Standardized CDISC-SEND-Formatted Toxicology Study Data Using R Shiny</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_78/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_78/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leveraging multiple R tools to make effective pediatric dosing decisions</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_91/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_91/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine learning workflow management with drake</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_93/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_93/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nlmixr: an R package for population PKPD modeling</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_75/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_75/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Package management</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_83/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_83/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R Packages for Analyzing Clinical Trials Data with R Focusing on Safety And Early Efficacy</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_82/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_82/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Re-envisioning Clinical Content Delivery in the Open Source World</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_87/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_87/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reproducibility and the role of code in reproducible data science</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_70/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_70/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shinytized R Markdown: A Potent OTC Alternative to 1,3,7-Trimethylxanthine &amp; Currently Indicated for NDA Document Generation, Among Others</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_84/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_84/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching an old dog new tricks: modernizing gsDesign</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_73/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_73/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The use of R for improved reproducibility of biomarker detection in liquid biopsies</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_88/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_88/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Updates on Analyzing Clinical Trials Data with R</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_81/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_81/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using Machine Learning and Interactive Graphics to Find New Cancer Targets</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_92/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_92/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using R for Generic Drug Evaluation and SABE R-package for Assessing Bioequivalence of Topical Dermatological Products</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_71/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_71/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using RStudio.Cloud to advance R proficiency: a crowdsourcing training experience</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_79/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_79/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Artificial neural networks in R with Keras and TensorFlow</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_61/</link>
+      <pubDate>Tue, 20 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_61/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine learning</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_62/</link>
+      <pubDate>Tue, 20 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_62/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine learning workflow management with drake</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_64/</link>
+      <pubDate>Tue, 20 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_64/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>plotly</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_63/</link>
+      <pubDate>Tue, 20 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_63/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R Validation Hub (past, current and future state)</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_60/</link>
+      <pubDate>Tue, 20 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_60/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shiny Reproducibility</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_59/</link>
+      <pubDate>Tue, 20 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_59/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Accelerate Personalized Health Care by Empowering Biomarker Data</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_49/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_49/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analyzing Clinical Trials Data with R</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_38/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_38/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Assisting pharmacometric simulation with the use of Shiny</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_43/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_43/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bayesian Models for Smaller Trial Sizes</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_54/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_54/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building a community of competent developers and users of R-based tools in mass spectrometry-based research</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_53/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_53/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Developing powerful Shiny applications in an enterprise environment: Best practices and lessons learned</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_35/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_35/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enabling open-source analytics in the enterprise</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_47/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_47/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enhance R Overview</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_55/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_55/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interactive data visualization with R, plotly, and dashR</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_29/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_29/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interactive data visualization with R, plotly, and dashR</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_34/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_34/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Keeping things Peachy when Shiny gets Hairy</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_50/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_50/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Moving Fast Without Breaking Things: Navigating the R Ecosystem in an Enterprise Environment</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_39/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_39/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NetTCR: Towards Accurate Prediction of T-cell Targets using Deep Learning</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_37/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_37/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R as the Core Technology to Support Modeling and Simulation in Pharma Research, Development, and Post Approval Activities</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_52/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_52/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R/Shiny Clinical Dashboards For Fun* and Profit *Note: Fun is Relative</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_44/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_44/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R4SPA: R Packages and Training to enable Statistical Programming in R</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_42/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_42/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reproducible computational research at Eisai: leadership, technology, and culture</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_57/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_57/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shiny Apps in Genomics and Clinical Trials</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_51/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_51/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Challenges of Validating R</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_30/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_30/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Challenges of Validating R</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_58/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_58/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The drake R package: reproducible data analysis at scale</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_45/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_45/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The largest Shiny application in the world. Roche.Diagnostics.bioWARP</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_31/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_31/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Magic R-Shiny App that can Boost your SDTM Usability and Viability while Saving Time</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_56/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_56/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The role of R in converting clinical trial programmers to data scientists</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_48/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_48/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unification in a Compartmentalized Culture</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_41/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_41/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using interactivity responsibly in pharma</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_33/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_33/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analyzing Clinical Trials Data with R</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_2/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Antibody Characterization Using Next Generation Sequencing made easier with Group My Abs shiny app</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_18/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Becoming bilingual in SAS and R</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_15/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_15/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beyond Simple Reproducibility - Discoverability, Provenance, and Improving the Impact of Results</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_28/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_28/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data-Driven Strategies for Synthetic Route Design and Operational Modeling within Pharmaceutical Development</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_23/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_23/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evaluating the performance of advanced causal inference methods applied to healthcare claims data</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_24/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_24/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IDBac: A New Paradigm in Developing Microbial Libraries for Drug Discovery</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_9/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_9/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Keeping things Peachy when Shiny gets Hairy</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_1/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Managing R and Associated Tools in Large Environments - an R-Admin’s Perspective</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_19/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modeling in the tidyverse</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_21/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_21/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modernizing the new drug regulatory program in FDA/CDER: Can Collaborations and Sharing Help?</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_6/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Moving Fast Without Breaking Things: Navigating the R Ecosystem in an Enterprise Environment</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_4/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-state Model for the Analysis of an Association between Safety and Efficacy Events</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_13/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_13/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimization of raw materials genealogy in drug manufacturing with R, Shiny and d3</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_25/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_25/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R reproducibility by containers and cloud</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_12/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_12/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>REAP - R-Shiny Exploratory Analysis Platform in Clinical Pharmacology</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_26/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_26/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rOpenSci - enabling open and reproducible research</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_27/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_27/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ShinyRAP - a framework for analysis and building interactive/dynamic reports using Shiny/Markdown</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_22/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_22/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stan for Pharma</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_3/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The largest Shiny application in the world. Roche.Diagnostics.bioWARP</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_11/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_11/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Use of R in the Development of Physiological Model for Healthy Growth</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_17/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using R in a GxP Environment</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_8/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using R in a regulatory environment: some FDA perspectives</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_7/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_7/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visualization methods for RNA-sequencing data analysis</title>
+      <link>https://epijim.github.io/rinpharma/publication/rinpharma_16/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/publication/rinpharma_16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://epijim.github.io/rinpharma/admin/config.yml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rinpharma.com/workshops/will-landau/</guid>
-      <description>Will Landau is a Research Scientist at Eli Lilly and Company, where he develops capabilities for clinical statisticians, and he is the creator and maintainer of the targets and drake R packages.</description>
+      <guid>https://epijim.github.io/rinpharma/admin/config.yml</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://epijim.github.io/rinpharma/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://epijim.github.io/rinpharma/people/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/people/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bella Feng</title>
+      <link>https://epijim.github.io/rinpharma/author/bella-feng/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/author/bella-feng/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Devin Incerti</title>
+      <link>https://epijim.github.io/rinpharma/author/devin-incerti/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/author/devin-incerti/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Edward Lauzier</title>
+      <link>https://epijim.github.io/rinpharma/author/edward-lauzier/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/author/edward-lauzier/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Elena Rantou</title>
+      <link>https://epijim.github.io/rinpharma/author/elena-rantou/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/author/elena-rantou/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Elizabeth Hess</title>
+      <link>https://epijim.github.io/rinpharma/author/elizabeth-hess/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/author/elizabeth-hess/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ellis Hughes</title>
+      <link>https://epijim.github.io/rinpharma/author/ellis-hughes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/author/ellis-hughes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eric Nantz</title>
+      <link>https://epijim.github.io/rinpharma/author/eric-nantz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/author/eric-nantz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Harvey Lieberman</title>
+      <link>https://epijim.github.io/rinpharma/author/harvey-lieberman/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/author/harvey-lieberman/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>James Black</title>
+      <link>https://epijim.github.io/rinpharma/author/james-black/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/author/james-black/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>John Sims</title>
+      <link>https://epijim.github.io/rinpharma/author/john-sims/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/author/john-sims/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Melvin Munsaka</title>
+      <link>https://epijim.github.io/rinpharma/author/melvin-munsaka/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/author/melvin-munsaka/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Michael Blanks</title>
+      <link>https://epijim.github.io/rinpharma/author/michael-blanks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/author/michael-blanks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Michael Lawrence</title>
+      <link>https://epijim.github.io/rinpharma/author/michael-lawrence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/author/michael-lawrence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Min Lee</title>
+      <link>https://epijim.github.io/rinpharma/author/min-lee/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/author/min-lee/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Paul Schuette</title>
+      <link>https://epijim.github.io/rinpharma/author/paul-schuette/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/author/paul-schuette/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Paulo Bargo</title>
+      <link>https://epijim.github.io/rinpharma/author/paulo-bargo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/author/paulo-bargo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Phil Bowsher</title>
+      <link>https://epijim.github.io/rinpharma/author/phil-bowsher/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/author/phil-bowsher/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reinhold Koch</title>
+      <link>https://epijim.github.io/rinpharma/author/reinhold-koch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/author/reinhold-koch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Terms and Conditions</title>
+      <link>https://epijim.github.io/rinpharma/terms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/terms/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;This is a free event brought to you by passionate volunteers&lt;/li&gt;
+&lt;li&gt;By signing up, you agree that R/Pharma assumes no responsibility, and any costs, annoyances or catastrophic events incurred due to attending this conference are yours and yours alone&lt;/li&gt;
+&lt;li&gt;We’ll take some photos and audio recordings of the talks. Please don’t take recordings of other participants without their permission. * Please let us know if you prefer not to have your talk recorded. While participating in the group activities, your photo may be taken and be posted on the group website. It is your responsibility to inform others if you do not wish to be photographed and inform us if any of your photos to be removed.&lt;/li&gt;
+&lt;li&gt;Please don’t share content at R/Pharma unless you have permission to do so.&lt;/li&gt;
+&lt;li&gt;This is a free event and invites/tickets cannot be transferred or exchanged without permission of the Organizing Committee. In the unlikely occurrence that R in Pharma to be cancelled or postponed due to circumstances beyond the control, we cannot be held responsible for any costs incurred by the event attendee.&lt;/li&gt;
+&lt;li&gt;Speakers are subject to change and we do not guarantee that any specific speakers or participants will appear at the event. However, we will always try to find a suitable replacement if one of our key speakers or participants is unable to attend. Views expressed by speakers at the event may not be the views of R in Pharma.&lt;/li&gt;
+&lt;li&gt;Event materials are provided on an “as is” basis and R in Pharma makes no warranty regarding the accuracy or completeness of those materials.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;diversity&#34;&gt;Diversity:&lt;/h1&gt;
+&lt;p&gt;R/Pharma is dedicated to providing a harassment-free conference experience for everyone regardless of gender, sexual orientation, disability or any feature that distinguishes human beings. For more information, please see the R Consortium code of conduct. &lt;a href=&#34;https://wiki.r-consortium.org/view/R_Consortium_and_the_R_Community_Code_of_Conduct&#34;&gt;https://wiki.r-consortium.org/view/R_Consortium_and_the_R_Community_Code_of_Conduct&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;policy-statement-of-the-r-in-pharma-conference&#34;&gt;Policy Statement of the R in Pharma Conference:&lt;/h1&gt;
+&lt;p&gt;The purpose of the R in Pharma conference is to foster discussion on the use of R in the pharmaceutical industry. R in Pharma is not, and hopefully never will be a commercially oriented meeting. As such, we do not accept administrative responsibility for distributing commercial materials, nor do we allow vendors to participate in the meeting in any role other than as scientists/practitioners interested in learning or discussing the application of R in Pharma. All attendees are requested to adhere to the spirit of this policy. Please don’t spam attendees.&lt;/p&gt;
+&lt;h1 id=&#34;terms&#34;&gt;Terms&lt;/h1&gt;
+&lt;p&gt;R/Pharma is free event and comes with ABSOLUTELY NO WARRANTY. YOUR PARTICIPATION IS AT YOUR SOLE AND EXCLUSIVE RISK. By accepting the invitation to attend and registering a ticket, you freely and voluntarily assume all risks. You also agree not to hold organizers responsible for their negligence in connection with the conference or Content or events.&lt;/p&gt;
+&lt;p&gt;R/Pharma assumes no responsibility for any costs (e.g. travel) in any circumstance, examples including if the conference is cancelled, or named speakers are unable to attend.&lt;/p&gt;
+&lt;p&gt;You agree to indemnify, defend, and hold R/Pharma and all parites and its subsidiaries, affiliates, officers, directors, agents, co-branders or other partners, employees, and representatives harmless from and against any and all claims, damages, losses, costs or expenses (including reasonable attorneys’ fees and disbursements) which arise directly or indirectly out of or from (i) your breach of this Agreement, (ii) any allegation that any materials that you submit to R/Pharma or present (e.g., conference, github, website) infringe or otherwise violate the copyright, trade secret, trademark or other intellectual property rights of a third party, and (iii) your access or use of the Sites and/or the Services.&lt;/p&gt;
+&lt;p&gt;NOTWITHSTANDING ANYTHING TO THE CONTRARY HEREIN, TO THE FULLEST EXTENT ALLOWED BY LAW, YOU AGREE TO WAIVE, DISCHARGE CLAIMS, RELEASE All Parties FROM ALL LIABILITY AND INDEMNIFY AND HOLD HARMLESS ORGANIZERS, HOSTS, SUBSIDIARIES, AFFILIATES, OFFICERS, AGENTS, VOLUNTEERS AND OTHER PARTNERS AND EMPLOYEES, FROM ANY AND ALL LIABILITY ON ACCOUNT OF, OR IN ANY WAY RESULTING FROM INJURIES AND DAMAGES IN ANY WAY CONNECTED WITH ANY EVENTS OR ACTIVITIES.&lt;/p&gt;
+&lt;h1 id=&#34;notes&#34;&gt;Notes&lt;/h1&gt;
+&lt;p&gt;No confidential information should be disclosed at meetings and no warranty of confidentiality is made by the event organizers. Audio Recordings of events may be taken by event organizers and general content may be used in discussion postings or meeting highlights on our website, github or used elsewhere. Attendees of events acknowledge this content may be shared and release the event organizers to use this content freely. Audio or video recordings of events by attendees are prohibited. We will not share information if you request we do not do so.&lt;/p&gt;
+&lt;p&gt;Visit &lt;a href=&#34;https://www.r-consortium.org/about/governance&#34;&gt;https://www.r-consortium.org/about/governance&lt;/a&gt; for more info.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tidy Transcriptomics</title>
+      <link>https://epijim.github.io/rinpharma/tidytranscriptomics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/tidytranscriptomics/</guid>
+      <description>&lt;p&gt;The tidy transcriptomics workshop was held on October 6, 2020 and  taught by Stefano Mangiola (Walter and Eliza Hall of Medical Research) and Maria Doyle (Peter MacCallum Cancer Center).  100 people from the following academic and industrial affiliations attended the workshop:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;AbbVie&lt;/li&gt;
+&lt;li&gt;Bayer&lt;/li&gt;
+&lt;li&gt;Bioinformatics center&lt;/li&gt;
+&lt;li&gt;BioMarin&lt;/li&gt;
+&lt;li&gt;Bionivid technology private limited&lt;/li&gt;
+&lt;li&gt;BMS&lt;/li&gt;
+&lt;li&gt;Children’s Hospital of Philadelphia&lt;/li&gt;
+&lt;li&gt;Covance&lt;/li&gt;
+&lt;li&gt;Flagship&lt;/li&gt;
+&lt;li&gt;Fred Hutchinson CRC&lt;/li&gt;
+&lt;li&gt;Free University of Bolzano&lt;/li&gt;
+&lt;li&gt;Genesis Research&lt;/li&gt;
+&lt;li&gt;Genmab&lt;/li&gt;
+&lt;li&gt;German Cancer Research Center&lt;/li&gt;
+&lt;li&gt;Gilead&lt;/li&gt;
+&lt;li&gt;Helmholtz Centre for Infection Research&lt;/li&gt;
+&lt;li&gt;HTG Molecular Diagnostics&lt;/li&gt;
+&lt;li&gt;Independent Consultant&lt;/li&gt;
+&lt;li&gt;J&amp;amp;J&lt;/li&gt;
+&lt;li&gt;Janssen&lt;/li&gt;
+&lt;li&gt;Kmd&lt;/li&gt;
+&lt;li&gt;KMUTT&lt;/li&gt;
+&lt;li&gt;Knight Cancer Institute, Oregon Health &amp;amp; Sciences University&lt;/li&gt;
+&lt;li&gt;McMaster University&lt;/li&gt;
+&lt;li&gt;Medidata Solutions&lt;/li&gt;
+&lt;li&gt;Merck&lt;/li&gt;
+&lt;li&gt;Metrum Research Group&lt;/li&gt;
+&lt;li&gt;Novartis&lt;/li&gt;
+&lt;li&gt;Novo Nordisk&lt;/li&gt;
+&lt;li&gt;Nuventra Pharma Sciences&lt;/li&gt;
+&lt;li&gt;Obsidian Therapeutics&lt;/li&gt;
+&lt;li&gt;OHSU&lt;/li&gt;
+&lt;li&gt;OpenAnalytics&lt;/li&gt;
+&lt;li&gt;Ous&lt;/li&gt;
+&lt;li&gt;PennState&lt;/li&gt;
+&lt;li&gt;Pfizer&lt;/li&gt;
+&lt;li&gt;PSI CRO&lt;/li&gt;
+&lt;li&gt;Ranchos&lt;/li&gt;
+&lt;li&gt;Roche&lt;/li&gt;
+&lt;li&gt;Rush University Medical Center&lt;/li&gt;
+&lt;li&gt;Sanofi&lt;/li&gt;
+&lt;li&gt;Takeda Pharmaceuticals&lt;/li&gt;
+&lt;li&gt;Temple university&lt;/li&gt;
+&lt;li&gt;The BioTeam&lt;/li&gt;
+&lt;li&gt;The Ohio State University&lt;/li&gt;
+&lt;li&gt;Tufts University&lt;/li&gt;
+&lt;li&gt;University of Lagos&lt;/li&gt;
+&lt;li&gt;University of Michigan&lt;/li&gt;
+&lt;li&gt;University of Minnesota&lt;/li&gt;
+&lt;li&gt;University of Toronto&lt;/li&gt;
+&lt;li&gt;University of Wisconsin-Madison&lt;/li&gt;
+&lt;li&gt;Upland Software&lt;/li&gt;
+&lt;li&gt;Vertex&lt;/li&gt;
+&lt;li&gt;West Virginia University&lt;/li&gt;
+&lt;li&gt;Xencor&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Volha Tryputsen</title>
+      <link>https://epijim.github.io/rinpharma/author/volha-tryputsen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/author/volha-tryputsen/</guid>
+      <description></description>
     </item>
     
   </channel>

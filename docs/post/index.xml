@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Latest News | R/Pharma</title>
+    <link>https://epijim.github.io/rinpharma/post/</link>
+      <atom:link href="https://epijim.github.io/rinpharma/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Latest News</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2021</copyright>
+    <image>
+      <url>https://epijim.github.io/rinpharma/images/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>Latest News</title>
+      <link>https://epijim.github.io/rinpharma/post/</link>
+    </image>
+    
+    <item>
+      <title>The what and the why for R/Pharma</title>
+      <link>https://epijim.github.io/rinpharma/post/faq/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://epijim.github.io/rinpharma/post/faq/</guid>
+      <description>&lt;details class=&#34;toc-inpage d-print-none  &#34; open&gt;
+  &lt;summary class=&#34;font-weight-bold&#34;&gt;Table of Contents&lt;/summary&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#background&#34;&gt;Background&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#faq&#34;&gt;FAQ&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
+&lt;p&gt;By design, R / Pharma is deliberately a smaller conference in terms of attendance
+in order to encourage maximum opportunities for direct interaction with speakers.
+In 2018 and 2019 the conference was held in the Tsai Auditorium at the
+Center for Government and International Studies, Harvard University and capped at
+150 attendees. The conference was run as a free event. Invitations were based on
+committee membership and advisory support, speaker acceptance, academic/student and diversity.&lt;/p&gt;
+&lt;p&gt;The conference has been run with single track consisting of keynotes from renowned
+industry practitioners to key R developers to leading academics. In addition
+there were a number of pre-conference workshops and full-length presentations as
+well as a number of shorter, highly-energetic lightning talks.&lt;/p&gt;
+&lt;p&gt;For 2020 we are taking a hiatus from holding the meeting at Harvard and
+will be running a virtual conference. More details will follow.&lt;/p&gt;
+&lt;p&gt;Our entire event is a community-lead effort and 100% volunteer run. The
+event is vendor neutral and very much an academic conference. Harvard has been very helpful in hosting the event.&lt;/p&gt;
+&lt;p&gt;R/Pharma is an (ISC working group)[https://www.r-consortium.org/projects/isc-working-groups]
+under the R Consortium. The conference is a relatively small, scientifically &amp;amp;
+industry oriented, collegial event focused on the use of R in the development of
+pharmaceuticals. The conference covers topics including reproducible research,
+regulatory compliance and validation, safety monitoring, clinical trials, drug
+discovery, research &amp;amp; development, PK/PD/pharmacometrics, genomics, diagnostics,
+immunogenicity and more. All are discussed within the context of using R as a
+primary tool within the drug development process. The conference showcases
+the current use of R that is helping to drive biomedical research, drug discovery
+&amp;amp; development, and clinical initiatives. (Note that topics related to the use of
+R in hospitals/clinics for patient care by clinicians, doctors, and
+researchers is the focus of
+(R/Medicine)[https://events.linuxfoundation.org/r-medicine/].&lt;/p&gt;
+&lt;p&gt;R/Pharma is dedicated to providing a harassment-free conference experience for
+everyone regardless of gender, sexual orientation, disability or any feature that
+distinguishes human beings. For more information, please see the R Consortium
+code of conduct.&lt;/p&gt;
+&lt;h2 id=&#34;faq&#34;&gt;FAQ&lt;/h2&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

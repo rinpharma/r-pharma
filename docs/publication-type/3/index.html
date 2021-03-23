@@ -1,0 +1,953 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.0.0-beta.2 for Hugo" />
+  
+
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Harvey Lieberman" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="R/Pharma is an ISC working group under the R Consortium. The conference is a relatively small, scientifically &amp; industry oriented, collegial event focused on the use of R in the development of pharmaceuticals. The conference covers topics including reproducible research, regulatory compliance and validation, safety monitoring, clinical trials, drug discovery, research &amp; development, PK/PD/pharmacometrics, genomics, diagnostics, immunogenicity and more. All are discussed within the context of using R as a primary tool within the drug development process. The conference showcases the current use of R that is helping to drive biomedical research, drug discovery &amp; development, and clinical initiatives." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://epijim.github.io/rinpharma/publication-type/3/" />
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous" media="print" onload="this.media='all'">
+
+    
+    
+    
+      
+    
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js" integrity="sha512-TmDwFLhg3UA4ZG0Eb4MIyT1O1Mb+Oww5kFG0uHqXsdbyZz9DcvYQhKpGgNkamAI6h2lGGZq2X8ftOJvF/XjTUg==" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/rinpharma/css/wowchemy.2591f9717d85d0415748ad7b688369fe.css" />
+
+  
+
+
+
+  
+
+  
+
+
+  
+  
+  
+
+  
+    <link rel="alternate" href="/rinpharma/publication-type/3/index.xml" type="application/rss+xml" title="R/Pharma" />
+  
+
+  
+    <link rel="manifest" href="/rinpharma/index.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/rinpharma/images/icon_hu236aa79531c1f54a56235d0cfffed976_6959_32x32_fill_lanczos_center_2.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/rinpharma/images/icon_hu236aa79531c1f54a56235d0cfffed976_6959_180x180_fill_lanczos_center_2.png" />
+
+  <link rel="canonical" href="https://epijim.github.io/rinpharma/publication-type/3/" />
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary" />
+  
+  <meta property="og:site_name" content="R/Pharma" />
+  <meta property="og:url" content="https://epijim.github.io/rinpharma/publication-type/3/" />
+  <meta property="og:title" content="3 | R/Pharma" />
+  <meta property="og:description" content="R/Pharma is an ISC working group under the R Consortium. The conference is a relatively small, scientifically &amp; industry oriented, collegial event focused on the use of R in the development of pharmaceuticals. The conference covers topics including reproducible research, regulatory compliance and validation, safety monitoring, clinical trials, drug discovery, research &amp; development, PK/PD/pharmacometrics, genomics, diagnostics, immunogenicity and more. All are discussed within the context of using R as a primary tool within the drug development process. The conference showcases the current use of R that is helping to drive biomedical research, drug discovery &amp; development, and clinical initiatives." /><meta property="og:image" content="https://epijim.github.io/rinpharma/images/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
+    <meta property="twitter:image" content="https://epijim.github.io/rinpharma/images/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta property="og:updated_time" content="2020-10-09T00:00:00&#43;00:00" />
+    
+  
+
+  
+
+
+
+  
+  
+  
+  
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha256-5VhCqFam2Cn+yjw61zbBNrbHVJ6SRydPeKopYlngbiQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha256-zQ0LblD/Af8vOppw18+2anxsuaz3pWYyVWi+bTvTH8Q=" crossorigin="anonymous">
+  
+  <script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#1565c0",
+          "text": "rgb(255, 255, 255)"
+        },
+        "button": {
+          "background": "rgb(255, 255, 255)",
+          "text": "#1565c0"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://www.cookiesandyou.com"
+      }
+    })});
+  </script>
+
+
+  
+
+
+
+
+
+  <title>3 | R/Pharma</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  ">
+
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/rinpharma/js/wowchemy-init.min.e1488fac756fc900549137ecbf9bf1f4.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/rinpharma/"><img src="/rinpharma/images/logo_hu7da996d8ce7178f65929875a2132de7e_457633_0x70_resize_lanczos_2.png" alt="R/Pharma"></a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/rinpharma/"><img src="/rinpharma/images/logo_hu7da996d8ce7178f65929875a2132de7e_457633_0x70_resize_lanczos_2.png" alt="R/Pharma"></a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/rinpharma/post"><span>News</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/rinpharma/people"><span>People</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/rinpharma/event"><span>Conferences</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/rinpharma/publication"><span>Proceedings</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/rinpharma/contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+      
+        
+      
+        
+      
+
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+<div class="universal-wrapper pt-3">
+  <h1>3</h1>
+
+  
+
+  
+</div>
+
+
+
+<div class="universal-wrapper">
+  
+
+  
+  
+    
+    
+    
+    <div>
+      <h2><a href="/rinpharma/publication/rinpharma_135/" >A PK &amp; PBPK Modelling Workflow in R: Simulation, Optimization &amp; Visualization</a></h2>
+      <div class="article-style">
+        
+          After a brief introduction to mrgsolve (https//mrgsolve.github.io), we will discuss concepts and applications for using the package in R to simulate from pharmacokinetic (PK) and physiologically-based PK (PBPK) models, estimate parameters given a …
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div>
+      <h2><a href="/rinpharma/publication/rinpharma_136/" >Predictive modeling with text using tidy data principles</a></h2>
+      <div class="article-style">
+        
+          Have you ever encountered text data and suspected there was useful insight latent within it but felt frustrated about how to find that insight? Are you familiar with dplyr and ggplot2, and ready to learn how unstructured text data can be used for …
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div>
+      <h2><a href="/rinpharma/publication/rinpharma_134/" >Unleash Shiny</a></h2>
+      <div class="article-style">
+        
+          In recent years, R users' understanding of Shiny has greatly increased but so have client expectations. While one of Shiny's greatest strengths is that it allows producing web applications solely from R code, meeting client's more delicate …
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div>
+      <h2><a href="/rinpharma/publication/rinpharma_133/" >gt</a></h2>
+      <div class="article-style">
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div>
+      <h2><a href="/rinpharma/publication/rinpharma_132/" >Targets and Reproducible Pipelines</a></h2>
+      <div class="article-style">
+        
+          Data science can be slow. A single round of statistical computation can take several minutes, hours, or even days to complete. The targets R package keeps results up to date and reproducible while minimizing the number of expensive tasks that …
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div>
+      <h2><a href="/rinpharma/publication/rinpharma_130/" >RMarkdown</a></h2>
+      <div class="article-style">
+        
+          A four-hour workshop that will take you on a tour of how to get from data to manuscript using R Markdown. You'll learn - The basics of Markdown and knitr- How to add tables for different outputs- Workflows for working with data- How to include and …
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div>
+      <h2><a href="/rinpharma/publication/rinpharma_131/" >Stan</a></h2>
+      <div class="article-style">
+        
+          This is a 3-hour workshop on Stan (https//mc-stan.org). The overall goal of the workshop will be to make the best use of time to answer as many Stan-related questions as possible. The level of the workshop will be intermediate to advanced, but anyone …
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div>
+      <h2><a href="/rinpharma/publication/rinpharma_129/" >Implementing a Risk-based Approach to R Validation</a></h2>
+      <div class="article-style">
+        
+          In this workshop we will walk through an implementation of the R Validation Hub's white paper A Risk-based Approach for Assessing R Package Accuracy within a Validated Infrastructure (https//www.pharmar.org/white-paper/). The workshop will explore …
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div>
+      <h2><a href="/rinpharma/publication/rinpharma_128/" >Tidy Transcriptomics</a></h2>
+      <div class="article-style">
+        
+          In this workshop we will present how to perform analysis of RNA sequencing data following the tidy data paradigm. The tidy data paradigm provides a standard way to organise data values within a dataset, where each variable is a column, each …
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div>
+      <h2><a href="/rinpharma/publication/rinpharma_126/" >Artificial Neural Networks in R with Keras and TensorFlow</a></h2>
+      <div class="article-style">
+        
+          This workshop is introductory and open to everyone assuming basic R/Data Science skills. Please note, the workshop is very hands-on oriented, so expect to get your fingers dirty! The aim will be an introduction to ANNs in R. ANNs form the basic unit …
+        
+      </div>
+    </div>
+  
+
+  
+<nav>
+  <ul class="pagination justify-content-center">
+    
+    
+    <li class="page-item"><a class="page-link" href="/rinpharma/publication-type/3/page/2/">&raquo;</a></li>
+    
+  </ul>
+</nav>
+
+
+</div>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+  
+  <p class="powered-by">
+    
+    
+      
+      <a href="/rinpharma/terms/">Terms and Conditions</a>
+    
+  </p>
+  
+
+  <p class="powered-by">
+    © R/Pharma 2021
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+    Website written in <i class="fab fa-markdown small-icon"></i>, built by Hugo and hosted on <a href="https://github.com/RConsortium/r-pharma"><i class="fab fa-github small-icon"></i></a>. Theme based on <a href="https://github.com/wowchemy/wowchemy-hugo-modules/tree/master/wowchemy">Wowchemy</a> fork of Academic.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+
+      
+
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    <script src="/rinpharma/js/_vendor/bootstrap.bundle.min.29d2abb07db775505d3a2efc824e7b29.js"></script>
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/rinpharma/en/js/wowchemy.min.ba889ee0e2ff1ae61fef1e4d8d1eb62c.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>

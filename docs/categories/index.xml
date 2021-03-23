@@ -1,29 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on R/Pharma</title>
-    <link>https://rinpharma.com/categories/</link>
-    <description>Recent content in Categories on R/Pharma</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 15 Jan 2021 10:51:25 +0000</lastBuildDate><atom:link href="https://rinpharma.com/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Miscellaneous</title>
-      <link>https://rinpharma.com/categories/miscellaneous/</link>
-      <pubDate>Fri, 15 Jan 2021 10:51:25 +0000</pubDate>
-      
-      <guid>https://rinpharma.com/categories/miscellaneous/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>update</title>
-      <link>https://rinpharma.com/categories/update/</link>
-      <pubDate>Fri, 02 Oct 2020 20:57:25 +0000</pubDate>
-      
-      <guid>https://rinpharma.com/categories/update/</guid>
-      <description></description>
-    </item>
+    <title>Categories | R/Pharma</title>
+    <link>https://epijim.github.io/rinpharma/categories/</link>
+      <atom:link href="https://epijim.github.io/rinpharma/categories/index.xml" rel="self" type="application/rss+xml" />
+    <description>Categories</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2021</copyright>
+    <image>
+      <url>https://epijim.github.io/rinpharma/images/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>Categories</title>
+      <link>https://epijim.github.io/rinpharma/categories/</link>
+    </image>
     
   </channel>
 </rss>

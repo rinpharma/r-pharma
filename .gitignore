@@ -1,6 +1,8 @@
-docs/\.DS_Store
-\.DS_Store
+# IDEs
+.idea/
+# Hugo
+/resources/
+public/
+assets/jsconfig.json
 .Rproj.user
-RinPharma.Rproj
-programsource/\.httr-oauth
-.Rhistory
+.secrets

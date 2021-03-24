@@ -4,13 +4,13 @@ title: 2019 Conference
 event: 2019 Conference
 event_url:
 
-location: Held 100% online
-#address:
-#  street: 450 Serra Mall
-#  city: Stanford
-#  region: CA
-#  postcode: '94305'
-#  country: United States
+location: Harvard University
+address:
+  street: 1737 Cambridge St
+  city: Cambridge
+  region: MA
+  postcode: '02138'
+  country: United States
 
 summary: Placeholder summary
 abstract: "Placeholder summary."

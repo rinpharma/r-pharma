@@ -12,6 +12,8 @@ address:
   postcode: '02138'
   country: United States
 
+rinpharma2019: true
+
 summary: Placeholder summary
 abstract: "Placeholder summary."
 

@@ -69,6 +69,17 @@
       {{ .Content }}
     </div>
 
+{{ if .Params.rinpharma2018 }}
+    {{ partial "rinpharma2018" . }}
+{{ end }}
+{{ if .Params.rinpharma2019 }}
+    {{ partial "rinpharma2019" . }}
+{{ end }}
+{{ if .Params.rinpharma2020 }}
+    {{ partial "rinpharma2020" . }}
+{{ end }}
+
+
     {{ partial "page_footer" . }}
 
   </div>

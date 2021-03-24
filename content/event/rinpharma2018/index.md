@@ -13,7 +13,9 @@ address:
   country: United States
 
 summary: Placeholder summary
-abstract: "Placeholder summary."
+abstract: "Placeholder abstract."
+
+rinpharma2018: true
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -53,5 +55,3 @@ slides:
 #   Otherwise, set `projects = []`.
 projects:
 ---
-
-James will add an html schedule here.

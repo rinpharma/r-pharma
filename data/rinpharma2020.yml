@@ -1,0 +1,983 @@
+schedule:
+  enable : true
+  titleOutline : "schedule"
+  title : "R/Pharma 2020"
+  content : "All times below in US ET."
+  scheduleTab:
+    ################################# tab itam loop
+    - title : "05 Oct"
+      subtitle : " 9:00 am to  5:00 pm"
+      tabContentList:
+        # tab content list
+        - time : " 9:00 am"
+          image : "media/schedule/Workshop.jpg"
+          icons: true
+          slides: "https://github.com/leonjessen/RPharma2020"
+          youtube: ""
+          content: "
+
+          ### Artificial Neural Networks in R with Keras and TensorFlow
+
+          ###### Leon Eyrich Jessen
+
+          Technical University of Denmark
+          "
+          
+        # tab content list
+        - time : " 2:00 pm"
+          image : "media/schedule/Workshop.jpg"
+          icons: true
+          slides: "https://github.com/atorus-research/MultilingualMarkdown"
+          youtube: "https://www.youtube.com/watch?v=fEoZynvUrkc"
+          content: "
+
+          ### Multilingual Markdown with R and Python Using Reticulate
+
+          ###### Mike Stackhouse and Nathan Kosiba
+
+          Atorus
+          "
+          
+    ################################# tab itam loop
+    - title : "06 Oct"
+      subtitle : " 8:00 am to 12:00 pm"
+      tabContentList:
+        # tab content list
+        - time : " 8:00 am"
+          image : "media/schedule/Workshop.jpg"
+          icons: true
+          slides: "https://github.com/stemangiola/rpharma2020_tidytranscriptomics/"
+          youtube: "https://www.youtube.com/watch?v=6HNjZVBArmQ"
+          content: "
+
+          ### Tidy Transcriptomics
+
+          ###### Stefano Mangiola and Maria Doyle
+
+          Walter and Eliza Hall of Medical Research | Peter MacCallum Cancer Center
+          "
+          
+        # tab content list
+        - time : "12:00 pm"
+          image : "media/schedule/Workshop.jpg"
+          icons: true
+          slides: "https://pharmar.github.io/rpharma2020/"
+          youtube: "https://www.youtube.com/watch?v=9AiJSEZAz4g"
+          content: "
+
+          ### Implementing a Risk-based Approach to R Validation
+
+          ###### Andy Nicholls and Marly Gotti
+
+          Glaxosmithkline | Biogen
+          "
+          
+    ################################# tab itam loop
+    - title : "07 Oct"
+      subtitle : " 8:00 am to  4:00 pm"
+      tabContentList:
+        # tab content list
+        - time : " 8:00 am"
+          image : "media/schedule/Workshop.jpg"
+          icons: true
+          slides: ""
+          youtube: ""
+          content: "
+
+          ### RMarkdown
+
+          ###### Alison Hill and Tom Mock
+
+          RStudio
+          "
+          
+        # tab content list
+        - time : " 1:00 pm"
+          image : "media/schedule/Workshop.jpg"
+          icons: true
+          slides: ""
+          youtube: ""
+          content: "
+
+          ### Stan
+
+          ###### Daniel Lee
+
+          Generable
+          "
+          
+    ################################# tab itam loop
+    - title : "08 Oct"
+      subtitle : " 8:00 am to  4:00 pm"
+      tabContentList:
+        # tab content list
+        - time : " 8:00 am"
+          image : "media/schedule/Workshop.jpg"
+          icons: true
+          slides: "https://wlandau.github.io/rpharma2020/"
+          youtube: ""
+          content: "
+
+          ### Targets and Reproducible Pipelines
+
+          ###### Will Landau
+
+          Eli Lilly
+          "
+          
+        # tab content list
+        - time : " 1:00 pm"
+          image : "media/schedule/Workshop.jpg"
+          icons: true
+          slides: "https://github.com/rich-iannone/gt-workshop-2020"
+          youtube: "https://www.youtube.com/watch?v=puzMITLVrqE"
+          content: "
+
+          ### gt
+
+          ###### Rich Iannone
+
+          RStudio
+          "
+          
+    ################################# tab itam loop
+    - title : "09 Oct"
+      subtitle : " 8:00 am to  6:00 pm"
+      tabContentList:
+        # tab content list
+        - time : " 8:00 am"
+          image : "media/schedule/Workshop.jpg"
+          icons: true
+          slides: "https://rinterface.com/shiny/talks/RPharma2020/"
+          youtube: ""
+          content: "
+
+          ### Unleash Shiny
+
+          ###### David Granjon and John Coene
+
+          Novartis | World Economic Forum
+          "
+          
+        # tab content list
+        - time : "11:00 am"
+          image : "media/schedule/Workshop.jpg"
+          icons: true
+          slides: "https://github.com/metrumresearchgroup/r-pharma-pkpd-2020"
+          youtube: "https://www.youtube.com/watch?v=EbDeZ5PgNlQ"
+          content: "
+
+          ### A PK & PBPK Modelling Workflow in R: Simulation, Optimization & Visualization
+
+          ###### Devin Pastoor and Kyle Baron
+
+          Metrum Research Group
+          "
+          
+        # tab content list
+        - time : " 2:00 pm"
+          image : "media/schedule/Workshop.jpg"
+          icons: true
+          slides: "https://textmodels4pharma.netlify.app/"
+          youtube: ""
+          content: "
+
+          ### Predictive modeling with text using tidy data principles
+
+          ###### Emil Hvitfeldt
+
+          University Southern California
+          "
+          
+    ################################# tab itam loop
+    - title : "13 Oct"
+      subtitle : "10:00 am to 10:50 am"
+      tabContentList:
+        # tab content list
+        - time : "10:00 am"
+          image : "media/schedule/Schedule only.jpg"
+          icons: false
+          slides: ""
+          youtube: "https://youtu.be/4_or19J0Mqo"
+          content: "
+
+          ### Opening Remarks
+
+          ###### Harvey Lieberman
+
+          Novartis
+          "
+          
+        # tab content list
+        - time : "10:10 am"
+          image : "media/schedule/Keynote.jpg"
+          icons: true
+          slides: "https://github.com/rinpharma/2020_presentations/tree/master/talks_folder/2020-Kam-Challenges_in_an Evolving_Regulatory_Landscape.pdf"
+          youtube: "https://youtu.be/pX0G6NOz6_M"
+          content: "
+
+          ### Challenges in an Evolving Regulatory Landscape: How Statisticians Can Contribute
+
+          ###### Matilde Kam
+
+          FDA
+          "
+          
+        # tab content list
+        - time : "10:50 am"
+          image : "media/schedule/Schedule only.jpg"
+          icons: false
+          slides: ""
+          youtube: ""
+          content: "
+
+          ### Coffee
+
+          ###### 
+
+          
+          "
+          
+        # tab content list
+        - time : "11:00 am"
+          image : "media/schedule/Talk.jpg"
+          icons: true
+          slides: "https://github.com/rinpharma/2020_presentations/tree/main/talks_folder/2020-Kuhn-tidymodels"
+          youtube: "https://youtu.be/IwnhUyS0n_g"
+          content: "
+
+          ### StackEm High! Ensembles Using tidymodels
+
+          ###### Max Kuhn and Simon Couch
+
+          RStudio | Reed College
+          "
+          
+        # tab content list
+        - time : "11:20 am"
+          image : "media/schedule/Talk.jpg"
+          icons: true
+          slides: "https://pharmar.github.io/rpharma2020_pres/"
+          youtube: "https://youtu.be/CFhXu0amNAw"
+          content: "
+
+          ### The R Validation Hub: Implementing a Risk-Based Approach to R
+
+          ###### Andy Nicholls
+
+          Glaxosmithkline
+          "
+          
+        # tab content list
+        - time : "11:40 am"
+          image : "media/schedule/Talk.jpg"
+          icons: true
+          slides: "https://medical-monitoring.openanalytics.io/slides/#1"
+          youtube: "https://youtu.be/Aeu1_xCUVPQ"
+          content: "
+
+          ### Interactive medical oversight reporting in R
+
+          ###### Laure Cougnaud, Michela Pasetto and Arne de Roeck
+
+          OpenAnalytics | Galapagos
+          "
+          
+        # tab content list
+        - time : "11:50 am"
+          image : "media/schedule/Talk.jpg"
+          icons: true
+          slides: "https://github.com/rinpharma/2020_presentations/tree/master/talks_folder/2020-Sabanes_Bove-Implementing_MMRM_in_R.pdf"
+          youtube: "https://youtu.be/moEksA8gHoY"
+          content: "
+
+          ### Implementing Mixed Models with Repeated Measures (MMRM) in R and Shiny for Regulatory Purposes
+
+          ###### Daniel Sabanés Bové
+
+          Roche / Genentech
+          "
+          
+        # tab content list
+        - time : "12:00 pm"
+          image : "media/schedule/Schedule only.jpg"
+          icons: false
+          slides: ""
+          youtube: ""
+          content: "
+
+          ### Coffee
+
+          ###### 
+
+          
+          "
+          
+        # tab content list
+        - time : "12:20 pm"
+          image : "media/schedule/Talk.jpg"
+          icons: true
+          slides: "https://thebioengineer.github.io/validation_rpharma/"
+          youtube: "https://youtu.be/zEH-6Ik-5h8"
+          content: "
+
+          ### R Package Validation Framework
+
+          ###### Ellis Hughes
+
+          Fred Hutch Cancer Research Center
+          "
+          
+        # tab content list
+        - time : "12:40 pm"
+          image : "media/schedule/Talk.jpg"
+          icons: true
+          slides: "https://github.com/rinpharma/2020_presentations/tree/master/talks_folder/2020-Wang-metashiny.pptx"
+          youtube: "https://youtu.be/jvm6cITehT0"
+          content: "
+
+          ### metashiny: build Shiny apps with a Shiny app
+
+          ###### Bo Wang
+
+          Novartis
+          "
+          
+        # tab content list
+        - time : "12:50 pm"
+          image : "media/schedule/Talk.jpg"
+          icons: true
+          slides: ""
+          youtube: ""
+          content: "
+
+          ### Out of Chaos, Comes Order: Adventures in Standardized and Reproducible Research
+
+          ###### Leigh Alexander
+
+          SomaLogic
+          "
+          
+        # tab content list
+        - time : " 1:10 pm"
+          image : "media/schedule/Schedule only.jpg"
+          icons: false
+          slides: ""
+          youtube: ""
+          content: "
+
+          ### Coffee
+
+          ###### 
+
+          
+          "
+          
+        # tab content list
+        - time : " 1:20 pm"
+          image : "media/schedule/Talk.jpg"
+          icons: true
+          slides: "https://github.com/rinpharma/2020_presentations/tree/master/talks_folder/2020-Olszewski-Numerical_Validation_Clinical_Research.pdf"
+          youtube: "https://youtu.be/qLuPjEOoHl4"
+          content: "
+
+          ### Numerical validation as a critical aspect in bringing R to the Clinical Research
+
+          ###### Adrian Olszewski
+
+          2KMM
+          "
+          
+        # tab content list
+        - time : " 1:30 pm"
+          image : "media/schedule/Talk.jpg"
+          icons: true
+          slides: "https://github.com/rinpharma/2020_presentations/tree/master/talks_folder/2020-Song-geoMapr.pptx"
+          youtube: "https://youtu.be/avV1OWFbN5o"
+          content: "
+
+          ### geoMapr: A Shiny Application for Enriched Analysis of Drug Utilization Data
+
+          ###### Jaejoon Song
+
+          FDA
+          "
+          
+        # tab content list
+        - time : " 1:50 pm"
+          image : "media/schedule/Talk.jpg"
+          icons: true
+          slides: "https://github.com/rinpharma/2020_presentations/tree/master/talks_folder/2020-Feng-Becoming_Multilingual.pptx"
+          youtube: "https://youtu.be/k7X29akVOK8"
+          content: "
+
+          ### Becoming Multilingual
+
+          ###### Bella Feng
+
+          KitePharma A Gilead Company
+          "
+          
+        # tab content list
+        - time : " 2:00 pm"
+          image : "media/schedule/Schedule only.jpg"
+          icons: false
+          slides: ""
+          youtube: "https://youtu.be/54WAnoFGyKg"
+          content: "
+
+          ### Closing Remarks
+
+          ###### Devin Pastoor
+
+          Metrum Research Group
+          "
+          
+    ################################# tab itam loop
+    - title : "14 Oct"
+      subtitle : "10:00 am to  2:10 pm"
+      tabContentList:
+        # tab content list
+        - time : "10:00 am"
+          image : "media/schedule/Schedule only.jpg"
+          icons: false
+          slides: ""
+          youtube: "https://youtu.be/OOp2LaF99Cc"
+          content: "
+
+          ### Opening Remarks
+
+          ###### Timothy Tsai
+
+          Harvard University
+          "
+          
+        # tab content list
+        - time : "10:10 am"
+          image : "media/schedule/Keynote.jpg"
+          icons: true
+          slides: "https://github.com/rinpharma/2020_presentations/tree/master/talks_folder/2020-Silge-Data_Visualization_Real_World_ML.pdf"
+          youtube: "https://youtu.be/Poeic8TjCx8"
+          content: "
+
+          ### Data visualization for real-world machine learning
+
+          ###### Julia Silge
+
+          Rstudio
+          "
+          
+        # tab content list
+        - time : "10:50 am"
+          image : "media/schedule/Schedule only.jpg"
+          icons: false
+          slides: ""
+          youtube: ""
+          content: "
+
+          ### Coffee
+
+          ###### 
+
+          
+          "
+          
+        # tab content list
+        - time : "11:00 am"
+          image : "media/schedule/Talk.jpg"
+          icons: true
+          slides: "https://github.com/rinpharma/2020_presentations/tree/master/talks_folder/2020-Fillmore-Recruitment_Covid19.pptx"
+          youtube: "https://youtu.be/ixlMuxu31tg"
+          content: "
+
+          ### Using R to Create an End to End Process for Predicting Delays in Recruitment from Covid-19
+
+          ###### Christina Fillmore
+
+          Glaxosmithkline
+          "
+          
+        # tab content list
+        - time : "11:20 am"
+          image : "media/schedule/Talk.jpg"
+          icons: true
+          slides: "https://github.com/rinpharma/2020_presentations/tree/master/talks_folder/2020-Magnusson-Graphs_and_Power.pdf"
+          youtube: "https://youtu.be/TNMC-Ota29g"
+          content: "
+
+          ### With great graphs comes great power
+
+          ###### Baldur Magnusson
+
+          Novartis
+          "
+          
+        # tab content list
+        - time : "11:40 am"
+          image : "media/schedule/Talk.jpg"
+          icons: true
+          slides: "https://github.com/rinpharma/2020_presentations/tree/master/talks_folder/2020-Fruchtenicht-visR.pdf"
+          youtube: "https://youtu.be/JxvPBp2OhgA"
+          content: "
+
+          ### visR - a package for effective visualization in Pharma
+
+          ###### Charlotta Fruchtenicht
+
+          Roche / Genentech
+          "
+          
+        # tab content list
+        - time : "11:50 am"
+          image : "media/schedule/Talk.jpg"
+          icons: true
+          slides: ""
+          youtube: ""
+          content: "
+
+          ### safetyGraphics v2.0 - Open Source Collaboration in Pharma using R and Shiny
+
+          ###### Jeremy Wildfire
+
+          Gilead
+          "
+          
+        # tab content list
+        - time : "12:00 pm"
+          image : "media/schedule/Schedule only.jpg"
+          icons: false
+          slides: ""
+          youtube: ""
+          content: "
+
+          ### Coffee
+
+          ###### 
+
+          
+          "
+          
+        # tab content list
+        - time : "12:20 pm"
+          image : "media/schedule/Talk.jpg"
+          icons: true
+          slides: "https://talks.cpsievert.me/20201014/"
+          youtube: "https://youtu.be/7pJhTgJubWM"
+          content: "
+
+          ### Styling Shiny & R Markdown with bootstraplib & thematic
+
+          ###### Carson Sievert
+
+          RStudio
+          "
+          
+        # tab content list
+        - time : "12:40 pm"
+          image : "media/schedule/Talk.jpg"
+          icons: true
+          slides: "https://github.com/rinpharma/2020_presentations/tree/master/talks_folder/2020-Rimler-Clinical_Reporting_GSK.pptx"
+          youtube: "https://youtu.be/Z4JXMERYunc"
+          content: "
+
+          ### Clinical Reporting Using R at GSK
+
+          ###### Michael Rimler
+
+          Glaxosmithkline
+          "
+          
+        # tab content list
+        - time : "12:50 pm"
+          image : "media/schedule/Talk.jpg"
+          icons: true
+          slides: "https://github.com/rinpharma/2020_presentations/tree/master/talks_folder/2020-Mehan-Nested_Data_Frames.pptx"
+          youtube: "https://youtu.be/LkFzPkvlmRo"
+          content: "
+
+          ### Leveraging Nested Data Frames for Analytical Studies
+
+          ###### Mike Mehan
+
+          Illumina Inc
+          "
+          
+        # tab content list
+        - time : " 1:00 pm"
+          image : "media/schedule/Talk.jpg"
+          icons: true
+          slides: "https://github.com/rinpharma/2020_presentations/tree/master/talks_folder/2020-Wathen-PREP.pptx"
+          youtube: "https://youtu.be/_Hfq8ymQWIY"
+          content: "
+
+          ### PREP - Packages fRom tEmPlates - An R Package to Streamline Development of Shiny Apps and R Packages
+
+          ###### J. Kyle Wathen
+
+          Gilead
+          "
+          
+        # tab content list
+        - time : " 1:10 pm"
+          image : "media/schedule/Schedule only.jpg"
+          icons: false
+          slides: ""
+          youtube: ""
+          content: "
+
+          ### Coffee
+
+          ###### 
+
+          
+          "
+          
+        # tab content list
+        - time : " 1:20 pm"
+          image : "media/schedule/Talk.jpg"
+          icons: true
+          slides: "https://github.com/rinpharma/2020_presentations/tree/master/talks_folder/2020-Tensfeldt-OpenNCA.pptx"
+          youtube: "https://youtu.be/Dw6HrBUdcmU"
+          content: "
+
+          ### openNCA Pharmacokinetic data repository and Non-compartmental Analysis System
+
+          ###### Thomas Tensfeldt
+
+          Pfizer
+          "
+          
+        # tab content list
+        - time : " 1:40 pm"
+          image : "media/schedule/Talk.jpg"
+          icons: true
+          slides: "https://rmed-tidycdisc.netlify.app/#1"
+          youtube: "https://youtu.be/XzcMsNr_c0E"
+          content: "
+
+          ### tidyCDISC an Open Source Platform in R to Analyze Clinical Trial Data
+
+          ###### Maya Gans and Marly Gotti
+
+          Cytel | Biogen
+          "
+          
+        # tab content list
+        - time : " 1:50 pm"
+          image : "media/schedule/Talk.jpg"
+          icons: true
+          slides: "https://github.com/rinpharma/2020_presentations/tree/master/talks_folder/2020-Stackhouse-Tplyr.pptx"
+          youtube: "https://youtu.be/bWmfrew7bPk"
+          content: "
+
+          ### Tplyr: An Intuitive Framework for Building Clinical Safety Summaries
+
+          ###### Mike Stackhouse
+
+          Atorus Research, LLC
+          "
+          
+        # tab content list
+        - time : " 2:00 pm"
+          image : "media/schedule/Talk.jpg"
+          icons: true
+          slides: "https://github.com/rinpharma/2020_presentations/tree/master/talks_folder/2020-Baron-yspec.pdf"
+          youtube: "https://youtu.be/Q7_wFMmwxMs"
+          content: "
+
+          ### yspec: an R Package to Create and Deploy Data Set Specification Objects in a Modeling and Simulation Workflow
+
+          ###### Kyle Baron
+
+          Metrum Research Group
+          "
+          
+        # tab content list
+        - time : " 2:10 pm"
+          image : "media/schedule/Schedule only.jpg"
+          icons: false
+          slides: ""
+          youtube: "https://youtu.be/YxbKkdkTkgw"
+          content: "
+
+          ### Closing Remarks
+
+          ###### Paul Schuette
+
+          FDA
+          "
+          
+    ################################# tab itam loop
+    - title : "15 Oct"
+      subtitle : "10:00 am to  2:00 pm"
+      tabContentList:
+        # tab content list
+        - time : "10:00 am"
+          image : "media/schedule/Schedule only.jpg"
+          icons: false
+          slides: ""
+          youtube: "https://youtu.be/yKabYEnSBSM"
+          content: "
+
+          ### Opening Remarks
+
+          ###### Raul Torres
+
+          Takeda
+          "
+          
+        # tab content list
+        - time : "10:10 am"
+          image : "media/schedule/Keynote.jpg"
+          icons: true
+          slides: "https://github.com/rinpharma/2020_presentations/tree/master/talks_folder/2020-Robinson-Would_John_Paul_George_Ringo_Have_Been_Famous_Without_Beatles.pdf"
+          youtube: "https://youtu.be/y52P2dcug7M"
+          content: "
+
+          ### Would John, Paul, George or Ringo have been famous if it were not for The Beatles
+
+          ###### Douglas Robinson
+
+          Novartis
+          "
+          
+        # tab content list
+        - time : "10:50 am"
+          image : "media/schedule/Schedule only.jpg"
+          icons: false
+          slides: ""
+          youtube: ""
+          content: "
+
+          ### Coffee
+
+          ###### 
+
+          
+          "
+          
+        # tab content list
+        - time : "11:00 am"
+          image : "media/schedule/Talk.jpg"
+          icons: true
+          slides: "https://github.com/rinpharma/2020_presentations/tree/master/talks_folder/2020-Shah-Julia_in_Pharma.pdf"
+          youtube: "https://youtu.be/kPcJ4Xqxrf8"
+          content: "
+
+          ### Julia in Pharma
+
+          ###### Viral B. Shah and Vijay Ivaturi
+
+          Julia Computing | Pumas-AI
+          "
+          
+        # tab content list
+        - time : "11:20 am"
+          image : "media/schedule/Talk.jpg"
+          icons: true
+          slides: "https://github.com/rinpharma/2020_presentations/tree/master/talks_folder/2020-Zeglinski-gmoviz.pptx"
+          youtube: "https://youtu.be/0RAvTYaZ4io"
+          content: "
+
+          ### Seamless Visualisation of Complex Genomic Variations in GMOs and Edited Cell Lines Using gmoviz
+
+          ###### Kathleen Zeglinski
+
+          CSL
+          "
+          
+        # tab content list
+        - time : "11:30 am"
+          image : "media/schedule/Talk.jpg"
+          icons: true
+          slides: "https://github.com/rinpharma/2020_presentations/tree/master/talks_folder/2020-Etikala-R_Markdown_Clinical_Trial_Summary_Reports.pptx"
+          youtube: "https://youtu.be/vpHJuWkdahc"
+          content: "
+
+          ### Using R Markdown to Generate Clinical Trials Summary Reports
+
+          ###### Radhika Etikala and Xuehan Zhang
+
+          Fred Hutchinson Cancer Research Center
+          "
+          
+        # tab content list
+        - time : "11:40 am"
+          image : "media/schedule/Talk.jpg"
+          icons: true
+          slides: "https://wlandau.github.io/rpharma2020/#1"
+          youtube: "https://youtu.be/GRqKJBaC5g4"
+          content: "
+
+          ### Reproducible computation at scale in R with targets
+
+          ###### Will Landau
+
+          Eli Lilly
+          "
+          
+        # tab content list
+        - time : "11:50 am"
+          image : "media/schedule/Talk.jpg"
+          icons: true
+          slides: "https://github.com/rinpharma/2020_presentations/tree/master/talks_folder/2020-Ratman-Unified_R_Environments.pdf"
+          youtube: "https://youtu.be/H8kG6RZsXFY"
+          content: "
+
+          ### Building and Managing Unified R Environments for Data Science and Software Development
+
+          ###### Dariusz Ratman
+
+          Roche / Genentech
+          "
+          
+        # tab content list
+        - time : "12:00 pm"
+          image : "media/schedule/Schedule only.jpg"
+          icons: false
+          slides: ""
+          youtube: ""
+          content: "
+
+          ### Coffee
+
+          ###### 
+
+          
+          "
+          
+        # tab content list
+        - time : "12:20 pm"
+          image : "media/schedule/Talk.jpg"
+          icons: true
+          slides: "https://github.com/rinpharma/2020_presentations/tree/master/talks_folder/2020-Wyss-Automated_Data_Adaptive_Analytics.pdf"
+          youtube: "https://youtu.be/-2YpaSgEBmw"
+          content: "
+
+          ### Automated Data-Adaptive Analytics to Improve Robustness of Confounding Control when Estimating Treatment Effects in Electronic Healthcare Databases
+
+          ###### Richard Wyss
+
+          Harvard University
+          "
+          
+        # tab content list
+        - time : "12:40 pm"
+          image : "media/schedule/Talk.jpg"
+          icons: true
+          slides: "https://github.com/rinpharma/2020_presentations/tree/master/talks_folder/2020-Zhang-r2rtf.pdf"
+          youtube: "https://youtu.be/MNdMME66xBw"
+          content: "
+
+          ### r2rtf - a Lightweight R Package to Produce Tables and Figures in RTF Format
+
+          ###### Yilong Zhang, Siruo Wang, Simiao Ye, Madhusudhan Ginnaram and Keaven M. Anderson
+
+          Merck | Johns Hopkins
+          "
+          
+        # tab content list
+        - time : "12:50 pm"
+          image : "media/schedule/Talk.jpg"
+          icons: true
+          slides: "https://github.com/rinpharma/2020_presentations/tree/master/talks_folder/2020-Sun-Subgroup_Benchmarking.pdf"
+          youtube: "https://youtu.be/6CBxoxECihs"
+          content: "
+
+          ### Subgroup Benchmarking Framework
+
+          ###### Sophie Sun
+
+          Novartis
+          "
+          
+        # tab content list
+        - time : " 1:00 pm"
+          image : "media/schedule/Talk.jpg"
+          icons: true
+          slides: ""
+          youtube: ""
+          content: "
+
+          ### The See Value App: Visual Decision Making for Drug Development
+
+          ###### Hannah Diehl, Andy Stein, Niladri Roy Chowdhury and Tamara Broderick
+
+          MIT | Novartis
+          "
+          
+        # tab content list
+        - time : " 1:10 pm"
+          image : "media/schedule/Schedule only.jpg"
+          icons: false
+          slides: ""
+          youtube: ""
+          content: "
+
+          ### Coffee
+
+          ###### 
+
+          
+          "
+          
+        # tab content list
+        - time : " 1:20 pm"
+          image : "media/schedule/Talk.jpg"
+          icons: true
+          slides: "https://rpubs.com/leonjessen/rpharma2020"
+          youtube: "https://youtu.be/t2OaQ9jkQ08"
+          content: "
+
+          ### Its a trap! A data science case story
+
+          ###### Leon Eyrich Jessen
+
+          Technical University of Denmark
+          "
+          
+        # tab content list
+        - time : " 1:40 pm"
+          image : "media/schedule/Talk.jpg"
+          icons: true
+          slides: "https://github.com/rinpharma/2020_presentations/tree/master/talks_folder/2020-Pinkert-X_Omics_Platform.pdf"
+          youtube: "https://youtu.be/5mLkY046RKg"
+          content: "
+
+          ### X-Omics Platform
+
+          ###### Stefan Pinkert
+
+          Merck
+          "
+          
+        # tab content list
+        - time : " 1:50 pm"
+          image : "media/schedule/Talk.jpg"
+          icons: true
+          slides: "https://github.com/rinpharma/2020_presentations/tree/master/talks_folder/2020-Lopp-RStudio_Pharma_Updates.pdf"
+          youtube: "https://youtu.be/5BpvwgbzHLo"
+          content: "
+
+          ### RStudio Pharma Updates
+
+          ###### Sean Lopp
+
+          Rstudio
+          "
+          
+        # tab content list
+        - time : " 2:00 pm"
+          image : "media/schedule/Schedule only.jpg"
+          icons: false
+          slides: ""
+          youtube: ""
+          content: "
+
+          ### Closing Remarks
+
+          ###### Joseph Rickert
+
+          Rstudio
+          "
+          

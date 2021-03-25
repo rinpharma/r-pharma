@@ -16,7 +16,7 @@ baseurl = "https://epijim.github.io/r-pharma/"
 # To display a copyright symbol, type `&copy;`. For current year, type `{year}`.
 copyright = "&copy; R/Pharma {year}"
 
-publishDir = "docs"
+#publishDir = "docs" #CICD uses public!
 
 ############################
 ## Advanced options below ##

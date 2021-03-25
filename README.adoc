@@ -10,13 +10,13 @@
 
 # R/Pharma website
 
-ifdef::status[]
 image:{img-build-status}[Build Status Badge,link={uri-build-status}]
-endif::[]
 
 toc::[]
 
-R/Pharma website: http://rinpharma.com[rinpharma.com]
+**Currently site is here**: http://insightsengineering.com/
+
+Final: R/Pharma website: http://rinpharma.com[rinpharma.com]
 
 ## Urgent to-do
 
@@ -29,6 +29,10 @@ Schedules data management is clunky::
     figure out yet in Hugo how to pass down which data file to use.
     This must be possible though - so will need to dive deeper into shortcodes
     and partials in Hugo to see how to do it.
+
+Add in `build_scripts` to `deploy.yml`::
+    Quick thing to add - but waiting till I sort out the general look so I don't
+    needlessly keep hitting Google's API.
 
 ## General framework
 
@@ -59,7 +63,8 @@ IMPORTANT: Please make sure to update the gdoc if you want to edit the proceedin
 
 ### Accessing the data (e.g. for shiny apps)
 
-The gsheet data (minus emails) is written to a public Rstudio 'pins' dataset,
+The gsheet data (minus information people might not want shared like emails) is
+ written to a public Rstudio 'pins' dataset,
 which can be accessed by other services (e.g. a conference specific shiny app),
 or to do something like a wordcloud on abstracts.
 
@@ -107,3 +112,11 @@ Remember that the CICD process will rebuild (e.g. don't worry about pushing up a
 built version of the site, or pulling updates from the gsheet.)
 
 ### Details on how `deploy.yml` works
+
+1. The master branch will be protected - so you can only do a PR in
+1. When master is updated, it triggers `.github/workflows/deploy.yml` to run.
+1. This will run the scripts in `/build_scripts/` to update content where
+the source of truth is in the `gsheet`. Doing this overwrites folders like
+``/content/authors/` and `/content/publications/`.
+1. Then the `deploy.yml` script runs a second set of code that will run
+Hugo and then publish the output to a detached `gh-pages` branch.

@@ -16,22 +16,25 @@ endif::[]
 
 toc::[]
 
-
-R/Pharma website: [rinpharma.com](http://rinpharma.com)
+R/Pharma website: http://rinpharma.com[rinpharma.com]
 
 ## General framework
 
 This website is based on the `Hugo` theme `starter-research-group`, a
 fork off the `academic` theme. The theme documentation is shared - and available
-at [wowchemy.com/docs/](https://wowchemy.com/docs/).
+at https://wowchemy.com/docs/[wowchemy.com/docs/].
 
 ## `gsheet` as source of truth
 
-We use [this gsheet](https://docs.google.com/spreadsheets/d/1NaDnMRh2nOBCzBUxbIyJBVWd_InaEMLTW0rEJtD2ywE/edit?usp=drive_web&ouid=110502841866540588057)
+We use https://docs.google.com/spreadsheets/d/1NaDnMRh2nOBCzBUxbIyJBVWd_InaEMLTW0rEJtD2ywE/edit?usp=drive_web&ouid=110502841866540588057[this gsheet]
 as a source of truth for the proceedings (abstracts of talks) and the list of
-organisors.
+organisers.
+
+IMPORTANT: Please make sure to update the gdoc if you want to edit the proceedings, schedule or list of people.
 
 ### proceedings
+
+
 
 ### team
 

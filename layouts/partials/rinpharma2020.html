@@ -1,4 +1,8 @@
 {{ with .Site.Data.rinpharma2020.schedule }}
+
+<script src="https://use.fontawesome.com/c174ad4250.js"></script>
+<link rel="stylesheet" type="text/css" href="/css/schedule.css">
+
 <section class="section-schedule section">
   <div class="container">
     <div class="row section-heading">
@@ -35,7 +39,7 @@
           <div class="tab-pane fade {{ if eq $index 0 }} show active {{ end }} " id="scheduleTab{{$.Scratch.Get `counter`}}" role="tabpanel">
             <ul class="mt-5 time-table pl-0 list-unstyled">
               {{ range .tabContentList }}
-              <li class="d-lg-flex align-items-center justify-content-between bg-light p-4 mb-3">
+              <li class="d-lg-flex align-items-center justify-content-left bg-light p-4 mb-3">
                 {{ if ne .time "" }}
                 <p class="time text-color">{{ .time }}</p>
                 {{ end }}
@@ -45,20 +49,17 @@
                 <div class="content-img text-lg-right" style = "display: inline-block;">
                 {{ if .icons }}
                   {{ if ne .slides "" }}
-                    <span style = "display: inline-block; margin-right: 40px;"><a href={{ .slides }}><h2 style="color: #000099"><i class="tf-ion-android-document"></i></h2></a></span>
+                    <span style = "display: inline-block; margin-right: 40px;"><a href={{ .slides }}><h2 style="color: #000099"><i class="fas fa-file-pdf"></i></h2></a></span>
                   {{ else }}
-                    <span style = "display: inline-block; margin-right: 40px;"><a href="#"><h2 style="color: #e6e6ff"><i class="tf-ion-document"></i></h2></a></span>
+                    <span style = "display: inline-block; margin-right: 40px;"><h2 style="color: #e6e6ff"><i class="fas fa-file-pdf"></i></h2></span>
                   {{ end }}
                   {{ if ne .youtube "" }}
-                    <span style = "display: inline-block; margin-right: 40px;"><a href={{ .youtube }}><h2 style="color: #ff0000;"><i class="tf-ion-social-youtube mr-2"></i></h2></a></span>
+                    <span style = "display: inline-block; margin-right: 40px;"><a href={{ .youtube }}><h2 style="color: #ff0000;"><i class="fa fa-youtube-play" aria-hidden="true"></i></h2></a></span>
                   {{ else }}
-                    <span style = "display: inline-block; margin-right: 40px;"><a href="#"><h2 style="color: #ffe6e6;"><i class="tf-ion-social-youtube-outline mr-2"></i></h2></a></span>
+                    <span style = "display: inline-block; margin-right: 40px;"><h2 style="color: #ffe6e6;"><i class="fa fa-youtube-play" aria-hidden="true"></i></h2></span>
                   {{ end }}
                 {{ end }}
-                {{ if ne .image "" }}
-                  <img src="{{ .image | absURL }}" alt="" class="img-fluid w-25">
-                </div>
-                {{ end }}
+
               </li>
               {{ end }}
             </ul>

@@ -39,7 +39,7 @@
           <div class="tab-pane fade {{ if eq $index 0 }} show active {{ end }} " id="scheduleTab{{$.Scratch.Get `counter`}}" role="tabpanel">
             <ul class="mt-5 time-table pl-0 list-unstyled">
               {{ range .tabContentList }}
-              <li class="d-lg-flex align-items-center justify-content-between bg-light p-4 mb-3">
+              <li class="d-lg-flex align-items-center justify-content-left bg-light p-4 mb-3">
                 {{ if ne .time "" }}
                 <p class="time text-color">{{ .time }}</p>
                 {{ end }}

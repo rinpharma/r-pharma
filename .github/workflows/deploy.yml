@@ -3,7 +3,7 @@ name: build_and_deploy
 on:
   push:
     branches:
-      - master  
+      - master
   pull_request:
     branches:
       - master # TEMP while testing (trigger via PR)
@@ -20,12 +20,16 @@ jobs:
         run: Rscript -e 'install.packages(c("rmarkdown","blogdown","googlesheets4","tidyverse","pins","glue"))'
       - name: Install Hugo
         run: Rscript -e 'blogdown::install_hugo(extended = TRUE, version = "0.68.3")'
-      - name: Get themes
-        run: git submodule update --remote
+      #- name: Get themes
+      #  run: git submodule update --remote
       - name: Look at files
         run: Rscript -e 'dir()'
       - name: Run hugo_build()
         run: Rscript -e 'blogdown::hugo_build(local = FALSE)'
+      - name: Look at files post run
+        run: Rscript -e 'dir()'
+      - name: Look at files in public
+        run: Rscript -e 'dir("public")'
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:

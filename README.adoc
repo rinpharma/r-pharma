@@ -2,9 +2,17 @@
 :toc-title:
 :toclevels: 99
 
+// URIs:
+:uri-repo: https://github.com/asciidoctor/docbookrx
+:uri-rvm: https://epijim.github.io/r-pharma/
+:uri-build-status: https://github.com/epijim/r-pharma/actions/workflows/deploy.yml
+:img-build-status: https://github.com/epijim/r-pharma/actions/workflows/deploy.yml/badge.svg?branch=master
+
 # R/Pharma website
 
-[![build_and_deploy](https://github.com/epijim/r-pharma/actions/workflows/deploy.yml/badge.svg?branch=master)](https://github.com/epijim/r-pharma/actions/workflows/deploy.yml)
+ifdef::status[]
+image:{img-build-status}[Build Status Badge,link={uri-build-status}]
+endif::[]
 
 toc::[]
 

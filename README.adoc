@@ -1,0 +1,36 @@
+:toc: macro
+:toc-title:
+:toclevels: 99
+
+# R/Pharma website
+
+[![build_and_deploy](https://github.com/epijim/r-pharma/actions/workflows/deploy.yml/badge.svg?branch=master)](https://github.com/epijim/r-pharma/actions/workflows/deploy.yml)
+
+toc::[]
+
+
+R/Pharma website: [rinpharma.com](http://rinpharma.com)
+
+## General framework
+
+This website is based on the `Hugo` theme `starter-research-group`, a
+fork off the `academic` theme. The theme documentation is shared - and available
+at [wowchemy.com/docs/](https://wowchemy.com/docs/).
+
+## `gsheet` as source of truth
+
+We use [this gsheet](https://docs.google.com/spreadsheets/d/1NaDnMRh2nOBCzBUxbIyJBVWd_InaEMLTW0rEJtD2ywE/edit?usp=drive_web&ouid=110502841866540588057)
+as a source of truth for the proceedings (abstracts of talks) and the list of
+organisors.
+
+### proceedings
+
+### team
+
+### conference schedules
+
+## Deploying the site
+
+### As a contributor
+
+### Details on how it works

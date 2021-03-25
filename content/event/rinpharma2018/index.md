@@ -1,7 +1,7 @@
 ---
-title: 2019 Conference
+title: 2018 Conference
 
-event: 2019 Conference
+event: 2018 Conference
 event_url:
 
 location: Harvard University
@@ -12,10 +12,10 @@ address:
   postcode: '02138'
   country: United States
 
-rinpharma2019: true
-
 summary: Placeholder summary
-abstract: "Placeholder summary."
+abstract: "Placeholder abstract."
+
+rinpharma2018: true
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -55,5 +55,3 @@ slides:
 #   Otherwise, set `projects = []`.
 projects:
 ---
-
-James will add an html schedule here.

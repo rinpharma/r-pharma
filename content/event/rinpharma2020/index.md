@@ -13,7 +13,9 @@ location: Held 100% online
 #  country: United States
 
 summary: An online event attracting 1,000 R practioners in Pharma.
-abstract: "The third R/Pharma, this year an online event attracting 1,000 R practioners in Pharma."
+abstract: "The third R/Pharma, this year an online event attracting 1,000 R practitioners in Pharma."
+
+rinpharma2020 : true
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.

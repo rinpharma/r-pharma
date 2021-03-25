@@ -18,30 +18,92 @@ toc::[]
 
 R/Pharma website: http://rinpharma.com[rinpharma.com]
 
+## Urgent to-do
+
+Schedules look terrible::
+    The files `layouts/partials/rinpharmaXXXX.html` need editing (along with
+      CSS added) to improve the look of the conference specific schedules.
+
+Schedules data management is clunky::
+    Currently we have a separate layout for each conference, as I couldn't
+    figure out yet in Hugo how to pass down which data file to use.
+    This must be possible though - so will need to dive deeper into shortcodes
+    and partials in Hugo to see how to do it.
+
 ## General framework
 
 This website is based on the `Hugo` theme `starter-research-group`, a
 fork off the `academic` theme. The theme documentation is shared - and available
 at https://wowchemy.com/docs/[wowchemy.com/docs/].
 
+## Call to action
+
+The 'call to action' (`cta`) is the button that tells people to signup for the
+next conference. Enable or disable in the file `content/home/welcome.md`.
+
 ## `gsheet` as source of truth
 
 We use https://docs.google.com/spreadsheets/d/1NaDnMRh2nOBCzBUxbIyJBVWd_InaEMLTW0rEJtD2ywE/edit?usp=drive_web&ouid=110502841866540588057[this gsheet]
 as a source of truth for the proceedings (abstracts of talks) and the list of
-organisers.
+organisers. This gsheet is read by the Github action `.github/workflows/deploy.yml`
+when it rebuilds and deploys the site.
+
+The folders `content/authors/` and `content/publications/` are built in the CICD
+process - so editing them in the site code has no effect. You must edit the
+gsheet.
+
+The CICD process also build the _rinpharmaXXXX_ `.yml` files in `data/` that
+have the schedule data for each conference.
 
 IMPORTANT: Please make sure to update the gdoc if you want to edit the proceedings, schedule or list of people.
 
+### Accessing the data (e.g. for shiny apps)
+
+The gsheet data (minus emails) is written to a public Rstudio 'pins' dataset,
+which can be accessed by other services (e.g. a conference specific shiny app),
+or to do something like a wordcloud on abstracts.
+
+The data is in this repo https://github.com/rinpharma/rinpharma-data[github.com/rinpharma/rinpharma-data],
+and is written to by the CICD process. You can access it (with no authentication)
+via the following code.
+
+[source,R]
+library(pins)
+board_register_github(repo = "rinpharma/rinpharma-data",branch = "master")
+pin_get("proceedings", board = "github")
+
 ### proceedings
 
-
+The sheet `all_conferences` in the main gsheet is used to populate the
+_proceedings_ on the site. The CICD process takes the gsheet data and makes an
+entry in `publication/` for each talk from the conference.
 
 ### team
 
+The sheet `team` in the main gsheet is used to populate the
+_people_ section on the site. The CICD process takes the gsheet data and makes an
+entry in `authors/` for each person. We can update the `R` code in
+`build_scripts` to allow multiple groups here.
+
+NOTE: The profile photos come from the persons Gravater profile. We need to get
+people to go https://en.gravatar.com/[that service if they want to to add their image].
+
 ### conference schedules
+
+The sheet `all_conferences` in the main gsheet is used to populate the
+_schedule_ in each conference event page.
 
 ## Deploying the site
 
+NOTE: Humans should not deploy the site, or work directly on `master`.
+The site is built automatically by the CICD process in `.github/workflows/deploy.yml`.
+
 ### As a contributor
 
-### Details on how it works
+- To update the organising team, proceedings content or a schedule - edit the
+gsheet.
+- To edit the website code - make your edits in a branch and make a PR onto master.
+Remember that the CICD process will rebuild (e.g. don't worry about pushing up a
+built version of the site, or pulling updates from the gsheet.)
+
+### Details on how `deploy.yml` works

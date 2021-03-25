@@ -27,7 +27,7 @@ jobs:
       - name: Run hugo_build()
         run: Rscript -e 'blogdown::hugo_build(local = FALSE)'
       - name: Look at files post run
-        run: Rscript -e 'dir()'
+        run: Rscript -e 'list.files(recursive = TRUE)'
       - name: Look at files in public
         run: Rscript -e 'dir("public")'
       - name: Deploy 🚀

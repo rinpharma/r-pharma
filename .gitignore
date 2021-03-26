@@ -3,6 +3,13 @@
 # Hugo
 /resources/
 public/
+docs/
+content/authors/
+content/publication/
+data/rinpharma2018.yml
+data/rinpharma2019.yml
+data/rinpharma2020.yml
+data/rinpharma2021.yml
 assets/jsconfig.json
 .Rproj.user
 .secrets

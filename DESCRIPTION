@@ -35,4 +35,6 @@ Imports:
     rmarkdown,
     blogdown,
     sodium,
-    anytime
+    anytime,
+    openssl,
+    jpeg

@@ -116,7 +116,10 @@ for (i in d_team$linkedin) {
 }
   
 #### Pins -------------------------------------------------------------------
-board_register_github(repo = "rinpharma/rinpharma-data", branch = "master")
+board_register_github(
+  repo = "rinpharma/rinpharma-data", branch = "master",
+  token = Sys.getenv("REPO_PIN_PAT")
+  )
 
 # remove email
 organising_team <- d_team %>%

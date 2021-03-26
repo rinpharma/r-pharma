@@ -90,8 +90,12 @@ _people_ section on the site. The CICD process takes the gsheet data and makes a
 entry in `authors/` for each person. We can update the `R` code in
 `build_scripts` to allow multiple groups here.
 
-NOTE: The profile photos come from the persons Gravater profile. We need to get
-people to go https://en.gravatar.com/[that service if they want to to add their image].
+NOTE: The script `build_scripts/build_profile_image.R` looks in the gravatar
+and libravatar profile image services for your public profile photo. If you
+want to add your photo - please use either service to link you
+email to a profile image. libravatar is an open
+source take on gravatar.
+Links; https://en.gravatar.com/[gravatar] and https://www.libravatar.org/[libravatar]
 
 ### conference schedules
 
@@ -118,5 +122,12 @@ built version of the site, or pulling updates from the gsheet.)
 1. This will run the scripts in `/build_scripts/` to update content where
 the source of truth is in the `gsheet`. Doing this overwrites folders like
 ``/content/authors/` and `/content/publications/`.
+1. `deploy.yml` references a secret in `env:`. This is the password needed to
+decrypt the service account token stored in `inst` (using inst as default location
+  as it's where people expect it when doing an R package).
+  See `/build_scripts/setup.R` for how it was made. At the start of each script
+  there is a verbose dance of code based on the R function `gargle:::secret_read`
+  but modified to work outside the context of an R package (maybe should be
+    a helper function rather than repeated in each script).
 1. Then the `deploy.yml` script runs a second set of code that will run
 Hugo and then publish the output to a detached `gh-pages` branch.

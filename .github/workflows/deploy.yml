@@ -55,9 +55,9 @@ jobs:
 
       - name: Build team
         run: Rscript -e 'source("build_scripts/build_team.R")'
-      - name: Build team
+      - name: Build proceedings
         run: Rscript -e 'source("build_scripts/build_proceedings.R")'
-      - name: Build team
+      - name: Build schedules
         run: Rscript -e 'source("build_scripts/build_schedules.R")'
 
       - name: Run hugo_build()

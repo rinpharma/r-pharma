@@ -148,9 +148,10 @@ for (yr in seq_along(meta)) {
       v_author <- data$Speaker
 
       v_affiliation <- data$Affiliation
-
-      cat(glue(
-      '
+      
+      if (data$Type == "Schedule only") {
+        cat(glue(
+          '
         # tab content list
         - time : "{data$StartTime}"
           image : "media/schedule/{data$Type}.jpg"
@@ -159,13 +160,32 @@ for (yr in seq_along(meta)) {
           youtube: "{data$Video}"
           content: "
 
-          ### {data$Title}
-
-          ###### {v_author}
-
-          {v_affiliation}
+          **{data$Title}**
           "
-          ', .trim = FALSE, .na = ""))
+          ', .trim = FALSE, .na = "")
+        )
+        
+      } else {
+        cat(glue(
+          '
+        # tab content list
+        - time : "{data$StartTime}"
+          image : "media/schedule/{data$Type}.jpg"
+          icons: {icons}
+          slides: "{data$Slides}"
+          youtube: "{data$Video}"
+          content: "
+
+          [**{data$Title}**](/publication/{data$ID}/)
+          
+
+          {data$Speaker}, _{data$Affiliation}_
+          "
+          ', .trim = FALSE, .na = "")
+          )
+      }
+
+
     }
   }
 

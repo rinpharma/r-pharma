@@ -118,5 +118,12 @@ built version of the site, or pulling updates from the gsheet.)
 1. This will run the scripts in `/build_scripts/` to update content where
 the source of truth is in the `gsheet`. Doing this overwrites folders like
 ``/content/authors/` and `/content/publications/`.
+1. `deploy.yml` references a secret in `env:`. This is the password needed to
+decrypt the service account token stored in `inst` (using inst as default location
+  as it's where people expect it when doing an R package).
+  See `/build_scripts/setup.R` for how it was made. At the start of each script
+  there is a verbose dance of code based on the R function `gargle:::secret_read`
+  but modified to work outside the context of an R package (maybe should be
+    a helper function rather than repeated in each script).
 1. Then the `deploy.yml` script runs a second set of code that will run
 Hugo and then publish the output to a detached `gh-pages` branch.

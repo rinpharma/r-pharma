@@ -3,14 +3,29 @@ library(tidyverse)
 library(googlesheets4)
 library(pins)
 
+options(gargle_quiet = FALSE)
+
+file_name <- "rinpharma-4ac2ad6eba3b.json"
+secret_name <- "googlesheets4"
+path <- paste0("inst/secret/", file_name)
+raw <- readBin(path, "raw", file.size(path))
+json <- sodium::data_decrypt(
+  bin = raw, key = gargle:::secret_pw_get(secret_name),
+  nonce = gargle:::secret_nonce()
+)
+pass <- rawToChar(json)
+
+gs4_auth(
+  scopes = 'https://www.googleapis.com/auth/spreadsheets',
+  path = pass
+  )
+
 # Get data -------------------------------------------------------------------
 
 sheet_url <- "https://docs.google.com/spreadsheets/d/1NaDnMRh2nOBCzBUxbIyJBVWd_InaEMLTW0rEJtD2ywE/edit#gid=0"
-# check the value of the option, if you like
-options(gargle_oauth_email = "james.black.jb2@roche.com")
-gs4_auth(email = "james.black.jb2@roche.com", cache = ".secrets")
+
 d_raw_proceedings <- read_sheet(
-  sheet_url, 
+  sheet_url,
   sheet = "all_conferences",
   col_types = "ccccDcccccc"
   )
@@ -18,7 +33,7 @@ d_raw_proceedings <- read_sheet(
 # Clean data -------------------------------------------------------------------
 
 d_all <- d_raw_proceedings %>%
-  
+
   arrange(Date,Start) %>%
   mutate(
     # Modify col
@@ -32,7 +47,7 @@ d_all <- d_raw_proceedings %>%
     EndTime = anytime::anytime(paste(Date, End)),
     StartTime = strftime(StartTime, format="%l:%M %p"),
     EndTime = strftime(EndTime, format="%l:%M %p"),
-    
+
     EndTime = ifelse(EndTime == "12:00 am",NA,EndTime)
   ) %>%
   select(
@@ -40,7 +55,7 @@ d_all <- d_raw_proceedings %>%
     StartTime,EndTime,Start,End
   )
 
-## build website schedule yml files 
+## build website schedule yml files
 
 meta <- list(
   schedule2018 = list(
@@ -91,7 +106,7 @@ for (yr in seq_along(meta)) {
 
   for (day_val in unique(df$Date)) {
     df_day <- df %>% dplyr::filter(Date == day_val)
-    
+
     df_day_range <- glue(
       "{min_start} to {min_end}",
       min_start = df_day %>%

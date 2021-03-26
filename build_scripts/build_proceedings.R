@@ -3,10 +3,23 @@ library(tidyverse)
 library(googlesheets4)
 
 library(pins)
-# devtools::install_github(
-#   "OpenPharma/GithubMetrics", ref = "add/activity"
-# )
-#library(GithubMetrics) for gh_file_get()
+
+options(gargle_quiet = FALSE)
+
+file_name <- "rinpharma-4ac2ad6eba3b.json"
+secret_name <- "googlesheets4"
+path <- paste0("inst/secret/", file_name)
+raw <- readBin(path, "raw", file.size(path))
+json <- sodium::data_decrypt(
+  bin = raw, key = gargle:::secret_pw_get(secret_name),
+  nonce = gargle:::secret_nonce()
+)
+pass <- rawToChar(json)
+
+gs4_auth(
+  scopes = 'https://www.googleapis.com/auth/spreadsheets',
+  path = pass
+  )
 
 ## Template -------------------------------------------------------------------
 template <- "
@@ -45,13 +58,11 @@ url_video: '{video}'
 # Get data -------------------------------------------------------------------
 
   sheet_url <- "https://docs.google.com/spreadsheets/d/1NaDnMRh2nOBCzBUxbIyJBVWd_InaEMLTW0rEJtD2ywE/edit#gid=0"
-  # check the value of the option, if you like
-  options(gargle_oauth_email = "james.black.jb2@roche.com")
-  gs4_auth(email = "james.black.jb2@roche.com", cache = ".secrets")
+
   d_raw_proceedings <- read_sheet(sheet_url, sheet = "all_conferences")
-  
+
 # Clean data -----------------------------------------------------------------
-  
+
   d_all <- d_raw_proceedings %>%
     arrange(Date,Start) %>%
     mutate(
@@ -64,15 +75,15 @@ url_video: '{video}'
     select(
       ID,Event,Abstract,Type, Year,Date, Speaker, Affiliation, Title, Slides, Video
     )
-  
-  d_proceedings <- d_all %>% 
+
+  d_proceedings <- d_all %>%
     filter(
       Type %in% c("Workshop","Keynote","Talk")
     )
-  
-# Remove NA 
+
+# Remove NA
   d_proceedings[is.na(d_proceedings)] <- ""
-  
+
 # Sanitise
   d_proceedings <- d_proceedings %>%
     mutate(
@@ -81,21 +92,21 @@ url_video: '{video}'
         Type == "Keynote" ~ 2,
         Type == "Workshop" ~ 3
       ),
-      
+
       # sanitize abstract
       abstract = gsub(":","",Abstract),
-      
+
       # split speaker and author
       author = paste("-",Speaker),
       author = gsub(" and ","\n- ",author),
-      
+
       affaliations = paste("-",i_proceeding$Affiliation),
       affaliations = gsub(" \\| ","\n- ",affaliations)
     )
-  
+
 # Fill template --------------------------------------------------------------
 for (i in d_proceedings$ID) {
-  
+
   i_proceeding <- d_proceedings %>%
     filter(ID == i) # i <- "rinpharma_70" i <- "rinpharma_127"
 
@@ -113,37 +124,38 @@ for (i in d_proceedings$ID) {
       slides = i_proceeding$Slides,
       video = i_proceeding$Video
     )
-  
+
   i_folder <- glue("content/publication/",i_proceeding$ID)
   dir.create(i_folder, showWarnings = FALSE)
   sink(paste0(i_folder,"/index.md"))
   cat(proceeding_output)
   sink()
 }
-  
+
 #### Pins -------------------------------------------------------------------
-  board_register_github(repo = "rinpharma/rinpharma-data", branch = "master")
-  
+  board_register_github(
+  repo = "rinpharma/rinpharma-data",
+  branch = "master",
+  token = Sys.getenv("REPO_PIN_PAT")
+  )
+
   # old_proceedings <- gh_file_get(
   #   repo = "rinpharma-data",
   #   org = "rinpharma",
   #   file = "d-proceedings/data.csv"
   # ) %>%
   # read_csv(quoted_na = FALSE)
-  
+
   # Proceedings
   proceedings <- d_proceedings %>%
     select(
-      ID,Event,Type,Year,Date,Speaker, 
+      ID,Event,Type,Year,Date,Speaker,
       Affiliation,Title,Slides,Video,Abstract = abstract
     )
 
-  
-  pin(proceedings, 
-      description = "Full proceedings data", 
+
+  pin(proceedings,
+      description = "Full proceedings data",
       board = "github",
       branch = "master"
-  )  
-  
-
-  
+  )

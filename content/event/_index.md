@@ -1,5 +1,5 @@
 ---
-title: R/Pharma conferences
+title: R/Pharma conferences and events
 
 # View.
 #   1 = List

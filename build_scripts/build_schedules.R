@@ -1,5 +1,5 @@
 library(glue)
-library(tidyverse)
+library(dplyr)
 library(googlesheets4)
 library(pins)
 

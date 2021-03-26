@@ -1,7 +1,7 @@
 Package: rinpharma
 Title: R in Pharma website
 Version: 0.1
-Authors@R: 
+Authors@R:
     c(person(given = "James",
              family = "Black",
              role = c("cre", "aut")
@@ -9,9 +9,9 @@ Authors@R:
       )
 Description: Website code
 URL: https://rinpharma.com
-Depends: 
+Depends:
     R (>= 3.2)
-Imports: 
+Imports:
     cellranger,
     cli (>= 2.0.0),
     curl,
@@ -34,4 +34,5 @@ Imports:
     pins,
     rmarkdown,
     blogdown,
-    sodium
+    sodium,
+    anytime

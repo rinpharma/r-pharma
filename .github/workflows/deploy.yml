@@ -12,6 +12,8 @@ jobs:
   blogdown:
     name: build_and_push_to_gh_pages
     runs-on: ubuntu-latest
+    env:
+      GOOGLESHEETS4_PASSWORD: ${{ secrets.GOOGLESHEETS4_PASSWORD }}
     steps:
       - uses: actions/checkout@v1
       - uses: r-lib/actions/setup-r@v1
@@ -22,14 +24,18 @@ jobs:
         run: Rscript -e 'blogdown::install_hugo(extended = TRUE, version = "0.82.0")'
       #- name: Get themes
       #  run: git submodule update --remote
-      - name: Look at files
-        run: Rscript -e 'dir()'
+      #- name: Look at files
+      #  run: Rscript -e 'dir()'
+      - name: Build team
+        run: |
+          source("build_scripts/build_team.R")
+        shell: Rscript {0}
       - name: Run hugo_build()
         run: Rscript -e 'blogdown::hugo_build(local = FALSE)'
-      - name: Look at files post run
-        run: Rscript -e 'list.files(recursive = TRUE)'
-      - name: Look at files in public
-        run: Rscript -e 'dir("public")'
+      #- name: Look at files post run
+      #  run: Rscript -e 'list.files(recursive = TRUE)'
+      #- name: Look at files in public
+      #  run: Rscript -e 'dir("public")'
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.0
         with:

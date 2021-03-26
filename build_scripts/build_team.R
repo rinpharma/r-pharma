@@ -19,12 +19,9 @@ social:
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/{linkedin}
-#- icon: github
-#  icon_pack: fab
-#  link: https://github.com/epijim
-#- icon: link
-#  icon_pack: fab
-#  link: https://github.com/epijim
+{github}
+{custom_link}
+
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: '{email}'
@@ -52,11 +49,35 @@ user_groups:
   d_team <- d_raw_team %>%
     filter(!is.na(linkedin)) 
   
+  d_team[is.na(d_team)] <- ""
+  
 # Fill template ----------------------------------------------------------------
 for (i in d_team$linkedin) {
   
   i_team <- d_team %>%
     filter(linkedin == i) 
+  
+  if(i_team$custom_link != ""){
+    custom_link <- glue(
+      "- icon: link
+        icon_pack: fas
+        link: {i_team$custom_link}
+      "
+    )
+  } else {
+    custom_link <- ""
+  }
+  
+  if(i_team$github != ""){
+    github <- glue(
+      "- icon: github
+        icon_pack: fab
+        link: https:://github.com/{i_team$github}
+      "
+    )
+  } else {
+    github <- ""
+  }
 
   team_output <-
     glue(
@@ -65,6 +86,8 @@ for (i in d_team$linkedin) {
       site_superuser = i_team$site_superuser,
       role = i_team$role,
       linkedin = i_team$linkedin,
+      custom_link = custom_link,
+      github = github,
       email = i_team$email
     )
   

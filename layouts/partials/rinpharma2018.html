@@ -45,19 +45,6 @@
                 <div class="content">
                   <p> {{ .content | markdownify }} </p>
                 </div>
-                <div class="content-img text-lg-right" style = "display: inline-block;">
-                {{ if .icons }}
-                  {{ if ne .slides "" }}
-                    <span style = "display: inline-block; margin-right: 40px;"><a href={{ .slides }}><h2 style="color: #000099"><i class="fas fa-file-pdf"></i></h2></a></span>
-                  {{ else }}
-                    <span style = "display: inline-block; margin-right: 40px;"><h2 style="color: #e6e6ff"><i class="fas fa-file-pdf"></i></h2></span>
-                  {{ end }}
-                  {{ if ne .youtube "" }}
-                    <span style = "display: inline-block; margin-right: 40px;"><a href={{ .youtube }}><h2 style="color: #ff0000;"><i class="fa fa-youtube-play" aria-hidden="true"></i></h2></a></span>
-                  {{ else }}
-                    <span style = "display: inline-block; margin-right: 40px;"><h2 style="color: #ffe6e6;"><i class="fa fa-youtube-play" aria-hidden="true"></i></h2></span>
-                  {{ end }}
-                {{ end }}
 
               </li>
               {{ end }}

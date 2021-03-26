@@ -100,7 +100,7 @@ url_video: '{video}'
       author = paste("-",Speaker),
       author = gsub(" and ","\n- ",author),
 
-      affaliations = paste("-",i_proceeding$Affiliation),
+      affaliations = paste("-",Affiliation),
       affaliations = gsub(" \\| ","\n- ",affaliations)
     )
 

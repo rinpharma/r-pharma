@@ -4,8 +4,17 @@
 /resources/
 public/
 docs/
-content/authors/
-content/publication/
+
+# authors sub directories
+content/authors/**
+!/content/authors/.gitkeep
+
+
+# publications subdirectories
+content/publication/**
+!/content/publication/_index.md
+
+
 data/rinpharma2018.yml
 data/rinpharma2019.yml
 data/rinpharma2020.yml

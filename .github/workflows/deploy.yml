@@ -21,7 +21,7 @@ jobs:
       - name: Install rmarkdown and blogdown
         run: Rscript -e 'install.packages(c("rmarkdown","blogdown"))'
       - name: Install other packages
-        run: Rscript -e 'install.packages(c("googlesheets4","dplyr","pins","glue")'
+        run: Rscript -e 'install.packages(c("googlesheets4","dplyr","pins","glue"))'
       - name: Install Hugo
         run: Rscript -e 'blogdown::install_hugo(extended = TRUE, version = "0.82.0")'
       #- name: Get themes

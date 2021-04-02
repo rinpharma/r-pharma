@@ -5,8 +5,8 @@
 // URIs:
 :uri-repo: https://github.com/asciidoctor/docbookrx
 :uri-rvm: https://rinpharma.com/
-:uri-build-status: https://github.com/epijim/RConsortium/actions/workflows/deploy.yml
-:img-build-status: https://github.com/epijim/RConsortium/actions/workflows/deploy.yml/badge.svg?branch=master
+:uri-build-status: https://github.com/RConsortium/r-pharma/actions/workflows/deploy.yml
+:img-build-status: https://github.com/RConsortium/r-pharma/actions/workflows/deploy.yml/badge.svg?branch=master
 
 # R/Pharma website
 

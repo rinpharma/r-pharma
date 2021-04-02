@@ -14,9 +14,8 @@ A quick guide to some the important questions we are often asked.
 ### How do I get a ticket for 2021?
 
 R/Pharma is a free event put on by volunteers with the generosity of Pharma
-companies and Harvard University. Tickets are now available at this link.
-After registering for a ticket please check our blog and twitter feed
-regularly for additional details.
+companies and Harvard University. More information on tickets for the 2021 event is 
+coming soon.
 
 ### What is the mission and history of R/Pharma?
 

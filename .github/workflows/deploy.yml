@@ -1,0 +1,75 @@
+name: build_and_deploy
+
+on:
+  push:
+    branches:
+      - master
+  #pull_request:
+  #  branches:
+  #    - master # TEMP while testing (trigger via PR)
+
+jobs:
+  blogdown:
+    name: build_and_push_to_gh_pages
+    runs-on: ubuntu-latest
+    env:
+      GOOGLESHEETS4_PASSWORD: ${{ secrets.GOOGLESHEETS4_PASSWORD }}
+      RSPM: https://packagemanager.rstudio.com/cran/__linux__/bionic/latest
+      REPO_PIN_PAT: ${{ secrets.REPO_PIN_PAT }}
+    steps:
+      - uses: actions/checkout@v1
+      - uses: r-lib/actions/setup-r@v1
+      - uses: r-lib/actions/setup-pandoc@v1
+
+      - name: Install pak and query dependencies
+        run: |
+          install.packages("pak", repos = "https://r-lib.github.io/p/pak/dev/")
+          saveRDS(pak::pkg_deps("local::.", dependencies = TRUE), ".github/r-depends.rds")
+        shell: Rscript {0}
+
+      - name: Cache R packages
+        uses: actions/cache@v2
+        with:
+          path: ${{ env.R_LIBS_USER }}
+          key: ubuntu-18.04-${{ steps.install-r.outputs.installed-r-version }}-1-${{ hashFiles('.github/r-depends.rds') }}
+          restore-keys: ubuntu-18.04-${{ steps.install-r.outputs.installed-r-version }}-1-
+
+      - name: Install system dependencies
+        if: runner.os == 'Linux'
+        run: |
+          pak::local_system_requirements(execute = TRUE)
+          pak::pkg_system_requirements("pkgdown", execute = TRUE)
+        shell: Rscript {0}
+
+      - name: Install dependencies
+        run: |
+          pak::local_install_dev_deps(upgrade = TRUE)
+        shell: Rscript {0}
+
+      - name: Install Hugo
+        run: Rscript -e 'blogdown::install_hugo(extended = TRUE, version = "0.82.0")'
+      #- name: Get themes
+      #  run: git submodule update --remote
+      #- name: Look at files
+      #  run: Rscript -e 'dir()'
+
+      - name: Build team
+        run: Rscript -e 'source("build_scripts/build_team.R")'
+      - name: Build proceedings
+        run: Rscript -e 'source("build_scripts/build_proceedings.R")'
+      - name: Build schedules
+        run: Rscript -e 'source("build_scripts/build_schedules.R")'
+      - name: Build profile images
+        run: Rscript -e 'source("build_scripts/build_profile_image.R")'
+
+      - name: Run hugo_build()
+        run: Rscript -e 'blogdown::hugo_build(local = FALSE)'
+      #- name: Look at files post run
+      #  run: Rscript -e 'list.files(recursive = TRUE)'
+      #- name: Look at files in public
+      #  run: Rscript -e 'dir("public")'
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@4.1.0
+        with:
+          branch: gh-pages # The branch the action should deploy to.
+          folder: public # The folder the action should deploy.

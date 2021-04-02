@@ -1,6 +1,24 @@
-docs/\.DS_Store
-\.DS_Store
+# IDEs
+.idea/
+# Hugo
+/resources/
+public/
+docs/
+
+# authors sub directories
+content/authors/**
+!/content/authors/.gitkeep
+
+
+# publications subdirectories
+content/publication/**
+!/content/publication/_index.md
+
+
+data/rinpharma2018.yml
+data/rinpharma2019.yml
+data/rinpharma2020.yml
+data/rinpharma2021.yml
+assets/jsconfig.json
 .Rproj.user
-RinPharma.Rproj
-programsource/\.httr-oauth
-.Rhistory
+.secrets

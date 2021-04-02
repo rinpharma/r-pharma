@@ -1,0 +1,7 @@
+# Publication types.
+# Each item in the list corresponds to an item in the language packs.
+types = [ "pub_uncut",
+          "pub_talk",
+          "pub_keynote",
+          "pub_workshop"
+        ]

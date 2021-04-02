@@ -4,17 +4,15 @@
 
 // URIs:
 :uri-repo: https://github.com/asciidoctor/docbookrx
-:uri-rvm: https://epijim.github.io/r-pharma/
-:uri-build-status: https://github.com/epijim/r-pharma/actions/workflows/deploy.yml
-:img-build-status: https://github.com/epijim/r-pharma/actions/workflows/deploy.yml/badge.svg?branch=master
+:uri-rvm: https://rinpharma.com/
+:uri-build-status: https://github.com/epijim/RConsortium/actions/workflows/deploy.yml
+:img-build-status: https://github.com/epijim/RConsortium/actions/workflows/deploy.yml/badge.svg?branch=master
 
 # R/Pharma website
 
 image:{img-build-status}[Build Status Badge,link={uri-build-status}]
 
 toc::[]
-
-**Currently site is here**: http://insightsengineering.com/
 
 Final: R/Pharma website: http://rinpharma.com[rinpharma.com]
 

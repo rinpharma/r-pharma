@@ -1,0 +1,15 @@
+.time-table .time {
+    flex-basis: 20%;
+}
+
+.time-table .content-img img {
+    border-radius: 100%;
+}
+
+.w-25 {
+    width: 25%!important;
+}
+
+.tf-ion-social-youtube:before {
+  content: "\f24d";
+}

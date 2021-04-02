@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>World Economic Forum | R/Pharma</title>
+    <link>/tag/world-economic-forum/</link>
+      <atom:link href="/tag/world-economic-forum/index.xml" rel="self" type="application/rss+xml" />
+    <description>World Economic Forum</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2021</copyright><lastBuildDate>Fri, 09 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>World Economic Forum</title>
+      <link>/tag/world-economic-forum/</link>
+    </image>
+    
+    <item>
+      <title>Unleash Shiny</title>
+      <link>/publication/rinpharma_134/</link>
+      <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_134/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

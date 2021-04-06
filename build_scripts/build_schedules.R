@@ -160,7 +160,21 @@ for (yr in seq_along(meta)) {
           youtube: "{data$Video}"
           content: "
 
-          **{data$Title}**
+          **{data$Title}** 
+          "
+          ', .trim = FALSE, .na = "")
+        )
+        
+      } else if (data$Type == "Coffee session") {
+        
+        cat(glue(
+          '
+        # tab content list
+        - time : "{data$StartTime}"
+          image : "media/schedule/{data$Type}.jpg"
+          content: "
+
+          **{data$Title}** (Coffee session)
           "
           ', .trim = FALSE, .na = "")
         )

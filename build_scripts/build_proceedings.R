@@ -53,6 +53,8 @@ url_slides: '{slides}'
 url_video: '{video}'
 
 ---
+
+{missing_comment}
 "
 
 # Get data -------------------------------------------------------------------
@@ -101,7 +103,12 @@ url_video: '{video}'
       author = gsub(" and ","\n- ",author),
 
       affaliations = paste("-",Affiliation),
-      affaliations = gsub(" \\| ","\n- ",affaliations)
+      affaliations = gsub(" \\| ","\n- ",affaliations),
+      
+      missing_content = case_when(
+        abstract == "" & Slides == "" & Video == "" ~ "Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation",
+        TRUE ~ ""
+      )
     )
 
 # Fill template --------------------------------------------------------------
@@ -122,7 +129,8 @@ for (i in d_proceedings$ID) {
       abstract = i_proceeding$abstract,
       affaliations = i_proceeding$affaliations,
       slides = i_proceeding$Slides,
-      video = i_proceeding$Video
+      video = i_proceeding$Video,
+      missing_comment = i_proceeding$missing_content
     )
 
   i_folder <- glue("content/publication/",i_proceeding$ID)

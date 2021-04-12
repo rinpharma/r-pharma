@@ -89,7 +89,7 @@ for (i in d_team$linkedin) {
     github <- glue(
       "- icon: github
         icon_pack: fab
-        link: https:://github.com/{i_team$github}
+        link: https://github.com/{i_team$github}
       "
     )
   } else {

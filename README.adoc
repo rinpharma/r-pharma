@@ -105,6 +105,12 @@ _schedule_ in each conference event page.
 NOTE: Humans should not deploy the site, or work directly on `master`.
 The site is built automatically by the CICD process in `.github/workflows/deploy.yml`.
 
+### When deployments are triggered
+
+Deployments to push up a new version of the site are triggered any time master branch is
+updated AND at 3am on Sunday https://github.com/RConsortium/r-pharma/blob/master/.github/workflows/deploy.yml#L5[via this line]. 
+The 3am Sunday builds are so minor updates to the gsheet appear in the site (as gsheet edits don't trigger a build).
+
 ### As a contributor
 
 - To update the organising team, proceedings content or a schedule - edit the

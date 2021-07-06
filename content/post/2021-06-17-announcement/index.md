@@ -5,7 +5,7 @@ summary: First announcement of R/Pharma 2021.
 featured: true
 ---
 
-We are please to announce R/Pharma 2021 !!
+We are pleased to announce R/Pharma 2021 !!
 
 R/Pharma 2021 will be held as a free virtual conference from November 2-4, 2021 with workshops running the week before.
 

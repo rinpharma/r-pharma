@@ -16,9 +16,11 @@ jobs:
       RSPM: https://packagemanager.rstudio.com/cran/__linux__/bionic/latest
       REPO_PIN_PAT: ${{ secrets.REPO_PIN_PAT }}
     steps:
-      - uses: actions/checkout@v1
       - uses: r-lib/actions/setup-r@v1
       - uses: r-lib/actions/setup-pandoc@v1
+      
+      - name: Checkout
+        uses: actions/checkout@v2.3.1
 
       - name: Install pak and query dependencies
         run: |
@@ -65,10 +67,10 @@ jobs:
 
       - name: Run hugo_build()
         run: Rscript -e 'blogdown::hugo_build(local = FALSE)'
-      #- name: Look at files post run
-      #  run: Rscript -e 'list.files(recursive = TRUE)'
-      #- name: Look at files in public
-      #  run: Rscript -e 'dir("public")'
+      - name: Look at files post run
+        run: Rscript -e 'list.files(recursive = TRUE)'
+      - name: Look at files in public
+        run: Rscript -e 'dir("public")'
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.0
         with:

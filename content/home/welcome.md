@@ -39,3 +39,5 @@ cta_alt:
 The conference is a relatively small, scientifically &
 industry oriented, collegial event focused on the use of R in the development of
 pharmaceuticals.
+
+The 2021 Conference will run Nov. 2-4th, with workshops the week before.

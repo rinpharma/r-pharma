@@ -5,12 +5,38 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>R/Pharma</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2021</copyright><lastBuildDate>Thu, 17 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2021</copyright><lastBuildDate>Sat, 31 Jul 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
       <title>R/Pharma</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>Call For Papers</title>
+      <link>/post/2021-07-31-call4papers/</link>
+      <pubDate>Sat, 31 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>/post/2021-07-31-call4papers/</guid>
+      <description>&lt;p&gt;We’re excited to announce that the call for talks for R/Pharma 2021 is now open !!&lt;/p&gt;
+&lt;p&gt;R/Pharma 2021, the conference on all things R (some python, Julia and Stan too) in Pharma, will take place November 2nd-4th 2021, preceded by Training Days the week prior.  The conference will be fully virtual.&lt;/p&gt;
+&lt;p&gt;We are particularly interested in talks from people who cannot usually make it to the in-person event at Harvard University, or are newer to conference speaking.  R/Pharma committee members are offering free speaker coaching: as long as you have an interesting R in pharma idea and are willing to put in some work, we’ll help you develop a great talk.  Talks are short (10-20 minutes) high energy presentations that give you the chance to talk about an interesting project that you’ve tackled with R in pharma. Short talks, or demos of your R code, R packages, and shiny apps are great options.&lt;/p&gt;
+&lt;p&gt;We are particularly interested in submissions that have one or more of these qualities:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Examples of how shiny is used to promote R&lt;/li&gt;
+&lt;li&gt;Showcase the use of R in clinical trials&lt;/li&gt;
+&lt;li&gt;Your favourite R package and how it significantly eases an entire class of problems for a pharm use-case&lt;/li&gt;
+&lt;li&gt;Expand the use of R in pharma to reach new domains and audiences&lt;/li&gt;
+&lt;li&gt;Combine R with other world class tools, like python, tensorflow, and spark etc.&lt;/li&gt;
+&lt;li&gt;Reporting/Communication using RMarkdown, Shiny, ggplot2, or something else altogether&lt;/li&gt;
+&lt;li&gt;Discuss how to teach R/data science effectively in pharma&lt;/li&gt;
+&lt;li&gt;Talks on administering R in pharma and tackling scaling, packages, cloud, HPC etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Applications close August 31st, and you’ll be notified of our decision on Sept 7th.&lt;/p&gt;
+&lt;p&gt;To apply, please submit the form found at this &lt;a href=&#34;https://rinpharma.com/html/call4papers/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;  with your title and abstract that introduces you and your proposed topic. If you prefer, you can email your submission to &lt;a href=&#34;mailto:info@rinpharma.com&#34;&gt;info@rinpharma.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;There are 10-20 minute long talks that are scheduled alongside talks by invited speakers. We are looking for interesting topics and engaging speakers on the entire drug development process, medical devices and other pharma related topics.&lt;/p&gt;
+&lt;p&gt;SUBMIT AN ABSTRACT TODAY!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>R/Pharma 2021</title>

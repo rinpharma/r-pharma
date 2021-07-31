@@ -24,7 +24,7 @@ We are particularly interested in submissions that have one or more of these qua
 
 Applications close August 31st, and you’ll be notified of our decision on Sept 7th.
 
-To apply, please submit the form found at this [link](https://epijim.typeform.com/to/PMEpRS)  with your title and abstract that introduces you and your proposed topic. If you prefer, you can email your submission to info@rinpharma.com
+To apply, please submit the form found at this [link](https://rinpharma.com/html/call4papers/)  with your title and abstract that introduces you and your proposed topic. If you prefer, you can email your submission to info@rinpharma.com
 
 There are 10-20 minute long talks that are scheduled alongside talks by invited speakers. We are looking for interesting topics and engaging speakers on the entire drug development process, medical devices and other pharma related topics.
 

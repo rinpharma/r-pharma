@@ -26,11 +26,11 @@ design:
     # Text color (true=light, false=dark, or remove for the dynamic theme color).
     text_color_light: true
 
-cta:
-  url: '/html/call4papers/'
-  label: 2021 Call for papers
-  icon_pack: fas
-  icon: door-open
+#cta:
+#  url: '/html/call4papers/'
+#  label: 2021 Call for papers
+#  icon_pack: fas
+#  icon: door-open
 cta_alt:
   url: '/post/faq'
   label: Read the FAQ

@@ -56,4 +56,3 @@ slides:
 projects:
 ---
 
-James will add an html schedule here.

@@ -22,3 +22,5 @@ data/rinpharma2021.yml
 assets/jsconfig.json
 .Rproj.user
 .secrets
+
+.DS_Store

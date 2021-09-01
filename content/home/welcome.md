@@ -27,13 +27,19 @@ design:
     text_color_light: true
 
 cta:
-  url: '/html/call4papers/'
-  label: 2021 Call for papers
-  icon_pack: fas
-  icon: door-open
-cta_alt:
   url: '/post/faq'
   label: Read the FAQ
+  icon_pack: fas
+  icon: book-reader
+
+#cta:
+#  url: '/html/call4papers/'
+#  label: 2021 Call for papers
+#  icon_pack: fas
+#  icon: door-open
+#cta_alt:
+#  url: '/post/faq'
+#  label: Read the FAQ
 ---
 
 The conference is a relatively small, scientifically &

@@ -32,14 +32,14 @@ cta:
   icon_pack: fas
   icon: book-reader
 
-#cta:
-#  url: '/html/call4papers/'
-#  label: 2021 Call for papers
-#  icon_pack: fas
-#  icon: door-open
-#cta_alt:
-#  url: '/post/faq'
-#  label: Read the FAQ
+cta:
+  url: 'https://hopin.com/events/r-pharma-2021/registration'
+  label: 2021 registration
+  icon_pack: fas
+  icon: door-open
+cta_alt:
+  url: '/post/faq'
+  label: Read the FAQ
 ---
 
 The conference is a relatively small, scientifically &

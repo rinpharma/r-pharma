@@ -9,7 +9,7 @@ featured: true
 
 ## Background
 
-By design, R / Pharma is deliberately a smaller conference in terms of attendance
+By design, R/Pharma is deliberately a smaller conference in terms of attendance
 in order to encourage maximum opportunities for direct interaction with speakers.
 In 2018 and 2019 the conference was held in the Tsai Auditorium at the
 Center for Government and International Studies, Harvard University and capped at
@@ -21,8 +21,13 @@ industry practitioners to key R developers to leading academics. In addition
 there were a number of pre-conference workshops and full-length presentations as
 well as a number of shorter, highly-energetic lightning talks.
 
-For 2020 we are taking a hiatus from holding the meeting at Harvard and
-will be running a virtual conference. More details will follow.
+In 2020 we took a hiatus from holding the meeting at Harvard and
+ran a virtual conference. Over 1100 people registered for the three day virtual event that was
+preceeded by a week of 11 workshops.
+
+Following the success of the 2020 event the organizing committee decided to hold a virtaul
+event for the 2021 meeting, to be held from 2-4 November 2021.  We are hoping to hold a
+hybrid event in 2022.
 
 Our entire event is a community-lead effort and 100% volunteer run. The
 event is vendor neutral and very much an academic conference. Harvard has been very helpful in hosting the event.

@@ -1,7 +1,7 @@
 ---
-title: Call For Papers
+title: Call For Papers 
 date: 2021-07-31
-summary: Call For Papers.
+summary: Call For Papers is closed for 2021.
 featured: true
 ---
 

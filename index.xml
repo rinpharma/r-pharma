@@ -5,12 +5,26 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>R/Pharma</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2021</copyright><lastBuildDate>Sat, 31 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2021</copyright><lastBuildDate>Tue, 21 Sep 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
       <title>R/Pharma</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>R/Pharma 2021</title>
+      <link>/post/2021-09-21-registration/</link>
+      <pubDate>Tue, 21 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>/post/2021-09-21-registration/</guid>
+      <description>&lt;p&gt;We are pleased to announce that registration for R/Pharma 2021 is now open !!&lt;/p&gt;
+&lt;p&gt;R/Pharma 2021 will be held as a free virtual conference from November 2-4, 2021 with workshops running the week before.&lt;/p&gt;
+&lt;p&gt;Registration for the conference is now open via this &lt;a href=&#34;https://hopin.com/events/r-pharma-2021/registration&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;.  The program committee is hard at work, building the conference schedule and more details will be forthcoming very shortly.&lt;br&gt;
+We are pleased to announce that our keynote speakers this year will be Regis James (Regeneron) and Rich Iannone (RStudio) along with a packed schedule of other presenters across the industry.&lt;/p&gt;
+&lt;p&gt;After registering please check our twitter feed (@rinpharma) for information and updates.&lt;/p&gt;
+&lt;p&gt;We look forward to virtually seeing you at R/Pharma 2021.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Call For Papers</title>

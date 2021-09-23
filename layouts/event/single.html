@@ -78,7 +78,9 @@
 {{ if .Params.rinpharma2020 }}
     {{ partial "rinpharma2020" . }}
 {{ end }}
-
+{{ if .Params.rinpharma2021 }}
+    {{ partial "rinpharma2021" . }}
+{{ end }}
 
     {{ partial "page_footer" . }}
 

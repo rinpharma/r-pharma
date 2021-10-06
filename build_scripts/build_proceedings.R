@@ -97,6 +97,9 @@ url_video: '{video}'
 
       # sanitize abstract
       abstract = gsub(":","",Abstract),
+      abstract = gsub("[\r\n]"," ",abstract),
+      abstract = trimws(abstract), 
+      
 
       # split speaker and author
       author = paste("-",Speaker),
@@ -110,6 +113,8 @@ url_video: '{video}'
         TRUE ~ ""
       )
     )
+  
+  d_proceedings <- d_proceedings %>% filter(Year < 2021)
 
 # Fill template --------------------------------------------------------------
 for (i in d_proceedings$ID) {

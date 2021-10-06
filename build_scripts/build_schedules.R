@@ -84,6 +84,15 @@ meta <- list(
     url = "rinpharma2018"
     #titles = c("Workshops", "Day 1", "Day 2", "Day 3"),
     #subtitles = c("5 Oct - 9 Oct", "13 Oct [10:00am - 2:10 pm ET]", "14 Oct [10:00am - 2:20 pm ET]", "15 Oct [10:00am - 2:10 pm ET]")
+  ),
+  schedule2021 = list(
+    year = 2021,
+    data = d_all %>%
+      filter(Event == "2021 Conference"),
+    #days = c(1,2,3,4),
+    url = "rinpharma2018"
+    #titles = c("Workshops", "Day 1", "Day 2", "Day 3"),
+    #subtitles = c("5 Oct - 9 Oct", "13 Oct [10:00am - 2:10 pm ET]", "14 Oct [10:00am - 2:20 pm ET]", "15 Oct [10:00am - 2:10 pm ET]")
   )
 )
 

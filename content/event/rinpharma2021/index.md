@@ -20,7 +20,7 @@ rinpharma2021 : true
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
 date: "2021-11-02T10:00:00Z"
-date_end: "2021-04-15T14:00:00Z"
+date_end: "2021-11-04T14:20:00Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).

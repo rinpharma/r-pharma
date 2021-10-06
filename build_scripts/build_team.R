@@ -3,7 +3,7 @@ library(dplyr)
 library(googlesheets4)
 library(pins)
 
-options(gargle_quiet = FALSE)
+options(gargle_verbosity = "debug")
 
 file_name <- "rinpharma-4ac2ad6eba3b.json"
 secret_name <- "googlesheets4"
@@ -116,21 +116,21 @@ for (i in d_team$linkedin) {
 }
   
 #### Pins -------------------------------------------------------------------
-board_register_github(
-  repo = "rinpharma/rinpharma-data", branch = "master",
-  token = Sys.getenv("REPO_PIN_PAT")
-  )
-
-# remove email
-organising_team <- d_team %>%
-  select(
-    name,role,custom_link,linkedin,organising_comm,exec_comm,program_comm
-  )
-
-
-pin(organising_team, 
-    description = "Full proceedings data", 
-    board = "github",
-    branch = "master"
-)  
+# board_register_github(
+#   repo = "rinpharma/rinpharma-data", branch = "master",
+#   token = Sys.getenv("REPO_PIN_PAT")
+#   )
+# 
+# # remove email
+# organising_team <- d_team %>%
+#   select(
+#     name,role,custom_link,linkedin,organising_comm,exec_comm,program_comm
+#   )
+# 
+# 
+# pin(organising_team, 
+#     description = "Full proceedings data", 
+#     board = "github",
+#     branch = "master"
+# )  
   

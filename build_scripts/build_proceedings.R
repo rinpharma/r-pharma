@@ -141,29 +141,29 @@ for (i in d_proceedings$ID) {
 }
 
 #### Pins -------------------------------------------------------------------
-  board_register_github(
-  repo = "rinpharma/rinpharma-data",
-  branch = "master",
-  token = Sys.getenv("REPO_PIN_PAT")
-  )
-
-  # old_proceedings <- gh_file_get(
-  #   repo = "rinpharma-data",
-  #   org = "rinpharma",
-  #   file = "d-proceedings/data.csv"
-  # ) %>%
-  # read_csv(quoted_na = FALSE)
-
-  # Proceedings
-  proceedings <- d_proceedings %>%
-    select(
-      ID,Event,Type,Year,Date,Speaker,
-      Affiliation,Title,Slides,Video,Abstract = abstract
-    )
-
-
-  pin(proceedings,
-      description = "Full proceedings data",
-      board = "github",
-      branch = "master"
-  )
+  # board_register_github(
+  # repo = "rinpharma/rinpharma-data",
+  # branch = "master",
+  # token = Sys.getenv("REPO_PIN_PAT")
+  # )
+  # 
+  # # old_proceedings <- gh_file_get(
+  # #   repo = "rinpharma-data",
+  # #   org = "rinpharma",
+  # #   file = "d-proceedings/data.csv"
+  # # ) %>%
+  # # read_csv(quoted_na = FALSE)
+  # 
+  # # Proceedings
+  # proceedings <- d_proceedings %>%
+  #   select(
+  #     ID,Event,Type,Year,Date,Speaker,
+  #     Affiliation,Title,Slides,Video,Abstract = abstract
+  #   )
+  # 
+  # 
+  # pin(proceedings,
+  #     description = "Full proceedings data",
+  #     board = "github",
+  #     branch = "master"
+  # )

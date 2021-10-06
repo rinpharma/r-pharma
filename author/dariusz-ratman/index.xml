@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dariusz Ratman | R/Pharma</title>
+    <link>/author/dariusz-ratman/</link>
+      <atom:link href="/author/dariusz-ratman/index.xml" rel="self" type="application/rss+xml" />
+    <description>Dariusz Ratman</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2021</copyright><lastBuildDate>Thu, 15 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>Dariusz Ratman</title>
+      <link>/author/dariusz-ratman/</link>
+    </image>
+    
+    <item>
+      <title>Building and Managing Unified R Environments for Data Science and Software Development</title>
+      <link>/publication/rinpharma_178/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_178/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

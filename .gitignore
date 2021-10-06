@@ -24,3 +24,5 @@ assets/jsconfig.json
 .secrets
 
 .DS_Store
+
+.Rhistory

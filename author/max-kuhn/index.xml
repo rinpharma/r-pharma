@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Max Kuhn | R/Pharma</title>
+    <link>/author/max-kuhn/</link>
+      <atom:link href="/author/max-kuhn/index.xml" rel="self" type="application/rss+xml" />
+    <description>Max Kuhn</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2021</copyright><lastBuildDate>Tue, 13 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>Max Kuhn</title>
+      <link>/author/max-kuhn/</link>
+    </image>
+    
+    <item>
+      <title>StackEm High! Ensembles Using tidymodels</title>
+      <link>/publication/rinpharma_140/</link>
+      <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_140/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>This one is not like the others: Applicability Domain methods in R</title>
+      <link>/publication/rinpharma_111/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_111/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine learning</title>
+      <link>/publication/rinpharma_62/</link>
+      <pubDate>Tue, 20 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_62/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modeling in the tidyverse</title>
+      <link>/publication/rinpharma_21/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_21/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

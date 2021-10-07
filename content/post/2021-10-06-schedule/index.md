@@ -8,7 +8,7 @@ featured: true
 We are pleased to release the schedule for R/Pharma 2021 (subject to change).
 
 The 2021 conference brings three days of amazing speakers spearheaded with keynotes from Rich Iannone (RStudio), Regis James (Regeneron) and Heather Crandall and Paul Schuette from the FDA.  
-In addition we have three featured speakers: Coline Zebalos (Roche), Max Kuhn (RStudio) and Marie Vendettouli (Fred Hutch).
+In addition we have three featured speakers: Coline Zeballos (Roche), Max Kuhn (RStudio) and Marie Vendettouli (Fred Hutch).
 
 Details of the schedule can be found under the `Conferences` tab or through this link: https://rinpharma.com/event/rinpharma2021/
 

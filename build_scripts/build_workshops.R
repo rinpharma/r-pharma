@@ -40,9 +40,9 @@ sink("./content/workshops2021/_index.md")
 ## use sprintf in place of glue due to challenges in yaml indentation
 
 top_txt <- paste(
-    '---'.
+    '---',
     'title: workshops',
-    'workshopDetails:'
+    'workshopDetails:',
     '  # workshop details loop',
     sep = "\n"
 )
@@ -66,8 +66,8 @@ workshops <- paste(
 
 
 bottom_txt <- paste(
-    '---\n',
-    'R/Pharma is excited to present a total of 14 workshops this year, hosted by members of our community.  Please register for one or two of your choice (space is limited so we ask you not to register for all of them).  Zoom links will be sent to workshop attendees a couple of days before the workshop.\n'
+    '\n\n---\n',
+    'R/Pharma is excited to present a total of 14 workshops this year, hosted by members of our community.  Please register for one or two of your choice (space is limited so we ask you not to register for all of them).  Zoom links will be sent to workshop attendees a couple of days before the workshop.\n',
     'If you have not registered for the R/Pharma conference we ask that you do so before selecting a workshop.  You can join at https://hopin.com/events/r-pharma-2021/registration.\n',
     'R/Pharma is an amazing community and all of these workshops are put on by volunteers at no cost.  If you would like to contribute to a future workshop please reach out to us through the [contact page](https://rinpharma.com/contact/).\n',
     sep = '\n'

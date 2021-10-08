@@ -2,7 +2,7 @@
 title: R/Pharma 2021
 date: 2021-06-17
 summary: First announcement of R/Pharma 2021.
-featured: true
+featured: false
 ---
 
 We are pleased to announce R/Pharma 2021 !!

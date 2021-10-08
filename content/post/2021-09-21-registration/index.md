@@ -2,7 +2,7 @@
 title: R/Pharma 2021 Registration
 date: 2021-09-21
 summary: R/Pharma 2021 Registration is Open.
-featured: true
+featured: false
 ---
 
 We are pleased to announce that registration for R/Pharma 2021 is now open !!

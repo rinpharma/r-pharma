@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R/Pharma conferences and events | R/Pharma</title>
+    <link>/event/</link>
+      <atom:link href="/event/index.xml" rel="self" type="application/rss+xml" />
+    <description>R/Pharma conferences and events</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2021</copyright>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>R/Pharma conferences and events</title>
+      <link>/event/</link>
+    </image>
+    
+    <item>
+      <title>2021 Conference</title>
+      <link>/event/rinpharma2021/</link>
+      <pubDate>Tue, 02 Nov 2021 10:00:00 +0000</pubDate>
+      <guid>/event/rinpharma2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2020 Conference</title>
+      <link>/event/rinpharma2020/</link>
+      <pubDate>Mon, 05 Oct 2020 13:00:00 +0000</pubDate>
+      <guid>/event/rinpharma2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2019 Conference</title>
+      <link>/event/rinpharma2019/</link>
+      <pubDate>Tue, 20 Aug 2019 13:00:00 +0000</pubDate>
+      <guid>/event/rinpharma2019/</guid>
+      <description>&lt;p&gt;This post was &lt;a href=&#34;https://rviews.rstudio.com/2018/10/03/some-thoughts-on-r-pharma-2018/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;originally shared on R/Views&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It’s no secret that there are few industries more competitive than the pharmaceutical
+industry. Big money placed on long-shot bets for block-buster drugs where being
+first makes all the difference means a constant struggle to gain a competitive edge.
+So, you might find it surprising that the inaugural R / Pharma Conference held this
+past August on the Harvard campus in a very classy auditorium was all about collaboration.&lt;/p&gt;
+&lt;p&gt;Some might also find it surprising that data scientists from competitive companies
+would gather to share information, but this is quite common. I have seen it before
+in other competitive industries, for example in IEEE-led standards initiatives,
+where engineers gather to forge a common technology. Not only is there the human
+need to share and learn from peers (and also brag a little), there is a larger
+force at play: a kind of market clearing operation where experts gather to gain
+as much of an advantage as they can by ensuring that no easily exploitable
+arbitrage opportunities remain.&lt;/p&gt;
+&lt;p&gt;It was a surprise, though (and I think a source of general amusement as the
+conference proceeded), that nearly every talk seemed to be about Shiny.
+Looking back, it is clear that it should not have been: 49% of the abstracts
+explicitly mention Shiny. This word cloud was built from the abstract submissions.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-abstract-wordcloud&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;
+        &lt;img alt=&#34;Abstract wordcloud.&#34; srcset=&#34;
+               /event/rinpharma2019/figure1_hu10063e8ada7dc1135792ffdd8546e71f_109316_9cfacf5ce93636aa9ca87a48e2721393.png 400w,
+               /event/rinpharma2019/figure1_hu10063e8ada7dc1135792ffdd8546e71f_109316_9943bcbee854289c4640ea964dbfce02.png 760w,
+               /event/rinpharma2019/figure1_hu10063e8ada7dc1135792ffdd8546e71f_109316_1200x1200_fit_lanczos_2.png 1200w&#34;
+               src=&#34;/event/rinpharma2019/figure1_hu10063e8ada7dc1135792ffdd8546e71f_109316_9cfacf5ce93636aa9ca87a48e2721393.png&#34;
+               width=&#34;526&#34;
+               height=&#34;526&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Abstract wordcloud.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;Shiny is basically a technology for sharing complex information across multiple
+organizations and stakeholders with different skill sets. Shiny, too, is all
+about collaboration. For a look into the large, production-grade Shiny app,
+bioWARP, see Sebastian Wolf’s recent post.&lt;/p&gt;
+&lt;p&gt;Other major themes addressed at the conference were: reproducible research,
+package administration, scaling R for production, and using R in a regulatory
+environment. This last theme was underscored by a strong FDA presence.
+Lilliam Rosario from the FDA Center for Drug Evaluation &amp;amp; Research delivered
+the opening keynote, in which she addressed the regulatory role of CDER and
+the use of R. FDA speaker Mat Souktup spoke about the need to transcend the
+compartmentalized culture common in medical research, and how open-source tools
+are helpful in working towards this goal. He explicitly noted along the way
+that the FDA does not specify what software may be used. The third FDA speaker,
+Paul Schuette, filled in some details associated with topics raised by Rosario
+and talked about the use of R and Shiny at CDER. Along these same lines,
+Andy Nicholls from GSK conducted a well-attended and very informative workshop
+on The Challenges of Validating R. You can find Andy’s slides here.&lt;/p&gt;
+&lt;p&gt;Other keynote speakers were Max Kuhn, who talked about Modeling in the tidyverse
+(slides here); Joe Cheng, who described how to use Shiny responsibly in pharma
+(slides here); and Michael Lawrence, who spoke about enabling open-source
+analytics in the enterprise.&lt;/p&gt;
+&lt;p&gt;My very biased impression was that R / Pharma was an unqualified success at
+accomplishing the major objectives of bringing together data scientists and
+statisticians working in the Pharmaceutical industry, and of presenting a high
+quality program that explored several issues relating to the production use of
+R in a regulatory environment.&lt;/p&gt;
+&lt;p&gt;The following chart shows that representatives from quite a few pharmaceutical
+companies attended in spite of organization problems that artificially limited
+the overall number of attendees to about 140.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-attendees&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;
+        &lt;img alt=&#34;Attendees.&#34; srcset=&#34;
+               /event/rinpharma2019/attendees_huc4a7e3a141a5b09654f3159707768a40_64003_0c0ffeebcbcee0a2f1941b91d14fd4fe.png 400w,
+               /event/rinpharma2019/attendees_huc4a7e3a141a5b09654f3159707768a40_64003_c90c42ab05c342b5a1981b20458d433d.png 760w,
+               /event/rinpharma2019/attendees_huc4a7e3a141a5b09654f3159707768a40_64003_1200x1200_fit_lanczos_2.png 1200w&#34;
+               src=&#34;/event/rinpharma2019/attendees_huc4a7e3a141a5b09654f3159707768a40_64003_0c0ffeebcbcee0a2f1941b91d14fd4fe.png&#34;
+               width=&#34;745&#34;
+               height=&#34;730&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Attendees.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2018 Conference</title>
+      <link>/event/rinpharma2018/</link>
+      <pubDate>Thu, 16 Aug 2018 13:00:00 +0000</pubDate>
+      <guid>/event/rinpharma2018/</guid>
+      <description>&lt;p&gt;The R / Pharma conference began as grass-roots initiative led by data scientists working in
+the pharmaceutical industry to promote the use of R in Pharma, and to establish and share
+best practices. The founding members organized the project as an R Consortium working
+group, and undertook the ambitious task of launching an annual conference envisioned as a
+relatively small, collegial, industry-oriented event with a strong scientific program.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-rpharma-2018-participants&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;
+        &lt;img alt=&#34;R/Pharma 2018 participants.&#34; srcset=&#34;
+               /event/rinpharma2018/figure1_hu17cd93a4fa8249ad94fe6954e536475c_152325_f8b2389fd092978bcf7bcd12ae67e776.png 400w,
+               /event/rinpharma2018/figure1_hu17cd93a4fa8249ad94fe6954e536475c_152325_b09a6c23317c87ce87327c703ff534c4.png 760w,
+               /event/rinpharma2018/figure1_hu17cd93a4fa8249ad94fe6954e536475c_152325_1200x1200_fit_lanczos_2.png 1200w&#34;
+               src=&#34;/event/rinpharma2018/figure1_hu17cd93a4fa8249ad94fe6954e536475c_152325_f8b2389fd092978bcf7bcd12ae67e776.png&#34;
+               width=&#34;760&#34;
+               height=&#34;469&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      R/Pharma 2018 participants.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;Keynotes (&lt;a href=&#34;https://bit.ly/2SdvMNd&#34;&gt;https://bit.ly/2SdvMNd&lt;/a&gt;) were presented by Lilliam Rosario of the FDA’s
+Center for Drug Evaluation and Research, Michael Lawrence Genentech/Roche and the R
+Core Group, and Max Kuhn and Joe Cheng from RStudio.
+Over forty-five talks and workshops were delivered with topics ranging from reproducible research, regulatory constraints and considerations, and package administration
+to scaling R for production. A considerable number of talks emphasized the development
+of production-grade Shiny applications. Although considerably larger than most of the
+Shiny applications developed, Roche’s 500,000 line application, which was presented at
+the conference and subsequently written up in a post (&lt;a href=&#34;https://bit.ly/2NeXKFJ),&#34;&gt;https://bit.ly/2NeXKFJ),&lt;/a&gt; reflects a
+common use case.&lt;/p&gt;
+&lt;h2 id=&#34;organizing-committee&#34;&gt;Organizing Committee&lt;/h2&gt;
+&lt;p&gt;Melvin Munsaka - AbbVie; Bella Fang and Min Lee - Amgen; Eric Nantz - Eli Lilly; Elena
+Rantou and Paul Schuette - FDA; Elizabeth Hess - Harvard; James Black, Reinhold Koch,
+and Michael Lawrence - Genentech / Roche; Edward Louzier - Merck; Michael Blanks -
+PPD; Phil Bowsher - RStudio; and Harvey Lieberman - Sanofi.&lt;/p&gt;
+&lt;h2 id=&#34;program-committee&#34;&gt;Program Committee&lt;/h2&gt;
+&lt;p&gt;Co-chairs for the program committee were Bella Feng - Amgen, John Sims - Pfizer, and Ryan
+Benz - SocalBioinformatics.&lt;/p&gt;
+&lt;p&gt;Program committee leads included: Melvin Munsaka - AbbVie; Robert Engle - Biogen;
+Elena Rantou and Paul Schuette - FDA; Elizabeth Hess - Harvard University; James Black
+and Reinhold Koch - Genentech/Roche; Paulo Bargo - Johnson &amp;amp; Johnson; Eric Nantz - Eli
+Lilly; Edward Lauzier - Merck; Xiao Ni- Novartis; Thomas Tensfeldt - Pfizer; and Harvey
+Lieberman - Sanofi.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

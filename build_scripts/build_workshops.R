@@ -43,7 +43,7 @@ top_txt <- paste(
     '---',
     'title: workshops',
     'workshopDetails:',
-    '  # workshop details loop',
+    '  # workshop details loop\n',
     sep = "\n"
 )
 

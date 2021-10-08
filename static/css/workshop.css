@@ -1,0 +1,7 @@
+.time-table .workshop-time {
+    flex-basis: 30%;
+}
+
+.workshop-filled {
+    pointer-events: none;
+}

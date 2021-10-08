@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Latest News | R/Pharma</title>
+    <link>/post/</link>
+      <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Latest News</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2021</copyright>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>Latest News</title>
+      <link>/post/</link>
+    </image>
+    
+    <item>
+      <title>R/Pharma 2021 Schedule</title>
+      <link>/post/2021-10-06-schedule/</link>
+      <pubDate>Wed, 06 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>/post/2021-10-06-schedule/</guid>
+      <description>&lt;p&gt;We are pleased to release the schedule for R/Pharma 2021 (subject to change).&lt;/p&gt;
+&lt;p&gt;The 2021 conference brings three days of amazing speakers spearheaded with keynotes from Rich Iannone (RStudio), Regis James (Regeneron) and Heather Crandall and Paul Schuette from the FDA.&lt;br&gt;
+In addition we have three featured speakers: Coline Zeballos (Roche), Max Kuhn (RStudio) and Marie Vendettouli (Fred Hutch).&lt;/p&gt;
+&lt;p&gt;Details of the schedule can be found under the &lt;code&gt;Conferences&lt;/code&gt; tab or through this link: &lt;a href=&#34;https://rinpharma.com/event/rinpharma2021/&#34;&gt;https://rinpharma.com/event/rinpharma2021/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;At the end of each day we shall be hosting a panel discussion in an area of topical interest for the Pharma industry.  Panel discussions will be on validation, training and scaling shiny.  More will follow shortly including information on the panel members and details on how you can submit questions in advance.&lt;/p&gt;
+&lt;p&gt;Make sure you are registered for the conference and follow us on &lt;a href=&#34;https://twitter.com/rinpharma&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;twitter&lt;/a&gt; for more announcements that will be coming in the next few days!&lt;/p&gt;
+&lt;p&gt;Finally we&amp;rsquo;d like to take this opportunity to thank all the amazing presenters and workshop hosts who are contributing to R/Pharma 2021 and we look forward to seeing you (virtually) soon.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>R/Pharma 2021 Registration</title>
+      <link>/post/2021-09-21-registration/</link>
+      <pubDate>Tue, 21 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>/post/2021-09-21-registration/</guid>
+      <description>&lt;p&gt;We are pleased to announce that registration for R/Pharma 2021 is now open !!&lt;/p&gt;
+&lt;p&gt;R/Pharma 2021 will be held as a free virtual conference from November 2-4, 2021 with workshops running the week before.&lt;/p&gt;
+&lt;p&gt;Registration for the conference is now open via this &lt;a href=&#34;https://hopin.com/events/r-pharma-2021/registration&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;.  The program committee is hard at work, building the conference schedule and more details will be forthcoming very shortly.&lt;/p&gt;
+&lt;p&gt;We are pleased to announce that our keynote speakers this year will be Regis James (Regeneron) and Rich Iannone (RStudio) along with a packed schedule of other presenters across the industry.&lt;/p&gt;
+&lt;p&gt;After registering please check our twitter feed (@rinpharma) for information and updates.&lt;/p&gt;
+&lt;p&gt;We look forward to virtually seeing you at R/Pharma 2021.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Call For Papers</title>
+      <link>/post/2021-07-31-call4papers/</link>
+      <pubDate>Sat, 31 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>/post/2021-07-31-call4papers/</guid>
+      <description>&lt;p&gt;We’re excited to announce that the call for talks for R/Pharma 2021 is now open !!&lt;/p&gt;
+&lt;p&gt;R/Pharma 2021, the conference on all things R (some python, Julia and Stan too) in Pharma, will take place November 2nd-4th 2021, preceded by Training Days the week prior.  The conference will be fully virtual.&lt;/p&gt;
+&lt;p&gt;We are particularly interested in talks from people who cannot usually make it to the in-person event at Harvard University, or are newer to conference speaking.  R/Pharma committee members are offering free speaker coaching: as long as you have an interesting R in pharma idea and are willing to put in some work, we’ll help you develop a great talk.  Talks are short (10-20 minutes) high energy presentations that give you the chance to talk about an interesting project that you’ve tackled with R in pharma. Short talks, or demos of your R code, R packages, and shiny apps are great options.&lt;/p&gt;
+&lt;p&gt;We are particularly interested in submissions that have one or more of these qualities:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Examples of how shiny is used to promote R&lt;/li&gt;
+&lt;li&gt;Showcase the use of R in clinical trials&lt;/li&gt;
+&lt;li&gt;Your favourite R package and how it significantly eases an entire class of problems for a pharm use-case&lt;/li&gt;
+&lt;li&gt;Expand the use of R in pharma to reach new domains and audiences&lt;/li&gt;
+&lt;li&gt;Combine R with other world class tools, like python, tensorflow, and spark etc.&lt;/li&gt;
+&lt;li&gt;Reporting/Communication using RMarkdown, Shiny, ggplot2, or something else altogether&lt;/li&gt;
+&lt;li&gt;Discuss how to teach R/data science effectively in pharma&lt;/li&gt;
+&lt;li&gt;Talks on administering R in pharma and tackling scaling, packages, cloud, HPC etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Applications close August 31st, and you’ll be notified of our decision on Sept 7th.&lt;/p&gt;
+&lt;p&gt;To apply, please submit the form found at this &lt;a href=&#34;https://rinpharma.com/html/call4papers/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;  with your title and abstract that introduces you and your proposed topic.&lt;/p&gt;
+&lt;p&gt;To ask a question, please use the form on our &lt;a href=&#34;https://rinpharma.com/contact/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;contact page&lt;/a&gt; to have your question routed to the organising commitees Slack channel or email us on &lt;a href=&#34;mailto:info@rinpharma.com&#34;&gt;info@rinpharma.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;There are 10-20 minute long talks that are scheduled alongside talks by invited speakers. We are looking for interesting topics and engaging speakers on the entire drug development process, medical devices and other pharma related topics.&lt;/p&gt;
+&lt;p&gt;SUBMIT AN ABSTRACT TODAY!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>R/Pharma 2021</title>
+      <link>/post/2021-06-17-announcement/</link>
+      <pubDate>Thu, 17 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>/post/2021-06-17-announcement/</guid>
+      <description>&lt;p&gt;We are pleased to announce R/Pharma 2021 !!&lt;/p&gt;
+&lt;p&gt;R/Pharma 2021 will be held as a free virtual conference from November 2-4, 2021 with workshops running the week before.&lt;/p&gt;
+&lt;p&gt;More details on keynote speakers and call-4-papers will follow shortly.&lt;/p&gt;
+&lt;p&gt;R/Pharma 2020 was a huge success as a virtual event with over 1000 registrations.  We decided to keep the 2021 conference virtual in order to include as many participants as possible.  For 2022 we are aiming to hold a hybrid event.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Frequently asked questions</title>
+      <link>/post/faq/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>/post/faq/</guid>
+      <description>&lt;details class=&#34;toc-inpage d-print-none  &#34; open&gt;
+  &lt;summary class=&#34;font-weight-bold&#34;&gt;Table of Contents&lt;/summary&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#faq&#34;&gt;FAQ&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#how-do-i-get-a-ticket-for-2021&#34;&gt;How do I get a ticket for 2021?&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#what-is-the-mission-and-history-of-rpharma&#34;&gt;What is the mission and history of R/Pharma?&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#whats-your-policy-on-creating-a-safe-place-for-attendees&#34;&gt;What’s your policy on creating a safe place for attendees?&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#terms-and-conditions&#34;&gt;Terms and conditions&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&#34;faq&#34;&gt;FAQ&lt;/h2&gt;
+&lt;p&gt;A quick guide to some the important questions we are often asked.&lt;/p&gt;
+&lt;h3 id=&#34;how-do-i-get-a-ticket-for-2021&#34;&gt;How do I get a ticket for 2021?&lt;/h3&gt;
+&lt;p&gt;R/Pharma is a free event put on by volunteers with the generosity of Pharma
+companies and Harvard University. More information on tickets for the 2021 event is
+coming soon.&lt;/p&gt;
+&lt;h3 id=&#34;what-is-the-mission-and-history-of-rpharma&#34;&gt;What is the mission and history of R/Pharma?&lt;/h3&gt;
+&lt;p&gt;Please check out our &lt;a href=&#34;/post/thewhy/&#34;&gt;first blog post&lt;/a&gt;!&lt;/p&gt;
+&lt;h3 id=&#34;whats-your-policy-on-creating-a-safe-place-for-attendees&#34;&gt;What’s your policy on creating a safe place for attendees?&lt;/h3&gt;
+&lt;p&gt;R/Pharma is dedicated to providing a harassment-free conference experience
+for everyone regardless of gender, sexual orientation, disability or any
+feature that distinguishes human beings. For more information, please
+see the R Consortium code of conduct.&lt;/p&gt;
+&lt;h3 id=&#34;terms-and-conditions&#34;&gt;Terms and conditions&lt;/h3&gt;
+&lt;p&gt;Terms and conditions statement can be found here: &lt;a href=&#34;/terms/&#34;&gt;terms and conditions&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Get your R/Pharma 2020 Merch</title>
+      <link>/post/2020-10-01-merch/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/post/2020-10-01-merch/</guid>
+      <description>&lt;p&gt;R/Pharma 2021 hopes to continue our tradition of diversity scholarships.&lt;/p&gt;
+&lt;p&gt;The R/Pharma ISC Working Group (through the R Consortium) values diversity and
+is focused on helping to encourage and support diversity and inclusion in the R/Pharma Community.
+To help fund the grants, we plan to use the proceeds from the conference
+merchandise found on our store here: &lt;a href=&#34;https://www.bonfire.com/store/r-in-pharma/&#34;&gt;https://www.bonfire.com/store/r-in-pharma/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The store will remain open until Sunday, 18th October.&lt;/p&gt;
+&lt;p&gt;In the long run, we hope that the R/Pharma conference participants reflect
+the full diversity of the world around us. We believe in building on-ramps
+so that people from diverse backgrounds can learn R, build their knowledge,
+and then contribute back to the pharma community.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The what and the why for R/Pharma</title>
+      <link>/post/thewhy/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/post/thewhy/</guid>
+      <description>&lt;details class=&#34;toc-inpage d-print-none  &#34; open&gt;
+  &lt;summary class=&#34;font-weight-bold&#34;&gt;Table of Contents&lt;/summary&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#background&#34;&gt;Background&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
+&lt;p&gt;By design, R/Pharma is deliberately a smaller conference in terms of attendance
+in order to encourage maximum opportunities for direct interaction with speakers.
+In 2018 and 2019 the conference was held in the Tsai Auditorium at the
+Center for Government and International Studies, Harvard University and capped at
+150 attendees. The conference was run as a free event. Invitations were based on
+committee membership and advisory support, speaker acceptance, academic/student and diversity.&lt;/p&gt;
+&lt;p&gt;The conference has been run with single track consisting of keynotes from renowned
+industry practitioners to key R developers to leading academics. In addition
+there were a number of pre-conference workshops and full-length presentations as
+well as a number of shorter, highly-energetic lightning talks.&lt;/p&gt;
+&lt;p&gt;In 2020 we took a hiatus from holding the meeting at Harvard and
+ran a virtual conference. Over 1100 people registered for the three day virtual event that was
+preceeded by a week of 11 workshops.&lt;/p&gt;
+&lt;p&gt;Following the success of the 2020 event the organizing committee decided to hold a virtaul
+event for the 2021 meeting, to be held from 2-4 November 2021.  We are hoping to hold a
+hybrid event in 2022.&lt;/p&gt;
+&lt;p&gt;Our entire event is a community-lead effort and 100% volunteer run. The
+event is vendor neutral and very much an academic conference. Harvard has been very helpful in hosting the event.&lt;/p&gt;
+&lt;p&gt;R/Pharma is an (ISC working group)[https://www.r-consortium.org/projects/isc-working-groups]
+under the R Consortium. The conference is a relatively small, scientifically &amp;amp;
+industry oriented, collegial event focused on the use of R in the development of
+pharmaceuticals. The conference covers topics including reproducible research,
+regulatory compliance and validation, safety monitoring, clinical trials, drug
+discovery, research &amp;amp; development, PK/PD/pharmacometrics, genomics, diagnostics,
+immunogenicity and more. All are discussed within the context of using R as a
+primary tool within the drug development process. The conference showcases
+the current use of R that is helping to drive biomedical research, drug discovery
+&amp;amp; development, and clinical initiatives. (Note that topics related to the use of
+R in hospitals/clinics for patient care by clinicians, doctors, and
+researchers is the focus of
+(R/Medicine)[https://events.linuxfoundation.org/r-medicine/].&lt;/p&gt;
+&lt;p&gt;R/Pharma is dedicated to providing a harassment-free conference experience for
+everyone regardless of gender, sexual orientation, disability or any feature that
+distinguishes human beings. For more information, please see the R Consortium
+code of conduct.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

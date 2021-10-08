@@ -2,7 +2,7 @@
 title: Call For Papers 
 date: 2021-07-31
 summary: Call For Papers is closed for 2021.
-featured: true
+featured: false
 ---
 
 We’re excited to announce that the call for talks for R/Pharma 2021 is now open !!

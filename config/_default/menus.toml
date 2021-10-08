@@ -22,6 +22,11 @@
   name = "Conferences"
   url = "event"
   weight = 40
+  
+#[[main]]
+#  name = "Workshops"
+#  url = "workshop"
+#  weight = 45
 
 [[main]]
   name = "Proceedings"

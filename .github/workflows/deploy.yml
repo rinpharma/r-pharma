@@ -60,6 +60,8 @@ jobs:
         run: Rscript -e 'source("build_scripts/build_proceedings.R")'
       - name: Build schedules
         run: Rscript -e 'source("build_scripts/build_schedules.R")'
+      - name: Build workshops
+        run: Rscript -e 'source("build_scripts/build_workshops.R")'
       - name: Build profile images
         run: Rscript -e 'source("build_scripts/build_profile_image.R")'
       - name: Build redirect

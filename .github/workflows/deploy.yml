@@ -64,6 +64,8 @@ jobs:
         run: Rscript -e 'source("build_scripts/build_profile_image.R")'
       - name: Build redirect
         run: Rscript -e 'source("build_scripts/build_redirects.R")'
+      - name: Build workshops
+        run: Rscript -e 'source("build_scripts/build_workshops.R")'
 
       - name: Run hugo_build()
         run: Rscript -e 'blogdown::hugo_build(local = FALSE)'

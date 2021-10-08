@@ -1,0 +1,35 @@
+{{- define "main" -}}
+
+<link rel="stylesheet" type="text/css" href="/css/workshop.css">
+<div>
+
+  {{ partial "page_header.html" . }}
+
+  <div class="container">
+
+    <p>{{ .Content }}</p>
+    <ul class="mt-8 time-table pl-0 list-unstyled">
+
+      {{ range .Params.workshopDetails }}
+
+          <li class="d-lg-flex align-items-center justify-contents-left bg-light p-3 mb-3">
+            <p class="text-color workshop-time">{{ .date }}<br>{{ .time }}</p>
+            <div class="content">
+              <h4>{{ .title }}</h4>
+              <h4>Hosted by {{ .presenter }}</h4>
+              {{ if .available }}
+                <a href="{{.ticketurl}}" target="_blank" class="btn btn-success px-2 py-2">Spaces Available: Register Here</a>
+              {{ else }}
+                <span class="btn btn-danger px-2 py-2 workshop-filled">Workshop Filled</span>
+              {{ end }}
+              
+            </div>
+          </li>
+
+      {{ end }}
+    </ul>
+
+  </div>
+</div>
+
+{{- end -}}

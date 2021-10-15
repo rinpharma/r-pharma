@@ -18,7 +18,8 @@ We are excited to announce that R/Pharma 2021 will feature a virtual exposition 
   - We won't be including specific times in the schedule for people to come to the Expo
 - **We'll do all the virtual booth set-up work for you**
 
-Want to see an expo booth in action?  Check out this [example](https://www.youtube.com/watch?v=s6HUlmkfaxQ).  Got a great package or app to share?  Share it with the community in a virtual booth!
+Want to see an expo booth in action?  Check out this [example](https://www.youtube.com/watch?v=s6HUlmkfaxQ).  
+Got a great package or app to share?  Share it with the community in a virtual booth!
 
 If you would like to contribute please complete this [online form](https://4mzlydrr31h.typeform.com/to/Je2DyDat).  To make it **fantastic** please be prepared with the following:
 

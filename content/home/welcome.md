@@ -38,10 +38,9 @@ cta:
   icon_pack: fas
   icon: door-open
 cta_alt:
-  url: 'https://rinpharma.com/workshop/2021conference/'
+  url: '/workshop/2021conference/'
   label: Workshops
-  icon_pack: fas
-  icon: graduation-cap
+
 ---
 
 The conference is a relatively small, scientifically &

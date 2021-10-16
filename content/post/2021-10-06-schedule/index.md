@@ -2,7 +2,7 @@
 title: R/Pharma 2021 Schedule
 date: 2021-10-06
 summary: R/Pharma 2021 Schedule is available.
-featured: true
+featured: false
 ---
 
 We are pleased to release the schedule for R/Pharma 2021 (subject to change).

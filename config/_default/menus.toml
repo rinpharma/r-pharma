@@ -23,10 +23,10 @@
   url = "event"
   weight = 40
   
-#[[main]]
-#  name = "Workshops"
-#  url = "workshop"
-#  weight = 45
+[[main]]
+  name = "Workshops"
+  url = "workshop/2021conference"
+  weight = 45
 
 [[main]]
   name = "Proceedings"

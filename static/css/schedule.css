@@ -2,6 +2,10 @@
     flex-basis: 20%;
 }
 
+.fb-80 {
+    flex-basis: 80%;
+}
+
 .time-table .content-img img {
     border-radius: 100%;
 }

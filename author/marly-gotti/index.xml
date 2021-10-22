@@ -5,12 +5,20 @@
     <link>/author/marly-gotti/</link>
       <atom:link href="/author/marly-gotti/index.xml" rel="self" type="application/rss+xml" />
     <description>Marly Gotti</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2021</copyright><lastBuildDate>Wed, 14 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2021</copyright><lastBuildDate>Thu, 04 Nov 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
       <title>Marly Gotti</title>
       <link>/author/marly-gotti/</link>
     </image>
+    
+    <item>
+      <title>Performing a risk assessment of R packages using the Risk Assessment Shiny Application</title>
+      <link>/publication/rinpharma_230/</link>
+      <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_230/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>tidyCDISC an Open Source Platform in R to Analyze Clinical Trial Data</title>

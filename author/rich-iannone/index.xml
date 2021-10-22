@@ -5,12 +5,20 @@
     <link>/author/rich-iannone/</link>
       <atom:link href="/author/rich-iannone/index.xml" rel="self" type="application/rss+xml" />
     <description>Rich Iannone</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2021</copyright><lastBuildDate>Thu, 08 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2021</copyright><lastBuildDate>Tue, 02 Nov 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
       <title>Rich Iannone</title>
       <link>/author/rich-iannone/</link>
     </image>
+    
+    <item>
+      <title>The gt Package: Past, Present, and Future</title>
+      <link>/publication/rinpharma_190/</link>
+      <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_190/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>gt</title>

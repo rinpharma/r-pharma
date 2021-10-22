@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Roche | R/Pharma</title>
+    <link>/tag/roche/</link>
+      <atom:link href="/tag/roche/index.xml" rel="self" type="application/rss+xml" />
+    <description>Roche</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2021</copyright><lastBuildDate>Thu, 04 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>Roche</title>
+      <link>/tag/roche/</link>
+    </image>
+    
+    <item>
+      <title>Smoothing out our path to open source and pan-pharma code collaboration</title>
+      <link>/publication/rinpharma_226/</link>
+      <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_226/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R Consortium Pharma Working Groups Overview and Updates</title>
+      <link>/publication/rinpharma_211/</link>
+      <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_211/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>5 testing packages to make your package better!</title>
+      <link>/publication/rinpharma_198/</link>
+      <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_198/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introducing {admiral}—The ADaM in R Asset Library</title>
+      <link>/publication/rinpharma_195/</link>
+      <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_195/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R Package Validation at Roche</title>
+      <link>/publication/rinpharma_192/</link>
+      <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_192/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

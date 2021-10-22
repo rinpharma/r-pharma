@@ -30,7 +30,7 @@ authors:
 date: '{date}T00:00:00Z'
 
 # Schedule page publish date (NOT proceeding's date).
-publishDate: '20001-01-01T00:00:00Z'
+publishDate: '1999-01-01T00:00:00Z'
 
 # proceeding type.
 # Legend: 0 = Uncategorized; 1 = Talk, 2 = Keynote, 3 = Workshop
@@ -99,6 +99,7 @@ url_video: '{video}'
       abstract = gsub(":","",Abstract),
       abstract = gsub("[\r\n]"," ",abstract),
       abstract = trimws(abstract), 
+      abstract = gsub("[{}]"," ",abstract),
       
 
       # split speaker and author
@@ -114,7 +115,7 @@ url_video: '{video}'
       )
     )
   
-  d_proceedings <- d_proceedings %>% filter(Year < 2021)
+  #d_proceedings <- d_proceedings %>% filter(Year < 2022)
 
 # Fill template --------------------------------------------------------------
 for (i in d_proceedings$ID) {

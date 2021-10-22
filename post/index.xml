@@ -13,6 +13,44 @@
     </image>
     
     <item>
+      <title>Meet the R/Pharma Conference Platform</title>
+      <link>/post/2021-10-21-platform/</link>
+      <pubDate>Thu, 14 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>/post/2021-10-21-platform/</guid>
+      <description>&lt;p&gt;For the second year we have chosen to use the &lt;a href=&#34;https://hopin.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;hopin&lt;/a&gt; conference platform to host R/Pharma.  Here is a brief guide to some of the platform&amp;rsquo;s features.&lt;/p&gt;
+&lt;p&gt;TL;DR - &lt;a href=&#34;https://streamable.com/cml1xr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;watch this video&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;When you enter hopin you&amp;rsquo;ll be in the reception area.  This is one of five main areas within the conference platform, each will be described briefly below.&lt;/p&gt;
+&lt;h2 id=&#34;reception&#34;&gt;Reception&lt;/h2&gt;
+&lt;p&gt;The page you see when you first enter the conference.  It&amp;rsquo;s a place where the conference organizers can push important announcements and where you&amp;rsquo;ll be able to see the schedule.&lt;/p&gt;
+&lt;h2 id=&#34;stage&#34;&gt;Stage&lt;/h2&gt;
+&lt;p&gt;This is the place where all of the talks happen.  Head over to the stage to listen to the speakers and watch the panels.&lt;/p&gt;
+&lt;h2 id=&#34;sessions&#34;&gt;Sessions&lt;/h2&gt;
+&lt;p&gt;Sessions is an area for smaller talks, round-tables and discussions with up to 20 on camera and an audience of up to 3000.  Not only can we schedule sessions throughout the conference, but you can create them too.  We&amp;rsquo;ve left sessions open for impromptu meetings.  Anyone can create a session by just clicking on &lt;strong&gt;Create Session&lt;/strong&gt;, filling in a few details and adding an optional picture.&lt;br&gt;
+Sessions can be open, meaning anyone can go on camera, or moderated, meaning that you can manage who goes on camera.  Anyone and everyone can watch sessions.  Want to follow up with a speaker?  Invite them to a session over a virtual coffee!&lt;/p&gt;
+&lt;h2 id=&#34;networking&#34;&gt;Networking&lt;/h2&gt;
+&lt;p&gt;Networking is our speed-networking area.  When you join you&amp;rsquo;ll be randomly paired with another conference attendee for three minutes and both go on camera.  It&amp;rsquo;s a great way to meet new people, and we all have something in common!  Please consider trying it out - you&amp;rsquo;ll find that everyone at R/Pharma is very nice!&lt;/p&gt;
+&lt;h2 id=&#34;expo&#34;&gt;Expo&lt;/h2&gt;
+&lt;p&gt;The expo is our virtual exhibition hall.  R/Pharma does not work with sponsors and we promote opensource so the exhibition hall is not a traditional one.  We&amp;rsquo;re using this space to give people a chance to showcase their R packages and shiny apps.  When you enter a booth you can see a video or set of slides highlighting a package or app.&lt;br&gt;
+When the author is present in the booth they can interact with you and even show a live demo.  The expo will be open throughout the entire three days of the conference - come check it out.&lt;br&gt;
+If you would like to showcase your package or app more details are in this &lt;a href=&#34;/post/2021-10-14-expo/&#34;&gt;blog post&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You&amp;rsquo;ll notice a collapsible pane on the right which contains tabs for Chat, Polls People and Q&amp;amp;A.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Chat is the conference chat feed.  There are several chat feeds at a hopin event.  The Event feed is available wherever you are in a hopin event and there are additional chat feeds which will pop up depending on which area you&amp;rsquo;re in:
+&lt;ul&gt;
+&lt;li&gt;stage chat - available when you&amp;rsquo;re at the stage.  Use this to post questions for the speaker.  If the speaker does not have enough time to respond they&amp;rsquo;ll be able to follow up later.&lt;/li&gt;
+&lt;li&gt;sessions chat - Each session (see Sessions above) has its own chat feed.  If you are an audience member you can interact with those on camera through this chat feed.&lt;/li&gt;
+&lt;li&gt;expo chat - Each expo booth has its own chat feed.  You can use this feed to leave messages for a booth owner or just say something nice about their package.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Polls are a way for conference organizers to gain feedback.&lt;/li&gt;
+&lt;li&gt;People lets you see who&amp;rsquo;s here.  You can also direct message any attendee.&lt;/li&gt;
+&lt;li&gt;Q&amp;amp;A is a way to reach out to the conference organizers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;rpharma-aims-to-provide-amazing-workshops-and-presentations-within-a-highly-social-atmosphere--this-is-clearly-more-challenging-in-a-virtual-environment-and-we-hope-you-enjoy-the-conference-and-have-the-chance-to-make-some-new-connections&#34;&gt;R/Pharma aims to provide amazing workshops and presentations within a highly social atmosphere.  This is clearly more challenging in a virtual environment and we hope you enjoy the conference and have the chance to make some new connections.&lt;/h5&gt;
+</description>
+    </item>
+    
+    <item>
       <title>R/Pharma 2021 Expo</title>
       <link>/post/2021-10-14-expo/</link>
       <pubDate>Thu, 14 Oct 2021 00:00:00 +0000</pubDate>

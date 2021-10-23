@@ -13,6 +13,46 @@
     </image>
     
     <item>
+      <title>R/Pharma 2021 discussion panels</title>
+      <link>/post/2021-10-23-panels/</link>
+      <pubDate>Sat, 23 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>/post/2021-10-23-panels/</guid>
+      <description>&lt;h3 id=&#34;validation&#34;&gt;Validation&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;November 2nd, 13:50 ET&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;James Black (Roche, Moderator)&lt;/li&gt;
+&lt;li&gt;Bill Ellis (Novartis) Is a senior leader at Novartis, developing the next generation of SCEs for GxP use.&lt;/li&gt;
+&lt;li&gt;Ellis Hughes (GSK) Ellis maintains &lt;a href=&#34;https://phuse-org.github.io/valtools/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;valtools&lt;/code&gt;&lt;/a&gt;, an R package that helps to layer validation relevant documentation on top of R packages.  Ellis is a known opinion leadedr on validation at R/Pharma (&lt;a href=&#34;https://rinpharma.com/publication/rinpharma_122/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;2019 talk&lt;/a&gt;) and (&lt;a href=&#34;https://rinpharma.com/publication/rinpharma_145/]&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;2020 talk&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Juliane Manitz (EMD Serono)  Juliane is on the R Validation Hub team and has spoken at R/Pharma on the &lt;a href=&#34;https://rinpharma.com/publication/rinpharma_193/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Merck KGaA/EMD Serano approach to validation&lt;/a&gt; and &lt;a href=&#34;https://rinpharma.com/publication/rinpharma_107/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;robust installation of package cohorts&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Andy Nicholls (Glaxosmithkline) Andy is on the R Validation Hub team, a former lead for Mango&amp;rsquo;s ValidR, and a respected contributor to the discussion around &amp;lsquo;what is validation&amp;rsquo; including &lt;a href=&#34;https://www.pharmar.org/white-paper/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;co-authoring a whitepaper&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Coline Zeballos (Roche) Coline leads the R Strategy in Roche Pharma Informatics, and was worked closely with people across Roche Quality, Data Science and Informatics to develop a validation approach that scales from internal packages to CRAN. &lt;a href=&#34;https://rinpharma.com/publication/rinpharma_192/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Coline is speaking on this topic at R/Pharma 2021&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Yilong Zhang (Merck) Is active on valtools, and the R Validation Hub. He also &lt;a href=&#34;https://www.lexjansen.com/phuse-us/2020/tt/TT12.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;co-authored a paper&lt;/a&gt; on the validation for internal packages at Merck.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;training-and-leadership&#34;&gt;Training and Leadership&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;November 3nd, 13:50 ET&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Paulo Bargo (Janssen, Moderator)&lt;/li&gt;
+&lt;li&gt;Ann Liu-Ferrara (BD)&lt;/li&gt;
+&lt;li&gt;Susan McClatchy (Jackson Lab)&lt;/li&gt;
+&lt;li&gt;Mike Smith (Pfizer)&lt;/li&gt;
+&lt;li&gt;Gabriella Rustici (AstraZeneca)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;scaling-shiny&#34;&gt;Scaling Shiny&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;November 4th, 13:50 ET&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Eric Nantz (Eli Lily, Moderator)&lt;/li&gt;
+&lt;li&gt;Winston Chang (RStudio)&lt;/li&gt;
+&lt;li&gt;David Edwards (Amgen)&lt;/li&gt;
+&lt;li&gt;David Granjon (Novartis)&lt;/li&gt;
+&lt;li&gt;Hanni Willenbrock Thomsen (Novo Nordisk)&lt;/li&gt;
+&lt;li&gt;Kamil Wais (7N Consulting - RWD Insights Engineering Lead @ Roche)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Remember, the panels will not be recorded.  The only way you get to hear these amazing discussions is to register for R/Pharma and come to the panel discussions.&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;ll be running a Q&amp;amp;A during the conference, but if you have a burning question you&amp;rsquo;d like to share before the panel takes place, please use the links below to send an email to the moderator &lt;a href=&#34;mailto:rinpharma-validation@altmails.com&#34;&gt;Validation&lt;/a&gt;, &lt;a href=&#34;mailto:info@rinpharma.com?subject=Training&#34;&gt;Training&lt;/a&gt; or &lt;a href=&#34;mailto:thercast@gmail.com&#34;&gt;Scaling Shiny&lt;/a&gt; and we&amp;rsquo;ll pass them on the panel moderators.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Meet the R/Pharma Conference Platform</title>
       <link>/post/2021-10-21-platform/</link>
       <pubDate>Thu, 14 Oct 2021 00:00:00 +0000</pubDate>

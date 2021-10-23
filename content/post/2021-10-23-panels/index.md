@@ -33,6 +33,7 @@ featured: true
 - David Edwards (Amgen)
 - David Granjon (Novartis)
 - Hanni Willenbrock Thomsen (Novo Nordisk)
+- Kamil Wais (7N Consulting - RWD Insights Engineering Lead @ Roche)
 
 Remember, the panels will not be recorded.  The only way you get to hear these amazing discussions is to register for R/Pharma and come to the panel discussions.
 

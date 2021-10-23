@@ -16,8 +16,10 @@
             <div class="content">
               <h4>{{ .title }}</h4>
               <h4>Hosted by {{ .presenter }}</h4>
-              {{ if .available }}
+              {{ if eq .status "available" }}
                 <a href="{{.ticketurl}}" target="_blank" class="btn btn-success px-2 py-2">Spaces Available: Register Here</a>
+              {{ else if eq .status "closed" }}
+                <span class="btn btn-danger px-2 py-2 workshop-closed">Registration Closed</span>
               {{ else }}
                 <span class="btn btn-danger px-2 py-2 workshop-filled">Workshop Filled</span>
               {{ end }}

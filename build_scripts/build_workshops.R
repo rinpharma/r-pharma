@@ -26,7 +26,7 @@ sheet_url <- "https://docs.google.com/spreadsheets/d/1NaDnMRh2nOBCzBUxbIyJBVWd_I
 d_workshops <- read_sheet(
   sheet_url,
   sheet = "workshops",
-  col_types = "ccDccncl"
+  col_types = "ccDccncc"
   )
 
 d_workshops <- d_workshops %>%
@@ -75,7 +75,7 @@ for (i in unique(d_workshops$event)) {
         sprintf('    presenter: "%s"', x['presenter']),
         sprintf('    max_attendees: %s', x['max_attendees']),
         sprintf('    ticketurl: "%s"', x['ticket_url']),
-        sprintf('    available: %s', tolower(x['available'])),
+        sprintf('    status: %s', tolower(x['status'])),
         sep = "\n"
       )
     }),

@@ -5,3 +5,7 @@
 .workshop-filled {
     pointer-events: none;
 }
+
+.workshop-closed {
+    pointer-events: none;
+}

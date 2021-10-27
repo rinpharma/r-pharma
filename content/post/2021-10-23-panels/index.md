@@ -5,7 +5,7 @@ summary: A chance to have a Q&A with leaders in validation, shiny scaling and tr
 featured: true
 ---
 
-R/Pharma are excited to announce three discussion panels to be held at the end of each conference day.  **These panels will not be recorded** - come to R/Pharma to hear the following:
+R/Pharma is excited to announce three discussion panels to be held at the end of each conference day.  **These panels will not be recorded** - come to R/Pharma to hear the following:
 
 ### Validation
 *November 2nd, 13:50 ET*  

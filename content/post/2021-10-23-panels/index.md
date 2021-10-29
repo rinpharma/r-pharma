@@ -19,7 +19,7 @@ R/Pharma is excited to announce three discussion panels to be held at the end of
 - Yilong Zhang (Merck) Is active on valtools, and the R Validation Hub. He also [co-authored a paper](https://www.lexjansen.com/phuse-us/2020/tt/TT12.pdf) on the validation for internal packages at Merck.
 
 ### Training and Leadership
-*November 3nd, 13:50 ET*  
+*November 3rd, 13:50 ET*  
 
 - Paulo Bargo (Janssen, Moderator)  
 - Ann Liu-Ferrara (BD)

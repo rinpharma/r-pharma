@@ -33,7 +33,7 @@
   
     
   
-  <meta name="description" content="How do you roll out R to hundreds of colleagues, ensuring that the version you&#39;re providing is tested, qualified and well managed? Is it possible to ensure that everyone is using the same version of R and packages? How do you account for differences between departments and groups in which R packages they need? How do you minimise effort so that you&#39;re not perpetually in the process of qualifying and deploying R and packages? How do you balance the need to be flexible and allow colleagues to try new R packages and methods, versus having R under strict version and change control to ensure that their results are submission ready and reproducible in the long term?  In this talk we&#39;ll discuss how we&#39;re trying to achieve this at Pfizer." />
+  <meta name="description" content="The gt package is table preparation package for R which makes the presentation of tabular data fairly easy and also has power to customize tables should you need it. The package has been in continuous development at RStudio for over three years and so it&#39;s now a good time to reflect on what&#39;s been done, where we are at, and how we can make this package and table publication even better in the future.  I&#39;ll provide some background and insight on the decisions made when starting the gt project. We&#39;ll go over what gt is capable of doing today. It&#39;s indeed a very useful package at this point in time and I&#39;d like to talk about some of the features that make it great. I&#39;ll provide some examples of tables that can be made right now.  We want to make even more investments in table generation tooling so, to this end, we are working on a new project that aims to make table rendering easier through software that focuses entirely on rendering (i.e., writing to HTML, LaTeX, and RTF) an intermediate representation (IR) of a table. By doing this, authors of table packages won&#39;t have to focus on writing code that renders tables to different formats. Instead, the authors of Pharma-focused table packages could concentrate their efforts on making their APIs even better." />
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/rinpharma_202/" />
@@ -322,8 +322,8 @@
   
   <meta property="og:site_name" content="R/Pharma" />
   <meta property="og:url" content="/publication/rinpharma_202/" />
-  <meta property="og:title" content="There’s only one R in Pfizer. Attempts to harmonise R release across a large pharma organisation | R/Pharma" />
-  <meta property="og:description" content="How do you roll out R to hundreds of colleagues, ensuring that the version you&#39;re providing is tested, qualified and well managed? Is it possible to ensure that everyone is using the same version of R and packages? How do you account for differences between departments and groups in which R packages they need? How do you minimise effort so that you&#39;re not perpetually in the process of qualifying and deploying R and packages? How do you balance the need to be flexible and allow colleagues to try new R packages and methods, versus having R under strict version and change control to ensure that their results are submission ready and reproducible in the long term?  In this talk we&#39;ll discuss how we&#39;re trying to achieve this at Pfizer." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
+  <meta property="og:title" content="The gt Package: Past, Present, and Future | R/Pharma" />
+  <meta property="og:description" content="The gt package is table preparation package for R which makes the presentation of tabular data fairly easy and also has power to customize tables should you need it. The package has been in continuous development at RStudio for over three years and so it&#39;s now a good time to reflect on what&#39;s been done, where we are at, and how we can make this package and table publication even better in the future.  I&#39;ll provide some background and insight on the decisions made when starting the gt project. We&#39;ll go over what gt is capable of doing today. It&#39;s indeed a very useful package at this point in time and I&#39;d like to talk about some of the features that make it great. I&#39;ll provide some examples of tables that can be made right now.  We want to make even more investments in table generation tooling so, to this end, we are working on a new project that aims to make table rendering easier through software that focuses entirely on rendering (i.e., writing to HTML, LaTeX, and RTF) an intermediate representation (IR) of a table. By doing this, authors of table packages won&#39;t have to focus on writing code that renders tables to different formats. Instead, the authors of Pharma-focused table packages could concentrate their efforts on making their APIs even better." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
     <meta property="twitter:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -356,14 +356,14 @@
     "@type": "WebPage",
     "@id": "/publication/rinpharma_202/"
   },
-  "headline": "There’s only one R in Pfizer. Attempts to harmonise R release across a large pharma organisation",
+  "headline": "The gt Package: Past, Present, and Future",
   
   "datePublished": "1999-01-01T00:00:00Z",
   "dateModified": "2021-11-02T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Mike Smith"
+    "name": "Rich Iannone"
   },
   
   "publisher": {
@@ -374,7 +374,7 @@
       "url": "/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_192x192_fit_lanczos_2.png"
     }
   },
-  "description": "How do you roll out R to hundreds of colleagues, ensuring that the version you're providing is tested, qualified and well managed? Is it possible to ensure that everyone is using the same version of R and packages? How do you account for differences between departments and groups in which R packages they need? How do you minimise effort so that you're not perpetually in the process of qualifying and deploying R and packages? How do you balance the need to be flexible and allow colleagues to try new R packages and methods, versus having R under strict version and change control to ensure that their results are submission ready and reproducible in the long term?  In this talk we'll discuss how we're trying to achieve this at Pfizer."
+  "description": "The gt package is table preparation package for R which makes the presentation of tabular data fairly easy and also has power to customize tables should you need it. The package has been in continuous development at RStudio for over three years and so it's now a good time to reflect on what's been done, where we are at, and how we can make this package and table publication even better in the future.  I'll provide some background and insight on the decisions made when starting the gt project. We'll go over what gt is capable of doing today. It's indeed a very useful package at this point in time and I'd like to talk about some of the features that make it great. I'll provide some examples of tables that can be made right now.  We want to make even more investments in table generation tooling so, to this end, we are working on a new project that aims to make table rendering easier through software that focuses entirely on rendering (i.e., writing to HTML, LaTeX, and RTF) an intermediate representation (IR) of a table. By doing this, authors of table packages won't have to focus on writing code that renders tables to different formats. Instead, the authors of Pharma-focused table packages could concentrate their efforts on making their APIs even better."
 }
 </script>
 
@@ -420,7 +420,7 @@
 
 
 
-  <title>There’s only one R in Pfizer. Attempts to harmonise R release across a large pharma organisation | R/Pharma</title>
+  <title>The gt Package: Past, Present, and Future | R/Pharma</title>
 </head>
 
 
@@ -771,7 +771,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>There’s only one R in Pfizer. Attempts to harmonise R release across a large pharma organisation</h1>
+  <h1>The gt Package: Past, Present, and Future</h1>
 
   
 
@@ -789,7 +789,7 @@
     
 
   <span >
-      <a href="/author/mike-smith/">Mike Smith</a></span>
+      <a href="/author/rich-iannone/">Rich Iannone</a></span>
   </div>
   
   
@@ -856,7 +856,7 @@
   
     
   
-<a class="btn btn-outline-primary btn-page-header" href="https://youtu.be/bnRdI6jvGpM" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://youtu.be/LwP21KMV3MA" target="_blank" rel="noopener">
   Video
 </a>
 
@@ -876,7 +876,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">How do you roll out R to hundreds of colleagues, ensuring that the version you&rsquo;re providing is tested, qualified and well managed? Is it possible to ensure that everyone is using the same version of R and packages? How do you account for differences between departments and groups in which R packages they need? How do you minimise effort so that you&rsquo;re not perpetually in the process of qualifying and deploying R and packages? How do you balance the need to be flexible and allow colleagues to try new R packages and methods, versus having R under strict version and change control to ensure that their results are submission ready and reproducible in the long term?  In this talk we&rsquo;ll discuss how we&rsquo;re trying to achieve this at Pfizer.</p>
+    <p class="pub-abstract">The gt package is table preparation package for R which makes the presentation of tabular data fairly easy and also has power to customize tables should you need it. The package has been in continuous development at RStudio for over three years and so it&rsquo;s now a good time to reflect on what&rsquo;s been done, where we are at, and how we can make this package and table publication even better in the future.  I&rsquo;ll provide some background and insight on the decisions made when starting the gt project. We&rsquo;ll go over what gt is capable of doing today. It&rsquo;s indeed a very useful package at this point in time and I&rsquo;d like to talk about some of the features that make it great. I&rsquo;ll provide some examples of tables that can be made right now.  We want to make even more investments in table generation tooling so, to this end, we are working on a new project that aims to make table rendering easier through software that focuses entirely on rendering (i.e., writing to HTML, LaTeX, and RTF) an intermediate representation (IR) of a table. By doing this, authors of table packages won&rsquo;t have to focus on writing code that renders tables to different formats. Instead, the authors of Pharma-focused table packages could concentrate their efforts on making their APIs even better.</p>
     
 
     
@@ -887,8 +887,8 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
-            <a href="/publication/#1">
-              Talk
+            <a href="/publication/#2">
+              Keynote
             </a>
           </div>
         </div>
@@ -923,7 +923,7 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/pfizer/">Pfizer</a>
+  <a class="badge badge-light" href="/tag/rstudio/">RStudio</a>
   
 </div>
 
@@ -940,7 +940,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_202/&amp;text=There%e2%80%99s%20only%20one%20R%20in%20Pfizer.%20Attempts%20to%20harmonise%20R%20release%20across%20a%20large%20pharma%20organisation" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_202/&amp;text=The%20gt%20Package:%20Past,%20Present,%20and%20Future" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -953,7 +953,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_202/&amp;t=There%e2%80%99s%20only%20one%20R%20in%20Pfizer.%20Attempts%20to%20harmonise%20R%20release%20across%20a%20large%20pharma%20organisation" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_202/&amp;t=The%20gt%20Package:%20Past,%20Present,%20and%20Future" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -966,7 +966,7 @@
       
       
       <li>
-        <a href="mailto:?subject=There%e2%80%99s%20only%20one%20R%20in%20Pfizer.%20Attempts%20to%20harmonise%20R%20release%20across%20a%20large%20pharma%20organisation&amp;body=/publication/rinpharma_202/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=The%20gt%20Package:%20Past,%20Present,%20and%20Future&amp;body=/publication/rinpharma_202/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -979,7 +979,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_202/&amp;title=There%e2%80%99s%20only%20one%20R%20in%20Pfizer.%20Attempts%20to%20harmonise%20R%20release%20across%20a%20large%20pharma%20organisation" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_202/&amp;title=The%20gt%20Package:%20Past,%20Present,%20and%20Future" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -992,7 +992,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=There%e2%80%99s%20only%20one%20R%20in%20Pfizer.%20Attempts%20to%20harmonise%20R%20release%20across%20a%20large%20pharma%20organisation%20/publication/rinpharma_202/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=The%20gt%20Package:%20Past,%20Present,%20and%20Future%20/publication/rinpharma_202/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1005,7 +1005,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_202/&amp;title=There%e2%80%99s%20only%20one%20R%20in%20Pfizer.%20Attempts%20to%20harmonise%20R%20release%20across%20a%20large%20pharma%20organisation" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_202/&amp;title=The%20gt%20Package:%20Past,%20Present,%20and%20Future" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1052,9 +1052,15 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/publication/rinpharma_8/">Using R in a GxP Environment</a></li>
+      <li><a href="/publication/rinpharma_195/">Clinical Tables in gt</a></li>
       
-      <li><a href="/publication/rinpharma_166/">openNCA Pharmacokinetic data repository and Non-compartmental Analysis System</a></li>
+      <li><a href="/publication/rinpharma_154/">Data visualization for real-world machine learning</a></li>
+      
+      <li><a href="/publication/rinpharma_34/">Interactive data visualization with R, plotly, and dashR</a></li>
+      
+      <li><a href="/publication/rinpharma_29/">Interactive data visualization with R, plotly, and dashR</a></li>
+      
+      <li><a href="/publication/rinpharma_62/">Machine learning</a></li>
       
     </ul>
   </div>

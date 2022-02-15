@@ -33,7 +33,7 @@
   
     
   
-  <meta name="description" content="(The) Operation (formally known as) Warp Speed is a joint venture between pharma and government to bring COVID-19 vaccines to market at unprecedented speed. A key tenet of the program is to generate the data needed to establish correlates of vaccine protection -- immune responses that predict the level of protective efficacy of the vaccines. Our team was tasked with designing an analysis plan and the code needed to analyze the data and produce results that answered these key questions. However, lacking full FDA approval of their products, some vaccine manufacturers were highly protective of their data. Thus, our team was faced with the challenge of building an analysis pipeline capable of analyzing data that we have never seen, on servers that we do not have access to, all under the extreme time pressure associated with COVID vaccine development. In this talk, I will describe the R-based set of tools that we used to achieve this goal and some lessons learned along the way." />
+  <meta name="description" content="In this talk, we will be discussing an architecturally and bioinformatically multi-layered integrative multiomic approach to the development of target hypotheses.  Scientists work to help pharmaceutical companies advance towards the identification of potent therapeutics on a daily basis.  In some scenarios, biological scientists can develop therapeutic tools without a specific target in mind.  In this case, they would like to generate a list of potential targets for their tools, within a given set of parameters for the delivery.  However, combing through all of the appropriate databases to find these targets that have the appropriate molecular biology characteristics, viable mouse models that recapitulate the human disease phenotypes, and pathologies in the tissues of interest, to generate this list is very difficult to perform manually.  This work requires making recursive decisions from the present wealth of biological literature and its data at scale.  Such decision-making is a herculean task that requires the simultaneous propagated joins of annotated entity catalogs (genes, knockout mice, diseases, structured vocabulary terms, etc.) and, orthogonally, recursive filtration of hierarchical associations between those entities and controlled biomedical vocabularies.  To streamline and accelerate this process, we used public data repositories (Uniprot, National Center for Biotechnology Information, International Mouse Phenotyping Consortium, Online Mendelian Inheritance in Man), ontologies (Gene Ontology, Mammalian Phenotype Ontology, Human Phenotype Ontology), and their multi-species (mouse, human) entity annotations to populate and index a MySQL relational database and a Neo4j graph database with their descriptive and relational properties.  We then built an API (application programming interface) via the plumber package for R to dynamically generate optimized SQL and Neo4j Cypher queries that interact with the MySQL database, via the RMariaDB package for R, and the Neo4j graph database, via the neo4r package for R, to fuse data across the ingested biomedical repository data and use the yielded results to generate parseable JSON objects.  Finally, we built a user-friendly shiny app for constructing and submitting queries via the API, parsing the JSON API outputs, and providing interactive network visualizations of the queries via the VisNet package for R, in-depth explanations of how the results were generated, and links to external resources for further relevant scientific data.  We delivered this app to fellow scientist collaborators via RStudio Connect, enabling these biologists to, within milliseconds, leverage high-dimensional, multi-species relationships to identify potential targets." />
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/rinpharma_218/" />
@@ -322,8 +322,8 @@
   
   <meta property="og:site_name" content="R/Pharma" />
   <meta property="og:url" content="/publication/rinpharma_218/" />
-  <meta property="og:title" content="R at Warp Speed: Reproducible coding for COVID vaccine trials | R/Pharma" />
-  <meta property="og:description" content="(The) Operation (formally known as) Warp Speed is a joint venture between pharma and government to bring COVID-19 vaccines to market at unprecedented speed. A key tenet of the program is to generate the data needed to establish correlates of vaccine protection -- immune responses that predict the level of protective efficacy of the vaccines. Our team was tasked with designing an analysis plan and the code needed to analyze the data and produce results that answered these key questions. However, lacking full FDA approval of their products, some vaccine manufacturers were highly protective of their data. Thus, our team was faced with the challenge of building an analysis pipeline capable of analyzing data that we have never seen, on servers that we do not have access to, all under the extreme time pressure associated with COVID vaccine development. In this talk, I will describe the R-based set of tools that we used to achieve this goal and some lessons learned along the way." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
+  <meta property="og:title" content="Intermap: An integrative multiomics approach to generating therapeutic target hypotheses | R/Pharma" />
+  <meta property="og:description" content="In this talk, we will be discussing an architecturally and bioinformatically multi-layered integrative multiomic approach to the development of target hypotheses.  Scientists work to help pharmaceutical companies advance towards the identification of potent therapeutics on a daily basis.  In some scenarios, biological scientists can develop therapeutic tools without a specific target in mind.  In this case, they would like to generate a list of potential targets for their tools, within a given set of parameters for the delivery.  However, combing through all of the appropriate databases to find these targets that have the appropriate molecular biology characteristics, viable mouse models that recapitulate the human disease phenotypes, and pathologies in the tissues of interest, to generate this list is very difficult to perform manually.  This work requires making recursive decisions from the present wealth of biological literature and its data at scale.  Such decision-making is a herculean task that requires the simultaneous propagated joins of annotated entity catalogs (genes, knockout mice, diseases, structured vocabulary terms, etc.) and, orthogonally, recursive filtration of hierarchical associations between those entities and controlled biomedical vocabularies.  To streamline and accelerate this process, we used public data repositories (Uniprot, National Center for Biotechnology Information, International Mouse Phenotyping Consortium, Online Mendelian Inheritance in Man), ontologies (Gene Ontology, Mammalian Phenotype Ontology, Human Phenotype Ontology), and their multi-species (mouse, human) entity annotations to populate and index a MySQL relational database and a Neo4j graph database with their descriptive and relational properties.  We then built an API (application programming interface) via the plumber package for R to dynamically generate optimized SQL and Neo4j Cypher queries that interact with the MySQL database, via the RMariaDB package for R, and the Neo4j graph database, via the neo4r package for R, to fuse data across the ingested biomedical repository data and use the yielded results to generate parseable JSON objects.  Finally, we built a user-friendly shiny app for constructing and submitting queries via the API, parsing the JSON API outputs, and providing interactive network visualizations of the queries via the VisNet package for R, in-depth explanations of how the results were generated, and links to external resources for further relevant scientific data.  We delivered this app to fellow scientist collaborators via RStudio Connect, enabling these biologists to, within milliseconds, leverage high-dimensional, multi-species relationships to identify potential targets." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
     <meta property="twitter:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -356,14 +356,14 @@
     "@type": "WebPage",
     "@id": "/publication/rinpharma_218/"
   },
-  "headline": "R at Warp Speed: Reproducible coding for COVID vaccine trials",
+  "headline": "Intermap: An integrative multiomics approach to generating therapeutic target hypotheses",
   
   "datePublished": "1999-01-01T00:00:00Z",
   "dateModified": "2021-11-03T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "David Benkeser"
+    "name": "Regis James"
   },
   
   "publisher": {
@@ -374,7 +374,7 @@
       "url": "/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_192x192_fit_lanczos_2.png"
     }
   },
-  "description": "(The) Operation (formally known as) Warp Speed is a joint venture between pharma and government to bring COVID-19 vaccines to market at unprecedented speed. A key tenet of the program is to generate the data needed to establish correlates of vaccine protection -- immune responses that predict the level of protective efficacy of the vaccines. Our team was tasked with designing an analysis plan and the code needed to analyze the data and produce results that answered these key questions. However, lacking full FDA approval of their products, some vaccine manufacturers were highly protective of their data. Thus, our team was faced with the challenge of building an analysis pipeline capable of analyzing data that we have never seen, on servers that we do not have access to, all under the extreme time pressure associated with COVID vaccine development. In this talk, I will describe the R-based set of tools that we used to achieve this goal and some lessons learned along the way."
+  "description": "In this talk, we will be discussing an architecturally and bioinformatically multi-layered integrative multiomic approach to the development of target hypotheses.  Scientists work to help pharmaceutical companies advance towards the identification of potent therapeutics on a daily basis.  In some scenarios, biological scientists can develop therapeutic tools without a specific target in mind.  In this case, they would like to generate a list of potential targets for their tools, within a given set of parameters for the delivery.  However, combing through all of the appropriate databases to find these targets that have the appropriate molecular biology characteristics, viable mouse models that recapitulate the human disease phenotypes, and pathologies in the tissues of interest, to generate this list is very difficult to perform manually.  This work requires making recursive decisions from the present wealth of biological literature and its data at scale.  Such decision-making is a herculean task that requires the simultaneous propagated joins of annotated entity catalogs (genes, knockout mice, diseases, structured vocabulary terms, etc.) and, orthogonally, recursive filtration of hierarchical associations between those entities and controlled biomedical vocabularies.  To streamline and accelerate this process, we used public data repositories (Uniprot, National Center for Biotechnology Information, International Mouse Phenotyping Consortium, Online Mendelian Inheritance in Man), ontologies (Gene Ontology, Mammalian Phenotype Ontology, Human Phenotype Ontology), and their multi-species (mouse, human) entity annotations to populate and index a MySQL relational database and a Neo4j graph database with their descriptive and relational properties.  We then built an API (application programming interface) via the plumber package for R to dynamically generate optimized SQL and Neo4j Cypher queries that interact with the MySQL database, via the RMariaDB package for R, and the Neo4j graph database, via the neo4r package for R, to fuse data across the ingested biomedical repository data and use the yielded results to generate parseable JSON objects.  Finally, we built a user-friendly shiny app for constructing and submitting queries via the API, parsing the JSON API outputs, and providing interactive network visualizations of the queries via the VisNet package for R, in-depth explanations of how the results were generated, and links to external resources for further relevant scientific data.  We delivered this app to fellow scientist collaborators via RStudio Connect, enabling these biologists to, within milliseconds, leverage high-dimensional, multi-species relationships to identify potential targets."
 }
 </script>
 
@@ -420,7 +420,7 @@
 
 
 
-  <title>R at Warp Speed: Reproducible coding for COVID vaccine trials | R/Pharma</title>
+  <title>Intermap: An integrative multiomics approach to generating therapeutic target hypotheses | R/Pharma</title>
 </head>
 
 
@@ -771,7 +771,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>R at Warp Speed: Reproducible coding for COVID vaccine trials</h1>
+  <h1>Intermap: An integrative multiomics approach to generating therapeutic target hypotheses</h1>
 
   
 
@@ -789,7 +789,7 @@
     
 
   <span >
-      <a href="/author/david-benkeser/">David Benkeser</a></span>
+      <a href="/author/regis-james/">Regis James</a></span>
   </div>
   
   
@@ -854,7 +854,7 @@
   
     
   
-<a class="btn btn-outline-primary btn-page-header" href="https://benkeser.github.io/rpharma2021/#1" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://github.com/rinpharma/2021_presentations/tree/master/talks_folder/2021-James-Intermap.pdf" target="_blank" rel="noopener">
   Slides
 </a>
 
@@ -864,7 +864,7 @@
   
     
   
-<a class="btn btn-outline-primary btn-page-header" href="https://youtu.be/-SEVV3Dvkec" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://youtu.be/fHO6PpJoL2k" target="_blank" rel="noopener">
   Video
 </a>
 
@@ -884,7 +884,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">(The) Operation (formally known as) Warp Speed is a joint venture between pharma and government to bring COVID-19 vaccines to market at unprecedented speed. A key tenet of the program is to generate the data needed to establish correlates of vaccine protection &ndash; immune responses that predict the level of protective efficacy of the vaccines. Our team was tasked with designing an analysis plan and the code needed to analyze the data and produce results that answered these key questions. However, lacking full FDA approval of their products, some vaccine manufacturers were highly protective of their data. Thus, our team was faced with the challenge of building an analysis pipeline capable of analyzing data that we have never seen, on servers that we do not have access to, all under the extreme time pressure associated with COVID vaccine development. In this talk, I will describe the R-based set of tools that we used to achieve this goal and some lessons learned along the way.</p>
+    <p class="pub-abstract">In this talk, we will be discussing an architecturally and bioinformatically multi-layered integrative multiomic approach to the development of target hypotheses.  Scientists work to help pharmaceutical companies advance towards the identification of potent therapeutics on a daily basis.  In some scenarios, biological scientists can develop therapeutic tools without a specific target in mind.  In this case, they would like to generate a list of potential targets for their tools, within a given set of parameters for the delivery.  However, combing through all of the appropriate databases to find these targets that have the appropriate molecular biology characteristics, viable mouse models that recapitulate the human disease phenotypes, and pathologies in the tissues of interest, to generate this list is very difficult to perform manually.  This work requires making recursive decisions from the present wealth of biological literature and its data at scale.  Such decision-making is a herculean task that requires the simultaneous propagated joins of annotated entity catalogs (genes, knockout mice, diseases, structured vocabulary terms, etc.) and, orthogonally, recursive filtration of hierarchical associations between those entities and controlled biomedical vocabularies.  To streamline and accelerate this process, we used public data repositories (Uniprot, National Center for Biotechnology Information, International Mouse Phenotyping Consortium, Online Mendelian Inheritance in Man), ontologies (Gene Ontology, Mammalian Phenotype Ontology, Human Phenotype Ontology), and their multi-species (mouse, human) entity annotations to populate and index a MySQL relational database and a Neo4j graph database with their descriptive and relational properties.  We then built an API (application programming interface) via the plumber package for R to dynamically generate optimized SQL and Neo4j Cypher queries that interact with the MySQL database, via the RMariaDB package for R, and the Neo4j graph database, via the neo4r package for R, to fuse data across the ingested biomedical repository data and use the yielded results to generate parseable JSON objects.  Finally, we built a user-friendly shiny app for constructing and submitting queries via the API, parsing the JSON API outputs, and providing interactive network visualizations of the queries via the VisNet package for R, in-depth explanations of how the results were generated, and links to external resources for further relevant scientific data.  We delivered this app to fellow scientist collaborators via RStudio Connect, enabling these biologists to, within milliseconds, leverage high-dimensional, multi-species relationships to identify potential targets.</p>
     
 
     
@@ -895,8 +895,8 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
-            <a href="/publication/#1">
-              Talk
+            <a href="/publication/#2">
+              Keynote
             </a>
           </div>
         </div>
@@ -931,7 +931,7 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/emory-university/">Emory University</a>
+  <a class="badge badge-light" href="/tag/regeneron/">Regeneron</a>
   
 </div>
 
@@ -948,7 +948,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_218/&amp;text=R%20at%20Warp%20Speed:%20Reproducible%20coding%20for%20COVID%20vaccine%20trials" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_218/&amp;text=Intermap:%20An%20integrative%20multiomics%20approach%20to%20generating%20therapeutic%20target%20hypotheses" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -961,7 +961,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_218/&amp;t=R%20at%20Warp%20Speed:%20Reproducible%20coding%20for%20COVID%20vaccine%20trials" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_218/&amp;t=Intermap:%20An%20integrative%20multiomics%20approach%20to%20generating%20therapeutic%20target%20hypotheses" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -974,7 +974,7 @@
       
       
       <li>
-        <a href="mailto:?subject=R%20at%20Warp%20Speed:%20Reproducible%20coding%20for%20COVID%20vaccine%20trials&amp;body=/publication/rinpharma_218/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Intermap:%20An%20integrative%20multiomics%20approach%20to%20generating%20therapeutic%20target%20hypotheses&amp;body=/publication/rinpharma_218/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -987,7 +987,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_218/&amp;title=R%20at%20Warp%20Speed:%20Reproducible%20coding%20for%20COVID%20vaccine%20trials" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_218/&amp;title=Intermap:%20An%20integrative%20multiomics%20approach%20to%20generating%20therapeutic%20target%20hypotheses" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1000,7 +1000,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=R%20at%20Warp%20Speed:%20Reproducible%20coding%20for%20COVID%20vaccine%20trials%20/publication/rinpharma_218/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Intermap:%20An%20integrative%20multiomics%20approach%20to%20generating%20therapeutic%20target%20hypotheses%20/publication/rinpharma_218/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1013,7 +1013,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_218/&amp;title=R%20at%20Warp%20Speed:%20Reproducible%20coding%20for%20COVID%20vaccine%20trials" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_218/&amp;title=Intermap:%20An%20integrative%20multiomics%20approach%20to%20generating%20therapeutic%20target%20hypotheses" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>

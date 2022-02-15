@@ -2,6 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/publication-type/3/</loc>
+    <lastmod>2021-11-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/</loc>
+    <lastmod>2021-11-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/</loc>
+    <lastmod>2021-11-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication/rinpharma_249/</loc>
+    <lastmod>2021-11-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/ellis-hughes/</loc>
+    <lastmod>2021-11-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/fred-hutch/</loc>
+    <lastmod>2021-11-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/leon-eyrich-jessen/</loc>
+    <lastmod>2021-11-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/marie-vendettuoli/</loc>
+    <lastmod>2021-11-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication_types/</loc>
+    <lastmod>2021-11-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication/rinpharma_250/</loc>
+    <lastmod>2021-11-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2021-11-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2021-11-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/technical-university-of-denmark/</loc>
+    <lastmod>2021-11-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/publication-type/1/</loc>
     <lastmod>2021-11-04T00:00:00+00:00</lastmod>
   </url><url>
@@ -14,13 +53,7 @@
     <loc>/tag/atorus-research/</loc>
     <lastmod>2021-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/authors/</loc>
-    <lastmod>2021-11-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/authors/</loc>
-    <lastmod>2021-11-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/publication/rinpharma_231/</loc>
+    <loc>/publication/rinpharma_243/</loc>
     <lastmod>2021-11-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tag/biogen/</loc>
@@ -29,7 +62,7 @@
     <loc>/tag/bms/</loc>
     <lastmod>2021-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/rinpharma_229/</loc>
+    <loc>/publication/rinpharma_241/</loc>
     <lastmod>2021-11-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/author/david-granjon/</loc>
@@ -42,9 +75,6 @@
     <lastmod>2021-11-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tag/fda/</loc>
-    <lastmod>2021-11-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tag/fred-hutch/</loc>
     <lastmod>2021-11-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/author/heather-crandall/</loc>
@@ -77,22 +107,16 @@
     <loc>/tag/novo-nordisk/</loc>
     <lastmod>2021-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/rinpharma_225/</loc>
+    <loc>/publication/rinpharma_237/</loc>
     <lastmod>2021-11-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/author/paul-schuette/</loc>
     <lastmod>2021-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/rinpharma_230/</loc>
+    <loc>/publication/rinpharma_242/</loc>
     <lastmod>2021-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication_types/</loc>
-    <lastmod>2021-11-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/</loc>
-    <lastmod>2021-11-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/publication/rinpharma_232/</loc>
+    <loc>/publication/rinpharma_244/</loc>
     <lastmod>2021-11-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/author/rikke-n%C3%B8rmark-mortensen/</loc>
@@ -101,25 +125,22 @@
     <loc>/tag/roche/</loc>
     <lastmod>2021-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/rinpharma_226/</loc>
-    <lastmod>2021-11-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/publication/rinpharma_222/</loc>
+    <loc>/publication/rinpharma_238/</loc>
     <lastmod>2021-11-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication/rinpharma_234/</loc>
     <lastmod>2021-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>/publication/rinpharma_246/</loc>
     <lastmod>2021-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/rinpharma_235/</loc>
+    <loc>/publication/rinpharma_247/</loc>
     <lastmod>2021-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/rinpharma_227/</loc>
+    <loc>/publication/rinpharma_239/</loc>
     <lastmod>2021-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/rinpharma_224/</loc>
+    <loc>/publication/rinpharma_236/</loc>
     <lastmod>2021-11-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/author/adam-skubala/</loc>
@@ -137,19 +158,19 @@
     <loc>/tag/bayer/</loc>
     <lastmod>2021-11-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/rinpharma_214/</loc>
+    <loc>/publication/rinpharma_226/</loc>
     <lastmod>2021-11-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/author/ben-straub/</loc>
     <lastmod>2021-11-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/rinpharma_215/</loc>
+    <loc>/publication/rinpharma_227/</loc>
     <lastmod>2021-11-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/author/david-benkeser/</loc>
     <lastmod>2021-11-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/rinpharma_219/</loc>
+    <loc>/publication/rinpharma_231/</loc>
     <lastmod>2021-11-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/author/donald-musgrove-tarek-haddad-martin-fahey/</loc>
@@ -161,7 +182,7 @@
     <loc>/tag/emory-university/</loc>
     <lastmod>2021-11-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/rinpharma_210/</loc>
+    <loc>/publication/rinpharma_222/</loc>
     <lastmod>2021-11-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tag/gsk/</loc>
@@ -173,13 +194,13 @@
     <loc>/tag/imbei/</loc>
     <lastmod>2021-11-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/rinpharma_213/</loc>
+    <loc>/publication/rinpharma_225/</loc>
     <lastmod>2021-11-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/rinpharma_206/</loc>
+    <loc>/publication/rinpharma_218/</loc>
     <lastmod>2021-11-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/rinpharma_216/</loc>
+    <loc>/publication/rinpharma_228/</loc>
     <lastmod>2021-11-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/author/max-kuhn/</loc>
@@ -194,13 +215,13 @@
     <loc>/author/ning-leng-adrian-waddell-kate-ostbye-andy-nicholls/</loc>
     <lastmod>2021-11-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/rinpharma_209/</loc>
+    <loc>/publication/rinpharma_221/</loc>
     <lastmod>2021-11-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/rinpharma_218/</loc>
+    <loc>/publication/rinpharma_230/</loc>
     <lastmod>2021-11-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/rinpharma_211/</loc>
+    <loc>/publication/rinpharma_223/</loc>
     <lastmod>2021-11-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tag/regeneron/</loc>
@@ -221,13 +242,13 @@
     <loc>/tag/somalogic/</loc>
     <lastmod>2021-11-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/rinpharma_208/</loc>
+    <loc>/publication/rinpharma_220/</loc>
     <lastmod>2021-11-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/event/rinpharma2021/</loc>
     <lastmod>2021-10-29T11:22:44-04:00</lastmod>
   </url><url>
-    <loc>/publication/rinpharma_198/</loc>
+    <loc>/publication/rinpharma_210/</loc>
     <lastmod>2021-11-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tag/7n/</loc>
@@ -245,13 +266,13 @@
     <loc>/tag/friedrich-miescher-institute/</loc>
     <lastmod>2021-11-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/rinpharma_199/</loc>
+    <loc>/publication/rinpharma_211/</loc>
     <lastmod>2021-11-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/rinpharma_194/</loc>
+    <loc>/publication/rinpharma_206/</loc>
     <lastmod>2021-11-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/rinpharma_195/</loc>
+    <loc>/publication/rinpharma_207/</loc>
     <lastmod>2021-11-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tag/janssen/</loc>
@@ -281,31 +302,31 @@
     <loc>/tag/pfizer/</loc>
     <lastmod>2021-11-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/rinpharma_192/</loc>
+    <loc>/publication/rinpharma_204/</loc>
     <lastmod>2021-11-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/rinpharma_197/</loc>
+    <loc>/publication/rinpharma_209/</loc>
     <lastmod>2021-11-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/author/rich-iannone/</loc>
     <lastmod>2021-11-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/rinpharma_203/</loc>
+    <loc>/publication/rinpharma_215/</loc>
     <lastmod>2021-11-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/rinpharma_193/</loc>
+    <loc>/publication/rinpharma_205/</loc>
     <lastmod>2021-11-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/author/teckla-akinyi/</loc>
     <lastmod>2021-11-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/rinpharma_200/</loc>
-    <lastmod>2021-11-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/publication/rinpharma_190/</loc>
+    <loc>/publication/rinpharma_212/</loc>
     <lastmod>2021-11-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication/rinpharma_202/</loc>
+    <lastmod>2021-11-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication/rinpharma_214/</loc>
     <lastmod>2021-11-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/author/thomas-neitmann/</loc>
@@ -316,6 +337,111 @@
   </url><url>
     <loc>/author/yujie-zhao-xuan-deng-benjamin-wang-yilong-zhang/</loc>
     <lastmod>2021-11-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/kelly-obriant/</loc>
+    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/maria-doyle/</loc>
+    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/peter-maccallum-cancer-centre/</loc>
+    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication/rinpharma_200/</loc>
+    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/stefano-mangiola/</loc>
+    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication/rinpharma_199/</loc>
+    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/walter-and-eliza-hall-institute/</loc>
+    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/genpact/</loc>
+    <lastmod>2021-10-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/gilead/</loc>
+    <lastmod>2021-10-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/jeremy-wildfire-maya-gans/</loc>
+    <lastmod>2021-10-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/kevin-lee/</loc>
+    <lastmod>2021-10-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication/rinpharma_198/</loc>
+    <lastmod>2021-10-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication/rinpharma_197/</loc>
+    <lastmod>2021-10-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/sarepta-therapeutics/</loc>
+    <lastmod>2021-10-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/xiao-ni/</loc>
+    <lastmod>2021-10-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication/rinpharma_195/</loc>
+    <lastmod>2021-10-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/keaven-anderson/</loc>
+    <lastmod>2021-10-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication/rinpharma_196/</loc>
+    <lastmod>2021-10-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/yilong-zhang-nan-xiao/</loc>
+    <lastmod>2021-10-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication/rinpharma_193/</loc>
+    <lastmod>2021-10-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication/rinpharma_194/</loc>
+    <lastmod>2021-10-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/devin-pastoor/</loc>
+    <lastmod>2021-10-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/leigh-alexander/</loc>
+    <lastmod>2021-10-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/metrum-research-group/</loc>
+    <lastmod>2021-10-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/daniel-lee/</loc>
+    <lastmod>2021-10-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/generable/</loc>
+    <lastmod>2021-10-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/jean-philippe-coene/</loc>
+    <lastmod>2021-10-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/opifex/</loc>
+    <lastmod>2021-10-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication/rinpharma_191/</loc>
+    <lastmod>2021-10-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication/rinpharma_192/</loc>
+    <lastmod>2021-10-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/adrian-waddell/</loc>
+    <lastmod>2021-10-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication/rinpharma_189/</loc>
+    <lastmod>2021-10-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/dnanexus/</loc>
+    <lastmod>2021-10-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication/rinpharma_190/</loc>
+    <lastmod>2021-10-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/ted-laderas/</loc>
+    <lastmod>2021-10-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/post/2021-10-23-panels/</loc>
     <lastmod>2021-10-29T11:22:44-04:00</lastmod>
@@ -386,9 +512,6 @@
     <loc>/author/keaven-m.-anderson/</loc>
     <lastmod>2020-10-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/author/leon-eyrich-jessen/</loc>
-    <lastmod>2020-10-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tag/mit/</loc>
     <lastmod>2020-10-15T00:00:00+00:00</lastmod>
   </url><url>
@@ -426,9 +549,6 @@
     <lastmod>2020-10-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/author/tamara-broderick/</loc>
-    <lastmod>2020-10-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tag/technical-university-of-denmark/</loc>
     <lastmod>2020-10-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication/rinpharma_183/</loc>
@@ -482,9 +602,6 @@
     <loc>/publication/rinpharma_154/</loc>
     <lastmod>2020-10-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/gilead/</loc>
-    <lastmod>2020-10-14T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tag/glaxosmithkline/</loc>
     <lastmod>2020-10-14T00:00:00+00:00</lastmod>
   </url><url>
@@ -507,9 +624,6 @@
     <lastmod>2020-10-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/author/maya-gans/</loc>
-    <lastmod>2020-10-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tag/metrum-research-group/</loc>
     <lastmod>2020-10-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/author/michael-rimler/</loc>
@@ -581,9 +695,6 @@
     <loc>/author/daniel-sabanes-bove/</loc>
     <lastmod>2020-10-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/author/ellis-hughes/</loc>
-    <lastmod>2020-10-13T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tag/fred-hutch-cancer-research-center/</loc>
     <lastmod>2020-10-13T00:00:00+00:00</lastmod>
   </url><url>
@@ -606,9 +717,6 @@
     <lastmod>2020-10-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/author/laure-cougnaud-michela-pasetto/</loc>
-    <lastmod>2020-10-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/author/leigh-alexander/</loc>
     <lastmod>2020-10-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/author/matilde-kam/</loc>
@@ -641,13 +749,7 @@
     <loc>/publication/rinpharma_141/</loc>
     <lastmod>2020-10-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication-type/3/</loc>
-    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/publication/rinpharma_135/</loc>
-    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/author/devin-pastoor/</loc>
     <lastmod>2020-10-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/author/emil-hvitfeldt/</loc>
@@ -677,12 +779,6 @@
     <loc>/author/alison-hill/</loc>
     <lastmod>2020-10-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/author/daniel-lee/</loc>
-    <lastmod>2020-10-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tag/generable/</loc>
-    <lastmod>2020-10-07T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/publication/rinpharma_130/</loc>
     <lastmod>2020-10-07T00:00:00+00:00</lastmod>
   </url><url>
@@ -695,13 +791,7 @@
     <loc>/publication/rinpharma_129/</loc>
     <lastmod>2020-10-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/author/maria-doyle/</loc>
-    <lastmod>2020-10-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tag/peter-maccallum-cancer-center/</loc>
-    <lastmod>2020-10-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/author/stefano-mangiola/</loc>
     <lastmod>2020-10-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication/rinpharma_128/</loc>
@@ -800,9 +890,6 @@
     <loc>/author/jessica-myers-franklin/</loc>
     <lastmod>2019-08-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/author/kelly-obriant/</loc>
-    <lastmod>2019-08-22T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/author/madeleine-s.-gastonguay/</loc>
     <lastmod>2019-08-22T00:00:00+00:00</lastmod>
   </url><url>
@@ -869,9 +956,6 @@
     <loc>/publication/rinpharma_101/</loc>
     <lastmod>2019-08-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/author/adrian-waddell/</loc>
-    <lastmod>2019-08-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/author/alison-margolskee/</loc>
     <lastmod>2019-08-21T00:00:00+00:00</lastmod>
   </url><url>
@@ -918,9 +1002,6 @@
     <lastmod>2019-08-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/author/jeannine-fisher/</loc>
-    <lastmod>2019-08-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/author/keaven-anderson/</loc>
     <lastmod>2019-08-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication/rinpharma_91/</loc>
@@ -1272,9 +1353,6 @@
     <lastmod>2018-08-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication/rinpharma_16/</loc>
-    <lastmod>2018-08-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/author/xiao-ni/</loc>
     <lastmod>2018-08-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/admin/</loc>

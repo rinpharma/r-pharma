@@ -5,12 +5,20 @@
     <link>/author/devin-pastoor/</link>
       <atom:link href="/author/devin-pastoor/index.xml" rel="self" type="application/rss+xml" />
     <description>Devin Pastoor</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2022</copyright><lastBuildDate>Fri, 09 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2022</copyright><lastBuildDate>Wed, 27 Oct 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
       <title>Devin Pastoor</title>
       <link>/author/devin-pastoor/</link>
     </image>
+    
+    <item>
+      <title>A case-study driven introduction to the Julia language for R programmers</title>
+      <link>/publication/rinpharma_193/</link>
+      <pubDate>Wed, 27 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_193/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A PK &amp; PBPK Modelling Workflow in R: Simulation, Optimization &amp; Visualization</title>

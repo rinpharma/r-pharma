@@ -5,12 +5,20 @@
     <link>/author/ellis-hughes/</link>
       <atom:link href="/author/ellis-hughes/index.xml" rel="self" type="application/rss+xml" />
     <description>Ellis Hughes</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2022</copyright><lastBuildDate>Tue, 13 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2022</copyright><lastBuildDate>Fri, 05 Nov 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
       <title>Ellis Hughes</title>
       <link>/author/ellis-hughes/</link>
     </image>
+    
+    <item>
+      <title>R Package Validation Framework</title>
+      <link>/publication/rinpharma_250/</link>
+      <pubDate>Fri, 05 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_250/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>R Package Validation Framework</title>

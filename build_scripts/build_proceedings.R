@@ -105,6 +105,7 @@ url_video: '{video}'
       # split speaker and author
       author = paste("-",Speaker),
       author = gsub(" and ","\n- ",author),
+      author = gsub(", ","\n- ",author),
 
       affaliations = paste("-",Affiliation),
       affaliations = gsub(" \\| ","\n- ",affaliations),

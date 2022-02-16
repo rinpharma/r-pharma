@@ -5,12 +5,20 @@
     <link>/author/volha-tryputsen/</link>
       <atom:link href="/author/volha-tryputsen/index.xml" rel="self" type="application/rss+xml" />
     <description>Volha Tryputsen</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2022</copyright><lastBuildDate>Thu, 22 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2022</copyright><lastBuildDate>Tue, 02 Nov 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
       <title>Volha Tryputsen</title>
       <link>/author/volha-tryputsen/</link>
     </image>
+    
+    <item>
+      <title>R/Shiny tools for Immune Fitness Exploration</title>
+      <link>/publication/rinpharma_209/</link>
+      <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_209/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>From playing in the backyard to designing one: Shiny transforms study designs, data analyses and statistical thinking of oncology in vivo group at Janssen</title>

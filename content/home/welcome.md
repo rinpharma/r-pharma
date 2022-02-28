@@ -26,20 +26,20 @@ design:
     # Text color (true=light, false=dark, or remove for the dynamic theme color).
     text_color_light: true
 
-cta:
-  url: '/post/faq'
-  label: Read the FAQ
-  icon_pack: fas
-  icon: book-reader
+#cta:
+#  url: '/post/faq'
+#  label: Read the FAQ
+#  icon_pack: fas
+#  icon: book-reader
 
-cta:
-  url: 'https://hopin.com/events/r-pharma-2021/registration'
-  label: 2021 registration
-  icon_pack: fas
-  icon: door-open
-cta_alt:
-  url: '/workshop/2021conference/'
-  label: Workshops
+#cta:
+#  url: 'https://hopin.com/events/r-pharma-2021/registration'
+#  label: 2021 registration
+#  icon_pack: fas
+#  icon: door-open
+#cta_alt:
+#  url: '/workshop/2021conference/'
+#  label: Workshops
 
 ---
 
@@ -47,4 +47,4 @@ The conference is a relatively small, scientifically &
 industry oriented, collegial event focused on the use of R in the development of
 pharmaceuticals.
 
-The 2021 Conference will run Nov. 2-4th, with workshops the week before.
+The 2022 Conference will run Nov. 8-10th, with workshops the week before.  More details to follow.

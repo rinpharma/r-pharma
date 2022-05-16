@@ -32,11 +32,11 @@ design:
 #  icon_pack: fas
 #  icon: book-reader
 
-#cta:
-#  url: 'https://hopin.com/events/r-pharma-2021/registration'
-#  label: 2021 registration
-#  icon_pack: fas
-#  icon: door-open
+cta:
+  url: '/html/call4papers/'
+  label: 2022 Call for papers
+  icon_pack: fas
+  icon: door-open
 #cta_alt:
 #  url: '/workshop/2021conference/'
 #  label: Workshops

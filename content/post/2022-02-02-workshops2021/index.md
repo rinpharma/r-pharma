@@ -7,7 +7,7 @@ featured: false
 
 ## R/Pharma Workshops
 
-During R/Pharma 2021 we were excited to host 14 free workshops along with the conference.  Workshops ran for 2-4 hours and were hosted by members of the community.  The workshops are one of the highlights of R/Pharma and we are indebted to the hosts who prepare and host them, highlighting the community effort the R/Pharma fosters.  Over 1000 people attended an R/Pharma workshop in 2021.
+During R/Pharma 2021 we were excited to host 14 free workshops along with the conference.  Workshops ran for 2-4 hours and were hosted by members of the community.  The workshops are one of the highlights of R/Pharma and we are indebted to the hosts who prepare them, highlighting the community effort that R/Pharma fosters.  Over 1000 people attended an R/Pharma workshop in 2021.
 
 If you are interested in contibuting a workshop in 2022 please reach out to R/Pharma via email (info@rinpharma.com) or our [contact page](https://rinpharma.com/contact/)
 

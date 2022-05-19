@@ -2,7 +2,7 @@
 title: R/Pharma 2021 discussion panels
 date: 2021-10-23
 summary: A chance to have a Q&A with leaders in validation, shiny scaling and training/leadership.
-featured: true
+featured: false
 ---
 
 R/Pharma 2021 featured three discussion panels, which were held at the end of each conference day.  The panels were not recorded and the only way you could hear the amazing discussions was to attend R/Pharma.

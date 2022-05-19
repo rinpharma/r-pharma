@@ -5,10 +5,10 @@ summary: A chance to have a Q&A with leaders in validation, shiny scaling and tr
 featured: true
 ---
 
-R/Pharma is excited to announce three discussion panels to be held at the end of each conference day.  **These panels will not be recorded** - come to R/Pharma to hear the following:
+R/Pharma 2021 featured three discussion panels, which were held at the end of each conference day.  The panels were not recorded and the only way you could hear the amazing discussions was to attend R/Pharma.
 
 ### Validation
-*November 2nd, 13:50 ET*  
+*November 2nd 2021, 13:50 ET*  
 
 - James Black (Roche, Moderator)  
 - Bill Ellis (Novartis) Is a senior leader at Novartis, developing the next generation of SCEs for GxP use.
@@ -19,7 +19,7 @@ R/Pharma is excited to announce three discussion panels to be held at the end of
 - Yilong Zhang (Merck) Is active on valtools, and the R Validation Hub. He also [co-authored a paper](https://www.lexjansen.com/phuse-us/2020/tt/TT12.pdf) on the validation for internal packages at Merck.
 
 ### Training and Leadership
-*November 3rd, 13:50 ET*  
+*November 3rd 2021, 13:50 ET*  
 
 - Paulo Bargo (Janssen, Moderator)  
 - Ann Liu-Ferrara (BD)
@@ -28,7 +28,7 @@ R/Pharma is excited to announce three discussion panels to be held at the end of
 - Gabriella Rustici (AstraZeneca)
 
 ### Scaling Shiny
-*November 4th, 13:50 ET*  
+*November 4th 2021, 13:50 ET*  
 
 - Eric Nantz (Eli Lilly, Moderator)
 - Winston Chang (RStudio)
@@ -37,6 +37,3 @@ R/Pharma is excited to announce three discussion panels to be held at the end of
 - Kamil Wais (7N Consulting - RWD Insights Engineering Lead @ Roche)
 - Hanni Willenbrock (Novo Nordisk)
 
-Remember, the panels will not be recorded.  The only way you get to hear these amazing discussions is to register for R/Pharma and come to the panel discussions.
-
-We'll be running a Q&A during the conference, but if you have a burning question you'd like to share before the panel takes place, please use the links below to send an email to the moderator [Validation](mailto:rinpharma-validation@altmails.com), [Training](mailto:info@rinpharma.com?subject=Training) or [Scaling Shiny](mailto:thercast@gmail.com) and we'll pass them on the panel moderators.

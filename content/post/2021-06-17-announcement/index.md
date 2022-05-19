@@ -1,14 +1,14 @@
 ---
 title: R/Pharma 2021
-date: 2021-06-17
-summary: First announcement of R/Pharma 2021.
+date: 2022-02-27
+summary: First announcement of R/Pharma 2022.
 featured: false
 ---
 
-We are pleased to announce R/Pharma 2021 !!
+We are pleased to announce R/Pharma 2022!!
 
-R/Pharma 2021 will be held as a free virtual conference from November 2-4, 2021 with workshops running the week before.
+R/Pharma 2022 will be held as a free virtual conference from November 8-10, 2022 with workshops running the week before.
 
-More details on keynote speakers and call-4-papers will follow shortly.
+More details on keynote speakers and call-for-talks will follow shortly.
 
-R/Pharma 2020 was a huge success as a virtual event with over 1000 registrations.  We decided to keep the 2021 conference virtual in order to include as many participants as possible.  For 2022 we are aiming to hold a hybrid event.
+R/Pharma 2020 and 2021 were huge successes as virtual events with over 2000 registrations for the 2021 event.  We decided to keep the 2022 conference virtual in order to include as many participants as possible.  For 2023 we are considering a hybrid event.

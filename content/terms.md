@@ -20,7 +20,7 @@ type: "page"
 
 # Diversity:
 
-R/Pharma is dedicated to providing a harassment-free conference experience for everyone regardless of gender, sexual orientation, disability or any feature that distinguishes human beings. For more information, please see the R Consortium code of conduct. https://wiki.r-consortium.org/view/R_Consortium_and_the_R_Community_Code_of_Conduct 
+R/Pharma is dedicated to providing a harassment-free conference experience for everyone regardless of gender, sexual orientation, disability or any feature that distinguishes human beings. 
  
 
 # Policy Statement of the R in Pharma Conference:
@@ -45,5 +45,3 @@ Please note that Hopin, RStudio Cloud and Eventbrite are third-party Cloud servi
 The R/Pharma conference runs on the hopin virtual event platform.  Hopin terms and conditions can be found here: https://hopin.com/legal-policy-center.
 
 We expect you to provide your full name and email address for our events, and you will have to register with the Eventbrite and Hopin services as a personal consumer. Eventbrite will ask you to create an account with them using at least your first name, last name and your email address. Their terms and conditions state (in summary) that by doing so “[paragraph 17.1] you acknowledge and agree that you grant them full right and licence to use this information for the purpose of operating their Services (including Eventbrite’s promotional and marketing services).” Please also note that Eventbrite is a company registered in the United States, and the data you provide to them is most likely to be kept in the servers outside the European Union. As a result, if you prefer not to use the services provided by Eventbrite to register for a workshop, as an alternative please contact us at info@rinpharma.com directly providing your details required for registration and we will process your registration, if booked while the workshop was still open.
-
-Visit https://www.r-consortium.org/about/governance for more info.

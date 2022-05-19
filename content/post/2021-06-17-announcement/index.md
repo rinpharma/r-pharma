@@ -1,5 +1,5 @@
 ---
-title: R/Pharma 2021
+title: R/Pharma 2022
 date: 2022-02-27
 summary: First announcement of R/Pharma 2022.
 featured: false

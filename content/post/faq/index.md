@@ -11,10 +11,10 @@ featured: true
 
 A quick guide to some the important questions we are often asked.
 
-### How do I get a ticket for 2021?
+### How do I get a ticket for 2022?
 
 R/Pharma is a free event put on by volunteers with the generosity of Pharma
-companies and Harvard University. More information on tickets for the 2021 event is 
+companies and Harvard University. More information on registration for the 2022 event is 
 coming soon.
 
 ### What is the mission and history of R/Pharma?

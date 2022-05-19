@@ -48,7 +48,7 @@ local_business_type = ""
 org_name = "R/Pharma"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = "R/Pharma is an ISC working group under the R Consortium. The conference is a relatively small, scientifically & industry oriented, collegial event focused on the use of R in the development of pharmaceuticals. The conference covers topics including reproducible research, regulatory compliance and validation, safety monitoring, clinical trials, drug discovery, research & development, PK/PD/pharmacometrics, genomics, diagnostics, immunogenicity and more. All are discussed within the context of using R as a primary tool within the drug development process. The conference showcases the current use of R that is helping to drive biomedical research, drug discovery & development, and clinical initiatives."
+description = "R/Pharma.  The conference for all things R related in the Pharma industry"
 
 ############################
 ## Site Features

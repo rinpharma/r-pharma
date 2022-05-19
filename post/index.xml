@@ -128,7 +128,7 @@ The R/Pharma expo was a highlight of the virtual conference in 2020 and 2021 and
   &lt;ul&gt;
     &lt;li&gt;&lt;a href=&#34;#faq&#34;&gt;FAQ&lt;/a&gt;
       &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&#34;#how-do-i-get-a-ticket-for-2021&#34;&gt;How do I get a ticket for 2021?&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#how-do-i-get-a-ticket-for-2022&#34;&gt;How do I get a ticket for 2022?&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&#34;#what-is-the-mission-and-history-of-rpharma&#34;&gt;What is the mission and history of R/Pharma?&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&#34;#whats-your-policy-on-creating-a-safe-place-for-attendees&#34;&gt;What’s your policy on creating a safe place for attendees?&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&#34;#terms-and-conditions&#34;&gt;Terms and conditions&lt;/a&gt;&lt;/li&gt;
@@ -140,9 +140,9 @@ The R/Pharma expo was a highlight of the virtual conference in 2020 and 2021 and
 
 &lt;h2 id=&#34;faq&#34;&gt;FAQ&lt;/h2&gt;
 &lt;p&gt;A quick guide to some the important questions we are often asked.&lt;/p&gt;
-&lt;h3 id=&#34;how-do-i-get-a-ticket-for-2021&#34;&gt;How do I get a ticket for 2021?&lt;/h3&gt;
+&lt;h3 id=&#34;how-do-i-get-a-ticket-for-2022&#34;&gt;How do I get a ticket for 2022?&lt;/h3&gt;
 &lt;p&gt;R/Pharma is a free event put on by volunteers with the generosity of Pharma
-companies and Harvard University. More information on tickets for the 2021 event is
+companies and Harvard University. More information on registration for the 2022 event is
 coming soon.&lt;/p&gt;
 &lt;h3 id=&#34;what-is-the-mission-and-history-of-rpharma&#34;&gt;What is the mission and history of R/Pharma?&lt;/h3&gt;
 &lt;p&gt;Please check out our &lt;a href=&#34;/post/thewhy/&#34;&gt;first blog post&lt;/a&gt;!&lt;/p&gt;
@@ -153,6 +153,84 @@ feature that distinguishes human beings. For more information, please
 see the R Consortium code of conduct.&lt;/p&gt;
 &lt;h3 id=&#34;terms-and-conditions&#34;&gt;Terms and conditions&lt;/h3&gt;
 &lt;p&gt;Terms and conditions statement can be found here: &lt;a href=&#34;/terms/&#34;&gt;terms and conditions&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>R/Pharma 2021 Workshops</title>
+      <link>/post/2022-02-02-workshops2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/post/2022-02-02-workshops2021/</guid>
+      <description>&lt;h2 id=&#34;rpharma-workshops&#34;&gt;R/Pharma Workshops&lt;/h2&gt;
+&lt;p&gt;During R/Pharma 2021 we were excited to host 14 free workshops along with the conference.  Workshops ran for 2-4 hours and were hosted by members of the community.  The workshops are one of the highlights of R/Pharma and we are indebted to the hosts who prepare and host them, highlighting the community effort the R/Pharma fosters.  Over 1000 people attended an R/Pharma workshop in 2021.&lt;/p&gt;
+&lt;p&gt;If you are interested in contibuting a workshop in 2022 please reach out to R/Pharma via email (&lt;a href=&#34;mailto:info@rinpharma.com&#34;&gt;info@rinpharma.com&lt;/a&gt;) or our &lt;a href=&#34;https://rinpharma.com/contact/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;contact page&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;rpharma-2021-workshops&#34;&gt;R/Pharma 2021 Workshops&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Workshop&lt;/th&gt;
+&lt;th&gt;Host(s)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Clinical Trials Data Analysis at Roche&lt;/td&gt;
+&lt;td&gt;Adrian Waddell (Roche)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Intro Shiny&lt;/td&gt;
+&lt;td&gt;Ted Laderas (DNANexus)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Stan: Building a Survival Model From Scratch&lt;/td&gt;
+&lt;td&gt;Daniel Lee (Generable)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Unleash Your Shiny Apps with Javascript&lt;/td&gt;
+&lt;td&gt;Jean-Philippe-Coene (Opifex) and David Granjon (Novartis)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;A Case-Study Driven Introduction to the Julia Language for R Programmers&lt;/td&gt;
+&lt;td&gt;Devin Pastoor (Metrum)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Building Tidy R Packages&lt;/td&gt;
+&lt;td&gt;Juliane Manitz (EMD Serono) and Leigh Alexander (SomaLogic)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Clinical Tables in gt&lt;/td&gt;
+&lt;td&gt;Rich Iannone (RStudio)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;R for Clinical Study Reports and Submission&lt;/td&gt;
+&lt;td&gt;Yilong Zhang (Merck), Nan Xiao (Merck) and Keaven Anderson (Merck)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;SafetyGraphics&lt;/td&gt;
+&lt;td&gt;Jeremy Wildfire (Gilead), Maya Gans (Atorus Research) and Xiao Ni (Sarepta Therapeutics)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Python Machine Learning NLP&lt;/td&gt;
+&lt;td&gt;Kevin Lee (Genpact)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;tidy-transcriptomics&lt;/td&gt;
+&lt;td&gt;Stefano Mangiola (Walter and Eliza Hall Institute) and Maria Doyle (Peter MacCallum Cancer Centre)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;R Admin - RStudio Connect&lt;/td&gt;
+&lt;td&gt;Kelly O&amp;rsquo;Briant (RStudio)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Deep Learning&lt;/td&gt;
+&lt;td&gt;Leon Eyrich Jessen (Technical University of Denmark&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;R Package Validation Framework&lt;/td&gt;
+&lt;td&gt;Ellis Hughes (Fred Hutch) and Marie Vendettuoli (Fred Hutch)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 </description>
     </item>
     

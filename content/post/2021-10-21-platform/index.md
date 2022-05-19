@@ -3,6 +3,7 @@ title: Meet the R/Pharma Conference Platform
 date: 2021-10-14
 summary: A brief guide to the R/Pharma conference platform.
 featured: true
+draft: true
 ---
 
 For the second year we have chosen to use the [hopin](https://hopin.com/) conference platform to host R/Pharma.  Here is a brief guide to some of the platform's features.

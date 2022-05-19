@@ -2,7 +2,7 @@
 title: Call For Talks 
 date: 2022-05-19
 summary: Call For Talks for R/Pharma 2022.
-featured: false
+featured: true
 ---
 
 We’re excited to announce that the call for talks for R/Pharma 2022 is now open !!

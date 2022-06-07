@@ -15,6 +15,7 @@ We are particularly interested in submissions that have one or more of these qua
 
 -  Examples of how shiny is used to promote R
 -  Showcase the use of R in clinical trials
+-  Applications from smaller pharma companies / biotechs
 -  Expand the use of R in pharma to reach new domains and audiences
 -  Combining R with other languages and tools, like python, Julia, tensorflow etc.
 -  Reporting/Communication using RMarkdown, Quarto, Shiny, ggplot2, or something else altogether

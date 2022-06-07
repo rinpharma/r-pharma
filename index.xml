@@ -24,6 +24,7 @@
 &lt;ul&gt;
 &lt;li&gt;Examples of how shiny is used to promote R&lt;/li&gt;
 &lt;li&gt;Showcase the use of R in clinical trials&lt;/li&gt;
+&lt;li&gt;Applications from smaller pharma companies / biotechs&lt;/li&gt;
 &lt;li&gt;Expand the use of R in pharma to reach new domains and audiences&lt;/li&gt;
 &lt;li&gt;Combining R with other languages and tools, like python, Julia, tensorflow etc.&lt;/li&gt;
 &lt;li&gt;Reporting/Communication using RMarkdown, Quarto, Shiny, ggplot2, or something else altogether&lt;/li&gt;

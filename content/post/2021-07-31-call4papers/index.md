@@ -22,7 +22,7 @@ We are particularly interested in submissions that have one or more of these qua
 -  Discussions on how to teach R/data science effectively in pharma
 -  Talks on administering R in pharma and tackling scaling, packages, cloud, HPC etc.
 
-Applications close June 20th.
+Applications close June 30th.
 
 To apply, please submit the form found at this [link](https://rinpharma.com/html/call4papers/)  with your title and abstract that introduces you and your proposed topic. 
 

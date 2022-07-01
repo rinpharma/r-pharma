@@ -32,11 +32,11 @@ design:
 #  icon_pack: fas
 #  icon: book-reader
 
-cta:
-  url: '/html/call4papers/'
-  label: 2022 Call for abstracts
-  icon_pack: fas
-  icon: door-open
+#cta:
+#  url: '/html/call4papers/'
+#  label: 2022 Call for abstracts
+#  icon_pack: fas
+#  icon: door-open
 #cta_alt:
 #  url: '/workshop/2021conference/'
 #  label: Workshops
@@ -47,4 +47,4 @@ The conference is a relatively small, scientifically &
 industry oriented, collegial event focused on the use of R in the development of
 pharmaceuticals.
 
-The 2022 Conference will run Nov. 8-10th, with workshops the week before.  The call for abstracts is now open, and will close June 30th.
+The 2022 Conference will run as an online event Nov. 8-10th, with workshops the week before.  The call for abstracts is now closed, and information on those talks accepted will be communicated by end of August.

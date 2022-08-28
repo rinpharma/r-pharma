@@ -5,6 +5,11 @@ headless: true  # This file represents a page section.
 weight: 14
 # ... Put Your Section Options Here (title etc.) ...
 
+
+
+# Activate this widget? true/false
+active: true
+
 content:
   # Choose which groups/teams of users to display.
   #   Edit `user_groups` in each user's profile to add them to one or more of these groups.

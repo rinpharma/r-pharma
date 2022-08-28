@@ -54,14 +54,14 @@ jobs:
       #- name: Look at files
       #  run: Rscript -e 'dir()'
 
-      - name: Build team
-        run: Rscript -e 'source("build_scripts/build_team.R")'
+      #- name: Build team # run locally
+      #  run: Rscript -e 'source("build_scripts/build_team.R")'
       - name: Build proceedings
         run: Rscript -e 'source("build_scripts/build_proceedings.R")'
       - name: Build schedules
         run: Rscript -e 'source("build_scripts/build_schedules.R")'
-      - name: Build profile images
-        run: Rscript -e 'source("build_scripts/build_profile_image.R")'
+      #- name: Build profile images # run locally
+      #  run: Rscript -e 'source("build_scripts/build_profile_image.R")'
       - name: Build redirect
         run: Rscript -e 'source("build_scripts/build_redirects.R")'
       - name: Build workshops

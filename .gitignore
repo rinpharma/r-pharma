@@ -6,8 +6,8 @@ public/
 docs/
 
 # authors sub directories
-content/authors/**
-!/content/authors/.gitkeep
+#content/authors/**
+#!/content/authors/.gitkeep
 
 
 # publications subdirectories

@@ -45,6 +45,9 @@ gs4_auth(
 
   # loop
   for (i in 1:nrow(d_team)){
+
+    if (file.exists(paste0("content/authors/",i_linkedin,"/avatar.jpg"))) next
+
     i_data <- d_team[i,]
 
     i_hash <- i_data$hashed

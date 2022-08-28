@@ -46,12 +46,14 @@ gs4_auth(
   # loop
   for (i in 1:nrow(d_team)){
 
-    if (file.exists(paste0("content/authors/",i_linkedin,"/avatar.jpg"))) next
+   
 
     i_data <- d_team[i,]
 
     i_hash <- i_data$hashed
     i_linkedin <- i_data$linkedin
+
+if (file.exists(paste0("content/authors/",i_linkedin,"/avatar.jpg"))) next
 
     url <- paste0("https://cdn.libravatar.org/gravatarproxy/",i_hash,"?s=200&default=None")
     destination <- paste0("content/authors/",i_linkedin,"/avatar.jpg")

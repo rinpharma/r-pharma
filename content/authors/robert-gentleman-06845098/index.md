@@ -11,10 +11,10 @@ role: Executive Director, Harvard Medical School
 social:
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/in/ross-farrugia-820839204/
+  link: https://www.linkedin.com/in/robert-gentleman-06845098/
 - icon: github
   icon_pack: fab
-  link: https://github.com/rossfarrugia
+  link: https://computationalbiomed.hms.harvard.edu/
 #- icon: link
 #  icon_pack: fas
 #  link: https://epijim.uk

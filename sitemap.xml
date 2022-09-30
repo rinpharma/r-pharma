@@ -2,10 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/post/2021-07-31-call4papers/</loc>
-    <lastmod>2022-09-26T17:31:44-04:00</lastmod>
+    <loc>/workshop/2022conference/</loc>
+    <lastmod>2022-07-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/</loc>
+    <lastmod>2022-09-26T17:31:44-04:00</lastmod>
+  </url><url>
+    <loc>/post/2021-07-31-call4papers/</loc>
     <lastmod>2022-09-26T17:31:44-04:00</lastmod>
   </url><url>
     <loc>/post/2021-06-17-announcement/</loc>

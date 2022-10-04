@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Glaxosmithkline | R/Pharma</title>
+    <link>/tag/glaxosmithkline/</link>
+      <atom:link href="/tag/glaxosmithkline/index.xml" rel="self" type="application/rss+xml" />
+    <description>Glaxosmithkline</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2022</copyright><lastBuildDate>Wed, 14 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>Glaxosmithkline</title>
+      <link>/tag/glaxosmithkline/</link>
+    </image>
+    
+    <item>
+      <title>Clinical Reporting Using R at GSK</title>
+      <link>/publication/rinpharma_162/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_162/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using R to Create an End to End Process for Predicting Delays in Recruitment from Covid-19</title>
+      <link>/publication/rinpharma_156/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_156/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The R Validation Hub: Implementing a Risk-Based Approach to R</title>
+      <link>/publication/rinpharma_141/</link>
+      <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_141/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Implementing a Risk-based Approach to R Validation</title>
+      <link>/publication/rinpharma_129/</link>
+      <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_129/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Making Better Decisions</title>
+      <link>/publication/rinpharma_118/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_118/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using Machine Learning and Interactive Graphics to Find New Cancer Targets</title>
+      <link>/publication/rinpharma_92/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_92/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R Validation Hub (past, current and future state)</title>
+      <link>/publication/rinpharma_60/</link>
+      <pubDate>Tue, 20 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_60/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Challenges of Validating R</title>
+      <link>/publication/rinpharma_30/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_30/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Challenges of Validating R</title>
+      <link>/publication/rinpharma_58/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_58/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -18,6 +18,8 @@
               <h4>Hosted by {{ .presenter }}</h4>
               {{ if eq .status "available" }}
                 <a href="{{.ticketurl}}" target="_blank" class="btn btn-success px-2 py-2">Spaces Available: Register Here</a>
+              {{ else if eq .status "pending" }}
+                <span class="btn btn-primary px-2 py-2 workshop-pending">Registration Opening Shortly</span>
               {{ else if eq .status "closed" }}
                 <span class="btn btn-danger px-2 py-2 workshop-closed">Registration Closed</span>
               {{ else }}

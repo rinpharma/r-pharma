@@ -9,3 +9,7 @@
 .workshop-closed {
     pointer-events: none;
 }
+
+.workshop-pending {
+    pointer-events: none;
+}

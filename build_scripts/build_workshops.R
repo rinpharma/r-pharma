@@ -85,8 +85,8 @@ for (i in unique(d_workshops$event)) {
   
   bottom_txt <- paste(
     '\n\n---\n',
-    'R/Pharma is excited to present a total of 14 workshops this year, hosted by members of our community.  Please register for one or two of your choice (space is limited so we ask you not to register for all of them).  Zoom links will be sent to workshop attendees a couple of days before the workshop.\n',
-    'If you have not registered for the R/Pharma conference we ask that you do so before selecting a workshop.  You can join at https://hopin.com/events/r-pharma-2021/registration.\n',
+    'R/Pharma is excited to present a total of 20 workshops this year, hosted by members of our community.  Please register for those you are interested in (space is limited so we ask you not to register for all of them).  Zoom links will be sent to workshop attendees a couple of days before the workshop.\n',
+    'If you have not registered for the R/Pharma conference we ask that you do so before selecting a workshop.  You can join at https://hopin.com/events/r-pharma-2022/registration.\n',
     'R/Pharma is an amazing community and all of these workshops are put on by volunteers at no cost.  If you would like to contribute to a future workshop please reach out to us through the [contact page](https://rinpharma.com/contact/).\n',
     sep = '\n'
   )

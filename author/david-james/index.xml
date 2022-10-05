@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>David James | R/Pharma</title>
+    <link>/author/david-james/</link>
+      <atom:link href="/author/david-james/index.xml" rel="self" type="application/rss+xml" />
+    <description>David James</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2022</copyright><lastBuildDate>Wed, 21 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>David James</title>
+      <link>/author/david-james/</link>
+    </image>
+    
+    <item>
+      <title>An R package for Data Science and Deep Visualization of a complex clinical database</title>
+      <link>/publication/rinpharma_94/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_94/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

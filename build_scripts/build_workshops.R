@@ -76,7 +76,7 @@ for (i in unique(d_workshops$event)) {
         sprintf('    max_attendees: %s', x['max_attendees']),
         sprintf('    ticketurl: "%s"', x['ticket_url']),
         sprintf('    status: %s', tolower(x['status'])),
-        sprintf('    note: %s', tolower(x['note'])),
+        sprintf('    note: %s', x['note']),
         sep = "\n"
       )
     }),

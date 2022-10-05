@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tom Mock | R/Pharma</title>
+    <link>/author/tom-mock/</link>
+      <atom:link href="/author/tom-mock/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tom Mock</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2022</copyright><lastBuildDate>Wed, 07 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>Tom Mock</title>
+      <link>/author/tom-mock/</link>
+    </image>
+    
+    <item>
+      <title>RMarkdown</title>
+      <link>/publication/rinpharma_130/</link>
+      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_130/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

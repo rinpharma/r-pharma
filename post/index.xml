@@ -13,6 +13,78 @@
     </image>
     
     <item>
+      <title>R/Pharma 2022 Workshops</title>
+      <link>/post/2022-10-06-workshops/</link>
+      <pubDate>Thu, 06 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>/post/2022-10-06-workshops/</guid>
+      <description>&lt;h2 id=&#34;rpharma-2022-workshops&#34;&gt;R/Pharma 2022 Workshops&lt;/h2&gt;
+&lt;p&gt;R/Pharma is excited to host 20 free workshops! Workshops will run the 2 weeks prior to the gathering and are hosted by members of the community. Workshops are one of the highlights of R/Pharma and we are indebted to the hosts who prepare them.&lt;/p&gt;
+&lt;p&gt;If you have not registered for the R/Pharma conference we ask that you do so before selecting a workshop. You can join at &lt;a href=&#34;https://hopin.com/events/r-pharma-2022/registration&#34;&gt;https://hopin.com/events/r-pharma-2022/registration&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;New for 2022! R/Pharma will be offering for free, Digital Credentials via Credly for people that attend and complete the workshops.&lt;/p&gt;
+&lt;p&gt;Below are various Educational Learning Tracks for advice in taking workshops:&lt;/p&gt;
+&lt;h3 id=&#34;clinical-programmer&#34;&gt;Clinical Programmer&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Drill Down Summary Tables in Shiny with Tplyr&lt;/li&gt;
+&lt;li&gt;Creating Submission-Quality Clinical Trial Reporting Tables in R With rtables&lt;/li&gt;
+&lt;li&gt;Coding Typical Clinical Processes Using R for the Entry Level Programmer&lt;/li&gt;
+&lt;li&gt;Clinical Reporting in R&lt;/li&gt;
+&lt;li&gt;Introducing {gtreg}: an R package to produce regulatory tables for clinical research&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;beginner&#34;&gt;Beginner&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Coding Typical Clinical Processes Using R for the Entry Level Programmer&lt;/li&gt;
+&lt;li&gt;Introduction to Julia&lt;/li&gt;
+&lt;li&gt;Clinical Reporting in R&lt;/li&gt;
+&lt;li&gt;A hands on introduction to Quarto&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;data-science&#34;&gt;Data Science&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Introduction to Julia&lt;/li&gt;
+&lt;li&gt;Observable&lt;/li&gt;
+&lt;li&gt;Advanced Stan Workshop&lt;/li&gt;
+&lt;li&gt;A hands on introduction to Quarto&lt;/li&gt;
+&lt;li&gt;An intro to CI/CD for R packages&lt;/li&gt;
+&lt;li&gt;Graph Neural Networks in Drug Discovery: Opportunities and Solutions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;data-analyis&#34;&gt;Data Analyis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Introduction to Julia&lt;/li&gt;
+&lt;li&gt;How to use pointblank to understand, validate, and document your data&lt;/li&gt;
+&lt;li&gt;Using R to derive robust insights from real-world health care data&lt;/li&gt;
+&lt;li&gt;A hands on introduction to Quarto&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;admin&#34;&gt;Admin&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;How to build Shiny testing architecture&lt;/li&gt;
+&lt;li&gt;Admin - Environment Management&lt;/li&gt;
+&lt;li&gt;Building Production-Quality Shiny Applications&lt;/li&gt;
+&lt;li&gt;An intro to CI/CD for R packages&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;shiny&#34;&gt;Shiny&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Shiny for Python&lt;/li&gt;
+&lt;li&gt;Drill Down Summary Tables in Shiny with Tplyr&lt;/li&gt;
+&lt;li&gt;How to build Shiny testing architecture&lt;/li&gt;
+&lt;li&gt;Introduction to {shinyValidator}&lt;/li&gt;
+&lt;li&gt;Building Production-Quality Shiny Applications&lt;/li&gt;
+&lt;li&gt;How to use a complete JavaScript toolchain in your Shiny development&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;data-viz&#34;&gt;Data Viz&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Observable&lt;/li&gt;
+&lt;li&gt;How to use a complete JavaScript toolchain in your Shiny development&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;tables&#34;&gt;Tables&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Drill Down Summary Tables in Shiny with Tplyr&lt;/li&gt;
+&lt;li&gt;Creating Submission-Quality Clinical Trial Reporting Tables in R With rtables&lt;/li&gt;
+&lt;li&gt;Clinical Reporting in R&lt;/li&gt;
+&lt;li&gt;Introducing {gtreg}: an R package to produce regulatory tables for clinical research&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Call For Talks</title>
       <link>/post/2021-07-31-call4papers/</link>
       <pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate>

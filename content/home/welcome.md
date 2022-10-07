@@ -37,9 +37,9 @@ cta:
 #  label: 2022 Call for abstracts
 #  icon_pack: fas
 #  icon: door-open
-#cta_alt:
-#  url: '/workshop/2021conference/'
-#  label: Workshops
+cta_alt:
+  url: '/workshop/2022conference/'
+  label: Workshops
 
 ---
 

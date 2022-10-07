@@ -7,7 +7,7 @@ featured: true
 
 ## R/Pharma 2022 Workshops
 
-R/Pharma is excited to host 20 free workshops! Workshops will run the 2 weeks prior to the gathering and are hosted by members of the community. Workshops are one of the highlights of R/Pharma and we are indebted to the hosts who prepare them.
+R/Pharma is excited to host [20 free workshops!](https://rinpharma.com/workshop/2022conference/) Workshops will run the 2 weeks prior to the gathering and are hosted by members of the community. Workshops are one of the highlights of R/Pharma and we are indebted to the hosts who prepare them.
 
 If you have not registered for the R/Pharma conference we ask that you do so before selecting a workshop. You can join at https://hopin.com/events/r-pharma-2022/registration.
 
@@ -65,3 +65,6 @@ Below are various Educational Learning Tracks for advice in taking workshops:
 -  Creating Submission-Quality Clinical Trial Reporting Tables in R With rtables
 -  Clinical Reporting in R
 -  Introducing {gtreg}: an R package to produce regulatory tables for clinical research
+
+you can find registration links for all the workshops at https://rinpharma.com/workshop/2022conference/.
+

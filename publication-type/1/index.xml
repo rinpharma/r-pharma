@@ -5,12 +5,90 @@
     <link>/publication-type/1/</link>
       <atom:link href="/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2022</copyright><lastBuildDate>Thu, 04 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2022</copyright><lastBuildDate>Tue, 08 Nov 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
       <title>1</title>
       <link>/publication-type/1/</link>
     </image>
+    
+    <item>
+      <title>Advanced R Shiny Interactive AE Plots</title>
+      <link>/publication/rinpharma_263/</link>
+      <pubDate>Tue, 08 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_263/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ANTICS, an interactive game for exploring Adaptive Trial Design</title>
+      <link>/publication/rinpharma_256/</link>
+      <pubDate>Tue, 08 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_256/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CDISC Initiatives and Collaborations</title>
+      <link>/publication/rinpharma_254/</link>
+      <pubDate>Tue, 08 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_254/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ddiff : An R-package for comparing datasets</title>
+      <link>/publication/rinpharma_261/</link>
+      <pubDate>Tue, 08 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_261/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Enterprise-level Transition from SAS to Open-Source Programming for the whole department</title>
+      <link>/publication/rinpharma_259/</link>
+      <pubDate>Tue, 08 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_259/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MeRGE: An ecosystem of open-source R packages for Pharmacometrics from MetrumRG</title>
+      <link>/publication/rinpharma_264/</link>
+      <pubDate>Tue, 08 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_264/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PatientLevelPrediction: An end to end toolkit for developing diagnostic/prognostic models using big observational healthcare data</title>
+      <link>/publication/rinpharma_255/</link>
+      <pubDate>Tue, 08 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_255/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Successfully building a vibrant community of R users at AstraZeneca: Lessons Learned!</title>
+      <link>/publication/rinpharma_260/</link>
+      <pubDate>Tue, 08 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_260/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Why do I spend all my life formatting tables?!</title>
+      <link>/publication/rinpharma_257/</link>
+      <pubDate>Tue, 08 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_257/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Automatic generation of PowerPoint presentation for communication of clinical trial results</title>

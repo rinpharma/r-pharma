@@ -1,7 +1,7 @@
 ---
-title: 2020 Conference
+title: 2022 Conference
 
-event: 2020 Conference
+event: 2022 Conference
 event_url:
 
 location: Held 100% online
@@ -12,15 +12,15 @@ location: Held 100% online
 #  postcode: '94305'
 #  country: United States
 
-summary: An online event attracting 1,000 R practioners in Pharma.
-abstract: "The third R/Pharma, this year an online event attracting 1,000 R practitioners in Pharma."
+summary: An online event for R practioners in Pharma.
+abstract: "The fifth R/Pharma, this year an online event."
 
-rinpharma2020 : true
+rinpharma2022 : true
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2020-10-05T09:00:00Z"
-date_end: "2020-10-15T14:10:00Z"
+date: "2022-08-02T10:00:00Z"
+date_end: "2022-10-04T14:30:00Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).

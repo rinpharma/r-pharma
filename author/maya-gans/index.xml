@@ -5,12 +5,20 @@
     <link>/author/maya-gans/</link>
       <atom:link href="/author/maya-gans/index.xml" rel="self" type="application/rss+xml" />
     <description>Maya Gans</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2022</copyright><lastBuildDate>Thu, 04 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2022</copyright><lastBuildDate>Wed, 09 Nov 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
       <title>Maya Gans</title>
       <link>/author/maya-gans/</link>
     </image>
+    
+    <item>
+      <title>Saving State: a custom solution for saving patient populations in shiny</title>
+      <link>/publication/rinpharma_270/</link>
+      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_270/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Summary Table Rewind: From Source to Summary and Back Again</title>

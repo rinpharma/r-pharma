@@ -13,6 +13,22 @@
     </image>
     
     <item>
+      <title>Analysis and visualization of large-scale drug combination experiments with Shiny</title>
+      <link>/publication/rinpharma_280/</link>
+      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_280/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Assuring SDTM data quality with the sdtmchecks package</title>
+      <link>/publication/rinpharma_279/</link>
+      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_279/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Drill Down Summary Tables in Shiny with Tplyr</title>
       <link>/publication/rinpharma_275/</link>
       <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
@@ -33,6 +49,14 @@
       <link>/publication/rinpharma_267/</link>
       <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
       <guid>/publication/rinpharma_267/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R in the Cloud: A Holistic Approach towards GxP Compliance</title>
+      <link>/publication/rinpharma_278/</link>
+      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_278/</guid>
       <description></description>
     </item>
     

@@ -116,7 +116,7 @@ url_video: '{video}'
       )
     )
   
-  #d_proceedings <- d_proceedings %>% filter(Year < 2022)
+  d_proceedings <- d_proceedings %>% filter(Year < 2022)
 
 # Fill template --------------------------------------------------------------
 for (i in d_proceedings$ID) {

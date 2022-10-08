@@ -19,8 +19,8 @@ rinpharma2020 : true
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2020-10-05T13:00:00Z"
-date_end: "2020-10-15T15:00:00Z"
+date: "2020-10-05T09:00:00Z"
+date_end: "2020-10-15T14:10:00Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).

@@ -13,14 +13,14 @@ location: Held 100% online
 #  country: United States
 
 summary: An online event for R practioners in Pharma.
-abstract: "The fourth R/Pharma, this year an online event attracting 1,000 R practitioners in Pharma."
+abstract: "The fourth R/Pharma, this year an online event attracting 2,000 R practitioners in Pharma."
 
 rinpharma2021 : true
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2021-11-02T10:00:00Z"
-date_end: "2021-11-04T14:20:00Z"
+date: "2021-10-25T09:00:00Z"
+date_end: "2021-11-05T14:00:00Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).

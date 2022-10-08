@@ -1,0 +1,1378 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 | R/Pharma</title>
+    <link>/publication-type/1/</link>
+      <atom:link href="/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
+    <description>1</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2022</copyright><lastBuildDate>Thu, 10 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>1</title>
+      <link>/publication-type/1/</link>
+    </image>
+    
+    <item>
+      <title>10 Practical Considerations for moving  to R</title>
+      <link>/publication/rinpharma_287/</link>
+      <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_287/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Asynchronous Processing of Long-Running Tasks in Shiny</title>
+      <link>/publication/rinpharma_291/</link>
+      <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_291/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Co-existence of R and SAS for multiple imputation in Novo Nordisk</title>
+      <link>/publication/rinpharma_286/</link>
+      <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_286/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How CI/CD Enhances the Development of R packages in the Pharmaverse</title>
+      <link>/publication/rinpharma_292/</link>
+      <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_292/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Meet a 100% R-based CRO - the summary of a 5-year journey</title>
+      <link>/publication/rinpharma_290/</link>
+      <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_290/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RStudio on Amazon SageMaker: Streamlining the Healthcare and Life Sciences Machine Learning process</title>
+      <link>/publication/rinpharma_288/</link>
+      <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_288/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Three new things in tidymodels</title>
+      <link>/publication/rinpharma_285/</link>
+      <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_285/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analysis and visualization of large-scale drug combination experiments with Shiny</title>
+      <link>/publication/rinpharma_280/</link>
+      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_280/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Assuring SDTM data quality with the sdtmchecks package</title>
+      <link>/publication/rinpharma_279/</link>
+      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_279/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Drill Down Summary Tables in Shiny with Tplyr</title>
+      <link>/publication/rinpharma_275/</link>
+      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_275/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lessons in developing Shiny Frameworks</title>
+      <link>/publication/rinpharma_271/</link>
+      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_271/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R in the Cloud: A Holistic Approach towards GxP Compliance</title>
+      <link>/publication/rinpharma_278/</link>
+      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_278/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R pilot submissions to FDA</title>
+      <link>/publication/rinpharma_269/</link>
+      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_269/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R, Python, and Shiny in harmony: an Out-of-Box secure data backend for RStudio Connect &amp; Workbench</title>
+      <link>/publication/rinpharma_274/</link>
+      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_274/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Roches approach to software validation: an automated pipeline from validation to publication</title>
+      <link>/publication/rinpharma_276/</link>
+      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_276/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Saving State: a custom solution for saving patient populations in shiny</title>
+      <link>/publication/rinpharma_270/</link>
+      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_270/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Working at the intersection of Biostatistics and Software Engineering in a Pharma company</title>
+      <link>/publication/rinpharma_272/</link>
+      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_272/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Advanced R Shiny Interactive AE Plots</title>
+      <link>/publication/rinpharma_263/</link>
+      <pubDate>Tue, 08 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_263/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ANTICS, an interactive game for exploring Adaptive Trial Design</title>
+      <link>/publication/rinpharma_256/</link>
+      <pubDate>Tue, 08 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_256/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CDISC Initiatives and Collaborations</title>
+      <link>/publication/rinpharma_254/</link>
+      <pubDate>Tue, 08 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_254/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ddiff : An R-package for comparing datasets</title>
+      <link>/publication/rinpharma_261/</link>
+      <pubDate>Tue, 08 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_261/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enterprise-level Transition from SAS to Open-Source Programming for the whole department</title>
+      <link>/publication/rinpharma_259/</link>
+      <pubDate>Tue, 08 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_259/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MeRGE: An ecosystem of open-source R packages for Pharmacometrics from MetrumRG</title>
+      <link>/publication/rinpharma_264/</link>
+      <pubDate>Tue, 08 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_264/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PatientLevelPrediction: An end to end toolkit for developing diagnostic/prognostic models using big observational healthcare data</title>
+      <link>/publication/rinpharma_255/</link>
+      <pubDate>Tue, 08 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_255/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Successfully building a vibrant community of R users at AstraZeneca: Lessons Learned!</title>
+      <link>/publication/rinpharma_260/</link>
+      <pubDate>Tue, 08 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_260/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Why do I spend all my life formatting tables?!</title>
+      <link>/publication/rinpharma_257/</link>
+      <pubDate>Tue, 08 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_257/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automatic generation of PowerPoint presentation for communication of clinical trial results</title>
+      <link>/publication/rinpharma_243/</link>
+      <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_243/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data-as-a-Product: A data science framework for data collaborations</title>
+      <link>/publication/rinpharma_241/</link>
+      <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_241/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Outstanding User Interfaces with Shiny</title>
+      <link>/publication/rinpharma_237/</link>
+      <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_237/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Performing a risk assessment of R packages using the Risk Assessment Shiny Application</title>
+      <link>/publication/rinpharma_242/</link>
+      <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_242/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reimagine the R package distribution system for reproducible research and submissions</title>
+      <link>/publication/rinpharma_244/</link>
+      <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_244/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Smoothing out our path to open source and pan-pharma code collaboration</title>
+      <link>/publication/rinpharma_238/</link>
+      <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_238/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Summary Table Rewind: From Source to Summary and Back Again</title>
+      <link>/publication/rinpharma_246/</link>
+      <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_246/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The gsDesign Shiny app for clinical trial design</title>
+      <link>/publication/rinpharma_247/</link>
+      <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_247/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The New Roads Leading to Shiny Nirvana</title>
+      <link>/publication/rinpharma_239/</link>
+      <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_239/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using {valtools} for software validation separate from development</title>
+      <link>/publication/rinpharma_236/</link>
+      <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_236/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bayesDP - an R package for data augmentation using the Bayesian discount prior for clinical trials</title>
+      <link>/publication/rinpharma_226/</link>
+      <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_226/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Closing the Gap: Creating an End to End R Package Toolkit for the Clinical Reporting Pipeline</title>
+      <link>/publication/rinpharma_227/</link>
+      <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_227/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Democratizing Shiny App Development: The Novartis DataPipeline Harmonized Framework</title>
+      <link>/publication/rinpharma_231/</link>
+      <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_231/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GeneTonic: enjoying the interpretation of your RNA-seq data analysis</title>
+      <link>/publication/rinpharma_222/</link>
+      <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_222/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Industrialized Machine Learning and Explainable AI for Late Phase Trails</title>
+      <link>/publication/rinpharma_225/</link>
+      <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_225/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Making Python Objects R-like with PyR</title>
+      <link>/publication/rinpharma_228/</link>
+      <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_228/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OneView – A Shiny app to unlock the full potential of drug repositioning investigations</title>
+      <link>/publication/rinpharma_221/</link>
+      <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_221/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R at Warp Speed: Reproducible coding for COVID vaccine trials</title>
+      <link>/publication/rinpharma_230/</link>
+      <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_230/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R Consortium Pharma Working Groups Overview and Updates</title>
+      <link>/publication/rinpharma_223/</link>
+      <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_223/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Survival analysis with tidymodels: The censored package</title>
+      <link>/publication/rinpharma_220/</link>
+      <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_220/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>5 testing packages to make your package better!</title>
+      <link>/publication/rinpharma_210/</link>
+      <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_210/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interactive and collaborative exploration of large-scale transcriptomics data with iSEE</title>
+      <link>/publication/rinpharma_211/</link>
+      <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_211/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interactive Forest Plot for DMC Safety Monitoring in Clinical Trials</title>
+      <link>/publication/rinpharma_206/</link>
+      <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_206/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introducing {admiral}—The ADaM in R Asset Library</title>
+      <link>/publication/rinpharma_207/</link>
+      <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_207/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R Package Validation at Roche</title>
+      <link>/publication/rinpharma_204/</link>
+      <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_204/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R/Shiny tools for Immune Fitness Exploration</title>
+      <link>/publication/rinpharma_209/</link>
+      <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_209/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SENDing Toxicology Study Data Analysis into the 21st Century with a New R Package: sendigR.</title>
+      <link>/publication/rinpharma_215/</link>
+      <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_215/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Statistical Analysis and Pathway to a Risk-based Assessment of R packages at Merck KGaA/EMD Serono</title>
+      <link>/publication/rinpharma_205/</link>
+      <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_205/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Arithmetic Problems in Scientific Software Architecture</title>
+      <link>/publication/rinpharma_212/</link>
+      <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_212/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>There’s only one R in Pfizer. Attempts to harmonise R release across a large pharma organisation</title>
+      <link>/publication/rinpharma_214/</link>
+      <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_214/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automated Data-Adaptive Analytics to Improve Robustness of Confounding Control when Estimating Treatment Effects in Electronic Healthcare Databases</title>
+      <link>/publication/rinpharma_180/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_180/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building and Managing Unified R Environments for Data Science and Software Development</title>
+      <link>/publication/rinpharma_178/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_178/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Its a trap! A data science case story</title>
+      <link>/publication/rinpharma_185/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_185/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Julia in Pharma</title>
+      <link>/publication/rinpharma_174/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_174/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>r2rtf - a Lightweight R Package to Produce Tables and Figures in RTF Format</title>
+      <link>/publication/rinpharma_181/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_181/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reproducible computation at scale in R with targets</title>
+      <link>/publication/rinpharma_177/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_177/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RStudio Pharma Updates</title>
+      <link>/publication/rinpharma_187/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_187/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Seamless Visualisation of Complex Genomic Variations in GMOs and Edited Cell Lines Using gmoviz</title>
+      <link>/publication/rinpharma_175/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_175/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Subgroup Benchmarking Framework</title>
+      <link>/publication/rinpharma_182/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_182/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The See Value App: Visual Decision Making for Drug Development</title>
+      <link>/publication/rinpharma_183/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_183/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using R Markdown to Generate Clinical Trials Summary Reports</title>
+      <link>/publication/rinpharma_176/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_176/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>X-Omics Platform</title>
+      <link>/publication/rinpharma_186/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_186/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Clinical Reporting Using R at GSK</title>
+      <link>/publication/rinpharma_162/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_162/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leveraging Nested Data Frames for Analytical Studies</title>
+      <link>/publication/rinpharma_163/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_163/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>openNCA Pharmacokinetic data repository and Non-compartmental Analysis System</title>
+      <link>/publication/rinpharma_166/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_166/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PREP - Packages fRom tEmPlates - An R Package to Streamline Development of Shiny Apps and R Packages</title>
+      <link>/publication/rinpharma_164/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_164/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>safetyGraphics v2.0 - Open Source Collaboration in Pharma using R and Shiny</title>
+      <link>/publication/rinpharma_159/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_159/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Styling Shiny &amp; R Markdown with bootstraplib &amp; thematic</title>
+      <link>/publication/rinpharma_161/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_161/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tidyCDISC an Open Source Platform in R to Analyze Clinical Trial Data</title>
+      <link>/publication/rinpharma_167/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_167/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tplyr: An Intuitive Framework for Building Clinical Safety Summaries</title>
+      <link>/publication/rinpharma_168/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_168/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using R to Create an End to End Process for Predicting Delays in Recruitment from Covid-19</title>
+      <link>/publication/rinpharma_156/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_156/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>visR - a package for effective visualization in Pharma</title>
+      <link>/publication/rinpharma_158/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_158/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>With great graphs comes great power</title>
+      <link>/publication/rinpharma_157/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_157/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>yspec: an R Package to Create and Deploy Data Set Specification Objects in a Modeling and Simulation Workflow</title>
+      <link>/publication/rinpharma_169/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_169/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Becoming Multilingual</title>
+      <link>/publication/rinpharma_151/</link>
+      <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_151/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>geoMapr: A Shiny Application for Enriched Analysis of Drug Utilization Data</title>
+      <link>/publication/rinpharma_150/</link>
+      <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_150/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Implementing Mixed Models with Repeated Measures (MMRM) in R and Shiny for Regulatory Purposes</title>
+      <link>/publication/rinpharma_143/</link>
+      <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_143/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interactive medical oversight reporting in R</title>
+      <link>/publication/rinpharma_142/</link>
+      <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_142/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>metashiny: build Shiny apps with a Shiny app</title>
+      <link>/publication/rinpharma_146/</link>
+      <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_146/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Numerical validation as a critical aspect in bringing R to the Clinical Research</title>
+      <link>/publication/rinpharma_149/</link>
+      <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_149/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Out of Chaos, Comes Order: Adventures in Standardized and Reproducible Research</title>
+      <link>/publication/rinpharma_147/</link>
+      <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_147/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>R Package Validation Framework</title>
+      <link>/publication/rinpharma_145/</link>
+      <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_145/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>StackEm High! Ensembles Using tidymodels</title>
+      <link>/publication/rinpharma_140/</link>
+      <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_140/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The R Validation Hub: Implementing a Risk-Based Approach to R</title>
+      <link>/publication/rinpharma_141/</link>
+      <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_141/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Accelerating Chemistry Research through the Integration of Data Science with High-Throughput Experimentation</title>
+      <link>/publication/rinpharma_112/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_112/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building Open Source Tools for Safety Monitoring: Advancing Research Through Community Collaboration</title>
+      <link>/publication/rinpharma_105/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_105/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Democratizing Natural Language Processing with I2E and R Shiny</title>
+      <link>/publication/rinpharma_125/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_125/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evaluating the performance of advanced causal inference methods applied to healthcare claims data</title>
+      <link>/publication/rinpharma_108/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_108/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>From CDISC to TLFs, using R to support Pharmacokinetic Analyses</title>
+      <link>/publication/rinpharma_119/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_119/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>From playing in the backyard to designing one: Shiny transforms study designs, data analyses and statistical thinking of oncology in vivo group at Janssen</title>
+      <link>/publication/rinpharma_102/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_102/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Identifying progression-free survival in Veterans with Diffuse Large B-Cell Lymphoma using electronic healthcare records</title>
+      <link>/publication/rinpharma_124/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_124/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Improve installation sequences for R package cohorts</title>
+      <link>/publication/rinpharma_107/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_107/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Its Not Whats on the Outside, but Its Whats on the Back-end That Matters: The World Beyond CSV Files</title>
+      <link>/publication/rinpharma_106/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_106/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Making Better Decisions</title>
+      <link>/publication/rinpharma_118/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_118/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ModViz POP: R-Shiny Based PK/PD Interface for Empowering Teams to Perform Real-Time Simulations</title>
+      <link>/publication/rinpharma_103/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_103/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prediction of maternal-fetal exposures of CYP450-metabolized drugs using physiologic pharmacokinetic modeling implemented in R and mrgsolve</title>
+      <link>/publication/rinpharma_117/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_117/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reproducible shiny apps with shinymeta</title>
+      <link>/publication/rinpharma_113/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_113/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shiny apps for accelerating early drug discovery research</title>
+      <link>/publication/rinpharma_114/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_114/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shiny in Production: Building bridges from data science to IT</title>
+      <link>/publication/rinpharma_123/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_123/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simulations, and Complex Innovative Trial Designs</title>
+      <link>/publication/rinpharma_121/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_121/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tidysq for Working with Biological Sequence Data in ML Driven Epitope Prediction in Cancer Immunotherapy</title>
+      <link>/publication/rinpharma_109/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_109/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using R to foster the communication with non-statisticians on Bayesian dose escalation models</title>
+      <link>/publication/rinpharma_116/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_116/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Validation Framework for Assay Processing Pipelines</title>
+      <link>/publication/rinpharma_122/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_122/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Your Missing Step in Reproducible R Programming: Continuous Deployment</title>
+      <link>/publication/rinpharma_101/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_101/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An R package for Data Science and Deep Visualization of a complex clinical database</title>
+      <link>/publication/rinpharma_94/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_94/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Collaborating at scale: managing an enterprise analytical computing ecosystem</title>
+      <link>/publication/rinpharma_85/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_85/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Creating and reviving Shiny apps with golem</title>
+      <link>/publication/rinpharma_76/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_76/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Embrace R in Pharma - building internal R community and establishing fit-for-purpose R pilots</title>
+      <link>/publication/rinpharma_86/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_86/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploratory Graphics (xGx): Promoting the purposeful exploration of PKPD data</title>
+      <link>/publication/rinpharma_77/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_77/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How to win friends and influence people: Efficiency, Reproducibility, and Scalability with R Project templates and parameterized R Markdown</title>
+      <link>/publication/rinpharma_72/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_72/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interactive Visualization of Standardized CDISC-SEND-Formatted Toxicology Study Data Using R Shiny</title>
+      <link>/publication/rinpharma_78/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_78/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leveraging multiple R tools to make effective pediatric dosing decisions</title>
+      <link>/publication/rinpharma_91/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_91/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine learning workflow management with drake</title>
+      <link>/publication/rinpharma_93/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_93/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nlmixr: an R package for population PKPD modeling</title>
+      <link>/publication/rinpharma_75/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_75/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Package management</title>
+      <link>/publication/rinpharma_83/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_83/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>R Packages for Analyzing Clinical Trials Data with R Focusing on Safety And Early Efficacy</title>
+      <link>/publication/rinpharma_82/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_82/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Re-envisioning Clinical Content Delivery in the Open Source World</title>
+      <link>/publication/rinpharma_87/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_87/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shinytized R Markdown: A Potent OTC Alternative to 1,3,7-Trimethylxanthine &amp; Currently Indicated for NDA Document Generation, Among Others</title>
+      <link>/publication/rinpharma_84/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_84/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching an old dog new tricks: modernizing gsDesign</title>
+      <link>/publication/rinpharma_73/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_73/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The use of R for improved reproducibility of biomarker detection in liquid biopsies</title>
+      <link>/publication/rinpharma_88/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_88/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Updates on Analyzing Clinical Trials Data with R</title>
+      <link>/publication/rinpharma_81/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_81/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using Machine Learning and Interactive Graphics to Find New Cancer Targets</title>
+      <link>/publication/rinpharma_92/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_92/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using R for Generic Drug Evaluation and SABE R-package for Assessing Bioequivalence of Topical Dermatological Products</title>
+      <link>/publication/rinpharma_71/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_71/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using RStudio.Cloud to advance R proficiency: a crowdsourcing training experience</title>
+      <link>/publication/rinpharma_79/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_79/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Accelerate Personalized Health Care by Empowering Biomarker Data</title>
+      <link>/publication/rinpharma_49/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_49/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analyzing Clinical Trials Data with R</title>
+      <link>/publication/rinpharma_38/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_38/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Assisting pharmacometric simulation with the use of Shiny</title>
+      <link>/publication/rinpharma_43/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_43/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bayesian Models for Smaller Trial Sizes</title>
+      <link>/publication/rinpharma_54/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_54/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building a community of competent developers and users of R-based tools in mass spectrometry-based research</title>
+      <link>/publication/rinpharma_53/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_53/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Developing powerful Shiny applications in an enterprise environment: Best practices and lessons learned</title>
+      <link>/publication/rinpharma_35/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_35/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enhance R Overview</title>
+      <link>/publication/rinpharma_55/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_55/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interactive data visualization with R, plotly, and dashR</title>
+      <link>/publication/rinpharma_34/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_34/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Keeping things Peachy when Shiny gets Hairy</title>
+      <link>/publication/rinpharma_50/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_50/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Moving Fast Without Breaking Things: Navigating the R Ecosystem in an Enterprise Environment</title>
+      <link>/publication/rinpharma_39/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_39/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NetTCR: Towards Accurate Prediction of T-cell Targets using Deep Learning</title>
+      <link>/publication/rinpharma_37/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_37/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R as the Core Technology to Support Modeling and Simulation in Pharma Research, Development, and Post Approval Activities</title>
+      <link>/publication/rinpharma_52/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_52/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R/Shiny Clinical Dashboards For Fun* and Profit *Note: Fun is Relative</title>
+      <link>/publication/rinpharma_44/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_44/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R4SPA: R Packages and Training to enable Statistical Programming in R</title>
+      <link>/publication/rinpharma_42/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_42/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reproducible computational research at Eisai: leadership, technology, and culture</title>
+      <link>/publication/rinpharma_57/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_57/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shiny Apps in Genomics and Clinical Trials</title>
+      <link>/publication/rinpharma_51/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_51/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Challenges of Validating R</title>
+      <link>/publication/rinpharma_58/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_58/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The drake R package: reproducible data analysis at scale</title>
+      <link>/publication/rinpharma_45/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_45/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Magic R-Shiny App that can Boost your SDTM Usability and Viability while Saving Time</title>
+      <link>/publication/rinpharma_56/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_56/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The role of R in converting clinical trial programmers to data scientists</title>
+      <link>/publication/rinpharma_48/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_48/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unification in a Compartmentalized Culture</title>
+      <link>/publication/rinpharma_41/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_41/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using interactivity responsibly in pharma</title>
+      <link>/publication/rinpharma_33/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_33/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Antibody Characterization Using Next Generation Sequencing made easier with Group My Abs shiny app</title>
+      <link>/publication/rinpharma_18/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Becoming bilingual in SAS and R</title>
+      <link>/publication/rinpharma_15/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_15/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beyond Simple Reproducibility - Discoverability, Provenance, and Improving the Impact of Results</title>
+      <link>/publication/rinpharma_28/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_28/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data-Driven Strategies for Synthetic Route Design and Operational Modeling within Pharmaceutical Development</title>
+      <link>/publication/rinpharma_23/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_23/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evaluating the performance of advanced causal inference methods applied to healthcare claims data</title>
+      <link>/publication/rinpharma_24/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_24/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IDBac: A New Paradigm in Developing Microbial Libraries for Drug Discovery</title>
+      <link>/publication/rinpharma_9/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_9/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Managing R and Associated Tools in Large Environments - an R-Admin’s Perspective</title>
+      <link>/publication/rinpharma_19/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-state Model for the Analysis of an Association between Safety and Efficacy Events</title>
+      <link>/publication/rinpharma_13/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_13/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimization of raw materials genealogy in drug manufacturing with R, Shiny and d3</title>
+      <link>/publication/rinpharma_25/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_25/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R reproducibility by containers and cloud</title>
+      <link>/publication/rinpharma_12/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_12/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>REAP - R-Shiny Exploratory Analysis Platform in Clinical Pharmacology</title>
+      <link>/publication/rinpharma_26/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_26/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rOpenSci - enabling open and reproducible research</title>
+      <link>/publication/rinpharma_27/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_27/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ShinyRAP - a framework for analysis and building interactive/dynamic reports using Shiny/Markdown</title>
+      <link>/publication/rinpharma_22/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_22/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The largest Shiny application in the world. Roche.Diagnostics.bioWARP</title>
+      <link>/publication/rinpharma_11/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_11/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Use of R in the Development of Physiological Model for Healthy Growth</title>
+      <link>/publication/rinpharma_17/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using R in a GxP Environment</title>
+      <link>/publication/rinpharma_8/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using R in a regulatory environment: some FDA perspectives</title>
+      <link>/publication/rinpharma_7/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_7/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visualization methods for RNA-sequencing data analysis</title>
+      <link>/publication/rinpharma_16/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_16/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

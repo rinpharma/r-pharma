@@ -87,6 +87,14 @@
     
     <item>
       <title>2022 Conference</title>
+      <link>/event/rinpharma2022/</link>
+      <pubDate>Tue, 02 Aug 2022 10:00:00 +0000</pubDate>
+      <guid>/event/rinpharma2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2022 Conference</title>
       <link>/workshop/2022conference/</link>
       <pubDate>Wed, 27 Jul 2022 00:00:00 +0000</pubDate>
       <guid>/workshop/2022conference/</guid>
@@ -328,14 +336,6 @@
     </item>
     
     <item>
-      <title>2021 Conference</title>
-      <link>/event/rinpharma2021/</link>
-      <pubDate>Tue, 02 Nov 2021 10:00:00 +0000</pubDate>
-      <guid>/event/rinpharma2021/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>5 testing packages to make your package better!</title>
       <link>/publication/rinpharma_210/</link>
       <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
@@ -502,6 +502,14 @@
       <link>/publication/rinpharma_192/</link>
       <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
       <guid>/publication/rinpharma_192/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2021 Conference</title>
+      <link>/event/rinpharma2021/</link>
+      <pubDate>Mon, 25 Oct 2021 09:00:00 +0000</pubDate>
+      <guid>/event/rinpharma2021/</guid>
       <description></description>
     </item>
     
@@ -1091,7 +1099,7 @@ see the R Consortium code of conduct.&lt;/p&gt;
     <item>
       <title>2020 Conference</title>
       <link>/event/rinpharma2020/</link>
-      <pubDate>Mon, 05 Oct 2020 13:00:00 +0000</pubDate>
+      <pubDate>Mon, 05 Oct 2020 09:00:00 +0000</pubDate>
       <guid>/event/rinpharma2020/</guid>
       <description></description>
     </item>

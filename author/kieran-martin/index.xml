@@ -5,12 +5,20 @@
     <link>/author/kieran-martin/</link>
       <atom:link href="/author/kieran-martin/index.xml" rel="self" type="application/rss+xml" />
     <description>Kieran Martin</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2022</copyright><lastBuildDate>Thu, 16 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2022</copyright><lastBuildDate>Thu, 10 Nov 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
       <title>Kieran Martin</title>
       <link>/author/kieran-martin/</link>
     </image>
+    
+    <item>
+      <title>Data Science in the Pharmaceutical Industry: A Coursera Specialisation</title>
+      <link>/publication/rinpharma_296/</link>
+      <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_296/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>R4SPA: R Packages and Training to enable Statistical Programming in R</title>

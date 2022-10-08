@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Memorial Sloan Kettering Cancer Center | R/Pharma</title>
+    <link>/tag/memorial-sloan-kettering-cancer-center/</link>
+      <atom:link href="/tag/memorial-sloan-kettering-cancer-center/index.xml" rel="self" type="application/rss+xml" />
+    <description>Memorial Sloan Kettering Cancer Center</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2022</copyright><lastBuildDate>Thu, 10 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>Memorial Sloan Kettering Cancer Center</title>
+      <link>/tag/memorial-sloan-kettering-cancer-center/</link>
+    </image>
+    
+    <item>
+      <title>Introducing gtreg: an R package to produce regulatory tables for clinical research</title>
+      <link>/publication/rinpharma_294/</link>
+      <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_294/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

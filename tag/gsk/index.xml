@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GSK | R/Pharma</title>
+    <link>/tag/gsk/</link>
+      <atom:link href="/tag/gsk/index.xml" rel="self" type="application/rss+xml" />
+    <description>GSK</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2022</copyright><lastBuildDate>Tue, 08 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>GSK</title>
+      <link>/tag/gsk/</link>
+    </image>
+    
+    <item>
+      <title>Why do I spend all my life formatting tables?!</title>
+      <link>/publication/rinpharma_257/</link>
+      <pubDate>Tue, 08 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_257/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Closing the Gap: Creating an End to End R Package Toolkit for the Clinical Reporting Pipeline</title>
+      <link>/publication/rinpharma_227/</link>
+      <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_227/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R Consortium Pharma Working Groups Overview and Updates</title>
+      <link>/publication/rinpharma_223/</link>
+      <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_223/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introducing {admiral}—The ADaM in R Asset Library</title>
+      <link>/publication/rinpharma_207/</link>
+      <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_207/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

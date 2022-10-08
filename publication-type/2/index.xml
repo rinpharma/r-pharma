@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 | R/Pharma</title>
+    <link>/publication-type/2/</link>
+      <atom:link href="/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2022</copyright><lastBuildDate>Tue, 08 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>2</title>
+      <link>/publication-type/2/</link>
+    </image>
+    
+    <item>
+      <title>Disrupting drug development with data-driven approaches: insights for fast expanding data teams</title>
+      <link>/publication/rinpharma_252/</link>
+      <pubDate>Tue, 08 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_252/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Submitting Data to CDER: What Comes Next?</title>
+      <link>/publication/rinpharma_234/</link>
+      <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_234/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Intermap: An integrative multiomics approach to generating therapeutic target hypotheses</title>
+      <link>/publication/rinpharma_218/</link>
+      <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_218/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The gt Package: Past, Present, and Future</title>
+      <link>/publication/rinpharma_202/</link>
+      <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_202/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Would John, Paul, George or Ringo have been famous if it were not for The Beatles</title>
+      <link>/publication/rinpharma_172/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_172/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data visualization for real-world machine learning</title>
+      <link>/publication/rinpharma_154/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_154/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Challenges in an Evolving Regulatory Landscape: How Statisticians Can Contribute</title>
+      <link>/publication/rinpharma_138/</link>
+      <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_138/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-modal data integration</title>
+      <link>/publication/rinpharma_100/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_100/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>This one is not like the others: Applicability Domain methods in R</title>
+      <link>/publication/rinpharma_111/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_111/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Breaking the Speed Limit: How R Gets Faster</title>
+      <link>/publication/rinpharma_90/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_90/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reproducibility and the role of code in reproducible data science</title>
+      <link>/publication/rinpharma_70/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_70/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Enabling open-source analytics in the enterprise</title>
+      <link>/publication/rinpharma_47/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_47/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modeling in the tidyverse</title>
+      <link>/publication/rinpharma_21/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_21/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modernizing the new drug regulatory program in FDA/CDER: Can Collaborations and Sharing Help?</title>
+      <link>/publication/rinpharma_6/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_6/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

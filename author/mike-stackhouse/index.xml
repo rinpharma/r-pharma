@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mike Stackhouse | R/Pharma</title>
+    <link>/author/mike-stackhouse/</link>
+      <atom:link href="/author/mike-stackhouse/index.xml" rel="self" type="application/rss+xml" />
+    <description>Mike Stackhouse</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2022</copyright><lastBuildDate>Thu, 04 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>Mike Stackhouse</title>
+      <link>/author/mike-stackhouse/</link>
+    </image>
+    
+    <item>
+      <title>Summary Table Rewind: From Source to Summary and Back Again</title>
+      <link>/publication/rinpharma_246/</link>
+      <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_246/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tplyr: An Intuitive Framework for Building Clinical Safety Summaries</title>
+      <link>/publication/rinpharma_168/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_168/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multilingual Markdown with R and Python Using Reticulate</title>
+      <link>/publication/rinpharma_127/</link>
+      <pubDate>Mon, 05 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_127/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

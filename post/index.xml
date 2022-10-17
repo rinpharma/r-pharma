@@ -13,6 +13,45 @@
     </image>
     
     <item>
+      <title>R/Pharma 2022 Expo</title>
+      <link>/post/2022-10-16-expo/</link>
+      <pubDate>Sun, 16 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>/post/2022-10-16-expo/</guid>
+      <description>&lt;h3 id=&#34;calling-all-opensource-developers-come-show-off-your-packages-and-shiny-apps&#34;&gt;Calling all opensource developers! Come Show off your packages and shiny apps!&lt;/h3&gt;
+&lt;p&gt;Do you have an R package or shiny app that you want to showcase at R/Pharma?&lt;br&gt;
+We are excited to announce that R/Pharma 2022 will feature a virtual exposition hall which will give you the opportunity to showcase an R package or shiny app in a virtual booth.  The expo will be open throughout the entire three day conference event, running continuously so that attendees can see your package/app during breaks and down time.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You can run a video or slideshow for attendees to see when they click on your booth
+&lt;ul&gt;
+&lt;li&gt;Suggestion - a video of your app in use or some screen captures&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;When you are present at your booth you can video chat with visitors or show a live demo
+&lt;ul&gt;
+&lt;li&gt;Please note - we won&amp;rsquo;t be including specific times in the schedule for people to come to the Expo&lt;/li&gt;
+&lt;li&gt;You can schedule a demo and invite other attendees (simply announce that you&amp;rsquo;ll be demoing at a particular time on the conference chat).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Each booth has its own dedicated chat window and attendees can post questions/comments&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;We&amp;rsquo;ll do all the virtual booth set-up work for you&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;p&gt;If you would like to include a virtual booth please fill out this &lt;a href=&#34;https://form.jotform.com/222836926208057&#34;&gt;form&lt;/a&gt;.  Be sure to have the following information available:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;General details of the app/package (name, one-line description and longer description)&lt;/li&gt;
+&lt;li&gt;Two graphics, one small (a hexsticker is perfect) and one large (2:1 aspect ratio works best, a screenshot perhaps?)&lt;/li&gt;
+&lt;li&gt;A video (Youtube, Vimeo or Wista) or google slides to play in the booth.  This is what people will see when they come to the booth - it can be a recorded demonstration of the app, slides describing the package, etc.&lt;/li&gt;
+&lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Any questions?  Just reach out to us at &lt;a href=&#34;mailto:info@rinpharma.com&#34;&gt;info@rinpharma.com&lt;/a&gt; or through the contact form.&lt;/p&gt;
+&lt;p&gt;More information on booths is available in this &lt;a href=&#34;https://www.youtube.com/watch?v=uXJ-a1CgLoI&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;short video&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Please note - No vendor or commercial products.  R/Pharma is committed to opensource&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>R/Pharma 2022 Workshops</title>
       <link>/post/2022-10-06-workshops/</link>
       <pubDate>Thu, 06 Oct 2022 00:00:00 +0000</pubDate>
@@ -163,35 +202,6 @@
     </item>
     
     <item>
-      <title>R/Pharma 2022 Expo</title>
-      <link>/post/2021-10-14-expo/</link>
-      <pubDate>Thu, 14 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>/post/2021-10-14-expo/</guid>
-      <description>&lt;h3 id=&#34;calling-all-opensource-developers-come-show-off-your-packages-and-shiny-apps&#34;&gt;Calling all opensource developers! Come Show off your packages and shiny apps!&lt;/h3&gt;
-&lt;p&gt;Do you have an R package or shiny app that you want to showcase at R/Pharma?&lt;br&gt;
-We are excited to announce that R/Pharma 2022 will feature a virtual exposition hall which will give you the opportunity to showcase an R package or shiny app in a virtual booth.  The expo will be open throughout the entire three day conference event.
-The R/Pharma expo was a highlight of the virtual conference in 2020 and 2021 and we are aiming to continue that in 2022.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;You can run a video or slideshow for attendees to see when they click on your booth
-&lt;ul&gt;
-&lt;li&gt;Suggestion - a video of your app in use or some screen captures&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;If you are present in your booth you can video chat with visitors or show a live demo&lt;/li&gt;
-&lt;li&gt;Each booth has its own dedicated chat window&lt;/li&gt;
-&lt;li&gt;You can schedule a demo and invite other attendees (simply announce that you&amp;rsquo;ll be demoing at a particular time on the conference chat).
-&lt;ul&gt;
-&lt;li&gt;We won&amp;rsquo;t be including specific times in the schedule for people to come to the Expo&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;We&amp;rsquo;ll do all the virtual booth set-up work for you&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;More details on the booths and how to register one will be coming soon.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Please note - No vendor or commercial products.  R/Pharma is committed to opensource&lt;/em&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Frequently asked questions</title>
       <link>/post/faq/</link>
       <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
@@ -216,8 +226,7 @@ The R/Pharma expo was a highlight of the virtual conference in 2020 and 2021 and
 &lt;p&gt;A quick guide to some the important questions we are often asked.&lt;/p&gt;
 &lt;h3 id=&#34;how-do-i-get-a-ticket-for-2022&#34;&gt;How do I get a ticket for 2022?&lt;/h3&gt;
 &lt;p&gt;R/Pharma is a free event put on by volunteers with the generosity of Pharma
-companies and Harvard University. More information on registration for the 2022 event is
-coming soon.&lt;/p&gt;
+companies and Harvard University.  Tickets are available through this &lt;a href=&#34;https://hopin.com/events/r-pharma-2022&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;what-is-the-mission-and-history-of-rpharma&#34;&gt;What is the mission and history of R/Pharma?&lt;/h3&gt;
 &lt;p&gt;Please check out our &lt;a href=&#34;/post/thewhy/&#34;&gt;first blog post&lt;/a&gt;!&lt;/p&gt;
 &lt;h3 id=&#34;whats-your-policy-on-creating-a-safe-place-for-attendees&#34;&gt;What’s your policy on creating a safe place for attendees?&lt;/h3&gt;

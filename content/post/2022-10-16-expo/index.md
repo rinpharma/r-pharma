@@ -11,12 +11,13 @@ Do you have an R package or shiny app that you want to showcase at R/Pharma?
 We are excited to announce that R/Pharma 2022 will feature a virtual exposition hall which will give you the opportunity to showcase an R package or shiny app in a virtual booth.  The expo will be open throughout the entire three day conference event, running continuously so that attendees can see your package/app during breaks and down time.
 
 - You can run a video or slideshow for attendees to see when they click on your booth
-  - Suggestion - a video of your app in use or some screen captures
+  - Suggestion - a video of your app in use or a series of screen captures
 - When you are present at your booth you can video chat with visitors or show a live demo
   - Please note - we won't be including specific times in the schedule for people to come to the Expo
   - You can schedule a demo and invite other attendees (simply announce that you'll be demoing at a particular time on the conference chat).
-- Each booth has its own dedicated chat window and attendees can post questions/comments
+- Each booth has its own dedicated chat window where attendees can post questions/comments
 - **We'll do all the virtual booth set-up work for you**
+  - Just fill in this [online form](https://form.jotform.com/222836926208057) and we'll take care of the rest
 
 {{% callout note %}}
 If you would like to include a virtual booth please fill out this [form](https://form.jotform.com/222836926208057).  Be sure to have the following information available:
@@ -28,6 +29,8 @@ If you would like to include a virtual booth please fill out this [form](https:/
 Any questions?  Just reach out to us at info@rinpharma.com or through the contact form.
 
 More information on booths is available in this [short video](https://www.youtube.com/watch?v=uXJ-a1CgLoI).
+
+<a href="https://form.jotform.com/222836926208057" target="_blank" class="btn btn-success px-2 py-2 mb-3">Submit An Expo Booth</a>
 
 **Please note - No vendor or commercial products.  R/Pharma is committed to opensource**
 

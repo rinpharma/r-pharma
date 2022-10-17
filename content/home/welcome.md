@@ -47,4 +47,4 @@ The conference is a relatively small, scientifically &
 industry oriented, collegial event focused on the use of R in the development of
 pharmaceuticals.
 
-The 2022 Conference will run as an online event Nov. 8-10th, with workshops the week before.  The call for abstracts is now closed, and information on those talks accepted will be communicated by end of August.
+The 2022 Conference will run as an online event Nov 8-10th, with workshops running from Oct 25th.  

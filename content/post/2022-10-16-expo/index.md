@@ -7,8 +7,6 @@ featured: true
 
 ### Calling all opensource developers! Come Show off your packages and shiny apps!
 
-<a href="https://form.jotform.com/222836926208057" target="_blank" class="btn btn-success px-2 py-2">Submit An Expo Booth</a>
-
 Do you have an R package or shiny app that you want to showcase at R/Pharma?  
 We are excited to announce that R/Pharma 2022 will feature a virtual exposition hall which will give you the opportunity to showcase an R package or shiny app in a virtual booth.  The expo will be open throughout the entire three day conference event, running continuously so that attendees can see your package/app during breaks and down time.
 
@@ -31,6 +29,8 @@ If you would like to include a virtual booth please fill out this [form](https:/
 Any questions?  Just reach out to us at info@rinpharma.com or through the contact form.
 
 More information on booths is available in this [short video](https://www.youtube.com/watch?v=uXJ-a1CgLoI).
+
+<a href="https://form.jotform.com/222836926208057" target="_blank" class="btn btn-success px-2 py-2 mb-3">Submit An Expo Booth</a>
 
 **Please note - No vendor or commercial products.  R/Pharma is committed to opensource**
 

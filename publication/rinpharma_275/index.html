@@ -33,7 +33,7 @@
   
     
   
-  <meta name="description" content="Back in 2020, Atorus had the initial release of the R package Tplyr, which was built to simplify the creation of clinical summary tables. Now in 2022, new updates and enhancements have been added to Tplyr to give the user more, particularly in the area of Shiny. In this presentation we will discuss how Tplyr collects metadata that provides traceability to every result it derives. Furthermore, these metadata features are externalized, allowing users to extend Tplyr’s metadata or even build their own, which enables all these of these features to extend beyond Tplyr itself. Ultimately when paired with Shiny, users can utilize Tplyr to build click-through tables where a reviewer can click on a result and immediately view the subset of data that was used to derive it." />
+  <meta name="description" content="Over the past year, we’ve designed a process that is meant to mimic public package publishing as closely as possible, where packages are automatically assessed by a series of checks which may prompt manual revision should the automated processing discover any gaps. This process is automated where possible, and (internally) transparent, with an interface to our internal continuous integration tooling to make feedback as visible and directly actionable as possible. We’d like to share our approach, with special emphasis to the core design philosophies that we’ve set out to adhere to building a process that stays close to open source tools and contributing back where we can (github.com/Genentech/rd2markdown, github.com/Genentech/covtracer). Beyond what we’ve developed internally, we’d like to sit this work next to recent efforts by the R Validation Hub and offer a vision for a shared, public repository that can support transparent quality assessment. By doing this, we’d like to set the stage for further feedback and broader participation to ensure that the future of R package ecosystems is more immediately actionable and accessible across institutions and regulators." />
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/rinpharma_275/" />
@@ -322,8 +322,8 @@
   
   <meta property="og:site_name" content="R/Pharma" />
   <meta property="og:url" content="/publication/rinpharma_275/" />
-  <meta property="og:title" content="Drill Down Summary Tables in Shiny with Tplyr | R/Pharma" />
-  <meta property="og:description" content="Back in 2020, Atorus had the initial release of the R package Tplyr, which was built to simplify the creation of clinical summary tables. Now in 2022, new updates and enhancements have been added to Tplyr to give the user more, particularly in the area of Shiny. In this presentation we will discuss how Tplyr collects metadata that provides traceability to every result it derives. Furthermore, these metadata features are externalized, allowing users to extend Tplyr’s metadata or even build their own, which enables all these of these features to extend beyond Tplyr itself. Ultimately when paired with Shiny, users can utilize Tplyr to build click-through tables where a reviewer can click on a result and immediately view the subset of data that was used to derive it." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
+  <meta property="og:title" content="Roches approach to software validation: an automated pipeline from validation to publication | R/Pharma" />
+  <meta property="og:description" content="Over the past year, we’ve designed a process that is meant to mimic public package publishing as closely as possible, where packages are automatically assessed by a series of checks which may prompt manual revision should the automated processing discover any gaps. This process is automated where possible, and (internally) transparent, with an interface to our internal continuous integration tooling to make feedback as visible and directly actionable as possible. We’d like to share our approach, with special emphasis to the core design philosophies that we’ve set out to adhere to building a process that stays close to open source tools and contributing back where we can (github.com/Genentech/rd2markdown, github.com/Genentech/covtracer). Beyond what we’ve developed internally, we’d like to sit this work next to recent efforts by the R Validation Hub and offer a vision for a shared, public repository that can support transparent quality assessment. By doing this, we’d like to set the stage for further feedback and broader participation to ensure that the future of R package ecosystems is more immediately actionable and accessible across institutions and regulators." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
     <meta property="twitter:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -356,14 +356,14 @@
     "@type": "WebPage",
     "@id": "/publication/rinpharma_275/"
   },
-  "headline": "Drill Down Summary Tables in Shiny with Tplyr",
+  "headline": "Roches approach to software validation: an automated pipeline from validation to publication",
   
   "datePublished": "1999-01-01T00:00:00Z",
   "dateModified": "2022-11-09T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Mike Stackhouse"
+    "name": "Coline Zeballos"
   },
   
   "publisher": {
@@ -374,7 +374,7 @@
       "url": "/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_192x192_fit_lanczos_2.png"
     }
   },
-  "description": "Back in 2020, Atorus had the initial release of the R package Tplyr, which was built to simplify the creation of clinical summary tables. Now in 2022, new updates and enhancements have been added to Tplyr to give the user more, particularly in the area of Shiny. In this presentation we will discuss how Tplyr collects metadata that provides traceability to every result it derives. Furthermore, these metadata features are externalized, allowing users to extend Tplyr’s metadata or even build their own, which enables all these of these features to extend beyond Tplyr itself. Ultimately when paired with Shiny, users can utilize Tplyr to build click-through tables where a reviewer can click on a result and immediately view the subset of data that was used to derive it."
+  "description": "Over the past year, we’ve designed a process that is meant to mimic public package publishing as closely as possible, where packages are automatically assessed by a series of checks which may prompt manual revision should the automated processing discover any gaps. This process is automated where possible, and (internally) transparent, with an interface to our internal continuous integration tooling to make feedback as visible and directly actionable as possible. We’d like to share our approach, with special emphasis to the core design philosophies that we’ve set out to adhere to building a process that stays close to open source tools and contributing back where we can (github.com/Genentech/rd2markdown, github.com/Genentech/covtracer). Beyond what we’ve developed internally, we’d like to sit this work next to recent efforts by the R Validation Hub and offer a vision for a shared, public repository that can support transparent quality assessment. By doing this, we’d like to set the stage for further feedback and broader participation to ensure that the future of R package ecosystems is more immediately actionable and accessible across institutions and regulators."
 }
 </script>
 
@@ -420,7 +420,7 @@
 
 
 
-  <title>Drill Down Summary Tables in Shiny with Tplyr | R/Pharma</title>
+  <title>Roches approach to software validation: an automated pipeline from validation to publication | R/Pharma</title>
 </head>
 
 
@@ -741,7 +741,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Drill Down Summary Tables in Shiny with Tplyr</h1>
+  <h1>Roches approach to software validation: an automated pipeline from validation to publication</h1>
 
   
 
@@ -759,7 +759,8 @@
     
 
   <span >
-      <a href="/author/mike-stackhouse/">Mike Stackhouse</a></span>
+      <a href="/author/coline-zeballos/">Coline Zeballos</a></span>, <span >
+      <a href="/author/doug-kelkhoff/">Doug Kelkhoff</a></span>
   </div>
   
   
@@ -805,7 +806,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Back in 2020, Atorus had the initial release of the R package Tplyr, which was built to simplify the creation of clinical summary tables. Now in 2022, new updates and enhancements have been added to Tplyr to give the user more, particularly in the area of Shiny. In this presentation we will discuss how Tplyr collects metadata that provides traceability to every result it derives. Furthermore, these metadata features are externalized, allowing users to extend Tplyr’s metadata or even build their own, which enables all these of these features to extend beyond Tplyr itself. Ultimately when paired with Shiny, users can utilize Tplyr to build click-through tables where a reviewer can click on a result and immediately view the subset of data that was used to derive it.</p>
+    <p class="pub-abstract">Over the past year, we’ve designed a process that is meant to mimic public package publishing as closely as possible, where packages are automatically assessed by a series of checks which may prompt manual revision should the automated processing discover any gaps. This process is automated where possible, and (internally) transparent, with an interface to our internal continuous integration tooling to make feedback as visible and directly actionable as possible. We’d like to share our approach, with special emphasis to the core design philosophies that we’ve set out to adhere to building a process that stays close to open source tools and contributing back where we can (github.com/Genentech/rd2markdown, github.com/Genentech/covtracer). Beyond what we’ve developed internally, we’d like to sit this work next to recent efforts by the R Validation Hub and offer a vision for a shared, public repository that can support transparent quality assessment. By doing this, we’d like to set the stage for further feedback and broader participation to ensure that the future of R package ecosystems is more immediately actionable and accessible across institutions and regulators.</p>
     
 
     
@@ -852,7 +853,7 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/atorus-research/">Atorus Research</a>
+  <a class="badge badge-light" href="/tag/roche/">Roche</a>
   
 </div>
 
@@ -869,7 +870,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_275/&amp;text=Drill%20Down%20Summary%20Tables%20in%20Shiny%20with%20Tplyr" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_275/&amp;text=Roches%20approach%20to%20software%20validation:%20an%20automated%20pipeline%20from%20validation%20to%20publication" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -882,7 +883,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_275/&amp;t=Drill%20Down%20Summary%20Tables%20in%20Shiny%20with%20Tplyr" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_275/&amp;t=Roches%20approach%20to%20software%20validation:%20an%20automated%20pipeline%20from%20validation%20to%20publication" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -895,7 +896,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Drill%20Down%20Summary%20Tables%20in%20Shiny%20with%20Tplyr&amp;body=/publication/rinpharma_275/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Roches%20approach%20to%20software%20validation:%20an%20automated%20pipeline%20from%20validation%20to%20publication&amp;body=/publication/rinpharma_275/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -908,7 +909,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_275/&amp;title=Drill%20Down%20Summary%20Tables%20in%20Shiny%20with%20Tplyr" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_275/&amp;title=Roches%20approach%20to%20software%20validation:%20an%20automated%20pipeline%20from%20validation%20to%20publication" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -921,7 +922,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Drill%20Down%20Summary%20Tables%20in%20Shiny%20with%20Tplyr%20/publication/rinpharma_275/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Roches%20approach%20to%20software%20validation:%20an%20automated%20pipeline%20from%20validation%20to%20publication%20/publication/rinpharma_275/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -934,7 +935,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_275/&amp;title=Drill%20Down%20Summary%20Tables%20in%20Shiny%20with%20Tplyr" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_275/&amp;title=Roches%20approach%20to%20software%20validation:%20an%20automated%20pipeline%20from%20validation%20to%20publication" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -954,6 +955,12 @@
 
 
   
+  
+    
+
+
+
+
   
     
 
@@ -981,15 +988,15 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/publication/rinpharma_227/">Closing the Gap: Creating an End to End R Package Toolkit for the Clinical Reporting Pipeline</a></li>
+      <li><a href="/publication/rinpharma_210/">5 testing packages to make your package better!</a></li>
       
-      <li><a href="/publication/rinpharma_274/">R, Python, and Shiny in harmony: an Out-of-Box secure data backend for RStudio Connect &amp; Workbench</a></li>
+      <li><a href="/publication/rinpharma_189/">Clinical Trials Data Analysis at Roche</a></li>
       
-      <li><a href="/publication/rinpharma_197/">SafetyGraphics</a></li>
+      <li><a href="/publication/rinpharma_295/">Data Science in the Pharmaceutical Industry: A Coursera Specialisation</a></li>
       
-      <li><a href="/publication/rinpharma_270/">Saving State: a custom solution for saving patient populations in shiny</a></li>
+      <li><a href="/publication/rinpharma_291/">How CI/CD Enhances the Development of R packages in the Pharmaverse</a></li>
       
-      <li><a href="/publication/rinpharma_246/">Summary Table Rewind: From Source to Summary and Back Again</a></li>
+      <li><a href="/publication/rinpharma_207/">Introducing {admiral}—The ADaM in R Asset Library</a></li>
       
     </ul>
   </div>

@@ -14,22 +14,6 @@
     
     <item>
       <title>10 Practical Considerations for moving  to R</title>
-      <link>/publication/rinpharma_287/</link>
-      <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_287/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Asynchronous Processing of Long-Running Tasks in Shiny</title>
-      <link>/publication/rinpharma_291/</link>
-      <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_291/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Co-existence of R and SAS for multiple imputation in Novo Nordisk</title>
       <link>/publication/rinpharma_286/</link>
       <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
       <guid>/publication/rinpharma_286/</guid>
@@ -37,31 +21,7 @@
     </item>
     
     <item>
-      <title>Data Science in the Pharmaceutical Industry: A Coursera Specialisation</title>
-      <link>/publication/rinpharma_296/</link>
-      <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_296/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>How CI/CD Enhances the Development of R packages in the Pharmaverse</title>
-      <link>/publication/rinpharma_292/</link>
-      <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_292/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Introducing gtreg: an R package to produce regulatory tables for clinical research</title>
-      <link>/publication/rinpharma_294/</link>
-      <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_294/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Meet a 100% R-based CRO - the summary of a 5-year journey</title>
+      <title>Asynchronous Processing of Long-Running Tasks in Shiny</title>
       <link>/publication/rinpharma_290/</link>
       <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
       <guid>/publication/rinpharma_290/</guid>
@@ -69,23 +29,7 @@
     </item>
     
     <item>
-      <title>RMarkdown for enhanced Quality Control &amp; Documentation</title>
-      <link>/publication/rinpharma_295/</link>
-      <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_295/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>RStudio on Amazon SageMaker: Streamlining the Healthcare and Life Sciences Machine Learning process</title>
-      <link>/publication/rinpharma_288/</link>
-      <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_288/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Three new things in tidymodels</title>
+      <title>Co-existence of R and SAS for multiple imputation in Novo Nordisk</title>
       <link>/publication/rinpharma_285/</link>
       <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
       <guid>/publication/rinpharma_285/</guid>
@@ -93,23 +37,71 @@
     </item>
     
     <item>
-      <title>title to follow</title>
-      <link>/publication/rinpharma_283/</link>
+      <title>Data Science in the Pharmaceutical Industry: A Coursera Specialisation</title>
+      <link>/publication/rinpharma_295/</link>
       <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_283/</guid>
+      <guid>/publication/rinpharma_295/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How CI/CD Enhances the Development of R packages in the Pharmaverse</title>
+      <link>/publication/rinpharma_291/</link>
+      <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_291/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introducing gtreg: an R package to produce regulatory tables for clinical research</title>
+      <link>/publication/rinpharma_293/</link>
+      <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_293/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Meet a 100% R-based CRO - the summary of a 5-year journey</title>
+      <link>/publication/rinpharma_289/</link>
+      <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_289/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RMarkdown for enhanced Quality Control &amp; Documentation</title>
+      <link>/publication/rinpharma_294/</link>
+      <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_294/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RStudio on Amazon SageMaker: Streamlining the Healthcare and Life Sciences Machine Learning process</title>
+      <link>/publication/rinpharma_287/</link>
+      <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_287/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Three new things in tidymodels</title>
+      <link>/publication/rinpharma_284/</link>
+      <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_284/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>title to follow</title>
+      <link>/publication/rinpharma_282/</link>
+      <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_282/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Analysis and visualization of large-scale drug combination experiments with Shiny</title>
-      <link>/publication/rinpharma_280/</link>
-      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_280/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Assuring SDTM data quality with the sdtmchecks package</title>
       <link>/publication/rinpharma_279/</link>
       <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
       <guid>/publication/rinpharma_279/</guid>
@@ -117,31 +109,7 @@
     </item>
     
     <item>
-      <title>Drill Down Summary Tables in Shiny with Tplyr</title>
-      <link>/publication/rinpharma_275/</link>
-      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_275/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lessons in developing Shiny Frameworks</title>
-      <link>/publication/rinpharma_271/</link>
-      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_271/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pharmaverse: Breaking boundaries through open source collaboration!</title>
-      <link>/publication/rinpharma_267/</link>
-      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_267/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R in the Cloud: A Holistic Approach towards GxP Compliance</title>
+      <title>Assuring SDTM data quality with the sdtmchecks package</title>
       <link>/publication/rinpharma_278/</link>
       <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
       <guid>/publication/rinpharma_278/</guid>
@@ -149,15 +117,7 @@
     </item>
     
     <item>
-      <title>R pilot submissions to FDA</title>
-      <link>/publication/rinpharma_269/</link>
-      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_269/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R, Python, and Shiny in harmony: an Out-of-Box secure data backend for RStudio Connect &amp; Workbench</title>
+      <title>Drill Down Summary Tables in Shiny with Tplyr</title>
       <link>/publication/rinpharma_274/</link>
       <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
       <guid>/publication/rinpharma_274/</guid>
@@ -165,15 +125,7 @@
     </item>
     
     <item>
-      <title>Roches approach to software validation: an automated pipeline from validation to publication</title>
-      <link>/publication/rinpharma_276/</link>
-      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_276/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Saving State: a custom solution for saving patient populations in shiny</title>
+      <title>Lessons in developing Shiny Frameworks</title>
       <link>/publication/rinpharma_270/</link>
       <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
       <guid>/publication/rinpharma_270/</guid>
@@ -181,18 +133,66 @@
     </item>
     
     <item>
-      <title>Working at the intersection of Biostatistics and Software Engineering in a Pharma company</title>
-      <link>/publication/rinpharma_272/</link>
+      <title>Pharmaverse: Breaking boundaries through open source collaboration!</title>
+      <link>/publication/rinpharma_266/</link>
       <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_272/</guid>
+      <guid>/publication/rinpharma_266/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R in the Cloud: A Holistic Approach towards GxP Compliance</title>
+      <link>/publication/rinpharma_277/</link>
+      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_277/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R pilot submissions to FDA</title>
+      <link>/publication/rinpharma_268/</link>
+      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_268/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R, Python, and Shiny in harmony: an Out-of-Box secure data backend for RStudio Connect &amp; Workbench</title>
+      <link>/publication/rinpharma_273/</link>
+      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_273/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Roches approach to software validation: an automated pipeline from validation to publication</title>
+      <link>/publication/rinpharma_275/</link>
+      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_275/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Saving State: a custom solution for saving patient populations in shiny</title>
+      <link>/publication/rinpharma_269/</link>
+      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_269/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Working at the intersection of Biostatistics and Software Engineering in a Pharma company</title>
+      <link>/publication/rinpharma_271/</link>
+      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_271/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Advanced Visual Analytics for Drug Safety Review</title>
-      <link>/publication/rinpharma_263/</link>
+      <link>/publication/rinpharma_261/</link>
       <pubDate>Tue, 08 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_263/</guid>
+      <guid>/publication/rinpharma_261/</guid>
       <description></description>
     </item>
     
@@ -209,14 +209,6 @@
       <link>/publication/rinpharma_254/</link>
       <pubDate>Tue, 08 Nov 2022 00:00:00 +0000</pubDate>
       <guid>/publication/rinpharma_254/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ddiff : An R-package for comparing datasets</title>
-      <link>/publication/rinpharma_261/</link>
-      <pubDate>Tue, 08 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_261/</guid>
       <description></description>
     </item>
     
@@ -238,9 +230,9 @@
     
     <item>
       <title>MeRGE: An ecosystem of open-source R packages for Pharmacometrics from MetrumRG</title>
-      <link>/publication/rinpharma_264/</link>
+      <link>/publication/rinpharma_263/</link>
       <pubDate>Tue, 08 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_264/</guid>
+      <guid>/publication/rinpharma_263/</guid>
       <description></description>
     </item>
     

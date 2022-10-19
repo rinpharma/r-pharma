@@ -33,10 +33,10 @@
   
     
   
-  <meta name="description" content="details to follow" />
+  <meta name="description" content="Sarepta deployed RStudio Team for modern data analytics. One major hurdle we faced was  how to serve data to Connect/Workbench securely in the backend. Partnering with Atorus, Sarepta solved this challenge using Box cloud storage as a secure data backend through Box API, JWT token, &amp; Box Python SDK. RStudio Team &amp; Box are seamlessly integrated with Okta SSO and JWT token authentication, providing a two-layer secure authentication that leverages Box frontend permission management. Inspired by  boxr  pkg, we developed  usebox  for R users and leveraged  reticulate  to call Box Python SDK. We illustrate  usebox  through a real Shiny App Patient Listing Generator, powered by open-source pkg  subpat . We believe this real-world harmonized use of R, Python, Shiny, and Box offers insights to the community and organizations facing similar challenges." />
 
   
-  <link rel="alternate" hreflang="en-us" href="/publication/rinpharma_280/" />
+  <link rel="alternate" hreflang="en-us" href="/publication/rinpharma_273/" />
 
   
 
@@ -301,7 +301,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu236aa79531c1f54a56235d0cfffed976_6959_32x32_fill_lanczos_center_2.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu236aa79531c1f54a56235d0cfffed976_6959_180x180_fill_lanczos_center_2.png" />
 
-  <link rel="canonical" href="/publication/rinpharma_280/" />
+  <link rel="canonical" href="/publication/rinpharma_273/" />
 
   
   
@@ -321,9 +321,9 @@
     <meta property="twitter:creator" content="@rinpharma" />
   
   <meta property="og:site_name" content="R/Pharma" />
-  <meta property="og:url" content="/publication/rinpharma_280/" />
-  <meta property="og:title" content="Analysis and visualization of large-scale drug combination experiments with Shiny | R/Pharma" />
-  <meta property="og:description" content="details to follow" /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
+  <meta property="og:url" content="/publication/rinpharma_273/" />
+  <meta property="og:title" content="R, Python, and Shiny in harmony: an Out-of-Box secure data backend for RStudio Connect &amp; Workbench | R/Pharma" />
+  <meta property="og:description" content="Sarepta deployed RStudio Team for modern data analytics. One major hurdle we faced was  how to serve data to Connect/Workbench securely in the backend. Partnering with Atorus, Sarepta solved this challenge using Box cloud storage as a secure data backend through Box API, JWT token, &amp; Box Python SDK. RStudio Team &amp; Box are seamlessly integrated with Okta SSO and JWT token authentication, providing a two-layer secure authentication that leverages Box frontend permission management. Inspired by  boxr  pkg, we developed  usebox  for R users and leveraged  reticulate  to call Box Python SDK. We illustrate  usebox  through a real Shiny App Patient Listing Generator, powered by open-source pkg  subpat . We believe this real-world harmonized use of R, Python, Shiny, and Box offers insights to the community and organizations facing similar challenges." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
     <meta property="twitter:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -354,16 +354,16 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "/publication/rinpharma_280/"
+    "@id": "/publication/rinpharma_273/"
   },
-  "headline": "Analysis and visualization of large-scale drug combination experiments with Shiny",
+  "headline": "R, Python, and Shiny in harmony: an Out-of-Box secure data backend for RStudio Connect \u0026 Workbench",
   
   "datePublished": "1999-01-01T00:00:00Z",
   "dateModified": "2022-11-09T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Charlie Wright"
+    "name": "Xiao Ni"
   },
   
   "publisher": {
@@ -374,7 +374,7 @@
       "url": "/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_192x192_fit_lanczos_2.png"
     }
   },
-  "description": "details to follow"
+  "description": "Sarepta deployed RStudio Team for modern data analytics. One major hurdle we faced was  how to serve data to Connect/Workbench securely in the backend. Partnering with Atorus, Sarepta solved this challenge using Box cloud storage as a secure data backend through Box API, JWT token, \u0026 Box Python SDK. RStudio Team \u0026 Box are seamlessly integrated with Okta SSO and JWT token authentication, providing a two-layer secure authentication that leverages Box frontend permission management. Inspired by  boxr  pkg, we developed  usebox  for R users and leveraged  reticulate  to call Box Python SDK. We illustrate  usebox  through a real Shiny App Patient Listing Generator, powered by open-source pkg  subpat . We believe this real-world harmonized use of R, Python, Shiny, and Box offers insights to the community and organizations facing similar challenges."
 }
 </script>
 
@@ -420,11 +420,11 @@
 
 
 
-  <title>Analysis and visualization of large-scale drug combination experiments with Shiny | R/Pharma</title>
+  <title>R, Python, and Shiny in harmony: an Out-of-Box secure data backend for RStudio Connect &amp; Workbench | R/Pharma</title>
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="ec0faafabac7e3a3653fdbf347f3b964" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="9a6e4580b46727806503def591b0e31c" >
 
   
   
@@ -741,7 +741,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Analysis and visualization of large-scale drug combination experiments with Shiny</h1>
+  <h1>R, Python, and Shiny in harmony: an Out-of-Box secure data backend for RStudio Connect &amp; Workbench</h1>
 
   
 
@@ -759,7 +759,8 @@
     
 
   <span >
-      <a href="/author/charlie-wright/">Charlie Wright</a></span>
+      <a href="/author/xiao-ni/">Xiao Ni</a></span>, <span >
+      <a href="/author/nathan-kosiba/">Nathan Kosiba</a></span>
   </div>
   
   
@@ -805,7 +806,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">details to follow</p>
+    <p class="pub-abstract">Sarepta deployed RStudio Team for modern data analytics. One major hurdle we faced was  how to serve data to Connect/Workbench securely in the backend. Partnering with Atorus, Sarepta solved this challenge using Box cloud storage as a secure data backend through Box API, JWT token, &amp; Box Python SDK. RStudio Team &amp; Box are seamlessly integrated with Okta SSO and JWT token authentication, providing a two-layer secure authentication that leverages Box frontend permission management. Inspired by  boxr  pkg, we developed  usebox  for R users and leveraged  reticulate  to call Box Python SDK. We illustrate  usebox  through a real Shiny App Patient Listing Generator, powered by open-source pkg  subpat . We believe this real-world harmonized use of R, Python, Shiny, and Box offers insights to the community and organizations facing similar challenges.</p>
     
 
     
@@ -852,7 +853,9 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/st.-jude-children-research-hospital/">St. Jude Children Research Hospital</a>
+  <a class="badge badge-light" href="/tag/sarepta/">Sarepta</a>
+  
+  <a class="badge badge-light" href="/tag/atorus-research/">Atorus Research</a>
   
 </div>
 
@@ -869,7 +872,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_280/&amp;text=Analysis%20and%20visualization%20of%20large-scale%20drug%20combination%20experiments%20with%20Shiny" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_273/&amp;text=R,%20Python,%20and%20Shiny%20in%20harmony:%20an%20Out-of-Box%20secure%20data%20backend%20for%20RStudio%20Connect%20&amp;amp;%20Workbench" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -882,7 +885,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_280/&amp;t=Analysis%20and%20visualization%20of%20large-scale%20drug%20combination%20experiments%20with%20Shiny" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_273/&amp;t=R,%20Python,%20and%20Shiny%20in%20harmony:%20an%20Out-of-Box%20secure%20data%20backend%20for%20RStudio%20Connect%20&amp;amp;%20Workbench" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -895,7 +898,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Analysis%20and%20visualization%20of%20large-scale%20drug%20combination%20experiments%20with%20Shiny&amp;body=/publication/rinpharma_280/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=R,%20Python,%20and%20Shiny%20in%20harmony:%20an%20Out-of-Box%20secure%20data%20backend%20for%20RStudio%20Connect%20&amp;amp;%20Workbench&amp;body=/publication/rinpharma_273/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -908,7 +911,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_280/&amp;title=Analysis%20and%20visualization%20of%20large-scale%20drug%20combination%20experiments%20with%20Shiny" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_273/&amp;title=R,%20Python,%20and%20Shiny%20in%20harmony:%20an%20Out-of-Box%20secure%20data%20backend%20for%20RStudio%20Connect%20&amp;amp;%20Workbench" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -921,7 +924,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Analysis%20and%20visualization%20of%20large-scale%20drug%20combination%20experiments%20with%20Shiny%20/publication/rinpharma_280/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=R,%20Python,%20and%20Shiny%20in%20harmony:%20an%20Out-of-Box%20secure%20data%20backend%20for%20RStudio%20Connect%20&amp;amp;%20Workbench%20/publication/rinpharma_273/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -934,7 +937,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_280/&amp;title=Analysis%20and%20visualization%20of%20large-scale%20drug%20combination%20experiments%20with%20Shiny" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_273/&amp;title=R,%20Python,%20and%20Shiny%20in%20harmony:%20an%20Out-of-Box%20secure%20data%20backend%20for%20RStudio%20Connect%20&amp;amp;%20Workbench" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -961,6 +964,12 @@
 
 
   
+    
+
+
+
+
+  
 
 
 
@@ -976,6 +985,23 @@
 
 
   
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/publication/rinpharma_227/">Closing the Gap: Creating an End to End R Package Toolkit for the Clinical Reporting Pipeline</a></li>
+      
+      <li><a href="/publication/rinpharma_274/">Drill Down Summary Tables in Shiny with Tplyr</a></li>
+      
+      <li><a href="/publication/rinpharma_197/">SafetyGraphics</a></li>
+      
+      <li><a href="/publication/rinpharma_269/">Saving State: a custom solution for saving patient populations in shiny</a></li>
+      
+      <li><a href="/publication/rinpharma_246/">Summary Table Rewind: From Source to Summary and Back Again</a></li>
+      
+    </ul>
+  </div>
   
 
 

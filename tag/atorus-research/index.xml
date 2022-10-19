@@ -14,14 +14,6 @@
     
     <item>
       <title>Drill Down Summary Tables in Shiny with Tplyr</title>
-      <link>/publication/rinpharma_275/</link>
-      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_275/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R, Python, and Shiny in harmony: an Out-of-Box secure data backend for RStudio Connect &amp; Workbench</title>
       <link>/publication/rinpharma_274/</link>
       <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
       <guid>/publication/rinpharma_274/</guid>
@@ -29,10 +21,18 @@
     </item>
     
     <item>
-      <title>Saving State: a custom solution for saving patient populations in shiny</title>
-      <link>/publication/rinpharma_270/</link>
+      <title>R, Python, and Shiny in harmony: an Out-of-Box secure data backend for RStudio Connect &amp; Workbench</title>
+      <link>/publication/rinpharma_273/</link>
       <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_270/</guid>
+      <guid>/publication/rinpharma_273/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Saving State: a custom solution for saving patient populations in shiny</title>
+      <link>/publication/rinpharma_269/</link>
+      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_269/</guid>
       <description></description>
     </item>
     

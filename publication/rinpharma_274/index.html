@@ -33,7 +33,7 @@
   
     
   
-  <meta name="description" content="Sarepta deployed RStudio Team for modern data analytics. One major hurdle we faced was  how to serve data to Connect/Workbench securely in the backend. Partnering with Atorus, Sarepta solved this challenge using Box cloud storage as a secure data backend through Box API, JWT token, &amp; Box Python SDK. RStudio Team &amp; Box are seamlessly integrated with Okta SSO and JWT token authentication, providing a two-layer secure authentication that leverages Box frontend permission management. Inspired by  boxr  pkg, we developed  usebox  for R users and leveraged  reticulate  to call Box Python SDK. We illustrate  usebox  through a real Shiny App Patient Listing Generator, powered by open-source pkg  subpat . We believe this real-world harmonized use of R, Python, Shiny, and Box offers insights to the community and organizations facing similar challenges." />
+  <meta name="description" content="Back in 2020, Atorus had the initial release of the R package Tplyr, which was built to simplify the creation of clinical summary tables. Now in 2022, new updates and enhancements have been added to Tplyr to give the user more, particularly in the area of Shiny. In this presentation we will discuss how Tplyr collects metadata that provides traceability to every result it derives. Furthermore, these metadata features are externalized, allowing users to extend Tplyr’s metadata or even build their own, which enables all these of these features to extend beyond Tplyr itself. Ultimately when paired with Shiny, users can utilize Tplyr to build click-through tables where a reviewer can click on a result and immediately view the subset of data that was used to derive it." />
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/rinpharma_274/" />
@@ -322,8 +322,8 @@
   
   <meta property="og:site_name" content="R/Pharma" />
   <meta property="og:url" content="/publication/rinpharma_274/" />
-  <meta property="og:title" content="R, Python, and Shiny in harmony: an Out-of-Box secure data backend for RStudio Connect &amp; Workbench | R/Pharma" />
-  <meta property="og:description" content="Sarepta deployed RStudio Team for modern data analytics. One major hurdle we faced was  how to serve data to Connect/Workbench securely in the backend. Partnering with Atorus, Sarepta solved this challenge using Box cloud storage as a secure data backend through Box API, JWT token, &amp; Box Python SDK. RStudio Team &amp; Box are seamlessly integrated with Okta SSO and JWT token authentication, providing a two-layer secure authentication that leverages Box frontend permission management. Inspired by  boxr  pkg, we developed  usebox  for R users and leveraged  reticulate  to call Box Python SDK. We illustrate  usebox  through a real Shiny App Patient Listing Generator, powered by open-source pkg  subpat . We believe this real-world harmonized use of R, Python, Shiny, and Box offers insights to the community and organizations facing similar challenges." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
+  <meta property="og:title" content="Drill Down Summary Tables in Shiny with Tplyr | R/Pharma" />
+  <meta property="og:description" content="Back in 2020, Atorus had the initial release of the R package Tplyr, which was built to simplify the creation of clinical summary tables. Now in 2022, new updates and enhancements have been added to Tplyr to give the user more, particularly in the area of Shiny. In this presentation we will discuss how Tplyr collects metadata that provides traceability to every result it derives. Furthermore, these metadata features are externalized, allowing users to extend Tplyr’s metadata or even build their own, which enables all these of these features to extend beyond Tplyr itself. Ultimately when paired with Shiny, users can utilize Tplyr to build click-through tables where a reviewer can click on a result and immediately view the subset of data that was used to derive it." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
     <meta property="twitter:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -356,14 +356,14 @@
     "@type": "WebPage",
     "@id": "/publication/rinpharma_274/"
   },
-  "headline": "R, Python, and Shiny in harmony: an Out-of-Box secure data backend for RStudio Connect \u0026 Workbench",
+  "headline": "Drill Down Summary Tables in Shiny with Tplyr",
   
   "datePublished": "1999-01-01T00:00:00Z",
   "dateModified": "2022-11-09T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Xiao Ni"
+    "name": "Mike Stackhouse"
   },
   
   "publisher": {
@@ -374,7 +374,7 @@
       "url": "/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_192x192_fit_lanczos_2.png"
     }
   },
-  "description": "Sarepta deployed RStudio Team for modern data analytics. One major hurdle we faced was  how to serve data to Connect/Workbench securely in the backend. Partnering with Atorus, Sarepta solved this challenge using Box cloud storage as a secure data backend through Box API, JWT token, \u0026 Box Python SDK. RStudio Team \u0026 Box are seamlessly integrated with Okta SSO and JWT token authentication, providing a two-layer secure authentication that leverages Box frontend permission management. Inspired by  boxr  pkg, we developed  usebox  for R users and leveraged  reticulate  to call Box Python SDK. We illustrate  usebox  through a real Shiny App Patient Listing Generator, powered by open-source pkg  subpat . We believe this real-world harmonized use of R, Python, Shiny, and Box offers insights to the community and organizations facing similar challenges."
+  "description": "Back in 2020, Atorus had the initial release of the R package Tplyr, which was built to simplify the creation of clinical summary tables. Now in 2022, new updates and enhancements have been added to Tplyr to give the user more, particularly in the area of Shiny. In this presentation we will discuss how Tplyr collects metadata that provides traceability to every result it derives. Furthermore, these metadata features are externalized, allowing users to extend Tplyr’s metadata or even build their own, which enables all these of these features to extend beyond Tplyr itself. Ultimately when paired with Shiny, users can utilize Tplyr to build click-through tables where a reviewer can click on a result and immediately view the subset of data that was used to derive it."
 }
 </script>
 
@@ -420,7 +420,7 @@
 
 
 
-  <title>R, Python, and Shiny in harmony: an Out-of-Box secure data backend for RStudio Connect &amp; Workbench | R/Pharma</title>
+  <title>Drill Down Summary Tables in Shiny with Tplyr | R/Pharma</title>
 </head>
 
 
@@ -741,7 +741,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>R, Python, and Shiny in harmony: an Out-of-Box secure data backend for RStudio Connect &amp; Workbench</h1>
+  <h1>Drill Down Summary Tables in Shiny with Tplyr</h1>
 
   
 
@@ -759,8 +759,7 @@
     
 
   <span >
-      <a href="/author/xiao-ni/">Xiao Ni</a></span>, <span >
-      <a href="/author/nathan-kosiba/">Nathan Kosiba</a></span>
+      <a href="/author/mike-stackhouse/">Mike Stackhouse</a></span>
   </div>
   
   
@@ -806,7 +805,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Sarepta deployed RStudio Team for modern data analytics. One major hurdle we faced was  how to serve data to Connect/Workbench securely in the backend. Partnering with Atorus, Sarepta solved this challenge using Box cloud storage as a secure data backend through Box API, JWT token, &amp; Box Python SDK. RStudio Team &amp; Box are seamlessly integrated with Okta SSO and JWT token authentication, providing a two-layer secure authentication that leverages Box frontend permission management. Inspired by  boxr  pkg, we developed  usebox  for R users and leveraged  reticulate  to call Box Python SDK. We illustrate  usebox  through a real Shiny App Patient Listing Generator, powered by open-source pkg  subpat . We believe this real-world harmonized use of R, Python, Shiny, and Box offers insights to the community and organizations facing similar challenges.</p>
+    <p class="pub-abstract">Back in 2020, Atorus had the initial release of the R package Tplyr, which was built to simplify the creation of clinical summary tables. Now in 2022, new updates and enhancements have been added to Tplyr to give the user more, particularly in the area of Shiny. In this presentation we will discuss how Tplyr collects metadata that provides traceability to every result it derives. Furthermore, these metadata features are externalized, allowing users to extend Tplyr’s metadata or even build their own, which enables all these of these features to extend beyond Tplyr itself. Ultimately when paired with Shiny, users can utilize Tplyr to build click-through tables where a reviewer can click on a result and immediately view the subset of data that was used to derive it.</p>
     
 
     
@@ -853,8 +852,6 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/sarepta/">Sarepta</a>
-  
   <a class="badge badge-light" href="/tag/atorus-research/">Atorus Research</a>
   
 </div>
@@ -872,7 +869,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_274/&amp;text=R,%20Python,%20and%20Shiny%20in%20harmony:%20an%20Out-of-Box%20secure%20data%20backend%20for%20RStudio%20Connect%20&amp;amp;%20Workbench" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_274/&amp;text=Drill%20Down%20Summary%20Tables%20in%20Shiny%20with%20Tplyr" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -885,7 +882,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_274/&amp;t=R,%20Python,%20and%20Shiny%20in%20harmony:%20an%20Out-of-Box%20secure%20data%20backend%20for%20RStudio%20Connect%20&amp;amp;%20Workbench" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_274/&amp;t=Drill%20Down%20Summary%20Tables%20in%20Shiny%20with%20Tplyr" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -898,7 +895,7 @@
       
       
       <li>
-        <a href="mailto:?subject=R,%20Python,%20and%20Shiny%20in%20harmony:%20an%20Out-of-Box%20secure%20data%20backend%20for%20RStudio%20Connect%20&amp;amp;%20Workbench&amp;body=/publication/rinpharma_274/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Drill%20Down%20Summary%20Tables%20in%20Shiny%20with%20Tplyr&amp;body=/publication/rinpharma_274/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -911,7 +908,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_274/&amp;title=R,%20Python,%20and%20Shiny%20in%20harmony:%20an%20Out-of-Box%20secure%20data%20backend%20for%20RStudio%20Connect%20&amp;amp;%20Workbench" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_274/&amp;title=Drill%20Down%20Summary%20Tables%20in%20Shiny%20with%20Tplyr" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -924,7 +921,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=R,%20Python,%20and%20Shiny%20in%20harmony:%20an%20Out-of-Box%20secure%20data%20backend%20for%20RStudio%20Connect%20&amp;amp;%20Workbench%20/publication/rinpharma_274/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Drill%20Down%20Summary%20Tables%20in%20Shiny%20with%20Tplyr%20/publication/rinpharma_274/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -937,7 +934,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_274/&amp;title=R,%20Python,%20and%20Shiny%20in%20harmony:%20an%20Out-of-Box%20secure%20data%20backend%20for%20RStudio%20Connect%20&amp;amp;%20Workbench" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_274/&amp;title=Drill%20Down%20Summary%20Tables%20in%20Shiny%20with%20Tplyr" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -957,12 +954,6 @@
 
 
   
-  
-    
-
-
-
-
   
     
 
@@ -992,11 +983,11 @@
       
       <li><a href="/publication/rinpharma_227/">Closing the Gap: Creating an End to End R Package Toolkit for the Clinical Reporting Pipeline</a></li>
       
-      <li><a href="/publication/rinpharma_275/">Drill Down Summary Tables in Shiny with Tplyr</a></li>
+      <li><a href="/publication/rinpharma_273/">R, Python, and Shiny in harmony: an Out-of-Box secure data backend for RStudio Connect &amp; Workbench</a></li>
       
       <li><a href="/publication/rinpharma_197/">SafetyGraphics</a></li>
       
-      <li><a href="/publication/rinpharma_270/">Saving State: a custom solution for saving patient populations in shiny</a></li>
+      <li><a href="/publication/rinpharma_269/">Saving State: a custom solution for saving patient populations in shiny</a></li>
       
       <li><a href="/publication/rinpharma_246/">Summary Table Rewind: From Source to Summary and Back Again</a></li>
       

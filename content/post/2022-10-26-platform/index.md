@@ -2,7 +2,7 @@
 title: Meet the R/Pharma Conference Platform
 date: 2022-10-26
 summary: A brief guide to the R/Pharma conference platform.
-featured: true
+featured: false
 draft: false
 ---
 

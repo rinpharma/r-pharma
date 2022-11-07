@@ -13,26 +13,27 @@ The panels will **not** be recorded.  The only way you can hear the amazing disc
 *November 8th 2022, 13:20 ET*  
 
 -  Rachel Dempsey (RStudio, Moderator)
--  Mike Smith (Pfizer)
+-  Paulo Bargo (Janssen)
 -  Melody Brown (LA DPH)
 -  Guillaume Desachy (AZ)
--  Paulo Bargo (Janssen)
+-  Regis James (Regeneron)
+-  Mike Smith (Pfizer)
 
 ### Governing Business critical Pan-Company Collaborative R Packages
 *November 9th 2022, 13:40 ET*  
 
 -  James Black (Roche, Moderator)  
--  Mike Stackhouse (Atorus)
--  Michael Rimler (GSK)
 -  Keaven Anderson (Merck)
+-  Michael Rimler (GSK)
 -  Daniel Sabanes-Bove (Roche)
+-  Mike Stackhouse (Atorus)
 
 ### Finding A Way: Career Stories from 4 Senior Level Women in Data Science
 *November 10th 2022, 13:40 ET*  
 
 -  Michelle Johnson (Metrum Research Group, Moderator)
--  Alice Walsh (Pathos)
 -  Ning Leng (Genentech)
--  Julia Silge (Rstudio)
 -  Neetu Sangari (Pfizer)
+-  Julia Silge (Rstudio)
+-  Alice Walsh (Pathos)
 

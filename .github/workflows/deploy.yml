@@ -17,6 +17,10 @@ jobs:
       REPO_PIN_PAT: ${{ secrets.REPO_PIN_PAT }}
     steps:
       - uses: r-lib/actions/setup-r@v2
+        with:
+          extra-packages: |
+            any::rcmdcheck
+            any::XML
       - uses: r-lib/actions/setup-pandoc@v1
       
       - name: Checkout

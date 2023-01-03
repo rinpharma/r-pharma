@@ -5,12 +5,34 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>R/Pharma</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2022</copyright><lastBuildDate>Thu, 10 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2023</copyright><lastBuildDate>Fri, 09 Dec 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
       <title>R/Pharma</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>R/Pharma 2022 Conference &amp; Workshop Recordings</title>
+      <link>/post/2022-12-09-rph2022-recordings/</link>
+      <pubDate>Fri, 09 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>/post/2022-12-09-rph2022-recordings/</guid>
+      <description>&lt;p&gt;We are excited to announce that the R/Pharma 2022 conference and workshop recordings are now available for viewing! If you were not able to attend the conference live, or wish to re-watch the talks, you can find all of the videos on the &lt;a href=&#34;https://www.youtube.com/@RinPharma&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R/Pharma YouTube Channel&lt;/a&gt; with the following playlists:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLMtxz1fUYA5A-dFv_xp1lPtjw_0c3_RKz&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Day 1 presentations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLMtxz1fUYA5D7_dke-o71AA_DqyV-WpXA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Day 2 presentations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLMtxz1fUYA5BPxg3zHYBkV26uJ-BMFOuX&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Day 3 presentations&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The conference was a huge success with an amazing lineup of speakers, including the co-creator of the R language &lt;a href=&#34;https://computationalbiomed.hms.harvard.edu/about/people/robert-gentleman-phd/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Robert Gentleman&lt;/a&gt;!&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/32QXE0PKVdM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;That&amp;rsquo;s not all &amp;hellip; Like in previous years, the R/Pharma Conference offered a terrific lineup of workshops covering many innovative approaches to using R and other open source software in analysis pipelines and application development. You can view the workshop recordings on the &lt;a href=&#34;https://www.youtube.com/playlist?list=PLMtxz1fUYA5AWYQHB5mZAs-yamNJ5Tm_8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R/Pharma 2022 Workshop Playlist&lt;/a&gt;. Be sure to view the description of the workshop video for resources shared during the workshops.&lt;/p&gt;
+&lt;p&gt;R/Pharma would not be possible without the talented members of our organizing and program committees, workshop instructors, presenters, and the life-sciences community. We hope you enjoy the recordings and look forward to our events in 2023!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>10 Practical Considerations for moving  to R</title>

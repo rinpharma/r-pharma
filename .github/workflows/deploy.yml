@@ -10,7 +10,7 @@ on:
 jobs:
   blogdown:
     name: build_and_push_to_gh_pages
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     env:
       GOOGLESHEETS4_PASSWORD: ${{ secrets.GOOGLESHEETS4_PASSWORD }}
       RSPM: https://packagemanager.rstudio.com/cran/__linux__/bionic/latest

@@ -2,7 +2,7 @@
 title: R/Pharma 2022 Expo
 date: 2022-10-16
 summary: Build a booth for the R/Pharma Expo.
-featured: true
+featured: false
 ---
 
 ### Calling all opensource developers! Come Show off your packages and shiny apps!

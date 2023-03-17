@@ -2,7 +2,7 @@
 title: R/Pharma 2022 discussion panels
 date: 2022-11-06
 summary: A chance to have a Q&A with leaders.
-featured: true
+featured: false
 ---
 
 R/Pharma 2021 experimented with panel discussions at the end of each conference day and we are delighted to announce that we'll be bringing them back for R/Pharma 2022.

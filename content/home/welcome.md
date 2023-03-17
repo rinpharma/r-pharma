@@ -26,20 +26,21 @@ design:
     # Text color (true=light, false=dark, or remove for the dynamic theme color).
     text_color_light: true
 
-cta:
-  url: 'https://hopin.com/events/r-pharma-2022'
-  label: Register
-  icon_pack: fas
-  icon: door-open
+# cta:
+#   url: 'https://hopin.com/events/r-pharma-2022'
+#   label: Register
+#   icon_pack: fas
+#   icon: door-open
 
 #cta:
 #  url: '/html/call4papers/'
 #  label: 2022 Call for abstracts
 #  icon_pack: fas
 #  icon: door-open
-cta_alt:
-  url: '/workshop/2022conference/'
-  label: Workshops
+
+# cta_alt:
+#   url: '/workshop/2022conference/'
+#   label: Workshops
 
 ---
 
@@ -47,4 +48,5 @@ The conference is a relatively small, scientifically &
 industry oriented, collegial event focused on the use of R in the development of
 pharmaceuticals.
 
-The 2022 Conference will run as an online event Nov 8-10th, with workshops running from Oct 25th.  
+More details for the 2023 conference will follow shortly.
+

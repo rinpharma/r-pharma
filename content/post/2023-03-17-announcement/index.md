@@ -3,7 +3,7 @@ title: In-Person and Virtual Events for 2023
 date: 2023-03-17
 summary: In-Person and Virtual Events for 2023.
 featured: true
-draft: false
+draft: true
 ---
 
 There is much excitement for R/Pharma 2023! Please find below the plan for the gathering!

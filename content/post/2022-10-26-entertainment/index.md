@@ -2,7 +2,7 @@
 title: Some entertainment between talks
 date: 2022-10-26
 summary: Introducing the people who will keep you entertained.
-featured: true
+featured: false
 draft: false
 ---
 

@@ -2,7 +2,7 @@
 title: R/Pharma 2022 Workshops
 date: 2022-10-06
 summary: R/Pharma 2022 Workshops.
-featured: true
+featured: false
 ---
 
 ## R/Pharma 2022 Workshops

@@ -1,7 +1,7 @@
 ---
-title: Meet the R/Pharma Conference Platform
+title: In-Person and Virtual Events for 2023
 date: 2023-03-17
-summary: A brief guide to the R/Pharma conference platform.
+summary: In-Person and Virtual Events for 2023.
 featured: true
 draft: false
 ---

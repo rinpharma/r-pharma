@@ -1,9 +1,9 @@
 ---
 title: In-Person and Virtual Events for 2023
-date: 2023-03-17
+date: 2023-03-31
 summary: In-Person and Virtual Events for 2023.
 featured: true
-draft: true
+draft: false
 ---
 
 There is much excitement for R/Pharma 2023! Please find below the plan for the gathering!
@@ -14,30 +14,52 @@ Our 2023 plan is to have in-person and virtual components, as detailed below!
 
 ## In-Person
 
-R/Pharma is partnering with Posit to host our in-person portion at posit::conf(2023) in Chicago. posit::conf(2023) runs Sunday, September 17 - Wednesday, September 20, 2023.
+R/Pharma is excited to announce that we are partnering with Posit to host our in-person program at posit::conf(2023), happening at the Hyatt Regency Chicago from Sunday, September 17 through Wednesday, September 20, 2023.
 
-Attendees at posit::conf(2023) will find three ways to interact with R in Pharma content!
+The in-person R/Pharma program at posit::conf(2023) will focus on the future of drug development using open source. The collaboration will include two activities specific to the pharmaceutical industry: (1) the **"R/Pharma Roundtable Summit"** for program leaders and people leading Open Source initiatives, and (2) the **"Leveraging And Contributing To The Pharmaverse For Clinical Trial Reporting In R"** workshop for data professionals.
 
-Register for two days of workshops and choose one or both of the R/Pharma offerings:
+Please register via the R/Pharma link: https://pos.it/pharmasummit
 
--  Sunday, Sept 17 - Pharma-focused workshop
--  Monday, Sept 18 - R/Pharma Roundtable Summit
+Over the last five years, we've seen explosive growth in the use of R and other open-source technologies across drug development, with an increasing focus on open-source projects and pan-company collaboration. During the flagship event, the R/Pharma Roundtable Summit, facilitators will foster in-person discussions and conversations about key items (reproducibility, submissions, scalability, etc.) with industry leaders about open-source tools for next-generation submissions. R Validation Hub lead, Doug Kelhlkof (Roche), will lead a 90-minute workshop on a new validated repository for GxP R use. For the reminder of the day, R/Pharma and Posit will facilitate talks and discussions around open source drug development topics relevant to participating attendees. You can find a sample agenda for the R/Pharma Roundtable Summit here: 
 
-You can additionally register for the Conference and attend many talks relevant to pharma:
+https://rinpharma.github.io/positconf-roundtables-2023/. 
 
--  Tuesday, Sept 19 - Wednesday, Sept 18 - Conference Talks
+We already have a great lineup of speakers and facilitators confirmed for the R/Pharma Roundtable Summit, including:  
 
-Our featured in-person event will be the *R/Pharma Roundtable Summit* on Sept 18th. Over the last five years, we’ve seen explosive growth in the use of R and other open-source technologies across drug development, with an increasing focus on open-source projects and pan-company collaboration. 
+James Black, R/Pharma executive (Roche)  
+Ning Leng, R/Pharma organizing committee (Genentech)  
+Doug Kehlkoff, R Validation Hub Lead (Genentech)  
+Shannon Pileggi, Lead Data Scientist (The Prostate Cancer Clinical Trials Consortium)  
+Phil Bowsher, R/Pharma executive (Posit)  
+Rich Iannone, Software Engineer (Posit)
+ 
+Others helping to plan the event include:
 
-In this one-day series of roundtables, we aim to provide an open, collaborative, and inclusive environment to share learnings, understand common themes across our industry, and establish collaboration opportunities. The focus of the R/Pharma Roundtable Summit is to foster in-person discussions and conversations about key items (reproducibility, submissions, etc.), as we did at Harvard. You can find a sample agenda for the R/Pharma Roundtable Summit here: https://rinpharma.github.io/positconf-roundtables-2023/
+Harvey Lieberman, R/Pharma executive (Novartis)  
+Paulo Bargo, R/Pharma Executive (Johnson & Johnson)  
+Michael Blanks, R/Pharma Executive (Beigene)  
+Volha Tryputsen, R/Pharma Organizing Committee (Johnson & Johnson)  
 
-The Pharma-focused workshop, as well as the R/Pharma Roundtable Summit, are part of the posit::conf workshop offerings taking place on days 1 and 2 (September 17 - 18). You can purchase the workshop pass on its own or in addition to the conference pass, which allows you to attend days 3 and 4.
+Thomas Neitmann, Associate Director Data Science at Denali Therapeutics, and Pawel Rucki, Chief Engineer at Roche, will teach a pharma-focused workshop titled, "Leveraging And Contributing To The Pharmaverse For Clinical Trial Reporting In R". This workshop will introduce participants to the pharmaverse, a collection of open source R packages that provide the next generation backbone for clinical trial reporting. In the workshop, participants will also create ADaM datasets, prepare tables and figures as well as interactive shiny apps.  You can find a sample agenda for the workshop here: 
 
-If you would like to submit a Pharma talk for the posit::conf(2023), please find the information on the [Posit blog](https://posit.co/blog/posit-conf-2023-registration-open/#contribute-to-conf). To submit a talk, you’ll need to create a 60-second video that introduces you and your proposed topic. In the video, you should tell us who you are, why your topic is important, and what the attendees will take away from it. Submission closes at midnight on March 28 anywhere on Earth, and Posit will communicate decisions by April 24.
+https://github.com/pharmaverse/workshop-positconf23
+
+All R/Pharma program participants are encouraged to stay for the general conference happening September 19 - 20. The general conference will include two days of talks on various topics, high-profile keynotes, and opportunities to network with over 1,000 data professionals. Posit will release the full general conference schedule closer to the date. You can learn more about the conference at posit.co/conference.
+
+Posit would like to hear from you, submit a talk for posit::conf! If you would like to submit a Pharma talk for the posit::conf(2023), please find the information on the Posit blog. To submit a talk, you’ll need to create a 60-second video that introduces you and your proposed topic. In the video, you should tell us who you are, why your topic is important, and what the attendees will take away from it. Submission closes at midnight on April 7 anywhere on Earth, and Posit will communicate decisions by early May.
 
 ## Virtual
 
-Our Free virtual gathering will be on October 24 and 25. The first day will be *R/Pharma*, and the 2nd day will be *Open Source in Pharma*, featuring talks about Python, Julia, Stan, Javascript, and other open-source languages.
+Our **free** virtual gathering will be on October 24, 25 and 26. Virtual registration will open later this Summer. This year we will feature 3 days of centent broken out as below:
+
+Code/Technical Talks:
+
+Day 1 will be R/Pharma, featuring only R talks.  
+Day 2 will be Open Source in Pharma, featuring talks about R, Python, Julia, Stan, Javascript, and other open-source languages.
+
+Impact/Advancement Talks:
+
+Day 3 will be Open Source Advancing Healthcare & Drug Development, featuring content about the impact of Open Source to advance healthcare and drug development using tools such as machine learning, AI, deep learning, statistics. This topics will highlight advancements in areas such pharma, drug development, healthcare, medical devices, vaccines, precision medicine, personalized healthcare, Real-World Data and more! Our 3rd day will be shorter than the first 2.
 
 The workshops will run the week before, October 16 - 20. The style and format will be very similar to 2020-2022 etc. We plan to offer free Digital Credentials for people that attend and complete the workshops.
 

@@ -32,11 +32,11 @@ design:
 #   icon_pack: fas
 #   icon: door-open
 
-#cta:
-#  url: '/html/call4papers/'
-#  label: 2022 Call for abstracts
-#  icon_pack: fas
-#  icon: door-open
+cta:
+  url: '/html/call4papers/'
+  label: 2023 Call for talks
+  icon_pack: fas
+  icon: door-open
 
 # cta_alt:
 #   url: '/workshop/2022conference/'
@@ -48,5 +48,7 @@ The conference is a relatively small, scientifically &
 industry oriented, collegial event focused on the use of R in the development of
 pharmaceuticals.
 
-More details for the 2023 conference will follow shortly.
+R/Pharma in-person roundtable will be held at posit::conf on Sep 18.
+
+R/Pharma virtual will run Oct 24-26 with workshops the week prior.
 

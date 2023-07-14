@@ -34,7 +34,7 @@ design:
 
 cta:
   url: '/html/call4papers/'
-  label: 2023 Call for talks
+  label: 2023 Call for talks is open till July 31st
   icon_pack: fas
   icon: door-open
 

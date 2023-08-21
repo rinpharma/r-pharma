@@ -32,11 +32,11 @@ design:
 #   icon_pack: fas
 #   icon: door-open
 
-cta:
-  url: '/html/call4papers/'
-  label: 2023 Call for talks is open till August 11th
-  icon_pack: fas
-  icon: door-open
+# cta:
+#   url: '/html/call4papers/'
+#   label: 2023 Call for talks is open till August 11th
+#   icon_pack: fas
+#   icon: door-open
 
 # cta_alt:
 #   url: '/workshop/2022conference/'
@@ -50,5 +50,5 @@ pharmaceuticals.
 
 R/Pharma in-person roundtable will be held at posit::conf on Sep 18.
 
-R/Pharma virtual will run Oct 24-26 with workshops the week prior.
+R/Pharma virtual will run Oct 24-26 with workshops the week prior.  The call for talks is now closed.  Conference agenda and registration details will follow shortly.
 

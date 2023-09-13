@@ -48,7 +48,7 @@ The conference is a relatively small, scientifically &
 industry oriented, collegial event focused on the use of R in the development of
 pharmaceuticals.
 
-R/Pharma in-person roundtable will be held at posit::conf on Sep 18.
+The R/Pharma in-person roundtable at posit::conf on Sep 18 is fully booked. To join the waiting list, please send a message here: https://rinpharma.com/contact/
 
-R/Pharma virtual will run Oct 24-26 with workshops the week prior.  The call for talks is now closed.  Conference agenda and registration details will follow shortly.
+R/Pharma virtual will run Oct 24-26 with workshops the week prior.  The call for talks is now closed.  Conference registration details will follow very shortly.
 

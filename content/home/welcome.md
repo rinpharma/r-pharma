@@ -26,11 +26,11 @@ design:
     # Text color (true=light, false=dark, or remove for the dynamic theme color).
     text_color_light: true
 
- cta:
-   url: 'https://hopin.com/events/r-pharma-2023'
-   label: Register
-   icon_pack: fas
-   icon: door-open
+cta:
+  url: 'https://hopin.com/events/r-pharma-2023'
+  label: Register
+  icon_pack: fas
+  icon: door-open
 
 # cta:
 #   url: '/html/call4papers/'

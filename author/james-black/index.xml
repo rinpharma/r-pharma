@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>James Black | R/Pharma</title>
+    <link>/author/james-black/</link>
+      <atom:link href="/author/james-black/index.xml" rel="self" type="application/rss+xml" />
+    <description>James Black</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2023</copyright><lastBuildDate>Thu, 04 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>James Black</title>
+      <link>/author/james-black/</link>
+    </image>
+    
+    <item>
+      <title>Smoothing out our path to open source and pan-pharma code collaboration</title>
+      <link>/publication/rinpharma_238/</link>
+      <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_238/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The role of R in converting clinical trial programmers to data scientists</title>
+      <link>/publication/rinpharma_48/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_48/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

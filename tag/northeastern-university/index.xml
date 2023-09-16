@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Northeastern University | R/Pharma</title>
+    <link>/tag/northeastern-university/</link>
+      <atom:link href="/tag/northeastern-university/index.xml" rel="self" type="application/rss+xml" />
+    <description>Northeastern University</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2023</copyright><lastBuildDate>Thu, 16 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>Northeastern University</title>
+      <link>/tag/northeastern-university/</link>
+    </image>
+    
+    <item>
+      <title>Building a community of competent developers and users of R-based tools in mass spectrometry-based research</title>
+      <link>/publication/rinpharma_53/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_53/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

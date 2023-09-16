@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Katie Igartua | R/Pharma</title>
+    <link>/author/katie-igartua/</link>
+      <atom:link href="/author/katie-igartua/index.xml" rel="self" type="application/rss+xml" />
+    <description>Katie Igartua</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2023</copyright><lastBuildDate>Tue, 08 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>Katie Igartua</title>
+      <link>/author/katie-igartua/</link>
+    </image>
+    
+    <item>
+      <title>Disrupting drug development with data-driven approaches: insights for fast expanding data teams</title>
+      <link>/publication/rinpharma_252/</link>
+      <pubDate>Tue, 08 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_252/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

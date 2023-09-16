@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nuventra Pharma Sciences | R/Pharma</title>
+    <link>/tag/nuventra-pharma-sciences/</link>
+      <atom:link href="/tag/nuventra-pharma-sciences/index.xml" rel="self" type="application/rss+xml" />
+    <description>Nuventra Pharma Sciences</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2023</copyright><lastBuildDate>Thu, 22 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>Nuventra Pharma Sciences</title>
+      <link>/tag/nuventra-pharma-sciences/</link>
+    </image>
+    
+    <item>
+      <title>From CDISC to TLFs, using R to support Pharmacokinetic Analyses</title>
+      <link>/publication/rinpharma_119/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_119/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

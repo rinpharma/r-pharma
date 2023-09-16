@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Leigh Alexander | R/Pharma</title>
+    <link>/author/leigh-alexander/</link>
+      <atom:link href="/author/leigh-alexander/index.xml" rel="self" type="application/rss+xml" />
+    <description>Leigh Alexander</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2023</copyright><lastBuildDate>Wed, 27 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>Leigh Alexander</title>
+      <link>/author/leigh-alexander/</link>
+    </image>
+    
+    <item>
+      <title>Building Tidy R Packages</title>
+      <link>/publication/rinpharma_194/</link>
+      <pubDate>Wed, 27 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_194/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Out of Chaos, Comes Order: Adventures in Standardized and Reproducible Research</title>
+      <link>/publication/rinpharma_147/</link>
+      <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_147/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to win friends and influence people: Efficiency, Reproducibility, and Scalability with R Project templates and parameterized R Markdown</title>
+      <link>/publication/rinpharma_72/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_72/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

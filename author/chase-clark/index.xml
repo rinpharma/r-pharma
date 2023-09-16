@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chase Clark | R/Pharma</title>
+    <link>/author/chase-clark/</link>
+      <atom:link href="/author/chase-clark/index.xml" rel="self" type="application/rss+xml" />
+    <description>Chase Clark</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2023</copyright><lastBuildDate>Thu, 22 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>Chase Clark</title>
+      <link>/author/chase-clark/</link>
+    </image>
+    
+    <item>
+      <title>Your Missing Step in Reproducible R Programming: Continuous Deployment</title>
+      <link>/publication/rinpharma_101/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_101/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IDBac: A New Paradigm in Developing Microbial Libraries for Drug Discovery</title>
+      <link>/publication/rinpharma_9/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_9/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

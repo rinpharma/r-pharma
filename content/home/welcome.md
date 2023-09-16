@@ -26,11 +26,11 @@ design:
     # Text color (true=light, false=dark, or remove for the dynamic theme color).
     text_color_light: true
 
-# cta:
-#   url: 'https://hopin.com/events/r-pharma-2022'
-#   label: Register
-#   icon_pack: fas
-#   icon: door-open
+ cta:
+   url: 'https://hopin.com/events/r-pharma-2023'
+   label: Register
+   icon_pack: fas
+   icon: door-open
 
 # cta:
 #   url: '/html/call4papers/'
@@ -45,10 +45,8 @@ design:
 ---
 
 The conference is a relatively small, scientifically &
-industry oriented, collegial event focused on the use of R in the development of
-pharmaceuticals.
+industry oriented, collegial event focused on the use of R in the development of pharmaceuticals.  
 
-The R/Pharma in-person roundtable at posit::conf on Sep 18 is fully booked. To join the waiting list, please send a message here: https://rinpharma.com/contact/
+The R/Pharma in-person roundtable at posit::conf on Sep 18 is fully booked.  
 
-R/Pharma virtual will run Oct 24-26 with workshops the week prior.  The call for talks is now closed.  Conference registration details will follow very shortly.
-
+R/Pharma virtual will run Oct 24-26 with workshops the week prior.  Registration is now open.

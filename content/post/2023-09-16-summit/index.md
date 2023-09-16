@@ -21,6 +21,8 @@ and probably the topic we are most excited about (especially with Roche and othe
 
 -  What is a modern workflow?  What are the key capabilities of a modern SCE?  What can we learn from each other enabling diversity without compromising our SCE architecture - from legacy codebases/languages and their workflows built around mounted drives and unix permissions, through to multi-modal analyses querying multiple data stores via tokens as secrets, mixing not just open source languages, but different dockerfiles in a single analysis.
 
+70 representatives from 42 companies will come together to tackle these and other questions.
+
 Review the agenda below, or visit the discussion link to see the proposed topics:
 
 https://rinpharma.github.io/positconf-roundtables-2023/

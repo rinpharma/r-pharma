@@ -33,7 +33,7 @@
   
     
   
-  <meta name="description" content="Interactive web graphics are a popular and convenient medium for conveying information. However, web graphics are rarely used during the initial exploratory phase of a data analysis, largely due to the lack tools for seamless iteration between data manipulation, modeling, and visualization. As we&#39;ve known for several decades, interactive graphics can augment exploratory analysis, but are only practical when we can iterate quickly. This talk demonstrates how to use the R packages plotly and dashR to rapidly produce interactive web graphics and applications that augment data exploration in addition to being easily distributed." />
+  <meta name="description" content="Recent advances in the Shiny ecosystem boost the scale and scope of serious enterprise-wide web applications. More specifically, it is entirely possible to utilize key features of Shiny Server Professional and additional R packages such as shinyjs, DT, and batchtools to build Shiny applications that supports session management, high-performance computing, and reproducibility in a friendly and logical interface. Additionally, the shinytest package enables a robust workflow for developing applications efficiently, as well as being an important component to automate a validation testing framework. In this talk, I will share examples of key features and lessons learned in creating a technically powerful shiny application that integrates these pieces together." />
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/rinpharma_34/" />
@@ -322,8 +322,8 @@
   
   <meta property="og:site_name" content="R/Pharma" />
   <meta property="og:url" content="/publication/rinpharma_34/" />
-  <meta property="og:title" content="Interactive data visualization with R, plotly, and dashR | R/Pharma" />
-  <meta property="og:description" content="Interactive web graphics are a popular and convenient medium for conveying information. However, web graphics are rarely used during the initial exploratory phase of a data analysis, largely due to the lack tools for seamless iteration between data manipulation, modeling, and visualization. As we&#39;ve known for several decades, interactive graphics can augment exploratory analysis, but are only practical when we can iterate quickly. This talk demonstrates how to use the R packages plotly and dashR to rapidly produce interactive web graphics and applications that augment data exploration in addition to being easily distributed." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
+  <meta property="og:title" content="Developing powerful Shiny applications in an enterprise environment: Best practices and lessons learned | R/Pharma" />
+  <meta property="og:description" content="Recent advances in the Shiny ecosystem boost the scale and scope of serious enterprise-wide web applications. More specifically, it is entirely possible to utilize key features of Shiny Server Professional and additional R packages such as shinyjs, DT, and batchtools to build Shiny applications that supports session management, high-performance computing, and reproducibility in a friendly and logical interface. Additionally, the shinytest package enables a robust workflow for developing applications efficiently, as well as being an important component to automate a validation testing framework. In this talk, I will share examples of key features and lessons learned in creating a technically powerful shiny application that integrates these pieces together." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
     <meta property="twitter:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -356,14 +356,14 @@
     "@type": "WebPage",
     "@id": "/publication/rinpharma_34/"
   },
-  "headline": "Interactive data visualization with R, plotly, and dashR",
+  "headline": "Developing powerful Shiny applications in an enterprise environment: Best practices and lessons learned",
   
   "datePublished": "1999-01-01T00:00:00Z",
   "dateModified": "2018-08-16T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Carson Sievert"
+    "name": "Eric Nantz"
   },
   
   "publisher": {
@@ -374,7 +374,7 @@
       "url": "/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_192x192_fit_lanczos_2.png"
     }
   },
-  "description": "Interactive web graphics are a popular and convenient medium for conveying information. However, web graphics are rarely used during the initial exploratory phase of a data analysis, largely due to the lack tools for seamless iteration between data manipulation, modeling, and visualization. As we've known for several decades, interactive graphics can augment exploratory analysis, but are only practical when we can iterate quickly. This talk demonstrates how to use the R packages plotly and dashR to rapidly produce interactive web graphics and applications that augment data exploration in addition to being easily distributed."
+  "description": "Recent advances in the Shiny ecosystem boost the scale and scope of serious enterprise-wide web applications. More specifically, it is entirely possible to utilize key features of Shiny Server Professional and additional R packages such as shinyjs, DT, and batchtools to build Shiny applications that supports session management, high-performance computing, and reproducibility in a friendly and logical interface. Additionally, the shinytest package enables a robust workflow for developing applications efficiently, as well as being an important component to automate a validation testing framework. In this talk, I will share examples of key features and lessons learned in creating a technically powerful shiny application that integrates these pieces together."
 }
 </script>
 
@@ -420,7 +420,7 @@
 
 
 
-  <title>Interactive data visualization with R, plotly, and dashR | R/Pharma</title>
+  <title>Developing powerful Shiny applications in an enterprise environment: Best practices and lessons learned | R/Pharma</title>
 </head>
 
 
@@ -688,6 +688,8 @@
       
         
       
+        
+      
 
       
       
@@ -741,7 +743,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Interactive data visualization with R, plotly, and dashR</h1>
+  <h1>Developing powerful Shiny applications in an enterprise environment: Best practices and lessons learned</h1>
 
   
 
@@ -759,7 +761,7 @@
     
 
   <span >
-      <a href="/author/carson-sievert/">Carson Sievert</a></span>
+      <a href="/author/eric-nantz/">Eric Nantz</a></span>
   </div>
   
   
@@ -795,6 +797,47 @@
 
 
 
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="https://rpodcast.gitlab.io/rpharma2018/" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+
+
+
+
+</div>
+
 
   
 </div>
@@ -805,7 +848,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Interactive web graphics are a popular and convenient medium for conveying information. However, web graphics are rarely used during the initial exploratory phase of a data analysis, largely due to the lack tools for seamless iteration between data manipulation, modeling, and visualization. As we&rsquo;ve known for several decades, interactive graphics can augment exploratory analysis, but are only practical when we can iterate quickly. This talk demonstrates how to use the R packages plotly and dashR to rapidly produce interactive web graphics and applications that augment data exploration in addition to being easily distributed.</p>
+    <p class="pub-abstract">Recent advances in the Shiny ecosystem boost the scale and scope of serious enterprise-wide web applications. More specifically, it is entirely possible to utilize key features of Shiny Server Professional and additional R packages such as shinyjs, DT, and batchtools to build Shiny applications that supports session management, high-performance computing, and reproducibility in a friendly and logical interface. Additionally, the shinytest package enables a robust workflow for developing applications efficiently, as well as being an important component to automate a validation testing framework. In this talk, I will share examples of key features and lessons learned in creating a technically powerful shiny application that integrates these pieces together.</p>
     
 
     
@@ -852,7 +895,7 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/rstudio/">RStudio</a>
+  <a class="badge badge-light" href="/tag/eli-lilly/">Eli Lilly</a>
   
 </div>
 
@@ -869,7 +912,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_34/&amp;text=Interactive%20data%20visualization%20with%20R,%20plotly,%20and%20dashR" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_34/&amp;text=Developing%20powerful%20Shiny%20applications%20in%20an%20enterprise%20environment:%20Best%20practices%20and%20lessons%20learned" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -882,7 +925,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_34/&amp;t=Interactive%20data%20visualization%20with%20R,%20plotly,%20and%20dashR" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_34/&amp;t=Developing%20powerful%20Shiny%20applications%20in%20an%20enterprise%20environment:%20Best%20practices%20and%20lessons%20learned" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -895,7 +938,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Interactive%20data%20visualization%20with%20R,%20plotly,%20and%20dashR&amp;body=/publication/rinpharma_34/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Developing%20powerful%20Shiny%20applications%20in%20an%20enterprise%20environment:%20Best%20practices%20and%20lessons%20learned&amp;body=/publication/rinpharma_34/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -908,7 +951,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_34/&amp;title=Interactive%20data%20visualization%20with%20R,%20plotly,%20and%20dashR" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_34/&amp;title=Developing%20powerful%20Shiny%20applications%20in%20an%20enterprise%20environment:%20Best%20practices%20and%20lessons%20learned" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -921,7 +964,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Interactive%20data%20visualization%20with%20R,%20plotly,%20and%20dashR%20/publication/rinpharma_34/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Developing%20powerful%20Shiny%20applications%20in%20an%20enterprise%20environment:%20Best%20practices%20and%20lessons%20learned%20/publication/rinpharma_34/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -934,7 +977,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_34/&amp;title=Interactive%20data%20visualization%20with%20R,%20plotly,%20and%20dashR" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_34/&amp;title=Developing%20powerful%20Shiny%20applications%20in%20an%20enterprise%20environment:%20Best%20practices%20and%20lessons%20learned" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -981,15 +1024,15 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/publication/rinpharma_195/">Clinical Tables in gt</a></li>
+      <li><a href="/publication/rinpharma_75/">Creating and reviving Shiny apps with golem</a></li>
       
-      <li><a href="/publication/rinpharma_154/">Data visualization for real-world machine learning</a></li>
+      <li><a href="/publication/rinpharma_92/">Machine learning workflow management with drake</a></li>
       
-      <li><a href="/publication/rinpharma_29/">Interactive data visualization with R, plotly, and dashR</a></li>
+      <li><a href="/publication/rinpharma_63/">Machine learning workflow management with drake</a></li>
       
-      <li><a href="/publication/rinpharma_62/">Machine learning</a></li>
+      <li><a href="/publication/rinpharma_176/">Reproducible computation at scale in R with targets</a></li>
       
-      <li><a href="/publication/rinpharma_21/">Modeling in the tidyverse</a></li>
+      <li><a href="/publication/rinpharma_131/">Targets and Reproducible Pipelines</a></li>
       
     </ul>
   </div>

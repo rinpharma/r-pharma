@@ -33,7 +33,7 @@
   
     
   
-  <meta name="description" content="" />
+  <meta name="description" content="Medical oversight during a clinical trial is an extensive and time-consuming process. To safeguard patient safety, medical monitors need to review and explore raw safety data interactively, using standard visualizations as well as specific analyses tailored to the disease and the clinical study. The creation of semi-automated reports in R could facilitate this operation. The reports include interactive visualizations (with the plotly package) and interactive descriptive statistics tables and listings (with the DT package) for safety review of the patients. Template reports (based on Rmarkdown) incorporating standard analyses are integrated within an R package. The reports are set up via YAML configuration files to allow non-R users to customize the report for his/her specific study. Such report is created from datasets in CDISC standard SDTM or ADaM format, and delivered in the form of linked self-contained html pages. The creation of the report documentation (in the R package) and the validation of the input parameters in the config files is automated and provided with the JSON schema format. The medical oversight tool is integrated with functionalities to generate patient profiles, CSR-ready in-text tables, and enables comparison of results between multiple interim data batches delivered in the course of the clinical trial. The tool will be demonstrated on a publicly available dataset." />
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/rinpharma_141/" />
@@ -322,8 +322,8 @@
   
   <meta property="og:site_name" content="R/Pharma" />
   <meta property="og:url" content="/publication/rinpharma_141/" />
-  <meta property="og:title" content="The R Validation Hub: Implementing a Risk-Based Approach to R | R/Pharma" />
-  <meta property="og:description" content="" /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
+  <meta property="og:title" content="Interactive medical oversight reporting in R | R/Pharma" />
+  <meta property="og:description" content="Medical oversight during a clinical trial is an extensive and time-consuming process. To safeguard patient safety, medical monitors need to review and explore raw safety data interactively, using standard visualizations as well as specific analyses tailored to the disease and the clinical study. The creation of semi-automated reports in R could facilitate this operation. The reports include interactive visualizations (with the plotly package) and interactive descriptive statistics tables and listings (with the DT package) for safety review of the patients. Template reports (based on Rmarkdown) incorporating standard analyses are integrated within an R package. The reports are set up via YAML configuration files to allow non-R users to customize the report for his/her specific study. Such report is created from datasets in CDISC standard SDTM or ADaM format, and delivered in the form of linked self-contained html pages. The creation of the report documentation (in the R package) and the validation of the input parameters in the config files is automated and provided with the JSON schema format. The medical oversight tool is integrated with functionalities to generate patient profiles, CSR-ready in-text tables, and enables comparison of results between multiple interim data batches delivered in the course of the clinical trial. The tool will be demonstrated on a publicly available dataset." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
     <meta property="twitter:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -356,14 +356,14 @@
     "@type": "WebPage",
     "@id": "/publication/rinpharma_141/"
   },
-  "headline": "The R Validation Hub: Implementing a Risk-Based Approach to R",
+  "headline": "Interactive medical oversight reporting in R",
   
   "datePublished": "1999-01-01T00:00:00Z",
   "dateModified": "2020-10-13T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Andy Nicholls"
+    "name": "Laure Cougnaud"
   },
   
   "publisher": {
@@ -374,7 +374,7 @@
       "url": "/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_192x192_fit_lanczos_2.png"
     }
   },
-  "description": ""
+  "description": "Medical oversight during a clinical trial is an extensive and time-consuming process. To safeguard patient safety, medical monitors need to review and explore raw safety data interactively, using standard visualizations as well as specific analyses tailored to the disease and the clinical study. The creation of semi-automated reports in R could facilitate this operation. The reports include interactive visualizations (with the plotly package) and interactive descriptive statistics tables and listings (with the DT package) for safety review of the patients. Template reports (based on Rmarkdown) incorporating standard analyses are integrated within an R package. The reports are set up via YAML configuration files to allow non-R users to customize the report for his/her specific study. Such report is created from datasets in CDISC standard SDTM or ADaM format, and delivered in the form of linked self-contained html pages. The creation of the report documentation (in the R package) and the validation of the input parameters in the config files is automated and provided with the JSON schema format. The medical oversight tool is integrated with functionalities to generate patient profiles, CSR-ready in-text tables, and enables comparison of results between multiple interim data batches delivered in the course of the clinical trial. The tool will be demonstrated on a publicly available dataset."
 }
 </script>
 
@@ -420,7 +420,7 @@
 
 
 
-  <title>The R Validation Hub: Implementing a Risk-Based Approach to R | R/Pharma</title>
+  <title>Interactive medical oversight reporting in R | R/Pharma</title>
 </head>
 
 
@@ -688,6 +688,8 @@
       
         
       
+        
+      
 
       
       
@@ -741,7 +743,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>The R Validation Hub: Implementing a Risk-Based Approach to R</h1>
+  <h1>Interactive medical oversight reporting in R</h1>
 
   
 
@@ -759,7 +761,9 @@
     
 
   <span >
-      <a href="/author/andy-nicholls/">Andy Nicholls</a></span>
+      <a href="/author/laure-cougnaud/">Laure Cougnaud</a></span>, <span >
+      <a href="/author/michela-pasetto/">Michela Pasetto</a></span>, <span >
+      <a href="/author/arne-de-roeck/">Arne de Roeck</a></span>
   </div>
   
   
@@ -824,7 +828,7 @@
   
     
   
-<a class="btn btn-outline-primary btn-page-header" href="https://pharmar.github.io/rpharma2020_pres/" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://medical-monitoring.openanalytics.io/slides/#1" target="_blank" rel="noopener">
   Slides
 </a>
 
@@ -834,7 +838,7 @@
   
     
   
-<a class="btn btn-outline-primary btn-page-header" href="https://youtu.be/CFhXu0amNAw" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://youtu.be/Aeu1_xCUVPQ" target="_blank" rel="noopener">
   Video
 </a>
 
@@ -852,6 +856,9 @@
 
   <div class="article-container">
 
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">Medical oversight during a clinical trial is an extensive and time-consuming process. To safeguard patient safety, medical monitors need to review and explore raw safety data interactively, using standard visualizations as well as specific analyses tailored to the disease and the clinical study. The creation of semi-automated reports in R could facilitate this operation. The reports include interactive visualizations (with the plotly package) and interactive descriptive statistics tables and listings (with the DT package) for safety review of the patients. Template reports (based on Rmarkdown) incorporating standard analyses are integrated within an R package. The reports are set up via YAML configuration files to allow non-R users to customize the report for his/her specific study. Such report is created from datasets in CDISC standard SDTM or ADaM format, and delivered in the form of linked self-contained html pages. The creation of the report documentation (in the R package) and the validation of the input parameters in the config files is automated and provided with the JSON schema format. The medical oversight tool is integrated with functionalities to generate patient profiles, CSR-ready in-text tables, and enables comparison of results between multiple interim data batches delivered in the course of the clinical trial. The tool will be demonstrated on a publicly available dataset.</p>
     
 
     
@@ -898,7 +905,9 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/glaxosmithkline/">Glaxosmithkline</a>
+  <a class="badge badge-light" href="/tag/openanalytics/">OpenAnalytics</a>
+  
+  <a class="badge badge-light" href="/tag/galapagos/">Galapagos</a>
   
 </div>
 
@@ -915,7 +924,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_141/&amp;text=The%20R%20Validation%20Hub:%20Implementing%20a%20Risk-Based%20Approach%20to%20R" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_141/&amp;text=Interactive%20medical%20oversight%20reporting%20in%20R" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -928,7 +937,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_141/&amp;t=The%20R%20Validation%20Hub:%20Implementing%20a%20Risk-Based%20Approach%20to%20R" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_141/&amp;t=Interactive%20medical%20oversight%20reporting%20in%20R" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -941,7 +950,7 @@
       
       
       <li>
-        <a href="mailto:?subject=The%20R%20Validation%20Hub:%20Implementing%20a%20Risk-Based%20Approach%20to%20R&amp;body=/publication/rinpharma_141/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Interactive%20medical%20oversight%20reporting%20in%20R&amp;body=/publication/rinpharma_141/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -954,7 +963,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_141/&amp;title=The%20R%20Validation%20Hub:%20Implementing%20a%20Risk-Based%20Approach%20to%20R" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_141/&amp;title=Interactive%20medical%20oversight%20reporting%20in%20R" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -967,7 +976,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=The%20R%20Validation%20Hub:%20Implementing%20a%20Risk-Based%20Approach%20to%20R%20/publication/rinpharma_141/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Interactive%20medical%20oversight%20reporting%20in%20R%20/publication/rinpharma_141/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -980,7 +989,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_141/&amp;title=The%20R%20Validation%20Hub:%20Implementing%20a%20Risk-Based%20Approach%20to%20R" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_141/&amp;title=Interactive%20medical%20oversight%20reporting%20in%20R" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1007,6 +1016,18 @@
 
 
   
+    
+
+
+
+
+  
+    
+
+
+
+
+  
 
 
 
@@ -1022,23 +1043,6 @@
 
 
   
-  
-  <div class="article-widget content-widget-hr">
-    <h3>Related</h3>
-    <ul>
-      
-      <li><a href="/publication/rinpharma_162/">Clinical Reporting Using R at GSK</a></li>
-      
-      <li><a href="/publication/rinpharma_129/">Implementing a Risk-based Approach to R Validation</a></li>
-      
-      <li><a href="/publication/rinpharma_118/">Making Better Decisions</a></li>
-      
-      <li><a href="/publication/rinpharma_60/">R Validation Hub (past, current and future state)</a></li>
-      
-      <li><a href="/publication/rinpharma_30/">The Challenges of Validating R</a></li>
-      
-    </ul>
-  </div>
   
 
 

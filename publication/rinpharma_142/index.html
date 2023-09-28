@@ -33,7 +33,7 @@
   
     
   
-  <meta name="description" content="Medical oversight during a clinical trial is an extensive and time-consuming process. To safeguard patient safety, medical monitors need to review and explore raw safety data interactively, using standard visualizations as well as specific analyses tailored to the disease and the clinical study. The creation of semi-automated reports in R could facilitate this operation. The reports include interactive visualizations (with the plotly package) and interactive descriptive statistics tables and listings (with the DT package) for safety review of the patients. Template reports (based on Rmarkdown) incorporating standard analyses are integrated within an R package. The reports are set up via YAML configuration files to allow non-R users to customize the report for his/her specific study. Such report is created from datasets in CDISC standard SDTM or ADaM format, and delivered in the form of linked self-contained html pages. The creation of the report documentation (in the R package) and the validation of the input parameters in the config files is automated and provided with the JSON schema format. The medical oversight tool is integrated with functionalities to generate patient profiles, CSR-ready in-text tables, and enables comparison of results between multiple interim data batches delivered in the course of the clinical trial. The tool will be demonstrated on a publicly available dataset." />
+  <meta name="description" content="MMRMs are often used as the primary analysis of continuous endpoints in longitudinal clinical trials (see e.g. Mallinckrod et al, 2008). Essentially, an MMRM is a specific linear mixed effects model that includes (at least) an interaction of treatment arm and categorical visit variables as fixed effects. The covariance structure of the residuals can have different forms, and often an unstructured (i.e. saturated parametrization) covariance matrix is preferred. This structure can be represented by random effects in the mixed model. All of this has typically been implemented in proprietary software, such as SAS, as its PROC MIXED routine is generally seen as a gold standard for mixed models. However, this does not allow the use of interactive web applications to explore the clinical study data in a flexible way. Furthermore, fitting such proprietary software into workflows such as automatic document generation is not convenient. Therefore, we wanted to implement MMRM in R. Several challenges had to be solved, such as finding the right R-packages for this purpose. We finally settled on  lme4  in combination with  lmerTest , which could match results in SAS up to numerical precision. Convergence of estimates can be an issue and multiple optimization algorithms are therefore tried in parallel to enhance robustness. Extracting the covariance matrix estimate from  lme4  results was solved as well as finding model fit statistics that match SAS results. We use our own  rtables  to produce tables and  ggplot2  for plots. We developed a Shiny module in our internal framework for exploratory web applications. Further validation in the next months will allow us to use the R implementation for regulatory purposes, with greater flexibility and efficiency than before." />
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/rinpharma_142/" />
@@ -322,8 +322,8 @@
   
   <meta property="og:site_name" content="R/Pharma" />
   <meta property="og:url" content="/publication/rinpharma_142/" />
-  <meta property="og:title" content="Interactive medical oversight reporting in R | R/Pharma" />
-  <meta property="og:description" content="Medical oversight during a clinical trial is an extensive and time-consuming process. To safeguard patient safety, medical monitors need to review and explore raw safety data interactively, using standard visualizations as well as specific analyses tailored to the disease and the clinical study. The creation of semi-automated reports in R could facilitate this operation. The reports include interactive visualizations (with the plotly package) and interactive descriptive statistics tables and listings (with the DT package) for safety review of the patients. Template reports (based on Rmarkdown) incorporating standard analyses are integrated within an R package. The reports are set up via YAML configuration files to allow non-R users to customize the report for his/her specific study. Such report is created from datasets in CDISC standard SDTM or ADaM format, and delivered in the form of linked self-contained html pages. The creation of the report documentation (in the R package) and the validation of the input parameters in the config files is automated and provided with the JSON schema format. The medical oversight tool is integrated with functionalities to generate patient profiles, CSR-ready in-text tables, and enables comparison of results between multiple interim data batches delivered in the course of the clinical trial. The tool will be demonstrated on a publicly available dataset." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
+  <meta property="og:title" content="Implementing Mixed Models with Repeated Measures (MMRM) in R and Shiny for Regulatory Purposes | R/Pharma" />
+  <meta property="og:description" content="MMRMs are often used as the primary analysis of continuous endpoints in longitudinal clinical trials (see e.g. Mallinckrod et al, 2008). Essentially, an MMRM is a specific linear mixed effects model that includes (at least) an interaction of treatment arm and categorical visit variables as fixed effects. The covariance structure of the residuals can have different forms, and often an unstructured (i.e. saturated parametrization) covariance matrix is preferred. This structure can be represented by random effects in the mixed model. All of this has typically been implemented in proprietary software, such as SAS, as its PROC MIXED routine is generally seen as a gold standard for mixed models. However, this does not allow the use of interactive web applications to explore the clinical study data in a flexible way. Furthermore, fitting such proprietary software into workflows such as automatic document generation is not convenient. Therefore, we wanted to implement MMRM in R. Several challenges had to be solved, such as finding the right R-packages for this purpose. We finally settled on  lme4  in combination with  lmerTest , which could match results in SAS up to numerical precision. Convergence of estimates can be an issue and multiple optimization algorithms are therefore tried in parallel to enhance robustness. Extracting the covariance matrix estimate from  lme4  results was solved as well as finding model fit statistics that match SAS results. We use our own  rtables  to produce tables and  ggplot2  for plots. We developed a Shiny module in our internal framework for exploratory web applications. Further validation in the next months will allow us to use the R implementation for regulatory purposes, with greater flexibility and efficiency than before." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
     <meta property="twitter:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -356,14 +356,14 @@
     "@type": "WebPage",
     "@id": "/publication/rinpharma_142/"
   },
-  "headline": "Interactive medical oversight reporting in R",
+  "headline": "Implementing Mixed Models with Repeated Measures (MMRM) in R and Shiny for Regulatory Purposes",
   
   "datePublished": "1999-01-01T00:00:00Z",
   "dateModified": "2020-10-13T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Laure Cougnaud"
+    "name": "Daniel Sabanés Bové"
   },
   
   "publisher": {
@@ -374,7 +374,7 @@
       "url": "/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_192x192_fit_lanczos_2.png"
     }
   },
-  "description": "Medical oversight during a clinical trial is an extensive and time-consuming process. To safeguard patient safety, medical monitors need to review and explore raw safety data interactively, using standard visualizations as well as specific analyses tailored to the disease and the clinical study. The creation of semi-automated reports in R could facilitate this operation. The reports include interactive visualizations (with the plotly package) and interactive descriptive statistics tables and listings (with the DT package) for safety review of the patients. Template reports (based on Rmarkdown) incorporating standard analyses are integrated within an R package. The reports are set up via YAML configuration files to allow non-R users to customize the report for his/her specific study. Such report is created from datasets in CDISC standard SDTM or ADaM format, and delivered in the form of linked self-contained html pages. The creation of the report documentation (in the R package) and the validation of the input parameters in the config files is automated and provided with the JSON schema format. The medical oversight tool is integrated with functionalities to generate patient profiles, CSR-ready in-text tables, and enables comparison of results between multiple interim data batches delivered in the course of the clinical trial. The tool will be demonstrated on a publicly available dataset."
+  "description": "MMRMs are often used as the primary analysis of continuous endpoints in longitudinal clinical trials (see e.g. Mallinckrod et al, 2008). Essentially, an MMRM is a specific linear mixed effects model that includes (at least) an interaction of treatment arm and categorical visit variables as fixed effects. The covariance structure of the residuals can have different forms, and often an unstructured (i.e. saturated parametrization) covariance matrix is preferred. This structure can be represented by random effects in the mixed model. All of this has typically been implemented in proprietary software, such as SAS, as its PROC MIXED routine is generally seen as a gold standard for mixed models. However, this does not allow the use of interactive web applications to explore the clinical study data in a flexible way. Furthermore, fitting such proprietary software into workflows such as automatic document generation is not convenient. Therefore, we wanted to implement MMRM in R. Several challenges had to be solved, such as finding the right R-packages for this purpose. We finally settled on  lme4  in combination with  lmerTest , which could match results in SAS up to numerical precision. Convergence of estimates can be an issue and multiple optimization algorithms are therefore tried in parallel to enhance robustness. Extracting the covariance matrix estimate from  lme4  results was solved as well as finding model fit statistics that match SAS results. We use our own  rtables  to produce tables and  ggplot2  for plots. We developed a Shiny module in our internal framework for exploratory web applications. Further validation in the next months will allow us to use the R implementation for regulatory purposes, with greater flexibility and efficiency than before."
 }
 </script>
 
@@ -420,7 +420,7 @@
 
 
 
-  <title>Interactive medical oversight reporting in R | R/Pharma</title>
+  <title>Implementing Mixed Models with Repeated Measures (MMRM) in R and Shiny for Regulatory Purposes | R/Pharma</title>
 </head>
 
 
@@ -688,6 +688,8 @@
       
         
       
+        
+      
 
       
       
@@ -741,7 +743,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Interactive medical oversight reporting in R</h1>
+  <h1>Implementing Mixed Models with Repeated Measures (MMRM) in R and Shiny for Regulatory Purposes</h1>
 
   
 
@@ -759,9 +761,7 @@
     
 
   <span >
-      <a href="/author/laure-cougnaud/">Laure Cougnaud</a></span>, <span >
-      <a href="/author/michela-pasetto/">Michela Pasetto</a></span>, <span >
-      <a href="/author/arne-de-roeck/">Arne de Roeck</a></span>
+      <a href="/author/daniel-sabanes-bove/">Daniel Sabanés Bové</a></span>
   </div>
   
   
@@ -826,7 +826,7 @@
   
     
   
-<a class="btn btn-outline-primary btn-page-header" href="https://medical-monitoring.openanalytics.io/slides/#1" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://github.com/rinpharma/2020_presentations/tree/master/talks_folder/2020-Sabanes_Bove-Implementing_MMRM_in_R.pdf" target="_blank" rel="noopener">
   Slides
 </a>
 
@@ -836,7 +836,7 @@
   
     
   
-<a class="btn btn-outline-primary btn-page-header" href="https://youtu.be/Aeu1_xCUVPQ" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://youtu.be/moEksA8gHoY" target="_blank" rel="noopener">
   Video
 </a>
 
@@ -856,7 +856,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Medical oversight during a clinical trial is an extensive and time-consuming process. To safeguard patient safety, medical monitors need to review and explore raw safety data interactively, using standard visualizations as well as specific analyses tailored to the disease and the clinical study. The creation of semi-automated reports in R could facilitate this operation. The reports include interactive visualizations (with the plotly package) and interactive descriptive statistics tables and listings (with the DT package) for safety review of the patients. Template reports (based on Rmarkdown) incorporating standard analyses are integrated within an R package. The reports are set up via YAML configuration files to allow non-R users to customize the report for his/her specific study. Such report is created from datasets in CDISC standard SDTM or ADaM format, and delivered in the form of linked self-contained html pages. The creation of the report documentation (in the R package) and the validation of the input parameters in the config files is automated and provided with the JSON schema format. The medical oversight tool is integrated with functionalities to generate patient profiles, CSR-ready in-text tables, and enables comparison of results between multiple interim data batches delivered in the course of the clinical trial. The tool will be demonstrated on a publicly available dataset.</p>
+    <p class="pub-abstract">MMRMs are often used as the primary analysis of continuous endpoints in longitudinal clinical trials (see e.g. Mallinckrod et al, 2008). Essentially, an MMRM is a specific linear mixed effects model that includes (at least) an interaction of treatment arm and categorical visit variables as fixed effects. The covariance structure of the residuals can have different forms, and often an unstructured (i.e. saturated parametrization) covariance matrix is preferred. This structure can be represented by random effects in the mixed model. All of this has typically been implemented in proprietary software, such as SAS, as its PROC MIXED routine is generally seen as a gold standard for mixed models. However, this does not allow the use of interactive web applications to explore the clinical study data in a flexible way. Furthermore, fitting such proprietary software into workflows such as automatic document generation is not convenient. Therefore, we wanted to implement MMRM in R. Several challenges had to be solved, such as finding the right R-packages for this purpose. We finally settled on  lme4  in combination with  lmerTest , which could match results in SAS up to numerical precision. Convergence of estimates can be an issue and multiple optimization algorithms are therefore tried in parallel to enhance robustness. Extracting the covariance matrix estimate from  lme4  results was solved as well as finding model fit statistics that match SAS results. We use our own  rtables  to produce tables and  ggplot2  for plots. We developed a Shiny module in our internal framework for exploratory web applications. Further validation in the next months will allow us to use the R implementation for regulatory purposes, with greater flexibility and efficiency than before.</p>
     
 
     
@@ -903,9 +903,7 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/openanalytics/">OpenAnalytics</a>
-  
-  <a class="badge badge-light" href="/tag/galapagos/">Galapagos</a>
+  <a class="badge badge-light" href="/tag/roche-/-genentech/">Roche / Genentech</a>
   
 </div>
 
@@ -922,7 +920,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_142/&amp;text=Interactive%20medical%20oversight%20reporting%20in%20R" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_142/&amp;text=Implementing%20Mixed%20Models%20with%20Repeated%20Measures%20%28MMRM%29%20in%20R%20and%20Shiny%20for%20Regulatory%20Purposes" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -935,7 +933,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_142/&amp;t=Interactive%20medical%20oversight%20reporting%20in%20R" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_142/&amp;t=Implementing%20Mixed%20Models%20with%20Repeated%20Measures%20%28MMRM%29%20in%20R%20and%20Shiny%20for%20Regulatory%20Purposes" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -948,7 +946,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Interactive%20medical%20oversight%20reporting%20in%20R&amp;body=/publication/rinpharma_142/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Implementing%20Mixed%20Models%20with%20Repeated%20Measures%20%28MMRM%29%20in%20R%20and%20Shiny%20for%20Regulatory%20Purposes&amp;body=/publication/rinpharma_142/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -961,7 +959,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_142/&amp;title=Interactive%20medical%20oversight%20reporting%20in%20R" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_142/&amp;title=Implementing%20Mixed%20Models%20with%20Repeated%20Measures%20%28MMRM%29%20in%20R%20and%20Shiny%20for%20Regulatory%20Purposes" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -974,7 +972,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Interactive%20medical%20oversight%20reporting%20in%20R%20/publication/rinpharma_142/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Implementing%20Mixed%20Models%20with%20Repeated%20Measures%20%28MMRM%29%20in%20R%20and%20Shiny%20for%20Regulatory%20Purposes%20/publication/rinpharma_142/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -987,7 +985,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_142/&amp;title=Interactive%20medical%20oversight%20reporting%20in%20R" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_142/&amp;title=Implementing%20Mixed%20Models%20with%20Repeated%20Measures%20%28MMRM%29%20in%20R%20and%20Shiny%20for%20Regulatory%20Purposes" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1014,18 +1012,6 @@
 
 
   
-    
-
-
-
-
-  
-    
-
-
-
-
-  
 
 
 
@@ -1041,6 +1027,23 @@
 
 
   
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/publication/rinpharma_48/">Accelerate Personalized Health Care by Empowering Biomarker Data</a></li>
+      
+      <li><a href="/publication/rinpharma_2/">Analyzing Clinical Trials Data with R</a></li>
+      
+      <li><a href="/publication/rinpharma_37/">Analyzing Clinical Trials Data with R</a></li>
+      
+      <li><a href="/publication/rinpharma_27/">Beyond Simple Reproducibility - Discoverability, Provenance, and Improving the Impact of Results</a></li>
+      
+      <li><a href="/publication/rinpharma_177/">Building and Managing Unified R Environments for Data Science and Software Development</a></li>
+      
+    </ul>
+  </div>
   
 
 

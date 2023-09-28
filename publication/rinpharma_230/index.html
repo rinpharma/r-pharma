@@ -33,7 +33,7 @@
   
     
   
-  <meta name="description" content="(The) Operation (formally known as) Warp Speed is a joint venture between pharma and government to bring COVID-19 vaccines to market at unprecedented speed. A key tenet of the program is to generate the data needed to establish correlates of vaccine protection -- immune responses that predict the level of protective efficacy of the vaccines. Our team was tasked with designing an analysis plan and the code needed to analyze the data and produce results that answered these key questions. However, lacking full FDA approval of their products, some vaccine manufacturers were highly protective of their data. Thus, our team was faced with the challenge of building an analysis pipeline capable of analyzing data that we have never seen, on servers that we do not have access to, all under the extreme time pressure associated with COVID vaccine development. In this talk, I will describe the R-based set of tools that we used to achieve this goal and some lessons learned along the way." />
+  <meta name="description" content="Motivated by the rapid rise in clinical data exploration, there is an increasing need to utilize interactive graphical displays using Shiny apps. To date, the development and deployment of study apps have required specialized knowledge and considerable effort. However, the similarity across domains and endpoints in clinical studies motivated us to build a comprehensive framework that scales shiny app creation across the portfolio. The Datapipeline harmonized framework democratizes the shiny app creation. It enables non-technical associates to create and deploy professional shiny applications quickly. It also empowers shiny developers to build reusable shiny modules that may be easily shared in a plug-and-play manner, ultimately accelerating future application development." />
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/rinpharma_230/" />
@@ -322,8 +322,8 @@
   
   <meta property="og:site_name" content="R/Pharma" />
   <meta property="og:url" content="/publication/rinpharma_230/" />
-  <meta property="og:title" content="R at Warp Speed: Reproducible coding for COVID vaccine trials | R/Pharma" />
-  <meta property="og:description" content="(The) Operation (formally known as) Warp Speed is a joint venture between pharma and government to bring COVID-19 vaccines to market at unprecedented speed. A key tenet of the program is to generate the data needed to establish correlates of vaccine protection -- immune responses that predict the level of protective efficacy of the vaccines. Our team was tasked with designing an analysis plan and the code needed to analyze the data and produce results that answered these key questions. However, lacking full FDA approval of their products, some vaccine manufacturers were highly protective of their data. Thus, our team was faced with the challenge of building an analysis pipeline capable of analyzing data that we have never seen, on servers that we do not have access to, all under the extreme time pressure associated with COVID vaccine development. In this talk, I will describe the R-based set of tools that we used to achieve this goal and some lessons learned along the way." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
+  <meta property="og:title" content="Democratizing Shiny App Development: The Novartis DataPipeline Harmonized Framework | R/Pharma" />
+  <meta property="og:description" content="Motivated by the rapid rise in clinical data exploration, there is an increasing need to utilize interactive graphical displays using Shiny apps. To date, the development and deployment of study apps have required specialized knowledge and considerable effort. However, the similarity across domains and endpoints in clinical studies motivated us to build a comprehensive framework that scales shiny app creation across the portfolio. The Datapipeline harmonized framework democratizes the shiny app creation. It enables non-technical associates to create and deploy professional shiny applications quickly. It also empowers shiny developers to build reusable shiny modules that may be easily shared in a plug-and-play manner, ultimately accelerating future application development." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
     <meta property="twitter:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -356,14 +356,14 @@
     "@type": "WebPage",
     "@id": "/publication/rinpharma_230/"
   },
-  "headline": "R at Warp Speed: Reproducible coding for COVID vaccine trials",
+  "headline": "Democratizing Shiny App Development: The Novartis DataPipeline Harmonized Framework",
   
   "datePublished": "1999-01-01T00:00:00Z",
   "dateModified": "2021-11-03T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "David Benkeser"
+    "name": "Ardalan Mishani"
   },
   
   "publisher": {
@@ -374,7 +374,7 @@
       "url": "/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_192x192_fit_lanczos_2.png"
     }
   },
-  "description": "(The) Operation (formally known as) Warp Speed is a joint venture between pharma and government to bring COVID-19 vaccines to market at unprecedented speed. A key tenet of the program is to generate the data needed to establish correlates of vaccine protection -- immune responses that predict the level of protective efficacy of the vaccines. Our team was tasked with designing an analysis plan and the code needed to analyze the data and produce results that answered these key questions. However, lacking full FDA approval of their products, some vaccine manufacturers were highly protective of their data. Thus, our team was faced with the challenge of building an analysis pipeline capable of analyzing data that we have never seen, on servers that we do not have access to, all under the extreme time pressure associated with COVID vaccine development. In this talk, I will describe the R-based set of tools that we used to achieve this goal and some lessons learned along the way."
+  "description": "Motivated by the rapid rise in clinical data exploration, there is an increasing need to utilize interactive graphical displays using Shiny apps. To date, the development and deployment of study apps have required specialized knowledge and considerable effort. However, the similarity across domains and endpoints in clinical studies motivated us to build a comprehensive framework that scales shiny app creation across the portfolio. The Datapipeline harmonized framework democratizes the shiny app creation. It enables non-technical associates to create and deploy professional shiny applications quickly. It also empowers shiny developers to build reusable shiny modules that may be easily shared in a plug-and-play manner, ultimately accelerating future application development."
 }
 </script>
 
@@ -420,7 +420,7 @@
 
 
 
-  <title>R at Warp Speed: Reproducible coding for COVID vaccine trials | R/Pharma</title>
+  <title>Democratizing Shiny App Development: The Novartis DataPipeline Harmonized Framework | R/Pharma</title>
 </head>
 
 
@@ -688,6 +688,8 @@
       
         
       
+        
+      
 
       
       
@@ -741,7 +743,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>R at Warp Speed: Reproducible coding for COVID vaccine trials</h1>
+  <h1>Democratizing Shiny App Development: The Novartis DataPipeline Harmonized Framework</h1>
 
   
 
@@ -759,7 +761,7 @@
     
 
   <span >
-      <a href="/author/david-benkeser/">David Benkeser</a></span>
+      <a href="/author/ardalan-mishani/">Ardalan Mishani</a></span>
   </div>
   
   
@@ -820,21 +822,13 @@
 
 
 
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header" href="https://benkeser.github.io/rpharma2021/#1" target="_blank" rel="noopener">
-  Slides
-</a>
-
 
 
   
   
     
   
-<a class="btn btn-outline-primary btn-page-header" href="https://youtu.be/-SEVV3Dvkec" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://youtu.be/MWFv1hsEcws" target="_blank" rel="noopener">
   Video
 </a>
 
@@ -854,7 +848,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">(The) Operation (formally known as) Warp Speed is a joint venture between pharma and government to bring COVID-19 vaccines to market at unprecedented speed. A key tenet of the program is to generate the data needed to establish correlates of vaccine protection &ndash; immune responses that predict the level of protective efficacy of the vaccines. Our team was tasked with designing an analysis plan and the code needed to analyze the data and produce results that answered these key questions. However, lacking full FDA approval of their products, some vaccine manufacturers were highly protective of their data. Thus, our team was faced with the challenge of building an analysis pipeline capable of analyzing data that we have never seen, on servers that we do not have access to, all under the extreme time pressure associated with COVID vaccine development. In this talk, I will describe the R-based set of tools that we used to achieve this goal and some lessons learned along the way.</p>
+    <p class="pub-abstract">Motivated by the rapid rise in clinical data exploration, there is an increasing need to utilize interactive graphical displays using Shiny apps. To date, the development and deployment of study apps have required specialized knowledge and considerable effort. However, the similarity across domains and endpoints in clinical studies motivated us to build a comprehensive framework that scales shiny app creation across the portfolio. The Datapipeline harmonized framework democratizes the shiny app creation. It enables non-technical associates to create and deploy professional shiny applications quickly. It also empowers shiny developers to build reusable shiny modules that may be easily shared in a plug-and-play manner, ultimately accelerating future application development.</p>
     
 
     
@@ -901,7 +895,7 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/emory-university/">Emory University</a>
+  <a class="badge badge-light" href="/tag/novartis/">Novartis</a>
   
 </div>
 
@@ -918,7 +912,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_230/&amp;text=R%20at%20Warp%20Speed:%20Reproducible%20coding%20for%20COVID%20vaccine%20trials" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_230/&amp;text=Democratizing%20Shiny%20App%20Development:%20The%20Novartis%20DataPipeline%20Harmonized%20Framework" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -931,7 +925,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_230/&amp;t=R%20at%20Warp%20Speed:%20Reproducible%20coding%20for%20COVID%20vaccine%20trials" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_230/&amp;t=Democratizing%20Shiny%20App%20Development:%20The%20Novartis%20DataPipeline%20Harmonized%20Framework" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -944,7 +938,7 @@
       
       
       <li>
-        <a href="mailto:?subject=R%20at%20Warp%20Speed:%20Reproducible%20coding%20for%20COVID%20vaccine%20trials&amp;body=/publication/rinpharma_230/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Democratizing%20Shiny%20App%20Development:%20The%20Novartis%20DataPipeline%20Harmonized%20Framework&amp;body=/publication/rinpharma_230/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -957,7 +951,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_230/&amp;title=R%20at%20Warp%20Speed:%20Reproducible%20coding%20for%20COVID%20vaccine%20trials" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_230/&amp;title=Democratizing%20Shiny%20App%20Development:%20The%20Novartis%20DataPipeline%20Harmonized%20Framework" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -970,7 +964,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=R%20at%20Warp%20Speed:%20Reproducible%20coding%20for%20COVID%20vaccine%20trials%20/publication/rinpharma_230/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Democratizing%20Shiny%20App%20Development:%20The%20Novartis%20DataPipeline%20Harmonized%20Framework%20/publication/rinpharma_230/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -983,7 +977,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_230/&amp;title=R%20at%20Warp%20Speed:%20Reproducible%20coding%20for%20COVID%20vaccine%20trials" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_230/&amp;title=Democratizing%20Shiny%20App%20Development:%20The%20Novartis%20DataPipeline%20Harmonized%20Framework" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1025,6 +1019,23 @@
 
 
   
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/publication/rinpharma_93/">An R package for Data Science and Deep Visualization of a complex clinical database</a></li>
+      
+      <li><a href="/publication/rinpharma_269/">Building Shiny Frameworks: Some Lessons</a></li>
+      
+      <li><a href="/publication/rinpharma_76/">Exploratory Graphics (xGx): Promoting the purposeful exploration of PKPD data</a></li>
+      
+      <li><a href="/publication/rinpharma_236/">Outstanding User Interfaces with Shiny</a></li>
+      
+      <li><a href="/publication/rinpharma_113/">Shiny apps for accelerating early drug discovery research</a></li>
+      
+    </ul>
+  </div>
   
 
 

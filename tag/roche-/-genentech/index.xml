@@ -14,30 +14,38 @@
     
     <item>
       <title>Building and Managing Unified R Environments for Data Science and Software Development</title>
-      <link>/publication/rinpharma_178/</link>
+      <link>/publication/rinpharma_177/</link>
       <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_178/</guid>
+      <guid>/publication/rinpharma_177/</guid>
       <description></description>
     </item>
     
     <item>
       <title>visR - a package for effective visualization in Pharma</title>
-      <link>/publication/rinpharma_158/</link>
+      <link>/publication/rinpharma_157/</link>
       <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_158/</guid>
+      <guid>/publication/rinpharma_157/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Implementing Mixed Models with Repeated Measures (MMRM) in R and Shiny for Regulatory Purposes</title>
-      <link>/publication/rinpharma_143/</link>
+      <link>/publication/rinpharma_142/</link>
       <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_143/</guid>
+      <guid>/publication/rinpharma_142/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Collaborating at scale: managing an enterprise analytical computing ecosystem</title>
+      <link>/publication/rinpharma_84/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_84/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Embrace R in Pharma - building internal R community and establishing fit-for-purpose R pilots</title>
       <link>/publication/rinpharma_85/</link>
       <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
       <guid>/publication/rinpharma_85/</guid>
@@ -45,31 +53,7 @@
     </item>
     
     <item>
-      <title>Embrace R in Pharma - building internal R community and establishing fit-for-purpose R pilots</title>
-      <link>/publication/rinpharma_86/</link>
-      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_86/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>R Packages for Analyzing Clinical Trials Data with R Focusing on Safety And Early Efficacy</title>
-      <link>/publication/rinpharma_82/</link>
-      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_82/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Re-envisioning Clinical Content Delivery in the Open Source World</title>
-      <link>/publication/rinpharma_87/</link>
-      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_87/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Updates on Analyzing Clinical Trials Data with R</title>
       <link>/publication/rinpharma_81/</link>
       <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
       <guid>/publication/rinpharma_81/</guid>
@@ -77,59 +61,75 @@
     </item>
     
     <item>
+      <title>Re-envisioning Clinical Content Delivery in the Open Source World</title>
+      <link>/publication/rinpharma_86/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_86/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Updates on Analyzing Clinical Trials Data with R</title>
+      <link>/publication/rinpharma_80/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_80/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Accelerate Personalized Health Care by Empowering Biomarker Data</title>
-      <link>/publication/rinpharma_49/</link>
+      <link>/publication/rinpharma_48/</link>
       <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_49/</guid>
+      <guid>/publication/rinpharma_48/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Analyzing Clinical Trials Data with R</title>
-      <link>/publication/rinpharma_38/</link>
+      <link>/publication/rinpharma_37/</link>
       <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_38/</guid>
+      <guid>/publication/rinpharma_37/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Enabling open-source analytics in the enterprise</title>
-      <link>/publication/rinpharma_47/</link>
+      <link>/publication/rinpharma_46/</link>
       <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_47/</guid>
+      <guid>/publication/rinpharma_46/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R4SPA: R Packages and Training to enable Statistical Programming in R</title>
-      <link>/publication/rinpharma_42/</link>
+      <link>/publication/rinpharma_41/</link>
       <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_42/</guid>
+      <guid>/publication/rinpharma_41/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The largest Shiny application in the world. Roche.Diagnostics.bioWARP</title>
-      <link>/publication/rinpharma_31/</link>
+      <link>/publication/rinpharma_30/</link>
       <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_31/</guid>
+      <guid>/publication/rinpharma_30/</guid>
       <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>The Magic R-Shiny App that can Boost your SDTM Usability and Viability while Saving Time</title>
-      <link>/publication/rinpharma_56/</link>
+      <link>/publication/rinpharma_55/</link>
       <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_56/</guid>
+      <guid>/publication/rinpharma_55/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The role of R in converting clinical trial programmers to data scientists</title>
-      <link>/publication/rinpharma_48/</link>
+      <link>/publication/rinpharma_47/</link>
       <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_48/</guid>
+      <guid>/publication/rinpharma_47/</guid>
       <description></description>
     </item>
     
@@ -144,9 +144,9 @@
     
     <item>
       <title>Beyond Simple Reproducibility - Discoverability, Provenance, and Improving the Impact of Results</title>
-      <link>/publication/rinpharma_28/</link>
+      <link>/publication/rinpharma_27/</link>
       <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_28/</guid>
+      <guid>/publication/rinpharma_27/</guid>
       <description></description>
     </item>
     
@@ -160,9 +160,9 @@
     
     <item>
       <title>REAP - R-Shiny Exploratory Analysis Platform in Clinical Pharmacology</title>
-      <link>/publication/rinpharma_26/</link>
+      <link>/publication/rinpharma_25/</link>
       <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_26/</guid>
+      <guid>/publication/rinpharma_25/</guid>
       <description></description>
     </item>
     

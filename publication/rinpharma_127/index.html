@@ -33,7 +33,7 @@
   
     
   
-  <meta name="description" content="We will be presenting an overview of the interoperability between Python and R for the R user community at R/Pharma 2020. This workshop will highlight how statistical programmers can leverage the power of both R and Python in their daily processes. Participants will get hands on experience working with some of the best aspects of both R and Python, and how these two languages can work together within R Markdown." />
+  <meta name="description" content="In this workshop we will present how to perform analysis of RNA sequencing data following the tidy data paradigm. The tidy data paradigm provides a standard way to organise data values within a dataset, where each variable is a column, each observation is a row, and data is manipulated using an easy-to-understand vocabulary. Most importantly, the data structure remains consistent across manipulation and analysis functions. We can achieve this for bulk RNA sequencing data with the tidybulk, tidyHeatmap and tidyverse packages. We will also touch on packages for tidy single-cell transcriptional analyses. These packages are part of the tidytranscriptomics suite that introduces a tidy approach to RNA sequencing data. Recommended pre-requisites- Basic knowledge of RStudio- Some familiarity with tidyverse syntax- Background Reading Introduction to R for Biologists" />
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/rinpharma_127/" />
@@ -322,8 +322,8 @@
   
   <meta property="og:site_name" content="R/Pharma" />
   <meta property="og:url" content="/publication/rinpharma_127/" />
-  <meta property="og:title" content="Multilingual Markdown with R and Python Using Reticulate | R/Pharma" />
-  <meta property="og:description" content="We will be presenting an overview of the interoperability between Python and R for the R user community at R/Pharma 2020. This workshop will highlight how statistical programmers can leverage the power of both R and Python in their daily processes. Participants will get hands on experience working with some of the best aspects of both R and Python, and how these two languages can work together within R Markdown." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
+  <meta property="og:title" content="Tidy Transcriptomics | R/Pharma" />
+  <meta property="og:description" content="In this workshop we will present how to perform analysis of RNA sequencing data following the tidy data paradigm. The tidy data paradigm provides a standard way to organise data values within a dataset, where each variable is a column, each observation is a row, and data is manipulated using an easy-to-understand vocabulary. Most importantly, the data structure remains consistent across manipulation and analysis functions. We can achieve this for bulk RNA sequencing data with the tidybulk, tidyHeatmap and tidyverse packages. We will also touch on packages for tidy single-cell transcriptional analyses. These packages are part of the tidytranscriptomics suite that introduces a tidy approach to RNA sequencing data. Recommended pre-requisites- Basic knowledge of RStudio- Some familiarity with tidyverse syntax- Background Reading Introduction to R for Biologists" /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
     <meta property="twitter:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -332,7 +332,7 @@
         content="1999-01-01T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2020-10-05T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2020-10-06T00:00:00&#43;00:00">
   
 
   
@@ -356,14 +356,14 @@
     "@type": "WebPage",
     "@id": "/publication/rinpharma_127/"
   },
-  "headline": "Multilingual Markdown with R and Python Using Reticulate",
+  "headline": "Tidy Transcriptomics",
   
   "datePublished": "1999-01-01T00:00:00Z",
-  "dateModified": "2020-10-05T00:00:00Z",
+  "dateModified": "2020-10-06T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Mike Stackhouse"
+    "name": "Stefano Mangiola"
   },
   
   "publisher": {
@@ -374,7 +374,7 @@
       "url": "/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_192x192_fit_lanczos_2.png"
     }
   },
-  "description": "We will be presenting an overview of the interoperability between Python and R for the R user community at R/Pharma 2020. This workshop will highlight how statistical programmers can leverage the power of both R and Python in their daily processes. Participants will get hands on experience working with some of the best aspects of both R and Python, and how these two languages can work together within R Markdown."
+  "description": "In this workshop we will present how to perform analysis of RNA sequencing data following the tidy data paradigm. The tidy data paradigm provides a standard way to organise data values within a dataset, where each variable is a column, each observation is a row, and data is manipulated using an easy-to-understand vocabulary. Most importantly, the data structure remains consistent across manipulation and analysis functions. We can achieve this for bulk RNA sequencing data with the tidybulk, tidyHeatmap and tidyverse packages. We will also touch on packages for tidy single-cell transcriptional analyses. These packages are part of the tidytranscriptomics suite that introduces a tidy approach to RNA sequencing data. Recommended pre-requisites- Basic knowledge of RStudio- Some familiarity with tidyverse syntax- Background Reading Introduction to R for Biologists"
 }
 </script>
 
@@ -420,7 +420,7 @@
 
 
 
-  <title>Multilingual Markdown with R and Python Using Reticulate | R/Pharma</title>
+  <title>Tidy Transcriptomics | R/Pharma</title>
 </head>
 
 
@@ -688,6 +688,8 @@
       
         
       
+        
+      
 
       
       
@@ -741,7 +743,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Multilingual Markdown with R and Python Using Reticulate</h1>
+  <h1>Tidy Transcriptomics</h1>
 
   
 
@@ -759,8 +761,8 @@
     
 
   <span >
-      <a href="/author/mike-stackhouse/">Mike Stackhouse</a></span>, <span >
-      <a href="/author/nathan-kosiba/">Nathan Kosiba</a></span>
+      <a href="/author/stefano-mangiola/">Stefano Mangiola</a></span>, <span >
+      <a href="/author/maria-doyle/">Maria Doyle</a></span>
   </div>
   
   
@@ -825,7 +827,7 @@
   
     
   
-<a class="btn btn-outline-primary btn-page-header" href="https://github.com/atorus-research/MultilingualMarkdown" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://github.com/stemangiola/rpharma2020_tidytranscriptomics/" target="_blank" rel="noopener">
   Slides
 </a>
 
@@ -835,7 +837,7 @@
   
     
   
-<a class="btn btn-outline-primary btn-page-header" href="https://www.youtube.com/watch?v=fEoZynvUrkc" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://www.youtube.com/watch?v=6HNjZVBArmQ" target="_blank" rel="noopener">
   Video
 </a>
 
@@ -855,7 +857,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">We will be presenting an overview of the interoperability between Python and R for the R user community at R/Pharma 2020. This workshop will highlight how statistical programmers can leverage the power of both R and Python in their daily processes. Participants will get hands on experience working with some of the best aspects of both R and Python, and how these two languages can work together within R Markdown.</p>
+    <p class="pub-abstract">In this workshop we will present how to perform analysis of RNA sequencing data following the tidy data paradigm. The tidy data paradigm provides a standard way to organise data values within a dataset, where each variable is a column, each observation is a row, and data is manipulated using an easy-to-understand vocabulary. Most importantly, the data structure remains consistent across manipulation and analysis functions. We can achieve this for bulk RNA sequencing data with the tidybulk, tidyHeatmap and tidyverse packages. We will also touch on packages for tidy single-cell transcriptional analyses. These packages are part of the tidytranscriptomics suite that introduces a tidy approach to RNA sequencing data. Recommended pre-requisites- Basic knowledge of RStudio- Some familiarity with tidyverse syntax- Background Reading Introduction to R for Biologists</p>
     
 
     
@@ -902,7 +904,9 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/atorus/">Atorus</a>
+  <a class="badge badge-light" href="/tag/walter-and-eliza-hall-of-medical-research/">Walter and Eliza Hall of Medical Research</a>
+  
+  <a class="badge badge-light" href="/tag/peter-maccallum-cancer-center/">Peter MacCallum Cancer Center</a>
   
 </div>
 
@@ -919,7 +923,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_127/&amp;text=Multilingual%20Markdown%20with%20R%20and%20Python%20Using%20Reticulate" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_127/&amp;text=Tidy%20Transcriptomics" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -932,7 +936,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_127/&amp;t=Multilingual%20Markdown%20with%20R%20and%20Python%20Using%20Reticulate" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_127/&amp;t=Tidy%20Transcriptomics" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -945,7 +949,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Multilingual%20Markdown%20with%20R%20and%20Python%20Using%20Reticulate&amp;body=/publication/rinpharma_127/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Tidy%20Transcriptomics&amp;body=/publication/rinpharma_127/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -958,7 +962,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_127/&amp;title=Multilingual%20Markdown%20with%20R%20and%20Python%20Using%20Reticulate" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_127/&amp;title=Tidy%20Transcriptomics" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -971,7 +975,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Multilingual%20Markdown%20with%20R%20and%20Python%20Using%20Reticulate%20/publication/rinpharma_127/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Tidy%20Transcriptomics%20/publication/rinpharma_127/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -984,7 +988,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_127/&amp;title=Multilingual%20Markdown%20with%20R%20and%20Python%20Using%20Reticulate" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_127/&amp;title=Tidy%20Transcriptomics" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>

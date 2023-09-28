@@ -33,7 +33,7 @@
   
     
   
-  <meta name="description" content="Computationally-intensive workflows exist in the design, analysis, and simulation in all phases of clinical studies. The runtime of such workflows can be significantly longer than a Shiny app can practicably handle. In such situations, binding the execution of computational tasks with active browser sessions can be detrimental to the user experience, making both the tasks and the web application less reliable. We present a R based solution to accommodate long running workflows with asynchronous execution of background tasks. By utilizing functions from shiny, httr, plumber, and pins packages, one can construct scalable web applications capable of asynchronous processing that cover processing-block free task creation, execution, status query, and results retrieval. A Bayesian dose finding automation example will be used to illustrate how the proposed framework allows users to initiate long-running tasks remotely and review the results later without utilizing resources on their local devices." />
+  <meta name="description" content="Continuous integration (CI) and continuous delivery (CD) are playing a pivotal role in ensuring that R projects in Pharma meet the highest quality standards. Particular focus is placed on ensuring that packages are fit for purpose both on internal systems as well as meeting the various requirements for CRAN/BioConductor. In this talk, we will discuss best practices that were adopted into making developer-friendly and efficient CI/CD pipelines and the impact that these pipelines have had in the open source Pharma community and at Roche/Genentech. Three case studies of package and pipelines will be discussed - one on a beginner level and two on an advanced level. The first will be CI/CD workflows for the Admiral R package and presented from the perspective of a newcomer to CI/CD. The second and third use cases will be regarding the NEST framework and the RBMI R package, both of which will have more advanced discussions presented by experienced CI/CD developers." />
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/rinpharma_291/" />
@@ -322,8 +322,8 @@
   
   <meta property="og:site_name" content="R/Pharma" />
   <meta property="og:url" content="/publication/rinpharma_291/" />
-  <meta property="og:title" content="Asynchronous Processing of Long-Running Tasks in Shiny | R/Pharma" />
-  <meta property="og:description" content="Computationally-intensive workflows exist in the design, analysis, and simulation in all phases of clinical studies. The runtime of such workflows can be significantly longer than a Shiny app can practicably handle. In such situations, binding the execution of computational tasks with active browser sessions can be detrimental to the user experience, making both the tasks and the web application less reliable. We present a R based solution to accommodate long running workflows with asynchronous execution of background tasks. By utilizing functions from shiny, httr, plumber, and pins packages, one can construct scalable web applications capable of asynchronous processing that cover processing-block free task creation, execution, status query, and results retrieval. A Bayesian dose finding automation example will be used to illustrate how the proposed framework allows users to initiate long-running tasks remotely and review the results later without utilizing resources on their local devices." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
+  <meta property="og:title" content="How CI/CD Enhances the Development of R packages in the Pharmaverse | R/Pharma" />
+  <meta property="og:description" content="Continuous integration (CI) and continuous delivery (CD) are playing a pivotal role in ensuring that R projects in Pharma meet the highest quality standards. Particular focus is placed on ensuring that packages are fit for purpose both on internal systems as well as meeting the various requirements for CRAN/BioConductor. In this talk, we will discuss best practices that were adopted into making developer-friendly and efficient CI/CD pipelines and the impact that these pipelines have had in the open source Pharma community and at Roche/Genentech. Three case studies of package and pipelines will be discussed - one on a beginner level and two on an advanced level. The first will be CI/CD workflows for the Admiral R package and presented from the perspective of a newcomer to CI/CD. The second and third use cases will be regarding the NEST framework and the RBMI R package, both of which will have more advanced discussions presented by experienced CI/CD developers." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
     <meta property="twitter:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -356,14 +356,14 @@
     "@type": "WebPage",
     "@id": "/publication/rinpharma_291/"
   },
-  "headline": "Asynchronous Processing of Long-Running Tasks in Shiny",
+  "headline": "How CI/CD Enhances the Development of R packages in the Pharmaverse",
   
   "datePublished": "1999-01-01T00:00:00Z",
   "dateModified": "2022-11-10T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Nicole Jones"
+    "name": "Dinakar Kulkarni"
   },
   
   "publisher": {
@@ -374,7 +374,7 @@
       "url": "/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_192x192_fit_lanczos_2.png"
     }
   },
-  "description": "Computationally-intensive workflows exist in the design, analysis, and simulation in all phases of clinical studies. The runtime of such workflows can be significantly longer than a Shiny app can practicably handle. In such situations, binding the execution of computational tasks with active browser sessions can be detrimental to the user experience, making both the tasks and the web application less reliable. We present a R based solution to accommodate long running workflows with asynchronous execution of background tasks. By utilizing functions from shiny, httr, plumber, and pins packages, one can construct scalable web applications capable of asynchronous processing that cover processing-block free task creation, execution, status query, and results retrieval. A Bayesian dose finding automation example will be used to illustrate how the proposed framework allows users to initiate long-running tasks remotely and review the results later without utilizing resources on their local devices."
+  "description": "Continuous integration (CI) and continuous delivery (CD) are playing a pivotal role in ensuring that R projects in Pharma meet the highest quality standards. Particular focus is placed on ensuring that packages are fit for purpose both on internal systems as well as meeting the various requirements for CRAN/BioConductor. In this talk, we will discuss best practices that were adopted into making developer-friendly and efficient CI/CD pipelines and the impact that these pipelines have had in the open source Pharma community and at Roche/Genentech. Three case studies of package and pipelines will be discussed - one on a beginner level and two on an advanced level. The first will be CI/CD workflows for the Admiral R package and presented from the perspective of a newcomer to CI/CD. The second and third use cases will be regarding the NEST framework and the RBMI R package, both of which will have more advanced discussions presented by experienced CI/CD developers."
 }
 </script>
 
@@ -420,7 +420,7 @@
 
 
 
-  <title>Asynchronous Processing of Long-Running Tasks in Shiny | R/Pharma</title>
+  <title>How CI/CD Enhances the Development of R packages in the Pharmaverse | R/Pharma</title>
 </head>
 
 
@@ -688,6 +688,8 @@
       
         
       
+        
+      
 
       
       
@@ -741,7 +743,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Asynchronous Processing of Long-Running Tasks in Shiny</h1>
+  <h1>How CI/CD Enhances the Development of R packages in the Pharmaverse</h1>
 
   
 
@@ -759,7 +761,9 @@
     
 
   <span >
-      <a href="/author/nicole-jones/">Nicole Jones</a></span>
+      <a href="/author/dinakar-kulkarni/">Dinakar Kulkarni</a></span>, <span >
+      <a href="/author/ben-straub/">Ben Straub</a></span>, <span >
+      <a href="/author/craig-gower-page/">Craig-Gower-Page</a></span>
   </div>
   
   
@@ -805,7 +809,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Computationally-intensive workflows exist in the design, analysis, and simulation in all phases of clinical studies. The runtime of such workflows can be significantly longer than a Shiny app can practicably handle. In such situations, binding the execution of computational tasks with active browser sessions can be detrimental to the user experience, making both the tasks and the web application less reliable. We present a R based solution to accommodate long running workflows with asynchronous execution of background tasks. By utilizing functions from shiny, httr, plumber, and pins packages, one can construct scalable web applications capable of asynchronous processing that cover processing-block free task creation, execution, status query, and results retrieval. A Bayesian dose finding automation example will be used to illustrate how the proposed framework allows users to initiate long-running tasks remotely and review the results later without utilizing resources on their local devices.</p>
+    <p class="pub-abstract">Continuous integration (CI) and continuous delivery (CD) are playing a pivotal role in ensuring that R projects in Pharma meet the highest quality standards. Particular focus is placed on ensuring that packages are fit for purpose both on internal systems as well as meeting the various requirements for CRAN/BioConductor. In this talk, we will discuss best practices that were adopted into making developer-friendly and efficient CI/CD pipelines and the impact that these pipelines have had in the open source Pharma community and at Roche/Genentech. Three case studies of package and pipelines will be discussed - one on a beginner level and two on an advanced level. The first will be CI/CD workflows for the Admiral R package and presented from the perspective of a newcomer to CI/CD. The second and third use cases will be regarding the NEST framework and the RBMI R package, both of which will have more advanced discussions presented by experienced CI/CD developers.</p>
     
 
     
@@ -852,7 +856,11 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/merck/">Merck</a>
+  <a class="badge badge-light" href="/tag/genentech/">Genentech</a>
+  
+  <a class="badge badge-light" href="/tag/gsk/">GSK</a>
+  
+  <a class="badge badge-light" href="/tag/roche/">Roche</a>
   
 </div>
 
@@ -869,7 +877,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_291/&amp;text=Asynchronous%20Processing%20of%20Long-Running%20Tasks%20in%20Shiny" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_291/&amp;text=How%20CI/CD%20Enhances%20the%20Development%20of%20R%20packages%20in%20the%20Pharmaverse" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -882,7 +890,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_291/&amp;t=Asynchronous%20Processing%20of%20Long-Running%20Tasks%20in%20Shiny" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_291/&amp;t=How%20CI/CD%20Enhances%20the%20Development%20of%20R%20packages%20in%20the%20Pharmaverse" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -895,7 +903,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Asynchronous%20Processing%20of%20Long-Running%20Tasks%20in%20Shiny&amp;body=/publication/rinpharma_291/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=How%20CI/CD%20Enhances%20the%20Development%20of%20R%20packages%20in%20the%20Pharmaverse&amp;body=/publication/rinpharma_291/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -908,7 +916,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_291/&amp;title=Asynchronous%20Processing%20of%20Long-Running%20Tasks%20in%20Shiny" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_291/&amp;title=How%20CI/CD%20Enhances%20the%20Development%20of%20R%20packages%20in%20the%20Pharmaverse" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -921,7 +929,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Asynchronous%20Processing%20of%20Long-Running%20Tasks%20in%20Shiny%20/publication/rinpharma_291/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=How%20CI/CD%20Enhances%20the%20Development%20of%20R%20packages%20in%20the%20Pharmaverse%20/publication/rinpharma_291/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -934,7 +942,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_291/&amp;title=Asynchronous%20Processing%20of%20Long-Running%20Tasks%20in%20Shiny" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_291/&amp;title=How%20CI/CD%20Enhances%20the%20Development%20of%20R%20packages%20in%20the%20Pharmaverse" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -954,6 +962,18 @@
 
 
   
+  
+    
+
+
+
+
+  
+    
+
+
+
+
   
     
 
@@ -981,15 +1001,15 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/publication/rinpharma_206/">Interactive Forest Plot for DMC Safety Monitoring in Clinical Trials</a></li>
+      <li><a href="/publication/rinpharma_206/">Introducing {admiral}—The ADaM in R Asset Library</a></li>
       
-      <li><a href="/publication/rinpharma_106/">Its Not Whats on the Outside, but Its Whats on the Back-end That Matters: The World Beyond CSV Files</a></li>
+      <li><a href="/publication/rinpharma_222/">R Consortium Pharma Working Groups Overview and Updates</a></li>
       
-      <li><a href="/publication/rinpharma_19/">Managing R and Associated Tools in Large Environments - an R-Admin’s Perspective</a></li>
+      <li><a href="/publication/rinpharma_209/">5 testing packages to make your package better!</a></li>
       
-      <li><a href="/publication/rinpharma_103/">ModViz POP: R-Shiny Based PK/PD Interface for Empowering Teams to Perform Real-Time Simulations</a></li>
+      <li><a href="/publication/rinpharma_277/">Assuring SDTM data quality with the sdtmchecks package</a></li>
       
-      <li><a href="/publication/rinpharma_196/">R for Clinical Study Reports and Submission</a></li>
+      <li><a href="/publication/rinpharma_188/">Clinical Trials Data Analysis at Roche</a></li>
       
     </ul>
   </div>

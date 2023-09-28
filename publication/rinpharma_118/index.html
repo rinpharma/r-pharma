@@ -33,7 +33,7 @@
   
     
   
-  <meta name="description" content="In the early phases of clinical development, the future of a compound depends on more than just the result of hypothesis test on a single endpoint, in a single phase 2 study. We think a lot about how design choices affect immediate outcomes. GSK&#39;s Quantitative Decision Making (QDM) framework focusses on the question,&#34;How do we design our study in order to increase the chances that it will deliver data that will allow us to decide whether the drug should continue in development, or stop?&#34; The QDM Framework has been developed in R and takes advantage of the Biostatistics HPC environment, running thousands of hypothetical scenarios in close to real-time. The initiative is changing the way we plan and deliver clinical trials. Thanks to a Shiny front end, Statisticians are able to walk clinical teams through key trial design decisions in order to estimate the Probability of Success â€“ a key component in the QDM framework. This presentation will cover the core QDM concepts and present the key communication outputs created to support the process." />
+  <meta name="description" content="The data wrangling and manipulation capabilities in R make it perfectly suited for transforming raw clinical database data into structured, submission-ready CDISC datasets. By extensively using the dplyr, tidyr, and other packages in the tidyverse we create datasets that are ready for 1. pharmacokinetic analysis (done in other software), 2. generation of tables, listings, and figures (TLFs) and 3. submission to the FDA. I&#39;ll also go over report ready TLF generation in R and how we&#39;ve had great success in being able to produce beautiful and easy to read TLFs for our analysts and clients by using the ggplot2 and the officer packages." />
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/rinpharma_118/" />
@@ -322,8 +322,8 @@
   
   <meta property="og:site_name" content="R/Pharma" />
   <meta property="og:url" content="/publication/rinpharma_118/" />
-  <meta property="og:title" content="Making Better Decisions | R/Pharma" />
-  <meta property="og:description" content="In the early phases of clinical development, the future of a compound depends on more than just the result of hypothesis test on a single endpoint, in a single phase 2 study. We think a lot about how design choices affect immediate outcomes. GSK&#39;s Quantitative Decision Making (QDM) framework focusses on the question,&#34;How do we design our study in order to increase the chances that it will deliver data that will allow us to decide whether the drug should continue in development, or stop?&#34; The QDM Framework has been developed in R and takes advantage of the Biostatistics HPC environment, running thousands of hypothetical scenarios in close to real-time. The initiative is changing the way we plan and deliver clinical trials. Thanks to a Shiny front end, Statisticians are able to walk clinical teams through key trial design decisions in order to estimate the Probability of Success â€“ a key component in the QDM framework. This presentation will cover the core QDM concepts and present the key communication outputs created to support the process." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
+  <meta property="og:title" content="From CDISC to TLFs, using R to support Pharmacokinetic Analyses | R/Pharma" />
+  <meta property="og:description" content="The data wrangling and manipulation capabilities in R make it perfectly suited for transforming raw clinical database data into structured, submission-ready CDISC datasets. By extensively using the dplyr, tidyr, and other packages in the tidyverse we create datasets that are ready for 1. pharmacokinetic analysis (done in other software), 2. generation of tables, listings, and figures (TLFs) and 3. submission to the FDA. I&#39;ll also go over report ready TLF generation in R and how we&#39;ve had great success in being able to produce beautiful and easy to read TLFs for our analysts and clients by using the ggplot2 and the officer packages." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
     <meta property="twitter:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -356,14 +356,14 @@
     "@type": "WebPage",
     "@id": "/publication/rinpharma_118/"
   },
-  "headline": "Making Better Decisions",
+  "headline": "From CDISC to TLFs, using R to support Pharmacokinetic Analyses",
   
   "datePublished": "1999-01-01T00:00:00Z",
   "dateModified": "2019-08-22T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Andy Nicholls"
+    "name": "Jessica Higgins"
   },
   
   "publisher": {
@@ -374,7 +374,7 @@
       "url": "/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_192x192_fit_lanczos_2.png"
     }
   },
-  "description": "In the early phases of clinical development, the future of a compound depends on more than just the result of hypothesis test on a single endpoint, in a single phase 2 study. We think a lot about how design choices affect immediate outcomes. GSK's Quantitative Decision Making (QDM) framework focusses on the question,\"How do we design our study in order to increase the chances that it will deliver data that will allow us to decide whether the drug should continue in development, or stop?\" The QDM Framework has been developed in R and takes advantage of the Biostatistics HPC environment, running thousands of hypothetical scenarios in close to real-time. The initiative is changing the way we plan and deliver clinical trials. Thanks to a Shiny front end, Statisticians are able to walk clinical teams through key trial design decisions in order to estimate the Probability of Success â€“ a key component in the QDM framework. This presentation will cover the core QDM concepts and present the key communication outputs created to support the process."
+  "description": "The data wrangling and manipulation capabilities in R make it perfectly suited for transforming raw clinical database data into structured, submission-ready CDISC datasets. By extensively using the dplyr, tidyr, and other packages in the tidyverse we create datasets that are ready for 1. pharmacokinetic analysis (done in other software), 2. generation of tables, listings, and figures (TLFs) and 3. submission to the FDA. I'll also go over report ready TLF generation in R and how we've had great success in being able to produce beautiful and easy to read TLFs for our analysts and clients by using the ggplot2 and the officer packages."
 }
 </script>
 
@@ -420,7 +420,7 @@
 
 
 
-  <title>Making Better Decisions | R/Pharma</title>
+  <title>From CDISC to TLFs, using R to support Pharmacokinetic Analyses | R/Pharma</title>
 </head>
 
 
@@ -688,6 +688,8 @@
       
         
       
+        
+      
 
       
       
@@ -741,7 +743,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Making Better Decisions</h1>
+  <h1>From CDISC to TLFs, using R to support Pharmacokinetic Analyses</h1>
 
   
 
@@ -759,7 +761,7 @@
     
 
   <span >
-      <a href="/author/andy-nicholls/">Andy Nicholls</a></span>
+      <a href="/author/jessica-higgins/">Jessica Higgins</a></span>
   </div>
   
   
@@ -795,47 +797,6 @@
 
 
 
-<div class="btn-links mb-3">
-  
-  
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header" href="https://github.com/rinpharma/rinpharma2019program/tree/master/talks_folder/2019-Nicholls-Making_Better_Decisions.pdf" target="_blank" rel="noopener">
-  Slides
-</a>
-
-
-
-
-
-
-
-</div>
-
 
   
 </div>
@@ -846,7 +807,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">In the early phases of clinical development, the future of a compound depends on more than just the result of hypothesis test on a single endpoint, in a single phase 2 study. We think a lot about how design choices affect immediate outcomes. GSK&rsquo;s Quantitative Decision Making (QDM) framework focusses on the question,&ldquo;How do we design our study in order to increase the chances that it will deliver data that will allow us to decide whether the drug should continue in development, or stop?&rdquo; The QDM Framework has been developed in R and takes advantage of the Biostatistics HPC environment, running thousands of hypothetical scenarios in close to real-time. The initiative is changing the way we plan and deliver clinical trials. Thanks to a Shiny front end, Statisticians are able to walk clinical teams through key trial design decisions in order to estimate the Probability of Success â€“ a key component in the QDM framework. This presentation will cover the core QDM concepts and present the key communication outputs created to support the process.</p>
+    <p class="pub-abstract">The data wrangling and manipulation capabilities in R make it perfectly suited for transforming raw clinical database data into structured, submission-ready CDISC datasets. By extensively using the dplyr, tidyr, and other packages in the tidyverse we create datasets that are ready for 1. pharmacokinetic analysis (done in other software), 2. generation of tables, listings, and figures (TLFs) and 3. submission to the FDA. I&rsquo;ll also go over report ready TLF generation in R and how we&rsquo;ve had great success in being able to produce beautiful and easy to read TLFs for our analysts and clients by using the ggplot2 and the officer packages.</p>
     
 
     
@@ -893,7 +854,7 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/glaxosmithkline/">Glaxosmithkline</a>
+  <a class="badge badge-light" href="/tag/nuventra-pharma-sciences/">Nuventra Pharma Sciences</a>
   
 </div>
 
@@ -910,7 +871,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_118/&amp;text=Making%20Better%20Decisions" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_118/&amp;text=From%20CDISC%20to%20TLFs,%20using%20R%20to%20support%20Pharmacokinetic%20Analyses" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -923,7 +884,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_118/&amp;t=Making%20Better%20Decisions" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_118/&amp;t=From%20CDISC%20to%20TLFs,%20using%20R%20to%20support%20Pharmacokinetic%20Analyses" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -936,7 +897,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Making%20Better%20Decisions&amp;body=/publication/rinpharma_118/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=From%20CDISC%20to%20TLFs,%20using%20R%20to%20support%20Pharmacokinetic%20Analyses&amp;body=/publication/rinpharma_118/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -949,7 +910,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_118/&amp;title=Making%20Better%20Decisions" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_118/&amp;title=From%20CDISC%20to%20TLFs,%20using%20R%20to%20support%20Pharmacokinetic%20Analyses" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -962,7 +923,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Making%20Better%20Decisions%20/publication/rinpharma_118/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=From%20CDISC%20to%20TLFs,%20using%20R%20to%20support%20Pharmacokinetic%20Analyses%20/publication/rinpharma_118/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -975,7 +936,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_118/&amp;title=Making%20Better%20Decisions" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_118/&amp;title=From%20CDISC%20to%20TLFs,%20using%20R%20to%20support%20Pharmacokinetic%20Analyses" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1017,23 +978,6 @@
 
 
   
-  
-  <div class="article-widget content-widget-hr">
-    <h3>Related</h3>
-    <ul>
-      
-      <li><a href="/publication/rinpharma_162/">Clinical Reporting Using R at GSK</a></li>
-      
-      <li><a href="/publication/rinpharma_129/">Implementing a Risk-based Approach to R Validation</a></li>
-      
-      <li><a href="/publication/rinpharma_60/">R Validation Hub (past, current and future state)</a></li>
-      
-      <li><a href="/publication/rinpharma_58/">The Challenges of Validating R</a></li>
-      
-      <li><a href="/publication/rinpharma_30/">The Challenges of Validating R</a></li>
-      
-    </ul>
-  </div>
   
 
 

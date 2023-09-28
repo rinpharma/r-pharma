@@ -33,7 +33,7 @@
   
     
   
-  <meta name="description" content="In this short talk I will present few packages that can be used inside package testing framework that will help to increase overall quality of a package. The main point of focus would be static R code analysis tools such as well-known   codetools   or   lintr   and also less popular packages such as   prefixer  . For each of them, I am going to give a short introduction, present its configuration capabilities and how to use them within   testthat   framework." />
+  <meta name="description" content="Detailed exploration of large transcriptomics datasets, increasingly available at single-cell resolution, is a time-consuming task which often requires the complementary skill sets of data analysts and experimental scientists to complete analyses and interpretation in an efficient manner. The iSEE (Interactive SummarizedExperiment Explorer) R/Bioconductor software package (https//bioconductor.org/packages/iSEE/), built on the shiny R framework, provides a general-purpose graphical interface for exploring any rectangular dataset with additional sample and feature annotations, such as single-cell RNA-seq data. Users can create, configure, and interact with the iSEE interface, enabling quick iterations of data visualization. This facilitates generation of new scientific hypotheses and insights into biological phenomena, and empowers a wide range of researchers to explore their data in depth. iSEE also guarantees the reproducibility of the analysis, by reporting the code generating all the output elements as well as the layout and configuration of the user interface. The combination of interactivity and reproducibility makes iSEE an ideal candidate to bridge and complement the expertise of researchers, who are able to design flexible, accessible, and robust dashboards that can also be directly shared and deployed in collaborative contexts - connecting large data collections to broad audiences, thus further increasing the value of generated research data." />
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/rinpharma_210/" />
@@ -322,8 +322,8 @@
   
   <meta property="og:site_name" content="R/Pharma" />
   <meta property="og:url" content="/publication/rinpharma_210/" />
-  <meta property="og:title" content="5 testing packages to make your package better! | R/Pharma" />
-  <meta property="og:description" content="In this short talk I will present few packages that can be used inside package testing framework that will help to increase overall quality of a package. The main point of focus would be static R code analysis tools such as well-known   codetools   or   lintr   and also less popular packages such as   prefixer  . For each of them, I am going to give a short introduction, present its configuration capabilities and how to use them within   testthat   framework." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
+  <meta property="og:title" content="Interactive and collaborative exploration of large-scale transcriptomics data with iSEE | R/Pharma" />
+  <meta property="og:description" content="Detailed exploration of large transcriptomics datasets, increasingly available at single-cell resolution, is a time-consuming task which often requires the complementary skill sets of data analysts and experimental scientists to complete analyses and interpretation in an efficient manner. The iSEE (Interactive SummarizedExperiment Explorer) R/Bioconductor software package (https//bioconductor.org/packages/iSEE/), built on the shiny R framework, provides a general-purpose graphical interface for exploring any rectangular dataset with additional sample and feature annotations, such as single-cell RNA-seq data. Users can create, configure, and interact with the iSEE interface, enabling quick iterations of data visualization. This facilitates generation of new scientific hypotheses and insights into biological phenomena, and empowers a wide range of researchers to explore their data in depth. iSEE also guarantees the reproducibility of the analysis, by reporting the code generating all the output elements as well as the layout and configuration of the user interface. The combination of interactivity and reproducibility makes iSEE an ideal candidate to bridge and complement the expertise of researchers, who are able to design flexible, accessible, and robust dashboards that can also be directly shared and deployed in collaborative contexts - connecting large data collections to broad audiences, thus further increasing the value of generated research data." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
     <meta property="twitter:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -356,14 +356,14 @@
     "@type": "WebPage",
     "@id": "/publication/rinpharma_210/"
   },
-  "headline": "5 testing packages to make your package better!",
+  "headline": "Interactive and collaborative exploration of large-scale transcriptomics data with iSEE",
   
   "datePublished": "1999-01-01T00:00:00Z",
   "dateModified": "2021-11-02T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Pawel Rucki"
+    "name": "Charlotte Soneson"
   },
   
   "publisher": {
@@ -374,7 +374,7 @@
       "url": "/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_192x192_fit_lanczos_2.png"
     }
   },
-  "description": "In this short talk I will present few packages that can be used inside package testing framework that will help to increase overall quality of a package. The main point of focus would be static R code analysis tools such as well-known   codetools   or   lintr   and also less popular packages such as   prefixer  . For each of them, I am going to give a short introduction, present its configuration capabilities and how to use them within   testthat   framework."
+  "description": "Detailed exploration of large transcriptomics datasets, increasingly available at single-cell resolution, is a time-consuming task which often requires the complementary skill sets of data analysts and experimental scientists to complete analyses and interpretation in an efficient manner. The iSEE (Interactive SummarizedExperiment Explorer) R/Bioconductor software package (https//bioconductor.org/packages/iSEE/), built on the shiny R framework, provides a general-purpose graphical interface for exploring any rectangular dataset with additional sample and feature annotations, such as single-cell RNA-seq data. Users can create, configure, and interact with the iSEE interface, enabling quick iterations of data visualization. This facilitates generation of new scientific hypotheses and insights into biological phenomena, and empowers a wide range of researchers to explore their data in depth. iSEE also guarantees the reproducibility of the analysis, by reporting the code generating all the output elements as well as the layout and configuration of the user interface. The combination of interactivity and reproducibility makes iSEE an ideal candidate to bridge and complement the expertise of researchers, who are able to design flexible, accessible, and robust dashboards that can also be directly shared and deployed in collaborative contexts - connecting large data collections to broad audiences, thus further increasing the value of generated research data."
 }
 </script>
 
@@ -420,7 +420,7 @@
 
 
 
-  <title>5 testing packages to make your package better! | R/Pharma</title>
+  <title>Interactive and collaborative exploration of large-scale transcriptomics data with iSEE | R/Pharma</title>
 </head>
 
 
@@ -688,6 +688,8 @@
       
         
       
+        
+      
 
       
       
@@ -741,7 +743,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>5 testing packages to make your package better!</h1>
+  <h1>Interactive and collaborative exploration of large-scale transcriptomics data with iSEE</h1>
 
   
 
@@ -759,7 +761,10 @@
     
 
   <span >
-      <a href="/author/pawel-rucki/">Pawel Rucki</a></span>
+      <a href="/author/charlotte-soneson/">Charlotte Soneson</a></span>, <span >
+      <a href="/author/kevin-rue-albrecht/">Kevin Rue-Albrecht</a></span>, <span >
+      <a href="/author/federico-marini/">Federico Marini</a></span>, <span >
+      <a href="/author/aaron-lun/">Aaron Lun</a></span>
   </div>
   
   
@@ -824,7 +829,7 @@
   
     
   
-<a class="btn btn-outline-primary btn-page-header" href="https://github.com/rinpharma/2021_presentations/tree/master/talks_folder/2021-Rucki-5_Testing_Packages.pptx" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://github.com/rinpharma/2021_presentations/tree/master/talks_folder/2021-Soneson-Large_Scale_Transcriptomics.pdf" target="_blank" rel="noopener">
   Slides
 </a>
 
@@ -834,7 +839,7 @@
   
     
   
-<a class="btn btn-outline-primary btn-page-header" href="https://youtu.be/Oi79JiY1sA4" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://youtu.be/SZT94n5vnwA" target="_blank" rel="noopener">
   Video
 </a>
 
@@ -854,7 +859,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">In this short talk I will present few packages that can be used inside package testing framework that will help to increase overall quality of a package. The main point of focus would be static R code analysis tools such as well-known   codetools   or   lintr   and also less popular packages such as   prefixer  . For each of them, I am going to give a short introduction, present its configuration capabilities and how to use them within   testthat   framework.</p>
+    <p class="pub-abstract">Detailed exploration of large transcriptomics datasets, increasingly available at single-cell resolution, is a time-consuming task which often requires the complementary skill sets of data analysts and experimental scientists to complete analyses and interpretation in an efficient manner. The iSEE (Interactive SummarizedExperiment Explorer) R/Bioconductor software package (https//bioconductor.org/packages/iSEE/), built on the shiny R framework, provides a general-purpose graphical interface for exploring any rectangular dataset with additional sample and feature annotations, such as single-cell RNA-seq data. Users can create, configure, and interact with the iSEE interface, enabling quick iterations of data visualization. This facilitates generation of new scientific hypotheses and insights into biological phenomena, and empowers a wide range of researchers to explore their data in depth. iSEE also guarantees the reproducibility of the analysis, by reporting the code generating all the output elements as well as the layout and configuration of the user interface. The combination of interactivity and reproducibility makes iSEE an ideal candidate to bridge and complement the expertise of researchers, who are able to design flexible, accessible, and robust dashboards that can also be directly shared and deployed in collaborative contexts - connecting large data collections to broad audiences, thus further increasing the value of generated research data.</p>
     
 
     
@@ -901,7 +906,7 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/roche/">Roche</a>
+  <a class="badge badge-light" href="/tag/friedrich-miescher-institute/">Friedrich Miescher Institute</a>
   
 </div>
 
@@ -918,7 +923,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_210/&amp;text=5%20testing%20packages%20to%20make%20your%20package%20better!" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_210/&amp;text=Interactive%20and%20collaborative%20exploration%20of%20large-scale%20transcriptomics%20data%20with%20iSEE" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -931,7 +936,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_210/&amp;t=5%20testing%20packages%20to%20make%20your%20package%20better!" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_210/&amp;t=Interactive%20and%20collaborative%20exploration%20of%20large-scale%20transcriptomics%20data%20with%20iSEE" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -944,7 +949,7 @@
       
       
       <li>
-        <a href="mailto:?subject=5%20testing%20packages%20to%20make%20your%20package%20better!&amp;body=/publication/rinpharma_210/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Interactive%20and%20collaborative%20exploration%20of%20large-scale%20transcriptomics%20data%20with%20iSEE&amp;body=/publication/rinpharma_210/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -957,7 +962,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_210/&amp;title=5%20testing%20packages%20to%20make%20your%20package%20better!" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_210/&amp;title=Interactive%20and%20collaborative%20exploration%20of%20large-scale%20transcriptomics%20data%20with%20iSEE" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -970,7 +975,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=5%20testing%20packages%20to%20make%20your%20package%20better!%20/publication/rinpharma_210/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Interactive%20and%20collaborative%20exploration%20of%20large-scale%20transcriptomics%20data%20with%20iSEE%20/publication/rinpharma_210/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -983,7 +988,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_210/&amp;title=5%20testing%20packages%20to%20make%20your%20package%20better!" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_210/&amp;title=Interactive%20and%20collaborative%20exploration%20of%20large-scale%20transcriptomics%20data%20with%20iSEE" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1010,6 +1015,24 @@
 
 
   
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
 
 
 
@@ -1025,23 +1048,6 @@
 
 
   
-  
-  <div class="article-widget content-widget-hr">
-    <h3>Related</h3>
-    <ul>
-      
-      <li><a href="/publication/rinpharma_189/">Clinical Trials Data Analysis at Roche</a></li>
-      
-      <li><a href="/publication/rinpharma_296/">Data Science in the Pharmaceutical Industry: A Coursera Specialisation</a></li>
-      
-      <li><a href="/publication/rinpharma_292/">How CI/CD Enhances the Development of R packages in the Pharmaverse</a></li>
-      
-      <li><a href="/publication/rinpharma_207/">Introducing {admiral}—The ADaM in R Asset Library</a></li>
-      
-      <li><a href="/publication/rinpharma_266/">Pharmaverse: Breaking boundaries through open source collaboration!</a></li>
-      
-    </ul>
-  </div>
   
 
 

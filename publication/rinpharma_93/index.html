@@ -33,7 +33,7 @@
   
     
   
-  <meta name="description" content="Machine learning workflows can be difficult to manage. A single round of computation can take several hours to complete, and routine updates to the code and data tend to invalidate hard-earned results. You can enhance the maintainability, hygiene, speed, scale, and reproducibility of such projects with the drake R package. drake resolves the dependency structure of your analysis pipeline, skips tasks that are already up to date, executes the rest with optional distributed computing, and organizes the output so you rarely have to think about data files. This talk demonstrates a deep learning project with drake-powered automation." />
+  <meta name="description" content="We define and illustrate a &#34;deep visualization&#34; paradigm for the analysis of a relatively large and complex clinical database for psoriasis (PSO) and psoriatic arthritis (PsA). This paradigm supports a growing number of machine learning and exploratory analyses, and it provides a framework for Shiny applications and dashboards used to communicate results with internal and external clinicians. Our R platform implements a &#34;whole-patient&#34; data view including omics, imaging, and hundreds of anatomical assessments (scores) on multiple tissues, such as skin, joints, bones, entheses, etc. The package makes extensive use of anatomical metadata objects implemented as reference classes (Chambers, 2016), both for computing over anatomical structures and for visualizing disease state both at specific anatomical locations and at the patient-level. We present examples including visualization of bone and joint structural damage assessment scores, clustering of patients according to their disease trajectories, and association of pain to clinical endpoints over time." />
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/rinpharma_93/" />
@@ -322,8 +322,8 @@
   
   <meta property="og:site_name" content="R/Pharma" />
   <meta property="og:url" content="/publication/rinpharma_93/" />
-  <meta property="og:title" content="Machine learning workflow management with drake | R/Pharma" />
-  <meta property="og:description" content="Machine learning workflows can be difficult to manage. A single round of computation can take several hours to complete, and routine updates to the code and data tend to invalidate hard-earned results. You can enhance the maintainability, hygiene, speed, scale, and reproducibility of such projects with the drake R package. drake resolves the dependency structure of your analysis pipeline, skips tasks that are already up to date, executes the rest with optional distributed computing, and organizes the output so you rarely have to think about data files. This talk demonstrates a deep learning project with drake-powered automation." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
+  <meta property="og:title" content="An R package for Data Science and Deep Visualization of a complex clinical database | R/Pharma" />
+  <meta property="og:description" content="We define and illustrate a &#34;deep visualization&#34; paradigm for the analysis of a relatively large and complex clinical database for psoriasis (PSO) and psoriatic arthritis (PsA). This paradigm supports a growing number of machine learning and exploratory analyses, and it provides a framework for Shiny applications and dashboards used to communicate results with internal and external clinicians. Our R platform implements a &#34;whole-patient&#34; data view including omics, imaging, and hundreds of anatomical assessments (scores) on multiple tissues, such as skin, joints, bones, entheses, etc. The package makes extensive use of anatomical metadata objects implemented as reference classes (Chambers, 2016), both for computing over anatomical structures and for visualizing disease state both at specific anatomical locations and at the patient-level. We present examples including visualization of bone and joint structural damage assessment scores, clustering of patients according to their disease trajectories, and association of pain to clinical endpoints over time." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
     <meta property="twitter:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -356,14 +356,14 @@
     "@type": "WebPage",
     "@id": "/publication/rinpharma_93/"
   },
-  "headline": "Machine learning workflow management with drake",
+  "headline": "An R package for Data Science and Deep Visualization of a complex clinical database",
   
   "datePublished": "1999-01-01T00:00:00Z",
   "dateModified": "2019-08-21T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Will Landau"
+    "name": "David James"
   },
   
   "publisher": {
@@ -374,7 +374,7 @@
       "url": "/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_192x192_fit_lanczos_2.png"
     }
   },
-  "description": "Machine learning workflows can be difficult to manage. A single round of computation can take several hours to complete, and routine updates to the code and data tend to invalidate hard-earned results. You can enhance the maintainability, hygiene, speed, scale, and reproducibility of such projects with the drake R package. drake resolves the dependency structure of your analysis pipeline, skips tasks that are already up to date, executes the rest with optional distributed computing, and organizes the output so you rarely have to think about data files. This talk demonstrates a deep learning project with drake-powered automation."
+  "description": "We define and illustrate a \"deep visualization\" paradigm for the analysis of a relatively large and complex clinical database for psoriasis (PSO) and psoriatic arthritis (PsA). This paradigm supports a growing number of machine learning and exploratory analyses, and it provides a framework for Shiny applications and dashboards used to communicate results with internal and external clinicians. Our R platform implements a \"whole-patient\" data view including omics, imaging, and hundreds of anatomical assessments (scores) on multiple tissues, such as skin, joints, bones, entheses, etc. The package makes extensive use of anatomical metadata objects implemented as reference classes (Chambers, 2016), both for computing over anatomical structures and for visualizing disease state both at specific anatomical locations and at the patient-level. We present examples including visualization of bone and joint structural damage assessment scores, clustering of patients according to their disease trajectories, and association of pain to clinical endpoints over time."
 }
 </script>
 
@@ -420,7 +420,7 @@
 
 
 
-  <title>Machine learning workflow management with drake | R/Pharma</title>
+  <title>An R package for Data Science and Deep Visualization of a complex clinical database | R/Pharma</title>
 </head>
 
 
@@ -688,6 +688,8 @@
       
         
       
+        
+      
 
       
       
@@ -741,7 +743,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Machine learning workflow management with drake</h1>
+  <h1>An R package for Data Science and Deep Visualization of a complex clinical database</h1>
 
   
 
@@ -759,7 +761,7 @@
     
 
   <span >
-      <a href="/author/will-landau/">Will Landau</a></span>
+      <a href="/author/david-james/">David James</a></span>
   </div>
   
   
@@ -795,47 +797,6 @@
 
 
 
-<div class="btn-links mb-3">
-  
-  
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header" href="https://github.com/rinpharma/rinpharma2019program/tree/master/talks_folder/2019-Landau-Machine_Learning_Workflow_Management_in_R.pdf" target="_blank" rel="noopener">
-  Slides
-</a>
-
-
-
-
-
-
-
-</div>
-
 
   
 </div>
@@ -846,7 +807,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Machine learning workflows can be difficult to manage. A single round of computation can take several hours to complete, and routine updates to the code and data tend to invalidate hard-earned results. You can enhance the maintainability, hygiene, speed, scale, and reproducibility of such projects with the drake R package. drake resolves the dependency structure of your analysis pipeline, skips tasks that are already up to date, executes the rest with optional distributed computing, and organizes the output so you rarely have to think about data files. This talk demonstrates a deep learning project with drake-powered automation.</p>
+    <p class="pub-abstract">We define and illustrate a &ldquo;deep visualization&rdquo; paradigm for the analysis of a relatively large and complex clinical database for psoriasis (PSO) and psoriatic arthritis (PsA). This paradigm supports a growing number of machine learning and exploratory analyses, and it provides a framework for Shiny applications and dashboards used to communicate results with internal and external clinicians. Our R platform implements a &ldquo;whole-patient&rdquo; data view including omics, imaging, and hundreds of anatomical assessments (scores) on multiple tissues, such as skin, joints, bones, entheses, etc. The package makes extensive use of anatomical metadata objects implemented as reference classes (Chambers, 2016), both for computing over anatomical structures and for visualizing disease state both at specific anatomical locations and at the patient-level. We present examples including visualization of bone and joint structural damage assessment scores, clustering of patients according to their disease trajectories, and association of pain to clinical endpoints over time.</p>
     
 
     
@@ -893,7 +854,7 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/eli-lilly/">Eli Lilly</a>
+  <a class="badge badge-light" href="/tag/novartis/">Novartis</a>
   
 </div>
 
@@ -910,7 +871,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_93/&amp;text=Machine%20learning%20workflow%20management%20with%20drake" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_93/&amp;text=An%20R%20package%20for%20Data%20Science%20and%20Deep%20Visualization%20of%20a%20complex%20clinical%20database" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -923,7 +884,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_93/&amp;t=Machine%20learning%20workflow%20management%20with%20drake" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_93/&amp;t=An%20R%20package%20for%20Data%20Science%20and%20Deep%20Visualization%20of%20a%20complex%20clinical%20database" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -936,7 +897,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Machine%20learning%20workflow%20management%20with%20drake&amp;body=/publication/rinpharma_93/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=An%20R%20package%20for%20Data%20Science%20and%20Deep%20Visualization%20of%20a%20complex%20clinical%20database&amp;body=/publication/rinpharma_93/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -949,7 +910,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_93/&amp;title=Machine%20learning%20workflow%20management%20with%20drake" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_93/&amp;title=An%20R%20package%20for%20Data%20Science%20and%20Deep%20Visualization%20of%20a%20complex%20clinical%20database" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -962,7 +923,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Machine%20learning%20workflow%20management%20with%20drake%20/publication/rinpharma_93/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=An%20R%20package%20for%20Data%20Science%20and%20Deep%20Visualization%20of%20a%20complex%20clinical%20database%20/publication/rinpharma_93/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -975,7 +936,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_93/&amp;title=Machine%20learning%20workflow%20management%20with%20drake" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_93/&amp;title=An%20R%20package%20for%20Data%20Science%20and%20Deep%20Visualization%20of%20a%20complex%20clinical%20database" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1022,15 +983,15 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/publication/rinpharma_76/">Creating and reviving Shiny apps with golem</a></li>
+      <li><a href="/publication/rinpharma_269/">Building Shiny Frameworks: Some Lessons</a></li>
       
-      <li><a href="/publication/rinpharma_35/">Developing powerful Shiny applications in an enterprise environment: Best practices and lessons learned</a></li>
+      <li><a href="/publication/rinpharma_230/">Democratizing Shiny App Development: The Novartis DataPipeline Harmonized Framework</a></li>
       
-      <li><a href="/publication/rinpharma_64/">Machine learning workflow management with drake</a></li>
+      <li><a href="/publication/rinpharma_76/">Exploratory Graphics (xGx): Promoting the purposeful exploration of PKPD data</a></li>
       
-      <li><a href="/publication/rinpharma_177/">Reproducible computation at scale in R with targets</a></li>
+      <li><a href="/publication/rinpharma_236/">Outstanding User Interfaces with Shiny</a></li>
       
-      <li><a href="/publication/rinpharma_132/">Targets and Reproducible Pipelines</a></li>
+      <li><a href="/publication/rinpharma_113/">Shiny apps for accelerating early drug discovery research</a></li>
       
     </ul>
   </div>

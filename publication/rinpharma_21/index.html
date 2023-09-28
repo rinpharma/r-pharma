@@ -33,7 +33,7 @@
   
     
   
-  <meta name="description" content="The tidyverse (tidyverse.org) is an opinionated collection of R packages designed for data science. All packages share an underlying design philosophy, grammar, and data structures. The packages primarily consist of tools for data ingest, manipulation, and visualization. In the last year or so, Rstudio and others have been creating a set of packages focused on the modeling process. In this talk, we will introduce the tidyverse and illustrate these new tools whose goals are to simplify the modeling process, encourage empirical validation and good methodology, and to enable a wider variety of approaches." />
+  <meta name="description" content="R has become a prominent data science tool, empowered by a fast-growing modern R eco-system. At Novartis, Shiny and markdown have gained a lot of popularity in analyzing, visualizing and reporting of clinical trial data. Traditional report analysis plan (RAP) process was designed to create static table, figure and listings. In this talk, I will use ShinyRAP (a shiny app) to illustrate a novel framework/workflow of planning and executing of both pre-specified and ad-hoc analyses, as well as building dynamic/interactive reports through R/Shiny/Markdown. The app features efficient and organized programming through meta-data and shiny modules, and dynamic display of results via multi-select, grouping and searching, etc. Although motivated from a clinical trial data context, this framework can also be used for other types of data." />
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/rinpharma_21/" />
@@ -322,8 +322,8 @@
   
   <meta property="og:site_name" content="R/Pharma" />
   <meta property="og:url" content="/publication/rinpharma_21/" />
-  <meta property="og:title" content="Modeling in the tidyverse | R/Pharma" />
-  <meta property="og:description" content="The tidyverse (tidyverse.org) is an opinionated collection of R packages designed for data science. All packages share an underlying design philosophy, grammar, and data structures. The packages primarily consist of tools for data ingest, manipulation, and visualization. In the last year or so, Rstudio and others have been creating a set of packages focused on the modeling process. In this talk, we will introduce the tidyverse and illustrate these new tools whose goals are to simplify the modeling process, encourage empirical validation and good methodology, and to enable a wider variety of approaches." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
+  <meta property="og:title" content="ShinyRAP - a framework for analysis and building interactive/dynamic reports using Shiny/Markdown | R/Pharma" />
+  <meta property="og:description" content="R has become a prominent data science tool, empowered by a fast-growing modern R eco-system. At Novartis, Shiny and markdown have gained a lot of popularity in analyzing, visualizing and reporting of clinical trial data. Traditional report analysis plan (RAP) process was designed to create static table, figure and listings. In this talk, I will use ShinyRAP (a shiny app) to illustrate a novel framework/workflow of planning and executing of both pre-specified and ad-hoc analyses, as well as building dynamic/interactive reports through R/Shiny/Markdown. The app features efficient and organized programming through meta-data and shiny modules, and dynamic display of results via multi-select, grouping and searching, etc. Although motivated from a clinical trial data context, this framework can also be used for other types of data." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
     <meta property="twitter:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -356,14 +356,14 @@
     "@type": "WebPage",
     "@id": "/publication/rinpharma_21/"
   },
-  "headline": "Modeling in the tidyverse",
+  "headline": "ShinyRAP - a framework for analysis and building interactive/dynamic reports using Shiny/Markdown",
   
   "datePublished": "1999-01-01T00:00:00Z",
   "dateModified": "2018-08-15T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Max Kuhn"
+    "name": "Xiao Ni"
   },
   
   "publisher": {
@@ -374,7 +374,7 @@
       "url": "/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_192x192_fit_lanczos_2.png"
     }
   },
-  "description": "The tidyverse (tidyverse.org) is an opinionated collection of R packages designed for data science. All packages share an underlying design philosophy, grammar, and data structures. The packages primarily consist of tools for data ingest, manipulation, and visualization. In the last year or so, Rstudio and others have been creating a set of packages focused on the modeling process. In this talk, we will introduce the tidyverse and illustrate these new tools whose goals are to simplify the modeling process, encourage empirical validation and good methodology, and to enable a wider variety of approaches."
+  "description": "R has become a prominent data science tool, empowered by a fast-growing modern R eco-system. At Novartis, Shiny and markdown have gained a lot of popularity in analyzing, visualizing and reporting of clinical trial data. Traditional report analysis plan (RAP) process was designed to create static table, figure and listings. In this talk, I will use ShinyRAP (a shiny app) to illustrate a novel framework/workflow of planning and executing of both pre-specified and ad-hoc analyses, as well as building dynamic/interactive reports through R/Shiny/Markdown. The app features efficient and organized programming through meta-data and shiny modules, and dynamic display of results via multi-select, grouping and searching, etc. Although motivated from a clinical trial data context, this framework can also be used for other types of data."
 }
 </script>
 
@@ -420,7 +420,7 @@
 
 
 
-  <title>Modeling in the tidyverse | R/Pharma</title>
+  <title>ShinyRAP - a framework for analysis and building interactive/dynamic reports using Shiny/Markdown | R/Pharma</title>
 </head>
 
 
@@ -688,6 +688,8 @@
       
         
       
+        
+      
 
       
       
@@ -741,7 +743,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Modeling in the tidyverse</h1>
+  <h1>ShinyRAP - a framework for analysis and building interactive/dynamic reports using Shiny/Markdown</h1>
 
   
 
@@ -759,7 +761,7 @@
     
 
   <span >
-      <a href="/author/max-kuhn/">Max Kuhn</a></span>
+      <a href="/author/xiao-ni/">Xiao Ni</a></span>
   </div>
   
   
@@ -795,47 +797,6 @@
 
 
 
-<div class="btn-links mb-3">
-  
-  
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header" href="http://appliedpredictivemodeling.com/blog/rpharma18" target="_blank" rel="noopener">
-  Slides
-</a>
-
-
-
-
-
-
-
-</div>
-
 
   
 </div>
@@ -846,7 +807,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">The tidyverse (tidyverse.org) is an opinionated collection of R packages designed for data science. All packages share an underlying design philosophy, grammar, and data structures. The packages primarily consist of tools for data ingest, manipulation, and visualization. In the last year or so, Rstudio and others have been creating a set of packages focused on the modeling process. In this talk, we will introduce the tidyverse and illustrate these new tools whose goals are to simplify the modeling process, encourage empirical validation and good methodology, and to enable a wider variety of approaches.</p>
+    <p class="pub-abstract">R has become a prominent data science tool, empowered by a fast-growing modern R eco-system. At Novartis, Shiny and markdown have gained a lot of popularity in analyzing, visualizing and reporting of clinical trial data. Traditional report analysis plan (RAP) process was designed to create static table, figure and listings. In this talk, I will use ShinyRAP (a shiny app) to illustrate a novel framework/workflow of planning and executing of both pre-specified and ad-hoc analyses, as well as building dynamic/interactive reports through R/Shiny/Markdown. The app features efficient and organized programming through meta-data and shiny modules, and dynamic display of results via multi-select, grouping and searching, etc. Although motivated from a clinical trial data context, this framework can also be used for other types of data.</p>
     
 
     
@@ -857,8 +818,8 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
-            <a href="/publication/#2">
-              Keynote
+            <a href="/publication/#1">
+              Talk
             </a>
           </div>
         </div>
@@ -893,7 +854,7 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/rstudio/">RStudio</a>
+  <a class="badge badge-light" href="/tag/novartis/">Novartis</a>
   
 </div>
 
@@ -910,7 +871,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_21/&amp;text=Modeling%20in%20the%20tidyverse" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_21/&amp;text=ShinyRAP%20-%20a%20framework%20for%20analysis%20and%20building%20interactive/dynamic%20reports%20using%20Shiny/Markdown" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -923,7 +884,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_21/&amp;t=Modeling%20in%20the%20tidyverse" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_21/&amp;t=ShinyRAP%20-%20a%20framework%20for%20analysis%20and%20building%20interactive/dynamic%20reports%20using%20Shiny/Markdown" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -936,7 +897,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Modeling%20in%20the%20tidyverse&amp;body=/publication/rinpharma_21/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=ShinyRAP%20-%20a%20framework%20for%20analysis%20and%20building%20interactive/dynamic%20reports%20using%20Shiny/Markdown&amp;body=/publication/rinpharma_21/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -949,7 +910,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_21/&amp;title=Modeling%20in%20the%20tidyverse" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_21/&amp;title=ShinyRAP%20-%20a%20framework%20for%20analysis%20and%20building%20interactive/dynamic%20reports%20using%20Shiny/Markdown" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -962,7 +923,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Modeling%20in%20the%20tidyverse%20/publication/rinpharma_21/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=ShinyRAP%20-%20a%20framework%20for%20analysis%20and%20building%20interactive/dynamic%20reports%20using%20Shiny/Markdown%20/publication/rinpharma_21/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -975,7 +936,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_21/&amp;title=Modeling%20in%20the%20tidyverse" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_21/&amp;title=ShinyRAP%20-%20a%20framework%20for%20analysis%20and%20building%20interactive/dynamic%20reports%20using%20Shiny/Markdown" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1022,15 +983,15 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/publication/rinpharma_195/">Clinical Tables in gt</a></li>
+      <li><a href="/publication/rinpharma_93/">An R package for Data Science and Deep Visualization of a complex clinical database</a></li>
       
-      <li><a href="/publication/rinpharma_154/">Data visualization for real-world machine learning</a></li>
+      <li><a href="/publication/rinpharma_269/">Building Shiny Frameworks: Some Lessons</a></li>
       
-      <li><a href="/publication/rinpharma_34/">Interactive data visualization with R, plotly, and dashR</a></li>
+      <li><a href="/publication/rinpharma_230/">Democratizing Shiny App Development: The Novartis DataPipeline Harmonized Framework</a></li>
       
-      <li><a href="/publication/rinpharma_29/">Interactive data visualization with R, plotly, and dashR</a></li>
+      <li><a href="/publication/rinpharma_76/">Exploratory Graphics (xGx): Promoting the purposeful exploration of PKPD data</a></li>
       
-      <li><a href="/publication/rinpharma_62/">Machine learning</a></li>
+      <li><a href="/publication/rinpharma_236/">Outstanding User Interfaces with Shiny</a></li>
       
     </ul>
   </div>

@@ -14,14 +14,6 @@
     
     <item>
       <title>Drill Down Summary Tables in Shiny with Tplyr</title>
-      <link>/publication/rinpharma_274/</link>
-      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_274/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R, Python, and Shiny in harmony: an Out-of-Box secure data backend for RStudio Connect &amp; Workbench</title>
       <link>/publication/rinpharma_273/</link>
       <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
       <guid>/publication/rinpharma_273/</guid>
@@ -29,26 +21,34 @@
     </item>
     
     <item>
+      <title>R, Python, and Shiny in harmony: an Out-of-Box secure data backend for RStudio Connect &amp; Workbench</title>
+      <link>/publication/rinpharma_272/</link>
+      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_272/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Summary Table Rewind: From Source to Summary and Back Again</title>
-      <link>/publication/rinpharma_246/</link>
+      <link>/publication/rinpharma_245/</link>
       <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_246/</guid>
+      <guid>/publication/rinpharma_245/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tplyr: An Intuitive Framework for Building Clinical Safety Summaries</title>
-      <link>/publication/rinpharma_168/</link>
+      <link>/publication/rinpharma_167/</link>
       <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_168/</guid>
+      <guid>/publication/rinpharma_167/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Multilingual Markdown with R and Python Using Reticulate</title>
-      <link>/publication/rinpharma_127/</link>
+      <link>/publication/rinpharma_126/</link>
       <pubDate>Mon, 05 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_127/</guid>
+      <guid>/publication/rinpharma_126/</guid>
       <description></description>
     </item>
     

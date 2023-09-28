@@ -33,7 +33,7 @@
   
     
   
-  <meta name="description" content="Start browsing through R tutorials online and it won&#39;t take long to stumble across a read.csv statement. CSV files serve well for detached, static analyses. They tend fail, however, when tasked with storing large, dynamic data sets being accessed interactively by globally dispersed, concurrent users. Often the go to in this situation is a traditional relational database management system such as Oracle or MySQL, but there are other options! This talk will review the various back-ends, along with potential considerations, Merck&#39;s Digital Proactive Process Analytics group has implemented to support various Shiny applications, dashboards, and automated data analysis pipelines." />
+  <meta name="description" content="The installation of a cohort of R packages can constitute a challenge; especially considering different dependency types, package versions, overlapping namespaces and varying risks assigned to each of the packages. At the same time, the number of R packages to be installed grows exponentially with each new package added. Their complex dependencies may create conflicts. In this context, the R admin is often confronted with a cohort of packages without knowing the package of interest. We use statistical analysis techniques from the field of complex network analysis in order to shed light into the non-trivial dependency structures of package cohorts. Furthermore, we simplify the network graph to find improved installation sequences for a pre-selected cohorts of R packages. We reduce large package cohorts to a sufficient shortlist of packages, whose installation automatically pulls in other packages via dependencies without causing conflicts. The build time of a library may be greatly reduced. As a byproduct, we generate a graph of the build on the exact dependency tree and actual versions used for auditing and change control in the regulated workflows. This strategy also allows for the identification of high-risk packages and their importance in the dependency tree." />
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/rinpharma_106/" />
@@ -322,8 +322,8 @@
   
   <meta property="og:site_name" content="R/Pharma" />
   <meta property="og:url" content="/publication/rinpharma_106/" />
-  <meta property="og:title" content="Its Not Whats on the Outside, but Its Whats on the Back-end That Matters: The World Beyond CSV Files | R/Pharma" />
-  <meta property="og:description" content="Start browsing through R tutorials online and it won&#39;t take long to stumble across a read.csv statement. CSV files serve well for detached, static analyses. They tend fail, however, when tasked with storing large, dynamic data sets being accessed interactively by globally dispersed, concurrent users. Often the go to in this situation is a traditional relational database management system such as Oracle or MySQL, but there are other options! This talk will review the various back-ends, along with potential considerations, Merck&#39;s Digital Proactive Process Analytics group has implemented to support various Shiny applications, dashboards, and automated data analysis pipelines." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
+  <meta property="og:title" content="Improve installation sequences for R package cohorts | R/Pharma" />
+  <meta property="og:description" content="The installation of a cohort of R packages can constitute a challenge; especially considering different dependency types, package versions, overlapping namespaces and varying risks assigned to each of the packages. At the same time, the number of R packages to be installed grows exponentially with each new package added. Their complex dependencies may create conflicts. In this context, the R admin is often confronted with a cohort of packages without knowing the package of interest. We use statistical analysis techniques from the field of complex network analysis in order to shed light into the non-trivial dependency structures of package cohorts. Furthermore, we simplify the network graph to find improved installation sequences for a pre-selected cohorts of R packages. We reduce large package cohorts to a sufficient shortlist of packages, whose installation automatically pulls in other packages via dependencies without causing conflicts. The build time of a library may be greatly reduced. As a byproduct, we generate a graph of the build on the exact dependency tree and actual versions used for auditing and change control in the regulated workflows. This strategy also allows for the identification of high-risk packages and their importance in the dependency tree." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
     <meta property="twitter:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -356,14 +356,14 @@
     "@type": "WebPage",
     "@id": "/publication/rinpharma_106/"
   },
-  "headline": "Its Not Whats on the Outside, but Its Whats on the Back-end That Matters: The World Beyond CSV Files",
+  "headline": "Improve installation sequences for R package cohorts",
   
   "datePublished": "1999-01-01T00:00:00Z",
   "dateModified": "2019-08-22T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Marcus Adams"
+    "name": "Juliane Manitz"
   },
   
   "publisher": {
@@ -374,7 +374,7 @@
       "url": "/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_192x192_fit_lanczos_2.png"
     }
   },
-  "description": "Start browsing through R tutorials online and it won't take long to stumble across a read.csv statement. CSV files serve well for detached, static analyses. They tend fail, however, when tasked with storing large, dynamic data sets being accessed interactively by globally dispersed, concurrent users. Often the go to in this situation is a traditional relational database management system such as Oracle or MySQL, but there are other options! This talk will review the various back-ends, along with potential considerations, Merck's Digital Proactive Process Analytics group has implemented to support various Shiny applications, dashboards, and automated data analysis pipelines."
+  "description": "The installation of a cohort of R packages can constitute a challenge; especially considering different dependency types, package versions, overlapping namespaces and varying risks assigned to each of the packages. At the same time, the number of R packages to be installed grows exponentially with each new package added. Their complex dependencies may create conflicts. In this context, the R admin is often confronted with a cohort of packages without knowing the package of interest. We use statistical analysis techniques from the field of complex network analysis in order to shed light into the non-trivial dependency structures of package cohorts. Furthermore, we simplify the network graph to find improved installation sequences for a pre-selected cohorts of R packages. We reduce large package cohorts to a sufficient shortlist of packages, whose installation automatically pulls in other packages via dependencies without causing conflicts. The build time of a library may be greatly reduced. As a byproduct, we generate a graph of the build on the exact dependency tree and actual versions used for auditing and change control in the regulated workflows. This strategy also allows for the identification of high-risk packages and their importance in the dependency tree."
 }
 </script>
 
@@ -420,7 +420,7 @@
 
 
 
-  <title>Its Not Whats on the Outside, but Its Whats on the Back-end That Matters: The World Beyond CSV Files | R/Pharma</title>
+  <title>Improve installation sequences for R package cohorts | R/Pharma</title>
 </head>
 
 
@@ -688,6 +688,8 @@
       
         
       
+        
+      
 
       
       
@@ -741,7 +743,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Its Not Whats on the Outside, but Its Whats on the Back-end That Matters: The World Beyond CSV Files</h1>
+  <h1>Improve installation sequences for R package cohorts</h1>
 
   
 
@@ -759,7 +761,7 @@
     
 
   <span >
-      <a href="/author/marcus-adams/">Marcus Adams</a></span>
+      <a href="/author/juliane-manitz/">Juliane Manitz</a></span>
   </div>
   
   
@@ -805,7 +807,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Start browsing through R tutorials online and it won&rsquo;t take long to stumble across a read.csv statement. CSV files serve well for detached, static analyses. They tend fail, however, when tasked with storing large, dynamic data sets being accessed interactively by globally dispersed, concurrent users. Often the go to in this situation is a traditional relational database management system such as Oracle or MySQL, but there are other options! This talk will review the various back-ends, along with potential considerations, Merck&rsquo;s Digital Proactive Process Analytics group has implemented to support various Shiny applications, dashboards, and automated data analysis pipelines.</p>
+    <p class="pub-abstract">The installation of a cohort of R packages can constitute a challenge; especially considering different dependency types, package versions, overlapping namespaces and varying risks assigned to each of the packages. At the same time, the number of R packages to be installed grows exponentially with each new package added. Their complex dependencies may create conflicts. In this context, the R admin is often confronted with a cohort of packages without knowing the package of interest. We use statistical analysis techniques from the field of complex network analysis in order to shed light into the non-trivial dependency structures of package cohorts. Furthermore, we simplify the network graph to find improved installation sequences for a pre-selected cohorts of R packages. We reduce large package cohorts to a sufficient shortlist of packages, whose installation automatically pulls in other packages via dependencies without causing conflicts. The build time of a library may be greatly reduced. As a byproduct, we generate a graph of the build on the exact dependency tree and actual versions used for auditing and change control in the regulated workflows. This strategy also allows for the identification of high-risk packages and their importance in the dependency tree.</p>
     
 
     
@@ -852,7 +854,7 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/merck/">Merck</a>
+  <a class="badge badge-light" href="/tag/edm-serono/">EDM Serono</a>
   
 </div>
 
@@ -869,7 +871,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_106/&amp;text=Its%20Not%20Whats%20on%20the%20Outside,%20but%20Its%20Whats%20on%20the%20Back-end%20That%20Matters:%20The%20World%20Beyond%20CSV%20Files" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_106/&amp;text=Improve%20installation%20sequences%20for%20R%20package%20cohorts" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -882,7 +884,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_106/&amp;t=Its%20Not%20Whats%20on%20the%20Outside,%20but%20Its%20Whats%20on%20the%20Back-end%20That%20Matters:%20The%20World%20Beyond%20CSV%20Files" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_106/&amp;t=Improve%20installation%20sequences%20for%20R%20package%20cohorts" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -895,7 +897,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Its%20Not%20Whats%20on%20the%20Outside,%20but%20Its%20Whats%20on%20the%20Back-end%20That%20Matters:%20The%20World%20Beyond%20CSV%20Files&amp;body=/publication/rinpharma_106/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Improve%20installation%20sequences%20for%20R%20package%20cohorts&amp;body=/publication/rinpharma_106/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -908,7 +910,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_106/&amp;title=Its%20Not%20Whats%20on%20the%20Outside,%20but%20Its%20Whats%20on%20the%20Back-end%20That%20Matters:%20The%20World%20Beyond%20CSV%20Files" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_106/&amp;title=Improve%20installation%20sequences%20for%20R%20package%20cohorts" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -921,7 +923,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Its%20Not%20Whats%20on%20the%20Outside,%20but%20Its%20Whats%20on%20the%20Back-end%20That%20Matters:%20The%20World%20Beyond%20CSV%20Files%20/publication/rinpharma_106/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Improve%20installation%20sequences%20for%20R%20package%20cohorts%20/publication/rinpharma_106/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -934,7 +936,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_106/&amp;title=Its%20Not%20Whats%20on%20the%20Outside,%20but%20Its%20Whats%20on%20the%20Back-end%20That%20Matters:%20The%20World%20Beyond%20CSV%20Files" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_106/&amp;title=Improve%20installation%20sequences%20for%20R%20package%20cohorts" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -981,15 +983,7 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/publication/rinpharma_291/">Asynchronous Processing of Long-Running Tasks in Shiny</a></li>
-      
-      <li><a href="/publication/rinpharma_206/">Interactive Forest Plot for DMC Safety Monitoring in Clinical Trials</a></li>
-      
-      <li><a href="/publication/rinpharma_19/">Managing R and Associated Tools in Large Environments - an R-Admin’s Perspective</a></li>
-      
-      <li><a href="/publication/rinpharma_103/">ModViz POP: R-Shiny Based PK/PD Interface for Empowering Teams to Perform Real-Time Simulations</a></li>
-      
-      <li><a href="/publication/rinpharma_196/">R for Clinical Study Reports and Submission</a></li>
+      <li><a href="/publication/rinpharma_13/">Multi-state Model for the Analysis of an Association between Safety and Efficacy Events</a></li>
       
     </ul>
   </div>

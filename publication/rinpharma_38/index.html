@@ -33,7 +33,7 @@
   
     
   
-  <meta name="description" content="Creating datasets and tables, listings and graphs (TLGs) for analyzing clinical trials data with R, such that in the final stage the code, datasets and TLGs can be submitted to the health authorities, is a multifaceted problem. We have been working on a number of R packages to create an R-based analysis environment that can be used for exploratory and regulatory analysis of clinical trials data. These projects include table creation (open source http//github.com/Roche/rtables); random data generation; querying CDISC standards; TLG creation; a pipeline for specifying and producing data and TLG deliverables (with logs, automation, titles and footnotes, etc.); a modular shiny-based exploratory framework that provides dynamic encodings, variable-based filtering, and R-code generation for the displayed outputs. The maturity of these projects varies, but the workflow and analysis environment as a whole can be demonstrated nicely. In this talk, we would like to generate interest in collaboration in order to make these projects more general and with the final goal of open-sourcing some of them." />
+  <meta name="description" content="Despite the explosive growth and adoption of R globally, concerns over how to qualify and administrate R continues to echo in discussions about use in regulated environments. In this talk, I&#39;ll discuss the how to bridge the conceptual tenants of reproducibility, traceability, and accuracy to robust, yet agile, implementations such that and organization can maintain validated systems without imposing the shackles found in traditional validated environments. Furthermore, I will discuss a number of design elements specific to the open-source R ecosystem, such as using packages from CRAN and github, and cover how to embrace these, while responsibly managing risk in enterprise environments." />
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/rinpharma_38/" />
@@ -322,8 +322,8 @@
   
   <meta property="og:site_name" content="R/Pharma" />
   <meta property="og:url" content="/publication/rinpharma_38/" />
-  <meta property="og:title" content="Analyzing Clinical Trials Data with R | R/Pharma" />
-  <meta property="og:description" content="Creating datasets and tables, listings and graphs (TLGs) for analyzing clinical trials data with R, such that in the final stage the code, datasets and TLGs can be submitted to the health authorities, is a multifaceted problem. We have been working on a number of R packages to create an R-based analysis environment that can be used for exploratory and regulatory analysis of clinical trials data. These projects include table creation (open source http//github.com/Roche/rtables); random data generation; querying CDISC standards; TLG creation; a pipeline for specifying and producing data and TLG deliverables (with logs, automation, titles and footnotes, etc.); a modular shiny-based exploratory framework that provides dynamic encodings, variable-based filtering, and R-code generation for the displayed outputs. The maturity of these projects varies, but the workflow and analysis environment as a whole can be demonstrated nicely. In this talk, we would like to generate interest in collaboration in order to make these projects more general and with the final goal of open-sourcing some of them." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
+  <meta property="og:title" content="Moving Fast Without Breaking Things: Navigating the R Ecosystem in an Enterprise Environment | R/Pharma" />
+  <meta property="og:description" content="Despite the explosive growth and adoption of R globally, concerns over how to qualify and administrate R continues to echo in discussions about use in regulated environments. In this talk, I&#39;ll discuss the how to bridge the conceptual tenants of reproducibility, traceability, and accuracy to robust, yet agile, implementations such that and organization can maintain validated systems without imposing the shackles found in traditional validated environments. Furthermore, I will discuss a number of design elements specific to the open-source R ecosystem, such as using packages from CRAN and github, and cover how to embrace these, while responsibly managing risk in enterprise environments." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
     <meta property="twitter:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -356,14 +356,14 @@
     "@type": "WebPage",
     "@id": "/publication/rinpharma_38/"
   },
-  "headline": "Analyzing Clinical Trials Data with R",
+  "headline": "Moving Fast Without Breaking Things: Navigating the R Ecosystem in an Enterprise Environment",
   
   "datePublished": "1999-01-01T00:00:00Z",
   "dateModified": "2018-08-16T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Adrian Waddell"
+    "name": "Devin Pastoor"
   },
   
   "publisher": {
@@ -374,7 +374,7 @@
       "url": "/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_192x192_fit_lanczos_2.png"
     }
   },
-  "description": "Creating datasets and tables, listings and graphs (TLGs) for analyzing clinical trials data with R, such that in the final stage the code, datasets and TLGs can be submitted to the health authorities, is a multifaceted problem. We have been working on a number of R packages to create an R-based analysis environment that can be used for exploratory and regulatory analysis of clinical trials data. These projects include table creation (open source http//github.com/Roche/rtables); random data generation; querying CDISC standards; TLG creation; a pipeline for specifying and producing data and TLG deliverables (with logs, automation, titles and footnotes, etc.); a modular shiny-based exploratory framework that provides dynamic encodings, variable-based filtering, and R-code generation for the displayed outputs. The maturity of these projects varies, but the workflow and analysis environment as a whole can be demonstrated nicely. In this talk, we would like to generate interest in collaboration in order to make these projects more general and with the final goal of open-sourcing some of them."
+  "description": "Despite the explosive growth and adoption of R globally, concerns over how to qualify and administrate R continues to echo in discussions about use in regulated environments. In this talk, I'll discuss the how to bridge the conceptual tenants of reproducibility, traceability, and accuracy to robust, yet agile, implementations such that and organization can maintain validated systems without imposing the shackles found in traditional validated environments. Furthermore, I will discuss a number of design elements specific to the open-source R ecosystem, such as using packages from CRAN and github, and cover how to embrace these, while responsibly managing risk in enterprise environments."
 }
 </script>
 
@@ -420,7 +420,7 @@
 
 
 
-  <title>Analyzing Clinical Trials Data with R | R/Pharma</title>
+  <title>Moving Fast Without Breaking Things: Navigating the R Ecosystem in an Enterprise Environment | R/Pharma</title>
 </head>
 
 
@@ -688,6 +688,8 @@
       
         
       
+        
+      
 
       
       
@@ -741,7 +743,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Analyzing Clinical Trials Data with R</h1>
+  <h1>Moving Fast Without Breaking Things: Navigating the R Ecosystem in an Enterprise Environment</h1>
 
   
 
@@ -759,7 +761,7 @@
     
 
   <span >
-      <a href="/author/adrian-waddell/">Adrian Waddell</a></span>
+      <a href="/author/devin-pastoor/">Devin Pastoor</a></span>
   </div>
   
   
@@ -795,6 +797,47 @@
 
 
 
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="https://github.com/rinpharma/2018_presentations/blob/master/talks_folder/2018-Pastoor-Moving_Fast_without_Breaking_Things.pdf" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+
+
+
+
+</div>
+
 
   
 </div>
@@ -805,7 +848,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Creating datasets and tables, listings and graphs (TLGs) for analyzing clinical trials data with R, such that in the final stage the code, datasets and TLGs can be submitted to the health authorities, is a multifaceted problem. We have been working on a number of R packages to create an R-based analysis environment that can be used for exploratory and regulatory analysis of clinical trials data. These projects include table creation (open source http//github.com/Roche/rtables); random data generation; querying CDISC standards; TLG creation; a pipeline for specifying and producing data and TLG deliverables (with logs, automation, titles and footnotes, etc.); a modular shiny-based exploratory framework that provides dynamic encodings, variable-based filtering, and R-code generation for the displayed outputs. The maturity of these projects varies, but the workflow and analysis environment as a whole can be demonstrated nicely. In this talk, we would like to generate interest in collaboration in order to make these projects more general and with the final goal of open-sourcing some of them.</p>
+    <p class="pub-abstract">Despite the explosive growth and adoption of R globally, concerns over how to qualify and administrate R continues to echo in discussions about use in regulated environments. In this talk, I&rsquo;ll discuss the how to bridge the conceptual tenants of reproducibility, traceability, and accuracy to robust, yet agile, implementations such that and organization can maintain validated systems without imposing the shackles found in traditional validated environments. Furthermore, I will discuss a number of design elements specific to the open-source R ecosystem, such as using packages from CRAN and github, and cover how to embrace these, while responsibly managing risk in enterprise environments.</p>
     
 
     
@@ -852,7 +895,7 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/roche-/-genentech/">Roche / Genentech</a>
+  <a class="badge badge-light" href="/tag/metrum-research-group/">Metrum Research Group</a>
   
 </div>
 
@@ -869,7 +912,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_38/&amp;text=Analyzing%20Clinical%20Trials%20Data%20with%20R" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_38/&amp;text=Moving%20Fast%20Without%20Breaking%20Things:%20Navigating%20the%20R%20Ecosystem%20in%20an%20Enterprise%20Environment" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -882,7 +925,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_38/&amp;t=Analyzing%20Clinical%20Trials%20Data%20with%20R" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_38/&amp;t=Moving%20Fast%20Without%20Breaking%20Things:%20Navigating%20the%20R%20Ecosystem%20in%20an%20Enterprise%20Environment" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -895,7 +938,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Analyzing%20Clinical%20Trials%20Data%20with%20R&amp;body=/publication/rinpharma_38/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Moving%20Fast%20Without%20Breaking%20Things:%20Navigating%20the%20R%20Ecosystem%20in%20an%20Enterprise%20Environment&amp;body=/publication/rinpharma_38/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -908,7 +951,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_38/&amp;title=Analyzing%20Clinical%20Trials%20Data%20with%20R" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_38/&amp;title=Moving%20Fast%20Without%20Breaking%20Things:%20Navigating%20the%20R%20Ecosystem%20in%20an%20Enterprise%20Environment" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -921,7 +964,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Analyzing%20Clinical%20Trials%20Data%20with%20R%20/publication/rinpharma_38/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Moving%20Fast%20Without%20Breaking%20Things:%20Navigating%20the%20R%20Ecosystem%20in%20an%20Enterprise%20Environment%20/publication/rinpharma_38/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -934,7 +977,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_38/&amp;title=Analyzing%20Clinical%20Trials%20Data%20with%20R" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_38/&amp;title=Moving%20Fast%20Without%20Breaking%20Things:%20Navigating%20the%20R%20Ecosystem%20in%20an%20Enterprise%20Environment" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -981,15 +1024,15 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/publication/rinpharma_49/">Accelerate Personalized Health Care by Empowering Biomarker Data</a></li>
+      <li><a href="/publication/rinpharma_134/">A PK &amp; PBPK Modelling Workflow in R: Simulation, Optimization &amp; Visualization</a></li>
       
-      <li><a href="/publication/rinpharma_2/">Analyzing Clinical Trials Data with R</a></li>
+      <li><a href="/publication/rinpharma_192/">A case-study driven introduction to the Julia language for R programmers</a></li>
       
-      <li><a href="/publication/rinpharma_28/">Beyond Simple Reproducibility - Discoverability, Provenance, and Improving the Impact of Results</a></li>
+      <li><a href="/publication/rinpharma_42/">Assisting pharmacometric simulation with the use of Shiny</a></li>
       
-      <li><a href="/publication/rinpharma_178/">Building and Managing Unified R Environments for Data Science and Software Development</a></li>
+      <li><a href="/publication/rinpharma_90/">Leveraging multiple R tools to make effective pediatric dosing decisions</a></li>
       
-      <li><a href="/publication/rinpharma_85/">Collaborating at scale: managing an enterprise analytical computing ecosystem</a></li>
+      <li><a href="/publication/rinpharma_262/">MeRGE: An ecosystem of open-source R packages for Pharmacometrics from MetrumRG</a></li>
       
     </ul>
   </div>

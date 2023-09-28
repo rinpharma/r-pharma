@@ -33,7 +33,7 @@
   
     
   
-  <meta name="description" content="Cohort studies of treatments developed from healthcare claims often have hundreds of thousands of patients and up to several thousand measured covariates. Therefore, new causal inference methods that combine ideas from machine learning and causal inference may improve analysis of these studies by taking advantage of the wealth of information measured in claims. In order to evaluate the performance of these methods as applied to claims-based studies, we use a combination of real data examples and plasmode simulation, implemented in R package &#39;plasmode&#39;, which creates realistic simulated datasets based on a real cohort study. In this talk, I will give an overview of our progress so far and what is left to be done." />
+  <meta name="description" content="We are amidst a data revolution. Just the past 5 years, the cost of sequencing a human genome has gone down approximately 10-fold. This development moves equally fast within areas such as mass spectrometry, in vitro immuno-peptide screening a.o. This facilitates the search for bio-markers, biologics, therapeutics, etc. but also redefines the requirements for storing, accessing and working with data and the skillset of bio data scientists. In this talk I will present tidysq, an R-package aiming at extending the Tidyverse framework to include (tidy) bio-data-science / bioinformatics. Tidysq will be presented in context with current status in ML driven (neo)epitope prediction within cancer immunotherapy." />
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/rinpharma_108/" />
@@ -322,8 +322,8 @@
   
   <meta property="og:site_name" content="R/Pharma" />
   <meta property="og:url" content="/publication/rinpharma_108/" />
-  <meta property="og:title" content="Evaluating the performance of advanced causal inference methods applied to healthcare claims data | R/Pharma" />
-  <meta property="og:description" content="Cohort studies of treatments developed from healthcare claims often have hundreds of thousands of patients and up to several thousand measured covariates. Therefore, new causal inference methods that combine ideas from machine learning and causal inference may improve analysis of these studies by taking advantage of the wealth of information measured in claims. In order to evaluate the performance of these methods as applied to claims-based studies, we use a combination of real data examples and plasmode simulation, implemented in R package &#39;plasmode&#39;, which creates realistic simulated datasets based on a real cohort study. In this talk, I will give an overview of our progress so far and what is left to be done." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
+  <meta property="og:title" content="Tidysq for Working with Biological Sequence Data in ML Driven Epitope Prediction in Cancer Immunotherapy | R/Pharma" />
+  <meta property="og:description" content="We are amidst a data revolution. Just the past 5 years, the cost of sequencing a human genome has gone down approximately 10-fold. This development moves equally fast within areas such as mass spectrometry, in vitro immuno-peptide screening a.o. This facilitates the search for bio-markers, biologics, therapeutics, etc. but also redefines the requirements for storing, accessing and working with data and the skillset of bio data scientists. In this talk I will present tidysq, an R-package aiming at extending the Tidyverse framework to include (tidy) bio-data-science / bioinformatics. Tidysq will be presented in context with current status in ML driven (neo)epitope prediction within cancer immunotherapy." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
     <meta property="twitter:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -356,14 +356,14 @@
     "@type": "WebPage",
     "@id": "/publication/rinpharma_108/"
   },
-  "headline": "Evaluating the performance of advanced causal inference methods applied to healthcare claims data",
+  "headline": "Tidysq for Working with Biological Sequence Data in ML Driven Epitope Prediction in Cancer Immunotherapy",
   
   "datePublished": "1999-01-01T00:00:00Z",
   "dateModified": "2019-08-22T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Jessica Myers Franklin"
+    "name": "Leon Eyrich Jessen"
   },
   
   "publisher": {
@@ -374,7 +374,7 @@
       "url": "/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_192x192_fit_lanczos_2.png"
     }
   },
-  "description": "Cohort studies of treatments developed from healthcare claims often have hundreds of thousands of patients and up to several thousand measured covariates. Therefore, new causal inference methods that combine ideas from machine learning and causal inference may improve analysis of these studies by taking advantage of the wealth of information measured in claims. In order to evaluate the performance of these methods as applied to claims-based studies, we use a combination of real data examples and plasmode simulation, implemented in R package 'plasmode', which creates realistic simulated datasets based on a real cohort study. In this talk, I will give an overview of our progress so far and what is left to be done."
+  "description": "We are amidst a data revolution. Just the past 5 years, the cost of sequencing a human genome has gone down approximately 10-fold. This development moves equally fast within areas such as mass spectrometry, in vitro immuno-peptide screening a.o. This facilitates the search for bio-markers, biologics, therapeutics, etc. but also redefines the requirements for storing, accessing and working with data and the skillset of bio data scientists. In this talk I will present tidysq, an R-package aiming at extending the Tidyverse framework to include (tidy) bio-data-science / bioinformatics. Tidysq will be presented in context with current status in ML driven (neo)epitope prediction within cancer immunotherapy."
 }
 </script>
 
@@ -420,7 +420,7 @@
 
 
 
-  <title>Evaluating the performance of advanced causal inference methods applied to healthcare claims data | R/Pharma</title>
+  <title>Tidysq for Working with Biological Sequence Data in ML Driven Epitope Prediction in Cancer Immunotherapy | R/Pharma</title>
 </head>
 
 
@@ -688,6 +688,8 @@
       
         
       
+        
+      
 
       
       
@@ -741,7 +743,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Evaluating the performance of advanced causal inference methods applied to healthcare claims data</h1>
+  <h1>Tidysq for Working with Biological Sequence Data in ML Driven Epitope Prediction in Cancer Immunotherapy</h1>
 
   
 
@@ -759,7 +761,7 @@
     
 
   <span >
-      <a href="/author/jessica-myers-franklin/">Jessica Myers Franklin</a></span>
+      <a href="/author/leon-eyrich-jessen/">Leon Eyrich Jessen</a></span>
   </div>
   
   
@@ -824,7 +826,7 @@
   
     
   
-<a class="btn btn-outline-primary btn-page-header" href="https://github.com/rinpharma/rinpharma2019program/tree/master/talks_folder/2019-Franklin-Advanced_Causal_Inference_Methods_Applied_to_Healthcare_Claims_Data.pptx" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://github.com/rinpharma/rinpharma2019program/tree/master/talks_folder/2019-Jessen-Tidysq_Cancer_Immunotherapy.html" target="_blank" rel="noopener">
   Slides
 </a>
 
@@ -846,7 +848,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Cohort studies of treatments developed from healthcare claims often have hundreds of thousands of patients and up to several thousand measured covariates. Therefore, new causal inference methods that combine ideas from machine learning and causal inference may improve analysis of these studies by taking advantage of the wealth of information measured in claims. In order to evaluate the performance of these methods as applied to claims-based studies, we use a combination of real data examples and plasmode simulation, implemented in R package &lsquo;plasmode&rsquo;, which creates realistic simulated datasets based on a real cohort study. In this talk, I will give an overview of our progress so far and what is left to be done.</p>
+    <p class="pub-abstract">We are amidst a data revolution. Just the past 5 years, the cost of sequencing a human genome has gone down approximately 10-fold. This development moves equally fast within areas such as mass spectrometry, in vitro immuno-peptide screening a.o. This facilitates the search for bio-markers, biologics, therapeutics, etc. but also redefines the requirements for storing, accessing and working with data and the skillset of bio data scientists. In this talk I will present tidysq, an R-package aiming at extending the Tidyverse framework to include (tidy) bio-data-science / bioinformatics. Tidysq will be presented in context with current status in ML driven (neo)epitope prediction within cancer immunotherapy.</p>
     
 
     
@@ -893,7 +895,7 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/harvard-university/">Harvard University</a>
+  <a class="badge badge-light" href="/tag/technical-university-of-denmark/">Technical University of Denmark</a>
   
 </div>
 
@@ -910,7 +912,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_108/&amp;text=Evaluating%20the%20performance%20of%20advanced%20causal%20inference%20methods%20applied%20to%20healthcare%20claims%20data" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_108/&amp;text=Tidysq%20for%20Working%20with%20Biological%20Sequence%20Data%20in%20ML%20Driven%20Epitope%20Prediction%20in%20Cancer%20Immunotherapy" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -923,7 +925,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_108/&amp;t=Evaluating%20the%20performance%20of%20advanced%20causal%20inference%20methods%20applied%20to%20healthcare%20claims%20data" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_108/&amp;t=Tidysq%20for%20Working%20with%20Biological%20Sequence%20Data%20in%20ML%20Driven%20Epitope%20Prediction%20in%20Cancer%20Immunotherapy" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -936,7 +938,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Evaluating%20the%20performance%20of%20advanced%20causal%20inference%20methods%20applied%20to%20healthcare%20claims%20data&amp;body=/publication/rinpharma_108/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Tidysq%20for%20Working%20with%20Biological%20Sequence%20Data%20in%20ML%20Driven%20Epitope%20Prediction%20in%20Cancer%20Immunotherapy&amp;body=/publication/rinpharma_108/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -949,7 +951,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_108/&amp;title=Evaluating%20the%20performance%20of%20advanced%20causal%20inference%20methods%20applied%20to%20healthcare%20claims%20data" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_108/&amp;title=Tidysq%20for%20Working%20with%20Biological%20Sequence%20Data%20in%20ML%20Driven%20Epitope%20Prediction%20in%20Cancer%20Immunotherapy" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -962,7 +964,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Evaluating%20the%20performance%20of%20advanced%20causal%20inference%20methods%20applied%20to%20healthcare%20claims%20data%20/publication/rinpharma_108/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Tidysq%20for%20Working%20with%20Biological%20Sequence%20Data%20in%20ML%20Driven%20Epitope%20Prediction%20in%20Cancer%20Immunotherapy%20/publication/rinpharma_108/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -975,7 +977,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_108/&amp;title=Evaluating%20the%20performance%20of%20advanced%20causal%20inference%20methods%20applied%20to%20healthcare%20claims%20data" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_108/&amp;title=Tidysq%20for%20Working%20with%20Biological%20Sequence%20Data%20in%20ML%20Driven%20Epitope%20Prediction%20in%20Cancer%20Immunotherapy" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1022,9 +1024,15 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/publication/rinpharma_180/">Automated Data-Adaptive Analytics to Improve Robustness of Confounding Control when Estimating Treatment Effects in Electronic Healthcare Databases</a></li>
+      <li><a href="/publication/rinpharma_125/">Artificial Neural Networks in R with Keras and TensorFlow</a></li>
       
-      <li><a href="/publication/rinpharma_24/">Evaluating the performance of advanced causal inference methods applied to healthcare claims data</a></li>
+      <li><a href="/publication/rinpharma_60/">Artificial neural networks in R with Keras and TensorFlow</a></li>
+      
+      <li><a href="/publication/rinpharma_248/">Deep Learning</a></li>
+      
+      <li><a href="/publication/rinpharma_184/">Its a trap! A data science case story</a></li>
+      
+      <li><a href="/publication/rinpharma_36/">NetTCR: Towards Accurate Prediction of T-cell Targets using Deep Learning</a></li>
       
     </ul>
   </div>

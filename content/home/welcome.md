@@ -47,6 +47,4 @@ cta_alt:
 The conference is a relatively small, scientifically &
 industry oriented, collegial event focused on the use of R in the development of pharmaceuticals.  
 
-The R/Pharma in-person roundtable at posit::conf on Sep 18 is fully booked.  
-
-R/Pharma virtual will run Oct 24-26 with workshops the week prior.  Registration is now open.
+R/Pharma virtual will run Oct 24-26 with workshops the week prior.  Registration for conference and workshops is now open.

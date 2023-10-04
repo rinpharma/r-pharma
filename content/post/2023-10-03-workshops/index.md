@@ -45,10 +45,10 @@ We have some suggested tracks below to accommodate many interests.  Please feel 
 
 ### Admin
 -  Preview of Posit Administrator Training
--  What Do You Mean Test Coverage?!
+-  Developing & Testing Your Shiny Application
 
 ### Shiny
--  What Do You Mean Test Coverage?!
+-  Developing & Testing Your Shiny Application
 -  Pharmaverse Friday: Revolutionize Clinical Trial Data Exploration - teal
 
 ### Data Viz

@@ -38,6 +38,69 @@ Programming is ubiquitous in applied biostatistics, and most statisticians know 
     </item>
     
     <item>
+      <title>R/Pharma 2023 Workshops</title>
+      <link>/post/2023-10-03-workshops/</link>
+      <pubDate>Tue, 03 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/post/2023-10-03-workshops/</guid>
+      <description>&lt;h2 id=&#34;rpharma-2023-workshops&#34;&gt;R/Pharma 2023 Workshops&lt;/h2&gt;
+&lt;p&gt;R/Pharma is excited to host &lt;a href=&#34;https://rinpharma.com/workshop/2023conference/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;16 free workshops!&lt;/a&gt;.  Workshops will run October 16th-20th, 23rd and 27th and are hosted by members of the community.  Workshops are always one of the highlights of R/Pharma and we are indebted to the hosts who prepare them.&lt;/p&gt;
+&lt;p&gt;If you have not registered for the R/Pharma conference we ask that you do so before selecting a workshop. You can join at &lt;a href=&#34;https://hopin.com/events/r-pharma-2023/registration&#34;&gt;https://hopin.com/events/r-pharma-2023/registration&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We have some suggested tracks below to accommodate many interests.  Please feel free to take multiple workshops.&lt;/p&gt;
+&lt;h3 id=&#34;clinical-programmer&#34;&gt;Clinical Programmer&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;{targets} &amp;amp; {crew} for Clinical Trial Simulation Pipelines&lt;/li&gt;
+&lt;li&gt;Pharmaverse Friday: Pharmaverse Champion.  Intro to the Pharmaverse&lt;/li&gt;
+&lt;li&gt;Pharmaverse Friday: Revolutionize Clinical Trial Data Exploration - teal&lt;/li&gt;
+&lt;li&gt;Pharmaverse Friday: Generating TLGs using NEST / Falcon - a Masterclass&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;beginner&#34;&gt;Beginner&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Visual Studio Code for Pharma: An Introduction&lt;/li&gt;
+&lt;li&gt;Introduction to Machine Learning with {tidymodels}&lt;/li&gt;
+&lt;li&gt;Pharmaverse Friday: Pharmaverse Champion.  Intro to the Pharmaverse&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;data-science&#34;&gt;Data Science&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Version Control with Git &amp;amp; RStudio – Handy Tips for Use &amp;amp; How to Resolve Common Issues&lt;/li&gt;
+&lt;li&gt;Visual Studio Code for Pharma: An Introduction&lt;/li&gt;
+&lt;li&gt;Introduction to Machine Learning with {tidymodels}&lt;/li&gt;
+&lt;li&gt;Quarto All the Things!&lt;/li&gt;
+&lt;li&gt;A Case-Study Driven Motivation of Analysis Results Data&lt;/li&gt;
+&lt;li&gt;An Intro to Unveiling OPS Cell Patterns with Python&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;data-analytics&#34;&gt;Data Analytics&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Using pointblank Package to Ensure Maximal Data Quality: Pfizer Case Study&lt;/li&gt;
+&lt;li&gt;Introduction to Machine Learning with {tidymodels}&lt;/li&gt;
+&lt;li&gt;A Case-Study Driven Motivation of Analysis Results Data&lt;/li&gt;
+&lt;li&gt;From The Statistical Method To The R Package - The mmrm Example&lt;/li&gt;
+&lt;li&gt;Building a Survival Model in Stan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;python&#34;&gt;Python&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Visual Studio Code for Pharma: An Introduction&lt;/li&gt;
+&lt;li&gt;An Intro to Unveiling OPS Cell Patterns with Python&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;admin&#34;&gt;Admin&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Preview of Posit Administrator Training&lt;/li&gt;
+&lt;li&gt;What Do You Mean Test Coverage?!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;shiny&#34;&gt;Shiny&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;What Do You Mean Test Coverage?!&lt;/li&gt;
+&lt;li&gt;Pharmaverse Friday: Revolutionize Clinical Trial Data Exploration - teal&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;data-viz&#34;&gt;Data Viz&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Observable Plot&lt;/li&gt;
+&lt;li&gt;Advanced Exploratory Visualization Techniques - ggplot2, plotly &amp;amp; purrr&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;you can find registration links for all the workshops at &lt;a href=&#34;https://rinpharma.com/workshop/2023conference/&#34;&gt;https://rinpharma.com/workshop/2023conference/&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>R/Pharma Round Tables</title>
       <link>/post/2023-09-16-summit/</link>
       <pubDate>Sat, 16 Sep 2023 00:00:00 +0000</pubDate>

@@ -7,7 +7,7 @@ featured: true
 
 ## R/Pharma 2023 Workshops
 
-R/Pharma is excited to host [16 free workshops!](https://rinpharma.com/workshop/2023conference/).  Workshops will run October 16th-20th, 23rd and 27th and are hosted by members of the community.  Workshops are always one of the highlights of R/Pharma and we are indebted to the hosts who prepare them.
+R/Pharma is excited to host [17 free workshops!](https://rinpharma.com/workshop/2023conference/).  Workshops will run October 16th-20th, 23rd and 27th and are hosted by members of the community.  Workshops are always one of the highlights of R/Pharma and we are indebted to the hosts who prepare them.
 
 If you have not registered for the R/Pharma conference we ask that you do so before selecting a workshop. You can join at https://hopin.com/events/r-pharma-2023/registration.
 

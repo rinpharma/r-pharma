@@ -5,12 +5,21 @@
     <link>/author/coline-zeballos/</link>
       <atom:link href="/author/coline-zeballos/index.xml" rel="self" type="application/rss+xml" />
     <description>Coline Zeballos</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2023</copyright><lastBuildDate>Wed, 09 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2023</copyright><lastBuildDate>Wed, 25 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
       <title>Coline Zeballos</title>
       <link>/author/coline-zeballos/</link>
     </image>
+    
+    <item>
+      <title>Updates from the R Validation Hub: Towards a Pharma Repository</title>
+      <link>/publication/rinpharma_320/</link>
+      <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_320/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Roches approach to software validation: an automated pipeline from validation to publication</title>

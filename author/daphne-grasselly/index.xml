@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Daphné Grasselly | R/Pharma</title>
+    <link>/author/daphne-grasselly/</link>
+      <atom:link href="/author/daphne-grasselly/index.xml" rel="self" type="application/rss+xml" />
+    <description>Daphné Grasselly</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2023</copyright><lastBuildDate>Wed, 25 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>Daphné Grasselly</title>
+      <link>/author/daphne-grasselly/</link>
+    </image>
+    
+    <item>
+      <title>Learnings from deploying a Python package to orchestrate clinical trials outputs generation</title>
+      <link>/publication/rinpharma_326/</link>
+      <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_326/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

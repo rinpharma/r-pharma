@@ -13,6 +13,294 @@
     </image>
     
     <item>
+      <title>A Pivotal Year of R Pilots for Shiny Application Submissions to the FDA / Celebrating a Milestone: R Tables for Regulatory Submission Working Group s eBook on Clinical Data Table Generation</title>
+      <link>/publication/rinpharma_335/</link>
+      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_335/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Comparing Analysis Method Implementations in Software (CAMIS): An open source repository to document differences in statistical methodology across software</title>
+      <link>/publication/rinpharma_332/</link>
+      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_332/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Dataset-JSON as Alternative Transport Format for Regulatory Submissions</title>
+      <link>/publication/rinpharma_334/</link>
+      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_334/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Designing a CSR with Shiny</title>
+      <link>/publication/rinpharma_343/</link>
+      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_343/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Exploration of Large language model-based frameworks to develop R codes for output delivery in pharma</title>
+      <link>/publication/rinpharma_333/</link>
+      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_333/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Introducing smdi: An R package to perform structural missing data investigations for real-world evidence studies</title>
+      <link>/publication/rinpharma_339/</link>
+      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_339/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reality Check for R Adoption - A Mid-Size Pharma View</title>
+      <link>/publication/rinpharma_337/</link>
+      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_337/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>tbc</title>
+      <link>/publication/rinpharma_338/</link>
+      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_338/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>tbc</title>
+      <link>/publication/rinpharma_341/</link>
+      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_341/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Validating In-House Developed R Packages with mpn.scorecard</title>
+      <link>/publication/rinpharma_342/</link>
+      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_342/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Why we Need to Improve Software Engineering in Biostatistics - A Call to Action</title>
+      <link>/publication/rinpharma_330/</link>
+      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_330/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Accelerating Modeling and Simulation with Scientific Machine Learning in Julia</title>
+      <link>/publication/rinpharma_317/</link>
+      <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_317/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Clinical Trials Reporting Dashboard</title>
+      <link>/publication/rinpharma_322/</link>
+      <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_322/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DeProViR:a deep-learning framework based on pre-trained sequence embeddings for predicting host-viral protein-protein interactions</title>
+      <link>/publication/rinpharma_327/</link>
+      <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_327/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Good Practices for Creating Reproducible Content From Shiny Apps</title>
+      <link>/publication/rinpharma_324/</link>
+      <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_324/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learnings from deploying a Python package to orchestrate clinical trials outputs generation</title>
+      <link>/publication/rinpharma_326/</link>
+      <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_326/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>tbc</title>
+      <link>/publication/rinpharma_318/</link>
+      <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_318/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>tbc</title>
+      <link>/publication/rinpharma_319/</link>
+      <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_319/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The importance of the SCE in enabling our shift from proprietary programming to open-source data science</title>
+      <link>/publication/rinpharma_315/</link>
+      <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_315/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Need for Speed - AccelerateR-ing R Adoption in GSK</title>
+      <link>/publication/rinpharma_323/</link>
+      <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_323/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Updates from the R Validation Hub: Towards a Pharma Repository</title>
+      <link>/publication/rinpharma_320/</link>
+      <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_320/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>EDC to Patient Profiles: A Biotech {ctpatprofile} Story</title>
+      <link>/publication/rinpharma_303/</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_303/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Everyones Invited: A Case Study on Bridging the Usability Gap</title>
+      <link>/publication/rinpharma_312/</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_312/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Exploring the Packaging of R / Shiny Applications for Regulatory Submission</title>
+      <link>/publication/rinpharma_309/</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_309/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Interactive Reporting for Safety Monitoring</title>
+      <link>/publication/rinpharma_306/</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_306/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Introducing the Software Engineering Working Group and R Package {mmrm}</title>
+      <link>/publication/rinpharma_311/</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_311/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Our Impact in the Evolving Data Landscape</title>
+      <link>/publication/rinpharma_299/</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_299/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Pharmacokinetic (PK) data programming in {admiral} and the Pharmaverse</title>
+      <link>/publication/rinpharma_307/</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_307/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Rshiny app on Ph2b trial design based on MCP-Mod</title>
+      <link>/publication/rinpharma_308/</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_308/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>tbc</title>
+      <link>/publication/rinpharma_301/</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_301/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Trends and Current Landscape of ML/AI Publications with Open Source Tools</title>
+      <link>/publication/rinpharma_304/</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_304/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>{gt} for tables</title>
+      <link>/publication/rinpharma_302/</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_302/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>10 Practical Considerations for moving  to R</title>
       <link>/publication/rinpharma_285/</link>
       <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>

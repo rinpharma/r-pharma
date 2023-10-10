@@ -5,12 +5,21 @@
     <link>/tag/novartis/</link>
       <atom:link href="/tag/novartis/index.xml" rel="self" type="application/rss+xml" />
     <description>Novartis</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2023</copyright><lastBuildDate>Wed, 09 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2023</copyright><lastBuildDate>Tue, 24 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
       <title>Novartis</title>
       <link>/tag/novartis/</link>
     </image>
+    
+    <item>
+      <title>Rshiny app on Ph2b trial design based on MCP-Mod</title>
+      <link>/publication/rinpharma_308/</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_308/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Building Shiny Frameworks: Some Lessons</title>

@@ -5,12 +5,21 @@
     <link>/author/christina-fillmore/</link>
       <atom:link href="/author/christina-fillmore/index.xml" rel="self" type="application/rss+xml" />
     <description>Christina Fillmore</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2023</copyright><lastBuildDate>Tue, 08 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2023</copyright><lastBuildDate>Thu, 26 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
       <title>Christina Fillmore</title>
       <link>/author/christina-fillmore/</link>
     </image>
+    
+    <item>
+      <title>Comparing Analysis Method Implementations in Software (CAMIS): An open source repository to document differences in statistical methodology across software</title>
+      <link>/publication/rinpharma_332/</link>
+      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_332/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Why do I spend all my life formatting tables?!</title>

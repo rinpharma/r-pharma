@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alexandra Lauer | R/Pharma</title>
+    <link>/author/alexandra-lauer/</link>
+      <atom:link href="/author/alexandra-lauer/index.xml" rel="self" type="application/rss+xml" />
+    <description>Alexandra Lauer</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2023</copyright><lastBuildDate>Thu, 26 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>Alexandra Lauer</title>
+      <link>/author/alexandra-lauer/</link>
+    </image>
+    
+    <item>
+      <title>A Pivotal Year of R Pilots for Shiny Application Submissions to the FDA / Celebrating a Milestone: R Tables for Regulatory Submission Working Group s eBook on Clinical Data Table Generation</title>
+      <link>/publication/rinpharma_335/</link>
+      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_335/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reality Check for R Adoption - A Mid-Size Pharma View</title>
+      <link>/publication/rinpharma_337/</link>
+      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_337/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

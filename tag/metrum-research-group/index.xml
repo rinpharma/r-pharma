@@ -5,12 +5,21 @@
     <link>/tag/metrum-research-group/</link>
       <atom:link href="/tag/metrum-research-group/index.xml" rel="self" type="application/rss+xml" />
     <description>Metrum Research Group</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2023</copyright><lastBuildDate>Tue, 08 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2023</copyright><lastBuildDate>Thu, 26 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
       <title>Metrum Research Group</title>
       <link>/tag/metrum-research-group/</link>
     </image>
+    
+    <item>
+      <title>Validating In-House Developed R Packages with mpn.scorecard</title>
+      <link>/publication/rinpharma_342/</link>
+      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_342/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>MeRGE: An ecosystem of open-source R packages for Pharmacometrics from MetrumRG</title>

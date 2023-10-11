@@ -148,19 +148,19 @@
     </item>
     
     <item>
-      <title>tbc</title>
-      <link>/publication/rinpharma_318/</link>
+      <title>Serverless Shiny in Quarto Documents</title>
+      <link>/publication/rinpharma_319/</link>
       <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_318/</guid>
+      <guid>/publication/rinpharma_319/</guid>
       <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>tbc</title>
-      <link>/publication/rinpharma_319/</link>
+      <link>/publication/rinpharma_318/</link>
       <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_319/</guid>
+      <guid>/publication/rinpharma_318/</guid>
       <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
 </description>
     </item>
@@ -195,6 +195,15 @@
       <pubDate>Tue, 24 Oct 2023 10:00:00 +0000</pubDate>
       <guid>/event/rinpharma2023/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Clinical Tables with flextable, tables and rtables</title>
+      <link>/publication/rinpharma_301/</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_301/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -260,15 +269,6 @@
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
       <guid>/publication/rinpharma_308/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>tbc</title>
-      <link>/publication/rinpharma_301/</link>
-      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_301/</guid>
-      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
-</description>
     </item>
     
     <item>
@@ -3100,6 +3100,14 @@ Lieberman - Sanofi.&lt;/p&gt;
       <link>/author/max-kuhn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/author/max-kuhn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Maya Malepati</title>
+      <link>/author/maya-malepati/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/author/maya-malepati/</guid>
       <description></description>
     </item>
     

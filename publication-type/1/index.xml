@@ -14,48 +14,14 @@
     
     <item>
       <title>A Pivotal Year of R Pilots for Shiny Application Submissions to the FDA / Celebrating a Milestone: R Tables for Regulatory Submission Working Group s eBook on Clinical Data Table Generation</title>
-      <link>/publication/rinpharma_335/</link>
+      <link>/publication/rinpharma_336/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_335/</guid>
+      <guid>/publication/rinpharma_336/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Comparing Analysis Method Implementations in Software (CAMIS): An open source repository to document differences in statistical methodology across software</title>
-      <link>/publication/rinpharma_332/</link>
-      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_332/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dataset-JSON as Alternative Transport Format for Regulatory Submissions</title>
-      <link>/publication/rinpharma_334/</link>
-      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_334/</guid>
-      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Designing a CSR with Shiny</title>
-      <link>/publication/rinpharma_343/</link>
-      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_343/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Enhance Your Everyday Work with LLMs in RStudio</title>
-      <link>/publication/rinpharma_341/</link>
-      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_341/</guid>
-      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Exploration of Large language model-based frameworks to develop R codes for output delivery in pharma</title>
       <link>/publication/rinpharma_333/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
       <guid>/publication/rinpharma_333/</guid>
@@ -63,24 +29,49 @@
     </item>
     
     <item>
-      <title>Introducing smdi: An R package to perform structural missing data investigations for real-world evidence studies</title>
-      <link>/publication/rinpharma_339/</link>
+      <title>Dataset-JSON as Alternative Transport Format for Regulatory Submissions</title>
+      <link>/publication/rinpharma_335/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_339/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Reality Check for R Adoption - A Mid-Size Pharma View</title>
-      <link>/publication/rinpharma_337/</link>
-      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_337/</guid>
+      <guid>/publication/rinpharma_335/</guid>
       <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Using Stan for Synthetic Data Generation and C-QTc Analysis</title>
+      <title>Designing a CSR with Shiny</title>
+      <link>/publication/rinpharma_344/</link>
+      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_344/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enhance Your Everyday Work with LLMs in RStudio</title>
+      <link>/publication/rinpharma_342/</link>
+      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_342/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Exploration of Large language model-based frameworks to develop R codes for output delivery in pharma</title>
+      <link>/publication/rinpharma_334/</link>
+      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_334/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introducing smdi: An R package to perform structural missing data investigations for real-world evidence studies</title>
+      <link>/publication/rinpharma_340/</link>
+      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_340/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reality Check for R Adoption - A Mid-Size Pharma View</title>
       <link>/publication/rinpharma_338/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
       <guid>/publication/rinpharma_338/</guid>
@@ -89,10 +80,19 @@
     </item>
     
     <item>
-      <title>Validating In-House Developed R Packages with mpn.scorecard</title>
-      <link>/publication/rinpharma_342/</link>
+      <title>Using Stan for Synthetic Data Generation and C-QTc Analysis</title>
+      <link>/publication/rinpharma_339/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_342/</guid>
+      <guid>/publication/rinpharma_339/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Validating In-House Developed R Packages with mpn.scorecard</title>
+      <link>/publication/rinpharma_343/</link>
+      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_343/</guid>
       <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
 </description>
     </item>
@@ -119,6 +119,14 @@
       <link>/publication/rinpharma_327/</link>
       <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
       <guid>/publication/rinpharma_327/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enhancing Quality Risk Classification with Natural Language Processing</title>
+      <link>/publication/rinpharma_328/</link>
+      <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_328/</guid>
       <description></description>
     </item>
     

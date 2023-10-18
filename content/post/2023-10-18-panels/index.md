@@ -25,7 +25,7 @@ Join Novo Nordisk colleagues to hear about their recent R-based FDA submission. 
 
 -  James Black (Roche, Moderator)
 -  Eileen Ching (GSK)
--  Pam Klara (ZS)
+-  Pam Kalra (ZS)
 -  Mary Kuklinski (Bristol Myers Squibb)
 -  Kevin Kunzmann (Boehringer Ingelheim)
 -  Eric Nantz (Eli Lilly)
@@ -39,7 +39,7 @@ Hear about the cutting edge and future of statistical computing environments.
 -  Ning Leng (Roche, Moderator)  
 -  Nicole Jones (Denali Therapeutics)
 -  Elena Rantou (FDA)
--  Nicole Rennie (Lancaster University)
+-  Nicola Rennie (Lancaster University)
 -  Lyn Taylor (Parexel)
 
 Career stories from four senior-level women in data science followed by questions/answers.

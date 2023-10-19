@@ -24,6 +24,7 @@ Join Novo Nordisk colleagues to hear about their recent R-based FDA submission. 
 *October 25th 2023, 13:40 EDT*
 
 -  James Black (Roche, Moderator)
+-  Mark Bynens (Johnson & Johnson)
 -  Eileen Ching (GSK)
 -  Pam Kalra (ZS)
 -  Mary Kuklinski (Bristol Myers Squibb)

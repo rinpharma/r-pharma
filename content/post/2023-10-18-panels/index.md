@@ -1,6 +1,6 @@
 ---
 title: R/Pharma 2023 discussion panels
-date: 2022-10-18
+date: 2023-10-18
 summary: A chance to have a Q&A with leaders.
 featured: true
 ---

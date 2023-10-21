@@ -5,7 +5,7 @@ summary: A chance to have a Q&A with leaders.
 featured: true
 ---
 
-We are excited to annonuce three R/Pharma panels this year which will be held at the end of each conference day.
+We are excited to announce three R/Pharma panels this year which will be held at the end of each conference day.
 
 The panels will **not** be recorded.  The only way you can hear the amazing discussions is to attend R/Pharma 2023.  
 

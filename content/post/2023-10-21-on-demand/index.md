@@ -10,7 +10,11 @@ We are excited to announce R/Pharma on-demand talks and the Expo.
 
 ## On-Demand Content
 
-R/Pharma is fortunate to always receive far many more talks than we have space for in the schedule. This year we are trying something new - a selection of talks will be streamed on YouTube after each conference day. If you wish to experience this live, please check our YouTube channel (<https://www.youtube.com/c/RinPharma>) at the times listed below. Recordings will also be available to view after the conference.
+For R/Pharma 2023 we are trying something new!  This year we will be **Premiering** talks on our YouTube channel before and after the standard conference hours.  This will give attendees a chance to engage with content beyond the standard conference time of 10AM to 2PM EDT.  We hope this great content will provide more options for conference engagement and non-EDT inclusivity.  We hope to exlore more with this effort in 2024.
+
+During the **Premier** attendees can post comments and interact through the chat.  The videos will also be available after the talks finish.
+
+If you wish to experience these great talks live, the videos will be **Premiered** on our YouTube channel at (https://www.youtube.com/c/RinPharma) at the times listed below.  Talks are also collected in [this playlist](https://www.youtube.com/playlist?list=PLMtxz1fUYA5ArPGh9axjLsZR7Rq7csrG8).
 
 #### Tuesday, 24th October
 
@@ -23,10 +27,16 @@ The role changes in the "Programming" in the pharmaceutical industry
 5:00PM EDT. Agustin Calatroni (Rho Inc)  
 Interactive Data Visualization for Enhanced Clinical Trial Reporting
 
-6:00PM EDT. Leonard Daniël Samson (GCP-Service International Ltd.& Co. KG)  
+#### Wednesday, 25th October
+
+7:00AM EDT. Leonard Daniël Samson (GCP-Service International Ltd.& Co. KG)  
 Improving monitoring of patients' safety during clinical trials using Quarto. Interactive Reports and a Shiny application within a small to mid-size CRO
 
-#### Wednesday, 25th October
+8:00AM EDT. Mayank Agrawal (Procogia)  
+Processes to a Shiny Suite of Applications for Reproducibility, Reporting, and Scalability
+
+9:00AM EDT. Iakov Davydov (Roche)  
+Designit: a flexible engine to generate experiment layouts
 
 3:00PM EDT. Martin Frigaard (Atorus)  
 What Do You Mean Test Coverage?! Efficient Testing for Shiny Apps
@@ -34,22 +44,16 @@ What Do You Mean Test Coverage?! Efficient Testing for Shiny Apps
 4:00PM EDT. Spencer Childress (Gilead Sciences)  
 {safetyGraphics} Evolution: Community-driven Development of Innovative New Tools
 
-5:00PM EDT. Iakov Davydov (Roche)  
-Designit: a flexible engine to generate experiment layouts
-
-6:00PM EDT. Mayank Agrawal (Procogia)  
-Processes to a Shiny Suite of Applications for Reproducibility, Reporting, and Scalability
-
 #### Thursday, 26th October
+
+8:00AM EDT. Kieran Martin (Roche)  
+Making Data Science Work for Clinical Reporting: a new Coursera course!
 
 3:00PM EDT. Michael Rimler (PHUSE)  
 The State of Open Source Technology in Clinical Data Analysis, Reporting, and Submissions
 
 4:00PM EDT. Ben Wang (Merck & Co.)  
 boxly-An R package to generate interactive box plots
-
-5:00PM EDT. Kieran Martin (Roche)  
-Making Data Science Work for Clinical Reporting: a new Coursera course!
 
 ## R/Pharma Expo
 

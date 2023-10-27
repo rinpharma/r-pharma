@@ -38,14 +38,14 @@ design:
 #   icon_pack: fas
 #   icon: door-open
 
-cta_alt:
-  url: '/workshop/2023conference/'
-  label: Workshops
+# cta_alt:
+#   url: '/workshop/2023conference/'
+#   label: Workshops
 
 ---
 
 The conference is a relatively small, scientifically &
 industry oriented, collegial event focused on the use of R in the development of pharmaceuticals.  
 
-R/Pharma virtual will run Oct 24-26 with workshops the week prior.  Registration for conference and workshops is now open.
+R/Pharma ran virtually from Oct 24-26 with workshops the week before and the week of the conference.  We thank all the presenters and workshop hosts for this amazing event.  Recordings will be online shortly.
 

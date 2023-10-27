@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sophie Sun | R/Pharma</title>
+    <link>/author/sophie-sun/</link>
+      <atom:link href="/author/sophie-sun/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sophie Sun</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2023</copyright><lastBuildDate>Tue, 24 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>Sophie Sun</title>
+      <link>/author/sophie-sun/</link>
+    </image>
+    
+    <item>
+      <title>Rshiny app on Ph2b trial design based on MCP-Mod</title>
+      <link>/publication/rinpharma_308/</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_308/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Subgroup Benchmarking Framework</title>
+      <link>/publication/rinpharma_181/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_181/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

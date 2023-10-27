@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CB Analytics | R/Pharma</title>
+    <link>/tag/cb-analytics/</link>
+      <atom:link href="/tag/cb-analytics/index.xml" rel="self" type="application/rss+xml" />
+    <description>CB Analytics</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2023</copyright><lastBuildDate>Wed, 15 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>CB Analytics</title>
+      <link>/tag/cb-analytics/</link>
+    </image>
+    
+    <item>
+      <title>Optimization of raw materials genealogy in drug manufacturing with R, Shiny and d3</title>
+      <link>/publication/rinpharma_24/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_24/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

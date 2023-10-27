@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Robert Kirk DeLisle | R/Pharma</title>
+    <link>/author/robert-kirk-delisle/</link>
+      <atom:link href="/author/robert-kirk-delisle/index.xml" rel="self" type="application/rss+xml" />
+    <description>Robert Kirk DeLisle</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2023</copyright><lastBuildDate>Wed, 03 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>Robert Kirk DeLisle</title>
+      <link>/author/robert-kirk-delisle/</link>
+    </image>
+    
+    <item>
+      <title>Making Python Objects R-like with PyR</title>
+      <link>/publication/rinpharma_227/</link>
+      <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_227/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

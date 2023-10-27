@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Seth Green | R/Pharma</title>
+    <link>/author/seth-green/</link>
+      <atom:link href="/author/seth-green/index.xml" rel="self" type="application/rss+xml" />
+    <description>Seth Green</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2023</copyright><lastBuildDate>Thu, 26 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>Seth Green</title>
+      <link>/author/seth-green/</link>
+    </image>
+    
+    <item>
+      <title>Validating In-House Developed R Packages with mpn.scorecard</title>
+      <link>/publication/rinpharma_343/</link>
+      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_343/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MeRGE: An ecosystem of open-source R packages for Pharmacometrics from MetrumRG</title>
+      <link>/publication/rinpharma_262/</link>
+      <pubDate>Tue, 08 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_262/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gordon Turner | R/Pharma</title>
+    <link>/author/gordon-turner/</link>
+      <atom:link href="/author/gordon-turner/index.xml" rel="self" type="application/rss+xml" />
+    <description>Gordon Turner</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2023</copyright><lastBuildDate>Thu, 22 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>Gordon Turner</title>
+      <link>/author/gordon-turner/</link>
+    </image>
+    
+    <item>
+      <title>Shiny apps for accelerating early drug discovery research</title>
+      <link>/publication/rinpharma_113/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_113/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

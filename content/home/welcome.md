@@ -38,7 +38,7 @@ design:
 #   icon_pack: fas
 #   icon: door-open
 
- cta_alt:
+cta_alt:
   url: '/workshop/2023conference/'
   label: Workshops
 

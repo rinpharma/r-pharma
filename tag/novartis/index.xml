@@ -14,17 +14,33 @@
     
     <item>
       <title>Rshiny app on Ph2b trial design based on MCP-Mod</title>
-      <link>/publication/rinpharma_308/</link>
+      <link>/publication/rinpharma_328/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_308/</guid>
+      <guid>/publication/rinpharma_328/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Building Shiny Frameworks: Some Lessons</title>
-      <link>/publication/rinpharma_269/</link>
+      <link>/publication/rinpharma_289/</link>
       <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_269/</guid>
+      <guid>/publication/rinpharma_289/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How to use a complete JavaScript toolchain in your Shiny development</title>
+      <link>/publication/rinpharma_267/</link>
+      <pubDate>Thu, 03 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_267/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introduction to {shinyValidator}</title>
+      <link>/publication/rinpharma_264/</link>
+      <pubDate>Wed, 02 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_264/</guid>
       <description></description>
     </item>
     

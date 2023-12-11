@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Univ Sao Paulo | R/Pharma</title>
+    <link>/tag/univ-sao-paulo/</link>
+      <atom:link href="/tag/univ-sao-paulo/index.xml" rel="self" type="application/rss+xml" />
+    <description>Univ Sao Paulo</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2023</copyright><lastBuildDate>Tue, 25 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>Univ Sao Paulo</title>
+      <link>/tag/univ-sao-paulo/</link>
+    </image>
+    
+    <item>
+      <title>Introduction to Julia</title>
+      <link>/publication/rinpharma_250/</link>
+      <pubDate>Tue, 25 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_250/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

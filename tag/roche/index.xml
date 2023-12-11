@@ -14,81 +14,105 @@
     
     <item>
       <title>Why we Need to Improve Software Engineering in Biostatistics - A Call to Action</title>
-      <link>/publication/rinpharma_331/</link>
+      <link>/publication/rinpharma_351/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_331/</guid>
+      <guid>/publication/rinpharma_351/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learnings from deploying a Python package to orchestrate clinical trials outputs generation</title>
-      <link>/publication/rinpharma_326/</link>
+      <link>/publication/rinpharma_346/</link>
       <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_326/</guid>
+      <guid>/publication/rinpharma_346/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The importance of the SCE in enabling our shift from proprietary programming to open-source data science</title>
-      <link>/publication/rinpharma_315/</link>
+      <link>/publication/rinpharma_335/</link>
       <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_315/</guid>
+      <guid>/publication/rinpharma_335/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Updates from the R Validation Hub: Towards a Pharma Repository</title>
-      <link>/publication/rinpharma_320/</link>
+      <link>/publication/rinpharma_340/</link>
       <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_320/</guid>
+      <guid>/publication/rinpharma_340/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Data Science in the Pharmaceutical Industry: A Coursera Specialisation</title>
-      <link>/publication/rinpharma_295/</link>
+      <link>/publication/rinpharma_315/</link>
       <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_295/</guid>
+      <guid>/publication/rinpharma_315/</guid>
       <description></description>
     </item>
     
     <item>
       <title>How CI/CD Enhances the Development of R packages in the Pharmaverse</title>
-      <link>/publication/rinpharma_291/</link>
+      <link>/publication/rinpharma_311/</link>
       <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_291/</guid>
+      <guid>/publication/rinpharma_311/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pharmaverse: Breaking boundaries through open source collaboration!</title>
-      <link>/publication/rinpharma_265/</link>
+      <link>/publication/rinpharma_285/</link>
       <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_265/</guid>
+      <guid>/publication/rinpharma_285/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R pilot submissions to FDA</title>
-      <link>/publication/rinpharma_267/</link>
+      <link>/publication/rinpharma_287/</link>
       <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_267/</guid>
+      <guid>/publication/rinpharma_287/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Roches approach to software validation: an automated pipeline from validation to publication</title>
-      <link>/publication/rinpharma_274/</link>
+      <link>/publication/rinpharma_294/</link>
       <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_274/</guid>
+      <guid>/publication/rinpharma_294/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Working at the intersection of Biostatistics and Software Engineering in a Pharma company</title>
-      <link>/publication/rinpharma_270/</link>
+      <link>/publication/rinpharma_290/</link>
       <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_270/</guid>
+      <guid>/publication/rinpharma_290/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An intro to CI/CD for R packages</title>
+      <link>/publication/rinpharma_268/</link>
+      <pubDate>Fri, 04 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_268/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Clinical Reporting in R (2 day workshop - Oct 31, Nov 1)</title>
+      <link>/publication/rinpharma_260/</link>
+      <pubDate>Mon, 31 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_260/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Creating Submission-Quality Clinical Trial Reporting Tables in R With rtables</title>
+      <link>/publication/rinpharma_253/</link>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_253/</guid>
       <description></description>
     </item>
     

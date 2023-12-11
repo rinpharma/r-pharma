@@ -5,12 +5,21 @@
     <link>/author/daniel-lee/</link>
       <atom:link href="/author/daniel-lee/index.xml" rel="self" type="application/rss+xml" />
     <description>Daniel Lee</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2023</copyright><lastBuildDate>Tue, 26 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2023</copyright><lastBuildDate>Tue, 01 Nov 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
       <title>Daniel Lee</title>
       <link>/author/daniel-lee/</link>
     </image>
+    
+    <item>
+      <title>Advanced Stan Workshop</title>
+      <link>/publication/rinpharma_262/</link>
+      <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_262/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Stan: Building a survival model from scratch</title>

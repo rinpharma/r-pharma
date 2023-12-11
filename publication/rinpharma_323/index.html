@@ -33,7 +33,7 @@
   
     
   
-  <meta name="description" content="How does a risk-averse Pharma Biostatistics organization with 800&#43; people switch from using proprietary software to using R and other open-source tools for delivering clinical trial submissions? First slowly, then all at once. GSK started the transition of using R for its clinical trial data analysis in 2020 and now uses R for our regulatory-reviewed outputs. The AccelerateR Team, an agile pod of R experts and data scientists, rotates through GSK Biostatistics study teams sitting side by side to answer questions and mentor during this transition. We will share our experience from AccelerateR and how other organizations can use our learnings to scale R from pilots to full enterprise adoption and contribute to open source industry R packages." />
+  <meta name="description" content="Clinical development requires quick access to live trial data to address safety questions and evaluate data quality.  Historically, teams have resorted to Excel to manually populate patient profiles, despite human error limitations, inefficiency, and lack of reproducibility. Other solutions offer singular views that require repetitive programming and CDISC SDTM/ADaM dependencies. These options rarely provide quality information at a fast turnaround pace.  To solve these issues, we developed  ctpatprofile , a modular Shiny app framework for on-demand, user generated patient profiles using live, raw EDC and central lab data. Building on Sarepta’s 2022  usebox  talk,  ctpatprofile  features Python BOX SDK for data ingestion, an approachable 1-click UI, and exports to standard outputs for communication.  We will compare trade-offs of using EDC raw data vs derived data and emphasize the use case of starting from raw data, a common scenario in Biotech, or early-stage clinical trials. We will show technical innovations like flexible YAML configurations and parallelized R Markdown PDF rendering for enhanced user experience. We hope the information shared will help Pharmas/Biotechs to explore creating patient profiles from raw EDC data." />
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/rinpharma_323/" />
@@ -322,8 +322,8 @@
   
   <meta property="og:site_name" content="R/Pharma" />
   <meta property="og:url" content="/publication/rinpharma_323/" />
-  <meta property="og:title" content="The Need for Speed - AccelerateR-ing R Adoption in GSK | R/Pharma" />
-  <meta property="og:description" content="How does a risk-averse Pharma Biostatistics organization with 800&#43; people switch from using proprietary software to using R and other open-source tools for delivering clinical trial submissions? First slowly, then all at once. GSK started the transition of using R for its clinical trial data analysis in 2020 and now uses R for our regulatory-reviewed outputs. The AccelerateR Team, an agile pod of R experts and data scientists, rotates through GSK Biostatistics study teams sitting side by side to answer questions and mentor during this transition. We will share our experience from AccelerateR and how other organizations can use our learnings to scale R from pilots to full enterprise adoption and contribute to open source industry R packages." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
+  <meta property="og:title" content="EDC to Patient Profiles: A Biotech {ctpatprofile} Story | R/Pharma" />
+  <meta property="og:description" content="Clinical development requires quick access to live trial data to address safety questions and evaluate data quality.  Historically, teams have resorted to Excel to manually populate patient profiles, despite human error limitations, inefficiency, and lack of reproducibility. Other solutions offer singular views that require repetitive programming and CDISC SDTM/ADaM dependencies. These options rarely provide quality information at a fast turnaround pace.  To solve these issues, we developed  ctpatprofile , a modular Shiny app framework for on-demand, user generated patient profiles using live, raw EDC and central lab data. Building on Sarepta’s 2022  usebox  talk,  ctpatprofile  features Python BOX SDK for data ingestion, an approachable 1-click UI, and exports to standard outputs for communication.  We will compare trade-offs of using EDC raw data vs derived data and emphasize the use case of starting from raw data, a common scenario in Biotech, or early-stage clinical trials. We will show technical innovations like flexible YAML configurations and parallelized R Markdown PDF rendering for enhanced user experience. We hope the information shared will help Pharmas/Biotechs to explore creating patient profiles from raw EDC data." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
     <meta property="twitter:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -332,7 +332,7 @@
         content="1999-01-01T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2023-10-25T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2023-10-24T00:00:00&#43;00:00">
   
 
   
@@ -356,14 +356,14 @@
     "@type": "WebPage",
     "@id": "/publication/rinpharma_323/"
   },
-  "headline": "The Need for Speed - AccelerateR-ing R Adoption in GSK",
+  "headline": "EDC to Patient Profiles: A Biotech {ctpatprofile} Story",
   
   "datePublished": "1999-01-01T00:00:00Z",
-  "dateModified": "2023-10-25T00:00:00Z",
+  "dateModified": "2023-10-24T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Ben Arancibia"
+    "name": "Preston Burns \u0026 Nathan Kosiba"
   },
   
   "publisher": {
@@ -374,7 +374,7 @@
       "url": "/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_192x192_fit_lanczos_2.png"
     }
   },
-  "description": "How does a risk-averse Pharma Biostatistics organization with 800+ people switch from using proprietary software to using R and other open-source tools for delivering clinical trial submissions? First slowly, then all at once. GSK started the transition of using R for its clinical trial data analysis in 2020 and now uses R for our regulatory-reviewed outputs. The AccelerateR Team, an agile pod of R experts and data scientists, rotates through GSK Biostatistics study teams sitting side by side to answer questions and mentor during this transition. We will share our experience from AccelerateR and how other organizations can use our learnings to scale R from pilots to full enterprise adoption and contribute to open source industry R packages."
+  "description": "Clinical development requires quick access to live trial data to address safety questions and evaluate data quality.  Historically, teams have resorted to Excel to manually populate patient profiles, despite human error limitations, inefficiency, and lack of reproducibility. Other solutions offer singular views that require repetitive programming and CDISC SDTM/ADaM dependencies. These options rarely provide quality information at a fast turnaround pace.  To solve these issues, we developed  ctpatprofile , a modular Shiny app framework for on-demand, user generated patient profiles using live, raw EDC and central lab data. Building on Sarepta’s 2022  usebox  talk,  ctpatprofile  features Python BOX SDK for data ingestion, an approachable 1-click UI, and exports to standard outputs for communication.  We will compare trade-offs of using EDC raw data vs derived data and emphasize the use case of starting from raw data, a common scenario in Biotech, or early-stage clinical trials. We will show technical innovations like flexible YAML configurations and parallelized R Markdown PDF rendering for enhanced user experience. We hope the information shared will help Pharmas/Biotechs to explore creating patient profiles from raw EDC data."
 }
 </script>
 
@@ -420,7 +420,7 @@
 
 
 
-  <title>The Need for Speed - AccelerateR-ing R Adoption in GSK | R/Pharma</title>
+  <title>EDC to Patient Profiles: A Biotech {ctpatprofile} Story | R/Pharma</title>
 </head>
 
 
@@ -743,7 +743,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>The Need for Speed - AccelerateR-ing R Adoption in GSK</h1>
+  <h1>EDC to Patient Profiles: A Biotech {ctpatprofile} Story</h1>
 
   
 
@@ -761,7 +761,7 @@
     
 
   <span >
-      <a href="/author/ben-arancibia/">Ben Arancibia</a></span>
+      <a href="/author/preston-burns-nathan-kosiba/">Preston Burns &amp; Nathan Kosiba</a></span>
   </div>
   
   
@@ -797,6 +797,47 @@
 
 
 
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="https://youtu.be/gNsLvYibL-c" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+
+</div>
+
 
   
 </div>
@@ -807,7 +848,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">How does a risk-averse Pharma Biostatistics organization with 800+ people switch from using proprietary software to using R and other open-source tools for delivering clinical trial submissions? First slowly, then all at once. GSK started the transition of using R for its clinical trial data analysis in 2020 and now uses R for our regulatory-reviewed outputs. The AccelerateR Team, an agile pod of R experts and data scientists, rotates through GSK Biostatistics study teams sitting side by side to answer questions and mentor during this transition. We will share our experience from AccelerateR and how other organizations can use our learnings to scale R from pilots to full enterprise adoption and contribute to open source industry R packages.</p>
+    <p class="pub-abstract">Clinical development requires quick access to live trial data to address safety questions and evaluate data quality.  Historically, teams have resorted to Excel to manually populate patient profiles, despite human error limitations, inefficiency, and lack of reproducibility. Other solutions offer singular views that require repetitive programming and CDISC SDTM/ADaM dependencies. These options rarely provide quality information at a fast turnaround pace.  To solve these issues, we developed  ctpatprofile , a modular Shiny app framework for on-demand, user generated patient profiles using live, raw EDC and central lab data. Building on Sarepta’s 2022  usebox  talk,  ctpatprofile  features Python BOX SDK for data ingestion, an approachable 1-click UI, and exports to standard outputs for communication.  We will compare trade-offs of using EDC raw data vs derived data and emphasize the use case of starting from raw data, a common scenario in Biotech, or early-stage clinical trials. We will show technical innovations like flexible YAML configurations and parallelized R Markdown PDF rendering for enhanced user experience. We hope the information shared will help Pharmas/Biotechs to explore creating patient profiles from raw EDC data.</p>
     
 
     
@@ -854,7 +895,7 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/gsk/">GSK</a>
+  <a class="badge badge-light" href="/tag/sarepta/">Sarepta</a>
   
 </div>
 
@@ -871,7 +912,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_323/&amp;text=The%20Need%20for%20Speed%20-%20AccelerateR-ing%20R%20Adoption%20in%20GSK" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_323/&amp;text=EDC%20to%20Patient%20Profiles:%20A%20Biotech%20%7bctpatprofile%7d%20Story" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -884,7 +925,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_323/&amp;t=The%20Need%20for%20Speed%20-%20AccelerateR-ing%20R%20Adoption%20in%20GSK" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_323/&amp;t=EDC%20to%20Patient%20Profiles:%20A%20Biotech%20%7bctpatprofile%7d%20Story" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -897,7 +938,7 @@
       
       
       <li>
-        <a href="mailto:?subject=The%20Need%20for%20Speed%20-%20AccelerateR-ing%20R%20Adoption%20in%20GSK&amp;body=/publication/rinpharma_323/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=EDC%20to%20Patient%20Profiles:%20A%20Biotech%20%7bctpatprofile%7d%20Story&amp;body=/publication/rinpharma_323/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -910,7 +951,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_323/&amp;title=The%20Need%20for%20Speed%20-%20AccelerateR-ing%20R%20Adoption%20in%20GSK" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_323/&amp;title=EDC%20to%20Patient%20Profiles:%20A%20Biotech%20%7bctpatprofile%7d%20Story" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -923,7 +964,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=The%20Need%20for%20Speed%20-%20AccelerateR-ing%20R%20Adoption%20in%20GSK%20/publication/rinpharma_323/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=EDC%20to%20Patient%20Profiles:%20A%20Biotech%20%7bctpatprofile%7d%20Story%20/publication/rinpharma_323/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -936,7 +977,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_323/&amp;title=The%20Need%20for%20Speed%20-%20AccelerateR-ing%20R%20Adoption%20in%20GSK" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_323/&amp;title=EDC%20to%20Patient%20Profiles:%20A%20Biotech%20%7bctpatprofile%7d%20Story" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -983,15 +1024,7 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/publication/rinpharma_226/">Closing the Gap: Creating an End to End R Package Toolkit for the Clinical Reporting Pipeline</a></li>
-      
-      <li><a href="/publication/rinpharma_333/">Comparing Analysis Method Implementations in Software (CAMIS): An open source repository to document differences in statistical methodology across software</a></li>
-      
-      <li><a href="/publication/rinpharma_312/">Everyones Invited: A Case Study on Bridging the Usability Gap</a></li>
-      
-      <li><a href="/publication/rinpharma_291/">How CI/CD Enhances the Development of R packages in the Pharmaverse</a></li>
-      
-      <li><a href="/publication/rinpharma_206/">Introducing {admiral}—The ADaM in R Asset Library</a></li>
+      <li><a href="/publication/rinpharma_292/">R, Python, and Shiny in harmony: an Out-of-Box secure data backend for RStudio Connect &amp; Workbench</a></li>
       
     </ul>
   </div>

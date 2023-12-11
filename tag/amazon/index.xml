@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Amazon | R/Pharma</title>
+    <link>/tag/amazon/</link>
+      <atom:link href="/tag/amazon/index.xml" rel="self" type="application/rss+xml" />
+    <description>Amazon</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2023</copyright><lastBuildDate>Fri, 04 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>Amazon</title>
+      <link>/tag/amazon/</link>
+    </image>
+    
+    <item>
+      <title>Graph Neural Networks in Drug Discovery: Opportunities and Solutions</title>
+      <link>/publication/rinpharma_269/</link>
+      <pubDate>Fri, 04 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_269/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

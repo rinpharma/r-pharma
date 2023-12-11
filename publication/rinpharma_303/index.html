@@ -33,7 +33,7 @@
   
     
   
-  <meta name="description" content="Clinical development requires quick access to live trial data to address safety questions and evaluate data quality.  Historically, teams have resorted to Excel to manually populate patient profiles, despite human error limitations, inefficiency, and lack of reproducibility. Other solutions offer singular views that require repetitive programming and CDISC SDTM/ADaM dependencies. These options rarely provide quality information at a fast turnaround pace.  To solve these issues, we developed  ctpatprofile , a modular Shiny app framework for on-demand, user generated patient profiles using live, raw EDC and central lab data. Building on Sarepta’s 2022  usebox  talk,  ctpatprofile  features Python BOX SDK for data ingestion, an approachable 1-click UI, and exports to standard outputs for communication.  We will compare trade-offs of using EDC raw data vs derived data and emphasize the use case of starting from raw data, a common scenario in Biotech, or early-stage clinical trials. We will show technical innovations like flexible YAML configurations and parallelized R Markdown PDF rendering for enhanced user experience. We hope the information shared will help Pharmas/Biotechs to explore creating patient profiles from raw EDC data." />
+  <meta name="description" content="Recently there have been a lot of new developments for modeling in the tidyverse. This talk will show off tools for censored regression, an interface to clustering, and how to use the h2o.ai platform for optimizing/fitting models" />
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/rinpharma_303/" />
@@ -322,8 +322,8 @@
   
   <meta property="og:site_name" content="R/Pharma" />
   <meta property="og:url" content="/publication/rinpharma_303/" />
-  <meta property="og:title" content="EDC to Patient Profiles: A Biotech {ctpatprofile} Story | R/Pharma" />
-  <meta property="og:description" content="Clinical development requires quick access to live trial data to address safety questions and evaluate data quality.  Historically, teams have resorted to Excel to manually populate patient profiles, despite human error limitations, inefficiency, and lack of reproducibility. Other solutions offer singular views that require repetitive programming and CDISC SDTM/ADaM dependencies. These options rarely provide quality information at a fast turnaround pace.  To solve these issues, we developed  ctpatprofile , a modular Shiny app framework for on-demand, user generated patient profiles using live, raw EDC and central lab data. Building on Sarepta’s 2022  usebox  talk,  ctpatprofile  features Python BOX SDK for data ingestion, an approachable 1-click UI, and exports to standard outputs for communication.  We will compare trade-offs of using EDC raw data vs derived data and emphasize the use case of starting from raw data, a common scenario in Biotech, or early-stage clinical trials. We will show technical innovations like flexible YAML configurations and parallelized R Markdown PDF rendering for enhanced user experience. We hope the information shared will help Pharmas/Biotechs to explore creating patient profiles from raw EDC data." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
+  <meta property="og:title" content="Three new things in tidymodels | R/Pharma" />
+  <meta property="og:description" content="Recently there have been a lot of new developments for modeling in the tidyverse. This talk will show off tools for censored regression, an interface to clustering, and how to use the h2o.ai platform for optimizing/fitting models" /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
     <meta property="twitter:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -332,7 +332,7 @@
         content="1999-01-01T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2023-10-24T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2022-11-10T00:00:00&#43;00:00">
   
 
   
@@ -356,14 +356,14 @@
     "@type": "WebPage",
     "@id": "/publication/rinpharma_303/"
   },
-  "headline": "EDC to Patient Profiles: A Biotech {ctpatprofile} Story",
+  "headline": "Three new things in tidymodels",
   
   "datePublished": "1999-01-01T00:00:00Z",
-  "dateModified": "2023-10-24T00:00:00Z",
+  "dateModified": "2022-11-10T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Preston Burns \u0026 Nathan Kosiba"
+    "name": "Max Kuhn"
   },
   
   "publisher": {
@@ -374,7 +374,7 @@
       "url": "/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_192x192_fit_lanczos_2.png"
     }
   },
-  "description": "Clinical development requires quick access to live trial data to address safety questions and evaluate data quality.  Historically, teams have resorted to Excel to manually populate patient profiles, despite human error limitations, inefficiency, and lack of reproducibility. Other solutions offer singular views that require repetitive programming and CDISC SDTM/ADaM dependencies. These options rarely provide quality information at a fast turnaround pace.  To solve these issues, we developed  ctpatprofile , a modular Shiny app framework for on-demand, user generated patient profiles using live, raw EDC and central lab data. Building on Sarepta’s 2022  usebox  talk,  ctpatprofile  features Python BOX SDK for data ingestion, an approachable 1-click UI, and exports to standard outputs for communication.  We will compare trade-offs of using EDC raw data vs derived data and emphasize the use case of starting from raw data, a common scenario in Biotech, or early-stage clinical trials. We will show technical innovations like flexible YAML configurations and parallelized R Markdown PDF rendering for enhanced user experience. We hope the information shared will help Pharmas/Biotechs to explore creating patient profiles from raw EDC data."
+  "description": "Recently there have been a lot of new developments for modeling in the tidyverse. This talk will show off tools for censored regression, an interface to clustering, and how to use the h2o.ai platform for optimizing/fitting models"
 }
 </script>
 
@@ -420,7 +420,7 @@
 
 
 
-  <title>EDC to Patient Profiles: A Biotech {ctpatprofile} Story | R/Pharma</title>
+  <title>Three new things in tidymodels | R/Pharma</title>
 </head>
 
 
@@ -743,7 +743,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>EDC to Patient Profiles: A Biotech {ctpatprofile} Story</h1>
+  <h1>Three new things in tidymodels</h1>
 
   
 
@@ -761,7 +761,10 @@
     
 
   <span >
-      <a href="/author/preston-burns-nathan-kosiba/">Preston Burns &amp; Nathan Kosiba</a></span>
+      <a href="/author/max-kuhn/">Max Kuhn</a></span>, <span >
+      <a href="/author/hannah-frick/">Hannah Frick</a></span>, <span >
+      <a href="/author/emil-hvitfeldt/">Emil Hvitfeldt</a></span>, <span >
+      <a href="/author/qiushi-yan/">Qiushi Yan</a></span>
   </div>
   
   
@@ -772,7 +775,7 @@
     
       
     
-    October 2023
+    November 2022
   </span>
   
 
@@ -797,6 +800,47 @@
 
 
 
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="https://youtu.be/QdMjn91KAYQ" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+
+</div>
+
 
   
 </div>
@@ -807,7 +851,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Clinical development requires quick access to live trial data to address safety questions and evaluate data quality.  Historically, teams have resorted to Excel to manually populate patient profiles, despite human error limitations, inefficiency, and lack of reproducibility. Other solutions offer singular views that require repetitive programming and CDISC SDTM/ADaM dependencies. These options rarely provide quality information at a fast turnaround pace.  To solve these issues, we developed  ctpatprofile , a modular Shiny app framework for on-demand, user generated patient profiles using live, raw EDC and central lab data. Building on Sarepta’s 2022  usebox  talk,  ctpatprofile  features Python BOX SDK for data ingestion, an approachable 1-click UI, and exports to standard outputs for communication.  We will compare trade-offs of using EDC raw data vs derived data and emphasize the use case of starting from raw data, a common scenario in Biotech, or early-stage clinical trials. We will show technical innovations like flexible YAML configurations and parallelized R Markdown PDF rendering for enhanced user experience. We hope the information shared will help Pharmas/Biotechs to explore creating patient profiles from raw EDC data.</p>
+    <p class="pub-abstract">Recently there have been a lot of new developments for modeling in the tidyverse. This talk will show off tools for censored regression, an interface to clustering, and how to use the h2o.ai platform for optimizing/fitting models</p>
     
 
     
@@ -835,7 +879,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">Presented at 2023 Conference</div>
+          <div class="col-12 col-md-9">Presented at 2022 Conference</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -854,7 +898,7 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/sarepta/">Sarepta</a>
+  <a class="badge badge-light" href="/tag/rstudio/">RStudio</a>
   
 </div>
 
@@ -871,7 +915,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_303/&amp;text=EDC%20to%20Patient%20Profiles:%20A%20Biotech%20%7bctpatprofile%7d%20Story" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_303/&amp;text=Three%20new%20things%20in%20tidymodels" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -884,7 +928,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_303/&amp;t=EDC%20to%20Patient%20Profiles:%20A%20Biotech%20%7bctpatprofile%7d%20Story" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_303/&amp;t=Three%20new%20things%20in%20tidymodels" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -897,7 +941,7 @@
       
       
       <li>
-        <a href="mailto:?subject=EDC%20to%20Patient%20Profiles:%20A%20Biotech%20%7bctpatprofile%7d%20Story&amp;body=/publication/rinpharma_303/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Three%20new%20things%20in%20tidymodels&amp;body=/publication/rinpharma_303/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -910,7 +954,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_303/&amp;title=EDC%20to%20Patient%20Profiles:%20A%20Biotech%20%7bctpatprofile%7d%20Story" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_303/&amp;title=Three%20new%20things%20in%20tidymodels" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -923,7 +967,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=EDC%20to%20Patient%20Profiles:%20A%20Biotech%20%7bctpatprofile%7d%20Story%20/publication/rinpharma_303/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Three%20new%20things%20in%20tidymodels%20/publication/rinpharma_303/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -936,7 +980,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_303/&amp;title=EDC%20to%20Patient%20Profiles:%20A%20Biotech%20%7bctpatprofile%7d%20Story" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_303/&amp;title=Three%20new%20things%20in%20tidymodels" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -956,6 +1000,24 @@
 
 
   
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
   
     
 
@@ -983,7 +1045,15 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/publication/rinpharma_272/">R, Python, and Shiny in harmony: an Out-of-Box secure data backend for RStudio Connect &amp; Workbench</a></li>
+      <li><a href="/publication/rinpharma_261/">Admin - Clinical Environment Management</a></li>
+      
+      <li><a href="/publication/rinpharma_259/">Building a Data Science Community at Your Pharma</a></li>
+      
+      <li><a href="/publication/rinpharma_194/">Clinical Tables in gt</a></li>
+      
+      <li><a href="/publication/rinpharma_153/">Data visualization for real-world machine learning</a></li>
+      
+      <li><a href="/publication/rinpharma_255/">How to use pointblank to understand, validate, and document your data</a></li>
       
     </ul>
   </div>

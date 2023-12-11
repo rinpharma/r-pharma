@@ -5,12 +5,176 @@
     <link>/publication-type/3/</link>
       <atom:link href="/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
     <description>3</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2023</copyright><lastBuildDate>Fri, 05 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2023</copyright><lastBuildDate>Fri, 04 Nov 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
       <title>3</title>
       <link>/publication-type/3/</link>
     </image>
+    
+    <item>
+      <title>An intro to CI/CD for R packages</title>
+      <link>/publication/rinpharma_268/</link>
+      <pubDate>Fri, 04 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_268/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graph Neural Networks in Drug Discovery: Opportunities and Solutions</title>
+      <link>/publication/rinpharma_269/</link>
+      <pubDate>Fri, 04 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_269/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A hands on introduction to Quarto</title>
+      <link>/publication/rinpharma_265/</link>
+      <pubDate>Thu, 03 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_265/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building Production-Quality Shiny Applications</title>
+      <link>/publication/rinpharma_266/</link>
+      <pubDate>Thu, 03 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_266/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How to use a complete JavaScript toolchain in your Shiny development</title>
+      <link>/publication/rinpharma_267/</link>
+      <pubDate>Thu, 03 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_267/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introducing {gtreg}: an R package to produce regulatory tables for clinical research</title>
+      <link>/publication/rinpharma_263/</link>
+      <pubDate>Wed, 02 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_263/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introduction to {shinyValidator}</title>
+      <link>/publication/rinpharma_264/</link>
+      <pubDate>Wed, 02 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_264/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Admin - Clinical Environment Management</title>
+      <link>/publication/rinpharma_261/</link>
+      <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_261/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Advanced Stan Workshop</title>
+      <link>/publication/rinpharma_262/</link>
+      <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_262/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Building a Data Science Community at Your Pharma</title>
+      <link>/publication/rinpharma_259/</link>
+      <pubDate>Mon, 31 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_259/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Clinical Reporting in R (2 day workshop - Oct 31, Nov 1)</title>
+      <link>/publication/rinpharma_260/</link>
+      <pubDate>Mon, 31 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_260/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coding Typical Clinical Processes Using R for the Entry Level Programmer</title>
+      <link>/publication/rinpharma_257/</link>
+      <pubDate>Fri, 28 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_257/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introduction to Observable - Companion Visualization Tool for Your Analysis</title>
+      <link>/publication/rinpharma_258/</link>
+      <pubDate>Fri, 28 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_258/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using R to derive robust insights from real-world health care data</title>
+      <link>/publication/rinpharma_256/</link>
+      <pubDate>Fri, 28 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_256/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How to build Shiny testing architecture</title>
+      <link>/publication/rinpharma_254/</link>
+      <pubDate>Thu, 27 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_254/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How to use pointblank to understand, validate, and document your data</title>
+      <link>/publication/rinpharma_255/</link>
+      <pubDate>Thu, 27 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_255/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Creating Submission-Quality Clinical Trial Reporting Tables in R With rtables</title>
+      <link>/publication/rinpharma_253/</link>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_253/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Drill Down Summary Tables in Shiny with Tplyr</title>
+      <link>/publication/rinpharma_252/</link>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_252/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introduction to Julia</title>
+      <link>/publication/rinpharma_250/</link>
+      <pubDate>Tue, 25 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_250/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shiny for Python</title>
+      <link>/publication/rinpharma_251/</link>
+      <pubDate>Tue, 25 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_251/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Deep Learning</title>
@@ -34,7 +198,8 @@
       <link>/publication/rinpharma_199/</link>
       <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
       <guid>/publication/rinpharma_199/</guid>
-      <description></description>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -67,7 +232,8 @@
       <link>/publication/rinpharma_194/</link>
       <pubDate>Thu, 28 Oct 2021 00:00:00 +0000</pubDate>
       <guid>/publication/rinpharma_194/</guid>
-      <description></description>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
     </item>
     
     <item>

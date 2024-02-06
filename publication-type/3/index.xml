@@ -5,12 +5,150 @@
     <link>/publication-type/3/</link>
       <atom:link href="/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
     <description>3</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2024</copyright><lastBuildDate>Fri, 04 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2024</copyright><lastBuildDate>Fri, 27 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
       <title>3</title>
       <link>/publication-type/3/</link>
     </image>
+    
+    <item>
+      <title>Advanced Exploratory Visualization Techniques - ggplot2, plotly &amp; purrr</title>
+      <link>/publication/rinpharma_383/</link>
+      <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_383/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Preview of Posit Administrator Training</title>
+      <link>/publication/rinpharma_382/</link>
+      <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_382/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Developing &amp; Testing Your Shiny Application</title>
+      <link>/publication/rinpharma_332/</link>
+      <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_332/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pharmaverse Friday: Generating TLGs using NEST / Falcon - a Masterclass</title>
+      <link>/publication/rinpharma_331/</link>
+      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_331/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pharmaverse Friday: Pharmaverse Champion.  Intro to the Pharmaverse</title>
+      <link>/publication/rinpharma_329/</link>
+      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_329/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pharmaverse Friday: Revolutionize Clinical Trial Data Exploration - teal</title>
+      <link>/publication/rinpharma_330/</link>
+      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_330/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Case-Study Driven Motivation of Analysis Results Data</title>
+      <link>/publication/rinpharma_326/</link>
+      <pubDate>Thu, 19 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_326/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Intro to Unveiling OPS Cell Patterns with Python</title>
+      <link>/publication/rinpharma_328/</link>
+      <pubDate>Thu, 19 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_328/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>From The Statistical Method To The R Package - The mmrm Example</title>
+      <link>/publication/rinpharma_327/</link>
+      <pubDate>Thu, 19 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_327/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introduction to Machine Learning with {tidymodels}</title>
+      <link>/publication/rinpharma_323/</link>
+      <pubDate>Wed, 18 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_323/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quarto All the Things!</title>
+      <link>/publication/rinpharma_324/</link>
+      <pubDate>Wed, 18 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_324/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>{targets} &amp; {crew} for Clinical Trial Simulation Pipelines</title>
+      <link>/publication/rinpharma_325/</link>
+      <pubDate>Wed, 18 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_325/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Version Control with Git &amp; RStudio – Handy Tips for Use &amp; How to Resolve Common Issues</title>
+      <link>/publication/rinpharma_321/</link>
+      <pubDate>Tue, 17 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_321/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visual Studio Code for Pharma: An Introduction</title>
+      <link>/publication/rinpharma_322/</link>
+      <pubDate>Tue, 17 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_322/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building a Survival Model in Stan</title>
+      <link>/publication/rinpharma_319/</link>
+      <pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_319/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Observable Plot</title>
+      <link>/publication/rinpharma_320/</link>
+      <pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_320/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using pointblank Package to Ensure Maximal Data Quality: Pfizer Case Study</title>
+      <link>/publication/rinpharma_318/</link>
+      <pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_318/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>An intro to CI/CD for R packages</title>

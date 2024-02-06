@@ -33,7 +33,7 @@
   
     
   
-  <meta name="description" content="Since 2021, the FDA and the NIH have increased citations and notifications for non-compliance with required results reporting on ClinicalTrials.gov. Many studies still do not submit results to ClinicalTrials.gov; some do not publish results after 3 years following study completion. Institutions are limited by a system that provides useful data, but additional steps are required to plan for future actions. Some institutions develop procedures that are not reproducible elsewhere. Private companies have developed software to monitor compliance with a cost. To date, there are a lack of low cost solutions to help institutions remain compliant. The Clinical Trials Dashboard aims to increase compliance by making tracking registration and results status simple, transparent, and reproducible. A user uploads the csv files downloaded from the Protocol Registration and Results System and the dashboard merges, aggregates, and flags studies for review. Downloads include retrospective report as displayed in the dashboard; prospective results, including NIH-defined clinical trials, due in next quarter; and a file with parsed contact information to plan compliance activity." />
+  <meta name="description" content="Pharmacokinetic (PK) analysis data programming poses some unique challenges.  For example, both dosing and concentration records are included, and nominal and actual relative time variables that reference the first dose, the previous dose, or the next upcoming dose are required.  Modelling data may require a number of numeric covariates.  CDISC ADaM submission standards for Non-compartmental Analysis (ADNCA) data have recently been published, and new standards for Population PK (ADPPK) are forthcoming.   admiral  is an open-source R package for creating CDISC ADaM data.  It can be used effectively to create both types of PK analysis data.  Additional tools from other Pharmaverse packages such as  metacore  and  metatools  can be used to simplify the workflow.  I will discuss some of the challenges of Pharmacokinetic data programming and show some of the solutions developed in  admiral  and the Pharmaverse." />
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/rinpharma_342/" />
@@ -322,8 +322,8 @@
   
   <meta property="og:site_name" content="R/Pharma" />
   <meta property="og:url" content="/publication/rinpharma_342/" />
-  <meta property="og:title" content="Clinical Trials Reporting Dashboard | R/Pharma" />
-  <meta property="og:description" content="Since 2021, the FDA and the NIH have increased citations and notifications for non-compliance with required results reporting on ClinicalTrials.gov. Many studies still do not submit results to ClinicalTrials.gov; some do not publish results after 3 years following study completion. Institutions are limited by a system that provides useful data, but additional steps are required to plan for future actions. Some institutions develop procedures that are not reproducible elsewhere. Private companies have developed software to monitor compliance with a cost. To date, there are a lack of low cost solutions to help institutions remain compliant. The Clinical Trials Dashboard aims to increase compliance by making tracking registration and results status simple, transparent, and reproducible. A user uploads the csv files downloaded from the Protocol Registration and Results System and the dashboard merges, aggregates, and flags studies for review. Downloads include retrospective report as displayed in the dashboard; prospective results, including NIH-defined clinical trials, due in next quarter; and a file with parsed contact information to plan compliance activity." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
+  <meta property="og:title" content="Pharmacokinetic (PK) data programming in {admiral} and the Pharmaverse | R/Pharma" />
+  <meta property="og:description" content="Pharmacokinetic (PK) analysis data programming poses some unique challenges.  For example, both dosing and concentration records are included, and nominal and actual relative time variables that reference the first dose, the previous dose, or the next upcoming dose are required.  Modelling data may require a number of numeric covariates.  CDISC ADaM submission standards for Non-compartmental Analysis (ADNCA) data have recently been published, and new standards for Population PK (ADPPK) are forthcoming.   admiral  is an open-source R package for creating CDISC ADaM data.  It can be used effectively to create both types of PK analysis data.  Additional tools from other Pharmaverse packages such as  metacore  and  metatools  can be used to simplify the workflow.  I will discuss some of the challenges of Pharmacokinetic data programming and show some of the solutions developed in  admiral  and the Pharmaverse." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
     <meta property="twitter:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -332,7 +332,7 @@
         content="1999-01-01T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2023-10-25T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2023-10-24T00:00:00&#43;00:00">
   
 
   
@@ -356,14 +356,14 @@
     "@type": "WebPage",
     "@id": "/publication/rinpharma_342/"
   },
-  "headline": "Clinical Trials Reporting Dashboard",
+  "headline": "Pharmacokinetic (PK) data programming in {admiral} and the Pharmaverse",
   
   "datePublished": "1999-01-01T00:00:00Z",
-  "dateModified": "2023-10-25T00:00:00Z",
+  "dateModified": "2023-10-24T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Kaitlin Maciejewski"
+    "name": "Jeff Dickinson"
   },
   
   "publisher": {
@@ -374,7 +374,7 @@
       "url": "/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_192x192_fit_lanczos_2.png"
     }
   },
-  "description": "Since 2021, the FDA and the NIH have increased citations and notifications for non-compliance with required results reporting on ClinicalTrials.gov. Many studies still do not submit results to ClinicalTrials.gov; some do not publish results after 3 years following study completion. Institutions are limited by a system that provides useful data, but additional steps are required to plan for future actions. Some institutions develop procedures that are not reproducible elsewhere. Private companies have developed software to monitor compliance with a cost. To date, there are a lack of low cost solutions to help institutions remain compliant. The Clinical Trials Dashboard aims to increase compliance by making tracking registration and results status simple, transparent, and reproducible. A user uploads the csv files downloaded from the Protocol Registration and Results System and the dashboard merges, aggregates, and flags studies for review. Downloads include retrospective report as displayed in the dashboard; prospective results, including NIH-defined clinical trials, due in next quarter; and a file with parsed contact information to plan compliance activity."
+  "description": "Pharmacokinetic (PK) analysis data programming poses some unique challenges.  For example, both dosing and concentration records are included, and nominal and actual relative time variables that reference the first dose, the previous dose, or the next upcoming dose are required.  Modelling data may require a number of numeric covariates.  CDISC ADaM submission standards for Non-compartmental Analysis (ADNCA) data have recently been published, and new standards for Population PK (ADPPK) are forthcoming.   admiral  is an open-source R package for creating CDISC ADaM data.  It can be used effectively to create both types of PK analysis data.  Additional tools from other Pharmaverse packages such as  metacore  and  metatools  can be used to simplify the workflow.  I will discuss some of the challenges of Pharmacokinetic data programming and show some of the solutions developed in  admiral  and the Pharmaverse."
 }
 </script>
 
@@ -420,7 +420,7 @@
 
 
 
-  <title>Clinical Trials Reporting Dashboard | R/Pharma</title>
+  <title>Pharmacokinetic (PK) data programming in {admiral} and the Pharmaverse | R/Pharma</title>
 </head>
 
 
@@ -743,7 +743,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Clinical Trials Reporting Dashboard</h1>
+  <h1>Pharmacokinetic (PK) data programming in {admiral} and the Pharmaverse</h1>
 
   
 
@@ -761,8 +761,7 @@
     
 
   <span >
-      <a href="/author/kaitlin-maciejewski/">Kaitlin Maciejewski</a></span>, <span >
-      <a href="/author/jesse-reynolds/">Jesse Reynolds</a></span>
+      <a href="/author/jeff-dickinson/">Jeff Dickinson</a></span>
   </div>
   
   
@@ -823,21 +822,13 @@
 
 
 
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header" href="https://github.com/rinpharma/2023_presentations/blob/main/talks_folder/2023-Maciejewski-Clinical_Trials_Reporting_Dashboard.pptx" target="_blank" rel="noopener">
-  Slides
-</a>
-
 
 
   
   
     
   
-<a class="btn btn-outline-primary btn-page-header" href="https://youtu.be/XzgiMbBuUyc" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://youtu.be/70tqe60aL1w" target="_blank" rel="noopener">
   Video
 </a>
 
@@ -857,7 +848,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Since 2021, the FDA and the NIH have increased citations and notifications for non-compliance with required results reporting on ClinicalTrials.gov. Many studies still do not submit results to ClinicalTrials.gov; some do not publish results after 3 years following study completion. Institutions are limited by a system that provides useful data, but additional steps are required to plan for future actions. Some institutions develop procedures that are not reproducible elsewhere. Private companies have developed software to monitor compliance with a cost. To date, there are a lack of low cost solutions to help institutions remain compliant. The Clinical Trials Dashboard aims to increase compliance by making tracking registration and results status simple, transparent, and reproducible. A user uploads the csv files downloaded from the Protocol Registration and Results System and the dashboard merges, aggregates, and flags studies for review. Downloads include retrospective report as displayed in the dashboard; prospective results, including NIH-defined clinical trials, due in next quarter; and a file with parsed contact information to plan compliance activity.</p>
+    <p class="pub-abstract">Pharmacokinetic (PK) analysis data programming poses some unique challenges.  For example, both dosing and concentration records are included, and nominal and actual relative time variables that reference the first dose, the previous dose, or the next upcoming dose are required.  Modelling data may require a number of numeric covariates.  CDISC ADaM submission standards for Non-compartmental Analysis (ADNCA) data have recently been published, and new standards for Population PK (ADPPK) are forthcoming.   admiral  is an open-source R package for creating CDISC ADaM data.  It can be used effectively to create both types of PK analysis data.  Additional tools from other Pharmaverse packages such as  metacore  and  metatools  can be used to simplify the workflow.  I will discuss some of the challenges of Pharmacokinetic data programming and show some of the solutions developed in  admiral  and the Pharmaverse.</p>
     
 
     
@@ -904,7 +895,7 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/yale-center-for-analytical-sciences/">Yale Center for Analytical Sciences</a>
+  <a class="badge badge-light" href="/tag/navitas-data-sciences/">Navitas Data Sciences</a>
   
 </div>
 
@@ -921,7 +912,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_342/&amp;text=Clinical%20Trials%20Reporting%20Dashboard" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_342/&amp;text=Pharmacokinetic%20%28PK%29%20data%20programming%20in%20%7badmiral%7d%20and%20the%20Pharmaverse" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -934,7 +925,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_342/&amp;t=Clinical%20Trials%20Reporting%20Dashboard" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_342/&amp;t=Pharmacokinetic%20%28PK%29%20data%20programming%20in%20%7badmiral%7d%20and%20the%20Pharmaverse" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -947,7 +938,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Clinical%20Trials%20Reporting%20Dashboard&amp;body=/publication/rinpharma_342/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Pharmacokinetic%20%28PK%29%20data%20programming%20in%20%7badmiral%7d%20and%20the%20Pharmaverse&amp;body=/publication/rinpharma_342/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -960,7 +951,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_342/&amp;title=Clinical%20Trials%20Reporting%20Dashboard" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_342/&amp;title=Pharmacokinetic%20%28PK%29%20data%20programming%20in%20%7badmiral%7d%20and%20the%20Pharmaverse" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -973,7 +964,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Clinical%20Trials%20Reporting%20Dashboard%20/publication/rinpharma_342/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Pharmacokinetic%20%28PK%29%20data%20programming%20in%20%7badmiral%7d%20and%20the%20Pharmaverse%20/publication/rinpharma_342/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -986,7 +977,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_342/&amp;title=Clinical%20Trials%20Reporting%20Dashboard" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_342/&amp;title=Pharmacokinetic%20%28PK%29%20data%20programming%20in%20%7badmiral%7d%20and%20the%20Pharmaverse" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1006,12 +997,6 @@
 
 
   
-  
-    
-
-
-
-
   
     
 

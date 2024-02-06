@@ -5,12 +5,20 @@
     <link>/author/devin-pastoor/</link>
       <atom:link href="/author/devin-pastoor/index.xml" rel="self" type="application/rss+xml" />
     <description>Devin Pastoor</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2024</copyright><lastBuildDate>Tue, 01 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2024</copyright><lastBuildDate>Wed, 18 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
       <title>Devin Pastoor</title>
       <link>/author/devin-pastoor/</link>
     </image>
+    
+    <item>
+      <title>Quarto All the Things!</title>
+      <link>/publication/rinpharma_324/</link>
+      <pubDate>Wed, 18 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_324/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Admin - Clinical Environment Management</title>

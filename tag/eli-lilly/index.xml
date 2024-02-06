@@ -14,9 +14,17 @@
     
     <item>
       <title>A Pivotal Year of R Pilots for Shiny Application Submissions to the FDA / Celebrating a Milestone: R Tables for Regulatory Submission Working Group s eBook on Clinical Data Table Generation</title>
-      <link>/publication/rinpharma_356/</link>
+      <link>/publication/rinpharma_371/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_356/</guid>
+      <guid>/publication/rinpharma_371/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>{targets} &amp; {crew} for Clinical Trial Simulation Pipelines</title>
+      <link>/publication/rinpharma_325/</link>
+      <pubDate>Wed, 18 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_325/</guid>
       <description></description>
     </item>
     

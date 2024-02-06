@@ -5,12 +5,20 @@
     <link>/author/megan-chiang/</link>
       <atom:link href="/author/megan-chiang/index.xml" rel="self" type="application/rss+xml" />
     <description>Megan Chiang</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2024</copyright><lastBuildDate>Wed, 09 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2024</copyright><lastBuildDate>Tue, 17 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
       <title>Megan Chiang</title>
       <link>/author/megan-chiang/</link>
     </image>
+    
+    <item>
+      <title>Visual Studio Code for Pharma: An Introduction</title>
+      <link>/publication/rinpharma_322/</link>
+      <pubDate>Tue, 17 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_322/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>R in the Cloud: A Holistic Approach towards GxP Compliance</title>

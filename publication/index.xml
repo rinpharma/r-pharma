@@ -13,266 +13,404 @@
     </image>
     
     <item>
+      <title>Advanced Exploratory Visualization Techniques - ggplot2, plotly &amp; purrr</title>
+      <link>/publication/rinpharma_383/</link>
+      <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_383/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Preview of Posit Administrator Training</title>
+      <link>/publication/rinpharma_382/</link>
+      <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_382/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>A Pivotal Year of R Pilots for Shiny Application Submissions to the FDA / Celebrating a Milestone: R Tables for Regulatory Submission Working Group s eBook on Clinical Data Table Generation</title>
-      <link>/publication/rinpharma_356/</link>
+      <link>/publication/rinpharma_371/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_356/</guid>
+      <guid>/publication/rinpharma_371/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Comparing Analysis Method Implementations in Software (CAMIS): An open source repository to document differences in statistical methodology across software</title>
-      <link>/publication/rinpharma_353/</link>
+      <link>/publication/rinpharma_368/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_353/</guid>
+      <guid>/publication/rinpharma_368/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dataset-JSON as Alternative Transport Format for Regulatory Submissions</title>
-      <link>/publication/rinpharma_355/</link>
+      <link>/publication/rinpharma_370/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_355/</guid>
+      <guid>/publication/rinpharma_370/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Designing a CSR with Shiny</title>
-      <link>/publication/rinpharma_364/</link>
+      <link>/publication/rinpharma_379/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_364/</guid>
+      <guid>/publication/rinpharma_379/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Enhance Your Everyday Work with LLMs in RStudio</title>
-      <link>/publication/rinpharma_362/</link>
+      <link>/publication/rinpharma_377/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_362/</guid>
+      <guid>/publication/rinpharma_377/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Exploration of Large language model-based frameworks to develop R codes for output delivery in pharma</title>
-      <link>/publication/rinpharma_354/</link>
+      <link>/publication/rinpharma_369/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_354/</guid>
+      <guid>/publication/rinpharma_369/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Introducing smdi: An R package to perform structural missing data investigations for real-world evidence studies</title>
-      <link>/publication/rinpharma_360/</link>
+      <link>/publication/rinpharma_375/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_360/</guid>
+      <guid>/publication/rinpharma_375/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Reality Check for R Adoption - A Mid-Size Pharma View</title>
-      <link>/publication/rinpharma_358/</link>
+      <link>/publication/rinpharma_373/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_358/</guid>
+      <guid>/publication/rinpharma_373/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Using Stan for Synthetic Data Generation and C-QTc Analysis</title>
-      <link>/publication/rinpharma_359/</link>
+      <link>/publication/rinpharma_374/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_359/</guid>
+      <guid>/publication/rinpharma_374/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Validating In-House Developed R Packages with mpn.scorecard</title>
-      <link>/publication/rinpharma_363/</link>
+      <link>/publication/rinpharma_378/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_363/</guid>
+      <guid>/publication/rinpharma_378/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Why we Need to Improve Software Engineering in Biostatistics - A Call to Action</title>
-      <link>/publication/rinpharma_351/</link>
+      <link>/publication/rinpharma_366/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_351/</guid>
+      <guid>/publication/rinpharma_366/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Accelerating Modeling and Simulation with Scientific Machine Learning in Julia</title>
-      <link>/publication/rinpharma_337/</link>
+      <link>/publication/rinpharma_352/</link>
       <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_337/</guid>
+      <guid>/publication/rinpharma_352/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Clinical Trials Reporting Dashboard</title>
-      <link>/publication/rinpharma_342/</link>
+      <link>/publication/rinpharma_357/</link>
       <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_342/</guid>
+      <guid>/publication/rinpharma_357/</guid>
       <description></description>
     </item>
     
     <item>
       <title>DeProViR:a deep-learning framework based on pre-trained sequence embeddings for predicting host-viral protein-protein interactions</title>
-      <link>/publication/rinpharma_347/</link>
+      <link>/publication/rinpharma_362/</link>
       <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_347/</guid>
+      <guid>/publication/rinpharma_362/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Enhancing Quality Risk Classification with Natural Language Processing</title>
-      <link>/publication/rinpharma_348/</link>
+      <link>/publication/rinpharma_363/</link>
       <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_348/</guid>
+      <guid>/publication/rinpharma_363/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Getting started with torch in R</title>
-      <link>/publication/rinpharma_338/</link>
+      <link>/publication/rinpharma_353/</link>
       <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_338/</guid>
+      <guid>/publication/rinpharma_353/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Good Practices for Creating Reproducible Content From Shiny Apps</title>
-      <link>/publication/rinpharma_344/</link>
+      <link>/publication/rinpharma_359/</link>
       <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_344/</guid>
+      <guid>/publication/rinpharma_359/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learnings from deploying a Python package to orchestrate clinical trials outputs generation</title>
-      <link>/publication/rinpharma_346/</link>
+      <link>/publication/rinpharma_361/</link>
       <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_346/</guid>
+      <guid>/publication/rinpharma_361/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Serverless Shiny in Quarto Documents</title>
-      <link>/publication/rinpharma_339/</link>
+      <link>/publication/rinpharma_354/</link>
       <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_339/</guid>
+      <guid>/publication/rinpharma_354/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The importance of the SCE in enabling our shift from proprietary programming to open-source data science</title>
-      <link>/publication/rinpharma_335/</link>
+      <link>/publication/rinpharma_350/</link>
       <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_335/</guid>
+      <guid>/publication/rinpharma_350/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Need for Speed - AccelerateR-ing R Adoption in GSK</title>
-      <link>/publication/rinpharma_343/</link>
+      <link>/publication/rinpharma_358/</link>
       <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_343/</guid>
+      <guid>/publication/rinpharma_358/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Updates from the R Validation Hub: Towards a Pharma Repository</title>
-      <link>/publication/rinpharma_340/</link>
+      <link>/publication/rinpharma_355/</link>
       <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_340/</guid>
+      <guid>/publication/rinpharma_355/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Clinical Tables with flextable, tables and rtables</title>
-      <link>/publication/rinpharma_321/</link>
+      <link>/publication/rinpharma_336/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_321/</guid>
+      <guid>/publication/rinpharma_336/</guid>
       <description></description>
     </item>
     
     <item>
       <title>EDC to Patient Profiles: A Biotech {ctpatprofile} Story</title>
-      <link>/publication/rinpharma_323/</link>
+      <link>/publication/rinpharma_338/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_323/</guid>
+      <guid>/publication/rinpharma_338/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Everyones Invited: A Case Study on Bridging the Usability Gap</title>
-      <link>/publication/rinpharma_332/</link>
+      <link>/publication/rinpharma_347/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_332/</guid>
+      <guid>/publication/rinpharma_347/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Exploring the Packaging of R / Shiny Applications for Regulatory Submission</title>
-      <link>/publication/rinpharma_329/</link>
+      <link>/publication/rinpharma_344/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_329/</guid>
+      <guid>/publication/rinpharma_344/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Improvements made to {gt} in 2023</title>
-      <link>/publication/rinpharma_322/</link>
+      <link>/publication/rinpharma_337/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_322/</guid>
+      <guid>/publication/rinpharma_337/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Interactive Reporting for Safety Monitoring</title>
-      <link>/publication/rinpharma_326/</link>
+      <link>/publication/rinpharma_341/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_326/</guid>
+      <guid>/publication/rinpharma_341/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Introducing openstatsware and the R package {mmrm}</title>
-      <link>/publication/rinpharma_331/</link>
+      <link>/publication/rinpharma_346/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_331/</guid>
+      <guid>/publication/rinpharma_346/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Our Impact in the Evolving Data Landscape</title>
-      <link>/publication/rinpharma_319/</link>
+      <link>/publication/rinpharma_334/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_319/</guid>
+      <guid>/publication/rinpharma_334/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pharmacokinetic (PK) data programming in {admiral} and the Pharmaverse</title>
-      <link>/publication/rinpharma_327/</link>
+      <link>/publication/rinpharma_342/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_327/</guid>
+      <guid>/publication/rinpharma_342/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Rshiny app on Ph2b trial design based on MCP-Mod</title>
-      <link>/publication/rinpharma_328/</link>
+      <link>/publication/rinpharma_343/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_328/</guid>
+      <guid>/publication/rinpharma_343/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Trends and Current Landscape of ML/AI Publications with Open Source Tools</title>
-      <link>/publication/rinpharma_324/</link>
+      <link>/publication/rinpharma_339/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_339/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Developing &amp; Testing Your Shiny Application</title>
+      <link>/publication/rinpharma_332/</link>
+      <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_332/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pharmaverse Friday: Generating TLGs using NEST / Falcon - a Masterclass</title>
+      <link>/publication/rinpharma_331/</link>
+      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_331/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pharmaverse Friday: Pharmaverse Champion.  Intro to the Pharmaverse</title>
+      <link>/publication/rinpharma_329/</link>
+      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_329/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pharmaverse Friday: Revolutionize Clinical Trial Data Exploration - teal</title>
+      <link>/publication/rinpharma_330/</link>
+      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_330/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Case-Study Driven Motivation of Analysis Results Data</title>
+      <link>/publication/rinpharma_326/</link>
+      <pubDate>Thu, 19 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_326/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Intro to Unveiling OPS Cell Patterns with Python</title>
+      <link>/publication/rinpharma_328/</link>
+      <pubDate>Thu, 19 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_328/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>From The Statistical Method To The R Package - The mmrm Example</title>
+      <link>/publication/rinpharma_327/</link>
+      <pubDate>Thu, 19 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_327/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introduction to Machine Learning with {tidymodels}</title>
+      <link>/publication/rinpharma_323/</link>
+      <pubDate>Wed, 18 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_323/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quarto All the Things!</title>
+      <link>/publication/rinpharma_324/</link>
+      <pubDate>Wed, 18 Oct 2023 00:00:00 +0000</pubDate>
       <guid>/publication/rinpharma_324/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>{targets} &amp; {crew} for Clinical Trial Simulation Pipelines</title>
+      <link>/publication/rinpharma_325/</link>
+      <pubDate>Wed, 18 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_325/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Version Control with Git &amp; RStudio – Handy Tips for Use &amp; How to Resolve Common Issues</title>
+      <link>/publication/rinpharma_321/</link>
+      <pubDate>Tue, 17 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_321/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visual Studio Code for Pharma: An Introduction</title>
+      <link>/publication/rinpharma_322/</link>
+      <pubDate>Tue, 17 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_322/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building a Survival Model in Stan</title>
+      <link>/publication/rinpharma_319/</link>
+      <pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_319/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Observable Plot</title>
+      <link>/publication/rinpharma_320/</link>
+      <pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_320/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using pointblank Package to Ensure Maximal Data Quality: Pfizer Case Study</title>
+      <link>/publication/rinpharma_318/</link>
+      <pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_318/</guid>
       <description></description>
     </item>
     

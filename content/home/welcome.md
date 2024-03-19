@@ -47,5 +47,4 @@ design:
 The conference is a relatively small, scientifically &
 industry oriented, collegial event focused on the use of R in the development of pharmaceuticals.  
 
-R/Pharma ran virtually from Oct 24-26 with workshops the week before and the week of the conference.  We thank all the presenters and workshop hosts for this amazing event.  Recordings will be online shortly.
-
+We are excited to announce that R/Pharma 2024 virtual conference will run from Oct 29-31 with workshops the week before.  More details will come shortly on this site and through social media.

@@ -8,7 +8,7 @@ weight: 14
 
 
 # Activate this widget? true/false
-active: true
+active: false
 
 content:
   # Choose which groups/teams of users to display.

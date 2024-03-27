@@ -55,14 +55,7 @@ All R/Pharma program participants are encouraged to stay for the general confere
 
 ## Free R/Pharma Virtual
 
-Our free virtual gathering will be on October 29, 30, & 31st. Workshops will run the week before. Each conference day will conclude with live non-recorded panels. Virtual registration will open later in early Summer. Call for talks will open in early May. This year we will feature 3 days of content broken out as below:
-
-### Code/Technical Talks:
-Day 1 will be R/Pharma, featuring only R talks.  
-Day 2 will be Open Source in Pharma, featuring talks about R, Python, Julia, Stan, Javascript, and other open-source languages.
-
-### Impact/Advancement Talks:
-Day 3 will be Open Source Advancing Healthcare & Drug Development, featuring content about the impact of Open Source to advance healthcare and drug development using tools such as machine learning, AI, deep learning, statistics. These topics will highlight advancements in areas such pharma, drug development, healthcare, medical devices, vaccines, precision medicine, personalized healthcare, Real-World Data and more!
+Our free virtual gathering will be on October 29, 30, & 31st. Workshops will run the week before. Each conference day will conclude with live non-recorded panels. Virtual registration will open later in early Summer. Call for talks will open in early May. This year we will feature 3 days of content covering the use of R and other open source languages in Pharma as well as presentations on the impact of open source in areas such as AI and statistics.
 
 The workshops will run the week before, October 21 - 25. The style and format will be very similar to 2020-2023 etc. We plan to offer free Digital Credentials for people that attend and complete the workshops.
 

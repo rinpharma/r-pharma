@@ -32,11 +32,11 @@ design:
 #  icon_pack: fas
 #  icon: door-open
 
-# cta:
-#   url: '/html/call4papers/'
-#   label: 2023 Call for talks is open till August 11th
-#   icon_pack: fas
-#   icon: door-open
+cta:
+  url: 'https://sessionize.com/rpharma/'
+  label: 2024 Call for talks is open till July 21st
+  icon_pack: fas
+  icon: door-open
 
 # cta_alt:
 #   url: '/workshop/2023conference/'

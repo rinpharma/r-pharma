@@ -5,12 +5,40 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>R/Pharma</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2024</copyright><lastBuildDate>Mon, 25 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2024</copyright><lastBuildDate>Sat, 08 Jun 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
       <title>R/Pharma</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>Call For Talks</title>
+      <link>/post/2024-06-08-call4talks/</link>
+      <pubDate>Sat, 08 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>/post/2024-06-08-call4talks/</guid>
+      <description>&lt;p&gt;We’re excited to announce that the call for talks for Virtual R/Pharma 2024 is now open !!&lt;/p&gt;
+&lt;p&gt;R/Pharma 2024, the conference on all things &lt;a href=&#34;http://opensourceinpharma.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Open Source in Pharma&lt;/a&gt;, will take place October 29th-31st 2024, preceded by Training Days the week prior.  The conference will be fully virtual.  An in-person portion of R/Pharma will be at posit::conf(2024) on August 11th.  More information, including a link to booking R/Pharma in-person can be found here: &lt;a href=&#34;https://posit.co/blog/register-for-r-pharma-at-posit-conf-2024/&#34;&gt;https://posit.co/blog/register-for-r-pharma-at-posit-conf-2024/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We are particularly interested in talks from people who cannot usually make it to the in-person event or are newer to conference speaking. R/Pharma committee members are offering free speaker coaching: as long as you have an interesting R/Pharma idea and are willing to put in some work, we’ll help you develop a great talk. Talks are short (10-20 minutes) high energy presentations that give you the chance to talk about an interesting project that you’ve tackled with R in pharma. Short talks, or demos of your R/Python code, R/Stan/Julia packages, and shiny apps are great options.&lt;/p&gt;
+&lt;p&gt;In addition, we&amp;rsquo;ll be including on-demand pre-recorded talks throughout the conference and an expo to show off your great open source code (more info on expo to follow).&lt;/p&gt;
+&lt;p&gt;We are particularly interested in submissions that have one or more of these qualities:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Examples of how shiny is used for interactive reporting for late-stage work&lt;/li&gt;
+&lt;li&gt;Showcase the use of Open Source for drug discovery and development&lt;/li&gt;
+&lt;li&gt;Using Open Source AI in Pharma&lt;/li&gt;
+&lt;li&gt;Applications from smaller pharma companies / biotechs&lt;/li&gt;
+&lt;li&gt;Expand the use of R in pharma to reach new domains and audiences&lt;/li&gt;
+&lt;li&gt;Combining R with other languages and tools, like Python, Julia, Tensorflow etc.&lt;/li&gt;
+&lt;li&gt;Reporting/Communication using R Markdown, Quarto, Shiny, ggplot2, or something else altogether&lt;/li&gt;
+&lt;li&gt;Discussions on how to teach R/data science effectively in pharma&lt;/li&gt;
+&lt;li&gt;Talks on administering R in pharma and tackling scaling, packages, cloud, HPC etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This year we are using &lt;a href=&#34;https://sessionize.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sessionize&lt;/a&gt; to manage call-for-talks.  To submit a talk please follow this link: &lt;a href=&#34;https://sessionize.com/rpharma/&#34;&gt;https://sessionize.com/rpharma/&lt;/a&gt; and complete the form introducing yourself and your proposed topic.&lt;/p&gt;
+&lt;p&gt;Call-for-talks closes July 21st.&lt;/p&gt;
+&lt;p&gt;To ask a question, please use the form on our &lt;a href=&#34;https://rinpharma.com/contact/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;contact page&lt;/a&gt; to have your question routed to the organising committee Slack channel or email us on &lt;a href=&#34;mailto:info@rinpharma.com&#34;&gt;info@rinpharma.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;SUBMIT AN ABSTRACT TODAY!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>In-Person and Virtual Events for 2024</title>

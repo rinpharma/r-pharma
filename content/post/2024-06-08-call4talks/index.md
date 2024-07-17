@@ -27,7 +27,7 @@ We are particularly interested in submissions that have one or more of these qua
 
 This year we are using [sessionize](https://sessionize.com/) to manage call-for-talks.  To submit a talk please follow this link: https://sessionize.com/rpharma/ and complete the form introducing yourself and your proposed topic.
 
-Call-for-talks closes July 21st.
+Call-for-talks closes July 31st.
 
 To ask a question, please use the form on our [contact page](https://rinpharma.com/contact/) to have your question routed to the organising committee Slack channel or email us on info@rinpharma.com
 

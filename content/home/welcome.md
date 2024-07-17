@@ -34,7 +34,7 @@ design:
 
 cta:
   url: 'https://sessionize.com/rpharma/'
-  label: 2024 Call for talks is open till July 21st
+  label: 2024 Call for talks is open till July 31st
   icon_pack: fas
   icon: door-open
 

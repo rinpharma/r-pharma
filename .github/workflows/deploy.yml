@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-20.04
     env:
       GOOGLESHEETS4_PASSWORD: ${{ secrets.GOOGLESHEETS4_PASSWORD }}
-      RSPM: https://packagemanager.rstudio.com/cran/__linux__/bionic/latest
+      RSPM: https://packagemanager.posit.co/cran/__linux__/bionic/2024-06-01/
       REPO_PIN_PAT: ${{ secrets.REPO_PIN_PAT }}
     steps:
       - uses: r-lib/actions/setup-r@v2

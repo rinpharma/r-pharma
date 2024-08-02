@@ -3650,6 +3650,41 @@ Lieberman - Sanofi.&lt;/p&gt;
     </item>
     
     <item>
+      <title>Privacy Policy</title>
+      <link>/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/privacy/</guid>
+      <description>&lt;p&gt;Last Updated: August 2, 2024&lt;/p&gt;
+&lt;h1 id=&#34;personal-information-that-open-source-in-pharma-collects&#34;&gt;Personal Information that Open Source in Pharma Collects&lt;/h1&gt;
+&lt;h2 id=&#34;how-your-information-is-treated&#34;&gt;How Your Information is Treated&lt;/h2&gt;
+&lt;p&gt;Open Source in Pharma does not sell, trade or otherwise transfer your personal information to third parties in any manner that could be harmful, dangerous or violates your privacy.  We do use third party platforms to help manage event registration, conferences and workshops.  All third party platforms are listed, with links to their privacy policies, at the end of this document.&lt;/p&gt;
+&lt;h2 id=&#34;virtual-event-registration&#34;&gt;Virtual Event Registration&lt;/h2&gt;
+&lt;p&gt;Open Source in Pharma uses third party software to manage virtual events.  We collect names and email addresses.  You may be asked for affiliate information and, optionally, social media links and a photograph.  If you are a speaker at an Open Source in Pharma event we may ask for additional biographical information and photograph&lt;/p&gt;
+&lt;h2 id=&#34;workshops&#34;&gt;Workshops&lt;/h2&gt;
+&lt;p&gt;Open Source in Pharma uses third party software to manage workshops and workshop registration.  We collect names and email addresses.  For workshop registration we may collect information that identifies the country from which you are connecting.  When we offer credentialing for workshops, we request name and email addresses.&lt;/p&gt;
+&lt;h2 id=&#34;in-person-event&#34;&gt;In-Person Event&lt;/h2&gt;
+&lt;p&gt;In the cases where Open Source in Pharma has partnered with Posit to develop in-person events, these events are included as an offering from Posit and we use Posit’s conference registration platform for attendees to register.  We may take photos or short video during the in-person events.  If you do not wish to be photographed please inform the organizers at &lt;a href=&#34;mailto:info@rinpharma.com&#34;&gt;info@rinpharma.com&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;sign-up-for-virtual-meetings-and-hangouts&#34;&gt;Sign-Up For Virtual Meetings and Hangouts&lt;/h2&gt;
+&lt;p&gt;Open Source in Pharma supports The R/Pharma Diversity Alliance and R/Pharma Hangouts.  People have the opportunity to sign up for notifications for upcoming meetings using AddEvent.&lt;/p&gt;
+&lt;h2 id=&#34;information-from-cookies&#34;&gt;Information From Cookies&lt;/h2&gt;
+&lt;p&gt;Our third-party providers use cookies to automatically collect and record information about your usage and browsing activities on their sites.  We may use third-party analytics tools such as Google Analytics.&lt;/p&gt;
+&lt;h1 id=&#34;retention-of-your-personal-information&#34;&gt;Retention of Your Personal Information&lt;/h1&gt;
+&lt;p&gt;We generally keep personal information only for as long as required to fulfill the purposes for which it was collected.&lt;/p&gt;
+&lt;h1 id=&#34;platforms-used&#34;&gt;Platforms Used&lt;/h1&gt;
+&lt;p&gt;Open Source in Pharma have used the following platforms to manage attendee registration and events:&lt;br&gt;
+&lt;a href=&#34;https://www.addevent.com/c/legal/privacy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AddEvent&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://info.credly.com/privacy-policy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Credly&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://privacy.eventbrite.com/policies?name=about-us#how-we-use-your-data&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Eventbrite&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://www.ringcentral.com/legal/privacy-notice.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hopin (now RingCentral)&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://posit.co/about/privacy-policy/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Posit&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://sessionize.com/privacy-policy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sessionize&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://www.slido.com/terms#gdpr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Slido&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://explore.zoom.us/en/privacy/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zoom&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Reinhold Koch</title>
       <link>/author/reinhold-koch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3695,29 +3730,38 @@ Lieberman - Sanofi.&lt;/p&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/terms/</guid>
       <description>&lt;ul&gt;
-&lt;li&gt;This is a free event brought to you by passionate volunteers&lt;/li&gt;
-&lt;li&gt;By signing up, you agree that R/Pharma assumes no responsibility, and any costs, annoyances or catastrophic events incurred due to attending this conference are yours and yours alone&lt;/li&gt;
-&lt;li&gt;We’ll take some photos and audio recordings of the talks. Please don’t take recordings of other participants without their permission. * Please let us know if you prefer not to have your talk recorded. While participating in the group activities, your photo may be taken and be posted on the group website. It is your responsibility to inform others if you do not wish to be photographed and inform us if any of your photos to be removed.&lt;/li&gt;
-&lt;li&gt;Please don’t share content at R/Pharma unless you have permission to do so.&lt;/li&gt;
-&lt;li&gt;This is a free event and invites/tickets cannot be transferred or exchanged without permission of the Organizing Committee. In the unlikely occurrence that R in Pharma to be cancelled or postponed due to circumstances beyond the control, we cannot be held responsible for any costs incurred by the event attendee.&lt;/li&gt;
-&lt;li&gt;Speakers are subject to change and we do not guarantee that any specific speakers or participants will appear at the event. However, we will always try to find a suitable replacement if one of our key speakers or participants is unable to attend. Views expressed by speakers at the event may not be the views of R in Pharma.&lt;/li&gt;
-&lt;li&gt;Event materials are provided on an “as is” basis and R in Pharma makes no warranty regarding the accuracy or completeness of those materials.&lt;/li&gt;
+&lt;li&gt;Open Source in Pharma and R/Pharma put on events by passionate volunteers.&lt;/li&gt;
+&lt;li&gt;By registering for our events you agree that Open Source in Pharma and R/Pharma assume no responsibility, and any costs, annoyances or catastrophic events incurred due to attending our events are yours and yours alone.&lt;/li&gt;
+&lt;li&gt;At in-person events we may take some photos, audio or video recordings.  While participating in the group activities, your photo may be taken and be posted on the group website. It is your responsibility to inform others if you do not wish to be photographed and inform us if any of your photos to be removed.  Please do not take recordings of other participants without their permission.  At both in-person and virtual events we record presentations to be shared with attendees.  Please let us know if you are a presenter and you prefer not to have your talk recorded.  Attendees are not permitted to record information at Open Source in Pharma and R/Pharma without written permission.&lt;/li&gt;
+&lt;li&gt;Please don’t share content from Open Source in Pharma or R/Pharma unless you have permission to do so.&lt;/li&gt;
+&lt;li&gt;Tickets to Open Source in Pharma and R/Pharma events cannot be transferred or exchanged without permission of the Organizing Committee. In the unlikely occurrence that an Open Source in Pharma or R/Pharma event is cancelled or postponed due to circumstances beyond our control, we cannot be held responsible for any costs incurred by the event attendee.&lt;/li&gt;
+&lt;li&gt;Speakers are subject to change and we do not guarantee that any specific speakers or participants will appear at Open Source in Pharma and R/Pharma events. However, we will always try to find a suitable replacement if one of our key speakers or participants is unable to attend. Views expressed by speakers at our events may not be the views of Open Source in Pharma or R/Pharma.&lt;/li&gt;
+&lt;li&gt;Event materials are provided on an &amp;ldquo;as is&amp;rdquo; basis and Open Source in Pharma and R/Pharma make no warranty regarding the accuracy or completeness of those materials.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;diversity&#34;&gt;Diversity:&lt;/h1&gt;
-&lt;p&gt;R/Pharma is dedicated to providing a harassment-free conference experience for everyone regardless of gender, sexual orientation, disability or any feature that distinguishes human beings.&lt;/p&gt;
-&lt;h1 id=&#34;policy-statement-of-the-r-in-pharma-conference&#34;&gt;Policy Statement of the R in Pharma Conference:&lt;/h1&gt;
-&lt;p&gt;The purpose of the R in Pharma conference is to foster discussion on the use of R in the pharmaceutical industry. R in Pharma is not, and hopefully never will be a commercially oriented meeting. As such, we do not accept administrative responsibility for distributing commercial materials, nor do we allow vendors to participate in the meeting in any role other than as scientists/practitioners interested in learning or discussing the application of R in Pharma. All attendees are requested to adhere to the spirit of this policy. Please don’t spam attendees.&lt;/p&gt;
+&lt;h1 id=&#34;diversity&#34;&gt;Diversity&lt;/h1&gt;
+&lt;p&gt;Open Source in Pharma and R/Pharma are dedicated to providing harassment-free conference experiences for everyone regardless of gender, sexual orientation, disability or any feature that distinguishes human beings.&lt;/p&gt;
+&lt;h1 id=&#34;policy-statement-of-the-rpharma-conference-and-other-events-hosted-by-open-source-in-pharma&#34;&gt;Policy Statement of the R/Pharma Conference and other events hosted by Open Source in Pharma&lt;/h1&gt;
+&lt;p&gt;The purpose of the R/Pharma conference is to foster discussion on the use of R in the pharmaceutical industry. R/Pharma is not, and hopefully never will be a commercially oriented meeting. As such, we do not accept administrative responsibility for distributing commercial materials, nor do we allow vendors to participate in the meeting in any role other than as scientists/practitioners interested in learning or discussing the application of R in Pharma. All attendees are requested to adhere to the spirit of this policy. Please don’t spam attendees.&lt;/p&gt;
 &lt;h1 id=&#34;terms&#34;&gt;Terms&lt;/h1&gt;
-&lt;p&gt;R/Pharma is free event and comes with ABSOLUTELY NO WARRANTY. YOUR PARTICIPATION IS AT YOUR SOLE AND EXCLUSIVE RISK. By accepting the invitation to attend and registering a ticket, you freely and voluntarily assume all risks. You also agree not to hold organizers responsible for their negligence in connection with the conference or Content or events.&lt;/p&gt;
-&lt;p&gt;R/Pharma assumes no responsibility for any costs (e.g. travel) in any circumstance, examples including if the conference is cancelled, or named speakers are unable to attend.&lt;/p&gt;
-&lt;p&gt;You agree to indemnify, defend, and hold R/Pharma and all parites and its subsidiaries, affiliates, officers, directors, agents, co-branders or other partners, employees, and representatives harmless from and against any and all claims, damages, losses, costs or expenses (including reasonable attorneys’ fees and disbursements) which arise directly or indirectly out of or from (i) your breach of this Agreement, (ii) any allegation that any materials that you submit to R/Pharma or present (e.g., conference, github, website) infringe or otherwise violate the copyright, trade secret, trademark or other intellectual property rights of a third party, and (iii) your access or use of the Sites and/or the Services.&lt;/p&gt;
+&lt;p&gt;The majority of R/Pharma events are free and come with ABSOLUTELY NO WARRANTY. YOUR PARTICIPATION IS AT YOUR SOLE AND EXCLUSIVE RISK. By accepting the invitation to attend and registering a ticket, you freely and voluntarily assume all risks. You also agree not to hold organizers responsible for their negligence in connection with the conference or Content or events.&lt;/p&gt;
+&lt;p&gt;Open Source in Pharma and R/Pharma assume no responsibility for any costs (e.g. travel) in any circumstance, examples including if the conference is cancelled, or named speakers are unable to attend.&lt;/p&gt;
+&lt;p&gt;You agree to indemnify, defend, and hold Open Source in Pharma and R/Pharma and all parites and its subsidiaries, affiliates, officers, directors, agents, co-branders or other partners, employees, and representatives harmless from and against any and all claims, damages, losses, costs or expenses (including reasonable attorneys’ fees and disbursements) which arise directly or indirectly out of or from (i) your breach of this Agreement, (ii) any allegation that any materials that you submit to R/Pharma or present (e.g., conference, github, website) infringe or otherwise violate the copyright, trade secret, trademark or other intellectual property rights of a third party, and (iii) your access or use of the Sites and/or the Services.&lt;/p&gt;
 &lt;p&gt;NOTWITHSTANDING ANYTHING TO THE CONTRARY HEREIN, TO THE FULLEST EXTENT ALLOWED BY LAW, YOU AGREE TO WAIVE, DISCHARGE CLAIMS, RELEASE All Parties FROM ALL LIABILITY AND INDEMNIFY AND HOLD HARMLESS ORGANIZERS, HOSTS, SUBSIDIARIES, AFFILIATES, OFFICERS, AGENTS, VOLUNTEERS AND OTHER PARTNERS AND EMPLOYEES, FROM ANY AND ALL LIABILITY ON ACCOUNT OF, OR IN ANY WAY RESULTING FROM INJURIES AND DAMAGES IN ANY WAY CONNECTED WITH ANY EVENTS OR ACTIVITIES.&lt;/p&gt;
 &lt;h1 id=&#34;notes&#34;&gt;Notes&lt;/h1&gt;
 &lt;p&gt;No confidential information should be disclosed at meetings and no warranty of confidentiality is made by the event organizers. Audio Recordings of events may be taken by event organizers and general content may be used in discussion postings or meeting highlights on our website, github or used elsewhere. Attendees of events acknowledge this content may be shared and release the event organizers to use this content freely. Audio or video recordings of events by attendees are prohibited. We will not share information if you request we do not do so.&lt;/p&gt;
 &lt;h1 id=&#34;cloud-software-terms&#34;&gt;Cloud Software Terms&lt;/h1&gt;
-&lt;p&gt;Please note that Hopin, RStudio Cloud and Eventbrite are third-party Cloud services.&lt;/p&gt;
-&lt;p&gt;The R/Pharma conference runs on the hopin virtual event platform.  Hopin terms and conditions can be found here: &lt;a href=&#34;https://hopin.com/legal-policy-center&#34;&gt;https://hopin.com/legal-policy-center&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;We expect you to provide your full name and email address for our events, and you will have to register with the Eventbrite and Hopin services as a personal consumer. Eventbrite will ask you to create an account with them using at least your first name, last name and your email address. Their terms and conditions state (in summary) that by doing so “[paragraph 17.1] you acknowledge and agree that you grant them full right and licence to use this information for the purpose of operating their Services (including Eventbrite’s promotional and marketing services).” Please also note that Eventbrite is a company registered in the United States, and the data you provide to them is most likely to be kept in the servers outside the European Union. As a result, if you prefer not to use the services provided by Eventbrite to register for a workshop, as an alternative please contact us at &lt;a href=&#34;mailto:info@rinpharma.com&#34;&gt;info@rinpharma.com&lt;/a&gt; directly providing your details required for registration and we will process your registration, if booked while the workshop was still open.&lt;/p&gt;
+&lt;p&gt;We use, or have used, several cloud services to manage Open Source in Pharma and R/Pharma events including
+&lt;a href=&#34;https://www.addevent.com/c/legal/terms&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AddEvent&lt;/a&gt;,
+&lt;a href=&#34;https://info.credly.com/user-terms-of-service&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Credly&lt;/a&gt;,
+&lt;a href=&#34;https://www.eventbrite.com/help/en-us/articles/251210/eventbrite-terms-of-service/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EventBrite&lt;/a&gt;,
+&lt;a href=&#34;https://docs.github.com/en/site-policy/github-terms/github-terms-of-service&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;,
+&lt;a href=&#34;https://www.ringcentral.com/legal/last-update-march-11-2024/eulatos.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hopin (now Ring Central)&lt;/a&gt;,
+&lt;a href=&#34;https://www.eventbrite.com/help/en-us/articles/251210/eventbrite-terms-of-service/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Posit&lt;/a&gt;,
+&lt;a href=&#34;https://sessionize.com/terms-of-service&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sessionize&lt;/a&gt;,
+&lt;a href=&#34;https://www.slido.com/terms#terms-of-service&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Slido&lt;/a&gt;
+and &lt;a href=&#34;https://www.zoom.com/en/trust/terms/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zoom&lt;/a&gt;.
+Please refer to the terms and conditions of these sites.&lt;/p&gt;
+&lt;p&gt;We expect you to provide your full name and email address for our events.  You may have to register with one or more of the platforms listed above to use their services.&lt;/p&gt;
 </description>
     </item>
     

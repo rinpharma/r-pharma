@@ -34,7 +34,7 @@ design:
 
 cta:
   url: 'https://sessionize.com/rpharma/'
-  label: 2024 Call for talks is open till July 31st
+  label: 2024 Call for talks for APAC track is open till August 11th
   icon_pack: fas
   icon: door-open
 

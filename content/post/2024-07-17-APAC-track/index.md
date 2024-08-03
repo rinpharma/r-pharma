@@ -17,7 +17,7 @@ This year, we embrace the global nature of the R/Pharma community, by opening fo
 
 ## Call to Action: What does this mean for you?
 First, definitely mark your calendars for October 29th-31st 2024 and the week before for the workshops, whether you are in APAC or elsewhere in the world.  
-Second, think which topic you have been working on would be cool to share with the R/Pharma community via a short talk. And don’t be afraid - we will offer coaching, also in the APAC time zones to help you develop your talk! Please submit your talk via https://sessionize.com/rpharma/ until July 31st - just complete the form introducing yourself and your proposed topic, and please note the checkbox related to presenting in the relevant time zone.  
+Second, think which topic you have been working on would be cool to share with the R/Pharma community via a short talk. And don’t be afraid - we will offer coaching, also in the APAC time zones to help you develop your talk! Please submit your talk via https://sessionize.com/rpharma/ until August 11th - just complete the form introducing yourself and your proposed topic, and please note the checkbox related to presenting in the relevant time zone.  
 Third, if you have any questions, please use the form on our [contact page](https://rinpharma.com/contact/) to have your question routed to the organizing committee Slack channel or email the APAC committee directly via daniel@rconis.com.
 
 Thanks a lot in advance for your engagement!

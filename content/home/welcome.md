@@ -32,11 +32,11 @@ design:
 #  icon_pack: fas
 #  icon: door-open
 
-cta:
-  url: 'https://sessionize.com/rpharma/'
-  label: 2024 Call for talks for APAC track is open till August 11th
-  icon_pack: fas
-  icon: door-open
+# cta:
+#   url: 'https://sessionize.com/rpharma/'
+#   label: 2024 Call for talks for APAC track is open till August 11th
+#   icon_pack: fas
+#   icon: door-open
 
 # cta_alt:
 #   url: '/workshop/2023conference/'
@@ -47,4 +47,4 @@ cta:
 The conference is a relatively small, scientifically &
 industry oriented, collegial event focused on the use of R in the development of pharmaceuticals.  
 
-We are excited to announce that R/Pharma 2024 virtual conference will run from Oct 29-31 with workshops the week before.  More details will come shortly on this site and through social media.
+We are excited to announce that R/Pharma 2024 virtual conference will run from Oct 29-31 with workshops the week before.  Call for talks is closed and registration details will follow shortly.

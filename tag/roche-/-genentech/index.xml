@@ -13,6 +13,143 @@
     </image>
     
     <item>
+      <title>Exploration of Large language model-based frameworks to develop R codes for output delivery in pharma</title>
+      <link>/publication/rinpharma_369/</link>
+      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_369/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Why we Need to Improve Software Engineering in Biostatistics - A Call to Action</title>
+      <link>/publication/rinpharma_366/</link>
+      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_366/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learnings from deploying a Python package to orchestrate clinical trials outputs generation</title>
+      <link>/publication/rinpharma_361/</link>
+      <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_361/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The importance of the SCE in enabling our shift from proprietary programming to open-source data science</title>
+      <link>/publication/rinpharma_350/</link>
+      <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_350/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trends and Current Landscape of ML/AI Publications with Open Source Tools</title>
+      <link>/publication/rinpharma_339/</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_339/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pharmaverse Friday: Generating TLGs using NEST / Falcon - a Masterclass</title>
+      <link>/publication/rinpharma_331/</link>
+      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_331/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pharmaverse Friday: Revolutionize Clinical Trial Data Exploration - teal</title>
+      <link>/publication/rinpharma_330/</link>
+      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_330/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Science in the Pharmaceutical Industry: A Coursera Specialisation</title>
+      <link>/publication/rinpharma_315/</link>
+      <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_315/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Assuring SDTM data quality with the sdtmchecks package</title>
+      <link>/publication/rinpharma_297/</link>
+      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_297/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pharmaverse: Breaking boundaries through open source collaboration!</title>
+      <link>/publication/rinpharma_285/</link>
+      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_285/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Roches approach to software validation: an automated pipeline from validation to publication</title>
+      <link>/publication/rinpharma_294/</link>
+      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_294/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Working at the intersection of Biostatistics and Software Engineering in a Pharma company</title>
+      <link>/publication/rinpharma_290/</link>
+      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_290/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Creating Submission-Quality Clinical Trial Reporting Tables in R With rtables</title>
+      <link>/publication/rinpharma_253/</link>
+      <pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_253/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Smoothing out our path to open source and pan-pharma code collaboration</title>
+      <link>/publication/rinpharma_237/</link>
+      <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_237/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>5 testing packages to make your package better!</title>
+      <link>/publication/rinpharma_209/</link>
+      <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_209/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R Package Validation at Roche</title>
+      <link>/publication/rinpharma_203/</link>
+      <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_203/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Clinical Trials Data Analysis at Roche</title>
+      <link>/publication/rinpharma_188/</link>
+      <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_188/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Building and Managing Unified R Environments for Data Science and Software Development</title>
       <link>/publication/rinpharma_177/</link>
       <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>

@@ -5,7 +5,7 @@
     <link>/tag/genentech/</link>
       <atom:link href="/tag/genentech/index.xml" rel="self" type="application/rss+xml" />
     <description>Genentech</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2024</copyright><lastBuildDate>Thu, 26 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2024</copyright><lastBuildDate>Thu, 10 Nov 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
       <title>Genentech</title>
@@ -13,42 +13,10 @@
     </image>
     
     <item>
-      <title>Exploration of Large language model-based frameworks to develop R codes for output delivery in pharma</title>
-      <link>/publication/rinpharma_369/</link>
-      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_369/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Trends and Current Landscape of ML/AI Publications with Open Source Tools</title>
-      <link>/publication/rinpharma_339/</link>
-      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_339/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pharmaverse Friday: Revolutionize Clinical Trial Data Exploration - teal</title>
-      <link>/publication/rinpharma_330/</link>
-      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_330/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>How CI/CD Enhances the Development of R packages in the Pharmaverse</title>
       <link>/publication/rinpharma_311/</link>
       <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
       <guid>/publication/rinpharma_311/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Assuring SDTM data quality with the sdtmchecks package</title>
-      <link>/publication/rinpharma_297/</link>
-      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_297/</guid>
       <description></description>
     </item>
     

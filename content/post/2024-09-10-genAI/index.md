@@ -11,7 +11,7 @@ The virtual Single Day Event will be focused on various applications of GenAI su
 
 Free registration: <https://events.zoom.us/ev/AiorGPvjKBEzcEWl2XdKAwr6s5Qnk_i_6hY_CxA7U_aV5yDQ1YWO~Av_fqH23HafGNWzsHRtysPni01Neq8Wt28VfM8uFtFFXbBKxtvKI3y5kHg>
 
-See below for the program (all times in EST).
+See below for the program (all times in EDT).
 
 |     Time      | Speaker                                | Title                                                                                               |
 |:----------------:|---------------------|---------------------------------|

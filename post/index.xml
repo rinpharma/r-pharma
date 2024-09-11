@@ -13,6 +13,75 @@
     </image>
     
     <item>
+      <title>R/Pharma GenAI Day</title>
+      <link>/post/2024-09-10-genai/</link>
+      <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>/post/2024-09-10-genai/</guid>
+      <description>&lt;p&gt;September 17th marks the R/Pharma single day event focused on examples of using generative artificial intelligence (GenAI) with an emphasis in the drug development space and clinical domain.&lt;/p&gt;
+&lt;p&gt;The virtual Single Day Event will be focused on various applications of GenAI such as accelerating the learning of open source languages and supporting late-stage reporting tasks. The day will consist of talks, hands-on sessions and a panel discussion.&lt;/p&gt;
+&lt;p&gt;Free registration: &lt;a href=&#34;https://events.zoom.us/ev/AiorGPvjKBEzcEWl2XdKAwr6s5Qnk_i_6hY_CxA7U_aV5yDQ1YWO~Av_fqH23HafGNWzsHRtysPni01Neq8Wt28VfM8uFtFFXbBKxtvKI3y5kHg&#34;&gt;https://events.zoom.us/ev/AiorGPvjKBEzcEWl2XdKAwr6s5Qnk_i_6hY_CxA7U_aV5yDQ1YWO~Av_fqH23HafGNWzsHRtysPni01Neq8Wt28VfM8uFtFFXbBKxtvKI3y5kHg&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;See below for the program (all times in EST).&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Time&lt;/th&gt;
+&lt;th&gt;Speaker&lt;/th&gt;
+&lt;th&gt;Title&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;10:00-10:40AM&lt;/td&gt;
+&lt;td&gt;Cole Arendt and Phil Bowsher (Posit)&lt;/td&gt;
+&lt;td&gt;Hands-on session: GenAI to Enhance Your Statistical Programming&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;10:40-11:00AM&lt;/td&gt;
+&lt;td&gt;Vincent Shen (Roche)&lt;/td&gt;
+&lt;td&gt;Integrating GenAI with Open-Source Toolkit for Insights Generation to Boost Data Science Efficiency&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;11:10-11:30AM&lt;/td&gt;
+&lt;td&gt;Devin Pastoor (A2-Ai)&lt;/td&gt;
+&lt;td&gt;tbc&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;11:30-11:50AM&lt;/td&gt;
+&lt;td&gt;Robert Adams and Matthew Kumar (Bayer)&lt;/td&gt;
+&lt;td&gt;NarromaticAI - Supporting the Medical Writing process with R, Shiny and GenAI&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;12:00-1:00PM&lt;/td&gt;
+&lt;td&gt;Eric Nantz, Jared Woolfolk&lt;/td&gt;
+&lt;td&gt;GenAI R/Pharma Hangout (Please note: this session is not recorded)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1:00-1:20PM&lt;/td&gt;
+&lt;td&gt;Melanie Hullings (Formation Bio)&lt;/td&gt;
+&lt;td&gt;Data Osmosis: Rapid Absorption of Dataset Knowledge through GPT-Enhanced Documentation&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1:20-1:40PM&lt;/td&gt;
+&lt;td&gt;Jake Gagnon (Biogen)&lt;/td&gt;
+&lt;td&gt;Modelling Regulatory Intelligence with GenAI&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1:40-2:00PM&lt;/td&gt;
+&lt;td&gt;Ian M Sturdy (Eli Lilly)&lt;/td&gt;
+&lt;td&gt;Leveraging ChatGPT in Statistical Programming in the Pharmaceutical Industry&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2:00-2:30PM&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Q/A Wrap Up&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;We look forward to seeing you on Tuesday, September 17th!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>New R/Pharma APAC Track</title>
       <link>/post/2024-07-17-apac-track/</link>
       <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>

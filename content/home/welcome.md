@@ -26,11 +26,11 @@ design:
     # Text color (true=light, false=dark, or remove for the dynamic theme color).
     text_color_light: true
 
-# cta:
-#  url: 'https://hopin.com/events/r-pharma-2023'
-#  label: Register
-#  icon_pack: fas
-#  icon: door-open
+cta:
+  url: 'https://events.zoom.us/ev/AvobJEOTVwkUnH6_TgLZDZJauk4dxfm5jCG8JFNN9zukOcsVLvTN~AmO5XY5HRBcxkKG6Hga1aXZaYtpBSER6jHms1seP-NNOA0dhcQZUGJ2NWg'
+  label: Register
+  icon_pack: fas
+  icon: door-open
 
 # cta:
 #   url: 'https://sessionize.com/rpharma/'
@@ -44,7 +44,6 @@ design:
 
 ---
 
-The conference is a relatively small, scientifically &
-industry oriented, collegial event focused on the use of R in the development of pharmaceuticals.  
+The conference is a scientifically & industry oriented, collegial event focused on the use of R in the development of pharmaceuticals.  
 
-We are excited to announce that R/Pharma 2024 virtual conference will run from Oct 29-31 with workshops the week before.  Call for talks is closed and registration details will follow shortly.
+We are excited to announce that R/Pharma 2024 virtual conference will run from Oct 29-31 with workshops running Oct 25-Nov 1.  Registration is open for R/Pharma 2024.  The program will be released shortly on the conference landing page and social media. 

@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Daniel Sabanés Bovérank Yang
+title: Frank Yang
 
 # Is this the primary user of the site?
 superuser: false # true or false

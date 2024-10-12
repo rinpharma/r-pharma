@@ -18,6 +18,7 @@ content:
   user_groups:
   - Executive Committee
   - Organising Committee
+  - APAC Organising Committee
 design:
   show_interests: false
   show_role: true

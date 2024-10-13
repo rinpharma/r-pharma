@@ -6,15 +6,19 @@ title: Daniel Sabanés Bové
 superuser: false # true or false
 
 # Role/position
-role: RConis
+role: RCONIS
 
 social:
+
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/danielsabanesbove/
 - icon: github
   icon_pack: fab
   link: https://github.com/danielinteractive
+- icon: link
+  icon_pack: fas
+  link: https://rconis.com
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false

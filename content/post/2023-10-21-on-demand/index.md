@@ -2,7 +2,7 @@
 title: R/Pharma 2023 On-Demand Talks and Expo
 date: 2023-10-21
 summary: Find out about R/Pharma On-Demand talks and Expo.
-featured: true
+featured: false
 draft: false
 ---
 

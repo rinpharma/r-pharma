@@ -2,7 +2,7 @@
 title: R/Pharma GenAI Day 
 date: 2024-09-10
 summary: Program for GenAI Day.
-featured: true
+featured: false
 ---
 
 September 17th marks the R/Pharma single day event focused on examples of using generative artificial intelligence (GenAI) with an emphasis in the drug development space and clinical domain.

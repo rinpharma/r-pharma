@@ -2,7 +2,7 @@
 title: R/Pharma 2023 discussion panels
 date: 2023-10-18
 summary: A chance to have a Q&A with leaders.
-featured: true
+featured: false
 ---
 
 We are excited to announce three R/Pharma panels this year which will be held at the end of each conference day.

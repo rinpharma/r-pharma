@@ -2,7 +2,7 @@
 title: Call For Talks 
 date: 2023-07-11
 summary: Call For Talks for R/Pharma 2023.
-featured: true
+featured: false
 ---
 
 We’re excited to announce that the call for talks for Virtual R/Pharma 2023 is now open !!

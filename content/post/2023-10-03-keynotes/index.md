@@ -2,7 +2,7 @@
 title: R/Pharma 2023 Keynotes
 date: 2023-10-03
 summary: R/Pharma 2023 Keynotes.
-featured: true
+featured: false
 ---
 
 ## R/Pharma 2023 Keynotes

@@ -2,7 +2,7 @@
 title: In-Person and Virtual Events for 2023
 date: 2023-03-31
 summary: In-Person and Virtual Events for 2023.
-featured: true
+featured: false
 draft: false
 ---
 

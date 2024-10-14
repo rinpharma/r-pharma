@@ -2,7 +2,7 @@
 title: R/Pharma 2024 Expo
 date: 2023-10-13
 summary: Build a booth for the R/Pharma Expo.
-featured: false
+featured: true
 ---
 
 ### Calling all opensource developers! Come Show off you what you do!

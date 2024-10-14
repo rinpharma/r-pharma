@@ -3,6 +3,7 @@ title: R/Pharma 2024 Workshops
 date: 2024-10-13
 summary: R/Pharma 2024 Workshops.
 featured: true
+draft: true
 ---
 
 ## R/Pharma 2024 Workshops

@@ -2,7 +2,7 @@
 title: R/Pharma Round Tables
 date: 2023-09-16
 summary: We're just a couple of days out from the R/Pharma round tables!
-featured: true
+featured: false
 draft: false
 ---
 

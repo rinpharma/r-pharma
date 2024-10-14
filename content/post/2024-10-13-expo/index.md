@@ -1,6 +1,6 @@
 ---
 title: R/Pharma 2024 Expo
-date: 2023-10-13
+date: 2024-10-13
 summary: Build a booth for the R/Pharma Expo.
 featured: true
 ---

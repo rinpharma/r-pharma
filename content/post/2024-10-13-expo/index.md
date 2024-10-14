@@ -13,7 +13,7 @@ The expo will run continuously throughout R/Pharma giving attendees a chance to 
 If you want to take part then there's a few things we'll need from you:
 -  title and description of your package, podcast, etc.
 -  a short video (up to 5 minutes), either as an MP4 or YouTube link.
--  a logo (hex sticker would be ideal!)
+-  a logo (hex image would be ideal!)
 -  some images or screen captures (optional).
 -  website and social media links (optional).
 

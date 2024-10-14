@@ -3,7 +3,7 @@ title: R/Pharma 2024 Workshops
 date: 2024-10-13
 summary: R/Pharma 2024 Workshops.
 featured: true
-draft: false
+draft: true
 ---
 
 ## R/Pharma 2024 Workshops
@@ -22,18 +22,18 @@ This year all workshops, except the Diversity Alliance hackathon, are accessible
 | Oct 25, 13:00-15:00 EDT              | {shinylive}: Serverless Shiny applications workshop. An exercise in deploying your App to GitHub Pages                                      |
 | Oct 25, 13:00-16:00 EDT              | Knowledge graphs for drug discovery                                                                                                         |
 | Oct 25, 15:00-17:00 EDT              | Preview of Posit Administrator Training                                                                                                     |
+| Oct 25, 15:00-17:00 EDT              | Tables in Python with great tables                                                                                                          |
 | Oct 28, 00:00-03:10 EDT \*\*         | Good Software Engineering Practice for R Packages                                                                                           |
-| Oct 28, 09:00-11:00 EDT              | The Near-Future of Regulatory Submissions: Embracing Reproducibility, Open Source, and Interactivity                                        |
+| Oct 28, 09:00-11:30 EDT              | The Near-Future of Regulatory Submissions: Embracing Reproducibility, Open Source, and Interactivity                                        |
+| Oct 28, 11:00-13:00 EDT              | Shiny Application Development and Validation with Rhino                                                                                     |
 | Oct 28, 12:00-14:00 EDT              | SDTM programming in R using {sdtm.oak} package                                                                                              |
 | Oct 28, 13:00-15:00 EDT              | Bayesian Dose-Response Modeling with the dreamer R Package                                                                                  |
 | Oct 28, 13:00-16:00 EDT              | Unlocking Analysis Results Datasets: A Practical Workshop for Creating and Utilizing ARDs for Clinical Reporting                            |
-| Oct 28, 15:00-17:00 EDT              | Tables in Python with great tables                                                                                                          |
 | Oct 28, 15:00-17:00 EDT              | Polygenic risk scores (PRS) validation using R                                                                                              |
 | Oct 28, 23:00-Oct 29, 02:10 EDT \*\* | Reproducible and scalable reporting using rmarkdown & heddlr                                                                                |
-| Nov 1, 09:00-11:00 EDT               | Selected examples on how to scale-up computations in R (e.g. by using HPC)                                                                  |
+| Nov 1, 09:00-12:00 EDT               | Selected examples on how to scale-up computations in R (e.g. by using HPC)                                                                  |
 | Nov 1, 09:00-12:00 EDT               | No code data analysis with blockr                                                                                                           |
 | Nov 1, 11:00-13:00 EDT               | R Validation Hub Risk Tools Developer Day                                                                                                   |
-| Nov 1, 11:00-13:00 EDT               | Shiny Application Development and Validation with Rhino                                                                                     |
 | Nov 1, 13:00-15:30 EDT               | Visualizing Clinical Trial Data: Foundational Principles for Data Visualization, Best Practices, and Programming Techniques in R by Example |
 | Nov 1, 14:00-16:00 EDT               | The Expanse: Creating R Packages for Statisticians                                                                                          |
 

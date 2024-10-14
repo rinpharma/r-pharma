@@ -36,6 +36,112 @@ Just fill in this &lt;a href=&#34;https://docs.google.com/forms/d/e/1FAIpQLSc9op
     </item>
     
     <item>
+      <title>R/Pharma 2024 Workshops</title>
+      <link>/post/2024-10-13-workshops/</link>
+      <pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>/post/2024-10-13-workshops/</guid>
+      <description>&lt;h2 id=&#34;rpharma-2024-workshops&#34;&gt;R/Pharma 2024 Workshops&lt;/h2&gt;
+&lt;p&gt;R/Pharma is excited to host 20 free workshops!&lt;/p&gt;
+&lt;p&gt;Workshops will run around the conference and are hosted by members of the community. Workshops are always one of the highlights of R/Pharma and we are indebted to the hosts who prepare them.&lt;/p&gt;
+&lt;p&gt;This year all workshops, except the Diversity Alliance hackathon, are accessible through the general &lt;a href=&#34;https://events.zoom.us/ev/AvobJEOTVwkUnH6_TgLZDZJauk4dxfm5jCG8JFNN9zukOcsVLvTN~AmO5XY5HRBcxkKG6Hga1aXZaYtpBSER6jHms1seP-NNOA0dhcQZUGJ2NWg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R/Pharma registration&lt;/a&gt;. Hackathon registration is available at &lt;a href=&#34;https://www.eventbrite.com/e/diversity-alliance-hackathon-tickets-1027083142327&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this link&lt;/a&gt;.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date / Time&lt;/th&gt;
+&lt;th&gt;Title&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Oct 21, 11:00-15:00 EDT *&lt;/td&gt;
+&lt;td&gt;Diversity Alliance Hackathon&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Oct 25, 09:00-11:00 EDT&lt;/td&gt;
+&lt;td&gt;Parameterised plots and reports with R and Quarto&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Oct 25, 10:00-13:00 EDT&lt;/td&gt;
+&lt;td&gt;Building ADaMs with pharmaverse R packages admiral, metacore/metatools and xportr&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Oct 25, 13:00-15:00 EDT&lt;/td&gt;
+&lt;td&gt;{shinylive}: Serverless Shiny applications workshop. An exercise in deploying your App to GitHub Pages&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Oct 25, 13:00-16:00 EDT&lt;/td&gt;
+&lt;td&gt;Knowledge graphs for drug discovery&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Oct 25, 15:00-17:00 EDT&lt;/td&gt;
+&lt;td&gt;Preview of Posit Administrator Training&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Oct 25, 15:00-17:00 EDT&lt;/td&gt;
+&lt;td&gt;Tables in Python with great tables&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Oct 28, 00:00-03:10 EDT **&lt;/td&gt;
+&lt;td&gt;Good Software Engineering Practice for R Packages&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Oct 28, 09:00-11:30 EDT&lt;/td&gt;
+&lt;td&gt;The Near-Future of Regulatory Submissions: Embracing Reproducibility, Open Source, and Interactivity&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Oct 28, 11:00-13:00 EDT&lt;/td&gt;
+&lt;td&gt;Shiny Application Development and Validation with Rhino&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Oct 28, 12:00-14:00 EDT&lt;/td&gt;
+&lt;td&gt;SDTM programming in R using {sdtm.oak} package&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Oct 28, 13:00-15:00 EDT&lt;/td&gt;
+&lt;td&gt;Bayesian Dose-Response Modeling with the dreamer R Package&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Oct 28, 13:00-16:00 EDT&lt;/td&gt;
+&lt;td&gt;Unlocking Analysis Results Datasets: A Practical Workshop for Creating and Utilizing ARDs for Clinical Reporting&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Oct 28, 15:00-17:00 EDT&lt;/td&gt;
+&lt;td&gt;Polygenic risk scores (PRS) validation using R&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Oct 28, 23:00-Oct 29, 02:10 EDT **&lt;/td&gt;
+&lt;td&gt;Reproducible and scalable reporting using rmarkdown &amp;amp; heddlr&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Nov 1, 09:00-12:00 EDT&lt;/td&gt;
+&lt;td&gt;Selected examples on how to scale-up computations in R (e.g. by using HPC)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Nov 1, 09:00-12:00 EDT&lt;/td&gt;
+&lt;td&gt;No code data analysis with blockr&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Nov 1, 11:00-13:00 EDT&lt;/td&gt;
+&lt;td&gt;R Validation Hub Risk Tools Developer Day&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Nov 1, 13:00-15:30 EDT&lt;/td&gt;
+&lt;td&gt;Visualizing Clinical Trial Data: Foundational Principles for Data Visualization, Best Practices, and Programming Techniques in R by Example&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Nov 1, 14:00-16:00 EDT&lt;/td&gt;
+&lt;td&gt;The Expanse: Creating R Packages for Statisticians&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;* Diversity Alliance Hackathon. Registration available at &lt;a href=&#34;https://www.eventbrite.com/e/diversity-alliance-hackathon-tickets-1027083142327&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this link&lt;/a&gt;.&lt;br&gt;
+** Workshops in APAC time zones.&lt;/p&gt;
+&lt;p&gt;You are free to take as many workshops as you choose. The majority will be recorded and will be available after the conference on the R/Pharma &lt;a href=&#34;https://www.youtube.com/rinpharma&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;YouTube site&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Don&amp;rsquo;t forget to register for R/Pharma workshops and presentations &lt;a href=&#34;https://events.zoom.us/ev/AvobJEOTVwkUnH6_TgLZDZJauk4dxfm5jCG8JFNN9zukOcsVLvTN~AmO5XY5HRBcxkKG6Hga1aXZaYtpBSER6jHms1seP-NNOA0dhcQZUGJ2NWg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>R/Pharma GenAI Day</title>
       <link>/post/2024-09-10-genai/</link>
       <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>

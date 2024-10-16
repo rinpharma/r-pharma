@@ -19,7 +19,7 @@ This year all workshops, except the Diversity Alliance hackathon, are accessible
 | Date / Time                          | Title                                                                                                                                       |
 |--------------------------|----------------------------------------------|
 | Oct 21, 11:00-15:00 EDT \*           | Diversity Alliance Hackathon                                                                                                                |
-| Oct 25, 09:00-11:00 EDT              | Parameterised plots and reports with R and Quarto<br><p class="font-smaller">Nicola Rennie</p>                                              |
+| Oct 25, 09:00-11:00 EDT              | <p class = "ws-title">Parameterised plots and reports with R and Quarto</p><p class="ws-author">Nicola Rennie (University of Lancaster)</p>                  |
 | Oct 25, 10:00-13:00 EDT              | Building ADaMs with pharmaverse R packages admiral, metacore/metatools and xportr                                                           |
 | Oct 25, 13:00-15:00 EDT              | {shinylive}: Serverless Shiny applications workshop. An exercise in deploying your App to GitHub Pages                                      |
 | Oct 25, 13:00-16:00 EDT              | Knowledge graphs for drug discovery                                                                                                         |

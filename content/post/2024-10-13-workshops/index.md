@@ -4,9 +4,10 @@ date: 2024-10-13
 summary: R/Pharma 2024 Workshops.
 featured: true
 draft: false
+resources:
+  - src: css/workshop_blog.css
+    title: style
 ---
-
-<link rel="stylesheet" type="text/css" href="/css/workshop_blog.css">
 
 ## R/Pharma 2024 Workshops
 
@@ -20,9 +21,9 @@ This year all workshops, except the Diversity Alliance hackathon, are accessible
 |--------------------------|----------------------------------------------|
 | Oct 21, 11:00-15:00 EDT \*           | Diversity Alliance Hackathon                                                                                                                |
 | Oct 25, 09:00-11:00 EDT              | <p class = "ws-title">Parameterised plots and reports with R and Quarto</p><p class="ws-author">Nicola Rennie (University of Lancaster)</p>                  |
-| Oct 25, 10:00-13:00 EDT              | Building ADaMs with pharmaverse R packages admiral, metacore/metatools and xportr                                                           |
-| Oct 25, 13:00-15:00 EDT              | {shinylive}: Serverless Shiny applications workshop. An exercise in deploying your App to GitHub Pages                                      |
-| Oct 25, 13:00-16:00 EDT              | Knowledge graphs for drug discovery                                                                                                         |
+| Oct 25, 10:00-13:00 EDT              | <p class = "ws-title">Building ADaMs with pharmaverse R packages admiral, metacore/metatools and xportr</p><p class="ws-author">Ben Straub (GSK), Fanny Gautier (Cytel), Edoardo Mancini (Roche)</p>                                                          |
+| Oct 25, 13:00-15:00 EDT              | <p class = "ws-title">{shinylive}: Serverless Shiny applications workshop. An exercise in deploying your App to GitHub Pages</p><p class="ws-author">Barret Schloerke (posit)</p>                                      |
+| Oct 25, 13:00-16:00 EDT              | <p class = "ws-title">Knowledge graphs for drug discovery</p><p class="ws-author">Thomas Charlon (Harvard Medical School)</p>                                                                                                         |
 | Oct 25, 15:00-17:00 EDT              | Preview of Posit Administrator Training                                                                                                     |
 | Oct 25, 15:00-17:00 EDT              | Tables in Python with great tables                                                                                                          |
 | Oct 28, 00:00-03:10 EDT \*\*         | Good Software Engineering Practice for R Packages                                                                                           |

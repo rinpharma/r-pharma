@@ -8,7 +8,7 @@ draft: false
 
 ## R/Pharma 2024 Workshops
 
-R/Pharma is excited to host 20 free workshops!
+R/Pharma is excited to host 19 free workshops!
 
 Workshops will run around the conference and are hosted by members of the community. Workshops are always one of the highlights of R/Pharma and we are indebted to the hosts who prepare them.
 
@@ -29,7 +29,6 @@ This year all workshops, except the Diversity Alliance hackathon, are accessible
 | Oct 28, 12:00-14:00 EDT              | SDTM programming in R using {sdtm.oak} package                                                                                              |
 | Oct 28, 13:00-15:00 EDT              | Bayesian Dose-Response Modeling with the dreamer R Package                                                                                  |
 | Oct 28, 13:00-16:00 EDT              | Unlocking Analysis Results Datasets: A Practical Workshop for Creating and Utilizing ARDs for Clinical Reporting                            |
-| Oct 28, 15:00-17:00 EDT              | Polygenic risk scores (PRS) validation using R                                                                                              |
 | Oct 28, 23:00-Oct 29, 02:10 EDT \*\* | Reproducible and scalable reporting using rmarkdown & heddlr                                                                                |
 | Nov 1, 09:00-12:00 EDT               | Selected examples on how to scale-up computations in R (e.g. by using HPC)                                                                  |
 | Nov 1, 09:00-12:00 EDT               | No code data analysis with blockr                                                                                                           |

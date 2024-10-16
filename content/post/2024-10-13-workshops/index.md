@@ -8,7 +8,7 @@ draft: false
 
 ## R/Pharma 2024 Workshops
 
-R/Pharma is excited to host 20 free workshops!
+R/Pharma is excited to host 19 free workshops!
 
 Workshops will run around the conference and are hosted by members of the community. Workshops are always one of the highlights of R/Pharma and we are indebted to the hosts who prepare them.
 

@@ -40,8 +40,7 @@ Just fill in this &lt;a href=&#34;https://docs.google.com/forms/d/e/1FAIpQLSc9op
       <link>/post/2024-10-13-workshops/</link>
       <pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate>
       <guid>/post/2024-10-13-workshops/</guid>
-      <description>&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;/css/workshop_blog.css&#34;&gt;
-&lt;h2 id=&#34;rpharma-2024-workshops&#34;&gt;R/Pharma 2024 Workshops&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;rpharma-2024-workshops&#34;&gt;R/Pharma 2024 Workshops&lt;/h2&gt;
 &lt;p&gt;R/Pharma is excited to host 19 free workshops!&lt;/p&gt;
 &lt;p&gt;Workshops will run around the conference and are hosted by members of the community. Workshops are always one of the highlights of R/Pharma and we are indebted to the hosts who prepare them.&lt;/p&gt;
 &lt;p&gt;This year all workshops, except the Diversity Alliance hackathon, are accessible through the general &lt;a href=&#34;https://events.zoom.us/ev/AvobJEOTVwkUnH6_TgLZDZJauk4dxfm5jCG8JFNN9zukOcsVLvTN~AmO5XY5HRBcxkKG6Hga1aXZaYtpBSER6jHms1seP-NNOA0dhcQZUGJ2NWg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R/Pharma registration&lt;/a&gt;. Hackathon registration is available at &lt;a href=&#34;https://www.eventbrite.com/e/diversity-alliance-hackathon-tickets-1027083142327&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this link&lt;/a&gt;.&lt;/p&gt;
@@ -63,15 +62,15 @@ Just fill in this &lt;a href=&#34;https://docs.google.com/forms/d/e/1FAIpQLSc9op
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Oct 25, 10:00-13:00 EDT&lt;/td&gt;
-&lt;td&gt;Building ADaMs with pharmaverse R packages admiral, metacore/metatools and xportr&lt;/td&gt;
+&lt;td&gt;&lt;p class = &#34;ws-title&#34;&gt;Building ADaMs with pharmaverse R packages admiral, metacore/metatools and xportr&lt;/p&gt;&lt;p class=&#34;ws-author&#34;&gt;Ben Straub (GSK), Fanny Gautier (Cytel), Edoardo Mancini (Roche)&lt;/p&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Oct 25, 13:00-15:00 EDT&lt;/td&gt;
-&lt;td&gt;{shinylive}: Serverless Shiny applications workshop. An exercise in deploying your App to GitHub Pages&lt;/td&gt;
+&lt;td&gt;&lt;p class = &#34;ws-title&#34;&gt;{shinylive}: Serverless Shiny applications workshop. An exercise in deploying your App to GitHub Pages&lt;/p&gt;&lt;p class=&#34;ws-author&#34;&gt;Barret Schloerke (posit)&lt;/p&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Oct 25, 13:00-16:00 EDT&lt;/td&gt;
-&lt;td&gt;Knowledge graphs for drug discovery&lt;/td&gt;
+&lt;td&gt;&lt;p class = &#34;ws-title&#34;&gt;Knowledge graphs for drug discovery&lt;/p&gt;&lt;p class=&#34;ws-author&#34;&gt;Thomas Charlon (Harvard Medical School)&lt;/p&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Oct 25, 15:00-17:00 EDT&lt;/td&gt;

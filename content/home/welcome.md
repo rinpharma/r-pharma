@@ -38,12 +38,12 @@ cta:
 #   icon_pack: fas
 #   icon: door-open
 
-# cta_alt:
-#   url: '/workshop/2023conference/'
-#   label: Workshops
+cta_alt:
+  url: 'https://www.eventbrite.com/e/diversity-alliance-hackathon-tickets-1027083142327'
+  label: Diversity Alliance Hackathon
 
 ---
 
 The conference is a scientifically & industry oriented, collegial event focused on the use of R in the development of pharmaceuticals.  
 
-We are excited to announce that R/Pharma 2024 virtual conference will run from Oct 29-31 with workshops running Oct 25-Nov 1.  Registration is open for R/Pharma 2024.  The program will be released shortly on the conference landing page and social media. 
+We are excited to announce that R/Pharma 2024 virtual conference will run from Oct 29-31 with workshops running Oct 25-Nov 1.  Registration is open for R/Pharma 2024.

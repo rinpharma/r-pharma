@@ -20,7 +20,7 @@ The Summit can be booked independently of posit::conf(2024), or bundled with a p
 
 The R/Pharma Summit will focus on the future of drug development using open source. During the Summit, facilitators will foster in-person discussions and conversations about key items (reproducibility, submissions, scalability, etc.) with industry leaders about open-source tools for next-generation submissions. The day will start with a pharma workshop and then transition to interactive talks and discussions around open source drug development topics relevant to participating attendees. You can find a sample agenda for the R/Pharma Roundtable Summit here:
 
-https://rinpharma.github.io/positconf-roundtables-2024/
+https://rinpharma.github.io/rinpharma-summit-2024/
 
 We already have a great lineup of speakers and facilitators confirmed for the R/Pharma Roundtable Summit, including:
 

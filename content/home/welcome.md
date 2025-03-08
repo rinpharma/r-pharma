@@ -26,11 +26,11 @@ design:
     # Text color (true=light, false=dark, or remove for the dynamic theme color).
     text_color_light: true
 
-cta:
-  url: 'https://events.zoom.us/ev/AvobJEOTVwkUnH6_TgLZDZJauk4dxfm5jCG8JFNN9zukOcsVLvTN~AmO5XY5HRBcxkKG6Hga1aXZaYtpBSER6jHms1seP-NNOA0dhcQZUGJ2NWg'
-  label: Register
-  icon_pack: fas
-  icon: door-open
+# cta:
+#   url: 'https://events.zoom.us/ev/AvobJEOTVwkUnH6_TgLZDZJauk4dxfm5jCG8JFNN9zukOcsVLvTN~AmO5XY5HRBcxkKG6Hga1aXZaYtpBSER6jHms1seP-NNOA0dhcQZUGJ2NWg'
+#  label: Register
+#  icon_pack: fas
+#  icon: door-open
 
 # cta:
 #   url: 'https://sessionize.com/rpharma/'
@@ -38,12 +38,12 @@ cta:
 #   icon_pack: fas
 #   icon: door-open
 
-cta_alt:
-  url: 'https://www.eventbrite.com/e/diversity-alliance-hackathon-tickets-1027083142327'
-  label: Diversity Alliance Hackathon
+# cta_alt:
+#   url: 'https://www.eventbrite.com/e/diversity-alliance-hackathon-tickets-1027083142327'
+#  label: Diversity Alliance Hackathon
 
 ---
 
 The conference is a scientifically & industry oriented, collegial event focused on the use of R in the development of pharmaceuticals.  
 
-We are excited to announce that R/Pharma 2024 virtual conference will run from Oct 29-31 with workshops running Oct 25-Nov 1.  Registration is open for R/Pharma 2024.
+We are excited to announce that R/Pharma 2025 virtual conference will run from Nov 3-7.  Registration details will follow shortly.

@@ -33,7 +33,7 @@
   
     
   
-  <meta name="description" content="" />
+  <meta name="description" content="Health Technology Assessment (HTA) involves evaluating the relevance and value of health technologies, such as drugs, within health care systems. Supporting this process from a biostatistical perspective requires a different mindset and distinct analytical methods compared to those used in regulatory submissions.  One approach to HTA is the German AMNOG process, which requires extensive data slicing to produce the necessary statistical material. This approach necessitates significant programming and orchestration effort, especially when following a traditional &#34;one output - one program&#34; methodology.  Compounding the challenge, the EU&#39;s joint initiative to streamline the HTA process across Europe, known as EU HTA, allows all member countries to bring forward similar individual requirements. This implies a significant increase in number of data slices and analyses required and a substantial workload for statistical programmers in the future. However, many of these analyses are repetitive and suitable for automation.  At Novo Nordisk we are involved in the HTA-R workstream under openstatsware where we are developing an open source ecosystem of R packages called  ramnog  to address the current challenges of AMNOG and the future demands of EU HTA. The goal is to automate repetitive tasks, allowing our colleagues more time to focus on complex analyses.  In our presentation, we will guide you through the practical aspects of specifying an analysis required for a typical AMNOG output and demonstrate how the package runs the analysis. Additionally, we will provide a technical overview of the ecosystem, detailing the roles and considerations of the individual components." />
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/rinpharma_472/" />
@@ -322,8 +322,8 @@
   
   <meta property="og:site_name" content="R/Pharma" />
   <meta property="og:url" content="/publication/rinpharma_472/" />
-  <meta property="og:title" content="Introducing openstatsware: Who we are and what we build together | R/Pharma" />
-  <meta property="og:description" content="" /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
+  <meta property="og:title" content="ramnog: R package suite for automating statistical analyses | R/Pharma" />
+  <meta property="og:description" content="Health Technology Assessment (HTA) involves evaluating the relevance and value of health technologies, such as drugs, within health care systems. Supporting this process from a biostatistical perspective requires a different mindset and distinct analytical methods compared to those used in regulatory submissions.  One approach to HTA is the German AMNOG process, which requires extensive data slicing to produce the necessary statistical material. This approach necessitates significant programming and orchestration effort, especially when following a traditional &#34;one output - one program&#34; methodology.  Compounding the challenge, the EU&#39;s joint initiative to streamline the HTA process across Europe, known as EU HTA, allows all member countries to bring forward similar individual requirements. This implies a significant increase in number of data slices and analyses required and a substantial workload for statistical programmers in the future. However, many of these analyses are repetitive and suitable for automation.  At Novo Nordisk we are involved in the HTA-R workstream under openstatsware where we are developing an open source ecosystem of R packages called  ramnog  to address the current challenges of AMNOG and the future demands of EU HTA. The goal is to automate repetitive tasks, allowing our colleagues more time to focus on complex analyses.  In our presentation, we will guide you through the practical aspects of specifying an analysis required for a typical AMNOG output and demonstrate how the package runs the analysis. Additionally, we will provide a technical overview of the ecosystem, detailing the roles and considerations of the individual components." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
     <meta property="twitter:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -356,14 +356,14 @@
     "@type": "WebPage",
     "@id": "/publication/rinpharma_472/"
   },
-  "headline": "Introducing openstatsware: Who we are and what we build together",
+  "headline": "ramnog: R package suite for automating statistical analyses",
   
   "datePublished": "1999-01-01T00:00:00Z",
   "dateModified": "2024-10-31T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Daniel Sabanés Bové"
+    "name": "Matthew Phelps"
   },
   
   "publisher": {
@@ -374,7 +374,7 @@
       "url": "/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_192x192_fit_lanczos_2.png"
     }
   },
-  "description": ""
+  "description": "Health Technology Assessment (HTA) involves evaluating the relevance and value of health technologies, such as drugs, within health care systems. Supporting this process from a biostatistical perspective requires a different mindset and distinct analytical methods compared to those used in regulatory submissions.  One approach to HTA is the German AMNOG process, which requires extensive data slicing to produce the necessary statistical material. This approach necessitates significant programming and orchestration effort, especially when following a traditional \"one output - one program\" methodology.  Compounding the challenge, the EU's joint initiative to streamline the HTA process across Europe, known as EU HTA, allows all member countries to bring forward similar individual requirements. This implies a significant increase in number of data slices and analyses required and a substantial workload for statistical programmers in the future. However, many of these analyses are repetitive and suitable for automation.  At Novo Nordisk we are involved in the HTA-R workstream under openstatsware where we are developing an open source ecosystem of R packages called  ramnog  to address the current challenges of AMNOG and the future demands of EU HTA. The goal is to automate repetitive tasks, allowing our colleagues more time to focus on complex analyses.  In our presentation, we will guide you through the practical aspects of specifying an analysis required for a typical AMNOG output and demonstrate how the package runs the analysis. Additionally, we will provide a technical overview of the ecosystem, detailing the roles and considerations of the individual components."
 }
 </script>
 
@@ -420,7 +420,7 @@
 
 
 
-  <title>Introducing openstatsware: Who we are and what we build together | R/Pharma</title>
+  <title>ramnog: R package suite for automating statistical analyses | R/Pharma</title>
 </head>
 
 
@@ -743,7 +743,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Introducing openstatsware: Who we are and what we build together</h1>
+  <h1>ramnog: R package suite for automating statistical analyses</h1>
 
   
 
@@ -761,8 +761,8 @@
     
 
   <span >
-      <a href="/author/daniel-sabanes-bove/">Daniel Sabanés Bové</a></span>, <span >
-      <a href="/author/yuichi-nakajima/">Yuichi Nakajima</a></span>
+      <a href="/author/matthew-phelps/">Matthew Phelps</a></span>, <span >
+      <a href="/author/christian-haargard-olsen/">Christian Haargard Olsen</a></span>
   </div>
   
   
@@ -798,47 +798,6 @@
 
 
 
-<div class="btn-links mb-3">
-  
-  
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header" href="https://youtu.be/61IFzMDgiNA" target="_blank" rel="noopener">
-  Video
-</a>
-
-
-
-
-
-</div>
-
 
   
 </div>
@@ -847,6 +806,9 @@
 
   <div class="article-container">
 
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">Health Technology Assessment (HTA) involves evaluating the relevance and value of health technologies, such as drugs, within health care systems. Supporting this process from a biostatistical perspective requires a different mindset and distinct analytical methods compared to those used in regulatory submissions.  One approach to HTA is the German AMNOG process, which requires extensive data slicing to produce the necessary statistical material. This approach necessitates significant programming and orchestration effort, especially when following a traditional &ldquo;one output - one program&rdquo; methodology.  Compounding the challenge, the EU&rsquo;s joint initiative to streamline the HTA process across Europe, known as EU HTA, allows all member countries to bring forward similar individual requirements. This implies a significant increase in number of data slices and analyses required and a substantial workload for statistical programmers in the future. However, many of these analyses are repetitive and suitable for automation.  At Novo Nordisk we are involved in the HTA-R workstream under openstatsware where we are developing an open source ecosystem of R packages called  ramnog  to address the current challenges of AMNOG and the future demands of EU HTA. The goal is to automate repetitive tasks, allowing our colleagues more time to focus on complex analyses.  In our presentation, we will guide you through the practical aspects of specifying an analysis required for a typical AMNOG output and demonstrate how the package runs the analysis. Additionally, we will provide a technical overview of the ecosystem, detailing the roles and considerations of the individual components.</p>
     
 
     
@@ -893,9 +855,7 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/rconis/">RCONIS</a>
-  
-  <a class="badge badge-light" href="/tag/gsk/">GSK</a>
+  <a class="badge badge-light" href="/tag/novo-nordisk/">Novo Nordisk</a>
   
 </div>
 
@@ -912,7 +872,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_472/&amp;text=Introducing%20openstatsware:%20Who%20we%20are%20and%20what%20we%20build%20together" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_472/&amp;text=ramnog:%20R%20package%20suite%20for%20automating%20statistical%20analyses" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -925,7 +885,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_472/&amp;t=Introducing%20openstatsware:%20Who%20we%20are%20and%20what%20we%20build%20together" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_472/&amp;t=ramnog:%20R%20package%20suite%20for%20automating%20statistical%20analyses" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -938,7 +898,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Introducing%20openstatsware:%20Who%20we%20are%20and%20what%20we%20build%20together&amp;body=/publication/rinpharma_472/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=ramnog:%20R%20package%20suite%20for%20automating%20statistical%20analyses&amp;body=/publication/rinpharma_472/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -951,7 +911,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_472/&amp;title=Introducing%20openstatsware:%20Who%20we%20are%20and%20what%20we%20build%20together" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_472/&amp;title=ramnog:%20R%20package%20suite%20for%20automating%20statistical%20analyses" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -964,7 +924,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Introducing%20openstatsware:%20Who%20we%20are%20and%20what%20we%20build%20together%20/publication/rinpharma_472/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=ramnog:%20R%20package%20suite%20for%20automating%20statistical%20analyses%20/publication/rinpharma_472/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -977,7 +937,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_472/&amp;title=Introducing%20openstatsware:%20Who%20we%20are%20and%20what%20we%20build%20together" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_472/&amp;title=ramnog:%20R%20package%20suite%20for%20automating%20statistical%20analyses" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1030,15 +990,15 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/publication/rinpharma_260/">Clinical Reporting in R (2 day workshop - Oct 31, Nov 1)</a></li>
+      <li><a href="/publication/rinpharma_243/">Automatic generation of PowerPoint presentation for communication of clinical trial results</a></li>
       
-      <li><a href="/publication/rinpharma_452/">Accelerating GSK’s Open-Source Journey with Gen AI</a></li>
+      <li><a href="/publication/rinpharma_306/">Co-existence of R and SAS for multiple imputation in Novo Nordisk</a></li>
       
-      <li><a href="/publication/rinpharma_269/">An intro to CI/CD for R packages</a></li>
+      <li><a href="/publication/rinpharma_479/">Exploring Shiny for Quality Compliance Checks of Clinical Programming Deliverables</a></li>
       
-      <li><a href="/publication/rinpharma_470/">Breaking down cognitive barriers for new members to your project and your future self</a></li>
+      <li><a href="/publication/rinpharma_461/">Our R-Based Submissions: A 1-year follow-up, Lessons Learned, and Future Strategies</a></li>
       
-      <li><a href="/publication/rinpharma_387/">Building ADaMs with pharmaverse R packages admiral, metacore/metatools and xportr</a></li>
+      <li><a href="/publication/rinpharma_453/">{whirl} – An Open-Source R package for Program Logs</a></li>
       
     </ul>
   </div>

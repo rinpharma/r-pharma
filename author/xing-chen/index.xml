@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xing Chen | R/Pharma</title>
+    <link>/author/xing-chen/</link>
+      <atom:link href="/author/xing-chen/index.xml" rel="self" type="application/rss+xml" />
+    <description>Xing Chen</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Tue, 17 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>Xing Chen</title>
+      <link>/author/xing-chen/</link>
+    </image>
+    
+    <item>
+      <title>Transforming Clinical Development with GenAI: Key Learnings and Statistical Perspectives</title>
+      <link>/publication/rinpharma_384/</link>
+      <pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_384/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kevin Rue-Albrecht | R/Pharma</title>
+    <link>/author/kevin-rue-albrecht/</link>
+      <atom:link href="/author/kevin-rue-albrecht/index.xml" rel="self" type="application/rss+xml" />
+    <description>Kevin Rue-Albrecht</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Tue, 02 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>Kevin Rue-Albrecht</title>
+      <link>/author/kevin-rue-albrecht/</link>
+    </image>
+    
+    <item>
+      <title>Interactive and collaborative exploration of large-scale transcriptomics data with iSEE</title>
+      <link>/publication/rinpharma_210/</link>
+      <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_210/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

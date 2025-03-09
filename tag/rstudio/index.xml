@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RStudio | R/Pharma</title>
+    <link>/tag/rstudio/</link>
+      <atom:link href="/tag/rstudio/index.xml" rel="self" type="application/rss+xml" />
+    <description>RStudio</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Thu, 10 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>RStudio</title>
+      <link>/tag/rstudio/</link>
+    </image>
+    
+    <item>
+      <title>Three new things in tidymodels</title>
+      <link>/publication/rinpharma_302/</link>
+      <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_302/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Admin - Clinical Environment Management</title>
+      <link>/publication/rinpharma_262/</link>
+      <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_262/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Building a Data Science Community at Your Pharma</title>
+      <link>/publication/rinpharma_259/</link>
+      <pubDate>Mon, 31 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_259/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to use pointblank to understand, validate, and document your data</title>
+      <link>/publication/rinpharma_255/</link>
+      <pubDate>Thu, 27 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_255/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shiny for Python</title>
+      <link>/publication/rinpharma_250/</link>
+      <pubDate>Tue, 25 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_250/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Survival analysis with tidymodels: The censored package</title>
+      <link>/publication/rinpharma_218/</link>
+      <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_218/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The gt Package: Past, Present, and Future</title>
+      <link>/publication/rinpharma_204/</link>
+      <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_204/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R Admin - RStudio Connect</title>
+      <link>/publication/rinpharma_199/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_199/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Clinical Tables in gt</title>
+      <link>/publication/rinpharma_194/</link>
+      <pubDate>Thu, 28 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_194/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>RStudio Pharma Updates</title>
+      <link>/publication/rinpharma_185/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_185/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data visualization for real-world machine learning</title>
+      <link>/publication/rinpharma_157/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_157/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Styling Shiny &amp; R Markdown with bootstraplib &amp; thematic</title>
+      <link>/publication/rinpharma_162/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_162/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>StackEm High! Ensembles Using tidymodels</title>
+      <link>/publication/rinpharma_138/</link>
+      <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_138/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gt</title>
+      <link>/publication/rinpharma_132/</link>
+      <pubDate>Thu, 08 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_132/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RMarkdown</title>
+      <link>/publication/rinpharma_129/</link>
+      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_129/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reproducible shiny apps with shinymeta</title>
+      <link>/publication/rinpharma_101/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_101/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shiny in Production: Building bridges from data science to IT</title>
+      <link>/publication/rinpharma_116/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_116/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>This one is not like the others: Applicability Domain methods in R</title>
+      <link>/publication/rinpharma_111/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_111/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reproducibility and the role of code in reproducible data science</title>
+      <link>/publication/rinpharma_77/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_77/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Machine learning</title>
+      <link>/publication/rinpharma_58/</link>
+      <pubDate>Tue, 20 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_58/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>plotly</title>
+      <link>/publication/rinpharma_59/</link>
+      <pubDate>Tue, 20 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_59/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shiny Reproducibility</title>
+      <link>/publication/rinpharma_61/</link>
+      <pubDate>Tue, 20 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_61/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interactive data visualization with R, plotly, and dashR</title>
+      <link>/publication/rinpharma_29/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_29/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Interactive data visualization with R, plotly, and dashR</title>
+      <link>/publication/rinpharma_32/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_32/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using interactivity responsibly in pharma</title>
+      <link>/publication/rinpharma_52/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_52/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modeling in the tidyverse</title>
+      <link>/publication/rinpharma_18/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_18/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

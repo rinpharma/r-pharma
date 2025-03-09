@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posit | R/Pharma</title>
+    <link>/tag/posit/</link>
+      <atom:link href="/tag/posit/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posit</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Fri, 01 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>Posit</title>
+      <link>/tag/posit/</link>
+    </image>
+    
+    <item>
+      <title>Selected examples on how to scale-up computations in R (e.g. by using HPC)</title>
+      <link>/publication/rinpharma_477/</link>
+      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_477/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>From hours to minutes: accelerating your tidymodels code</title>
+      <link>/publication/rinpharma_397/</link>
+      <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_397/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Joe Cheng’s Keynote</title>
+      <link>/publication/rinpharma_413/</link>
+      <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_413/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Summer is Coming: AI for R, Shiny, and Pharma</title>
+      <link>/publication/rinpharma_399/</link>
+      <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_399/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Preview of Posit Administrator Training</title>
+      <link>/publication/rinpharma_389/</link>
+      <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_389/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tables in Python with Great Tables</title>
+      <link>/publication/rinpharma_388/</link>
+      <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_388/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>{shinylive}: Serverless Shiny applications workshop. An exercise in deploying your App to GitHub Pages</title>
+      <link>/publication/rinpharma_385/</link>
+      <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_385/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Preview of Posit Administrator Training</title>
+      <link>/publication/rinpharma_382/</link>
+      <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_382/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Pivotal Year of R Pilots for Shiny Application Submissions to the FDA / Celebrating a Milestone: R Tables for Regulatory Submission Working Group s eBook on Clinical Data Table Generation</title>
+      <link>/publication/rinpharma_372/</link>
+      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_372/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enhance Your Everyday Work with LLMs in RStudio</title>
+      <link>/publication/rinpharma_375/</link>
+      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_375/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Getting started with torch in R</title>
+      <link>/publication/rinpharma_355/</link>
+      <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_355/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Serverless Shiny in Quarto Documents</title>
+      <link>/publication/rinpharma_363/</link>
+      <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_363/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Improvements made to {gt} in 2023</title>
+      <link>/publication/rinpharma_339/</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_339/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using pointblank Package to Ensure Maximal Data Quality: Pfizer Case Study</title>
+      <link>/publication/rinpharma_318/</link>
+      <pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_318/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

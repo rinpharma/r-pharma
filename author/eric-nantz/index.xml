@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eric Nantz | R/Pharma</title>
+    <link>/author/eric-nantz/</link>
+      <atom:link href="/author/eric-nantz/index.xml" rel="self" type="application/rss+xml" />
+    <description>Eric Nantz</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Thu, 26 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>Eric Nantz</title>
+      <link>/author/eric-nantz/</link>
+    </image>
+    
+    <item>
+      <title>A Pivotal Year of R Pilots for Shiny Application Submissions to the FDA / Celebrating a Milestone: R Tables for Regulatory Submission Working Group s eBook on Clinical Data Table Generation</title>
+      <link>/publication/rinpharma_372/</link>
+      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_372/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building Production-Quality Shiny Applications</title>
+      <link>/publication/rinpharma_265/</link>
+      <pubDate>Thu, 03 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_265/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The New Roads Leading to Shiny Nirvana</title>
+      <link>/publication/rinpharma_240/</link>
+      <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_240/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Creating and reviving Shiny apps with golem</title>
+      <link>/publication/rinpharma_72/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_72/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Developing powerful Shiny applications in an enterprise environment: Best practices and lessons learned</title>
+      <link>/publication/rinpharma_41/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_41/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

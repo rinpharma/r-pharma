@@ -14,113 +14,113 @@
     
     <item>
       <title>Creating a Doctor Network using R and Graph Databases</title>
-      <link>/publication/rinpharma_484/</link>
+      <link>/publication/rinpharma_483/</link>
       <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_484/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Asynchronous Processing of Long-Running Tasks in Shiny</title>
-      <link>/publication/rinpharma_295/</link>
-      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_295/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Interactive Forest Plot for DMC Safety Monitoring in Clinical Trials</title>
-      <link>/publication/rinpharma_203/</link>
-      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_203/</guid>
+      <guid>/publication/rinpharma_483/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Interactive Reporting for Safety Monitoring</title>
-      <link>/publication/rinpharma_326/</link>
-      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_326/</guid>
+      <link>/publication/rinpharma_341/</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_341/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Its Not Whats on the Outside, but Its Whats on the Back-end That Matters: The World Beyond CSV Files</title>
-      <link>/publication/rinpharma_115/</link>
-      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_115/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Managing R and Associated Tools in Large Environments - an R-Admin’s Perspective</title>
-      <link>/publication/rinpharma_141/</link>
-      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_141/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ModViz POP: R-Shiny Based PK/PD Interface for Empowering Teams to Perform Real-Time Simulations</title>
-      <link>/publication/rinpharma_113/</link>
-      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_113/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R for Clinical Study Reports and Submission</title>
-      <link>/publication/rinpharma_243/</link>
-      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_243/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>r2rtf - a Lightweight R Package to Produce Tables and Figures in RTF Format</title>
-      <link>/publication/rinpharma_57/</link>
-      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_57/</guid>
+      <title>Asynchronous Processing of Long-Running Tasks in Shiny</title>
+      <link>/publication/rinpharma_315/</link>
+      <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_315/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Reimagine the R package distribution system for reproducible research and submissions</title>
-      <link>/publication/rinpharma_221/</link>
-      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_221/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Teaching an old dog new tricks: modernizing gsDesign</title>
-      <link>/publication/rinpharma_85/</link>
-      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_85/</guid>
+      <link>/publication/rinpharma_233/</link>
+      <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_233/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The gsDesign Shiny app for clinical trial design</title>
-      <link>/publication/rinpharma_235/</link>
-      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_235/</guid>
+      <link>/publication/rinpharma_247/</link>
+      <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_247/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Using R to foster the communication with non-statisticians on Bayesian dose escalation models</title>
-      <link>/publication/rinpharma_119/</link>
-      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_119/</guid>
+      <title>Interactive Forest Plot for DMC Safety Monitoring in Clinical Trials</title>
+      <link>/publication/rinpharma_215/</link>
+      <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_215/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R for Clinical Study Reports and Submission</title>
+      <link>/publication/rinpharma_195/</link>
+      <pubDate>Thu, 28 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_195/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>r2rtf - a Lightweight R Package to Produce Tables and Figures in RTF Format</title>
+      <link>/publication/rinpharma_181/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_181/</guid>
       <description></description>
     </item>
     
     <item>
       <title>X-Omics Platform</title>
-      <link>/publication/rinpharma_62/</link>
-      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_62/</guid>
+      <link>/publication/rinpharma_186/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_186/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Its Not Whats on the Outside, but Its Whats on the Back-end That Matters: The World Beyond CSV Files</title>
+      <link>/publication/rinpharma_109/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_109/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ModViz POP: R-Shiny Based PK/PD Interface for Empowering Teams to Perform Real-Time Simulations</title>
+      <link>/publication/rinpharma_107/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_107/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using R to foster the communication with non-statisticians on Bayesian dose escalation models</title>
+      <link>/publication/rinpharma_113/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_113/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching an old dog new tricks: modernizing gsDesign</title>
+      <link>/publication/rinpharma_79/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_79/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Managing R and Associated Tools in Large Environments - an R-Admin’s Perspective</title>
+      <link>/publication/rinpharma_11/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_11/</guid>
       <description></description>
     </item>
     

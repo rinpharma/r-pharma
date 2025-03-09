@@ -5,7 +5,7 @@
     <link>/author/maya-gans/</link>
       <atom:link href="/author/maya-gans/index.xml" rel="self" type="application/rss+xml" />
     <description>Maya Gans</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Fri, 01 Jan 1999 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Wed, 09 Nov 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
       <title>Maya Gans</title>
@@ -14,33 +14,33 @@
     
     <item>
       <title>Bundling JS for Your Shiny App</title>
-      <link>/publication/rinpharma_270/</link>
-      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_270/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SafetyGraphics</title>
-      <link>/publication/rinpharma_244/</link>
-      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_244/</guid>
+      <link>/publication/rinpharma_290/</link>
+      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_290/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Summary Table Rewind: From Source to Summary and Back Again</title>
-      <link>/publication/rinpharma_233/</link>
-      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_233/</guid>
+      <link>/publication/rinpharma_245/</link>
+      <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_245/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SafetyGraphics</title>
+      <link>/publication/rinpharma_196/</link>
+      <pubDate>Fri, 29 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_196/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tidyCDISC an Open Source Platform in R to Analyze Clinical Trial Data</title>
-      <link>/publication/rinpharma_44/</link>
-      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_44/</guid>
+      <link>/publication/rinpharma_168/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_168/</guid>
       <description></description>
     </item>
     

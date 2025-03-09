@@ -5,7 +5,7 @@
     <link>/tag/janssen/</link>
       <atom:link href="/tag/janssen/index.xml" rel="self" type="application/rss+xml" />
     <description>Janssen</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Fri, 01 Jan 1999 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Tue, 02 Nov 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
       <title>Janssen</title>
@@ -13,34 +13,34 @@
     </image>
     
     <item>
-      <title>Antibody Characterization Using Next Generation Sequencing made easier with Group My Abs shiny app</title>
-      <link>/publication/rinpharma_131/</link>
-      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_131/</guid>
+      <title>R/Shiny tools for Immune Fitness Exploration</title>
+      <link>/publication/rinpharma_208/</link>
+      <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_208/</guid>
       <description></description>
     </item>
     
     <item>
       <title>From playing in the backyard to designing one: Shiny transforms study designs, data analyses and statistical thinking of oncology in vivo group at Janssen</title>
-      <link>/publication/rinpharma_103/</link>
-      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_103/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R/Shiny tools for Immune Fitness Exploration</title>
-      <link>/publication/rinpharma_196/</link>
-      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_196/</guid>
+      <link>/publication/rinpharma_97/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_97/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Using RStudio.Cloud to advance R proficiency: a crowdsourcing training experience</title>
-      <link>/publication/rinpharma_87/</link>
-      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_87/</guid>
+      <link>/publication/rinpharma_81/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_81/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Antibody Characterization Using Next Generation Sequencing made easier with Group My Abs shiny app</title>
+      <link>/publication/rinpharma_1/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_1/</guid>
       <description></description>
     </item>
     

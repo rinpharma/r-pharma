@@ -33,7 +33,7 @@
   
     
   
-  <meta name="description" content="This session will introduce Teal Builder, a powerful Shiny application designed to simplify the creation of Teal apps without requiring users to write any R code. The presentation will cover the purpose and functionality of Teal Builder, demonstrate how to run the app locally, and provide a live demonstration of its capabilities. Teal Builder not only streamlines the process of building Teal apps but also provides a platform for generalizing certain internal statistical methods and processes into reusable modules to be used by more studies.  Teal Builder offers a user-friendly interface that guides users through data selection from multiple sources, module selection and compatibility validation based on the selected data. The app generates reproducible R code for running the Teal app or deploying it to Posit Connect, making the process efficient and accessible. It fulfills the unmet need of having an interactive data display for all studies, promoting Teal and R/Shiny adoption and usage to new R and non-R users.  Teal Builder comprises three R packages teal.builder, teal.builder.modules, and teal.builder.checks. The teal.builder package contains functions for running the Shiny app and serves as the entry point for most users. The teal.builder.modules package offers a collection of predefined module specifications, including module names, descriptions, data requirements, and reproducible code. The teal.builder.checks package provides functions to ensure user data adheres to specifications, offering detailed feedback when necessary.  During the demonstration, we will walk through the user journey of building a Teal app with Teal Builder. We&#39;ll showcase how a complex app for exploring ADaM datasets, which typically requires around 500 lines of code, can be generated in just a few minutes. This session will highlight the efficiency and user-friendliness of Teal Builder, making it an invaluable tool for those working with Teal apps." />
+  <meta name="description" content="Health Technology Assessment (HTA) involves evaluating the relevance and value of health technologies, such as drugs, within health care systems. Supporting this process from a biostatistical perspective requires a different mindset and distinct analytical methods compared to those used in regulatory submissions.  One approach to HTA is the German AMNOG process, which requires extensive data slicing to produce the necessary statistical material. This approach necessitates significant programming and orchestration effort, especially when following a traditional &#34;one output - one program&#34; methodology.  Compounding the challenge, the EU&#39;s joint initiative to streamline the HTA process across Europe, known as EU HTA, allows all member countries to bring forward similar individual requirements. This implies a significant increase in number of data slices and analyses required and a substantial workload for statistical programmers in the future. However, many of these analyses are repetitive and suitable for automation.  At Novo Nordisk we are involved in the HTA-R workstream under openstatsware where we are developing an open source ecosystem of R packages called  ramnog  to address the current challenges of AMNOG and the future demands of EU HTA. The goal is to automate repetitive tasks, allowing our colleagues more time to focus on complex analyses.  In our presentation, we will guide you through the practical aspects of specifying an analysis required for a typical AMNOG output and demonstrate how the package runs the analysis. Additionally, we will provide a technical overview of the ecosystem, detailing the roles and considerations of the individual components." />
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/rinpharma_460/" />
@@ -322,8 +322,8 @@
   
   <meta property="og:site_name" content="R/Pharma" />
   <meta property="og:url" content="/publication/rinpharma_460/" />
-  <meta property="og:title" content="Teal Builder - The Fastest Way to Build Reproducible Teal Apps | R/Pharma" />
-  <meta property="og:description" content="This session will introduce Teal Builder, a powerful Shiny application designed to simplify the creation of Teal apps without requiring users to write any R code. The presentation will cover the purpose and functionality of Teal Builder, demonstrate how to run the app locally, and provide a live demonstration of its capabilities. Teal Builder not only streamlines the process of building Teal apps but also provides a platform for generalizing certain internal statistical methods and processes into reusable modules to be used by more studies.  Teal Builder offers a user-friendly interface that guides users through data selection from multiple sources, module selection and compatibility validation based on the selected data. The app generates reproducible R code for running the Teal app or deploying it to Posit Connect, making the process efficient and accessible. It fulfills the unmet need of having an interactive data display for all studies, promoting Teal and R/Shiny adoption and usage to new R and non-R users.  Teal Builder comprises three R packages teal.builder, teal.builder.modules, and teal.builder.checks. The teal.builder package contains functions for running the Shiny app and serves as the entry point for most users. The teal.builder.modules package offers a collection of predefined module specifications, including module names, descriptions, data requirements, and reproducible code. The teal.builder.checks package provides functions to ensure user data adheres to specifications, offering detailed feedback when necessary.  During the demonstration, we will walk through the user journey of building a Teal app with Teal Builder. We&#39;ll showcase how a complex app for exploring ADaM datasets, which typically requires around 500 lines of code, can be generated in just a few minutes. This session will highlight the efficiency and user-friendliness of Teal Builder, making it an invaluable tool for those working with Teal apps." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
+  <meta property="og:title" content="ramnog: R package suite for automating statistical analyses | R/Pharma" />
+  <meta property="og:description" content="Health Technology Assessment (HTA) involves evaluating the relevance and value of health technologies, such as drugs, within health care systems. Supporting this process from a biostatistical perspective requires a different mindset and distinct analytical methods compared to those used in regulatory submissions.  One approach to HTA is the German AMNOG process, which requires extensive data slicing to produce the necessary statistical material. This approach necessitates significant programming and orchestration effort, especially when following a traditional &#34;one output - one program&#34; methodology.  Compounding the challenge, the EU&#39;s joint initiative to streamline the HTA process across Europe, known as EU HTA, allows all member countries to bring forward similar individual requirements. This implies a significant increase in number of data slices and analyses required and a substantial workload for statistical programmers in the future. However, many of these analyses are repetitive and suitable for automation.  At Novo Nordisk we are involved in the HTA-R workstream under openstatsware where we are developing an open source ecosystem of R packages called  ramnog  to address the current challenges of AMNOG and the future demands of EU HTA. The goal is to automate repetitive tasks, allowing our colleagues more time to focus on complex analyses.  In our presentation, we will guide you through the practical aspects of specifying an analysis required for a typical AMNOG output and demonstrate how the package runs the analysis. Additionally, we will provide a technical overview of the ecosystem, detailing the roles and considerations of the individual components." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
     <meta property="twitter:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -356,14 +356,14 @@
     "@type": "WebPage",
     "@id": "/publication/rinpharma_460/"
   },
-  "headline": "Teal Builder - The Fastest Way to Build Reproducible Teal Apps",
+  "headline": "ramnog: R package suite for automating statistical analyses",
   
   "datePublished": "1999-01-01T00:00:00Z",
   "dateModified": "2024-10-31T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Andrew McNeil"
+    "name": "Matthew Phelps"
   },
   
   "publisher": {
@@ -374,7 +374,7 @@
       "url": "/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_192x192_fit_lanczos_2.png"
     }
   },
-  "description": "This session will introduce Teal Builder, a powerful Shiny application designed to simplify the creation of Teal apps without requiring users to write any R code. The presentation will cover the purpose and functionality of Teal Builder, demonstrate how to run the app locally, and provide a live demonstration of its capabilities. Teal Builder not only streamlines the process of building Teal apps but also provides a platform for generalizing certain internal statistical methods and processes into reusable modules to be used by more studies.  Teal Builder offers a user-friendly interface that guides users through data selection from multiple sources, module selection and compatibility validation based on the selected data. The app generates reproducible R code for running the Teal app or deploying it to Posit Connect, making the process efficient and accessible. It fulfills the unmet need of having an interactive data display for all studies, promoting Teal and R/Shiny adoption and usage to new R and non-R users.  Teal Builder comprises three R packages teal.builder, teal.builder.modules, and teal.builder.checks. The teal.builder package contains functions for running the Shiny app and serves as the entry point for most users. The teal.builder.modules package offers a collection of predefined module specifications, including module names, descriptions, data requirements, and reproducible code. The teal.builder.checks package provides functions to ensure user data adheres to specifications, offering detailed feedback when necessary.  During the demonstration, we will walk through the user journey of building a Teal app with Teal Builder. We'll showcase how a complex app for exploring ADaM datasets, which typically requires around 500 lines of code, can be generated in just a few minutes. This session will highlight the efficiency and user-friendliness of Teal Builder, making it an invaluable tool for those working with Teal apps."
+  "description": "Health Technology Assessment (HTA) involves evaluating the relevance and value of health technologies, such as drugs, within health care systems. Supporting this process from a biostatistical perspective requires a different mindset and distinct analytical methods compared to those used in regulatory submissions.  One approach to HTA is the German AMNOG process, which requires extensive data slicing to produce the necessary statistical material. This approach necessitates significant programming and orchestration effort, especially when following a traditional \"one output - one program\" methodology.  Compounding the challenge, the EU's joint initiative to streamline the HTA process across Europe, known as EU HTA, allows all member countries to bring forward similar individual requirements. This implies a significant increase in number of data slices and analyses required and a substantial workload for statistical programmers in the future. However, many of these analyses are repetitive and suitable for automation.  At Novo Nordisk we are involved in the HTA-R workstream under openstatsware where we are developing an open source ecosystem of R packages called  ramnog  to address the current challenges of AMNOG and the future demands of EU HTA. The goal is to automate repetitive tasks, allowing our colleagues more time to focus on complex analyses.  In our presentation, we will guide you through the practical aspects of specifying an analysis required for a typical AMNOG output and demonstrate how the package runs the analysis. Additionally, we will provide a technical overview of the ecosystem, detailing the roles and considerations of the individual components."
 }
 </script>
 
@@ -420,7 +420,7 @@
 
 
 
-  <title>Teal Builder - The Fastest Way to Build Reproducible Teal Apps | R/Pharma</title>
+  <title>ramnog: R package suite for automating statistical analyses | R/Pharma</title>
 </head>
 
 
@@ -743,7 +743,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Teal Builder - The Fastest Way to Build Reproducible Teal Apps</h1>
+  <h1>ramnog: R package suite for automating statistical analyses</h1>
 
   
 
@@ -761,8 +761,8 @@
     
 
   <span >
-      <a href="/author/andrew-mcneil/">Andrew McNeil</a></span>, <span >
-      <a href="/author/freeman-wang/">Freeman Wang</a></span>
+      <a href="/author/matthew-phelps/">Matthew Phelps</a></span>, <span >
+      <a href="/author/christian-haargard-olsen/">Christian Haargard Olsen</a></span>
   </div>
   
   
@@ -798,47 +798,6 @@
 
 
 
-<div class="btn-links mb-3">
-  
-  
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header" href="https://youtu.be/GAJZ05_9Muk" target="_blank" rel="noopener">
-  Video
-</a>
-
-
-
-
-
-</div>
-
 
   
 </div>
@@ -849,7 +808,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">This session will introduce Teal Builder, a powerful Shiny application designed to simplify the creation of Teal apps without requiring users to write any R code. The presentation will cover the purpose and functionality of Teal Builder, demonstrate how to run the app locally, and provide a live demonstration of its capabilities. Teal Builder not only streamlines the process of building Teal apps but also provides a platform for generalizing certain internal statistical methods and processes into reusable modules to be used by more studies.  Teal Builder offers a user-friendly interface that guides users through data selection from multiple sources, module selection and compatibility validation based on the selected data. The app generates reproducible R code for running the Teal app or deploying it to Posit Connect, making the process efficient and accessible. It fulfills the unmet need of having an interactive data display for all studies, promoting Teal and R/Shiny adoption and usage to new R and non-R users.  Teal Builder comprises three R packages teal.builder, teal.builder.modules, and teal.builder.checks. The teal.builder package contains functions for running the Shiny app and serves as the entry point for most users. The teal.builder.modules package offers a collection of predefined module specifications, including module names, descriptions, data requirements, and reproducible code. The teal.builder.checks package provides functions to ensure user data adheres to specifications, offering detailed feedback when necessary.  During the demonstration, we will walk through the user journey of building a Teal app with Teal Builder. We&rsquo;ll showcase how a complex app for exploring ADaM datasets, which typically requires around 500 lines of code, can be generated in just a few minutes. This session will highlight the efficiency and user-friendliness of Teal Builder, making it an invaluable tool for those working with Teal apps.</p>
+    <p class="pub-abstract">Health Technology Assessment (HTA) involves evaluating the relevance and value of health technologies, such as drugs, within health care systems. Supporting this process from a biostatistical perspective requires a different mindset and distinct analytical methods compared to those used in regulatory submissions.  One approach to HTA is the German AMNOG process, which requires extensive data slicing to produce the necessary statistical material. This approach necessitates significant programming and orchestration effort, especially when following a traditional &ldquo;one output - one program&rdquo; methodology.  Compounding the challenge, the EU&rsquo;s joint initiative to streamline the HTA process across Europe, known as EU HTA, allows all member countries to bring forward similar individual requirements. This implies a significant increase in number of data slices and analyses required and a substantial workload for statistical programmers in the future. However, many of these analyses are repetitive and suitable for automation.  At Novo Nordisk we are involved in the HTA-R workstream under openstatsware where we are developing an open source ecosystem of R packages called  ramnog  to address the current challenges of AMNOG and the future demands of EU HTA. The goal is to automate repetitive tasks, allowing our colleagues more time to focus on complex analyses.  In our presentation, we will guide you through the practical aspects of specifying an analysis required for a typical AMNOG output and demonstrate how the package runs the analysis. Additionally, we will provide a technical overview of the ecosystem, detailing the roles and considerations of the individual components.</p>
     
 
     
@@ -896,7 +855,7 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/sanofi/">Sanofi</a>
+  <a class="badge badge-light" href="/tag/novo-nordisk/">Novo Nordisk</a>
   
 </div>
 
@@ -913,7 +872,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_460/&amp;text=Teal%20Builder%20-%20The%20Fastest%20Way%20to%20Build%20Reproducible%20Teal%20Apps" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_460/&amp;text=ramnog:%20R%20package%20suite%20for%20automating%20statistical%20analyses" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -926,7 +885,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_460/&amp;t=Teal%20Builder%20-%20The%20Fastest%20Way%20to%20Build%20Reproducible%20Teal%20Apps" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_460/&amp;t=ramnog:%20R%20package%20suite%20for%20automating%20statistical%20analyses" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -939,7 +898,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Teal%20Builder%20-%20The%20Fastest%20Way%20to%20Build%20Reproducible%20Teal%20Apps&amp;body=/publication/rinpharma_460/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=ramnog:%20R%20package%20suite%20for%20automating%20statistical%20analyses&amp;body=/publication/rinpharma_460/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -952,7 +911,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_460/&amp;title=Teal%20Builder%20-%20The%20Fastest%20Way%20to%20Build%20Reproducible%20Teal%20Apps" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_460/&amp;title=ramnog:%20R%20package%20suite%20for%20automating%20statistical%20analyses" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -965,7 +924,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Teal%20Builder%20-%20The%20Fastest%20Way%20to%20Build%20Reproducible%20Teal%20Apps%20/publication/rinpharma_460/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=ramnog:%20R%20package%20suite%20for%20automating%20statistical%20analyses%20/publication/rinpharma_460/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -978,7 +937,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_460/&amp;title=Teal%20Builder%20-%20The%20Fastest%20Way%20to%20Build%20Reproducible%20Teal%20Apps" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_460/&amp;title=ramnog:%20R%20package%20suite%20for%20automating%20statistical%20analyses" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1031,7 +990,15 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/publication/rinpharma_89/">Shinytized R Markdown: A Potent OTC Alternative to 1,3,7-Trimethylxanthine &amp; Currently Indicated for NDA Document Generation, Among Others</a></li>
+      <li><a href="/publication/rinpharma_243/">Automatic generation of PowerPoint presentation for communication of clinical trial results</a></li>
+      
+      <li><a href="/publication/rinpharma_306/">Co-existence of R and SAS for multiple imputation in Novo Nordisk</a></li>
+      
+      <li><a href="/publication/rinpharma_467/">Exploring Shiny for Quality Compliance Checks of Clinical Programming Deliverables</a></li>
+      
+      <li><a href="/publication/rinpharma_449/">Our R-Based Submissions: A 1-year follow-up, Lessons Learned, and Future Strategies</a></li>
+      
+      <li><a href="/publication/rinpharma_441/">{whirl} – An Open-Source R package for Program Logs</a></li>
       
     </ul>
   </div>

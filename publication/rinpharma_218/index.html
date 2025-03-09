@@ -33,7 +33,7 @@
   
     
   
-  <meta name="description" content="Motivated by the rapid rise in clinical data exploration, there is an increasing need to utilize interactive graphical displays using Shiny apps. To date, the development and deployment of study apps have required specialized knowledge and considerable effort. However, the similarity across domains and endpoints in clinical studies motivated us to build a comprehensive framework that scales shiny app creation across the portfolio. The Datapipeline harmonized framework democratizes the shiny app creation. It enables non-technical associates to create and deploy professional shiny applications quickly. It also empowers shiny developers to build reusable shiny modules that may be easily shared in a plug-and-play manner, ultimately accelerating future application development." />
+  <meta name="description" content="Tidymodels has begun to create tools for modeling event time data. This will include methods for fitting, resampling, and characterizing models with censored outcomes. This talk will describe our design goals, show some syntax for modeling, and describe subsequent additions to tidymodels." />
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/rinpharma_218/" />
@@ -322,8 +322,8 @@
   
   <meta property="og:site_name" content="R/Pharma" />
   <meta property="og:url" content="/publication/rinpharma_218/" />
-  <meta property="og:title" content="Democratizing Shiny App Development: The Novartis DataPipeline Harmonized Framework | R/Pharma" />
-  <meta property="og:description" content="Motivated by the rapid rise in clinical data exploration, there is an increasing need to utilize interactive graphical displays using Shiny apps. To date, the development and deployment of study apps have required specialized knowledge and considerable effort. However, the similarity across domains and endpoints in clinical studies motivated us to build a comprehensive framework that scales shiny app creation across the portfolio. The Datapipeline harmonized framework democratizes the shiny app creation. It enables non-technical associates to create and deploy professional shiny applications quickly. It also empowers shiny developers to build reusable shiny modules that may be easily shared in a plug-and-play manner, ultimately accelerating future application development." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
+  <meta property="og:title" content="Survival analysis with tidymodels: The censored package | R/Pharma" />
+  <meta property="og:description" content="Tidymodels has begun to create tools for modeling event time data. This will include methods for fitting, resampling, and characterizing models with censored outcomes. This talk will describe our design goals, show some syntax for modeling, and describe subsequent additions to tidymodels." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
     <meta property="twitter:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -332,7 +332,7 @@
         content="1999-01-01T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="1999-01-01T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2021-11-03T00:00:00&#43;00:00">
   
 
   
@@ -356,14 +356,14 @@
     "@type": "WebPage",
     "@id": "/publication/rinpharma_218/"
   },
-  "headline": "Democratizing Shiny App Development: The Novartis DataPipeline Harmonized Framework",
+  "headline": "Survival analysis with tidymodels: The censored package",
   
   "datePublished": "1999-01-01T00:00:00Z",
-  "dateModified": "1999-01-01T00:00:00Z",
+  "dateModified": "2021-11-03T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Ardalan Mishani"
+    "name": "Max Kuhn"
   },
   
   "publisher": {
@@ -374,7 +374,7 @@
       "url": "/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_192x192_fit_lanczos_2.png"
     }
   },
-  "description": "Motivated by the rapid rise in clinical data exploration, there is an increasing need to utilize interactive graphical displays using Shiny apps. To date, the development and deployment of study apps have required specialized knowledge and considerable effort. However, the similarity across domains and endpoints in clinical studies motivated us to build a comprehensive framework that scales shiny app creation across the portfolio. The Datapipeline harmonized framework democratizes the shiny app creation. It enables non-technical associates to create and deploy professional shiny applications quickly. It also empowers shiny developers to build reusable shiny modules that may be easily shared in a plug-and-play manner, ultimately accelerating future application development."
+  "description": "Tidymodels has begun to create tools for modeling event time data. This will include methods for fitting, resampling, and characterizing models with censored outcomes. This talk will describe our design goals, show some syntax for modeling, and describe subsequent additions to tidymodels."
 }
 </script>
 
@@ -420,7 +420,7 @@
 
 
 
-  <title>Democratizing Shiny App Development: The Novartis DataPipeline Harmonized Framework | R/Pharma</title>
+  <title>Survival analysis with tidymodels: The censored package | R/Pharma</title>
 </head>
 
 
@@ -743,7 +743,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Democratizing Shiny App Development: The Novartis DataPipeline Harmonized Framework</h1>
+  <h1>Survival analysis with tidymodels: The censored package</h1>
 
   
 
@@ -761,7 +761,8 @@
     
 
   <span >
-      <a href="/author/ardalan-mishani/">Ardalan Mishani</a></span>
+      <a href="/author/max-kuhn/">Max Kuhn</a></span>, <span >
+      <a href="/author/hannah-frick/">Hannah Frick</a></span>
   </div>
   
   
@@ -772,7 +773,7 @@
     
       
     
-    January 1999
+    November 2021
   </span>
   
 
@@ -828,7 +829,7 @@
   
     
   
-<a class="btn btn-outline-primary btn-page-header" href="https://youtu.be/MWFv1hsEcws" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://youtu.be/orAlJ321hOc" target="_blank" rel="noopener">
   Video
 </a>
 
@@ -848,7 +849,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Motivated by the rapid rise in clinical data exploration, there is an increasing need to utilize interactive graphical displays using Shiny apps. To date, the development and deployment of study apps have required specialized knowledge and considerable effort. However, the similarity across domains and endpoints in clinical studies motivated us to build a comprehensive framework that scales shiny app creation across the portfolio. The Datapipeline harmonized framework democratizes the shiny app creation. It enables non-technical associates to create and deploy professional shiny applications quickly. It also empowers shiny developers to build reusable shiny modules that may be easily shared in a plug-and-play manner, ultimately accelerating future application development.</p>
+    <p class="pub-abstract">Tidymodels has begun to create tools for modeling event time data. This will include methods for fitting, resampling, and characterizing models with censored outcomes. This talk will describe our design goals, show some syntax for modeling, and describe subsequent additions to tidymodels.</p>
     
 
     
@@ -895,7 +896,7 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/novartis/">Novartis</a>
+  <a class="badge badge-light" href="/tag/rstudio/">RStudio</a>
   
 </div>
 
@@ -912,7 +913,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_218/&amp;text=Democratizing%20Shiny%20App%20Development:%20The%20Novartis%20DataPipeline%20Harmonized%20Framework" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_218/&amp;text=Survival%20analysis%20with%20tidymodels:%20The%20censored%20package" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -925,7 +926,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_218/&amp;t=Democratizing%20Shiny%20App%20Development:%20The%20Novartis%20DataPipeline%20Harmonized%20Framework" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_218/&amp;t=Survival%20analysis%20with%20tidymodels:%20The%20censored%20package" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -938,7 +939,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Democratizing%20Shiny%20App%20Development:%20The%20Novartis%20DataPipeline%20Harmonized%20Framework&amp;body=/publication/rinpharma_218/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Survival%20analysis%20with%20tidymodels:%20The%20censored%20package&amp;body=/publication/rinpharma_218/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -951,7 +952,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_218/&amp;title=Democratizing%20Shiny%20App%20Development:%20The%20Novartis%20DataPipeline%20Harmonized%20Framework" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_218/&amp;title=Survival%20analysis%20with%20tidymodels:%20The%20censored%20package" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -964,7 +965,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Democratizing%20Shiny%20App%20Development:%20The%20Novartis%20DataPipeline%20Harmonized%20Framework%20/publication/rinpharma_218/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Survival%20analysis%20with%20tidymodels:%20The%20censored%20package%20/publication/rinpharma_218/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -977,7 +978,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_218/&amp;title=Democratizing%20Shiny%20App%20Development:%20The%20Novartis%20DataPipeline%20Harmonized%20Framework" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_218/&amp;title=Survival%20analysis%20with%20tidymodels:%20The%20censored%20package" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -997,6 +998,12 @@
 
 
   
+  
+    
+
+
+
+
   
     
 
@@ -1024,15 +1031,15 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/publication/rinpharma_99/">An R package for Data Science and Deep Visualization of a complex clinical database</a></li>
+      <li><a href="/publication/rinpharma_262/">Admin - Clinical Environment Management</a></li>
       
-      <li><a href="/publication/rinpharma_278/">Building Shiny Frameworks: Some Lessons</a></li>
+      <li><a href="/publication/rinpharma_259/">Building a Data Science Community at Your Pharma</a></li>
       
-      <li><a href="/publication/rinpharma_436/">China: new region, new topics, new perspectives and new heights</a></li>
+      <li><a href="/publication/rinpharma_194/">Clinical Tables in gt</a></li>
       
-      <li><a href="/publication/rinpharma_443/">Enhancing Late-Stage Process Development with R</a></li>
+      <li><a href="/publication/rinpharma_157/">Data visualization for real-world machine learning</a></li>
       
-      <li><a href="/publication/rinpharma_75/">Exploratory Graphics (xGx): Promoting the purposeful exploration of PKPD data</a></li>
+      <li><a href="/publication/rinpharma_255/">How to use pointblank to understand, validate, and document your data</a></li>
       
     </ul>
   </div>

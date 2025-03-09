@@ -33,7 +33,7 @@
   
     
   
-  <meta name="description" content="Objectives Demonstrate an interactive and dynamic visualization tool, ModViz POP, for simulating ordinary differential equations based PK/PD models with variability. Methods ModViz POP has an in built PKPD ODE library of models based on the compartmental nomenclature for simulating standard IV bolus, infusion and first order absorption scenarios. It also gives the user the ability to plug in a model from local directory to quickly simulate a model of interest. Users can also simulate from a project library which serves as a repository of final PK/PD models developed by individual project teams. Beyond the PK/PD models, it can handle complex QSP models and PBPK models equally well. Enhanced R packages, HTML/CSS, LATEX in combination with Shiny were used and provided an elegant and powerful programming framework for turning models into a web application with dynamic visualization and automated report writing. The user interface consists of several key inputs for performing the simulations. A tabbed navigation allows the user to visualize the plots, input parameters, derived values and equations. It provides the ability to download the underlying model, plots, simulated data or a comprehensive report consisting of all the key inputs and outputs of the simulations. The Help button provides a link to documentation with detailed instructions on different components of the interface. The interface also includes advanced features where users can overlay external data on over simulated data, set a certain simulation scenario as a reference or carry out sensitivity analysis based simulations. Conclusions This easy to use interface can serve as a valuable tool for teams to explore and evaluate potential scenarios and thus facilitate collaborative decision making in the drug discovery and development paradigm. References Kyle T. Baron et. al. mrgsolve Simulate from ODE-Based Population PK/PD and Systems Pharmacology Models. 2017" />
+  <meta name="description" content="Bayesian model-based dose-escalation designs, including one and two parameter logistic regression models, have meanwhile proven themselves in Phase I dose-escalation trials (Iasonos and O&#39;Quigley, 2014 [1]). Compared to rule/algorithm-based designs such as the 3&#43;3 design, model-based designs have the advantage of being more flexible in choosing the target toxicity rate and cohort size. Bayesian modeling allows to combine prior knowledge of the drug (e.g. from animal tox studies, data from comparator drugs or data from other studies) with the observed data from the current trial. The model-based approach accounts for uncertainty, optimize dose recommendations (balance of risk versus benefit for patients) and allows for dose de-escalation as well as dose re-escalation. Recent research has shown that model-based approaches are more reliable in estimating the maximum tolerated dose (MTD) and allocating less patients to ineffective or excessively toxic doses (Jaki et al., 2019 [2]). Because of their higher complexity, model-based designs are still seen critical among clinicians (Le Tourneau et al., 2012 [3]), thus the classical 3&#43;3 design is still widely implemented due to its simplicity and transparency. Conaway et al., 2019 [4] have highlighted that the choice of design in early phase affects the outcome of the drug development process, therefore more attention should be paid to early-stage designs. In this talk we will showcase how we bring Bayesian dose-escalation models closer to non-statisticians by means of R. We will discuss how we plan, implement and communicate the dose-escalation design to the clinicians. Moreover, we show how we present our results to the safety monitoring committee (SMC) and how we support the SMC in dose escalation decisions. We use a simple data example to illustrate the proposed methodology. All will be discussed within the context of using R as primary tool. [1] Iasonos, A. and O&#39;Quigley, J (2014). Adaptive Dose-Finding Studies A Review of Model-Guided Phase I Clinical Trials. Journal of clinical oncology, 2014; 32(23). [2] Jaki, T., Clive, S. and Weir, C.J. (2013). Principles of dose finding studies in cancer a comparison of trial designs. Cancer Chemother Pharmacol 711107-1114. [3] Le Tourneau C, Gan HK, Razak ARA, Paoletti X (2012). Efficiency of New Dose Escalation Designs in Dose-Finding Phase I Trials of Molecularly Targeted Agents. PLoS ONE 7(12) e51039. [4] Conaway, M.R. and Petroni, G.R. (2019). The impact of early phase trial design in the drug development process. Clinical Cancer Research." />
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/rinpharma_113/" />
@@ -322,8 +322,8 @@
   
   <meta property="og:site_name" content="R/Pharma" />
   <meta property="og:url" content="/publication/rinpharma_113/" />
-  <meta property="og:title" content="ModViz POP: R-Shiny Based PK/PD Interface for Empowering Teams to Perform Real-Time Simulations | R/Pharma" />
-  <meta property="og:description" content="Objectives Demonstrate an interactive and dynamic visualization tool, ModViz POP, for simulating ordinary differential equations based PK/PD models with variability. Methods ModViz POP has an in built PKPD ODE library of models based on the compartmental nomenclature for simulating standard IV bolus, infusion and first order absorption scenarios. It also gives the user the ability to plug in a model from local directory to quickly simulate a model of interest. Users can also simulate from a project library which serves as a repository of final PK/PD models developed by individual project teams. Beyond the PK/PD models, it can handle complex QSP models and PBPK models equally well. Enhanced R packages, HTML/CSS, LATEX in combination with Shiny were used and provided an elegant and powerful programming framework for turning models into a web application with dynamic visualization and automated report writing. The user interface consists of several key inputs for performing the simulations. A tabbed navigation allows the user to visualize the plots, input parameters, derived values and equations. It provides the ability to download the underlying model, plots, simulated data or a comprehensive report consisting of all the key inputs and outputs of the simulations. The Help button provides a link to documentation with detailed instructions on different components of the interface. The interface also includes advanced features where users can overlay external data on over simulated data, set a certain simulation scenario as a reference or carry out sensitivity analysis based simulations. Conclusions This easy to use interface can serve as a valuable tool for teams to explore and evaluate potential scenarios and thus facilitate collaborative decision making in the drug discovery and development paradigm. References Kyle T. Baron et. al. mrgsolve Simulate from ODE-Based Population PK/PD and Systems Pharmacology Models. 2017" /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
+  <meta property="og:title" content="Using R to foster the communication with non-statisticians on Bayesian dose escalation models | R/Pharma" />
+  <meta property="og:description" content="Bayesian model-based dose-escalation designs, including one and two parameter logistic regression models, have meanwhile proven themselves in Phase I dose-escalation trials (Iasonos and O&#39;Quigley, 2014 [1]). Compared to rule/algorithm-based designs such as the 3&#43;3 design, model-based designs have the advantage of being more flexible in choosing the target toxicity rate and cohort size. Bayesian modeling allows to combine prior knowledge of the drug (e.g. from animal tox studies, data from comparator drugs or data from other studies) with the observed data from the current trial. The model-based approach accounts for uncertainty, optimize dose recommendations (balance of risk versus benefit for patients) and allows for dose de-escalation as well as dose re-escalation. Recent research has shown that model-based approaches are more reliable in estimating the maximum tolerated dose (MTD) and allocating less patients to ineffective or excessively toxic doses (Jaki et al., 2019 [2]). Because of their higher complexity, model-based designs are still seen critical among clinicians (Le Tourneau et al., 2012 [3]), thus the classical 3&#43;3 design is still widely implemented due to its simplicity and transparency. Conaway et al., 2019 [4] have highlighted that the choice of design in early phase affects the outcome of the drug development process, therefore more attention should be paid to early-stage designs. In this talk we will showcase how we bring Bayesian dose-escalation models closer to non-statisticians by means of R. We will discuss how we plan, implement and communicate the dose-escalation design to the clinicians. Moreover, we show how we present our results to the safety monitoring committee (SMC) and how we support the SMC in dose escalation decisions. We use a simple data example to illustrate the proposed methodology. All will be discussed within the context of using R as primary tool. [1] Iasonos, A. and O&#39;Quigley, J (2014). Adaptive Dose-Finding Studies A Review of Model-Guided Phase I Clinical Trials. Journal of clinical oncology, 2014; 32(23). [2] Jaki, T., Clive, S. and Weir, C.J. (2013). Principles of dose finding studies in cancer a comparison of trial designs. Cancer Chemother Pharmacol 711107-1114. [3] Le Tourneau C, Gan HK, Razak ARA, Paoletti X (2012). Efficiency of New Dose Escalation Designs in Dose-Finding Phase I Trials of Molecularly Targeted Agents. PLoS ONE 7(12) e51039. [4] Conaway, M.R. and Petroni, G.R. (2019). The impact of early phase trial design in the drug development process. Clinical Cancer Research." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
     <meta property="twitter:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -332,7 +332,7 @@
         content="1999-01-01T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="1999-01-01T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2019-08-22T00:00:00&#43;00:00">
   
 
   
@@ -356,14 +356,14 @@
     "@type": "WebPage",
     "@id": "/publication/rinpharma_113/"
   },
-  "headline": "ModViz POP: R-Shiny Based PK/PD Interface for Empowering Teams to Perform Real-Time Simulations",
+  "headline": "Using R to foster the communication with non-statisticians on Bayesian dose escalation models",
   
   "datePublished": "1999-01-01T00:00:00Z",
-  "dateModified": "1999-01-01T00:00:00Z",
+  "dateModified": "2019-08-22T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Pavan Vaddady"
+    "name": "Marianna Grinberg"
   },
   
   "publisher": {
@@ -374,7 +374,7 @@
       "url": "/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_192x192_fit_lanczos_2.png"
     }
   },
-  "description": "Objectives Demonstrate an interactive and dynamic visualization tool, ModViz POP, for simulating ordinary differential equations based PK/PD models with variability. Methods ModViz POP has an in built PKPD ODE library of models based on the compartmental nomenclature for simulating standard IV bolus, infusion and first order absorption scenarios. It also gives the user the ability to plug in a model from local directory to quickly simulate a model of interest. Users can also simulate from a project library which serves as a repository of final PK/PD models developed by individual project teams. Beyond the PK/PD models, it can handle complex QSP models and PBPK models equally well. Enhanced R packages, HTML/CSS, LATEX in combination with Shiny were used and provided an elegant and powerful programming framework for turning models into a web application with dynamic visualization and automated report writing. The user interface consists of several key inputs for performing the simulations. A tabbed navigation allows the user to visualize the plots, input parameters, derived values and equations. It provides the ability to download the underlying model, plots, simulated data or a comprehensive report consisting of all the key inputs and outputs of the simulations. The Help button provides a link to documentation with detailed instructions on different components of the interface. The interface also includes advanced features where users can overlay external data on over simulated data, set a certain simulation scenario as a reference or carry out sensitivity analysis based simulations. Conclusions This easy to use interface can serve as a valuable tool for teams to explore and evaluate potential scenarios and thus facilitate collaborative decision making in the drug discovery and development paradigm. References Kyle T. Baron et. al. mrgsolve Simulate from ODE-Based Population PK/PD and Systems Pharmacology Models. 2017"
+  "description": "Bayesian model-based dose-escalation designs, including one and two parameter logistic regression models, have meanwhile proven themselves in Phase I dose-escalation trials (Iasonos and O'Quigley, 2014 [1]). Compared to rule/algorithm-based designs such as the 3+3 design, model-based designs have the advantage of being more flexible in choosing the target toxicity rate and cohort size. Bayesian modeling allows to combine prior knowledge of the drug (e.g. from animal tox studies, data from comparator drugs or data from other studies) with the observed data from the current trial. The model-based approach accounts for uncertainty, optimize dose recommendations (balance of risk versus benefit for patients) and allows for dose de-escalation as well as dose re-escalation. Recent research has shown that model-based approaches are more reliable in estimating the maximum tolerated dose (MTD) and allocating less patients to ineffective or excessively toxic doses (Jaki et al., 2019 [2]). Because of their higher complexity, model-based designs are still seen critical among clinicians (Le Tourneau et al., 2012 [3]), thus the classical 3+3 design is still widely implemented due to its simplicity and transparency. Conaway et al., 2019 [4] have highlighted that the choice of design in early phase affects the outcome of the drug development process, therefore more attention should be paid to early-stage designs. In this talk we will showcase how we bring Bayesian dose-escalation models closer to non-statisticians by means of R. We will discuss how we plan, implement and communicate the dose-escalation design to the clinicians. Moreover, we show how we present our results to the safety monitoring committee (SMC) and how we support the SMC in dose escalation decisions. We use a simple data example to illustrate the proposed methodology. All will be discussed within the context of using R as primary tool. [1] Iasonos, A. and O'Quigley, J (2014). Adaptive Dose-Finding Studies A Review of Model-Guided Phase I Clinical Trials. Journal of clinical oncology, 2014; 32(23). [2] Jaki, T., Clive, S. and Weir, C.J. (2013). Principles of dose finding studies in cancer a comparison of trial designs. Cancer Chemother Pharmacol 711107-1114. [3] Le Tourneau C, Gan HK, Razak ARA, Paoletti X (2012). Efficiency of New Dose Escalation Designs in Dose-Finding Phase I Trials of Molecularly Targeted Agents. PLoS ONE 7(12) e51039. [4] Conaway, M.R. and Petroni, G.R. (2019). The impact of early phase trial design in the drug development process. Clinical Cancer Research."
 }
 </script>
 
@@ -420,7 +420,7 @@
 
 
 
-  <title>ModViz POP: R-Shiny Based PK/PD Interface for Empowering Teams to Perform Real-Time Simulations | R/Pharma</title>
+  <title>Using R to foster the communication with non-statisticians on Bayesian dose escalation models | R/Pharma</title>
 </head>
 
 
@@ -743,7 +743,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>ModViz POP: R-Shiny Based PK/PD Interface for Empowering Teams to Perform Real-Time Simulations</h1>
+  <h1>Using R to foster the communication with non-statisticians on Bayesian dose escalation models</h1>
 
   
 
@@ -761,7 +761,7 @@
     
 
   <span >
-      <a href="/author/pavan-vaddady/">Pavan Vaddady</a></span>
+      <a href="/author/marianna-grinberg/">Marianna Grinberg</a></span>
   </div>
   
   
@@ -772,7 +772,7 @@
     
       
     
-    January 1999
+    August 2019
   </span>
   
 
@@ -807,7 +807,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Objectives Demonstrate an interactive and dynamic visualization tool, ModViz POP, for simulating ordinary differential equations based PK/PD models with variability. Methods ModViz POP has an in built PKPD ODE library of models based on the compartmental nomenclature for simulating standard IV bolus, infusion and first order absorption scenarios. It also gives the user the ability to plug in a model from local directory to quickly simulate a model of interest. Users can also simulate from a project library which serves as a repository of final PK/PD models developed by individual project teams. Beyond the PK/PD models, it can handle complex QSP models and PBPK models equally well. Enhanced R packages, HTML/CSS, LATEX in combination with Shiny were used and provided an elegant and powerful programming framework for turning models into a web application with dynamic visualization and automated report writing. The user interface consists of several key inputs for performing the simulations. A tabbed navigation allows the user to visualize the plots, input parameters, derived values and equations. It provides the ability to download the underlying model, plots, simulated data or a comprehensive report consisting of all the key inputs and outputs of the simulations. The Help button provides a link to documentation with detailed instructions on different components of the interface. The interface also includes advanced features where users can overlay external data on over simulated data, set a certain simulation scenario as a reference or carry out sensitivity analysis based simulations. Conclusions This easy to use interface can serve as a valuable tool for teams to explore and evaluate potential scenarios and thus facilitate collaborative decision making in the drug discovery and development paradigm. References Kyle T. Baron et. al. mrgsolve Simulate from ODE-Based Population PK/PD and Systems Pharmacology Models. 2017</p>
+    <p class="pub-abstract">Bayesian model-based dose-escalation designs, including one and two parameter logistic regression models, have meanwhile proven themselves in Phase I dose-escalation trials (Iasonos and O&rsquo;Quigley, 2014 [1]). Compared to rule/algorithm-based designs such as the 3+3 design, model-based designs have the advantage of being more flexible in choosing the target toxicity rate and cohort size. Bayesian modeling allows to combine prior knowledge of the drug (e.g. from animal tox studies, data from comparator drugs or data from other studies) with the observed data from the current trial. The model-based approach accounts for uncertainty, optimize dose recommendations (balance of risk versus benefit for patients) and allows for dose de-escalation as well as dose re-escalation. Recent research has shown that model-based approaches are more reliable in estimating the maximum tolerated dose (MTD) and allocating less patients to ineffective or excessively toxic doses (Jaki et al., 2019 [2]). Because of their higher complexity, model-based designs are still seen critical among clinicians (Le Tourneau et al., 2012 [3]), thus the classical 3+3 design is still widely implemented due to its simplicity and transparency. Conaway et al., 2019 [4] have highlighted that the choice of design in early phase affects the outcome of the drug development process, therefore more attention should be paid to early-stage designs. In this talk we will showcase how we bring Bayesian dose-escalation models closer to non-statisticians by means of R. We will discuss how we plan, implement and communicate the dose-escalation design to the clinicians. Moreover, we show how we present our results to the safety monitoring committee (SMC) and how we support the SMC in dose escalation decisions. We use a simple data example to illustrate the proposed methodology. All will be discussed within the context of using R as primary tool. [1] Iasonos, A. and O&rsquo;Quigley, J (2014). Adaptive Dose-Finding Studies A Review of Model-Guided Phase I Clinical Trials. Journal of clinical oncology, 2014; 32(23). [2] Jaki, T., Clive, S. and Weir, C.J. (2013). Principles of dose finding studies in cancer a comparison of trial designs. Cancer Chemother Pharmacol 711107-1114. [3] Le Tourneau C, Gan HK, Razak ARA, Paoletti X (2012). Efficiency of New Dose Escalation Designs in Dose-Finding Phase I Trials of Molecularly Targeted Agents. PLoS ONE 7(12) e51039. [4] Conaway, M.R. and Petroni, G.R. (2019). The impact of early phase trial design in the drug development process. Clinical Cancer Research.</p>
     
 
     
@@ -871,7 +871,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_113/&amp;text=ModViz%20POP:%20R-Shiny%20Based%20PK/PD%20Interface%20for%20Empowering%20Teams%20to%20Perform%20Real-Time%20Simulations" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_113/&amp;text=Using%20R%20to%20foster%20the%20communication%20with%20non-statisticians%20on%20Bayesian%20dose%20escalation%20models" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -884,7 +884,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_113/&amp;t=ModViz%20POP:%20R-Shiny%20Based%20PK/PD%20Interface%20for%20Empowering%20Teams%20to%20Perform%20Real-Time%20Simulations" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_113/&amp;t=Using%20R%20to%20foster%20the%20communication%20with%20non-statisticians%20on%20Bayesian%20dose%20escalation%20models" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -897,7 +897,7 @@
       
       
       <li>
-        <a href="mailto:?subject=ModViz%20POP:%20R-Shiny%20Based%20PK/PD%20Interface%20for%20Empowering%20Teams%20to%20Perform%20Real-Time%20Simulations&amp;body=/publication/rinpharma_113/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Using%20R%20to%20foster%20the%20communication%20with%20non-statisticians%20on%20Bayesian%20dose%20escalation%20models&amp;body=/publication/rinpharma_113/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -910,7 +910,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_113/&amp;title=ModViz%20POP:%20R-Shiny%20Based%20PK/PD%20Interface%20for%20Empowering%20Teams%20to%20Perform%20Real-Time%20Simulations" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_113/&amp;title=Using%20R%20to%20foster%20the%20communication%20with%20non-statisticians%20on%20Bayesian%20dose%20escalation%20models" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -923,7 +923,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=ModViz%20POP:%20R-Shiny%20Based%20PK/PD%20Interface%20for%20Empowering%20Teams%20to%20Perform%20Real-Time%20Simulations%20/publication/rinpharma_113/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Using%20R%20to%20foster%20the%20communication%20with%20non-statisticians%20on%20Bayesian%20dose%20escalation%20models%20/publication/rinpharma_113/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -936,7 +936,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_113/&amp;title=ModViz%20POP:%20R-Shiny%20Based%20PK/PD%20Interface%20for%20Empowering%20Teams%20to%20Perform%20Real-Time%20Simulations" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_113/&amp;title=Using%20R%20to%20foster%20the%20communication%20with%20non-statisticians%20on%20Bayesian%20dose%20escalation%20models" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -983,15 +983,15 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/publication/rinpharma_295/">Asynchronous Processing of Long-Running Tasks in Shiny</a></li>
+      <li><a href="/publication/rinpharma_315/">Asynchronous Processing of Long-Running Tasks in Shiny</a></li>
       
-      <li><a href="/publication/rinpharma_484/">Creating a Doctor Network using R and Graph Databases</a></li>
+      <li><a href="/publication/rinpharma_483/">Creating a Doctor Network using R and Graph Databases</a></li>
       
-      <li><a href="/publication/rinpharma_203/">Interactive Forest Plot for DMC Safety Monitoring in Clinical Trials</a></li>
+      <li><a href="/publication/rinpharma_215/">Interactive Forest Plot for DMC Safety Monitoring in Clinical Trials</a></li>
       
-      <li><a href="/publication/rinpharma_326/">Interactive Reporting for Safety Monitoring</a></li>
+      <li><a href="/publication/rinpharma_341/">Interactive Reporting for Safety Monitoring</a></li>
       
-      <li><a href="/publication/rinpharma_115/">Its Not Whats on the Outside, but Its Whats on the Back-end That Matters: The World Beyond CSV Files</a></li>
+      <li><a href="/publication/rinpharma_109/">Its Not Whats on the Outside, but Its Whats on the Back-end That Matters: The World Beyond CSV Files</a></li>
       
     </ul>
   </div>

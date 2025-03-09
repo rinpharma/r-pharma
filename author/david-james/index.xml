@@ -5,7 +5,7 @@
     <link>/author/david-james/</link>
       <atom:link href="/author/david-james/index.xml" rel="self" type="application/rss+xml" />
     <description>David James</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Fri, 01 Jan 1999 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Wed, 21 Aug 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
       <title>David James</title>
@@ -14,9 +14,9 @@
     
     <item>
       <title>An R package for Data Science and Deep Visualization of a complex clinical database</title>
-      <link>/publication/rinpharma_99/</link>
-      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_99/</guid>
+      <link>/publication/rinpharma_93/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_93/</guid>
       <description></description>
     </item>
     

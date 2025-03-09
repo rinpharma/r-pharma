@@ -33,7 +33,7 @@
   
     
   
-  <meta name="description" content="Drug repositioning is an area of growing interest in drug development that can accelerate the discovery of new treatment options to benefit patients worldwide. Briefly, drug repositioning refers to the systematic investigation of a novel disease indication for a drug molecule. Drug repositioning can be accelerated using various tools and technologies, including intelligent dashboards, data integration and human-in-the-loop machine learning.  A typical drug repositioning investigation generates a large amount that often needs to be linked and interpreted using a visual grammar familiar to various scientific groups leading drug repositioning investigation. We developed OneView - a shiny app that enables seamless integration, computing and visualization to accelerate drug repositioning investigations.  As in many clinical and pre-clinical projects, the problem that OneView tries to solve is to connect biologists and clinicians with the data in a meaningful way. The core data behind the dashboard are from an analysis comparing transcriptomic signatures of drug molecules with hundreds of disease transcriptomic signatures, creating connections between a compound and diseases based on an inverse correlation between the transcriptomic signatures. To fully understand the significance of the relationships, OneView provides a dynamic dashboard enabling scientists to filter/search within the data, follow connections through multiple datasets, and provide meaningful interactive visualizations.  We have incorporated additional data from several internal knowledge repositories to find further evidence to substantiate potential links between a compound and a disease.   From a technical aspect, the most challenging part has been visualizing the data in the best way. A lot of the interesting information is in the standard connections of different elements in the data - such as common genes in multiple mappings between compound and disease signatures. In many cases, network plots were too busy to display those connections meaningfully. Instead, UpSet plots were found the best way to visualize interactions between multiple sets. While several packages are implementing UpSet plots in R, none of them allowed for interactive visualizations. To allow interaction with the visualization and further drilling down the data by selecting bars in the graph, we implemented our version of UpSet plots using the JavaScript library D3." />
+  <meta name="description" content="Detailed exploration of large transcriptomics datasets, increasingly available at single-cell resolution, is a time-consuming task which often requires the complementary skill sets of data analysts and experimental scientists to complete analyses and interpretation in an efficient manner. The iSEE (Interactive SummarizedExperiment Explorer) R/Bioconductor software package (https//bioconductor.org/packages/iSEE/), built on the shiny R framework, provides a general-purpose graphical interface for exploring any rectangular dataset with additional sample and feature annotations, such as single-cell RNA-seq data. Users can create, configure, and interact with the iSEE interface, enabling quick iterations of data visualization. This facilitates generation of new scientific hypotheses and insights into biological phenomena, and empowers a wide range of researchers to explore their data in depth. iSEE also guarantees the reproducibility of the analysis, by reporting the code generating all the output elements as well as the layout and configuration of the user interface. The combination of interactivity and reproducibility makes iSEE an ideal candidate to bridge and complement the expertise of researchers, who are able to design flexible, accessible, and robust dashboards that can also be directly shared and deployed in collaborative contexts - connecting large data collections to broad audiences, thus further increasing the value of generated research data." />
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/rinpharma_210/" />
@@ -322,8 +322,8 @@
   
   <meta property="og:site_name" content="R/Pharma" />
   <meta property="og:url" content="/publication/rinpharma_210/" />
-  <meta property="og:title" content="OneView – A Shiny app to unlock the full potential of drug repositioning investigations | R/Pharma" />
-  <meta property="og:description" content="Drug repositioning is an area of growing interest in drug development that can accelerate the discovery of new treatment options to benefit patients worldwide. Briefly, drug repositioning refers to the systematic investigation of a novel disease indication for a drug molecule. Drug repositioning can be accelerated using various tools and technologies, including intelligent dashboards, data integration and human-in-the-loop machine learning.  A typical drug repositioning investigation generates a large amount that often needs to be linked and interpreted using a visual grammar familiar to various scientific groups leading drug repositioning investigation. We developed OneView - a shiny app that enables seamless integration, computing and visualization to accelerate drug repositioning investigations.  As in many clinical and pre-clinical projects, the problem that OneView tries to solve is to connect biologists and clinicians with the data in a meaningful way. The core data behind the dashboard are from an analysis comparing transcriptomic signatures of drug molecules with hundreds of disease transcriptomic signatures, creating connections between a compound and diseases based on an inverse correlation between the transcriptomic signatures. To fully understand the significance of the relationships, OneView provides a dynamic dashboard enabling scientists to filter/search within the data, follow connections through multiple datasets, and provide meaningful interactive visualizations.  We have incorporated additional data from several internal knowledge repositories to find further evidence to substantiate potential links between a compound and a disease.   From a technical aspect, the most challenging part has been visualizing the data in the best way. A lot of the interesting information is in the standard connections of different elements in the data - such as common genes in multiple mappings between compound and disease signatures. In many cases, network plots were too busy to display those connections meaningfully. Instead, UpSet plots were found the best way to visualize interactions between multiple sets. While several packages are implementing UpSet plots in R, none of them allowed for interactive visualizations. To allow interaction with the visualization and further drilling down the data by selecting bars in the graph, we implemented our version of UpSet plots using the JavaScript library D3." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
+  <meta property="og:title" content="Interactive and collaborative exploration of large-scale transcriptomics data with iSEE | R/Pharma" />
+  <meta property="og:description" content="Detailed exploration of large transcriptomics datasets, increasingly available at single-cell resolution, is a time-consuming task which often requires the complementary skill sets of data analysts and experimental scientists to complete analyses and interpretation in an efficient manner. The iSEE (Interactive SummarizedExperiment Explorer) R/Bioconductor software package (https//bioconductor.org/packages/iSEE/), built on the shiny R framework, provides a general-purpose graphical interface for exploring any rectangular dataset with additional sample and feature annotations, such as single-cell RNA-seq data. Users can create, configure, and interact with the iSEE interface, enabling quick iterations of data visualization. This facilitates generation of new scientific hypotheses and insights into biological phenomena, and empowers a wide range of researchers to explore their data in depth. iSEE also guarantees the reproducibility of the analysis, by reporting the code generating all the output elements as well as the layout and configuration of the user interface. The combination of interactivity and reproducibility makes iSEE an ideal candidate to bridge and complement the expertise of researchers, who are able to design flexible, accessible, and robust dashboards that can also be directly shared and deployed in collaborative contexts - connecting large data collections to broad audiences, thus further increasing the value of generated research data." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
     <meta property="twitter:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -332,7 +332,7 @@
         content="1999-01-01T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="1999-01-01T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2021-11-02T00:00:00&#43;00:00">
   
 
   
@@ -356,14 +356,14 @@
     "@type": "WebPage",
     "@id": "/publication/rinpharma_210/"
   },
-  "headline": "OneView – A Shiny app to unlock the full potential of drug repositioning investigations",
+  "headline": "Interactive and collaborative exploration of large-scale transcriptomics data with iSEE",
   
   "datePublished": "1999-01-01T00:00:00Z",
-  "dateModified": "1999-01-01T00:00:00Z",
+  "dateModified": "2021-11-02T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Monika Huhn"
+    "name": "Charlotte Soneson"
   },
   
   "publisher": {
@@ -374,7 +374,7 @@
       "url": "/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_192x192_fit_lanczos_2.png"
     }
   },
-  "description": "Drug repositioning is an area of growing interest in drug development that can accelerate the discovery of new treatment options to benefit patients worldwide. Briefly, drug repositioning refers to the systematic investigation of a novel disease indication for a drug molecule. Drug repositioning can be accelerated using various tools and technologies, including intelligent dashboards, data integration and human-in-the-loop machine learning.  A typical drug repositioning investigation generates a large amount that often needs to be linked and interpreted using a visual grammar familiar to various scientific groups leading drug repositioning investigation. We developed OneView - a shiny app that enables seamless integration, computing and visualization to accelerate drug repositioning investigations.  As in many clinical and pre-clinical projects, the problem that OneView tries to solve is to connect biologists and clinicians with the data in a meaningful way. The core data behind the dashboard are from an analysis comparing transcriptomic signatures of drug molecules with hundreds of disease transcriptomic signatures, creating connections between a compound and diseases based on an inverse correlation between the transcriptomic signatures. To fully understand the significance of the relationships, OneView provides a dynamic dashboard enabling scientists to filter/search within the data, follow connections through multiple datasets, and provide meaningful interactive visualizations.  We have incorporated additional data from several internal knowledge repositories to find further evidence to substantiate potential links between a compound and a disease.   From a technical aspect, the most challenging part has been visualizing the data in the best way. A lot of the interesting information is in the standard connections of different elements in the data - such as common genes in multiple mappings between compound and disease signatures. In many cases, network plots were too busy to display those connections meaningfully. Instead, UpSet plots were found the best way to visualize interactions between multiple sets. While several packages are implementing UpSet plots in R, none of them allowed for interactive visualizations. To allow interaction with the visualization and further drilling down the data by selecting bars in the graph, we implemented our version of UpSet plots using the JavaScript library D3."
+  "description": "Detailed exploration of large transcriptomics datasets, increasingly available at single-cell resolution, is a time-consuming task which often requires the complementary skill sets of data analysts and experimental scientists to complete analyses and interpretation in an efficient manner. The iSEE (Interactive SummarizedExperiment Explorer) R/Bioconductor software package (https//bioconductor.org/packages/iSEE/), built on the shiny R framework, provides a general-purpose graphical interface for exploring any rectangular dataset with additional sample and feature annotations, such as single-cell RNA-seq data. Users can create, configure, and interact with the iSEE interface, enabling quick iterations of data visualization. This facilitates generation of new scientific hypotheses and insights into biological phenomena, and empowers a wide range of researchers to explore their data in depth. iSEE also guarantees the reproducibility of the analysis, by reporting the code generating all the output elements as well as the layout and configuration of the user interface. The combination of interactivity and reproducibility makes iSEE an ideal candidate to bridge and complement the expertise of researchers, who are able to design flexible, accessible, and robust dashboards that can also be directly shared and deployed in collaborative contexts - connecting large data collections to broad audiences, thus further increasing the value of generated research data."
 }
 </script>
 
@@ -420,7 +420,7 @@
 
 
 
-  <title>OneView – A Shiny app to unlock the full potential of drug repositioning investigations | R/Pharma</title>
+  <title>Interactive and collaborative exploration of large-scale transcriptomics data with iSEE | R/Pharma</title>
 </head>
 
 
@@ -743,7 +743,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>OneView – A Shiny app to unlock the full potential of drug repositioning investigations</h1>
+  <h1>Interactive and collaborative exploration of large-scale transcriptomics data with iSEE</h1>
 
   
 
@@ -761,19 +761,10 @@
     
 
   <span >
-      <a href="/author/monika-huhn/">Monika Huhn</a></span>, <span >
-      <a href="/author/saleha-patel/">Saleha Patel</a></span>, <span >
-      <a href="/author/kalliopi-tsafou/">Kalliopi Tsafou</a></span>, <span >
-      <a href="/author/bjorn-magnusson/">Björn Magnusson</a></span>, <span >
-      <a href="/author/elke-ericson/">Elke Ericson</a></span>, <span >
-      <a href="/author/wen-yu/">Wen Yu</a></span>, <span >
-      <a href="/author/eliseo-papa/">Eliseo Papa</a></span>, <span >
-      <a href="/author/stefano-bragaglia/">Stefano Bragaglia</a></span>, <span >
-      <a href="/author/claire-donoghue/">Claire Donoghue</a></span>, <span >
-      <a href="/author/faisal-khan/">Faisal Khan</a></span>, <span >
-      <a href="/author/hitesh-sanganee/">Hitesh Sanganee</a></span>, <span >
-      <a href="/author/shameer-khader/">Shameer Khader</a></span>, <span >
-      <a href="/author/adrian-freeman/">Adrian Freeman</a></span>
+      <a href="/author/charlotte-soneson/">Charlotte Soneson</a></span>, <span >
+      <a href="/author/kevin-rue-albrecht/">Kevin Rue-Albrecht</a></span>, <span >
+      <a href="/author/federico-marini/">Federico Marini</a></span>, <span >
+      <a href="/author/aaron-lun/">Aaron Lun</a></span>
   </div>
   
   
@@ -784,7 +775,7 @@
     
       
     
-    January 1999
+    November 2021
   </span>
   
 
@@ -838,7 +829,7 @@
   
     
   
-<a class="btn btn-outline-primary btn-page-header" href="https://github.com/rinpharma/2021_presentations/tree/master/talks_folder/2021-Huhn-OneView.html" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://github.com/rinpharma/2021_presentations/tree/master/talks_folder/2021-Soneson-Large_Scale_Transcriptomics.pdf" target="_blank" rel="noopener">
   Slides
 </a>
 
@@ -848,7 +839,7 @@
   
     
   
-<a class="btn btn-outline-primary btn-page-header" href="https://youtu.be/vgvLs98yTIM" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://youtu.be/SZT94n5vnwA" target="_blank" rel="noopener">
   Video
 </a>
 
@@ -868,7 +859,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Drug repositioning is an area of growing interest in drug development that can accelerate the discovery of new treatment options to benefit patients worldwide. Briefly, drug repositioning refers to the systematic investigation of a novel disease indication for a drug molecule. Drug repositioning can be accelerated using various tools and technologies, including intelligent dashboards, data integration and human-in-the-loop machine learning.  A typical drug repositioning investigation generates a large amount that often needs to be linked and interpreted using a visual grammar familiar to various scientific groups leading drug repositioning investigation. We developed OneView - a shiny app that enables seamless integration, computing and visualization to accelerate drug repositioning investigations.  As in many clinical and pre-clinical projects, the problem that OneView tries to solve is to connect biologists and clinicians with the data in a meaningful way. The core data behind the dashboard are from an analysis comparing transcriptomic signatures of drug molecules with hundreds of disease transcriptomic signatures, creating connections between a compound and diseases based on an inverse correlation between the transcriptomic signatures. To fully understand the significance of the relationships, OneView provides a dynamic dashboard enabling scientists to filter/search within the data, follow connections through multiple datasets, and provide meaningful interactive visualizations.  We have incorporated additional data from several internal knowledge repositories to find further evidence to substantiate potential links between a compound and a disease.   From a technical aspect, the most challenging part has been visualizing the data in the best way. A lot of the interesting information is in the standard connections of different elements in the data - such as common genes in multiple mappings between compound and disease signatures. In many cases, network plots were too busy to display those connections meaningfully. Instead, UpSet plots were found the best way to visualize interactions between multiple sets. While several packages are implementing UpSet plots in R, none of them allowed for interactive visualizations. To allow interaction with the visualization and further drilling down the data by selecting bars in the graph, we implemented our version of UpSet plots using the JavaScript library D3.</p>
+    <p class="pub-abstract">Detailed exploration of large transcriptomics datasets, increasingly available at single-cell resolution, is a time-consuming task which often requires the complementary skill sets of data analysts and experimental scientists to complete analyses and interpretation in an efficient manner. The iSEE (Interactive SummarizedExperiment Explorer) R/Bioconductor software package (https//bioconductor.org/packages/iSEE/), built on the shiny R framework, provides a general-purpose graphical interface for exploring any rectangular dataset with additional sample and feature annotations, such as single-cell RNA-seq data. Users can create, configure, and interact with the iSEE interface, enabling quick iterations of data visualization. This facilitates generation of new scientific hypotheses and insights into biological phenomena, and empowers a wide range of researchers to explore their data in depth. iSEE also guarantees the reproducibility of the analysis, by reporting the code generating all the output elements as well as the layout and configuration of the user interface. The combination of interactivity and reproducibility makes iSEE an ideal candidate to bridge and complement the expertise of researchers, who are able to design flexible, accessible, and robust dashboards that can also be directly shared and deployed in collaborative contexts - connecting large data collections to broad audiences, thus further increasing the value of generated research data.</p>
     
 
     
@@ -915,7 +906,7 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/astra-zeneca/">Astra Zeneca</a>
+  <a class="badge badge-light" href="/tag/friedrich-miescher-institute/">Friedrich Miescher Institute</a>
   
 </div>
 
@@ -932,7 +923,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_210/&amp;text=OneView%20%e2%80%93%20A%20Shiny%20app%20to%20unlock%20the%20full%20potential%20of%20drug%20repositioning%20investigations" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_210/&amp;text=Interactive%20and%20collaborative%20exploration%20of%20large-scale%20transcriptomics%20data%20with%20iSEE" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -945,7 +936,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_210/&amp;t=OneView%20%e2%80%93%20A%20Shiny%20app%20to%20unlock%20the%20full%20potential%20of%20drug%20repositioning%20investigations" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_210/&amp;t=Interactive%20and%20collaborative%20exploration%20of%20large-scale%20transcriptomics%20data%20with%20iSEE" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -958,7 +949,7 @@
       
       
       <li>
-        <a href="mailto:?subject=OneView%20%e2%80%93%20A%20Shiny%20app%20to%20unlock%20the%20full%20potential%20of%20drug%20repositioning%20investigations&amp;body=/publication/rinpharma_210/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Interactive%20and%20collaborative%20exploration%20of%20large-scale%20transcriptomics%20data%20with%20iSEE&amp;body=/publication/rinpharma_210/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -971,7 +962,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_210/&amp;title=OneView%20%e2%80%93%20A%20Shiny%20app%20to%20unlock%20the%20full%20potential%20of%20drug%20repositioning%20investigations" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_210/&amp;title=Interactive%20and%20collaborative%20exploration%20of%20large-scale%20transcriptomics%20data%20with%20iSEE" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -984,7 +975,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=OneView%20%e2%80%93%20A%20Shiny%20app%20to%20unlock%20the%20full%20potential%20of%20drug%20repositioning%20investigations%20/publication/rinpharma_210/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Interactive%20and%20collaborative%20exploration%20of%20large-scale%20transcriptomics%20data%20with%20iSEE%20/publication/rinpharma_210/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -997,7 +988,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_210/&amp;title=OneView%20%e2%80%93%20A%20Shiny%20app%20to%20unlock%20the%20full%20potential%20of%20drug%20repositioning%20investigations" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_210/&amp;title=Interactive%20and%20collaborative%20exploration%20of%20large-scale%20transcriptomics%20data%20with%20iSEE" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1017,60 +1008,6 @@
 
 
   
-  
-    
-
-
-
-
-  
-    
-
-
-
-
-  
-    
-
-
-
-
-  
-    
-
-
-
-
-  
-    
-
-
-
-
-  
-    
-
-
-
-
-  
-    
-
-
-
-
-  
-    
-
-
-
-
-  
-    
-
-
-
-
   
     
 

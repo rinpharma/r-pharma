@@ -33,7 +33,7 @@
   
     
   
-  <meta name="description" content="Streamlining clinical trial output workflows is a key challenge for clinical studies. Our project leverages Python to link the planned analysis stored in a google sheet LoPO (List of clinical study Planned Outputs) to the study scripts that generates SDTM/ADAM/TLG outputs. We also employ Snakemake, a powerful workflow management system, to automate creation of an execution plan that can then orchestrate the generation of output files from the processed data, using parallel computing.  To simplify the data collection process, we have created a Google Sheets add-on that allows statistical programming analysts to input clinical studies information directly.  Using the in-production LoPO tool as a case study, we will present learnings that have shaped our current best practices on writing, versioning, testing and deploying a Python package as a critical component of our clinical reporting workflow." />
+  <meta name="description" content="In this talk, we would like to introduce openstatsware, an official working group of the American Statistical Association (ASA) Biopharmaceutical Section. The working group has a primary objective to engineer R packages that implement important statistical methods, with current focus on mixed models for repeated measures (MMRM) for both frequentist and Bayesian inferences, and health technology assessment (HTA). The secondary objective is to develop and disseminate best practices for engineering high-quality open-source statistical software, for which we have given workshops in different countries/cities and made Youtube video series for education purpose. We would also like to introduce the R package  mmrm  for implementing MMRM, which was developed as a cross-company collaboration via openstatsware. A critical advantage of  mmrm  over existing implementations is that it is faster and converges more reliably. It also provides a comprehensive set of features users can specify a variety of covariance matrices, weight observations, fit models with restricted or standard maximum likelihood inference, perform hypothesis testing with Satterthwaite or Kenward-Roger adjusted degrees of freedom, extract the least square means estimates using the emmeans package, and use tidymodels for easy model fitting. We aim to establish  mmrm  as a new standard for fitting MMRM." />
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/rinpharma_344/" />
@@ -322,8 +322,8 @@
   
   <meta property="og:site_name" content="R/Pharma" />
   <meta property="og:url" content="/publication/rinpharma_344/" />
-  <meta property="og:title" content="Learnings from deploying a Python package to orchestrate clinical trials outputs generation | R/Pharma" />
-  <meta property="og:description" content="Streamlining clinical trial output workflows is a key challenge for clinical studies. Our project leverages Python to link the planned analysis stored in a google sheet LoPO (List of clinical study Planned Outputs) to the study scripts that generates SDTM/ADAM/TLG outputs. We also employ Snakemake, a powerful workflow management system, to automate creation of an execution plan that can then orchestrate the generation of output files from the processed data, using parallel computing.  To simplify the data collection process, we have created a Google Sheets add-on that allows statistical programming analysts to input clinical studies information directly.  Using the in-production LoPO tool as a case study, we will present learnings that have shaped our current best practices on writing, versioning, testing and deploying a Python package as a critical component of our clinical reporting workflow." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
+  <meta property="og:title" content="Introducing openstatsware and the R package {mmrm} | R/Pharma" />
+  <meta property="og:description" content="In this talk, we would like to introduce openstatsware, an official working group of the American Statistical Association (ASA) Biopharmaceutical Section. The working group has a primary objective to engineer R packages that implement important statistical methods, with current focus on mixed models for repeated measures (MMRM) for both frequentist and Bayesian inferences, and health technology assessment (HTA). The secondary objective is to develop and disseminate best practices for engineering high-quality open-source statistical software, for which we have given workshops in different countries/cities and made Youtube video series for education purpose. We would also like to introduce the R package  mmrm  for implementing MMRM, which was developed as a cross-company collaboration via openstatsware. A critical advantage of  mmrm  over existing implementations is that it is faster and converges more reliably. It also provides a comprehensive set of features users can specify a variety of covariance matrices, weight observations, fit models with restricted or standard maximum likelihood inference, perform hypothesis testing with Satterthwaite or Kenward-Roger adjusted degrees of freedom, extract the least square means estimates using the emmeans package, and use tidymodels for easy model fitting. We aim to establish  mmrm  as a new standard for fitting MMRM." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
     <meta property="twitter:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -332,7 +332,7 @@
         content="1999-01-01T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="1999-01-01T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2023-10-24T00:00:00&#43;00:00">
   
 
   
@@ -356,14 +356,14 @@
     "@type": "WebPage",
     "@id": "/publication/rinpharma_344/"
   },
-  "headline": "Learnings from deploying a Python package to orchestrate clinical trials outputs generation",
+  "headline": "Introducing openstatsware and the R package {mmrm}",
   
   "datePublished": "1999-01-01T00:00:00Z",
-  "dateModified": "1999-01-01T00:00:00Z",
+  "dateModified": "2023-10-24T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Daphné Grasselly"
+    "name": "Ya Wang"
   },
   
   "publisher": {
@@ -374,7 +374,7 @@
       "url": "/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_192x192_fit_lanczos_2.png"
     }
   },
-  "description": "Streamlining clinical trial output workflows is a key challenge for clinical studies. Our project leverages Python to link the planned analysis stored in a google sheet LoPO (List of clinical study Planned Outputs) to the study scripts that generates SDTM/ADAM/TLG outputs. We also employ Snakemake, a powerful workflow management system, to automate creation of an execution plan that can then orchestrate the generation of output files from the processed data, using parallel computing.  To simplify the data collection process, we have created a Google Sheets add-on that allows statistical programming analysts to input clinical studies information directly.  Using the in-production LoPO tool as a case study, we will present learnings that have shaped our current best practices on writing, versioning, testing and deploying a Python package as a critical component of our clinical reporting workflow."
+  "description": "In this talk, we would like to introduce openstatsware, an official working group of the American Statistical Association (ASA) Biopharmaceutical Section. The working group has a primary objective to engineer R packages that implement important statistical methods, with current focus on mixed models for repeated measures (MMRM) for both frequentist and Bayesian inferences, and health technology assessment (HTA). The secondary objective is to develop and disseminate best practices for engineering high-quality open-source statistical software, for which we have given workshops in different countries/cities and made Youtube video series for education purpose. We would also like to introduce the R package  mmrm  for implementing MMRM, which was developed as a cross-company collaboration via openstatsware. A critical advantage of  mmrm  over existing implementations is that it is faster and converges more reliably. It also provides a comprehensive set of features users can specify a variety of covariance matrices, weight observations, fit models with restricted or standard maximum likelihood inference, perform hypothesis testing with Satterthwaite or Kenward-Roger adjusted degrees of freedom, extract the least square means estimates using the emmeans package, and use tidymodels for easy model fitting. We aim to establish  mmrm  as a new standard for fitting MMRM."
 }
 </script>
 
@@ -420,7 +420,7 @@
 
 
 
-  <title>Learnings from deploying a Python package to orchestrate clinical trials outputs generation | R/Pharma</title>
+  <title>Introducing openstatsware and the R package {mmrm} | R/Pharma</title>
 </head>
 
 
@@ -743,7 +743,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Learnings from deploying a Python package to orchestrate clinical trials outputs generation</h1>
+  <h1>Introducing openstatsware and the R package {mmrm}</h1>
 
   
 
@@ -761,7 +761,7 @@
     
 
   <span >
-      <a href="/author/daphne-grasselly/">Daphné Grasselly</a></span>
+      <a href="/author/ya-wang/">Ya Wang</a></span>
   </div>
   
   
@@ -772,7 +772,7 @@
     
       
     
-    January 1999
+    October 2023
   </span>
   
 
@@ -822,13 +822,21 @@
 
 
 
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="https://github.com/rinpharma/2023_presentations/blob/main/talks_folder/2023-Wang-openstatsware.pptx" target="_blank" rel="noopener">
+  Slides
+</a>
+
 
 
   
   
     
   
-<a class="btn btn-outline-primary btn-page-header" href="https://youtu.be/_ophOr5McG8" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://youtu.be/lysq0HvkhDM" target="_blank" rel="noopener">
   Video
 </a>
 
@@ -848,7 +856,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Streamlining clinical trial output workflows is a key challenge for clinical studies. Our project leverages Python to link the planned analysis stored in a google sheet LoPO (List of clinical study Planned Outputs) to the study scripts that generates SDTM/ADAM/TLG outputs. We also employ Snakemake, a powerful workflow management system, to automate creation of an execution plan that can then orchestrate the generation of output files from the processed data, using parallel computing.  To simplify the data collection process, we have created a Google Sheets add-on that allows statistical programming analysts to input clinical studies information directly.  Using the in-production LoPO tool as a case study, we will present learnings that have shaped our current best practices on writing, versioning, testing and deploying a Python package as a critical component of our clinical reporting workflow.</p>
+    <p class="pub-abstract">In this talk, we would like to introduce openstatsware, an official working group of the American Statistical Association (ASA) Biopharmaceutical Section. The working group has a primary objective to engineer R packages that implement important statistical methods, with current focus on mixed models for repeated measures (MMRM) for both frequentist and Bayesian inferences, and health technology assessment (HTA). The secondary objective is to develop and disseminate best practices for engineering high-quality open-source statistical software, for which we have given workshops in different countries/cities and made Youtube video series for education purpose. We would also like to introduce the R package  mmrm  for implementing MMRM, which was developed as a cross-company collaboration via openstatsware. A critical advantage of  mmrm  over existing implementations is that it is faster and converges more reliably. It also provides a comprehensive set of features users can specify a variety of covariance matrices, weight observations, fit models with restricted or standard maximum likelihood inference, perform hypothesis testing with Satterthwaite or Kenward-Roger adjusted degrees of freedom, extract the least square means estimates using the emmeans package, and use tidymodels for easy model fitting. We aim to establish  mmrm  as a new standard for fitting MMRM.</p>
     
 
     
@@ -895,7 +903,7 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/roche-/-genentech/">Roche / Genentech</a>
+  <a class="badge badge-light" href="/tag/gilead/">Gilead</a>
   
 </div>
 
@@ -912,7 +920,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_344/&amp;text=Learnings%20from%20deploying%20a%20Python%20package%20to%20orchestrate%20clinical%20trials%20outputs%20generation" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_344/&amp;text=Introducing%20openstatsware%20and%20the%20R%20package%20%7bmmrm%7d" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -925,7 +933,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_344/&amp;t=Learnings%20from%20deploying%20a%20Python%20package%20to%20orchestrate%20clinical%20trials%20outputs%20generation" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_344/&amp;t=Introducing%20openstatsware%20and%20the%20R%20package%20%7bmmrm%7d" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -938,7 +946,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Learnings%20from%20deploying%20a%20Python%20package%20to%20orchestrate%20clinical%20trials%20outputs%20generation&amp;body=/publication/rinpharma_344/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Introducing%20openstatsware%20and%20the%20R%20package%20%7bmmrm%7d&amp;body=/publication/rinpharma_344/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -951,7 +959,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_344/&amp;title=Learnings%20from%20deploying%20a%20Python%20package%20to%20orchestrate%20clinical%20trials%20outputs%20generation" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_344/&amp;title=Introducing%20openstatsware%20and%20the%20R%20package%20%7bmmrm%7d" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -964,7 +972,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Learnings%20from%20deploying%20a%20Python%20package%20to%20orchestrate%20clinical%20trials%20outputs%20generation%20/publication/rinpharma_344/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Introducing%20openstatsware%20and%20the%20R%20package%20%7bmmrm%7d%20/publication/rinpharma_344/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -977,7 +985,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_344/&amp;title=Learnings%20from%20deploying%20a%20Python%20package%20to%20orchestrate%20clinical%20trials%20outputs%20generation" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_344/&amp;title=Introducing%20openstatsware%20and%20the%20R%20package%20%7bmmrm%7d" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1024,15 +1032,13 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/publication/rinpharma_197/">5 testing packages to make your package better!</a></li>
+      <li><a href="/publication/rinpharma_154/">PREP - Packages fRom tEmPlates - An R Package to Streamline Development of Shiny Apps and R Packages</a></li>
       
-      <li><a href="/publication/rinpharma_187/">Accelerate Personalized Health Care by Empowering Biomarker Data</a></li>
+      <li><a href="/publication/rinpharma_324/">Quarto All the Things!</a></li>
       
-      <li><a href="/publication/rinpharma_133/">Analyzing Clinical Trials Data with R</a></li>
+      <li><a href="/publication/rinpharma_196/">SafetyGraphics</a></li>
       
-      <li><a href="/publication/rinpharma_169/">Analyzing Clinical Trials Data with R</a></li>
-      
-      <li><a href="/publication/rinpharma_275/">Assuring SDTM data quality with the sdtmchecks package</a></li>
+      <li><a href="/publication/rinpharma_161/">safetyGraphics v2.0 - Open Source Collaboration in Pharma using R and Shiny</a></li>
       
     </ul>
   </div>

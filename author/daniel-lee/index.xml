@@ -5,7 +5,7 @@
     <link>/author/daniel-lee/</link>
       <atom:link href="/author/daniel-lee/index.xml" rel="self" type="application/rss+xml" />
     <description>Daniel Lee</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Fri, 01 Jan 1999 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Mon, 16 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
       <title>Daniel Lee</title>
@@ -13,53 +13,53 @@
     </image>
     
     <item>
-      <title>Advanced Stan Workshop</title>
-      <link>/publication/rinpharma_309/</link>
-      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_309/</guid>
-      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Bayesian Models for Smaller Trial Sizes</title>
-      <link>/publication/rinpharma_177/</link>
-      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_177/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Building a Survival Model in Stan</title>
-      <link>/publication/rinpharma_369/</link>
-      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_369/</guid>
+      <link>/publication/rinpharma_320/</link>
+      <pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_320/</guid>
       <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Stan</title>
-      <link>/publication/rinpharma_6/</link>
-      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_6/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Stan for Pharma</title>
-      <link>/publication/rinpharma_134/</link>
-      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_134/</guid>
+      <title>Advanced Stan Workshop</title>
+      <link>/publication/rinpharma_261/</link>
+      <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_261/</guid>
       <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Stan: Building a survival model from scratch</title>
-      <link>/publication/rinpharma_238/</link>
-      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_238/</guid>
+      <link>/publication/rinpharma_190/</link>
+      <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_190/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Stan</title>
+      <link>/publication/rinpharma_130/</link>
+      <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_130/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bayesian Models for Smaller Trial Sizes</title>
+      <link>/publication/rinpharma_47/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_47/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stan for Pharma</title>
+      <link>/publication/rinpharma_4/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_4/</guid>
       <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
 </description>
     </item>

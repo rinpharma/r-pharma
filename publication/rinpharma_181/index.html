@@ -33,7 +33,7 @@
   
     
   
-  <meta name="description" content="The United States Food and Drug Administration (FDA) requires that clinical trial data be submitted in the Study Data Tabulation Model (SDTM) standard format. The process of developing SDTM involves mapping captured raw data to their correspondent SDTM domains based on rules and conditions put by the Clinical Data Interchange Standards Consortium (CDISC) organization. SDTM data is further used for building the Analysis Data Model (ADaM) which is used for clinical trial statistical analysis. Mistakes in the mapping process are common due to the process complexities; issues that are missed may potentially affect the clinical trial result. Therefore, it is very essential to preserve the quality of the SDTM data. Currently, the main tool for checking SDTM conformance is Pinnacle21 (formerly known as OpenCDISC). Notably, there are usability and viability checks that are not included in Pinnacle21. This work describes the creation of an R shiny app to supplement the Pinnacle21 checks. This interactive app applies various CDISC-compliant SDTM data validation checks, and provides the user with a comprehensive report on possible inconsistencies in the data. The app would allow programmers to proactively find data mapping errors. In addition, it is straightforward to use and can save tremendous amounts of time. Additionally, this app’s audience extends beyond the programming community and covers other individuals who have an interest in data quality, particularly Data Managers and individuals in Clinical Science and Clinical Operations." />
+  <meta name="description" content="The use of open-source R is evolving in drug discovery, research and development for study design, data analysis, visualization, and report generation in the pharmaceutical industry. The ability to produce tables, listings and figures (TLFs) in customized rich text format (RTF) using R is crucial to enhance the workflow of using Microsoft Word to assemble analysis results. We developed an R package, r2rtf, that standardizes the approach to generate highly customized TLFs in RTF format. The r2rtf package provides flexibility to customize table appearance for table title, subtitle, column header, footnote, and data source. The table size, border type, color, and line width can be adjusted in each cell as well as column width, row height, text format, font size, text color, alignment, etc. The control of the format can be row or column vectorized by leveraging the vectorization in R. Furthermore, r2rtf provides pagination, section grouping, multiple tables concatenations for complicated table layouts. In this paper, we provide an overview r2rtf workflow with examples for both required and optional easy-to-use functions. Code examples are provided to create customized RTF tables and figures with highlighted features. The open-source r2rtf R package is available at https//github.com/Merck/r2rtf." />
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/rinpharma_181/" />
@@ -322,8 +322,8 @@
   
   <meta property="og:site_name" content="R/Pharma" />
   <meta property="og:url" content="/publication/rinpharma_181/" />
-  <meta property="og:title" content="The Magic R-Shiny App that can Boost your SDTM Usability and Viability while Saving Time | R/Pharma" />
-  <meta property="og:description" content="The United States Food and Drug Administration (FDA) requires that clinical trial data be submitted in the Study Data Tabulation Model (SDTM) standard format. The process of developing SDTM involves mapping captured raw data to their correspondent SDTM domains based on rules and conditions put by the Clinical Data Interchange Standards Consortium (CDISC) organization. SDTM data is further used for building the Analysis Data Model (ADaM) which is used for clinical trial statistical analysis. Mistakes in the mapping process are common due to the process complexities; issues that are missed may potentially affect the clinical trial result. Therefore, it is very essential to preserve the quality of the SDTM data. Currently, the main tool for checking SDTM conformance is Pinnacle21 (formerly known as OpenCDISC). Notably, there are usability and viability checks that are not included in Pinnacle21. This work describes the creation of an R shiny app to supplement the Pinnacle21 checks. This interactive app applies various CDISC-compliant SDTM data validation checks, and provides the user with a comprehensive report on possible inconsistencies in the data. The app would allow programmers to proactively find data mapping errors. In addition, it is straightforward to use and can save tremendous amounts of time. Additionally, this app’s audience extends beyond the programming community and covers other individuals who have an interest in data quality, particularly Data Managers and individuals in Clinical Science and Clinical Operations." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
+  <meta property="og:title" content="r2rtf - a Lightweight R Package to Produce Tables and Figures in RTF Format | R/Pharma" />
+  <meta property="og:description" content="The use of open-source R is evolving in drug discovery, research and development for study design, data analysis, visualization, and report generation in the pharmaceutical industry. The ability to produce tables, listings and figures (TLFs) in customized rich text format (RTF) using R is crucial to enhance the workflow of using Microsoft Word to assemble analysis results. We developed an R package, r2rtf, that standardizes the approach to generate highly customized TLFs in RTF format. The r2rtf package provides flexibility to customize table appearance for table title, subtitle, column header, footnote, and data source. The table size, border type, color, and line width can be adjusted in each cell as well as column width, row height, text format, font size, text color, alignment, etc. The control of the format can be row or column vectorized by leveraging the vectorization in R. Furthermore, r2rtf provides pagination, section grouping, multiple tables concatenations for complicated table layouts. In this paper, we provide an overview r2rtf workflow with examples for both required and optional easy-to-use functions. Code examples are provided to create customized RTF tables and figures with highlighted features. The open-source r2rtf R package is available at https//github.com/Merck/r2rtf." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
     <meta property="twitter:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -332,7 +332,7 @@
         content="1999-01-01T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="1999-01-01T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2020-10-15T00:00:00&#43;00:00">
   
 
   
@@ -356,14 +356,14 @@
     "@type": "WebPage",
     "@id": "/publication/rinpharma_181/"
   },
-  "headline": "The Magic R-Shiny App that can Boost your SDTM Usability and Viability while Saving Time",
+  "headline": "r2rtf - a Lightweight R Package to Produce Tables and Figures in RTF Format",
   
   "datePublished": "1999-01-01T00:00:00Z",
-  "dateModified": "1999-01-01T00:00:00Z",
+  "dateModified": "2020-10-15T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Elma Zannatul Ferdousy"
+    "name": "Yilong Zhang"
   },
   
   "publisher": {
@@ -374,7 +374,7 @@
       "url": "/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_192x192_fit_lanczos_2.png"
     }
   },
-  "description": "The United States Food and Drug Administration (FDA) requires that clinical trial data be submitted in the Study Data Tabulation Model (SDTM) standard format. The process of developing SDTM involves mapping captured raw data to their correspondent SDTM domains based on rules and conditions put by the Clinical Data Interchange Standards Consortium (CDISC) organization. SDTM data is further used for building the Analysis Data Model (ADaM) which is used for clinical trial statistical analysis. Mistakes in the mapping process are common due to the process complexities; issues that are missed may potentially affect the clinical trial result. Therefore, it is very essential to preserve the quality of the SDTM data. Currently, the main tool for checking SDTM conformance is Pinnacle21 (formerly known as OpenCDISC). Notably, there are usability and viability checks that are not included in Pinnacle21. This work describes the creation of an R shiny app to supplement the Pinnacle21 checks. This interactive app applies various CDISC-compliant SDTM data validation checks, and provides the user with a comprehensive report on possible inconsistencies in the data. The app would allow programmers to proactively find data mapping errors. In addition, it is straightforward to use and can save tremendous amounts of time. Additionally, this app’s audience extends beyond the programming community and covers other individuals who have an interest in data quality, particularly Data Managers and individuals in Clinical Science and Clinical Operations."
+  "description": "The use of open-source R is evolving in drug discovery, research and development for study design, data analysis, visualization, and report generation in the pharmaceutical industry. The ability to produce tables, listings and figures (TLFs) in customized rich text format (RTF) using R is crucial to enhance the workflow of using Microsoft Word to assemble analysis results. We developed an R package, r2rtf, that standardizes the approach to generate highly customized TLFs in RTF format. The r2rtf package provides flexibility to customize table appearance for table title, subtitle, column header, footnote, and data source. The table size, border type, color, and line width can be adjusted in each cell as well as column width, row height, text format, font size, text color, alignment, etc. The control of the format can be row or column vectorized by leveraging the vectorization in R. Furthermore, r2rtf provides pagination, section grouping, multiple tables concatenations for complicated table layouts. In this paper, we provide an overview r2rtf workflow with examples for both required and optional easy-to-use functions. Code examples are provided to create customized RTF tables and figures with highlighted features. The open-source r2rtf R package is available at https//github.com/Merck/r2rtf."
 }
 </script>
 
@@ -420,7 +420,7 @@
 
 
 
-  <title>The Magic R-Shiny App that can Boost your SDTM Usability and Viability while Saving Time | R/Pharma</title>
+  <title>r2rtf - a Lightweight R Package to Produce Tables and Figures in RTF Format | R/Pharma</title>
 </head>
 
 
@@ -743,7 +743,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>The Magic R-Shiny App that can Boost your SDTM Usability and Viability while Saving Time</h1>
+  <h1>r2rtf - a Lightweight R Package to Produce Tables and Figures in RTF Format</h1>
 
   
 
@@ -761,9 +761,11 @@
     
 
   <span >
-      <a href="/author/elma-zannatul-ferdousy/">Elma Zannatul Ferdousy</a></span>, <span >
-      <a href="/author/katrina-paz/">Katrina Paz</a></span>, <span >
-      <a href="/author/nasser-al-ali/">Nasser Al Ali</a></span>
+      <a href="/author/yilong-zhang/">Yilong Zhang</a></span>, <span >
+      <a href="/author/siruo-wang/">Siruo Wang</a></span>, <span >
+      <a href="/author/simiao-ye/">Simiao Ye</a></span>, <span >
+      <a href="/author/madhusudhan-ginnaram/">Madhusudhan Ginnaram</a></span>, <span >
+      <a href="/author/keaven-m.-anderson/">Keaven M. Anderson</a></span>
   </div>
   
   
@@ -774,7 +776,7 @@
     
       
     
-    January 1999
+    October 2020
   </span>
   
 
@@ -799,6 +801,55 @@
 
 
 
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="https://github.com/rinpharma/2020_presentations/tree/master/talks_folder/2020-Zhang-r2rtf.pdf" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="https://youtu.be/MNdMME66xBw" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+
+</div>
+
 
   
 </div>
@@ -809,7 +860,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">The United States Food and Drug Administration (FDA) requires that clinical trial data be submitted in the Study Data Tabulation Model (SDTM) standard format. The process of developing SDTM involves mapping captured raw data to their correspondent SDTM domains based on rules and conditions put by the Clinical Data Interchange Standards Consortium (CDISC) organization. SDTM data is further used for building the Analysis Data Model (ADaM) which is used for clinical trial statistical analysis. Mistakes in the mapping process are common due to the process complexities; issues that are missed may potentially affect the clinical trial result. Therefore, it is very essential to preserve the quality of the SDTM data. Currently, the main tool for checking SDTM conformance is Pinnacle21 (formerly known as OpenCDISC). Notably, there are usability and viability checks that are not included in Pinnacle21. This work describes the creation of an R shiny app to supplement the Pinnacle21 checks. This interactive app applies various CDISC-compliant SDTM data validation checks, and provides the user with a comprehensive report on possible inconsistencies in the data. The app would allow programmers to proactively find data mapping errors. In addition, it is straightforward to use and can save tremendous amounts of time. Additionally, this app’s audience extends beyond the programming community and covers other individuals who have an interest in data quality, particularly Data Managers and individuals in Clinical Science and Clinical Operations.</p>
+    <p class="pub-abstract">The use of open-source R is evolving in drug discovery, research and development for study design, data analysis, visualization, and report generation in the pharmaceutical industry. The ability to produce tables, listings and figures (TLFs) in customized rich text format (RTF) using R is crucial to enhance the workflow of using Microsoft Word to assemble analysis results. We developed an R package, r2rtf, that standardizes the approach to generate highly customized TLFs in RTF format. The r2rtf package provides flexibility to customize table appearance for table title, subtitle, column header, footnote, and data source. The table size, border type, color, and line width can be adjusted in each cell as well as column width, row height, text format, font size, text color, alignment, etc. The control of the format can be row or column vectorized by leveraging the vectorization in R. Furthermore, r2rtf provides pagination, section grouping, multiple tables concatenations for complicated table layouts. In this paper, we provide an overview r2rtf workflow with examples for both required and optional easy-to-use functions. Code examples are provided to create customized RTF tables and figures with highlighted features. The open-source r2rtf R package is available at https//github.com/Merck/r2rtf.</p>
     
 
     
@@ -837,7 +888,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">Presented at 2018 Conference</div>
+          <div class="col-12 col-md-9">Presented at 2020 Conference</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -856,7 +907,9 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/roche-/-genentech/">Roche / Genentech</a>
+  <a class="badge badge-light" href="/tag/merck/">Merck</a>
+  
+  <a class="badge badge-light" href="/tag/johns-hopkins/">Johns Hopkins</a>
   
 </div>
 
@@ -873,7 +926,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_181/&amp;text=The%20Magic%20R-Shiny%20App%20that%20can%20Boost%20your%20SDTM%20Usability%20and%20Viability%20while%20Saving%20Time" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_181/&amp;text=r2rtf%20-%20a%20Lightweight%20R%20Package%20to%20Produce%20Tables%20and%20Figures%20in%20RTF%20Format" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -886,7 +939,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_181/&amp;t=The%20Magic%20R-Shiny%20App%20that%20can%20Boost%20your%20SDTM%20Usability%20and%20Viability%20while%20Saving%20Time" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_181/&amp;t=r2rtf%20-%20a%20Lightweight%20R%20Package%20to%20Produce%20Tables%20and%20Figures%20in%20RTF%20Format" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -899,7 +952,7 @@
       
       
       <li>
-        <a href="mailto:?subject=The%20Magic%20R-Shiny%20App%20that%20can%20Boost%20your%20SDTM%20Usability%20and%20Viability%20while%20Saving%20Time&amp;body=/publication/rinpharma_181/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=r2rtf%20-%20a%20Lightweight%20R%20Package%20to%20Produce%20Tables%20and%20Figures%20in%20RTF%20Format&amp;body=/publication/rinpharma_181/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -912,7 +965,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_181/&amp;title=The%20Magic%20R-Shiny%20App%20that%20can%20Boost%20your%20SDTM%20Usability%20and%20Viability%20while%20Saving%20Time" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_181/&amp;title=r2rtf%20-%20a%20Lightweight%20R%20Package%20to%20Produce%20Tables%20and%20Figures%20in%20RTF%20Format" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -925,7 +978,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=The%20Magic%20R-Shiny%20App%20that%20can%20Boost%20your%20SDTM%20Usability%20and%20Viability%20while%20Saving%20Time%20/publication/rinpharma_181/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=r2rtf%20-%20a%20Lightweight%20R%20Package%20to%20Produce%20Tables%20and%20Figures%20in%20RTF%20Format%20/publication/rinpharma_181/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -938,7 +991,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_181/&amp;title=The%20Magic%20R-Shiny%20App%20that%20can%20Boost%20your%20SDTM%20Usability%20and%20Viability%20while%20Saving%20Time" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_181/&amp;title=r2rtf%20-%20a%20Lightweight%20R%20Package%20to%20Produce%20Tables%20and%20Figures%20in%20RTF%20Format" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -958,6 +1011,18 @@
 
 
   
+  
+    
+
+
+
+
+  
+    
+
+
+
+
   
     
 
@@ -997,15 +1062,15 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/publication/rinpharma_197/">5 testing packages to make your package better!</a></li>
+      <li><a href="/publication/rinpharma_315/">Asynchronous Processing of Long-Running Tasks in Shiny</a></li>
       
-      <li><a href="/publication/rinpharma_187/">Accelerate Personalized Health Care by Empowering Biomarker Data</a></li>
+      <li><a href="/publication/rinpharma_483/">Creating a Doctor Network using R and Graph Databases</a></li>
       
-      <li><a href="/publication/rinpharma_169/">Analyzing Clinical Trials Data with R</a></li>
+      <li><a href="/publication/rinpharma_215/">Interactive Forest Plot for DMC Safety Monitoring in Clinical Trials</a></li>
       
-      <li><a href="/publication/rinpharma_133/">Analyzing Clinical Trials Data with R</a></li>
+      <li><a href="/publication/rinpharma_341/">Interactive Reporting for Safety Monitoring</a></li>
       
-      <li><a href="/publication/rinpharma_275/">Assuring SDTM data quality with the sdtmchecks package</a></li>
+      <li><a href="/publication/rinpharma_109/">Its Not Whats on the Outside, but Its Whats on the Back-end That Matters: The World Beyond CSV Files</a></li>
       
     </ul>
   </div>

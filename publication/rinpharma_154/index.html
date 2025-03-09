@@ -33,7 +33,7 @@
   
     
   
-  <meta name="description" content="Decision analysis balancing both data analytics and human gut feeling is critical in designing efficient routes to synthesize new, complex small molecules. This challenge is faced by any organization seeking to deliver modern pharmaceutical compounds to patients in a prompt manner. In this presentation, we highlight the incorporation of data science approaches using R to develop metrics that aid in the development process current complexity, risk quantification, and process efficiency forecasting. Current complexity is a metric established from human insights that assesses a molecule’s complexity in the context of capability, tracking the ‘current’ complexity of a given molecule over time and enabling the quantitative assessment of a new route or process. Risk quantification utilizes a Bayesian framework to quantify risk from real data and operational patterns, at both the project and portfolio level, for assessing the delivery risk of early candidate nomination assets in areas such as FTE resource modeling. Process efficiency can be estimated with a predictive analytics framework capable of quantifying the probable efficiency of a proposed synthesis or benchmarking the outcome performance of the developed process, thereby minimizing the environmental impact of pharmaceutical production. These strategies have been effectively used to aid the decision-making processes for pharmaceutical R&amp;D." />
+  <meta name="description" content="In the recent years, R Shiny apps have gained considerable momentum and have been utilized to develop many useful dashboards and user interfaces (UI) that allow non-programmers access to innovative tools. Due to the ease of development of Shiny apps and lack of complex examples, R developers often create a new shiny app in a single app.r file that contains both the ui and server code/ As a project grows, and capabilities expand in the app, a common practice is to separate the code into two files, one for the server object and one for the ui object. While these approaches may suffice for simple applications, they can lead a developer or team of developers down a path to an application with many lines of code (e.g. 15,000&#43;) in a single file that can be extremely difficult to debug, test, maintain or expand. This approach can also lead to a file with a mixture of UI/server related code in the same files as complex computational code. In this talk, I will present the  PREP  (Packages fRom tEmPlates) package that was created to help teams streamline development of R Shiny apps and R packages using an approach that follows software development best practices. The PREP package adds new project types to R Studio to help streamline new project creation and development. There are three PREP project type options 1) a Shiny app as a package, 2) a Shiny app or 3) R package that is setup with the unit testing framework included utilizing  testthat  and is intended to contain all the complex computational functionality. Both Shiny app options are organized using modules with a consistent default theme, ability to switch between color theme options and example code for commonly implemented tasks. By developing the complex computations in the R packages and the Shiny app as separate projects, teams can utilize each person&#39;s skill set better and simplify the testing thus making a more robust final product. By developing the Shiny app with modules, teams can avoid extremely long single files and allow for sharing customized controls within different pages, make it much easier of using source control technology like GitHub. In addition, the PREP package includes functions to add new tabs and modules to the Shiny app and create new functions with testing setup in the computational package to avoid multiple steps of creating files for new functions and testing. PREP is designed to be used by new package/Shiny developers and is highly customizable for expert users without adding a dependency to your final product." />
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/rinpharma_154/" />
@@ -322,8 +322,8 @@
   
   <meta property="og:site_name" content="R/Pharma" />
   <meta property="og:url" content="/publication/rinpharma_154/" />
-  <meta property="og:title" content="Data-Driven Strategies for Synthetic Route Design and Operational Modeling within Pharmaceutical Development | R/Pharma" />
-  <meta property="og:description" content="Decision analysis balancing both data analytics and human gut feeling is critical in designing efficient routes to synthesize new, complex small molecules. This challenge is faced by any organization seeking to deliver modern pharmaceutical compounds to patients in a prompt manner. In this presentation, we highlight the incorporation of data science approaches using R to develop metrics that aid in the development process current complexity, risk quantification, and process efficiency forecasting. Current complexity is a metric established from human insights that assesses a molecule’s complexity in the context of capability, tracking the ‘current’ complexity of a given molecule over time and enabling the quantitative assessment of a new route or process. Risk quantification utilizes a Bayesian framework to quantify risk from real data and operational patterns, at both the project and portfolio level, for assessing the delivery risk of early candidate nomination assets in areas such as FTE resource modeling. Process efficiency can be estimated with a predictive analytics framework capable of quantifying the probable efficiency of a proposed synthesis or benchmarking the outcome performance of the developed process, thereby minimizing the environmental impact of pharmaceutical production. These strategies have been effectively used to aid the decision-making processes for pharmaceutical R&amp;D." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
+  <meta property="og:title" content="PREP - Packages fRom tEmPlates - An R Package to Streamline Development of Shiny Apps and R Packages | R/Pharma" />
+  <meta property="og:description" content="In the recent years, R Shiny apps have gained considerable momentum and have been utilized to develop many useful dashboards and user interfaces (UI) that allow non-programmers access to innovative tools. Due to the ease of development of Shiny apps and lack of complex examples, R developers often create a new shiny app in a single app.r file that contains both the ui and server code/ As a project grows, and capabilities expand in the app, a common practice is to separate the code into two files, one for the server object and one for the ui object. While these approaches may suffice for simple applications, they can lead a developer or team of developers down a path to an application with many lines of code (e.g. 15,000&#43;) in a single file that can be extremely difficult to debug, test, maintain or expand. This approach can also lead to a file with a mixture of UI/server related code in the same files as complex computational code. In this talk, I will present the  PREP  (Packages fRom tEmPlates) package that was created to help teams streamline development of R Shiny apps and R packages using an approach that follows software development best practices. The PREP package adds new project types to R Studio to help streamline new project creation and development. There are three PREP project type options 1) a Shiny app as a package, 2) a Shiny app or 3) R package that is setup with the unit testing framework included utilizing  testthat  and is intended to contain all the complex computational functionality. Both Shiny app options are organized using modules with a consistent default theme, ability to switch between color theme options and example code for commonly implemented tasks. By developing the complex computations in the R packages and the Shiny app as separate projects, teams can utilize each person&#39;s skill set better and simplify the testing thus making a more robust final product. By developing the Shiny app with modules, teams can avoid extremely long single files and allow for sharing customized controls within different pages, make it much easier of using source control technology like GitHub. In addition, the PREP package includes functions to add new tabs and modules to the Shiny app and create new functions with testing setup in the computational package to avoid multiple steps of creating files for new functions and testing. PREP is designed to be used by new package/Shiny developers and is highly customizable for expert users without adding a dependency to your final product." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
     <meta property="twitter:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -332,7 +332,7 @@
         content="1999-01-01T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="1999-01-01T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2020-10-14T00:00:00&#43;00:00">
   
 
   
@@ -356,14 +356,14 @@
     "@type": "WebPage",
     "@id": "/publication/rinpharma_154/"
   },
-  "headline": "Data-Driven Strategies for Synthetic Route Design and Operational Modeling within Pharmaceutical Development",
+  "headline": "PREP - Packages fRom tEmPlates - An R Package to Streamline Development of Shiny Apps and R Packages",
   
   "datePublished": "1999-01-01T00:00:00Z",
-  "dateModified": "1999-01-01T00:00:00Z",
+  "dateModified": "2020-10-14T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Jun Li"
+    "name": "J. Kyle Wathen"
   },
   
   "publisher": {
@@ -374,7 +374,7 @@
       "url": "/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_192x192_fit_lanczos_2.png"
     }
   },
-  "description": "Decision analysis balancing both data analytics and human gut feeling is critical in designing efficient routes to synthesize new, complex small molecules. This challenge is faced by any organization seeking to deliver modern pharmaceutical compounds to patients in a prompt manner. In this presentation, we highlight the incorporation of data science approaches using R to develop metrics that aid in the development process current complexity, risk quantification, and process efficiency forecasting. Current complexity is a metric established from human insights that assesses a molecule’s complexity in the context of capability, tracking the ‘current’ complexity of a given molecule over time and enabling the quantitative assessment of a new route or process. Risk quantification utilizes a Bayesian framework to quantify risk from real data and operational patterns, at both the project and portfolio level, for assessing the delivery risk of early candidate nomination assets in areas such as FTE resource modeling. Process efficiency can be estimated with a predictive analytics framework capable of quantifying the probable efficiency of a proposed synthesis or benchmarking the outcome performance of the developed process, thereby minimizing the environmental impact of pharmaceutical production. These strategies have been effectively used to aid the decision-making processes for pharmaceutical R\u0026D."
+  "description": "In the recent years, R Shiny apps have gained considerable momentum and have been utilized to develop many useful dashboards and user interfaces (UI) that allow non-programmers access to innovative tools. Due to the ease of development of Shiny apps and lack of complex examples, R developers often create a new shiny app in a single app.r file that contains both the ui and server code/ As a project grows, and capabilities expand in the app, a common practice is to separate the code into two files, one for the server object and one for the ui object. While these approaches may suffice for simple applications, they can lead a developer or team of developers down a path to an application with many lines of code (e.g. 15,000+) in a single file that can be extremely difficult to debug, test, maintain or expand. This approach can also lead to a file with a mixture of UI/server related code in the same files as complex computational code. In this talk, I will present the  PREP  (Packages fRom tEmPlates) package that was created to help teams streamline development of R Shiny apps and R packages using an approach that follows software development best practices. The PREP package adds new project types to R Studio to help streamline new project creation and development. There are three PREP project type options 1) a Shiny app as a package, 2) a Shiny app or 3) R package that is setup with the unit testing framework included utilizing  testthat  and is intended to contain all the complex computational functionality. Both Shiny app options are organized using modules with a consistent default theme, ability to switch between color theme options and example code for commonly implemented tasks. By developing the complex computations in the R packages and the Shiny app as separate projects, teams can utilize each person's skill set better and simplify the testing thus making a more robust final product. By developing the Shiny app with modules, teams can avoid extremely long single files and allow for sharing customized controls within different pages, make it much easier of using source control technology like GitHub. In addition, the PREP package includes functions to add new tabs and modules to the Shiny app and create new functions with testing setup in the computational package to avoid multiple steps of creating files for new functions and testing. PREP is designed to be used by new package/Shiny developers and is highly customizable for expert users without adding a dependency to your final product."
 }
 </script>
 
@@ -420,7 +420,7 @@
 
 
 
-  <title>Data-Driven Strategies for Synthetic Route Design and Operational Modeling within Pharmaceutical Development | R/Pharma</title>
+  <title>PREP - Packages fRom tEmPlates - An R Package to Streamline Development of Shiny Apps and R Packages | R/Pharma</title>
 </head>
 
 
@@ -743,7 +743,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Data-Driven Strategies for Synthetic Route Design and Operational Modeling within Pharmaceutical Development</h1>
+  <h1>PREP - Packages fRom tEmPlates - An R Package to Streamline Development of Shiny Apps and R Packages</h1>
 
   
 
@@ -761,7 +761,7 @@
     
 
   <span >
-      <a href="/author/jun-li/">Jun Li</a></span>
+      <a href="/author/j.-kyle-wathen/">J. Kyle Wathen</a></span>
   </div>
   
   
@@ -772,7 +772,7 @@
     
       
     
-    January 1999
+    October 2020
   </span>
   
 
@@ -797,6 +797,55 @@
 
 
 
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="https://github.com/rinpharma/2020_presentations/tree/master/talks_folder/2020-Wathen-PREP.pptx" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="https://youtu.be/_Hfq8ymQWIY" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+
+</div>
+
 
   
 </div>
@@ -807,7 +856,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Decision analysis balancing both data analytics and human gut feeling is critical in designing efficient routes to synthesize new, complex small molecules. This challenge is faced by any organization seeking to deliver modern pharmaceutical compounds to patients in a prompt manner. In this presentation, we highlight the incorporation of data science approaches using R to develop metrics that aid in the development process current complexity, risk quantification, and process efficiency forecasting. Current complexity is a metric established from human insights that assesses a molecule’s complexity in the context of capability, tracking the ‘current’ complexity of a given molecule over time and enabling the quantitative assessment of a new route or process. Risk quantification utilizes a Bayesian framework to quantify risk from real data and operational patterns, at both the project and portfolio level, for assessing the delivery risk of early candidate nomination assets in areas such as FTE resource modeling. Process efficiency can be estimated with a predictive analytics framework capable of quantifying the probable efficiency of a proposed synthesis or benchmarking the outcome performance of the developed process, thereby minimizing the environmental impact of pharmaceutical production. These strategies have been effectively used to aid the decision-making processes for pharmaceutical R&amp;D.</p>
+    <p class="pub-abstract">In the recent years, R Shiny apps have gained considerable momentum and have been utilized to develop many useful dashboards and user interfaces (UI) that allow non-programmers access to innovative tools. Due to the ease of development of Shiny apps and lack of complex examples, R developers often create a new shiny app in a single app.r file that contains both the ui and server code/ As a project grows, and capabilities expand in the app, a common practice is to separate the code into two files, one for the server object and one for the ui object. While these approaches may suffice for simple applications, they can lead a developer or team of developers down a path to an application with many lines of code (e.g. 15,000+) in a single file that can be extremely difficult to debug, test, maintain or expand. This approach can also lead to a file with a mixture of UI/server related code in the same files as complex computational code. In this talk, I will present the  PREP  (Packages fRom tEmPlates) package that was created to help teams streamline development of R Shiny apps and R packages using an approach that follows software development best practices. The PREP package adds new project types to R Studio to help streamline new project creation and development. There are three PREP project type options 1) a Shiny app as a package, 2) a Shiny app or 3) R package that is setup with the unit testing framework included utilizing  testthat  and is intended to contain all the complex computational functionality. Both Shiny app options are organized using modules with a consistent default theme, ability to switch between color theme options and example code for commonly implemented tasks. By developing the complex computations in the R packages and the Shiny app as separate projects, teams can utilize each person&rsquo;s skill set better and simplify the testing thus making a more robust final product. By developing the Shiny app with modules, teams can avoid extremely long single files and allow for sharing customized controls within different pages, make it much easier of using source control technology like GitHub. In addition, the PREP package includes functions to add new tabs and modules to the Shiny app and create new functions with testing setup in the computational package to avoid multiple steps of creating files for new functions and testing. PREP is designed to be used by new package/Shiny developers and is highly customizable for expert users without adding a dependency to your final product.</p>
     
 
     
@@ -835,7 +884,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">Presented at 2018 Conference</div>
+          <div class="col-12 col-md-9">Presented at 2020 Conference</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -854,7 +903,7 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/bristol-myers-squibb/">Bristol Myers Squibb</a>
+  <a class="badge badge-light" href="/tag/gilead/">Gilead</a>
   
 </div>
 
@@ -871,7 +920,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_154/&amp;text=Data-Driven%20Strategies%20for%20Synthetic%20Route%20Design%20and%20Operational%20Modeling%20within%20Pharmaceutical%20Development" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_154/&amp;text=PREP%20-%20Packages%20fRom%20tEmPlates%20-%20An%20R%20Package%20to%20Streamline%20Development%20of%20Shiny%20Apps%20and%20R%20Packages" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -884,7 +933,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_154/&amp;t=Data-Driven%20Strategies%20for%20Synthetic%20Route%20Design%20and%20Operational%20Modeling%20within%20Pharmaceutical%20Development" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_154/&amp;t=PREP%20-%20Packages%20fRom%20tEmPlates%20-%20An%20R%20Package%20to%20Streamline%20Development%20of%20Shiny%20Apps%20and%20R%20Packages" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -897,7 +946,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Data-Driven%20Strategies%20for%20Synthetic%20Route%20Design%20and%20Operational%20Modeling%20within%20Pharmaceutical%20Development&amp;body=/publication/rinpharma_154/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=PREP%20-%20Packages%20fRom%20tEmPlates%20-%20An%20R%20Package%20to%20Streamline%20Development%20of%20Shiny%20Apps%20and%20R%20Packages&amp;body=/publication/rinpharma_154/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -910,7 +959,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_154/&amp;title=Data-Driven%20Strategies%20for%20Synthetic%20Route%20Design%20and%20Operational%20Modeling%20within%20Pharmaceutical%20Development" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_154/&amp;title=PREP%20-%20Packages%20fRom%20tEmPlates%20-%20An%20R%20Package%20to%20Streamline%20Development%20of%20Shiny%20Apps%20and%20R%20Packages" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -923,7 +972,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Data-Driven%20Strategies%20for%20Synthetic%20Route%20Design%20and%20Operational%20Modeling%20within%20Pharmaceutical%20Development%20/publication/rinpharma_154/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=PREP%20-%20Packages%20fRom%20tEmPlates%20-%20An%20R%20Package%20to%20Streamline%20Development%20of%20Shiny%20Apps%20and%20R%20Packages%20/publication/rinpharma_154/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -936,7 +985,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_154/&amp;title=Data-Driven%20Strategies%20for%20Synthetic%20Route%20Design%20and%20Operational%20Modeling%20within%20Pharmaceutical%20Development" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_154/&amp;title=PREP%20-%20Packages%20fRom%20tEmPlates%20-%20An%20R%20Package%20to%20Streamline%20Development%20of%20Shiny%20Apps%20and%20R%20Packages" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -983,7 +1032,13 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/publication/rinpharma_106/">Accelerating Chemistry Research through the Integration of Data Science with High-Throughput Experimentation</a></li>
+      <li><a href="/publication/rinpharma_344/">Introducing openstatsware and the R package {mmrm}</a></li>
+      
+      <li><a href="/publication/rinpharma_324/">Quarto All the Things!</a></li>
+      
+      <li><a href="/publication/rinpharma_196/">SafetyGraphics</a></li>
+      
+      <li><a href="/publication/rinpharma_161/">safetyGraphics v2.0 - Open Source Collaboration in Pharma using R and Shiny</a></li>
       
     </ul>
   </div>

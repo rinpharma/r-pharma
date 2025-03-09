@@ -14,14 +14,6 @@
     
     <item>
       <title>Creating a Doctor Network using R and Graph Databases</title>
-      <link>/publication/rinpharma_484/</link>
-      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_484/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The use case of Copilot into open-source programming</title>
       <link>/publication/rinpharma_483/</link>
       <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
       <guid>/publication/rinpharma_483/</guid>
@@ -29,10 +21,18 @@
     </item>
     
     <item>
+      <title>The use case of Copilot into open-source programming</title>
+      <link>/publication/rinpharma_482/</link>
+      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_482/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>{BayesCVI} A Bayesian cluster validity index with medical applications</title>
-      <link>/publication/rinpharma_475/</link>
+      <link>/publication/rinpharma_474/</link>
       <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_475/</guid>
+      <guid>/publication/rinpharma_474/</guid>
       <description></description>
     </item>
     

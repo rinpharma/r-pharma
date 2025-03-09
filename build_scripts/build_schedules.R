@@ -59,6 +59,7 @@ d_all <- d_raw_proceedings %>%
 
 meta <- list(
   schedule2018 = list(
+    type = "rinpharma",
     year = 2018,
     data = d_all %>%
       filter(Event == "2018 Conference"),
@@ -68,6 +69,7 @@ meta <- list(
     #subtitles = c("15 Aug [9:15am - 5:25pm ET]", "16 Aug [9:15am - 5:25pm ET]")
   ),
   schedule2019 = list(
+    type = "rinpharma",
     year = 2019,
     data = d_all %>%
       filter(Event == "2019 Conference"),
@@ -77,6 +79,7 @@ meta <- list(
     #subtitles = c("20 Aug [8:00am - 5:20pm ET]", "21 Aug [8:15am - 5:35pm ET]", "22 Aug [8:15am - 5:45pm ET]")
   ),
   schedule2020 = list(
+    type = "rinpharma",
     year = 2020,
     data = d_all %>%
       filter(Event == "2020 Conference"),
@@ -86,6 +89,7 @@ meta <- list(
     #subtitles = c("5 Oct - 9 Oct", "13 Oct [10:00am - 2:10 pm ET]", "14 Oct [10:00am - 2:20 pm ET]", "15 Oct [10:00am - 2:10 pm ET]")
   ),
   schedule2021 = list(
+    type = "rinpharma",
     year = 2021,
     data = d_all %>%
       filter(Event == "2021 Conference"),
@@ -95,6 +99,7 @@ meta <- list(
     #subtitles = c("5 Oct - 9 Oct", "13 Oct [10:00am - 2:10 pm ET]", "14 Oct [10:00am - 2:20 pm ET]", "15 Oct [10:00am - 2:10 pm ET]")
   ),
     schedule2022 = list(
+    type = "rinpharma",
     year = 2022,
     data = d_all %>%
       filter(Event == "2022 Conference"),
@@ -104,6 +109,7 @@ meta <- list(
     #subtitles = c("5 Oct - 9 Oct", "13 Oct [10:00am - 2:10 pm ET]", "14 Oct [10:00am - 2:20 pm ET]", "15 Oct [10:00am - 2:10 pm ET]")
   ),
   schedule2023 = list(
+    type = "rinpharma",
     year = 2023,
     data = d_all %>%
       filter(Event == "2023 Conference"),
@@ -112,7 +118,18 @@ meta <- list(
     #titles = c("Workshops", "Day 1", "Day 2", "Day 3"),
     #subtitles = c("5 Oct - 9 Oct", "13 Oct [10:00am - 2:10 pm ET]", "14 Oct [10:00am - 2:20 pm ET]", "15 Oct [10:00am - 2:10 pm ET]")
   ),
+  genAI2024 = list(
+    type = "genai",
+    year = 2024,
+    data = d_all %>%
+      filter(Event == "genAI Day 2024"),
+    #days = c(1,2,3,4),
+    url = "rinpharma2018"
+    #titles = c("Workshops", "Day 1", "Day 2", "Day 3"),
+    #subtitles = c("5 Oct - 9 Oct", "13 Oct [10:00am - 2:10 pm ET]", "14 Oct [10:00am - 2:20 pm ET]", "15 Oct [10:00am - 2:10 pm ET]")
+  ),
   schedule2024 = list(
+    type = "rinpharma",
     year = 2024,
     data = d_all %>%
       filter(Event == "2024 Conference"),
@@ -129,7 +146,7 @@ for (yr in seq_along(meta)) {
   df <-  meta[[yr]]$data
 
   ## open file for writing
-  sink(paste0("./data/rinpharma", meta[[yr]]$year, ".yml"))
+  sink(paste0("./data/", meta[[yr]]$type, meta[[yr]]$year, ".yml"))
 
   cat(glue(
     'schedule:

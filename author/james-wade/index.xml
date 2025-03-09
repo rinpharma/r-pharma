@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>James Wade | R/Pharma</title>
+    <link>/author/james-wade/</link>
+      <atom:link href="/author/james-wade/index.xml" rel="self" type="application/rss+xml" />
+    <description>James Wade</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Tue, 29 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>James Wade</title>
+      <link>/author/james-wade/</link>
+    </image>
+    
+    <item>
+      <title>Integrating AI Assistants into Shiny Apps: Simplify Development and Enhance User Experience</title>
+      <link>/publication/rinpharma_410/</link>
+      <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_410/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

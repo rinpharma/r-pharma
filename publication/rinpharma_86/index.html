@@ -33,7 +33,7 @@
   
     
   
-  <meta name="description" content="Content delivery in preparation for filing a clinical study report requires robust tooling for quickly and reproducibly compiling analysis of study data. Traditionally, this reproducibility has stemmed from one-time, rigorous validation of a development environment and analytic workflow. More recently, this paradigm has shifted to match modern software development principles, transitioning toward continuous monitoring of software validation and quality. I&#39;ll share our developing perspectives on validation and reproducibility, driven by a need to leverage open source tools. This vision leans on open source software such as R and its package ecosystems, publicly maintained containerized environments like the rocker project and cross-industry risk assessment via the R Validation Hub. By treating analysis as a software process in the content pipeline transforming raw data into analytic results, we can take advantage of the continuous deployment workflows prevalent in the software development world to shorten our filing timelines, while simultaneously delivery a more reproducible product to our health authority partners." />
+  <meta name="description" content="nlmixr is a free and open source R package for fitting nonlinear pharmacokinetic (PK), pharmacodynamic (PD), joint PK/PD and quantitative systems pharmacology (QSP) mixed-effects models. Currently, nlmixr is capable of fitting both traditional compartmental PK models as well as more complex models implemented using ordinary differential equations (ODEs). It is under intensive development and has succeeded in attracting extensive attention and a willingness to make contributions from the pharmaceutical modeling community. We believe that, over time, it will become a capable, credible alternative to commercial software tools, such as NONMEM, Monolix, and Phoenix NLME." />
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/rinpharma_86/" />
@@ -322,8 +322,8 @@
   
   <meta property="og:site_name" content="R/Pharma" />
   <meta property="og:url" content="/publication/rinpharma_86/" />
-  <meta property="og:title" content="Re-envisioning Clinical Content Delivery in the Open Source World | R/Pharma" />
-  <meta property="og:description" content="Content delivery in preparation for filing a clinical study report requires robust tooling for quickly and reproducibly compiling analysis of study data. Traditionally, this reproducibility has stemmed from one-time, rigorous validation of a development environment and analytic workflow. More recently, this paradigm has shifted to match modern software development principles, transitioning toward continuous monitoring of software validation and quality. I&#39;ll share our developing perspectives on validation and reproducibility, driven by a need to leverage open source tools. This vision leans on open source software such as R and its package ecosystems, publicly maintained containerized environments like the rocker project and cross-industry risk assessment via the R Validation Hub. By treating analysis as a software process in the content pipeline transforming raw data into analytic results, we can take advantage of the continuous deployment workflows prevalent in the software development world to shorten our filing timelines, while simultaneously delivery a more reproducible product to our health authority partners." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
+  <meta property="og:title" content="nlmixr: an R package for population PKPD modeling | R/Pharma" />
+  <meta property="og:description" content="nlmixr is a free and open source R package for fitting nonlinear pharmacokinetic (PK), pharmacodynamic (PD), joint PK/PD and quantitative systems pharmacology (QSP) mixed-effects models. Currently, nlmixr is capable of fitting both traditional compartmental PK models as well as more complex models implemented using ordinary differential equations (ODEs). It is under intensive development and has succeeded in attracting extensive attention and a willingness to make contributions from the pharmaceutical modeling community. We believe that, over time, it will become a capable, credible alternative to commercial software tools, such as NONMEM, Monolix, and Phoenix NLME." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
     <meta property="twitter:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -332,7 +332,7 @@
         content="1999-01-01T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2019-08-21T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="1999-01-01T00:00:00&#43;00:00">
   
 
   
@@ -356,14 +356,14 @@
     "@type": "WebPage",
     "@id": "/publication/rinpharma_86/"
   },
-  "headline": "Re-envisioning Clinical Content Delivery in the Open Source World",
+  "headline": "nlmixr: an R package for population PKPD modeling",
   
   "datePublished": "1999-01-01T00:00:00Z",
-  "dateModified": "2019-08-21T00:00:00Z",
+  "dateModified": "1999-01-01T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Doug Kelkhoff"
+    "name": "Mirjam Trame"
   },
   
   "publisher": {
@@ -374,7 +374,7 @@
       "url": "/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_192x192_fit_lanczos_2.png"
     }
   },
-  "description": "Content delivery in preparation for filing a clinical study report requires robust tooling for quickly and reproducibly compiling analysis of study data. Traditionally, this reproducibility has stemmed from one-time, rigorous validation of a development environment and analytic workflow. More recently, this paradigm has shifted to match modern software development principles, transitioning toward continuous monitoring of software validation and quality. I'll share our developing perspectives on validation and reproducibility, driven by a need to leverage open source tools. This vision leans on open source software such as R and its package ecosystems, publicly maintained containerized environments like the rocker project and cross-industry risk assessment via the R Validation Hub. By treating analysis as a software process in the content pipeline transforming raw data into analytic results, we can take advantage of the continuous deployment workflows prevalent in the software development world to shorten our filing timelines, while simultaneously delivery a more reproducible product to our health authority partners."
+  "description": "nlmixr is a free and open source R package for fitting nonlinear pharmacokinetic (PK), pharmacodynamic (PD), joint PK/PD and quantitative systems pharmacology (QSP) mixed-effects models. Currently, nlmixr is capable of fitting both traditional compartmental PK models as well as more complex models implemented using ordinary differential equations (ODEs). It is under intensive development and has succeeded in attracting extensive attention and a willingness to make contributions from the pharmaceutical modeling community. We believe that, over time, it will become a capable, credible alternative to commercial software tools, such as NONMEM, Monolix, and Phoenix NLME."
 }
 </script>
 
@@ -420,7 +420,7 @@
 
 
 
-  <title>Re-envisioning Clinical Content Delivery in the Open Source World | R/Pharma</title>
+  <title>nlmixr: an R package for population PKPD modeling | R/Pharma</title>
 </head>
 
 
@@ -743,7 +743,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Re-envisioning Clinical Content Delivery in the Open Source World</h1>
+  <h1>nlmixr: an R package for population PKPD modeling</h1>
 
   
 
@@ -761,7 +761,7 @@
     
 
   <span >
-      <a href="/author/doug-kelkhoff/">Doug Kelkhoff</a></span>
+      <a href="/author/mirjam-trame/">Mirjam Trame</a></span>
   </div>
   
   
@@ -772,7 +772,7 @@
     
       
     
-    August 2019
+    January 1999
   </span>
   
 
@@ -826,7 +826,7 @@
   
     
   
-<a class="btn btn-outline-primary btn-page-header" href="https://github.com/rinpharma/rinpharma2019program/tree/master/talks_folder/2019-Kelkhoff-Reenvisioning_Clinical_Content_Delivery_in_the_Open_Source_World.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://github.com/rinpharma/rinpharma2019program/tree/master/talks_folder/2019-Trame-nlmixr.pdf" target="_blank" rel="noopener">
   Slides
 </a>
 
@@ -848,7 +848,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Content delivery in preparation for filing a clinical study report requires robust tooling for quickly and reproducibly compiling analysis of study data. Traditionally, this reproducibility has stemmed from one-time, rigorous validation of a development environment and analytic workflow. More recently, this paradigm has shifted to match modern software development principles, transitioning toward continuous monitoring of software validation and quality. I&rsquo;ll share our developing perspectives on validation and reproducibility, driven by a need to leverage open source tools. This vision leans on open source software such as R and its package ecosystems, publicly maintained containerized environments like the rocker project and cross-industry risk assessment via the R Validation Hub. By treating analysis as a software process in the content pipeline transforming raw data into analytic results, we can take advantage of the continuous deployment workflows prevalent in the software development world to shorten our filing timelines, while simultaneously delivery a more reproducible product to our health authority partners.</p>
+    <p class="pub-abstract">nlmixr is a free and open source R package for fitting nonlinear pharmacokinetic (PK), pharmacodynamic (PD), joint PK/PD and quantitative systems pharmacology (QSP) mixed-effects models. Currently, nlmixr is capable of fitting both traditional compartmental PK models as well as more complex models implemented using ordinary differential equations (ODEs). It is under intensive development and has succeeded in attracting extensive attention and a willingness to make contributions from the pharmaceutical modeling community. We believe that, over time, it will become a capable, credible alternative to commercial software tools, such as NONMEM, Monolix, and Phoenix NLME.</p>
     
 
     
@@ -895,7 +895,7 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/roche-/-genentech/">Roche / Genentech</a>
+  <a class="badge badge-light" href="/tag/novartis/">Novartis</a>
   
 </div>
 
@@ -912,7 +912,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_86/&amp;text=Re-envisioning%20Clinical%20Content%20Delivery%20in%20the%20Open%20Source%20World" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_86/&amp;text=nlmixr:%20an%20R%20package%20for%20population%20PKPD%20modeling" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -925,7 +925,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_86/&amp;t=Re-envisioning%20Clinical%20Content%20Delivery%20in%20the%20Open%20Source%20World" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_86/&amp;t=nlmixr:%20an%20R%20package%20for%20population%20PKPD%20modeling" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -938,7 +938,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Re-envisioning%20Clinical%20Content%20Delivery%20in%20the%20Open%20Source%20World&amp;body=/publication/rinpharma_86/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=nlmixr:%20an%20R%20package%20for%20population%20PKPD%20modeling&amp;body=/publication/rinpharma_86/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -951,7 +951,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_86/&amp;title=Re-envisioning%20Clinical%20Content%20Delivery%20in%20the%20Open%20Source%20World" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_86/&amp;title=nlmixr:%20an%20R%20package%20for%20population%20PKPD%20modeling" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -964,7 +964,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Re-envisioning%20Clinical%20Content%20Delivery%20in%20the%20Open%20Source%20World%20/publication/rinpharma_86/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=nlmixr:%20an%20R%20package%20for%20population%20PKPD%20modeling%20/publication/rinpharma_86/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -977,7 +977,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_86/&amp;title=Re-envisioning%20Clinical%20Content%20Delivery%20in%20the%20Open%20Source%20World" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_86/&amp;title=nlmixr:%20an%20R%20package%20for%20population%20PKPD%20modeling" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1024,15 +1024,15 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/publication/rinpharma_209/">5 testing packages to make your package better!</a></li>
+      <li><a href="/publication/rinpharma_99/">An R package for Data Science and Deep Visualization of a complex clinical database</a></li>
       
-      <li><a href="/publication/rinpharma_48/">Accelerate Personalized Health Care by Empowering Biomarker Data</a></li>
+      <li><a href="/publication/rinpharma_278/">Building Shiny Frameworks: Some Lessons</a></li>
       
-      <li><a href="/publication/rinpharma_2/">Analyzing Clinical Trials Data with R</a></li>
+      <li><a href="/publication/rinpharma_436/">China: new region, new topics, new perspectives and new heights</a></li>
       
-      <li><a href="/publication/rinpharma_37/">Analyzing Clinical Trials Data with R</a></li>
+      <li><a href="/publication/rinpharma_218/">Democratizing Shiny App Development: The Novartis DataPipeline Harmonized Framework</a></li>
       
-      <li><a href="/publication/rinpharma_297/">Assuring SDTM data quality with the sdtmchecks package</a></li>
+      <li><a href="/publication/rinpharma_443/">Enhancing Late-Stage Process Development with R</a></li>
       
     </ul>
   </div>

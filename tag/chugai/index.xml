@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chugai | R/Pharma</title>
+    <link>/tag/chugai/</link>
+      <atom:link href="/tag/chugai/index.xml" rel="self" type="application/rss+xml" />
+    <description>Chugai</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Wed, 30 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>Chugai</title>
+      <link>/tag/chugai/</link>
+    </image>
+    
+    <item>
+      <title>Exploring interactive analytics with teal: supporting efficient communication in clinical science</title>
+      <link>/publication/rinpharma_441/</link>
+      <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_441/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introduction to R Implementation and Educational Initiatives for SAS Programmers</title>
+      <link>/publication/rinpharma_434/</link>
+      <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_434/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

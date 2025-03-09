@@ -33,7 +33,7 @@
   
     
   
-  <meta name="description" content="Metrum Research Group (MetrumRG) has developed a suite of open-source R packages for pharmacometric analyses that can be used independently, or seamlessly integrated into a larger R-based ecosystem. To showcase this ecosystem, we used the popular Quarto framework to create a publicly available website with 20&#43; articles demonstrating how our ecosystem can be used to streamline a wide range of tasks typically required in a population pharmacokinetic (PK) analysis. The site is accompanied by a public Github repository containing example code for each task covered in the articles. This talk will give an overview of the ecosystem and articles, with a focus on traceability and reproducibility. We will also touch on our methods for doing open-source development in a validated environment, to facilitate analyses suitable for regulatory submission." />
+  <meta name="description" content="Recently there have been a lot of new developments for modeling in the tidyverse. This talk will show off tools for censored regression, an interface to clustering, and how to use the h2o.ai platform for optimizing/fitting models" />
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/rinpharma_282/" />
@@ -322,8 +322,8 @@
   
   <meta property="og:site_name" content="R/Pharma" />
   <meta property="og:url" content="/publication/rinpharma_282/" />
-  <meta property="og:title" content="MeRGE: An ecosystem of open-source R packages for Pharmacometrics from MetrumRG | R/Pharma" />
-  <meta property="og:description" content="Metrum Research Group (MetrumRG) has developed a suite of open-source R packages for pharmacometric analyses that can be used independently, or seamlessly integrated into a larger R-based ecosystem. To showcase this ecosystem, we used the popular Quarto framework to create a publicly available website with 20&#43; articles demonstrating how our ecosystem can be used to streamline a wide range of tasks typically required in a population pharmacokinetic (PK) analysis. The site is accompanied by a public Github repository containing example code for each task covered in the articles. This talk will give an overview of the ecosystem and articles, with a focus on traceability and reproducibility. We will also touch on our methods for doing open-source development in a validated environment, to facilitate analyses suitable for regulatory submission." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
+  <meta property="og:title" content="Three new things in tidymodels | R/Pharma" />
+  <meta property="og:description" content="Recently there have been a lot of new developments for modeling in the tidyverse. This talk will show off tools for censored regression, an interface to clustering, and how to use the h2o.ai platform for optimizing/fitting models" /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
     <meta property="twitter:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -332,7 +332,7 @@
         content="1999-01-01T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2022-11-08T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="1999-01-01T00:00:00&#43;00:00">
   
 
   
@@ -356,14 +356,14 @@
     "@type": "WebPage",
     "@id": "/publication/rinpharma_282/"
   },
-  "headline": "MeRGE: An ecosystem of open-source R packages for Pharmacometrics from MetrumRG",
+  "headline": "Three new things in tidymodels",
   
   "datePublished": "1999-01-01T00:00:00Z",
-  "dateModified": "2022-11-08T00:00:00Z",
+  "dateModified": "1999-01-01T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Seth Green"
+    "name": "Max Kuhn"
   },
   
   "publisher": {
@@ -374,7 +374,7 @@
       "url": "/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_192x192_fit_lanczos_2.png"
     }
   },
-  "description": "Metrum Research Group (MetrumRG) has developed a suite of open-source R packages for pharmacometric analyses that can be used independently, or seamlessly integrated into a larger R-based ecosystem. To showcase this ecosystem, we used the popular Quarto framework to create a publicly available website with 20+ articles demonstrating how our ecosystem can be used to streamline a wide range of tasks typically required in a population pharmacokinetic (PK) analysis. The site is accompanied by a public Github repository containing example code for each task covered in the articles. This talk will give an overview of the ecosystem and articles, with a focus on traceability and reproducibility. We will also touch on our methods for doing open-source development in a validated environment, to facilitate analyses suitable for regulatory submission."
+  "description": "Recently there have been a lot of new developments for modeling in the tidyverse. This talk will show off tools for censored regression, an interface to clustering, and how to use the h2o.ai platform for optimizing/fitting models"
 }
 </script>
 
@@ -420,7 +420,7 @@
 
 
 
-  <title>MeRGE: An ecosystem of open-source R packages for Pharmacometrics from MetrumRG | R/Pharma</title>
+  <title>Three new things in tidymodels | R/Pharma</title>
 </head>
 
 
@@ -743,7 +743,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>MeRGE: An ecosystem of open-source R packages for Pharmacometrics from MetrumRG</h1>
+  <h1>Three new things in tidymodels</h1>
 
   
 
@@ -761,7 +761,10 @@
     
 
   <span >
-      <a href="/author/seth-green/">Seth Green</a></span>
+      <a href="/author/max-kuhn/">Max Kuhn</a></span>, <span >
+      <a href="/author/hannah-frick/">Hannah Frick</a></span>, <span >
+      <a href="/author/emil-hvitfeldt/">Emil Hvitfeldt</a></span>, <span >
+      <a href="/author/qiushi-yan/">Qiushi Yan</a></span>
   </div>
   
   
@@ -772,7 +775,7 @@
     
       
     
-    November 2022
+    January 1999
   </span>
   
 
@@ -828,7 +831,7 @@
   
     
   
-<a class="btn btn-outline-primary btn-page-header" href="https://youtu.be/eJnN0MjF6q0" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://youtu.be/QdMjn91KAYQ" target="_blank" rel="noopener">
   Video
 </a>
 
@@ -848,7 +851,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Metrum Research Group (MetrumRG) has developed a suite of open-source R packages for pharmacometric analyses that can be used independently, or seamlessly integrated into a larger R-based ecosystem. To showcase this ecosystem, we used the popular Quarto framework to create a publicly available website with 20+ articles demonstrating how our ecosystem can be used to streamline a wide range of tasks typically required in a population pharmacokinetic (PK) analysis. The site is accompanied by a public Github repository containing example code for each task covered in the articles. This talk will give an overview of the ecosystem and articles, with a focus on traceability and reproducibility. We will also touch on our methods for doing open-source development in a validated environment, to facilitate analyses suitable for regulatory submission.</p>
+    <p class="pub-abstract">Recently there have been a lot of new developments for modeling in the tidyverse. This talk will show off tools for censored regression, an interface to clustering, and how to use the h2o.ai platform for optimizing/fitting models</p>
     
 
     
@@ -895,7 +898,7 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/metrum-research-group/">Metrum Research Group</a>
+  <a class="badge badge-light" href="/tag/rstudio/">RStudio</a>
   
 </div>
 
@@ -912,7 +915,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_282/&amp;text=MeRGE:%20An%20ecosystem%20of%20open-source%20R%20packages%20for%20Pharmacometrics%20from%20MetrumRG" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_282/&amp;text=Three%20new%20things%20in%20tidymodels" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -925,7 +928,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_282/&amp;t=MeRGE:%20An%20ecosystem%20of%20open-source%20R%20packages%20for%20Pharmacometrics%20from%20MetrumRG" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_282/&amp;t=Three%20new%20things%20in%20tidymodels" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -938,7 +941,7 @@
       
       
       <li>
-        <a href="mailto:?subject=MeRGE:%20An%20ecosystem%20of%20open-source%20R%20packages%20for%20Pharmacometrics%20from%20MetrumRG&amp;body=/publication/rinpharma_282/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Three%20new%20things%20in%20tidymodels&amp;body=/publication/rinpharma_282/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -951,7 +954,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_282/&amp;title=MeRGE:%20An%20ecosystem%20of%20open-source%20R%20packages%20for%20Pharmacometrics%20from%20MetrumRG" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_282/&amp;title=Three%20new%20things%20in%20tidymodels" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -964,7 +967,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=MeRGE:%20An%20ecosystem%20of%20open-source%20R%20packages%20for%20Pharmacometrics%20from%20MetrumRG%20/publication/rinpharma_282/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Three%20new%20things%20in%20tidymodels%20/publication/rinpharma_282/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -977,7 +980,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_282/&amp;title=MeRGE:%20An%20ecosystem%20of%20open-source%20R%20packages%20for%20Pharmacometrics%20from%20MetrumRG" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_282/&amp;title=Three%20new%20things%20in%20tidymodels" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -997,6 +1000,24 @@
 
 
   
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
   
     
 
@@ -1024,15 +1045,15 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/publication/rinpharma_134/">A PK &amp; PBPK Modelling Workflow in R: Simulation, Optimization &amp; Visualization</a></li>
+      <li><a href="/publication/rinpharma_310/">Admin - Clinical Environment Management</a></li>
       
-      <li><a href="/publication/rinpharma_192/">A case-study driven introduction to the Julia language for R programmers</a></li>
+      <li><a href="/publication/rinpharma_307/">Building a Data Science Community at Your Pharma</a></li>
       
-      <li><a href="/publication/rinpharma_42/">Assisting pharmacometric simulation with the use of Shiny</a></li>
+      <li><a href="/publication/rinpharma_242/">Clinical Tables in gt</a></li>
       
-      <li><a href="/publication/rinpharma_90/">Leveraging multiple R tools to make effective pediatric dosing decisions</a></li>
+      <li><a href="/publication/rinpharma_33/">Data visualization for real-world machine learning</a></li>
       
-      <li><a href="/publication/rinpharma_38/">Moving Fast Without Breaking Things: Navigating the R Ecosystem in an Enterprise Environment</a></li>
+      <li><a href="/publication/rinpharma_303/">How to use pointblank to understand, validate, and document your data</a></li>
       
     </ul>
   </div>

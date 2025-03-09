@@ -5,7 +5,7 @@
     <link>/tag/novartis/</link>
       <atom:link href="/tag/novartis/index.xml" rel="self" type="application/rss+xml" />
     <description>Novartis</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Tue, 24 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Wed, 30 Oct 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
       <title>Novartis</title>
@@ -13,146 +13,179 @@
     </image>
     
     <item>
-      <title>Rshiny app on Ph2b trial design based on MCP-Mod</title>
-      <link>/publication/rinpharma_343/</link>
-      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_343/</guid>
+      <title>China: new region, new topics, new perspectives and new heights</title>
+      <link>/publication/rinpharma_436/</link>
+      <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_436/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Enhancing Late-Stage Process Development with R</title>
+      <link>/publication/rinpharma_443/</link>
+      <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_443/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Building Shiny Frameworks: Some Lessons</title>
-      <link>/publication/rinpharma_289/</link>
-      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_289/</guid>
+      <title>Introduction to R Implementation and Educational Initiatives for SAS Programmers</title>
+      <link>/publication/rinpharma_434/</link>
+      <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_434/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>How to use a complete JavaScript toolchain in your Shiny development</title>
-      <link>/publication/rinpharma_267/</link>
-      <pubDate>Thu, 03 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_267/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Introduction to {shinyValidator}</title>
-      <link>/publication/rinpharma_264/</link>
-      <pubDate>Wed, 02 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_264/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Outstanding User Interfaces with Shiny</title>
-      <link>/publication/rinpharma_236/</link>
-      <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_236/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Democratizing Shiny App Development: The Novartis DataPipeline Harmonized Framework</title>
-      <link>/publication/rinpharma_230/</link>
-      <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_230/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Unleash your Shiny apps with JavaScript</title>
-      <link>/publication/rinpharma_191/</link>
-      <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_191/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Subgroup Benchmarking Framework</title>
-      <link>/publication/rinpharma_181/</link>
-      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_181/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The See Value App: Visual Decision Making for Drug Development</title>
-      <link>/publication/rinpharma_182/</link>
-      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_182/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Would John, Paul, George or Ringo have been famous if it were not for The Beatles</title>
-      <link>/publication/rinpharma_171/</link>
-      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_171/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>With great graphs comes great power</title>
-      <link>/publication/rinpharma_156/</link>
-      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_156/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>metashiny: build Shiny apps with a Shiny app</title>
-      <link>/publication/rinpharma_145/</link>
-      <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_145/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Unleash Shiny</title>
-      <link>/publication/rinpharma_133/</link>
-      <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_133/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shiny apps for accelerating early drug discovery research</title>
-      <link>/publication/rinpharma_113/</link>
-      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_113/</guid>
+      <title>Take It, Build It and Own It</title>
+      <link>/publication/rinpharma_433/</link>
+      <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_433/</guid>
       <description></description>
     </item>
     
     <item>
       <title>An R package for Data Science and Deep Visualization of a complex clinical database</title>
-      <link>/publication/rinpharma_93/</link>
-      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_93/</guid>
+      <link>/publication/rinpharma_99/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_99/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building Shiny Frameworks: Some Lessons</title>
+      <link>/publication/rinpharma_278/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_278/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Democratizing Shiny App Development: The Novartis DataPipeline Harmonized Framework</title>
+      <link>/publication/rinpharma_218/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_218/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Exploratory Graphics (xGx): Promoting the purposeful exploration of PKPD data</title>
-      <link>/publication/rinpharma_76/</link>
-      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_76/</guid>
+      <link>/publication/rinpharma_75/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_75/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How to use a complete JavaScript toolchain in your Shiny development</title>
+      <link>/publication/rinpharma_314/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_314/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introduction to {shinyValidator}</title>
+      <link>/publication/rinpharma_312/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_312/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>metashiny: build Shiny apps with a Shiny app</title>
+      <link>/publication/rinpharma_22/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_22/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nlmixr: an R package for population PKPD modeling</title>
-      <link>/publication/rinpharma_74/</link>
-      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_74/</guid>
+      <link>/publication/rinpharma_86/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_86/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Outstanding User Interfaces with Shiny</title>
+      <link>/publication/rinpharma_226/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_226/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rshiny app on Ph2b trial design based on MCP-Mod</title>
+      <link>/publication/rinpharma_327/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_327/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shiny apps for accelerating early drug discovery research</title>
+      <link>/publication/rinpharma_101/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_101/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ShinyRAP - a framework for analysis and building interactive/dynamic reports using Shiny/Markdown</title>
-      <link>/publication/rinpharma_21/</link>
-      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_21/</guid>
+      <link>/publication/rinpharma_153/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_153/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Subgroup Benchmarking Framework</title>
+      <link>/publication/rinpharma_58/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_58/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The See Value App: Visual Decision Making for Drug Development</title>
+      <link>/publication/rinpharma_48/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_48/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unleash Shiny</title>
+      <link>/publication/rinpharma_10/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_10/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unleash your Shiny apps with JavaScript</title>
+      <link>/publication/rinpharma_239/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_239/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>With great graphs comes great power</title>
+      <link>/publication/rinpharma_35/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_35/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Would John, Paul, George or Ringo have been famous if it were not for The Beatles</title>
+      <link>/publication/rinpharma_51/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_51/</guid>
       <description></description>
     </item>
     

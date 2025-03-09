@@ -33,7 +33,7 @@
   
     
   
-  <meta name="description" content="MMRMs are often used as the primary analysis of continuous endpoints in longitudinal clinical trials (see e.g. Mallinckrod et al, 2008). Essentially, an MMRM is a specific linear mixed effects model that includes (at least) an interaction of treatment arm and categorical visit variables as fixed effects. The covariance structure of the residuals can have different forms, and often an unstructured (i.e. saturated parametrization) covariance matrix is preferred. This structure can be represented by random effects in the mixed model. All of this has typically been implemented in proprietary software, such as SAS, as its PROC MIXED routine is generally seen as a gold standard for mixed models. However, this does not allow the use of interactive web applications to explore the clinical study data in a flexible way. Furthermore, fitting such proprietary software into workflows such as automatic document generation is not convenient. Therefore, we wanted to implement MMRM in R. Several challenges had to be solved, such as finding the right R-packages for this purpose. We finally settled on  lme4  in combination with  lmerTest , which could match results in SAS up to numerical precision. Convergence of estimates can be an issue and multiple optimization algorithms are therefore tried in parallel to enhance robustness. Extracting the covariance matrix estimate from  lme4  results was solved as well as finding model fit statistics that match SAS results. We use our own  rtables  to produce tables and  ggplot2  for plots. We developed a Shiny module in our internal framework for exploratory web applications. Further validation in the next months will allow us to use the R implementation for regulatory purposes, with greater flexibility and efficiency than before." />
+  <meta name="description" content="R is pretty good in backwards compatibility but still reproducing analysis even given script and data can be a challenge as packages, R, and math libraries keep evolving. www.rocker-project.org offers among other things version-stable R in docker (Rocker) images. A small example will be presented how this allows on any docker runtime environment to execute analysis with highest reproducibility. Such environments are part of all major commercial cloud providers but also allow on-premises installations." />
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/rinpharma_142/" />
@@ -322,8 +322,8 @@
   
   <meta property="og:site_name" content="R/Pharma" />
   <meta property="og:url" content="/publication/rinpharma_142/" />
-  <meta property="og:title" content="Implementing Mixed Models with Repeated Measures (MMRM) in R and Shiny for Regulatory Purposes | R/Pharma" />
-  <meta property="og:description" content="MMRMs are often used as the primary analysis of continuous endpoints in longitudinal clinical trials (see e.g. Mallinckrod et al, 2008). Essentially, an MMRM is a specific linear mixed effects model that includes (at least) an interaction of treatment arm and categorical visit variables as fixed effects. The covariance structure of the residuals can have different forms, and often an unstructured (i.e. saturated parametrization) covariance matrix is preferred. This structure can be represented by random effects in the mixed model. All of this has typically been implemented in proprietary software, such as SAS, as its PROC MIXED routine is generally seen as a gold standard for mixed models. However, this does not allow the use of interactive web applications to explore the clinical study data in a flexible way. Furthermore, fitting such proprietary software into workflows such as automatic document generation is not convenient. Therefore, we wanted to implement MMRM in R. Several challenges had to be solved, such as finding the right R-packages for this purpose. We finally settled on  lme4  in combination with  lmerTest , which could match results in SAS up to numerical precision. Convergence of estimates can be an issue and multiple optimization algorithms are therefore tried in parallel to enhance robustness. Extracting the covariance matrix estimate from  lme4  results was solved as well as finding model fit statistics that match SAS results. We use our own  rtables  to produce tables and  ggplot2  for plots. We developed a Shiny module in our internal framework for exploratory web applications. Further validation in the next months will allow us to use the R implementation for regulatory purposes, with greater flexibility and efficiency than before." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
+  <meta property="og:title" content="R reproducibility by containers and cloud | R/Pharma" />
+  <meta property="og:description" content="R is pretty good in backwards compatibility but still reproducing analysis even given script and data can be a challenge as packages, R, and math libraries keep evolving. www.rocker-project.org offers among other things version-stable R in docker (Rocker) images. A small example will be presented how this allows on any docker runtime environment to execute analysis with highest reproducibility. Such environments are part of all major commercial cloud providers but also allow on-premises installations." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
     <meta property="twitter:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -332,7 +332,7 @@
         content="1999-01-01T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2020-10-13T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="1999-01-01T00:00:00&#43;00:00">
   
 
   
@@ -356,14 +356,14 @@
     "@type": "WebPage",
     "@id": "/publication/rinpharma_142/"
   },
-  "headline": "Implementing Mixed Models with Repeated Measures (MMRM) in R and Shiny for Regulatory Purposes",
+  "headline": "R reproducibility by containers and cloud",
   
   "datePublished": "1999-01-01T00:00:00Z",
-  "dateModified": "2020-10-13T00:00:00Z",
+  "dateModified": "1999-01-01T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Daniel Sabanés Bové"
+    "name": "Reinhold Koch"
   },
   
   "publisher": {
@@ -374,7 +374,7 @@
       "url": "/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_192x192_fit_lanczos_2.png"
     }
   },
-  "description": "MMRMs are often used as the primary analysis of continuous endpoints in longitudinal clinical trials (see e.g. Mallinckrod et al, 2008). Essentially, an MMRM is a specific linear mixed effects model that includes (at least) an interaction of treatment arm and categorical visit variables as fixed effects. The covariance structure of the residuals can have different forms, and often an unstructured (i.e. saturated parametrization) covariance matrix is preferred. This structure can be represented by random effects in the mixed model. All of this has typically been implemented in proprietary software, such as SAS, as its PROC MIXED routine is generally seen as a gold standard for mixed models. However, this does not allow the use of interactive web applications to explore the clinical study data in a flexible way. Furthermore, fitting such proprietary software into workflows such as automatic document generation is not convenient. Therefore, we wanted to implement MMRM in R. Several challenges had to be solved, such as finding the right R-packages for this purpose. We finally settled on  lme4  in combination with  lmerTest , which could match results in SAS up to numerical precision. Convergence of estimates can be an issue and multiple optimization algorithms are therefore tried in parallel to enhance robustness. Extracting the covariance matrix estimate from  lme4  results was solved as well as finding model fit statistics that match SAS results. We use our own  rtables  to produce tables and  ggplot2  for plots. We developed a Shiny module in our internal framework for exploratory web applications. Further validation in the next months will allow us to use the R implementation for regulatory purposes, with greater flexibility and efficiency than before."
+  "description": "R is pretty good in backwards compatibility but still reproducing analysis even given script and data can be a challenge as packages, R, and math libraries keep evolving. www.rocker-project.org offers among other things version-stable R in docker (Rocker) images. A small example will be presented how this allows on any docker runtime environment to execute analysis with highest reproducibility. Such environments are part of all major commercial cloud providers but also allow on-premises installations."
 }
 </script>
 
@@ -420,7 +420,7 @@
 
 
 
-  <title>Implementing Mixed Models with Repeated Measures (MMRM) in R and Shiny for Regulatory Purposes | R/Pharma</title>
+  <title>R reproducibility by containers and cloud | R/Pharma</title>
 </head>
 
 
@@ -743,7 +743,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Implementing Mixed Models with Repeated Measures (MMRM) in R and Shiny for Regulatory Purposes</h1>
+  <h1>R reproducibility by containers and cloud</h1>
 
   
 
@@ -761,7 +761,7 @@
     
 
   <span >
-      <a href="/author/daniel-sabanes-bove/">Daniel Sabanés Bové</a></span>
+      <a href="/author/reinhold-koch/">Reinhold Koch</a></span>
   </div>
   
   
@@ -772,7 +772,7 @@
     
       
     
-    October 2020
+    January 1999
   </span>
   
 
@@ -826,19 +826,11 @@
   
     
   
-<a class="btn btn-outline-primary btn-page-header" href="https://github.com/rinpharma/2020_presentations/tree/master/talks_folder/2020-Sabanes_Bove-Implementing_MMRM_in_R.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://github.com/rinpharma/2018_presentations/blob/master/talks_folder/2018-Koch_Reproducibility_by_Containers_and_Cloud.pdf" target="_blank" rel="noopener">
   Slides
 </a>
 
 
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header" href="https://youtu.be/moEksA8gHoY" target="_blank" rel="noopener">
-  Video
-</a>
 
 
 
@@ -856,7 +848,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">MMRMs are often used as the primary analysis of continuous endpoints in longitudinal clinical trials (see e.g. Mallinckrod et al, 2008). Essentially, an MMRM is a specific linear mixed effects model that includes (at least) an interaction of treatment arm and categorical visit variables as fixed effects. The covariance structure of the residuals can have different forms, and often an unstructured (i.e. saturated parametrization) covariance matrix is preferred. This structure can be represented by random effects in the mixed model. All of this has typically been implemented in proprietary software, such as SAS, as its PROC MIXED routine is generally seen as a gold standard for mixed models. However, this does not allow the use of interactive web applications to explore the clinical study data in a flexible way. Furthermore, fitting such proprietary software into workflows such as automatic document generation is not convenient. Therefore, we wanted to implement MMRM in R. Several challenges had to be solved, such as finding the right R-packages for this purpose. We finally settled on  lme4  in combination with  lmerTest , which could match results in SAS up to numerical precision. Convergence of estimates can be an issue and multiple optimization algorithms are therefore tried in parallel to enhance robustness. Extracting the covariance matrix estimate from  lme4  results was solved as well as finding model fit statistics that match SAS results. We use our own  rtables  to produce tables and  ggplot2  for plots. We developed a Shiny module in our internal framework for exploratory web applications. Further validation in the next months will allow us to use the R implementation for regulatory purposes, with greater flexibility and efficiency than before.</p>
+    <p class="pub-abstract">R is pretty good in backwards compatibility but still reproducing analysis even given script and data can be a challenge as packages, R, and math libraries keep evolving. <a href="http://www.rocker-project.org">www.rocker-project.org</a> offers among other things version-stable R in docker (Rocker) images. A small example will be presented how this allows on any docker runtime environment to execute analysis with highest reproducibility. Such environments are part of all major commercial cloud providers but also allow on-premises installations.</p>
     
 
     
@@ -884,7 +876,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">Presented at 2020 Conference</div>
+          <div class="col-12 col-md-9">Presented at 2018 Conference</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -920,7 +912,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_142/&amp;text=Implementing%20Mixed%20Models%20with%20Repeated%20Measures%20%28MMRM%29%20in%20R%20and%20Shiny%20for%20Regulatory%20Purposes" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_142/&amp;text=R%20reproducibility%20by%20containers%20and%20cloud" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -933,7 +925,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_142/&amp;t=Implementing%20Mixed%20Models%20with%20Repeated%20Measures%20%28MMRM%29%20in%20R%20and%20Shiny%20for%20Regulatory%20Purposes" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_142/&amp;t=R%20reproducibility%20by%20containers%20and%20cloud" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -946,7 +938,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Implementing%20Mixed%20Models%20with%20Repeated%20Measures%20%28MMRM%29%20in%20R%20and%20Shiny%20for%20Regulatory%20Purposes&amp;body=/publication/rinpharma_142/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=R%20reproducibility%20by%20containers%20and%20cloud&amp;body=/publication/rinpharma_142/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -959,7 +951,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_142/&amp;title=Implementing%20Mixed%20Models%20with%20Repeated%20Measures%20%28MMRM%29%20in%20R%20and%20Shiny%20for%20Regulatory%20Purposes" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_142/&amp;title=R%20reproducibility%20by%20containers%20and%20cloud" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -972,7 +964,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Implementing%20Mixed%20Models%20with%20Repeated%20Measures%20%28MMRM%29%20in%20R%20and%20Shiny%20for%20Regulatory%20Purposes%20/publication/rinpharma_142/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=R%20reproducibility%20by%20containers%20and%20cloud%20/publication/rinpharma_142/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -985,7 +977,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_142/&amp;title=Implementing%20Mixed%20Models%20with%20Repeated%20Measures%20%28MMRM%29%20in%20R%20and%20Shiny%20for%20Regulatory%20Purposes" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_142/&amp;title=R%20reproducibility%20by%20containers%20and%20cloud" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1032,15 +1024,15 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/publication/rinpharma_209/">5 testing packages to make your package better!</a></li>
+      <li><a href="/publication/rinpharma_197/">5 testing packages to make your package better!</a></li>
       
-      <li><a href="/publication/rinpharma_48/">Accelerate Personalized Health Care by Empowering Biomarker Data</a></li>
+      <li><a href="/publication/rinpharma_187/">Accelerate Personalized Health Care by Empowering Biomarker Data</a></li>
       
-      <li><a href="/publication/rinpharma_37/">Analyzing Clinical Trials Data with R</a></li>
+      <li><a href="/publication/rinpharma_169/">Analyzing Clinical Trials Data with R</a></li>
       
-      <li><a href="/publication/rinpharma_2/">Analyzing Clinical Trials Data with R</a></li>
+      <li><a href="/publication/rinpharma_133/">Analyzing Clinical Trials Data with R</a></li>
       
-      <li><a href="/publication/rinpharma_297/">Assuring SDTM data quality with the sdtmchecks package</a></li>
+      <li><a href="/publication/rinpharma_275/">Assuring SDTM data quality with the sdtmchecks package</a></li>
       
     </ul>
   </div>

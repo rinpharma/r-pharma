@@ -33,7 +33,7 @@
   
     
   
-  <meta name="description" content="R package validation is in all our minds since the pharmaceutical industry started moving away from SAS to R for its statistical analysis and regulatory submissions.  Opting for open source programming requires to revisit our way of validating code, internally but also in a cross-Pharma effort when it comes to CRAN.  Roche will present its approach to R package validation, and share some material for you to apply." />
+  <meta name="description" content="In the safety analysis of clinical trials, the forest plot plays an important role. Currently, most of the forest plots are static, which makes them non-reader-friendly to Data Monitoring Committee (DMC). In this project, we propose an R package - forestly - to realize interactive forest plots. There are five fancy interactive features. First, users can apply filters to filter out the adverse event (AE) category of interest, for example, the serious AE, drug-related AE, AE with toxicity grade 3-5, etc... Second, the filtered AE summary tables can be downloaded as .rft files. Third, subject-level details can be drilled down by clicking the downward triangle bottom. Forth, labels can be revealed by hovering the mouse over a point. Fifth, search bars are embedded for users to quickly find an AE of interest." />
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/rinpharma_203/" />
@@ -322,8 +322,8 @@
   
   <meta property="og:site_name" content="R/Pharma" />
   <meta property="og:url" content="/publication/rinpharma_203/" />
-  <meta property="og:title" content="R Package Validation at Roche | R/Pharma" />
-  <meta property="og:description" content="R package validation is in all our minds since the pharmaceutical industry started moving away from SAS to R for its statistical analysis and regulatory submissions.  Opting for open source programming requires to revisit our way of validating code, internally but also in a cross-Pharma effort when it comes to CRAN.  Roche will present its approach to R package validation, and share some material for you to apply." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
+  <meta property="og:title" content="Interactive Forest Plot for DMC Safety Monitoring in Clinical Trials | R/Pharma" />
+  <meta property="og:description" content="In the safety analysis of clinical trials, the forest plot plays an important role. Currently, most of the forest plots are static, which makes them non-reader-friendly to Data Monitoring Committee (DMC). In this project, we propose an R package - forestly - to realize interactive forest plots. There are five fancy interactive features. First, users can apply filters to filter out the adverse event (AE) category of interest, for example, the serious AE, drug-related AE, AE with toxicity grade 3-5, etc... Second, the filtered AE summary tables can be downloaded as .rft files. Third, subject-level details can be drilled down by clicking the downward triangle bottom. Forth, labels can be revealed by hovering the mouse over a point. Fifth, search bars are embedded for users to quickly find an AE of interest." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
     <meta property="twitter:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -332,7 +332,7 @@
         content="1999-01-01T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2021-11-02T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="1999-01-01T00:00:00&#43;00:00">
   
 
   
@@ -356,14 +356,14 @@
     "@type": "WebPage",
     "@id": "/publication/rinpharma_203/"
   },
-  "headline": "R Package Validation at Roche",
+  "headline": "Interactive Forest Plot for DMC Safety Monitoring in Clinical Trials",
   
   "datePublished": "1999-01-01T00:00:00Z",
-  "dateModified": "2021-11-02T00:00:00Z",
+  "dateModified": "1999-01-01T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Coline Zeballos"
+    "name": "Yujie Zhao"
   },
   
   "publisher": {
@@ -374,7 +374,7 @@
       "url": "/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_192x192_fit_lanczos_2.png"
     }
   },
-  "description": "R package validation is in all our minds since the pharmaceutical industry started moving away from SAS to R for its statistical analysis and regulatory submissions.  Opting for open source programming requires to revisit our way of validating code, internally but also in a cross-Pharma effort when it comes to CRAN.  Roche will present its approach to R package validation, and share some material for you to apply."
+  "description": "In the safety analysis of clinical trials, the forest plot plays an important role. Currently, most of the forest plots are static, which makes them non-reader-friendly to Data Monitoring Committee (DMC). In this project, we propose an R package - forestly - to realize interactive forest plots. There are five fancy interactive features. First, users can apply filters to filter out the adverse event (AE) category of interest, for example, the serious AE, drug-related AE, AE with toxicity grade 3-5, etc... Second, the filtered AE summary tables can be downloaded as .rft files. Third, subject-level details can be drilled down by clicking the downward triangle bottom. Forth, labels can be revealed by hovering the mouse over a point. Fifth, search bars are embedded for users to quickly find an AE of interest."
 }
 </script>
 
@@ -420,7 +420,7 @@
 
 
 
-  <title>R Package Validation at Roche | R/Pharma</title>
+  <title>Interactive Forest Plot for DMC Safety Monitoring in Clinical Trials | R/Pharma</title>
 </head>
 
 
@@ -743,7 +743,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>R Package Validation at Roche</h1>
+  <h1>Interactive Forest Plot for DMC Safety Monitoring in Clinical Trials</h1>
 
   
 
@@ -761,7 +761,10 @@
     
 
   <span >
-      <a href="/author/coline-zeballos/">Coline Zeballos</a></span>
+      <a href="/author/yujie-zhao/">Yujie Zhao</a></span>, <span >
+      <a href="/author/xuan-deng/">Xuan Deng</a></span>, <span >
+      <a href="/author/benjamin-wang/">Benjamin Wang</a></span>, <span >
+      <a href="/author/yilong-zhang/">Yilong Zhang</a></span>
   </div>
   
   
@@ -772,7 +775,7 @@
     
       
     
-    November 2021
+    January 1999
   </span>
   
 
@@ -822,21 +825,13 @@
 
 
 
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header" href="https://github.com/rinpharma/2021_presentations/tree/master/talks_folder/2021-Zeballos-R_Package_Validation_Roche.pdf" target="_blank" rel="noopener">
-  Slides
-</a>
-
 
 
   
   
     
   
-<a class="btn btn-outline-primary btn-page-header" href="https://youtu.be/xksxuvXVimM" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://youtu.be/HICBeSqD6kI" target="_blank" rel="noopener">
   Video
 </a>
 
@@ -856,7 +851,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">R package validation is in all our minds since the pharmaceutical industry started moving away from SAS to R for its statistical analysis and regulatory submissions.  Opting for open source programming requires to revisit our way of validating code, internally but also in a cross-Pharma effort when it comes to CRAN.  Roche will present its approach to R package validation, and share some material for you to apply.</p>
+    <p class="pub-abstract">In the safety analysis of clinical trials, the forest plot plays an important role. Currently, most of the forest plots are static, which makes them non-reader-friendly to Data Monitoring Committee (DMC). In this project, we propose an R package - forestly - to realize interactive forest plots. There are five fancy interactive features. First, users can apply filters to filter out the adverse event (AE) category of interest, for example, the serious AE, drug-related AE, AE with toxicity grade 3-5, etc&hellip; Second, the filtered AE summary tables can be downloaded as .rft files. Third, subject-level details can be drilled down by clicking the downward triangle bottom. Forth, labels can be revealed by hovering the mouse over a point. Fifth, search bars are embedded for users to quickly find an AE of interest.</p>
     
 
     
@@ -903,7 +898,7 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/roche-/-genentech/">Roche / Genentech</a>
+  <a class="badge badge-light" href="/tag/merck/">Merck</a>
   
 </div>
 
@@ -920,7 +915,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_203/&amp;text=R%20Package%20Validation%20at%20Roche" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_203/&amp;text=Interactive%20Forest%20Plot%20for%20DMC%20Safety%20Monitoring%20in%20Clinical%20Trials" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -933,7 +928,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_203/&amp;t=R%20Package%20Validation%20at%20Roche" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_203/&amp;t=Interactive%20Forest%20Plot%20for%20DMC%20Safety%20Monitoring%20in%20Clinical%20Trials" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -946,7 +941,7 @@
       
       
       <li>
-        <a href="mailto:?subject=R%20Package%20Validation%20at%20Roche&amp;body=/publication/rinpharma_203/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Interactive%20Forest%20Plot%20for%20DMC%20Safety%20Monitoring%20in%20Clinical%20Trials&amp;body=/publication/rinpharma_203/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -959,7 +954,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_203/&amp;title=R%20Package%20Validation%20at%20Roche" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_203/&amp;title=Interactive%20Forest%20Plot%20for%20DMC%20Safety%20Monitoring%20in%20Clinical%20Trials" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -972,7 +967,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=R%20Package%20Validation%20at%20Roche%20/publication/rinpharma_203/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Interactive%20Forest%20Plot%20for%20DMC%20Safety%20Monitoring%20in%20Clinical%20Trials%20/publication/rinpharma_203/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -985,7 +980,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_203/&amp;title=R%20Package%20Validation%20at%20Roche" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_203/&amp;title=Interactive%20Forest%20Plot%20for%20DMC%20Safety%20Monitoring%20in%20Clinical%20Trials" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1005,6 +1000,24 @@
 
 
   
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
   
     
 
@@ -1032,15 +1045,15 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/publication/rinpharma_209/">5 testing packages to make your package better!</a></li>
+      <li><a href="/publication/rinpharma_295/">Asynchronous Processing of Long-Running Tasks in Shiny</a></li>
       
-      <li><a href="/publication/rinpharma_48/">Accelerate Personalized Health Care by Empowering Biomarker Data</a></li>
+      <li><a href="/publication/rinpharma_484/">Creating a Doctor Network using R and Graph Databases</a></li>
       
-      <li><a href="/publication/rinpharma_37/">Analyzing Clinical Trials Data with R</a></li>
+      <li><a href="/publication/rinpharma_326/">Interactive Reporting for Safety Monitoring</a></li>
       
-      <li><a href="/publication/rinpharma_2/">Analyzing Clinical Trials Data with R</a></li>
+      <li><a href="/publication/rinpharma_115/">Its Not Whats on the Outside, but Its Whats on the Back-end That Matters: The World Beyond CSV Files</a></li>
       
-      <li><a href="/publication/rinpharma_297/">Assuring SDTM data quality with the sdtmchecks package</a></li>
+      <li><a href="/publication/rinpharma_141/">Managing R and Associated Tools in Large Environments - an R-Admin’s Perspective</a></li>
       
     </ul>
   </div>

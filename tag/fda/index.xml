@@ -5,7 +5,7 @@
     <link>/tag/fda/</link>
       <atom:link href="/tag/fda/index.xml" rel="self" type="application/rss+xml" />
     <description>FDA</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Thu, 26 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Wed, 30 Oct 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
       <title>FDA</title>
@@ -13,114 +13,130 @@
     </image>
     
     <item>
-      <title>Dataset-JSON as Alternative Transport Format for Regulatory Submissions</title>
-      <link>/publication/rinpharma_370/</link>
-      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_370/</guid>
+      <title>Responsive Regulation of AI in Drug Development</title>
+      <link>/publication/rinpharma_418/</link>
+      <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_418/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Our Impact in the Evolving Data Landscape</title>
-      <link>/publication/rinpharma_334/</link>
-      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_334/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R pilot submissions to FDA</title>
-      <link>/publication/rinpharma_287/</link>
-      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_287/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Submitting Data to CDER: What Comes Next?</title>
-      <link>/publication/rinpharma_233/</link>
-      <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_233/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SENDing Toxicology Study Data Analysis into the 21st Century with a New R Package: sendigR.</title>
-      <link>/publication/rinpharma_214/</link>
-      <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_214/</guid>
+      <title>Tala Fakhouri’s Keynote</title>
+      <link>/publication/rinpharma_430/</link>
+      <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_430/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Challenges in an Evolving Regulatory Landscape: How Statisticians Can Contribute</title>
-      <link>/publication/rinpharma_137/</link>
-      <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_137/</guid>
+      <link>/publication/rinpharma_16/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dataset-JSON as Alternative Transport Format for Regulatory Submissions</title>
+      <link>/publication/rinpharma_364/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_364/</guid>
       <description></description>
     </item>
     
     <item>
       <title>geoMapr: A Shiny Application for Enriched Analysis of Drug Utilization Data</title>
-      <link>/publication/rinpharma_149/</link>
-      <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_149/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Simulations, and Complex Innovative Trial Designs</title>
-      <link>/publication/rinpharma_120/</link>
-      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_120/</guid>
+      <link>/publication/rinpharma_26/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_26/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Interactive Visualization of Standardized CDISC-SEND-Formatted Toxicology Study Data Using R Shiny</title>
-      <link>/publication/rinpharma_77/</link>
-      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_77/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The use of R for improved reproducibility of biomarker detection in liquid biopsies</title>
-      <link>/publication/rinpharma_87/</link>
-      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_87/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Using R for Generic Drug Evaluation and SABE R-package for Assessing Bioequivalence of Topical Dermatological Products</title>
-      <link>/publication/rinpharma_70/</link>
-      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_70/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Unification in a Compartmentalized Culture</title>
-      <link>/publication/rinpharma_40/</link>
-      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_40/</guid>
+      <link>/publication/rinpharma_72/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_72/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Modernizing the new drug regulatory program in FDA/CDER: Can Collaborations and Sharing Help?</title>
-      <link>/publication/rinpharma_6/</link>
-      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_6/</guid>
+      <link>/publication/rinpharma_151/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_151/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Our Impact in the Evolving Data Landscape</title>
+      <link>/publication/rinpharma_322/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_322/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R pilot submissions to FDA</title>
+      <link>/publication/rinpharma_266/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_266/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SENDing Toxicology Study Data Analysis into the 21st Century with a New R Package: sendigR.</title>
+      <link>/publication/rinpharma_202/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_202/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simulations, and Complex Innovative Trial Designs</title>
+      <link>/publication/rinpharma_128/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_128/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Submitting Data to CDER: What Comes Next?</title>
+      <link>/publication/rinpharma_224/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_224/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The use of R for improved reproducibility of biomarker detection in liquid biopsies</title>
+      <link>/publication/rinpharma_93/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_93/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unification in a Compartmentalized Culture</title>
+      <link>/publication/rinpharma_165/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_165/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using R for Generic Drug Evaluation and SABE R-package for Assessing Bioequivalence of Topical Dermatological Products</title>
+      <link>/publication/rinpharma_73/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_73/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Using R in a regulatory environment: some FDA perspectives</title>
-      <link>/publication/rinpharma_7/</link>
-      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_7/</guid>
+      <link>/publication/rinpharma_136/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_136/</guid>
       <description></description>
     </item>
     

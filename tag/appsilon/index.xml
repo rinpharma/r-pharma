@@ -5,7 +5,7 @@
     <link>/tag/appsilon/</link>
       <atom:link href="/tag/appsilon/index.xml" rel="self" type="application/rss+xml" />
     <description>Appsilon</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Tue, 24 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Thu, 31 Oct 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
       <title>Appsilon</title>
@@ -13,18 +13,35 @@
     </image>
     
     <item>
+      <title>Breaking down cognitive barriers for new members to your project and your future self</title>
+      <link>/publication/rinpharma_471/</link>
+      <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_471/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shiny Application Development and Validation with Rhino</title>
+      <link>/publication/rinpharma_395/</link>
+      <pubDate>Mon, 28 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_395/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Exploring the Packaging of R / Shiny Applications for Regulatory Submission</title>
-      <link>/publication/rinpharma_344/</link>
-      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_344/</guid>
+      <link>/publication/rinpharma_328/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_328/</guid>
       <description></description>
     </item>
     
     <item>
       <title>How to build Shiny testing architecture</title>
-      <link>/publication/rinpharma_254/</link>
-      <pubDate>Thu, 27 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_254/</guid>
+      <link>/publication/rinpharma_302/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_302/</guid>
       <description></description>
     </item>
     

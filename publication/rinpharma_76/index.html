@@ -33,7 +33,7 @@
   
     
   
-  <meta name="description" content="Introduction As pharmacometricians, we sometimes jump into complex modeling before thoroughly exploring our data. This can happen due to tight timelines, lack of ready-to-use graphic tools or enthusiasm for complex models. Exploratory plots can help to uncover useful insights in the data and identify aspects to be explored further through modeling or in future studies. Exploratory plots can even quickly answer questions without the need of a complex model, improving our efficiency and providing timely impact on project strategy. The Exploratory Graphics (xGx) tool is an open-source R-based tool, freely available on GitHub [1]. Intuitively organized by datatype and driven by analysis questions, the tool aims to encourage a question-based approach to data exploration focusing on the key questions relevant to dose-exposure-response analyses. Objectives - Facilitate the purposeful exploration of PKPD data - Encourage a question-based approach to data exploration, focusing on dose-exposure-response relationships - Provide a teaching tool for people new to PKPD analysis Methods PK (single and multiple ascending dose), and PD (continuous, time-to-event, categorical, count, and ordinal) data were simulated and formatted according to a typical PKPD modeling dataset format. Lists of key questions relevant to dose-exposure-response exploration were compiled, and exploratory plots were generated to answer each question. The graphs were created following good graphics principles to ensure quality and consistency in our graphical communications [2]. Results Examples of the key analysis questions include - Provide an overview of the data - What type of data is it (e.g. continuous, binary, categorical)? - How many doses? - What is the range of doses explored? - For PK data, how many potential compartments are observed? - Is the exposure dose-proportional? - Is there evidence of nonlinearity in clearance? - Assess the variability - How large is the between subject variability compared to between dose separation? - Can any of the between subject variability be attributed to any covariates? - Are there any patterns in the within subject variability (e.g. circadian rhythms, seasonal effects, food effects, underlying disease progression)? - Assess the dose/exposure-response relationship - Is there evidence of a correlation between dose/exposure and response? - Is the relationship positive or negative? - Is there a plateau or maximal effect in the observed dose/exposure range? - Is there evidence of a delay between exposure and response? For each datatype in the simulated dataset, plots were generated to answer these key questions. The plots along with the codes to produce them were compiled into a user friendly interface. The tool is intuitively organized by datatype and driven by the analysis questions. Since the graphs were generated based on a typical modeling dataset format and hosted online, they can be easily accessed and applied to new projects. Conclusion Exploratory plots were generated, built around typical key questions particularly relevant to dose-exposure-response exploration and compiled into a user friendly interface. The Exploratory Graphics (xGx) tool can help underscore the role of purposeful data exploration for quantitative scientists. Through a question-based approach, xGx helps uncover useful insights that can be revealed without complex modeling and identify aspects of the data that may be explored further. References [1] Margolskee, A., Khanshan, F., Stein, A., Ho, Y., and Looby, M. (2019) Exploratory Graphics (xGx). Pharmacometrics, Novartis Institutes for Biomedical Research, Cambridge. (Available from https//opensource.nibr.com/xgx/) [2] Margolskee, A., Baillie, M., Magnusson, B., Jones, J. and Vandemeulebroecke, M. (2018) Graphics principles cheat sheet. Biostatistical Sciences and Pharmacometrics, Novartis Institutes for Biomedical Research, Cambridge. (Available from https//graphicsprinciples.github.io/)" />
+  <meta name="description" content="At R in Pharma 2018, I gave a workshop and a presentation on analyzing clinical trials data with R. Since then much has happened at Roche/Genentech with regard to analyzing clinical trials data with R our R-based projects got funded in order to extend our R tools and make them production ready. Since then we have created an R developer team that uses the SCRUM framework to work on our R tools. We also have subject-matter expert teams that translate the business knowledge into documentation and R code. Much effort has gone into setting up a CI/CD environment and defining a GitHub workflow that enabled our teams to collaborate efficiently and to keep the code quality high. In this presentation, I will first introduce the team structures, workflows, CI/CD environment and give some updates on the software development side. Finally, I will conclude with a brief update on our discussions around open sourcing and collaboration within the pharma industry and use this opportunity to start a conversation with the audience." />
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/rinpharma_76/" />
@@ -322,8 +322,8 @@
   
   <meta property="og:site_name" content="R/Pharma" />
   <meta property="og:url" content="/publication/rinpharma_76/" />
-  <meta property="og:title" content="Exploratory Graphics (xGx): Promoting the purposeful exploration of PKPD data | R/Pharma" />
-  <meta property="og:description" content="Introduction As pharmacometricians, we sometimes jump into complex modeling before thoroughly exploring our data. This can happen due to tight timelines, lack of ready-to-use graphic tools or enthusiasm for complex models. Exploratory plots can help to uncover useful insights in the data and identify aspects to be explored further through modeling or in future studies. Exploratory plots can even quickly answer questions without the need of a complex model, improving our efficiency and providing timely impact on project strategy. The Exploratory Graphics (xGx) tool is an open-source R-based tool, freely available on GitHub [1]. Intuitively organized by datatype and driven by analysis questions, the tool aims to encourage a question-based approach to data exploration focusing on the key questions relevant to dose-exposure-response analyses. Objectives - Facilitate the purposeful exploration of PKPD data - Encourage a question-based approach to data exploration, focusing on dose-exposure-response relationships - Provide a teaching tool for people new to PKPD analysis Methods PK (single and multiple ascending dose), and PD (continuous, time-to-event, categorical, count, and ordinal) data were simulated and formatted according to a typical PKPD modeling dataset format. Lists of key questions relevant to dose-exposure-response exploration were compiled, and exploratory plots were generated to answer each question. The graphs were created following good graphics principles to ensure quality and consistency in our graphical communications [2]. Results Examples of the key analysis questions include - Provide an overview of the data - What type of data is it (e.g. continuous, binary, categorical)? - How many doses? - What is the range of doses explored? - For PK data, how many potential compartments are observed? - Is the exposure dose-proportional? - Is there evidence of nonlinearity in clearance? - Assess the variability - How large is the between subject variability compared to between dose separation? - Can any of the between subject variability be attributed to any covariates? - Are there any patterns in the within subject variability (e.g. circadian rhythms, seasonal effects, food effects, underlying disease progression)? - Assess the dose/exposure-response relationship - Is there evidence of a correlation between dose/exposure and response? - Is the relationship positive or negative? - Is there a plateau or maximal effect in the observed dose/exposure range? - Is there evidence of a delay between exposure and response? For each datatype in the simulated dataset, plots were generated to answer these key questions. The plots along with the codes to produce them were compiled into a user friendly interface. The tool is intuitively organized by datatype and driven by the analysis questions. Since the graphs were generated based on a typical modeling dataset format and hosted online, they can be easily accessed and applied to new projects. Conclusion Exploratory plots were generated, built around typical key questions particularly relevant to dose-exposure-response exploration and compiled into a user friendly interface. The Exploratory Graphics (xGx) tool can help underscore the role of purposeful data exploration for quantitative scientists. Through a question-based approach, xGx helps uncover useful insights that can be revealed without complex modeling and identify aspects of the data that may be explored further. References [1] Margolskee, A., Khanshan, F., Stein, A., Ho, Y., and Looby, M. (2019) Exploratory Graphics (xGx). Pharmacometrics, Novartis Institutes for Biomedical Research, Cambridge. (Available from https//opensource.nibr.com/xgx/) [2] Margolskee, A., Baillie, M., Magnusson, B., Jones, J. and Vandemeulebroecke, M. (2018) Graphics principles cheat sheet. Biostatistical Sciences and Pharmacometrics, Novartis Institutes for Biomedical Research, Cambridge. (Available from https//graphicsprinciples.github.io/)" /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
+  <meta property="og:title" content="Updates on Analyzing Clinical Trials Data with R | R/Pharma" />
+  <meta property="og:description" content="At R in Pharma 2018, I gave a workshop and a presentation on analyzing clinical trials data with R. Since then much has happened at Roche/Genentech with regard to analyzing clinical trials data with R our R-based projects got funded in order to extend our R tools and make them production ready. Since then we have created an R developer team that uses the SCRUM framework to work on our R tools. We also have subject-matter expert teams that translate the business knowledge into documentation and R code. Much effort has gone into setting up a CI/CD environment and defining a GitHub workflow that enabled our teams to collaborate efficiently and to keep the code quality high. In this presentation, I will first introduce the team structures, workflows, CI/CD environment and give some updates on the software development side. Finally, I will conclude with a brief update on our discussions around open sourcing and collaboration within the pharma industry and use this opportunity to start a conversation with the audience." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
     <meta property="twitter:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -332,7 +332,7 @@
         content="1999-01-01T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2019-08-21T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="1999-01-01T00:00:00&#43;00:00">
   
 
   
@@ -356,14 +356,14 @@
     "@type": "WebPage",
     "@id": "/publication/rinpharma_76/"
   },
-  "headline": "Exploratory Graphics (xGx): Promoting the purposeful exploration of PKPD data",
+  "headline": "Updates on Analyzing Clinical Trials Data with R",
   
   "datePublished": "1999-01-01T00:00:00Z",
-  "dateModified": "2019-08-21T00:00:00Z",
+  "dateModified": "1999-01-01T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Alison Margolskee"
+    "name": "Adrian Waddell"
   },
   
   "publisher": {
@@ -374,7 +374,7 @@
       "url": "/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_192x192_fit_lanczos_2.png"
     }
   },
-  "description": "Introduction As pharmacometricians, we sometimes jump into complex modeling before thoroughly exploring our data. This can happen due to tight timelines, lack of ready-to-use graphic tools or enthusiasm for complex models. Exploratory plots can help to uncover useful insights in the data and identify aspects to be explored further through modeling or in future studies. Exploratory plots can even quickly answer questions without the need of a complex model, improving our efficiency and providing timely impact on project strategy. The Exploratory Graphics (xGx) tool is an open-source R-based tool, freely available on GitHub [1]. Intuitively organized by datatype and driven by analysis questions, the tool aims to encourage a question-based approach to data exploration focusing on the key questions relevant to dose-exposure-response analyses. Objectives - Facilitate the purposeful exploration of PKPD data - Encourage a question-based approach to data exploration, focusing on dose-exposure-response relationships - Provide a teaching tool for people new to PKPD analysis Methods PK (single and multiple ascending dose), and PD (continuous, time-to-event, categorical, count, and ordinal) data were simulated and formatted according to a typical PKPD modeling dataset format. Lists of key questions relevant to dose-exposure-response exploration were compiled, and exploratory plots were generated to answer each question. The graphs were created following good graphics principles to ensure quality and consistency in our graphical communications [2]. Results Examples of the key analysis questions include - Provide an overview of the data - What type of data is it (e.g. continuous, binary, categorical)? - How many doses? - What is the range of doses explored? - For PK data, how many potential compartments are observed? - Is the exposure dose-proportional? - Is there evidence of nonlinearity in clearance? - Assess the variability - How large is the between subject variability compared to between dose separation? - Can any of the between subject variability be attributed to any covariates? - Are there any patterns in the within subject variability (e.g. circadian rhythms, seasonal effects, food effects, underlying disease progression)? - Assess the dose/exposure-response relationship - Is there evidence of a correlation between dose/exposure and response? - Is the relationship positive or negative? - Is there a plateau or maximal effect in the observed dose/exposure range? - Is there evidence of a delay between exposure and response? For each datatype in the simulated dataset, plots were generated to answer these key questions. The plots along with the codes to produce them were compiled into a user friendly interface. The tool is intuitively organized by datatype and driven by the analysis questions. Since the graphs were generated based on a typical modeling dataset format and hosted online, they can be easily accessed and applied to new projects. Conclusion Exploratory plots were generated, built around typical key questions particularly relevant to dose-exposure-response exploration and compiled into a user friendly interface. The Exploratory Graphics (xGx) tool can help underscore the role of purposeful data exploration for quantitative scientists. Through a question-based approach, xGx helps uncover useful insights that can be revealed without complex modeling and identify aspects of the data that may be explored further. References [1] Margolskee, A., Khanshan, F., Stein, A., Ho, Y., and Looby, M. (2019) Exploratory Graphics (xGx). Pharmacometrics, Novartis Institutes for Biomedical Research, Cambridge. (Available from https//opensource.nibr.com/xgx/) [2] Margolskee, A., Baillie, M., Magnusson, B., Jones, J. and Vandemeulebroecke, M. (2018) Graphics principles cheat sheet. Biostatistical Sciences and Pharmacometrics, Novartis Institutes for Biomedical Research, Cambridge. (Available from https//graphicsprinciples.github.io/)"
+  "description": "At R in Pharma 2018, I gave a workshop and a presentation on analyzing clinical trials data with R. Since then much has happened at Roche/Genentech with regard to analyzing clinical trials data with R our R-based projects got funded in order to extend our R tools and make them production ready. Since then we have created an R developer team that uses the SCRUM framework to work on our R tools. We also have subject-matter expert teams that translate the business knowledge into documentation and R code. Much effort has gone into setting up a CI/CD environment and defining a GitHub workflow that enabled our teams to collaborate efficiently and to keep the code quality high. In this presentation, I will first introduce the team structures, workflows, CI/CD environment and give some updates on the software development side. Finally, I will conclude with a brief update on our discussions around open sourcing and collaboration within the pharma industry and use this opportunity to start a conversation with the audience."
 }
 </script>
 
@@ -420,7 +420,7 @@
 
 
 
-  <title>Exploratory Graphics (xGx): Promoting the purposeful exploration of PKPD data | R/Pharma</title>
+  <title>Updates on Analyzing Clinical Trials Data with R | R/Pharma</title>
 </head>
 
 
@@ -743,7 +743,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Exploratory Graphics (xGx): Promoting the purposeful exploration of PKPD data</h1>
+  <h1>Updates on Analyzing Clinical Trials Data with R</h1>
 
   
 
@@ -761,7 +761,7 @@
     
 
   <span >
-      <a href="/author/alison-margolskee/">Alison Margolskee</a></span>
+      <a href="/author/adrian-waddell/">Adrian Waddell</a></span>
   </div>
   
   
@@ -772,7 +772,7 @@
     
       
     
-    August 2019
+    January 1999
   </span>
   
 
@@ -807,7 +807,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Introduction As pharmacometricians, we sometimes jump into complex modeling before thoroughly exploring our data. This can happen due to tight timelines, lack of ready-to-use graphic tools or enthusiasm for complex models. Exploratory plots can help to uncover useful insights in the data and identify aspects to be explored further through modeling or in future studies. Exploratory plots can even quickly answer questions without the need of a complex model, improving our efficiency and providing timely impact on project strategy. The Exploratory Graphics (xGx) tool is an open-source R-based tool, freely available on GitHub [1]. Intuitively organized by datatype and driven by analysis questions, the tool aims to encourage a question-based approach to data exploration focusing on the key questions relevant to dose-exposure-response analyses. Objectives - Facilitate the purposeful exploration of PKPD data - Encourage a question-based approach to data exploration, focusing on dose-exposure-response relationships - Provide a teaching tool for people new to PKPD analysis Methods PK (single and multiple ascending dose), and PD (continuous, time-to-event, categorical, count, and ordinal) data were simulated and formatted according to a typical PKPD modeling dataset format. Lists of key questions relevant to dose-exposure-response exploration were compiled, and exploratory plots were generated to answer each question. The graphs were created following good graphics principles to ensure quality and consistency in our graphical communications [2]. Results Examples of the key analysis questions include - Provide an overview of the data - What type of data is it (e.g. continuous, binary, categorical)? - How many doses? - What is the range of doses explored? - For PK data, how many potential compartments are observed? - Is the exposure dose-proportional? - Is there evidence of nonlinearity in clearance? - Assess the variability - How large is the between subject variability compared to between dose separation? - Can any of the between subject variability be attributed to any covariates? - Are there any patterns in the within subject variability (e.g. circadian rhythms, seasonal effects, food effects, underlying disease progression)? - Assess the dose/exposure-response relationship - Is there evidence of a correlation between dose/exposure and response? - Is the relationship positive or negative? - Is there a plateau or maximal effect in the observed dose/exposure range? - Is there evidence of a delay between exposure and response? For each datatype in the simulated dataset, plots were generated to answer these key questions. The plots along with the codes to produce them were compiled into a user friendly interface. The tool is intuitively organized by datatype and driven by the analysis questions. Since the graphs were generated based on a typical modeling dataset format and hosted online, they can be easily accessed and applied to new projects. Conclusion Exploratory plots were generated, built around typical key questions particularly relevant to dose-exposure-response exploration and compiled into a user friendly interface. The Exploratory Graphics (xGx) tool can help underscore the role of purposeful data exploration for quantitative scientists. Through a question-based approach, xGx helps uncover useful insights that can be revealed without complex modeling and identify aspects of the data that may be explored further. References [1] Margolskee, A., Khanshan, F., Stein, A., Ho, Y., and Looby, M. (2019) Exploratory Graphics (xGx). Pharmacometrics, Novartis Institutes for Biomedical Research, Cambridge. (Available from https//opensource.nibr.com/xgx/) [2] Margolskee, A., Baillie, M., Magnusson, B., Jones, J. and Vandemeulebroecke, M. (2018) Graphics principles cheat sheet. Biostatistical Sciences and Pharmacometrics, Novartis Institutes for Biomedical Research, Cambridge. (Available from https//graphicsprinciples.github.io/)</p>
+    <p class="pub-abstract">At R in Pharma 2018, I gave a workshop and a presentation on analyzing clinical trials data with R. Since then much has happened at Roche/Genentech with regard to analyzing clinical trials data with R our R-based projects got funded in order to extend our R tools and make them production ready. Since then we have created an R developer team that uses the SCRUM framework to work on our R tools. We also have subject-matter expert teams that translate the business knowledge into documentation and R code. Much effort has gone into setting up a CI/CD environment and defining a GitHub workflow that enabled our teams to collaborate efficiently and to keep the code quality high. In this presentation, I will first introduce the team structures, workflows, CI/CD environment and give some updates on the software development side. Finally, I will conclude with a brief update on our discussions around open sourcing and collaboration within the pharma industry and use this opportunity to start a conversation with the audience.</p>
     
 
     
@@ -854,7 +854,7 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/novartis/">Novartis</a>
+  <a class="badge badge-light" href="/tag/roche-/-genentech/">Roche / Genentech</a>
   
 </div>
 
@@ -871,7 +871,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_76/&amp;text=Exploratory%20Graphics%20%28xGx%29:%20Promoting%20the%20purposeful%20exploration%20of%20PKPD%20data" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_76/&amp;text=Updates%20on%20Analyzing%20Clinical%20Trials%20Data%20with%20R" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -884,7 +884,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_76/&amp;t=Exploratory%20Graphics%20%28xGx%29:%20Promoting%20the%20purposeful%20exploration%20of%20PKPD%20data" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_76/&amp;t=Updates%20on%20Analyzing%20Clinical%20Trials%20Data%20with%20R" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -897,7 +897,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Exploratory%20Graphics%20%28xGx%29:%20Promoting%20the%20purposeful%20exploration%20of%20PKPD%20data&amp;body=/publication/rinpharma_76/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Updates%20on%20Analyzing%20Clinical%20Trials%20Data%20with%20R&amp;body=/publication/rinpharma_76/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -910,7 +910,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_76/&amp;title=Exploratory%20Graphics%20%28xGx%29:%20Promoting%20the%20purposeful%20exploration%20of%20PKPD%20data" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_76/&amp;title=Updates%20on%20Analyzing%20Clinical%20Trials%20Data%20with%20R" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -923,7 +923,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Exploratory%20Graphics%20%28xGx%29:%20Promoting%20the%20purposeful%20exploration%20of%20PKPD%20data%20/publication/rinpharma_76/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Updates%20on%20Analyzing%20Clinical%20Trials%20Data%20with%20R%20/publication/rinpharma_76/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -936,7 +936,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_76/&amp;title=Exploratory%20Graphics%20%28xGx%29:%20Promoting%20the%20purposeful%20exploration%20of%20PKPD%20data" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_76/&amp;title=Updates%20on%20Analyzing%20Clinical%20Trials%20Data%20with%20R" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -983,15 +983,15 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/publication/rinpharma_93/">An R package for Data Science and Deep Visualization of a complex clinical database</a></li>
+      <li><a href="/publication/rinpharma_197/">5 testing packages to make your package better!</a></li>
       
-      <li><a href="/publication/rinpharma_289/">Building Shiny Frameworks: Some Lessons</a></li>
+      <li><a href="/publication/rinpharma_187/">Accelerate Personalized Health Care by Empowering Biomarker Data</a></li>
       
-      <li><a href="/publication/rinpharma_230/">Democratizing Shiny App Development: The Novartis DataPipeline Harmonized Framework</a></li>
+      <li><a href="/publication/rinpharma_169/">Analyzing Clinical Trials Data with R</a></li>
       
-      <li><a href="/publication/rinpharma_267/">How to use a complete JavaScript toolchain in your Shiny development</a></li>
+      <li><a href="/publication/rinpharma_133/">Analyzing Clinical Trials Data with R</a></li>
       
-      <li><a href="/publication/rinpharma_264/">Introduction to {shinyValidator}</a></li>
+      <li><a href="/publication/rinpharma_275/">Assuring SDTM data quality with the sdtmchecks package</a></li>
       
     </ul>
   </div>

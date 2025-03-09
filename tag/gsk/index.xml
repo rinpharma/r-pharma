@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GSK | R/Pharma</title>
+    <link>/tag/gsk/</link>
+      <atom:link href="/tag/gsk/index.xml" rel="self" type="application/rss+xml" />
+    <description>GSK</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Thu, 31 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>GSK</title>
+      <link>/tag/gsk/</link>
+    </image>
+    
+    <item>
+      <title>Accelerating GSK’s Open-Source Journey with Gen AI</title>
+      <link>/publication/rinpharma_464/</link>
+      <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_464/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Breaking down cognitive barriers for new members to your project and your future self</title>
+      <link>/publication/rinpharma_482/</link>
+      <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_482/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building a reproducible workflow using {targets}</title>
+      <link>/publication/rinpharma_485/</link>
+      <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_485/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Christina Fillmore’s Keynote</title>
+      <link>/publication/rinpharma_476/</link>
+      <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_476/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introducing openstatsware: Who we are and what we build together</title>
+      <link>/publication/rinpharma_484/</link>
+      <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_484/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R, Docker and Nextflow – Building the stable Data pipeline</title>
+      <link>/publication/rinpharma_483/</link>
+      <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_483/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimising Team Collaboration with Shiny</title>
+      <link>/publication/rinpharma_436/</link>
+      <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_436/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unlocking Analysis Results Datasets: A Practical Workshop for Creating and Utilizing ARDs for Clinical Reporting</title>
+      <link>/publication/rinpharma_404/</link>
+      <pubDate>Mon, 28 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_404/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Building ADaMs with pharmaverse R packages admiral, metacore/metatools and xportr</title>
+      <link>/publication/rinpharma_399/</link>
+      <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_399/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Comparing Analysis Method Implementations in Software (CAMIS): An open source repository to document differences in statistical methodology across software</title>
+      <link>/publication/rinpharma_367/</link>
+      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_367/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Need for Speed - AccelerateR-ing R Adoption in GSK</title>
+      <link>/publication/rinpharma_364/</link>
+      <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_364/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Everyones Invited: A Case Study on Bridging the Usability Gap</title>
+      <link>/publication/rinpharma_345/</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_345/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Version Control with Git &amp; RStudio – Handy Tips for Use &amp; How to Resolve Common Issues</title>
+      <link>/publication/rinpharma_322/</link>
+      <pubDate>Tue, 17 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_322/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How CI/CD Enhances the Development of R packages in the Pharmaverse</title>
+      <link>/publication/rinpharma_309/</link>
+      <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_309/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Why do I spend all my life formatting tables?!</title>
+      <link>/publication/rinpharma_277/</link>
+      <pubDate>Tue, 08 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_277/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An intro to CI/CD for R packages</title>
+      <link>/publication/rinpharma_269/</link>
+      <pubDate>Fri, 04 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_269/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Clinical Reporting in R (2 day workshop - Oct 31, Nov 1)</title>
+      <link>/publication/rinpharma_260/</link>
+      <pubDate>Mon, 31 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_260/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Closing the Gap: Creating an End to End R Package Toolkit for the Clinical Reporting Pipeline</title>
+      <link>/publication/rinpharma_226/</link>
+      <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_226/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R Consortium Pharma Working Groups Overview and Updates</title>
+      <link>/publication/rinpharma_223/</link>
+      <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_223/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introducing {admiral}—The ADaM in R Asset Library</title>
+      <link>/publication/rinpharma_207/</link>
+      <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_207/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

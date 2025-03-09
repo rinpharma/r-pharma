@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yuichi Nakajima | R/Pharma</title>
+    <link>/author/yuichi-nakajima/</link>
+      <atom:link href="/author/yuichi-nakajima/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yuichi Nakajima</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Thu, 31 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>Yuichi Nakajima</title>
+      <link>/author/yuichi-nakajima/</link>
+    </image>
+    
+    <item>
+      <title>Breaking down cognitive barriers for new members to your project and your future self</title>
+      <link>/publication/rinpharma_482/</link>
+      <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_482/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building a reproducible workflow using {targets}</title>
+      <link>/publication/rinpharma_485/</link>
+      <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_485/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introducing openstatsware: Who we are and what we build together</title>
+      <link>/publication/rinpharma_484/</link>
+      <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_484/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R, Docker and Nextflow – Building the stable Data pipeline</title>
+      <link>/publication/rinpharma_483/</link>
+      <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_483/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

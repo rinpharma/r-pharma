@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ari Siggaard Knoph | R/Pharma</title>
+    <link>/author/ari-siggaard-knoph/</link>
+      <atom:link href="/author/ari-siggaard-knoph/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ari Siggaard Knoph</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Thu, 31 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>Ari Siggaard Knoph</title>
+      <link>/author/ari-siggaard-knoph/</link>
+    </image>
+    
+    <item>
+      <title>Our R-Based Submissions: A 1-year follow-up, Lessons Learned, and Future Strategies</title>
+      <link>/publication/rinpharma_461/</link>
+      <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_461/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

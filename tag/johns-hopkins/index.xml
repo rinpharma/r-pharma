@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Johns Hopkins | R/Pharma</title>
+    <link>/tag/johns-hopkins/</link>
+      <atom:link href="/tag/johns-hopkins/index.xml" rel="self" type="application/rss+xml" />
+    <description>Johns Hopkins</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Thu, 15 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>Johns Hopkins</title>
+      <link>/tag/johns-hopkins/</link>
+    </image>
+    
+    <item>
+      <title>r2rtf - a Lightweight R Package to Produce Tables and Figures in RTF Format</title>
+      <link>/publication/rinpharma_181/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_181/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

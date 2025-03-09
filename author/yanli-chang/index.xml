@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yanli Chang | R/Pharma</title>
+    <link>/author/yanli-chang/</link>
+      <atom:link href="/author/yanli-chang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yanli Chang</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Wed, 30 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>Yanli Chang</title>
+      <link>/author/yanli-chang/</link>
+    </image>
+    
+    <item>
+      <title>China: new region, new topics, new perspectives and new heights</title>
+      <link>/publication/rinpharma_447/</link>
+      <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_447/</guid>
+      <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Introduction to R Implementation and Educational Initiatives for SAS Programmers</title>
+      <link>/publication/rinpharma_445/</link>
+      <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_445/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

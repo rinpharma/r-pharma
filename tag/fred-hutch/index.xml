@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fred Hutch | R/Pharma</title>
+    <link>/tag/fred-hutch/</link>
+      <atom:link href="/tag/fred-hutch/index.xml" rel="self" type="application/rss+xml" />
+    <description>Fred Hutch</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Fri, 05 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>Fred Hutch</title>
+      <link>/tag/fred-hutch/</link>
+    </image>
+    
+    <item>
+      <title>R Package Validation Framework</title>
+      <link>/publication/rinpharma_249/</link>
+      <pubDate>Fri, 05 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_249/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using {valtools} for software validation separate from development</title>
+      <link>/publication/rinpharma_234/</link>
+      <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_234/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Validation Framework for Assay Processing Pipelines</title>
+      <link>/publication/rinpharma_123/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_123/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

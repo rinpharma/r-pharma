@@ -33,7 +33,7 @@
   
     
   
-  <meta name="description" content="R has become a prominent data science tool, empowered by a fast-growing modern R eco-system. At Novartis, Shiny and markdown have gained a lot of popularity in analyzing, visualizing and reporting of clinical trial data. Traditional report analysis plan (RAP) process was designed to create static table, figure and listings. In this talk, I will use ShinyRAP (a shiny app) to illustrate a novel framework/workflow of planning and executing of both pre-specified and ad-hoc analyses, as well as building dynamic/interactive reports through R/Shiny/Markdown. The app features efficient and organized programming through meta-data and shiny modules, and dynamic display of results via multi-select, grouping and searching, etc. Although motivated from a clinical trial data context, this framework can also be used for other types of data." />
+  <meta name="description" content="Cohort studies of treatments developed from healthcare claims often have hundreds of thousands of patients and up to several thousand measured covariates. Therefore, new causal inference methods that combine ideas from machine learning and causal inference may improve analysis of these studies by taking advantage of the wealth of information measured in claims. In order to evaluate the performance of these methods as applied to claims-based studies, we use a combination of real data examples and plasmode simulation, implemented in R package ‘plasmode’, which creates realistic simulated datasets based on a real cohort study. In this talk, I will give an overview of our progress so far and what is left to be done." />
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/rinpharma_23/" />
@@ -322,8 +322,8 @@
   
   <meta property="og:site_name" content="R/Pharma" />
   <meta property="og:url" content="/publication/rinpharma_23/" />
-  <meta property="og:title" content="ShinyRAP - a framework for analysis and building interactive/dynamic reports using Shiny/Markdown | R/Pharma" />
-  <meta property="og:description" content="R has become a prominent data science tool, empowered by a fast-growing modern R eco-system. At Novartis, Shiny and markdown have gained a lot of popularity in analyzing, visualizing and reporting of clinical trial data. Traditional report analysis plan (RAP) process was designed to create static table, figure and listings. In this talk, I will use ShinyRAP (a shiny app) to illustrate a novel framework/workflow of planning and executing of both pre-specified and ad-hoc analyses, as well as building dynamic/interactive reports through R/Shiny/Markdown. The app features efficient and organized programming through meta-data and shiny modules, and dynamic display of results via multi-select, grouping and searching, etc. Although motivated from a clinical trial data context, this framework can also be used for other types of data." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
+  <meta property="og:title" content="Evaluating the performance of advanced causal inference methods applied to healthcare claims data | R/Pharma" />
+  <meta property="og:description" content="Cohort studies of treatments developed from healthcare claims often have hundreds of thousands of patients and up to several thousand measured covariates. Therefore, new causal inference methods that combine ideas from machine learning and causal inference may improve analysis of these studies by taking advantage of the wealth of information measured in claims. In order to evaluate the performance of these methods as applied to claims-based studies, we use a combination of real data examples and plasmode simulation, implemented in R package ‘plasmode’, which creates realistic simulated datasets based on a real cohort study. In this talk, I will give an overview of our progress so far and what is left to be done." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
     <meta property="twitter:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -356,14 +356,14 @@
     "@type": "WebPage",
     "@id": "/publication/rinpharma_23/"
   },
-  "headline": "ShinyRAP - a framework for analysis and building interactive/dynamic reports using Shiny/Markdown",
+  "headline": "Evaluating the performance of advanced causal inference methods applied to healthcare claims data",
   
   "datePublished": "1999-01-01T00:00:00Z",
   "dateModified": "2018-08-15T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Xiao Ni"
+    "name": "Jessica Myers Franklin"
   },
   
   "publisher": {
@@ -374,7 +374,7 @@
       "url": "/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_192x192_fit_lanczos_2.png"
     }
   },
-  "description": "R has become a prominent data science tool, empowered by a fast-growing modern R eco-system. At Novartis, Shiny and markdown have gained a lot of popularity in analyzing, visualizing and reporting of clinical trial data. Traditional report analysis plan (RAP) process was designed to create static table, figure and listings. In this talk, I will use ShinyRAP (a shiny app) to illustrate a novel framework/workflow of planning and executing of both pre-specified and ad-hoc analyses, as well as building dynamic/interactive reports through R/Shiny/Markdown. The app features efficient and organized programming through meta-data and shiny modules, and dynamic display of results via multi-select, grouping and searching, etc. Although motivated from a clinical trial data context, this framework can also be used for other types of data."
+  "description": "Cohort studies of treatments developed from healthcare claims often have hundreds of thousands of patients and up to several thousand measured covariates. Therefore, new causal inference methods that combine ideas from machine learning and causal inference may improve analysis of these studies by taking advantage of the wealth of information measured in claims. In order to evaluate the performance of these methods as applied to claims-based studies, we use a combination of real data examples and plasmode simulation, implemented in R package ‘plasmode’, which creates realistic simulated datasets based on a real cohort study. In this talk, I will give an overview of our progress so far and what is left to be done."
 }
 </script>
 
@@ -420,7 +420,7 @@
 
 
 
-  <title>ShinyRAP - a framework for analysis and building interactive/dynamic reports using Shiny/Markdown | R/Pharma</title>
+  <title>Evaluating the performance of advanced causal inference methods applied to healthcare claims data | R/Pharma</title>
 </head>
 
 
@@ -743,7 +743,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>ShinyRAP - a framework for analysis and building interactive/dynamic reports using Shiny/Markdown</h1>
+  <h1>Evaluating the performance of advanced causal inference methods applied to healthcare claims data</h1>
 
   
 
@@ -761,7 +761,7 @@
     
 
   <span >
-      <a href="/author/xiao-ni/">Xiao Ni</a></span>
+      <a href="/author/jessica-myers-franklin/">Jessica Myers Franklin</a></span>
   </div>
   
   
@@ -807,7 +807,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">R has become a prominent data science tool, empowered by a fast-growing modern R eco-system. At Novartis, Shiny and markdown have gained a lot of popularity in analyzing, visualizing and reporting of clinical trial data. Traditional report analysis plan (RAP) process was designed to create static table, figure and listings. In this talk, I will use ShinyRAP (a shiny app) to illustrate a novel framework/workflow of planning and executing of both pre-specified and ad-hoc analyses, as well as building dynamic/interactive reports through R/Shiny/Markdown. The app features efficient and organized programming through meta-data and shiny modules, and dynamic display of results via multi-select, grouping and searching, etc. Although motivated from a clinical trial data context, this framework can also be used for other types of data.</p>
+    <p class="pub-abstract">Cohort studies of treatments developed from healthcare claims often have hundreds of thousands of patients and up to several thousand measured covariates. Therefore, new causal inference methods that combine ideas from machine learning and causal inference may improve analysis of these studies by taking advantage of the wealth of information measured in claims. In order to evaluate the performance of these methods as applied to claims-based studies, we use a combination of real data examples and plasmode simulation, implemented in R package ‘plasmode’, which creates realistic simulated datasets based on a real cohort study. In this talk, I will give an overview of our progress so far and what is left to be done.</p>
     
 
     
@@ -854,7 +854,7 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/novartis/">Novartis</a>
+  <a class="badge badge-light" href="/tag/harvard-university/">Harvard University</a>
   
 </div>
 
@@ -871,7 +871,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_23/&amp;text=ShinyRAP%20-%20a%20framework%20for%20analysis%20and%20building%20interactive/dynamic%20reports%20using%20Shiny/Markdown" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_23/&amp;text=Evaluating%20the%20performance%20of%20advanced%20causal%20inference%20methods%20applied%20to%20healthcare%20claims%20data" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -884,7 +884,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_23/&amp;t=ShinyRAP%20-%20a%20framework%20for%20analysis%20and%20building%20interactive/dynamic%20reports%20using%20Shiny/Markdown" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_23/&amp;t=Evaluating%20the%20performance%20of%20advanced%20causal%20inference%20methods%20applied%20to%20healthcare%20claims%20data" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -897,7 +897,7 @@
       
       
       <li>
-        <a href="mailto:?subject=ShinyRAP%20-%20a%20framework%20for%20analysis%20and%20building%20interactive/dynamic%20reports%20using%20Shiny/Markdown&amp;body=/publication/rinpharma_23/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Evaluating%20the%20performance%20of%20advanced%20causal%20inference%20methods%20applied%20to%20healthcare%20claims%20data&amp;body=/publication/rinpharma_23/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -910,7 +910,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_23/&amp;title=ShinyRAP%20-%20a%20framework%20for%20analysis%20and%20building%20interactive/dynamic%20reports%20using%20Shiny/Markdown" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_23/&amp;title=Evaluating%20the%20performance%20of%20advanced%20causal%20inference%20methods%20applied%20to%20healthcare%20claims%20data" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -923,7 +923,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=ShinyRAP%20-%20a%20framework%20for%20analysis%20and%20building%20interactive/dynamic%20reports%20using%20Shiny/Markdown%20/publication/rinpharma_23/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Evaluating%20the%20performance%20of%20advanced%20causal%20inference%20methods%20applied%20to%20healthcare%20claims%20data%20/publication/rinpharma_23/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -936,7 +936,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_23/&amp;title=ShinyRAP%20-%20a%20framework%20for%20analysis%20and%20building%20interactive/dynamic%20reports%20using%20Shiny/Markdown" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_23/&amp;title=Evaluating%20the%20performance%20of%20advanced%20causal%20inference%20methods%20applied%20to%20healthcare%20claims%20data" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -983,15 +983,9 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/publication/rinpharma_93/">An R package for Data Science and Deep Visualization of a complex clinical database</a></li>
+      <li><a href="/publication/rinpharma_179/">Automated Data-Adaptive Analytics to Improve Robustness of Confounding Control when Estimating Treatment Effects in Electronic Healthcare Databases</a></li>
       
-      <li><a href="/publication/rinpharma_298/">Building Shiny Frameworks: Some Lessons</a></li>
-      
-      <li><a href="/publication/rinpharma_447/">China: new region, new topics, new perspectives and new heights</a></li>
-      
-      <li><a href="/publication/rinpharma_230/">Democratizing Shiny App Development: The Novartis DataPipeline Harmonized Framework</a></li>
-      
-      <li><a href="/publication/rinpharma_454/">Enhancing Late-Stage Process Development with R</a></li>
+      <li><a href="/publication/rinpharma_107/">Evaluating the performance of advanced causal inference methods applied to healthcare claims data</a></li>
       
     </ul>
   </div>

@@ -14,22 +14,6 @@
     
     <item>
       <title>PCA in R: A CAMIS Working Group Initiative in Pharma</title>
-      <link>/publication/rinpharma_500/</link>
-      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_500/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R(omeo) and Julia - A Love Story by openstatsware</title>
-      <link>/publication/rinpharma_499/</link>
-      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_499/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The R Shiny app TNfinder for tumor-normal expression analysis</title>
       <link>/publication/rinpharma_498/</link>
       <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
       <guid>/publication/rinpharma_498/</guid>
@@ -37,26 +21,42 @@
     </item>
     
     <item>
+      <title>R(omeo) and Julia - A Love Story by openstatsware</title>
+      <link>/publication/rinpharma_497/</link>
+      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_497/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The R Shiny app TNfinder for tumor-normal expression analysis</title>
+      <link>/publication/rinpharma_495/</link>
+      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_495/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Exploring Shiny for Quality Compliance Checks of Clinical Programming Deliverables</title>
-      <link>/publication/rinpharma_479/</link>
+      <link>/publication/rinpharma_462/</link>
       <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_479/</guid>
+      <guid>/publication/rinpharma_462/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Transforming EDC Data into Practical Insights: The Power of a One-Click R-Shiny App</title>
-      <link>/publication/rinpharma_481/</link>
+      <link>/publication/rinpharma_464/</link>
       <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_481/</guid>
+      <guid>/publication/rinpharma_464/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Using Shiny to Clearly Present Clinical Results with CDISC-Compliant Dataset</title>
-      <link>/publication/rinpharma_478/</link>
+      <link>/publication/rinpharma_461/</link>
       <pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_478/</guid>
+      <guid>/publication/rinpharma_461/</guid>
       <description></description>
     </item>
     

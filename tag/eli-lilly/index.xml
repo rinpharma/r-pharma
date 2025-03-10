@@ -14,26 +14,26 @@
     
     <item>
       <title>Bayesian Dose-Response Modeling with the dreamer R Package</title>
-      <link>/publication/rinpharma_405/</link>
+      <link>/publication/rinpharma_407/</link>
       <pubDate>Mon, 28 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_405/</guid>
+      <guid>/publication/rinpharma_407/</guid>
       <description>&lt;p&gt;Unfortunately we do not currently have an abstract, copy of the slides or link to the video to this presentation&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Leveraging ChatGPT in Statistical Programming in the Pharmaceutical Industry</title>
-      <link>/publication/rinpharma_391/</link>
+      <link>/publication/rinpharma_393/</link>
       <pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_391/</guid>
+      <guid>/publication/rinpharma_393/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Pivotal Year of R Pilots for Shiny Application Submissions to the FDA / Celebrating a Milestone: R Tables for Regulatory Submission Working Group s eBook on Clinical Data Table Generation</title>
-      <link>/publication/rinpharma_372/</link>
+      <link>/publication/rinpharma_371/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_372/</guid>
+      <guid>/publication/rinpharma_371/</guid>
       <description></description>
     </item>
     
@@ -47,25 +47,25 @@
     
     <item>
       <title>Building Production-Quality Shiny Applications</title>
-      <link>/publication/rinpharma_265/</link>
+      <link>/publication/rinpharma_266/</link>
       <pubDate>Thu, 03 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_265/</guid>
+      <guid>/publication/rinpharma_266/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The New Roads Leading to Shiny Nirvana</title>
-      <link>/publication/rinpharma_240/</link>
+      <link>/publication/rinpharma_238/</link>
       <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_240/</guid>
+      <guid>/publication/rinpharma_238/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Reproducible computation at scale in R with targets</title>
-      <link>/publication/rinpharma_178/</link>
+      <link>/publication/rinpharma_176/</link>
       <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_178/</guid>
+      <guid>/publication/rinpharma_176/</guid>
       <description></description>
     </item>
     
@@ -79,9 +79,9 @@
     
     <item>
       <title>Creating and reviving Shiny apps with golem</title>
-      <link>/publication/rinpharma_72/</link>
+      <link>/publication/rinpharma_75/</link>
       <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_72/</guid>
+      <guid>/publication/rinpharma_75/</guid>
       <description></description>
     </item>
     
@@ -95,25 +95,25 @@
     
     <item>
       <title>Machine learning workflow management with drake</title>
-      <link>/publication/rinpharma_60/</link>
+      <link>/publication/rinpharma_63/</link>
       <pubDate>Tue, 20 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_60/</guid>
+      <guid>/publication/rinpharma_63/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Developing powerful Shiny applications in an enterprise environment: Best practices and lessons learned</title>
-      <link>/publication/rinpharma_41/</link>
+      <link>/publication/rinpharma_34/</link>
       <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_41/</guid>
+      <guid>/publication/rinpharma_34/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The drake R package: reproducible data analysis at scale</title>
-      <link>/publication/rinpharma_38/</link>
+      <link>/publication/rinpharma_44/</link>
       <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_38/</guid>
+      <guid>/publication/rinpharma_44/</guid>
       <description></description>
     </item>
     

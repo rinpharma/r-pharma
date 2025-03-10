@@ -33,7 +33,7 @@
   
     
   
-  <meta name="description" content="Precision medicine typically refers to the development of drugs and other interventions for individual patients. But how do you assess efficacy and make predictions in this extreme small data regime? The Bayesian framework is ideal for this type of inference as it allows us to combine population and personal effects in a principled way and make predictions for both groups and individuals. The inferences are further improved when we introduce mechanistically inspired components into the modeling framework. I’ll talk about building pharma models in the small data regime and how we use Stan (a statistical modeling language for Bayesian inference) with R for analysis." />
+  <meta name="description" content="In 3 years Real World Data Science Analytics in Roche/Genentech transitioned from a small team of former clinical trial programmers supporting a real world evidence team to become the largest department within the Personalised Healthcare (PHC) Centre of Excellence. This transition was driven by industry-wide acknowledgement of the growing importance of leveraging analytics to support PHC, but this change necessitated radical changes in workflows and competencies. To adapt to this change, the team has moved from using a single proprietary software (SAS) to becoming an open source-focused, R based but increasingly programming language agnostic, department. A core driver of this transition was the development of an internal suite of R packages that handled markdown templates and database access through to wrappers for common plots and documenting git hashes of all code used. Bringing this diverse set of tools into a coherent eco-system is a meta-package modelled on the tidyverse." />
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/rinpharma_47/" />
@@ -322,8 +322,8 @@
   
   <meta property="og:site_name" content="R/Pharma" />
   <meta property="og:url" content="/publication/rinpharma_47/" />
-  <meta property="og:title" content="Bayesian Models for Smaller Trial Sizes | R/Pharma" />
-  <meta property="og:description" content="Precision medicine typically refers to the development of drugs and other interventions for individual patients. But how do you assess efficacy and make predictions in this extreme small data regime? The Bayesian framework is ideal for this type of inference as it allows us to combine population and personal effects in a principled way and make predictions for both groups and individuals. The inferences are further improved when we introduce mechanistically inspired components into the modeling framework. I’ll talk about building pharma models in the small data regime and how we use Stan (a statistical modeling language for Bayesian inference) with R for analysis." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
+  <meta property="og:title" content="The role of R in converting clinical trial programmers to data scientists | R/Pharma" />
+  <meta property="og:description" content="In 3 years Real World Data Science Analytics in Roche/Genentech transitioned from a small team of former clinical trial programmers supporting a real world evidence team to become the largest department within the Personalised Healthcare (PHC) Centre of Excellence. This transition was driven by industry-wide acknowledgement of the growing importance of leveraging analytics to support PHC, but this change necessitated radical changes in workflows and competencies. To adapt to this change, the team has moved from using a single proprietary software (SAS) to becoming an open source-focused, R based but increasingly programming language agnostic, department. A core driver of this transition was the development of an internal suite of R packages that handled markdown templates and database access through to wrappers for common plots and documenting git hashes of all code used. Bringing this diverse set of tools into a coherent eco-system is a meta-package modelled on the tidyverse." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
     <meta property="twitter:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -356,14 +356,14 @@
     "@type": "WebPage",
     "@id": "/publication/rinpharma_47/"
   },
-  "headline": "Bayesian Models for Smaller Trial Sizes",
+  "headline": "The role of R in converting clinical trial programmers to data scientists",
   
   "datePublished": "1999-01-01T00:00:00Z",
   "dateModified": "2018-08-16T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Daniel Lee"
+    "name": "James Black"
   },
   
   "publisher": {
@@ -374,7 +374,7 @@
       "url": "/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_192x192_fit_lanczos_2.png"
     }
   },
-  "description": "Precision medicine typically refers to the development of drugs and other interventions for individual patients. But how do you assess efficacy and make predictions in this extreme small data regime? The Bayesian framework is ideal for this type of inference as it allows us to combine population and personal effects in a principled way and make predictions for both groups and individuals. The inferences are further improved when we introduce mechanistically inspired components into the modeling framework. I’ll talk about building pharma models in the small data regime and how we use Stan (a statistical modeling language for Bayesian inference) with R for analysis."
+  "description": "In 3 years Real World Data Science Analytics in Roche/Genentech transitioned from a small team of former clinical trial programmers supporting a real world evidence team to become the largest department within the Personalised Healthcare (PHC) Centre of Excellence. This transition was driven by industry-wide acknowledgement of the growing importance of leveraging analytics to support PHC, but this change necessitated radical changes in workflows and competencies. To adapt to this change, the team has moved from using a single proprietary software (SAS) to becoming an open source-focused, R based but increasingly programming language agnostic, department. A core driver of this transition was the development of an internal suite of R packages that handled markdown templates and database access through to wrappers for common plots and documenting git hashes of all code used. Bringing this diverse set of tools into a coherent eco-system is a meta-package modelled on the tidyverse."
 }
 </script>
 
@@ -420,7 +420,7 @@
 
 
 
-  <title>Bayesian Models for Smaller Trial Sizes | R/Pharma</title>
+  <title>The role of R in converting clinical trial programmers to data scientists | R/Pharma</title>
 </head>
 
 
@@ -743,7 +743,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Bayesian Models for Smaller Trial Sizes</h1>
+  <h1>The role of R in converting clinical trial programmers to data scientists</h1>
 
   
 
@@ -761,7 +761,7 @@
     
 
   <span >
-      <a href="/author/daniel-lee/">Daniel Lee</a></span>
+      <a href="/author/james-black/">James Black</a></span>
   </div>
   
   
@@ -826,11 +826,19 @@
   
     
   
-<a class="btn btn-outline-primary btn-page-header" href="https://github.com/rinpharma/2018_presentations/blob/master/talks_folder/2018-Lee-Bayesian_models_for_smaller_trial_sizes.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://epijim.uk/slides/2019_rstudio/" target="_blank" rel="noopener">
   Slides
 </a>
 
 
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="https://rstudio.com/resources/webinars/the-role-of-r-in-drug-discovery-research-and-development/" target="_blank" rel="noopener">
+  Video
+</a>
 
 
 
@@ -848,7 +856,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Precision medicine typically refers to the development of drugs and other interventions for individual patients. But how do you assess efficacy and make predictions in this extreme small data regime? The Bayesian framework is ideal for this type of inference as it allows us to combine population and personal effects in a principled way and make predictions for both groups and individuals. The inferences are further improved when we introduce mechanistically inspired components into the modeling framework. I’ll talk about building pharma models in the small data regime and how we use Stan (a statistical modeling language for Bayesian inference) with R for analysis.</p>
+    <p class="pub-abstract">In 3 years Real World Data Science Analytics in Roche/Genentech transitioned from a small team of former clinical trial programmers supporting a real world evidence team to become the largest department within the Personalised Healthcare (PHC) Centre of Excellence. This transition was driven by industry-wide acknowledgement of the growing importance of leveraging analytics to support PHC, but this change necessitated radical changes in workflows and competencies. To adapt to this change, the team has moved from using a single proprietary software (SAS) to becoming an open source-focused, R based but increasingly programming language agnostic, department. A core driver of this transition was the development of an internal suite of R packages that handled markdown templates and database access through to wrappers for common plots and documenting git hashes of all code used. Bringing this diverse set of tools into a coherent eco-system is a meta-package modelled on the tidyverse.</p>
     
 
     
@@ -895,7 +903,7 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/generable/">Generable</a>
+  <a class="badge badge-light" href="/tag/roche-/-genentech/">Roche / Genentech</a>
   
 </div>
 
@@ -912,7 +920,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_47/&amp;text=Bayesian%20Models%20for%20Smaller%20Trial%20Sizes" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_47/&amp;text=The%20role%20of%20R%20in%20converting%20clinical%20trial%20programmers%20to%20data%20scientists" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -925,7 +933,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_47/&amp;t=Bayesian%20Models%20for%20Smaller%20Trial%20Sizes" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_47/&amp;t=The%20role%20of%20R%20in%20converting%20clinical%20trial%20programmers%20to%20data%20scientists" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -938,7 +946,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Bayesian%20Models%20for%20Smaller%20Trial%20Sizes&amp;body=/publication/rinpharma_47/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=The%20role%20of%20R%20in%20converting%20clinical%20trial%20programmers%20to%20data%20scientists&amp;body=/publication/rinpharma_47/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -951,7 +959,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_47/&amp;title=Bayesian%20Models%20for%20Smaller%20Trial%20Sizes" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_47/&amp;title=The%20role%20of%20R%20in%20converting%20clinical%20trial%20programmers%20to%20data%20scientists" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -964,7 +972,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Bayesian%20Models%20for%20Smaller%20Trial%20Sizes%20/publication/rinpharma_47/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=The%20role%20of%20R%20in%20converting%20clinical%20trial%20programmers%20to%20data%20scientists%20/publication/rinpharma_47/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -977,7 +985,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_47/&amp;title=Bayesian%20Models%20for%20Smaller%20Trial%20Sizes" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_47/&amp;title=The%20role%20of%20R%20in%20converting%20clinical%20trial%20programmers%20to%20data%20scientists" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1024,11 +1032,15 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/publication/rinpharma_130/">Stan</a></li>
+      <li><a href="/publication/rinpharma_209/">5 testing packages to make your package better!</a></li>
       
-      <li><a href="/publication/rinpharma_4/">Stan for Pharma</a></li>
+      <li><a href="/publication/rinpharma_48/">Accelerate Personalized Health Care by Empowering Biomarker Data</a></li>
       
-      <li><a href="/publication/rinpharma_190/">Stan: Building a survival model from scratch</a></li>
+      <li><a href="/publication/rinpharma_37/">Analyzing Clinical Trials Data with R</a></li>
+      
+      <li><a href="/publication/rinpharma_2/">Analyzing Clinical Trials Data with R</a></li>
+      
+      <li><a href="/publication/rinpharma_297/">Assuring SDTM data quality with the sdtmchecks package</a></li>
       
     </ul>
   </div>

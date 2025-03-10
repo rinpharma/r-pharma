@@ -33,7 +33,7 @@
   
     
   
-  <meta name="description" content="Cohort studies of treatments developed from healthcare claims often have hundreds of thousands of patients and up to several thousand measured covariates. Therefore, new causal inference methods that combine ideas from machine learning and causal inference may improve analysis of these studies by taking advantage of the wealth of information measured in claims. In order to evaluate the performance of these methods as applied to claims-based studies, we use a combination of real data examples and plasmode simulation, implemented in R package ‘plasmode’, which creates realistic simulated datasets based on a real cohort study. In this talk, I will give an overview of our progress so far and what is left to be done." />
+  <meta name="description" content="REAP (R-Shiny Exploratory Analysis Platform) was developed by the Modeling and Simulation group within the Clinical Pharmacology department at Genentech, Inc., to support exploratory analyses of clinical data. REAP is a web-based, user-friendly, tool providing standard methods and outputs for conducting typical analyses within a clinical pharmacology group. With REAP, a clinical pharmacologist or pharmacometrician can perform Exposure-Response, dose linearity, and concentration-corrected QT analyses, PKPD simulations, NONMEM data quality checks, and PK graphic analyses without writing code. Results can be used to enhance scientific understanding of the relationship between exposure, response, and the PK characteristics of the molecule. In this talk, I will demonstrate how REAP can be used to perform dose linearity and Exposure-Response analyses." />
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/rinpharma_25/" />
@@ -322,8 +322,8 @@
   
   <meta property="og:site_name" content="R/Pharma" />
   <meta property="og:url" content="/publication/rinpharma_25/" />
-  <meta property="og:title" content="Evaluating the performance of advanced causal inference methods applied to healthcare claims data | R/Pharma" />
-  <meta property="og:description" content="Cohort studies of treatments developed from healthcare claims often have hundreds of thousands of patients and up to several thousand measured covariates. Therefore, new causal inference methods that combine ideas from machine learning and causal inference may improve analysis of these studies by taking advantage of the wealth of information measured in claims. In order to evaluate the performance of these methods as applied to claims-based studies, we use a combination of real data examples and plasmode simulation, implemented in R package ‘plasmode’, which creates realistic simulated datasets based on a real cohort study. In this talk, I will give an overview of our progress so far and what is left to be done." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
+  <meta property="og:title" content="REAP - R-Shiny Exploratory Analysis Platform in Clinical Pharmacology | R/Pharma" />
+  <meta property="og:description" content="REAP (R-Shiny Exploratory Analysis Platform) was developed by the Modeling and Simulation group within the Clinical Pharmacology department at Genentech, Inc., to support exploratory analyses of clinical data. REAP is a web-based, user-friendly, tool providing standard methods and outputs for conducting typical analyses within a clinical pharmacology group. With REAP, a clinical pharmacologist or pharmacometrician can perform Exposure-Response, dose linearity, and concentration-corrected QT analyses, PKPD simulations, NONMEM data quality checks, and PK graphic analyses without writing code. Results can be used to enhance scientific understanding of the relationship between exposure, response, and the PK characteristics of the molecule. In this talk, I will demonstrate how REAP can be used to perform dose linearity and Exposure-Response analyses." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
     <meta property="twitter:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -356,14 +356,14 @@
     "@type": "WebPage",
     "@id": "/publication/rinpharma_25/"
   },
-  "headline": "Evaluating the performance of advanced causal inference methods applied to healthcare claims data",
+  "headline": "REAP - R-Shiny Exploratory Analysis Platform in Clinical Pharmacology",
   
   "datePublished": "1999-01-01T00:00:00Z",
   "dateModified": "2018-08-15T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Jessica Myers Franklin"
+    "name": "Qi Liu"
   },
   
   "publisher": {
@@ -374,7 +374,7 @@
       "url": "/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_192x192_fit_lanczos_2.png"
     }
   },
-  "description": "Cohort studies of treatments developed from healthcare claims often have hundreds of thousands of patients and up to several thousand measured covariates. Therefore, new causal inference methods that combine ideas from machine learning and causal inference may improve analysis of these studies by taking advantage of the wealth of information measured in claims. In order to evaluate the performance of these methods as applied to claims-based studies, we use a combination of real data examples and plasmode simulation, implemented in R package ‘plasmode’, which creates realistic simulated datasets based on a real cohort study. In this talk, I will give an overview of our progress so far and what is left to be done."
+  "description": "REAP (R-Shiny Exploratory Analysis Platform) was developed by the Modeling and Simulation group within the Clinical Pharmacology department at Genentech, Inc., to support exploratory analyses of clinical data. REAP is a web-based, user-friendly, tool providing standard methods and outputs for conducting typical analyses within a clinical pharmacology group. With REAP, a clinical pharmacologist or pharmacometrician can perform Exposure-Response, dose linearity, and concentration-corrected QT analyses, PKPD simulations, NONMEM data quality checks, and PK graphic analyses without writing code. Results can be used to enhance scientific understanding of the relationship between exposure, response, and the PK characteristics of the molecule. In this talk, I will demonstrate how REAP can be used to perform dose linearity and Exposure-Response analyses."
 }
 </script>
 
@@ -420,7 +420,7 @@
 
 
 
-  <title>Evaluating the performance of advanced causal inference methods applied to healthcare claims data | R/Pharma</title>
+  <title>REAP - R-Shiny Exploratory Analysis Platform in Clinical Pharmacology | R/Pharma</title>
 </head>
 
 
@@ -743,7 +743,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Evaluating the performance of advanced causal inference methods applied to healthcare claims data</h1>
+  <h1>REAP - R-Shiny Exploratory Analysis Platform in Clinical Pharmacology</h1>
 
   
 
@@ -761,7 +761,7 @@
     
 
   <span >
-      <a href="/author/jessica-myers-franklin/">Jessica Myers Franklin</a></span>
+      <a href="/author/qi-liu/">Qi Liu</a></span>
   </div>
   
   
@@ -797,6 +797,47 @@
 
 
 
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="https://github.com/rinpharma/2018_presentations/blob/master/talks_folder/2018-Li-Synthetic_Route_Design_and_Operational_Modeling.pptx" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+
+
+
+
+</div>
+
 
   
 </div>
@@ -807,7 +848,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Cohort studies of treatments developed from healthcare claims often have hundreds of thousands of patients and up to several thousand measured covariates. Therefore, new causal inference methods that combine ideas from machine learning and causal inference may improve analysis of these studies by taking advantage of the wealth of information measured in claims. In order to evaluate the performance of these methods as applied to claims-based studies, we use a combination of real data examples and plasmode simulation, implemented in R package ‘plasmode’, which creates realistic simulated datasets based on a real cohort study. In this talk, I will give an overview of our progress so far and what is left to be done.</p>
+    <p class="pub-abstract">REAP (R-Shiny Exploratory Analysis Platform) was developed by the Modeling and Simulation group within the Clinical Pharmacology department at Genentech, Inc., to support exploratory analyses of clinical data. REAP is a web-based, user-friendly, tool providing standard methods and outputs for conducting typical analyses within a clinical pharmacology group. With REAP, a clinical pharmacologist or pharmacometrician can perform Exposure-Response, dose linearity, and concentration-corrected QT analyses, PKPD simulations, NONMEM data quality checks, and PK graphic analyses without writing code. Results can be used to enhance scientific understanding of the relationship between exposure, response, and the PK characteristics of the molecule. In this talk, I will demonstrate how REAP can be used to perform dose linearity and Exposure-Response analyses.</p>
     
 
     
@@ -854,7 +895,7 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/harvard-university/">Harvard University</a>
+  <a class="badge badge-light" href="/tag/roche-/-genentech/">Roche / Genentech</a>
   
 </div>
 
@@ -871,7 +912,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_25/&amp;text=Evaluating%20the%20performance%20of%20advanced%20causal%20inference%20methods%20applied%20to%20healthcare%20claims%20data" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_25/&amp;text=REAP%20-%20R-Shiny%20Exploratory%20Analysis%20Platform%20in%20Clinical%20Pharmacology" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -884,7 +925,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_25/&amp;t=Evaluating%20the%20performance%20of%20advanced%20causal%20inference%20methods%20applied%20to%20healthcare%20claims%20data" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_25/&amp;t=REAP%20-%20R-Shiny%20Exploratory%20Analysis%20Platform%20in%20Clinical%20Pharmacology" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -897,7 +938,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Evaluating%20the%20performance%20of%20advanced%20causal%20inference%20methods%20applied%20to%20healthcare%20claims%20data&amp;body=/publication/rinpharma_25/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=REAP%20-%20R-Shiny%20Exploratory%20Analysis%20Platform%20in%20Clinical%20Pharmacology&amp;body=/publication/rinpharma_25/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -910,7 +951,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_25/&amp;title=Evaluating%20the%20performance%20of%20advanced%20causal%20inference%20methods%20applied%20to%20healthcare%20claims%20data" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_25/&amp;title=REAP%20-%20R-Shiny%20Exploratory%20Analysis%20Platform%20in%20Clinical%20Pharmacology" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -923,7 +964,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Evaluating%20the%20performance%20of%20advanced%20causal%20inference%20methods%20applied%20to%20healthcare%20claims%20data%20/publication/rinpharma_25/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=REAP%20-%20R-Shiny%20Exploratory%20Analysis%20Platform%20in%20Clinical%20Pharmacology%20/publication/rinpharma_25/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -936,7 +977,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_25/&amp;title=Evaluating%20the%20performance%20of%20advanced%20causal%20inference%20methods%20applied%20to%20healthcare%20claims%20data" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_25/&amp;title=REAP%20-%20R-Shiny%20Exploratory%20Analysis%20Platform%20in%20Clinical%20Pharmacology" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -983,9 +1024,15 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/publication/rinpharma_180/">Automated Data-Adaptive Analytics to Improve Robustness of Confounding Control when Estimating Treatment Effects in Electronic Healthcare Databases</a></li>
+      <li><a href="/publication/rinpharma_209/">5 testing packages to make your package better!</a></li>
       
-      <li><a href="/publication/rinpharma_99/">Evaluating the performance of advanced causal inference methods applied to healthcare claims data</a></li>
+      <li><a href="/publication/rinpharma_48/">Accelerate Personalized Health Care by Empowering Biomarker Data</a></li>
+      
+      <li><a href="/publication/rinpharma_37/">Analyzing Clinical Trials Data with R</a></li>
+      
+      <li><a href="/publication/rinpharma_2/">Analyzing Clinical Trials Data with R</a></li>
+      
+      <li><a href="/publication/rinpharma_297/">Assuring SDTM data quality with the sdtmchecks package</a></li>
       
     </ul>
   </div>

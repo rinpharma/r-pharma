@@ -33,7 +33,7 @@
   
     
   
-  <meta name="description" content="After a brief introduction to mrgsolve (https//mrgsolve.github.io), we will discuss concepts and applications for using the package in R to simulate from pharmacokinetic (PK) and physiologically-based PK (PBPK) models, estimate parameters given a model and data, and visualize simulation results with a Shiny app. We will establish a basic framework for running optimization in R and work hands-on examples using different optimizers, including local and global search algorithms. Building on this framework, we will also illustrate related workflows including global and local sensitivity analysis. Finally, we will develop and deploy a Shiny app using Rstudio Connect, allowing interaction with the model and optimization results by non-modeling stakeholders." />
+  <meta name="description" content="Have you ever encountered text data and suspected there was useful insight latent within it but felt frustrated about how to find that insight? Are you familiar with dplyr and ggplot2, and ready to learn how unstructured text data can be used for prediction within the tidyverse and tidymodels ecosystems? Do you need a flexible framework for handling text data that allows you to engage in tasks from exploratory data analysis to supervised predictive modeling? This tutorial is geared toward an R user with intermediate familiarity with R, RStudio, the basics of regression and classification modeling, and tidyverse packages such as dplyr and ggplot2. This person is comfortable with the main functions from dplyr and ggplot2 and is now ready to learn how to analyze and model text using tidy data principles. This R user has some experience with statistical modeling (such as using lm() and glm()) for prediction and classification and wants to learn how to build models with text." />
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/rinpharma_135/" />
@@ -322,8 +322,8 @@
   
   <meta property="og:site_name" content="R/Pharma" />
   <meta property="og:url" content="/publication/rinpharma_135/" />
-  <meta property="og:title" content="A PK &amp; PBPK Modelling Workflow in R: Simulation, Optimization &amp; Visualization | R/Pharma" />
-  <meta property="og:description" content="After a brief introduction to mrgsolve (https//mrgsolve.github.io), we will discuss concepts and applications for using the package in R to simulate from pharmacokinetic (PK) and physiologically-based PK (PBPK) models, estimate parameters given a model and data, and visualize simulation results with a Shiny app. We will establish a basic framework for running optimization in R and work hands-on examples using different optimizers, including local and global search algorithms. Building on this framework, we will also illustrate related workflows including global and local sensitivity analysis. Finally, we will develop and deploy a Shiny app using Rstudio Connect, allowing interaction with the model and optimization results by non-modeling stakeholders." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
+  <meta property="og:title" content="Predictive modeling with text using tidy data principles | R/Pharma" />
+  <meta property="og:description" content="Have you ever encountered text data and suspected there was useful insight latent within it but felt frustrated about how to find that insight? Are you familiar with dplyr and ggplot2, and ready to learn how unstructured text data can be used for prediction within the tidyverse and tidymodels ecosystems? Do you need a flexible framework for handling text data that allows you to engage in tasks from exploratory data analysis to supervised predictive modeling? This tutorial is geared toward an R user with intermediate familiarity with R, RStudio, the basics of regression and classification modeling, and tidyverse packages such as dplyr and ggplot2. This person is comfortable with the main functions from dplyr and ggplot2 and is now ready to learn how to analyze and model text using tidy data principles. This R user has some experience with statistical modeling (such as using lm() and glm()) for prediction and classification and wants to learn how to build models with text." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
     <meta property="twitter:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -356,14 +356,14 @@
     "@type": "WebPage",
     "@id": "/publication/rinpharma_135/"
   },
-  "headline": "A PK \u0026 PBPK Modelling Workflow in R: Simulation, Optimization \u0026 Visualization",
+  "headline": "Predictive modeling with text using tidy data principles",
   
   "datePublished": "1999-01-01T00:00:00Z",
   "dateModified": "2020-10-09T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Devin Pastoor"
+    "name": "Emil Hvitfeldt"
   },
   
   "publisher": {
@@ -374,7 +374,7 @@
       "url": "/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_192x192_fit_lanczos_2.png"
     }
   },
-  "description": "After a brief introduction to mrgsolve (https//mrgsolve.github.io), we will discuss concepts and applications for using the package in R to simulate from pharmacokinetic (PK) and physiologically-based PK (PBPK) models, estimate parameters given a model and data, and visualize simulation results with a Shiny app. We will establish a basic framework for running optimization in R and work hands-on examples using different optimizers, including local and global search algorithms. Building on this framework, we will also illustrate related workflows including global and local sensitivity analysis. Finally, we will develop and deploy a Shiny app using Rstudio Connect, allowing interaction with the model and optimization results by non-modeling stakeholders."
+  "description": "Have you ever encountered text data and suspected there was useful insight latent within it but felt frustrated about how to find that insight? Are you familiar with dplyr and ggplot2, and ready to learn how unstructured text data can be used for prediction within the tidyverse and tidymodels ecosystems? Do you need a flexible framework for handling text data that allows you to engage in tasks from exploratory data analysis to supervised predictive modeling? This tutorial is geared toward an R user with intermediate familiarity with R, RStudio, the basics of regression and classification modeling, and tidyverse packages such as dplyr and ggplot2. This person is comfortable with the main functions from dplyr and ggplot2 and is now ready to learn how to analyze and model text using tidy data principles. This R user has some experience with statistical modeling (such as using lm() and glm()) for prediction and classification and wants to learn how to build models with text."
 }
 </script>
 
@@ -420,7 +420,7 @@
 
 
 
-  <title>A PK &amp; PBPK Modelling Workflow in R: Simulation, Optimization &amp; Visualization | R/Pharma</title>
+  <title>Predictive modeling with text using tidy data principles | R/Pharma</title>
 </head>
 
 
@@ -743,7 +743,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>A PK &amp; PBPK Modelling Workflow in R: Simulation, Optimization &amp; Visualization</h1>
+  <h1>Predictive modeling with text using tidy data principles</h1>
 
   
 
@@ -761,8 +761,7 @@
     
 
   <span >
-      <a href="/author/devin-pastoor/">Devin Pastoor</a></span>, <span >
-      <a href="/author/kyle-baron/">Kyle Baron</a></span>
+      <a href="/author/emil-hvitfeldt/">Emil Hvitfeldt</a></span>
   </div>
   
   
@@ -827,19 +826,11 @@
   
     
   
-<a class="btn btn-outline-primary btn-page-header" href="https://github.com/metrumresearchgroup/r-pharma-pkpd-2020" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://textmodels4pharma.netlify.app/" target="_blank" rel="noopener">
   Slides
 </a>
 
 
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header" href="https://www.youtube.com/watch?v=EbDeZ5PgNlQ" target="_blank" rel="noopener">
-  Video
-</a>
 
 
 
@@ -857,7 +848,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">After a brief introduction to mrgsolve (https//mrgsolve.github.io), we will discuss concepts and applications for using the package in R to simulate from pharmacokinetic (PK) and physiologically-based PK (PBPK) models, estimate parameters given a model and data, and visualize simulation results with a Shiny app. We will establish a basic framework for running optimization in R and work hands-on examples using different optimizers, including local and global search algorithms. Building on this framework, we will also illustrate related workflows including global and local sensitivity analysis. Finally, we will develop and deploy a Shiny app using Rstudio Connect, allowing interaction with the model and optimization results by non-modeling stakeholders.</p>
+    <p class="pub-abstract">Have you ever encountered text data and suspected there was useful insight latent within it but felt frustrated about how to find that insight? Are you familiar with dplyr and ggplot2, and ready to learn how unstructured text data can be used for prediction within the tidyverse and tidymodels ecosystems? Do you need a flexible framework for handling text data that allows you to engage in tasks from exploratory data analysis to supervised predictive modeling? This tutorial is geared toward an R user with intermediate familiarity with R, RStudio, the basics of regression and classification modeling, and tidyverse packages such as dplyr and ggplot2. This person is comfortable with the main functions from dplyr and ggplot2 and is now ready to learn how to analyze and model text using tidy data principles. This R user has some experience with statistical modeling (such as using lm() and glm()) for prediction and classification and wants to learn how to build models with text.</p>
     
 
     
@@ -904,7 +895,7 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/metrum-research-group/">Metrum Research Group</a>
+  <a class="badge badge-light" href="/tag/university-southern-california/">University Southern California</a>
   
 </div>
 
@@ -921,7 +912,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_135/&amp;text=A%20PK%20&amp;amp;%20PBPK%20Modelling%20Workflow%20in%20R:%20Simulation,%20Optimization%20&amp;amp;%20Visualization" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_135/&amp;text=Predictive%20modeling%20with%20text%20using%20tidy%20data%20principles" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -934,7 +925,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_135/&amp;t=A%20PK%20&amp;amp;%20PBPK%20Modelling%20Workflow%20in%20R:%20Simulation,%20Optimization%20&amp;amp;%20Visualization" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_135/&amp;t=Predictive%20modeling%20with%20text%20using%20tidy%20data%20principles" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -947,7 +938,7 @@
       
       
       <li>
-        <a href="mailto:?subject=A%20PK%20&amp;amp;%20PBPK%20Modelling%20Workflow%20in%20R:%20Simulation,%20Optimization%20&amp;amp;%20Visualization&amp;body=/publication/rinpharma_135/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Predictive%20modeling%20with%20text%20using%20tidy%20data%20principles&amp;body=/publication/rinpharma_135/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -960,7 +951,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_135/&amp;title=A%20PK%20&amp;amp;%20PBPK%20Modelling%20Workflow%20in%20R:%20Simulation,%20Optimization%20&amp;amp;%20Visualization" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_135/&amp;title=Predictive%20modeling%20with%20text%20using%20tidy%20data%20principles" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -973,7 +964,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=A%20PK%20&amp;amp;%20PBPK%20Modelling%20Workflow%20in%20R:%20Simulation,%20Optimization%20&amp;amp;%20Visualization%20/publication/rinpharma_135/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Predictive%20modeling%20with%20text%20using%20tidy%20data%20principles%20/publication/rinpharma_135/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -986,7 +977,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_135/&amp;title=A%20PK%20&amp;amp;%20PBPK%20Modelling%20Workflow%20in%20R:%20Simulation,%20Optimization%20&amp;amp;%20Visualization" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_135/&amp;title=Predictive%20modeling%20with%20text%20using%20tidy%20data%20principles" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1013,12 +1004,6 @@
 
 
   
-    
-
-
-
-
-  
 
 
 
@@ -1034,23 +1019,6 @@
 
 
   
-  
-  <div class="article-widget content-widget-hr">
-    <h3>Related</h3>
-    <ul>
-      
-      <li><a href="/publication/rinpharma_192/">A case-study driven introduction to the Julia language for R programmers</a></li>
-      
-      <li><a href="/publication/rinpharma_36/">Assisting pharmacometric simulation with the use of Shiny</a></li>
-      
-      <li><a href="/publication/rinpharma_90/">Leveraging multiple R tools to make effective pediatric dosing decisions</a></li>
-      
-      <li><a href="/publication/rinpharma_280/">MeRGE: An ecosystem of open-source R packages for Pharmacometrics from MetrumRG</a></li>
-      
-      <li><a href="/publication/rinpharma_34/">Moving Fast Without Breaking Things: Navigating the R Ecosystem in an Enterprise Environment</a></li>
-      
-    </ul>
-  </div>
   
 
 

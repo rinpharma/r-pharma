@@ -33,7 +33,7 @@
   
     
   
-  <meta name="description" content="MMRMs are often used as the primary analysis of continuous endpoints in longitudinal clinical trials (see e.g. Mallinckrod et al, 2008). Essentially, an MMRM is a specific linear mixed effects model that includes (at least) an interaction of treatment arm and categorical visit variables as fixed effects. The covariance structure of the residuals can have different forms, and often an unstructured (i.e. saturated parametrization) covariance matrix is preferred. This structure can be represented by random effects in the mixed model. All of this has typically been implemented in proprietary software, such as SAS, as its PROC MIXED routine is generally seen as a gold standard for mixed models. However, this does not allow the use of interactive web applications to explore the clinical study data in a flexible way. Furthermore, fitting such proprietary software into workflows such as automatic document generation is not convenient. Therefore, we wanted to implement MMRM in R. Several challenges had to be solved, such as finding the right R-packages for this purpose. We finally settled on  lme4  in combination with  lmerTest , which could match results in SAS up to numerical precision. Convergence of estimates can be an issue and multiple optimization algorithms are therefore tried in parallel to enhance robustness. Extracting the covariance matrix estimate from  lme4  results was solved as well as finding model fit statistics that match SAS results. We use our own  rtables  to produce tables and  ggplot2  for plots. We developed a Shiny module in our internal framework for exploratory web applications. Further validation in the next months will allow us to use the R implementation for regulatory purposes, with greater flexibility and efficiency than before." />
+  <meta name="description" content="In this talk I will discuss the steps that have been created for validating internally generated R packages at SCHARP (Statistical Center for HIV/AIDS Research and Prevention). Housed within Fred Hutch, SCHARP is an instrumental partner in the research and clinical trials surrounding HIV prevention and vaccine development. Part of SCHARP&#39;s work involves analyzing experimental biomarkers and endpoints which change as the experimental question, analysis methods, antigens measured, and assays evolve. Maintaining a validated code base that is rigid in its output format, but flexible enough to cater a variety of inputs with minimal custom coding has proven to be important for reproducibility and scalability. SCHARP has developed several key steps in the creation, validation, and documentation of R packages that take advantage of R&#39;s packaging functionality. First, the programming team works with leadership to define specifications and lay out a roadmap of the package at the functional level. Next, statistical programmers work together to develop the package, taking advantage of the rich R ecosystem of packages for development such as roxygen2, devtools, usethis, and testthat. Once the code has been developed, the package is validated to ensure it passes all specifications using a combination of testthat and rmarkdown. Finally, the package is made available for use across the team on live data. These procedures set up a framework for validating assay processing packages that furthers the ability of Fred Hutch to provide world-class support for our clinical trials." />
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/rinpharma_144/" />
@@ -322,8 +322,8 @@
   
   <meta property="og:site_name" content="R/Pharma" />
   <meta property="og:url" content="/publication/rinpharma_144/" />
-  <meta property="og:title" content="Implementing Mixed Models with Repeated Measures (MMRM) in R and Shiny for Regulatory Purposes | R/Pharma" />
-  <meta property="og:description" content="MMRMs are often used as the primary analysis of continuous endpoints in longitudinal clinical trials (see e.g. Mallinckrod et al, 2008). Essentially, an MMRM is a specific linear mixed effects model that includes (at least) an interaction of treatment arm and categorical visit variables as fixed effects. The covariance structure of the residuals can have different forms, and often an unstructured (i.e. saturated parametrization) covariance matrix is preferred. This structure can be represented by random effects in the mixed model. All of this has typically been implemented in proprietary software, such as SAS, as its PROC MIXED routine is generally seen as a gold standard for mixed models. However, this does not allow the use of interactive web applications to explore the clinical study data in a flexible way. Furthermore, fitting such proprietary software into workflows such as automatic document generation is not convenient. Therefore, we wanted to implement MMRM in R. Several challenges had to be solved, such as finding the right R-packages for this purpose. We finally settled on  lme4  in combination with  lmerTest , which could match results in SAS up to numerical precision. Convergence of estimates can be an issue and multiple optimization algorithms are therefore tried in parallel to enhance robustness. Extracting the covariance matrix estimate from  lme4  results was solved as well as finding model fit statistics that match SAS results. We use our own  rtables  to produce tables and  ggplot2  for plots. We developed a Shiny module in our internal framework for exploratory web applications. Further validation in the next months will allow us to use the R implementation for regulatory purposes, with greater flexibility and efficiency than before." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
+  <meta property="og:title" content="R Package Validation Framework | R/Pharma" />
+  <meta property="og:description" content="In this talk I will discuss the steps that have been created for validating internally generated R packages at SCHARP (Statistical Center for HIV/AIDS Research and Prevention). Housed within Fred Hutch, SCHARP is an instrumental partner in the research and clinical trials surrounding HIV prevention and vaccine development. Part of SCHARP&#39;s work involves analyzing experimental biomarkers and endpoints which change as the experimental question, analysis methods, antigens measured, and assays evolve. Maintaining a validated code base that is rigid in its output format, but flexible enough to cater a variety of inputs with minimal custom coding has proven to be important for reproducibility and scalability. SCHARP has developed several key steps in the creation, validation, and documentation of R packages that take advantage of R&#39;s packaging functionality. First, the programming team works with leadership to define specifications and lay out a roadmap of the package at the functional level. Next, statistical programmers work together to develop the package, taking advantage of the rich R ecosystem of packages for development such as roxygen2, devtools, usethis, and testthat. Once the code has been developed, the package is validated to ensure it passes all specifications using a combination of testthat and rmarkdown. Finally, the package is made available for use across the team on live data. These procedures set up a framework for validating assay processing packages that furthers the ability of Fred Hutch to provide world-class support for our clinical trials." /><meta property="og:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" />
     <meta property="twitter:image" content="/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -356,14 +356,14 @@
     "@type": "WebPage",
     "@id": "/publication/rinpharma_144/"
   },
-  "headline": "Implementing Mixed Models with Repeated Measures (MMRM) in R and Shiny for Regulatory Purposes",
+  "headline": "R Package Validation Framework",
   
   "datePublished": "1999-01-01T00:00:00Z",
   "dateModified": "2020-10-13T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Daniel Sabanés Bové"
+    "name": "Ellis Hughes"
   },
   
   "publisher": {
@@ -374,7 +374,7 @@
       "url": "/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_192x192_fit_lanczos_2.png"
     }
   },
-  "description": "MMRMs are often used as the primary analysis of continuous endpoints in longitudinal clinical trials (see e.g. Mallinckrod et al, 2008). Essentially, an MMRM is a specific linear mixed effects model that includes (at least) an interaction of treatment arm and categorical visit variables as fixed effects. The covariance structure of the residuals can have different forms, and often an unstructured (i.e. saturated parametrization) covariance matrix is preferred. This structure can be represented by random effects in the mixed model. All of this has typically been implemented in proprietary software, such as SAS, as its PROC MIXED routine is generally seen as a gold standard for mixed models. However, this does not allow the use of interactive web applications to explore the clinical study data in a flexible way. Furthermore, fitting such proprietary software into workflows such as automatic document generation is not convenient. Therefore, we wanted to implement MMRM in R. Several challenges had to be solved, such as finding the right R-packages for this purpose. We finally settled on  lme4  in combination with  lmerTest , which could match results in SAS up to numerical precision. Convergence of estimates can be an issue and multiple optimization algorithms are therefore tried in parallel to enhance robustness. Extracting the covariance matrix estimate from  lme4  results was solved as well as finding model fit statistics that match SAS results. We use our own  rtables  to produce tables and  ggplot2  for plots. We developed a Shiny module in our internal framework for exploratory web applications. Further validation in the next months will allow us to use the R implementation for regulatory purposes, with greater flexibility and efficiency than before."
+  "description": "In this talk I will discuss the steps that have been created for validating internally generated R packages at SCHARP (Statistical Center for HIV/AIDS Research and Prevention). Housed within Fred Hutch, SCHARP is an instrumental partner in the research and clinical trials surrounding HIV prevention and vaccine development. Part of SCHARP's work involves analyzing experimental biomarkers and endpoints which change as the experimental question, analysis methods, antigens measured, and assays evolve. Maintaining a validated code base that is rigid in its output format, but flexible enough to cater a variety of inputs with minimal custom coding has proven to be important for reproducibility and scalability. SCHARP has developed several key steps in the creation, validation, and documentation of R packages that take advantage of R's packaging functionality. First, the programming team works with leadership to define specifications and lay out a roadmap of the package at the functional level. Next, statistical programmers work together to develop the package, taking advantage of the rich R ecosystem of packages for development such as roxygen2, devtools, usethis, and testthat. Once the code has been developed, the package is validated to ensure it passes all specifications using a combination of testthat and rmarkdown. Finally, the package is made available for use across the team on live data. These procedures set up a framework for validating assay processing packages that furthers the ability of Fred Hutch to provide world-class support for our clinical trials."
 }
 </script>
 
@@ -420,7 +420,7 @@
 
 
 
-  <title>Implementing Mixed Models with Repeated Measures (MMRM) in R and Shiny for Regulatory Purposes | R/Pharma</title>
+  <title>R Package Validation Framework | R/Pharma</title>
 </head>
 
 
@@ -743,7 +743,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Implementing Mixed Models with Repeated Measures (MMRM) in R and Shiny for Regulatory Purposes</h1>
+  <h1>R Package Validation Framework</h1>
 
   
 
@@ -761,7 +761,7 @@
     
 
   <span >
-      <a href="/author/daniel-sabanes-bove/">Daniel Sabanés Bové</a></span>
+      <a href="/author/ellis-hughes/">Ellis Hughes</a></span>
   </div>
   
   
@@ -826,7 +826,7 @@
   
     
   
-<a class="btn btn-outline-primary btn-page-header" href="https://github.com/rinpharma/2020_presentations/tree/master/talks_folder/2020-Sabanes_Bove-Implementing_MMRM_in_R.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://thebioengineer.github.io/validation_rpharma/" target="_blank" rel="noopener">
   Slides
 </a>
 
@@ -836,7 +836,7 @@
   
     
   
-<a class="btn btn-outline-primary btn-page-header" href="https://youtu.be/moEksA8gHoY" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://youtu.be/zEH-6Ik-5h8" target="_blank" rel="noopener">
   Video
 </a>
 
@@ -856,7 +856,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">MMRMs are often used as the primary analysis of continuous endpoints in longitudinal clinical trials (see e.g. Mallinckrod et al, 2008). Essentially, an MMRM is a specific linear mixed effects model that includes (at least) an interaction of treatment arm and categorical visit variables as fixed effects. The covariance structure of the residuals can have different forms, and often an unstructured (i.e. saturated parametrization) covariance matrix is preferred. This structure can be represented by random effects in the mixed model. All of this has typically been implemented in proprietary software, such as SAS, as its PROC MIXED routine is generally seen as a gold standard for mixed models. However, this does not allow the use of interactive web applications to explore the clinical study data in a flexible way. Furthermore, fitting such proprietary software into workflows such as automatic document generation is not convenient. Therefore, we wanted to implement MMRM in R. Several challenges had to be solved, such as finding the right R-packages for this purpose. We finally settled on  lme4  in combination with  lmerTest , which could match results in SAS up to numerical precision. Convergence of estimates can be an issue and multiple optimization algorithms are therefore tried in parallel to enhance robustness. Extracting the covariance matrix estimate from  lme4  results was solved as well as finding model fit statistics that match SAS results. We use our own  rtables  to produce tables and  ggplot2  for plots. We developed a Shiny module in our internal framework for exploratory web applications. Further validation in the next months will allow us to use the R implementation for regulatory purposes, with greater flexibility and efficiency than before.</p>
+    <p class="pub-abstract">In this talk I will discuss the steps that have been created for validating internally generated R packages at SCHARP (Statistical Center for HIV/AIDS Research and Prevention). Housed within Fred Hutch, SCHARP is an instrumental partner in the research and clinical trials surrounding HIV prevention and vaccine development. Part of SCHARP&rsquo;s work involves analyzing experimental biomarkers and endpoints which change as the experimental question, analysis methods, antigens measured, and assays evolve. Maintaining a validated code base that is rigid in its output format, but flexible enough to cater a variety of inputs with minimal custom coding has proven to be important for reproducibility and scalability. SCHARP has developed several key steps in the creation, validation, and documentation of R packages that take advantage of R&rsquo;s packaging functionality. First, the programming team works with leadership to define specifications and lay out a roadmap of the package at the functional level. Next, statistical programmers work together to develop the package, taking advantage of the rich R ecosystem of packages for development such as roxygen2, devtools, usethis, and testthat. Once the code has been developed, the package is validated to ensure it passes all specifications using a combination of testthat and rmarkdown. Finally, the package is made available for use across the team on live data. These procedures set up a framework for validating assay processing packages that furthers the ability of Fred Hutch to provide world-class support for our clinical trials.</p>
     
 
     
@@ -903,7 +903,7 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/roche-/-genentech/">Roche / Genentech</a>
+  <a class="badge badge-light" href="/tag/fred-hutch-cancer-research-center/">Fred Hutch Cancer Research Center</a>
   
 </div>
 
@@ -920,7 +920,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_144/&amp;text=Implementing%20Mixed%20Models%20with%20Repeated%20Measures%20%28MMRM%29%20in%20R%20and%20Shiny%20for%20Regulatory%20Purposes" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/rinpharma_144/&amp;text=R%20Package%20Validation%20Framework" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -933,7 +933,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_144/&amp;t=Implementing%20Mixed%20Models%20with%20Repeated%20Measures%20%28MMRM%29%20in%20R%20and%20Shiny%20for%20Regulatory%20Purposes" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/rinpharma_144/&amp;t=R%20Package%20Validation%20Framework" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -946,7 +946,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Implementing%20Mixed%20Models%20with%20Repeated%20Measures%20%28MMRM%29%20in%20R%20and%20Shiny%20for%20Regulatory%20Purposes&amp;body=/publication/rinpharma_144/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=R%20Package%20Validation%20Framework&amp;body=/publication/rinpharma_144/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -959,7 +959,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_144/&amp;title=Implementing%20Mixed%20Models%20with%20Repeated%20Measures%20%28MMRM%29%20in%20R%20and%20Shiny%20for%20Regulatory%20Purposes" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/rinpharma_144/&amp;title=R%20Package%20Validation%20Framework" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -972,7 +972,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Implementing%20Mixed%20Models%20with%20Repeated%20Measures%20%28MMRM%29%20in%20R%20and%20Shiny%20for%20Regulatory%20Purposes%20/publication/rinpharma_144/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=R%20Package%20Validation%20Framework%20/publication/rinpharma_144/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -985,7 +985,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_144/&amp;title=Implementing%20Mixed%20Models%20with%20Repeated%20Measures%20%28MMRM%29%20in%20R%20and%20Shiny%20for%20Regulatory%20Purposes" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/rinpharma_144/&amp;title=R%20Package%20Validation%20Framework" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1027,23 +1027,6 @@
 
 
   
-  
-  <div class="article-widget content-widget-hr">
-    <h3>Related</h3>
-    <ul>
-      
-      <li><a href="/publication/rinpharma_209/">5 testing packages to make your package better!</a></li>
-      
-      <li><a href="/publication/rinpharma_57/">Accelerate Personalized Health Care by Empowering Biomarker Data</a></li>
-      
-      <li><a href="/publication/rinpharma_39/">Analyzing Clinical Trials Data with R</a></li>
-      
-      <li><a href="/publication/rinpharma_3/">Analyzing Clinical Trials Data with R</a></li>
-      
-      <li><a href="/publication/rinpharma_295/">Assuring SDTM data quality with the sdtmchecks package</a></li>
-      
-    </ul>
-  </div>
   
 
 

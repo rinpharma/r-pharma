@@ -61,6 +61,7 @@ meta <- list(
   schedule2018 = list(
     type = "rinpharma",
     year = 2018,
+    title = "R/Pharma 2018",
     data = d_all %>%
       filter(Event == "2018 Conference"),
     #days = c(1,2),
@@ -71,6 +72,7 @@ meta <- list(
   schedule2019 = list(
     type = "rinpharma",
     year = 2019,
+    title = "R/Pharma 2019",
     data = d_all %>%
       filter(Event == "2019 Conference"),
     #days = c(1,2,3),
@@ -81,6 +83,7 @@ meta <- list(
   schedule2020 = list(
     type = "rinpharma",
     year = 2020,
+    title = "R/Pharma 2020",
     data = d_all %>%
       filter(Event == "2020 Conference"),
     #days = c(1,2,3,4),
@@ -91,6 +94,7 @@ meta <- list(
   schedule2021 = list(
     type = "rinpharma",
     year = 2021,
+    title = "R/Pharma 2021",
     data = d_all %>%
       filter(Event == "2021 Conference"),
     #days = c(1,2,3,4),
@@ -101,6 +105,7 @@ meta <- list(
     schedule2022 = list(
     type = "rinpharma",
     year = 2022,
+    title = "R/Pharma 2022",
     data = d_all %>%
       filter(Event == "2022 Conference"),
     #days = c(1,2,3,4),
@@ -111,6 +116,7 @@ meta <- list(
   schedule2023 = list(
     type = "rinpharma",
     year = 2023,
+    title = "R/Pharma 2023",
     data = d_all %>%
       filter(Event == "2023 Conference"),
     #days = c(1,2,3,4),
@@ -121,6 +127,7 @@ meta <- list(
   genAI2024 = list(
     type = "genai",
     year = 2024,
+    title = "R/Pharma genAI Day 2024",
     data = d_all %>%
       filter(Event == "genAI Day 2024"),
     #days = c(1,2,3,4),
@@ -131,6 +138,7 @@ meta <- list(
   schedule2024 = list(
     type = "rinpharma",
     year = 2024,
+    title = "R/Pharma 2024",
     data = d_all %>%
       filter(Event == "2024 Conference"),
     #days = c(1,2,3,4),
@@ -152,7 +160,7 @@ for (yr in seq_along(meta)) {
     'schedule:
   enable : true
   titleOutline : "schedule"
-  title : "R/Pharma {meta[[yr]]$year}"
+  title : "{meta[[yr]]$title}"
   content : "All times below in US ET."
   scheduleTab:', .trim = FALSE, .na = ""
   ))

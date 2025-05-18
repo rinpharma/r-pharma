@@ -32,11 +32,11 @@ design:
 #  icon_pack: fas
 #  icon: door-open
 
-# cta:
-#   url: 'https://sessionize.com/rpharma/'
-#   label: 2024 Call for talks for APAC track is open till August 11th
-#   icon_pack: fas
-#   icon: door-open
+cta:
+  url: 'https://sessionize.com/rpharma/'
+  label: 2025 Call for talks is now open
+  icon_pack: fas
+  icon: door-open
 
 # cta_alt:
 #   url: 'https://www.eventbrite.com/e/diversity-alliance-hackathon-tickets-1027083142327'
@@ -46,4 +46,4 @@ design:
 
 The conference is a scientifically & industry oriented, collegial event focused on the use of R in the development of pharmaceuticals.  
 
-We are excited to announce that R/Pharma 2025 virtual conference will run from Nov 3-7.  Registration details will follow shortly.
+We are excited to announce that R/Pharma 2025 virtual conference will run from Nov 3-7.  Call for talks is now open!

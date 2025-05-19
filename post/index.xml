@@ -13,6 +13,35 @@
     </image>
     
     <item>
+      <title>Call For Talks</title>
+      <link>/post/2025-05-18-call4talks/</link>
+      <pubDate>Sun, 18 May 2025 00:00:00 +0000</pubDate>
+      <guid>/post/2025-05-18-call4talks/</guid>
+      <description>&lt;p&gt;We’re excited to announce that the call for talks for Virtual R/Pharma 2025 is now open !!&lt;/p&gt;
+&lt;p&gt;R/Pharma 2025, the conference on all things &lt;a href=&#34;http://opensourceinpharma.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Open Source in Pharma&lt;/a&gt;, will take place November 3rd-7th 2025.  The conference will be fully virtual.  An in-person portion of R/Pharma will be at posit::conf(2025) on September 15th.  More information, including a link to booking R/Pharma in-person can be found here: &lt;a href=&#34;https://posit.co/blog/register-for-r-pharma-at-posit-conf-2025/&#34;&gt;https://posit.co/blog/register-for-r-pharma-at-posit-conf-2025/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We are particularly interested in talks from people who cannot usually make it to the in-person event or are newer to conference speaking. R/Pharma committee members are offering free speaker coaching: as long as you have an interesting R/Pharma idea and are willing to put in some work, we’ll help you develop a great talk. Talks are short (10-20 minutes) high energy presentations that give you the chance to talk about an interesting project that you’ve tackled with R in pharma. Short talks, or demos of your R/Python code, R/Stan/Julia packages, and Shiny apps are great options.&lt;/p&gt;
+&lt;p&gt;In addition, we&amp;rsquo;ll be including on-demand pre-recorded talks throughout the conference and an expo to show off your great open source code (more info on expo to follow).&lt;/p&gt;
+&lt;p&gt;We are particularly interested in submissions that have one or more of these qualities:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Examples of how Shiny is used for interactive reporting for late-stage work&lt;/li&gt;
+&lt;li&gt;Showcase the use of Open Source for drug discovery and development&lt;/li&gt;
+&lt;li&gt;Using Open Source AI/LLMs in Pharma&lt;/li&gt;
+&lt;li&gt;Applications from smaller pharma companies / biotechs&lt;/li&gt;
+&lt;li&gt;Expand the use of R in pharma to reach new domains and audiences&lt;/li&gt;
+&lt;li&gt;Combining R with other languages and tools, like Python, Julia, Tensorflow etc.&lt;/li&gt;
+&lt;li&gt;Reporting/Communication using R Markdown, Quarto, Shiny, ggplot2, or something else altogether&lt;/li&gt;
+&lt;li&gt;Discussions on how to teach R/data science effectively in pharma&lt;/li&gt;
+&lt;li&gt;Talks on administering R in pharma and tackling scaling, packages, cloud, HPC etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This year we are using &lt;a href=&#34;https://sessionize.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sessionize&lt;/a&gt; to manage call-for-talks.  To submit a talk please follow this link: &lt;a href=&#34;https://sessionize.com/rpharma-2025&#34;&gt;https://sessionize.com/rpharma-2025&lt;/a&gt; and complete the form introducing yourself and your proposed topic.&lt;/p&gt;
+&lt;p&gt;Call-for-talks closes June 30th.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;We are in Asia-Pacific too!&lt;/strong&gt;  In an effort to be more globally-inclusive, and following the successful first APAC track last year, R/Pharma will again be hosting presentations in Asia-Pacific time zones.  When submitting a talk please note the checkbox related to presenting in the relevant time zone.&lt;/p&gt;
+&lt;p&gt;To ask a question, please use the form on our &lt;a href=&#34;https://rinpharma.com/contact/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;contact page&lt;/a&gt; to have your question routed to the organising committee Slack channel or email us on &lt;a href=&#34;mailto:info@rinpharma.com&#34;&gt;info@rinpharma.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;SUBMIT AN ABSTRACT TODAY!&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>R/Pharma 2024 Expo</title>
       <link>/post/2024-10-13-expo/</link>
       <pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate>

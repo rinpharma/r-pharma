@@ -33,7 +33,7 @@ design:
 #  icon: door-open
 
 cta:
-  url: 'https://sessionize.com/rpharma/'
+  url: 'https://sessionize.com/rpharma-2025'
   label: 2025 Call for talks is now open
   icon_pack: fas
   icon: door-open

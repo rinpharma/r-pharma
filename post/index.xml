@@ -13,6 +13,42 @@
     </image>
     
     <item>
+      <title>In-Person and Virtual Events for 2025</title>
+      <link>/post/2025-06-14-announcement/</link>
+      <pubDate>Sat, 14 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>/post/2025-06-14-announcement/</guid>
+      <description>&lt;p&gt;There is much excitement for R/Pharma in the second half of the year! Please find below the plan for our in-person Summit and Virtual gathering!&lt;/p&gt;
+&lt;h2 id=&#34;genai-day&#34;&gt;genAI Day&lt;/h2&gt;
+&lt;p&gt;R/Pharma is hosting the second annual, free one-day event, highlighting the use of generative AI in the Pharma industry.  Registration is available via this &lt;a href=&#34;https://events.zoom.us/ev/AhJgNAEgFp0gVZG2EFBctyctEm8CstaLIEhxRlQMdtnGW3kbCTuI~ArOl6K2ZzYqVlcryttKbAVtgnsvE6g6mByAhuOim9_vxpcQ-lh-mJvL1Ag&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;.&lt;br&gt;
+The meeting will run from 10:00AM-3:00PM ET with talks focusing on applications of generative AI for drug development activities and on the use as a coding aid for programmers.  Speakers and schedule will be announced shortly.&lt;/p&gt;
+&lt;h2 id=&#34;in-person-summit&#34;&gt;In-Person Summit&lt;/h2&gt;
+&lt;p&gt;R/Pharma is excited to announce that we are partnering again with Posit PBC to host our in-person program at posit::conf(2025), happening at the Hyatt Regency Seattle. The Summit will be on Monday Sep 15th 2025. The Summit can be booked via the posit::conf(2025) registration page: &lt;a href=&#34;https://posit.co/blog/register-for-r-pharma-at-posit-conf-2025/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://posit.co/blog/register-for-r-pharma-at-posit-conf-2025/&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The Summit can be booked independently of posit::conf(2025), or bundled with a posit::conf(2025) ticket, workshop or both.&lt;/p&gt;
+&lt;p&gt;The R/Pharma Summit will highlight how open-source tools are shaping the future of drug development. Throughout the event, facilitators will guide in-person discussions with industry leaders on key topics including reproducibility, regulatory submissions, and scalability, all with an emphasis on advancing next-generation submissions through the use of open-source solutions.&lt;/p&gt;
+&lt;p&gt;Topics for roundtable summit discussions are sourced from the community.  Feel free to add suggestions, comment and upvote &lt;a href=&#34;https://github.com/rinpharma/rinpharma-summit-2025/discussions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;, even if you are unable to attend the summit.&lt;/p&gt;
+&lt;p&gt;In addition to the summit, there will be two R/Pharma workshops at posit::conf on Tuesday Sep 16th.&lt;/p&gt;
+&lt;h4 id=&#34;end-to-end-submissions-in-r-with-the-pharmaverse&#34;&gt;End-to-End Submissions in R with the Pharmaverse.&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Daniel Sjoberg (Genetech) and Becca Krouse (GSK)&lt;/strong&gt;&lt;br&gt;
+A hands-on introduction to using R and Pharmaverse packages for a streamlined regulatory submission process, covering data preparation, CDISC compliance, and TLG generation. Participants will learn to optimize their workflow from raw data to publication-ready outputs.&lt;/p&gt;
+&lt;h4 id=&#34;deploying-reproducible-analytics-environments-for-regulated-use-cases&#34;&gt;Deploying Reproducible Analytics Environments for Regulated Use Cases&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;James Black (Novartis), Orla Doyle (Novartis), and Doug Kelkhoff (Roche)&lt;/strong&gt;.
+This workshop addresses the challenges and opportunities of deploying reproducible R analytical environments in regulated industries. Through a mix of discussions and exercises, the workshop will focus on containerization, package management, compliance, and sharing with regulators.&lt;/p&gt;
+&lt;p&gt;More information available at &lt;a href=&#34;https://posit.co/blog/register-for-r-pharma-at-posit-conf-2025/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://posit.co/blog/register-for-r-pharma-at-posit-conf-2025/&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;rpharma-virtual-conference&#34;&gt;R/Pharma Virtual Conference&lt;/h2&gt;
+&lt;p&gt;R/Pharma Virtual Conference will run from Nov 3-7 with workshops running 3rd, 4th and 7th and presentations 5th and 6th.  Call-for-talks is currently open (see &lt;a href=&#34;https://sessionize.com/rpharma-2025&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://sessionize.com/rpharma-2025&lt;/a&gt;).  If you&amp;rsquo;d like to present a talk or workshop please use the link to submit to the program committee.&lt;br&gt;
+We are also planning our Asia-Pacific region (APAC) event!  Use the same link to submit a talk or workshop.  If you are interested in helping out with R/Pharma US/Europe/APAC use the R/Pharma contact form &lt;a href=&#34;https://rinpharma.com/contact/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://rinpharma.com/contact/&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;R/Pharma Virtual Conference is a free event.  Registration will open in the summer (announcement on R/Pharma website and social media).&lt;/p&gt;
+&lt;p&gt;Previous R/Pharma talks and workshop recordings are available at &lt;a href=&#34;https://www.youtube.com/c/RinPharma&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.youtube.com/c/RinPharma&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;recurring-events&#34;&gt;Recurring Events&lt;/h2&gt;
+&lt;h4 id=&#34;diversity-alliance&#34;&gt;Diversity Alliance&lt;/h4&gt;
+&lt;p&gt;We aspire to be an inclusive R community for developers who work in the pharma space. Our goal is to provide a welcoming, equitable and supportive space for people to upskill, share knowledge and build a community of diverse voices.  The &lt;a href=&#34;https://opensourceinpharma.github.io/RinPharmaDiversityAlliance/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Diversity Alliance&lt;/a&gt; meets monthly and is currently planning a hackathon.  If you would like to join the monthly meetings, please click here: &lt;a href=&#34;https://www.addevent.com/calendar/AD808454&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.addevent.com/calendar/AD808454&lt;/a&gt;.  The next meeting is scheduled for June 20th at 9:00AM ET.&lt;/p&gt;
+&lt;h4 id=&#34;rpharma-hangout&#34;&gt;R/Pharma Hangout&lt;/h4&gt;
+&lt;p&gt;The hangout is a welcoming space for anyone to come to chat about open source in Pharma.  Have a question or an opinion?  Come join us.  The next meeting is scheduled for June 17th at 12:00PM ET.  The hangout calendar is available here: &lt;a href=&#34;https://www.addevent.com/calendar/wC797942&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.addevent.com/calendar/wC797942&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;We hope to see you at R/Pharma events in 2025!&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Call For Talks</title>
       <link>/post/2025-05-18-call4talks/</link>
       <pubDate>Sun, 18 May 2025 00:00:00 +0000</pubDate>
@@ -250,42 +286,6 @@ Just fill in this &lt;a href=&#34;https://docs.google.com/forms/d/e/1FAIpQLSc9op
 Second, think which topic you have been working on would be cool to share with the R/Pharma community via a short talk. And don’t be afraid - we will offer coaching, also in the APAC time zones to help you develop your talk! Please submit your talk via &lt;a href=&#34;https://sessionize.com/rpharma/&#34;&gt;https://sessionize.com/rpharma/&lt;/a&gt; until August 11th - just complete the form introducing yourself and your proposed topic, and please note the checkbox related to presenting in the relevant time zone.&lt;br&gt;
 Third, if you have any questions, please use the form on our &lt;a href=&#34;https://rinpharma.com/contact/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;contact page&lt;/a&gt; to have your question routed to the organizing committee Slack channel or email the APAC committee directly via &lt;a href=&#34;mailto:daniel@rconis.com&#34;&gt;daniel@rconis.com&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Thanks a lot in advance for your engagement!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>In-Person and Virtual Events for 2025</title>
-      <link>/post/2025-06-14-announcement/</link>
-      <pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>/post/2025-06-14-announcement/</guid>
-      <description>&lt;p&gt;There is much excitement for R/Pharma in the second half of the year! Please find below the plan for our in-person Summit and Virtual gathering!&lt;/p&gt;
-&lt;h2 id=&#34;genai-day&#34;&gt;genAI Day&lt;/h2&gt;
-&lt;p&gt;R/Pharma is hosting the second annual, free one-day event, highlighting the use of generative AI in the Pharma industry.  Registration is available via this &lt;a href=&#34;https://events.zoom.us/ev/AhJgNAEgFp0gVZG2EFBctyctEm8CstaLIEhxRlQMdtnGW3kbCTuI~ArOl6K2ZzYqVlcryttKbAVtgnsvE6g6mByAhuOim9_vxpcQ-lh-mJvL1Ag&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;.&lt;br&gt;
-The meeting will run from 10:00AM-3:00PM ET with talks focusing on applications of generative AI for drug development activities and on the use as a coding aid for programmers.  Speakers and schedule will be announced shortly.&lt;/p&gt;
-&lt;h2 id=&#34;in-person-summit&#34;&gt;In-Person Summit&lt;/h2&gt;
-&lt;p&gt;R/Pharma is excited to announce that we are partnering again with Posit PBC to host our in-person program at posit::conf(2025), happening at the Hyatt Regency Seattle. The Summit will be on Monday Sep 15th 2025. The Summit can be booked via the posit::conf(2025) registration page: &lt;a href=&#34;https://posit.co/blog/register-for-r-pharma-at-posit-conf-2025/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://posit.co/blog/register-for-r-pharma-at-posit-conf-2025/&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The Summit can be booked independently of posit::conf(2025), or bundled with a posit::conf(2025) ticket, workshop or both.&lt;/p&gt;
-&lt;p&gt;The R/Pharma Summit will highlight how open-source tools are shaping the future of drug development. Throughout the event, facilitators will guide in-person discussions with industry leaders on key topics including reproducibility, regulatory submissions, and scalability, all with an emphasis on advancing next-generation submissions through the use of open-source solutions.&lt;/p&gt;
-&lt;p&gt;Topics for roundtable summit discussions are sourced from the community.  Feel free to add suggestions, comment and upvote &lt;a href=&#34;https://github.com/rinpharma/rinpharma-summit-2025/discussions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;, even if you are unable to attend the summit.&lt;/p&gt;
-&lt;p&gt;In addition to the summit, there will be two R/Pharma workshops at posit::conf on Tuesday Sep 16th.&lt;/p&gt;
-&lt;h4 id=&#34;end-to-end-submissions-in-r-with-the-pharmaverse&#34;&gt;End-to-End Submissions in R with the Pharmaverse.&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;Daniel Sjoberg (Genetech) and Becca Krouse (GSK)&lt;/strong&gt;&lt;br&gt;
-A hands-on introduction to using R and Pharmaverse packages for a streamlined regulatory submission process, covering data preparation, CDISC compliance, and TLG generation. Participants will learn to optimize their workflow from raw data to publication-ready outputs.&lt;/p&gt;
-&lt;h4 id=&#34;deploying-reproducible-analytics-environments-for-regulated-use-cases&#34;&gt;Deploying Reproducible Analytics Environments for Regulated Use Cases&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;James Black (Novartis), Orla Doyle (Novartis), and Doug Kelkhoff (Roche)&lt;/strong&gt;.
-This workshop addresses the challenges and opportunities of deploying reproducible R analytical environments in regulated industries. Through a mix of discussions and exercises, the workshop will focus on containerization, package management, compliance, and sharing with regulators.&lt;/p&gt;
-&lt;p&gt;More information available at &lt;a href=&#34;https://posit.co/blog/register-for-r-pharma-at-posit-conf-2025/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://posit.co/blog/register-for-r-pharma-at-posit-conf-2025/&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;rpharma-virtual-conference&#34;&gt;R/Pharma Virtual Conference&lt;/h2&gt;
-&lt;p&gt;R/Pharma Virtual Conference will run from Nov 3-7 with workshops running 3rd, 4th and 7th and presentations 5th and 6th.  Call-for-talks is currently open (see &lt;a href=&#34;https://sessionize.com/rpharma-2025&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://sessionize.com/rpharma-2025&lt;/a&gt;).  If you&amp;rsquo;d like to present a talk or workshop please use the link to submit to the program committee.&lt;br&gt;
-We are also planning our Asia-Pacific region (APAC) event!  Use the same link to submit a talk or workshop.  If you are interested in helping out with R/Pharma US/Europe/APAC use the R/Pharma contact form &lt;a href=&#34;https://rinpharma.com/contact/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://rinpharma.com/contact/&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;R/Pharma Virtual Conference is a free event.  Registration will open in the summer (announcement on R/Pharma website and social media).&lt;/p&gt;
-&lt;p&gt;Previous R/Pharma talks and workshop recordings are available at &lt;a href=&#34;https://www.youtube.com/c/RinPharma&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.youtube.com/c/RinPharma&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;recurring-events&#34;&gt;Recurring Events&lt;/h2&gt;
-&lt;h4 id=&#34;diversity-alliance&#34;&gt;Diversity Alliance&lt;/h4&gt;
-&lt;p&gt;We aspire to be an inclusive R community for developers who work in the pharma space. Our goal is to provide a welcoming, equitable and supportive space for people to upskill, share knowledge and build a community of diverse voices.  The &lt;a href=&#34;https://opensourceinpharma.github.io/RinPharmaDiversityAlliance/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Diversity Alliance&lt;/a&gt; meets monthly and is currently planning a hackathon.  If you would like to join the monthly meetings, please click here: &lt;a href=&#34;https://www.addevent.com/calendar/AD808454&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.addevent.com/calendar/AD808454&lt;/a&gt;.  The next meeting is scheduled for June 20th at 9:00AM ET.&lt;/p&gt;
-&lt;h4 id=&#34;rpharma-hangout&#34;&gt;R/Pharma Hangout&lt;/h4&gt;
-&lt;p&gt;The hangout is a welcoming space for anyone to come to chat about open source in Pharma.  Have a question or an opinion?  Come join us.  The next meeting is scheduled for June 17th at 12:00PM ET.  The hangout calendar is available here: &lt;a href=&#34;https://www.addevent.com/calendar/wC797942&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.addevent.com/calendar/wC797942&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;We hope to see you at R/Pharma events in 2025!&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>
     

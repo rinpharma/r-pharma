@@ -1,6 +1,6 @@
 ---
 title: In-Person and Virtual Events for 2025
-date: 2024-06-14
+date: 2025-06-14
 summary: In-Person and Virtual Events for 2025.
 featured: true
 draft: false

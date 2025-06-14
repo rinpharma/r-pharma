@@ -30,7 +30,7 @@ In addition to the summit, there will be two R/Pharma workshops at posit::conf o
 A hands-on introduction to using R and Pharmaverse packages for a streamlined regulatory submission process, covering data preparation, CDISC compliance, and TLG generation. Participants will learn to optimize their workflow from raw data to publication-ready outputs.
 
 #### Deploying Reproducible Analytics Environments for Regulated Use Cases  
-**James Black (Novartis), Orla Doyle (Novartis), and Doug Kelkhoff (Roche)**. 
+**James Black (Novartis), Orla Doyle (Novartis), and Doug Kelkhoff (Roche)**  
 This workshop addresses the challenges and opportunities of deploying reproducible R analytical environments in regulated industries. Through a mix of discussions and exercises, the workshop will focus on containerization, package management, compliance, and sharing with regulators.
 
 More information available at [https://posit.co/blog/register-for-r-pharma-at-posit-conf-2025/](https://posit.co/blog/register-for-r-pharma-at-posit-conf-2025/).
@@ -44,7 +44,7 @@ R/Pharma Virtual Conference is a free event.  Registration will open in the summ
 
 Previous R/Pharma talks and workshop recordings are available at [https://www.youtube.com/c/RinPharma](https://www.youtube.com/c/RinPharma).
 
-## Recurring Events
+## Recurring Monthly Events
 
 #### Diversity Alliance
 

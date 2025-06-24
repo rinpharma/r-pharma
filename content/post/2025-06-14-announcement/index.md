@@ -11,7 +11,7 @@ There is much excitement for R/Pharma in the second half of the year! Please fin
 ## genAI Day
 
 R/Pharma is hosting the second annual, free one-day event, highlighting the use of generative AI in the Pharma industry.  Registration is available via this [link](https://events.zoom.us/ev/AhJgNAEgFp0gVZG2EFBctyctEm8CstaLIEhxRlQMdtnGW3kbCTuI~ArOl6K2ZzYqVlcryttKbAVtgnsvE6g6mByAhuOim9_vxpcQ-lh-mJvL1Ag).  
-The meeting will run from 10:00AM-3:00PM ET with talks focusing on applications of generative AI for drug development activities and on the use as a coding aid for programmers.  Speakers and schedule will be announced shortly.
+The meeting will run from 10:00AM-3:00PM ET on August 19th, with talks focusing on applications of generative AI for drug development activities and on the use as a coding aid for programmers.  Speakers and schedule will be announced shortly.
 
 ## In-Person Summit
 

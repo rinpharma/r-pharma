@@ -46,4 +46,4 @@ cta:
 
 The conference is a scientifically & industry oriented, collegial event focused on the use of R in the development of pharmaceuticals.  
 
-We are excited to announce that R/Pharma 2025 virtual conference will run from Nov 3-7.  Call for talks is now open!
+We are excited to announce that R/Pharma 2025 virtual conference will run from Nov 3-7.  Call for talks has been extended by one week!

@@ -5,12 +5,28 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>R/Pharma</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Sat, 14 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Fri, 25 Jul 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
       <title>R/Pharma</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>Diversity Alliance Hackathon</title>
+      <link>/post/2025-07-25-hackathon/</link>
+      <pubDate>Fri, 25 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>/post/2025-07-25-hackathon/</guid>
+      <description>&lt;h3 id=&#34;the-rpharma-diversity-alliance-will-be-holding-a-hackathon-on-september-30th&#34;&gt;The R/Pharma Diversity Alliance will be holding a hackathon on September 30th.&lt;/h3&gt;
+&lt;h2 id=&#34;for-participants&#34;&gt;For Participants&lt;/h2&gt;
+&lt;p&gt;Join members of the community in small groups to tackle issues in real projects. The hackathon is aimed for people who identify as underrepresented and would like to get involved in open source projects. We&amp;rsquo;re here to help you if you&amp;rsquo;re new to open source and have yet to make your first git commit. In fact we&amp;rsquo;ll also be running a git clinic to bring you up to speed.&lt;br&gt;
+Please register interest using this &lt;a href=&#34;https://docs.google.com/forms/d/e/1FAIpQLSdnBeMmLC9CNlS9l65lwd7oF7Q-bogOHXZ88StAgqvwgLWefg/viewform&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;form&lt;/a&gt; and we&amp;rsquo;ll be sure to reach out to you when registration opens in August.&lt;/p&gt;
+&lt;h2 id=&#34;for-mentors&#34;&gt;For Mentors&lt;/h2&gt;
+&lt;p&gt;Are you an open source developer in R? Would you like to act as a mentor for the hackathon? We&amp;rsquo;d love to get as many mentors as possible to help. We&amp;rsquo;re looking for primary mentors (someone who proposes an open source project where they can manage merge requests) and secondary mentors (people to work with the primary mentors during the hackathon). Mentors do not have to identify as being from an under-recognized group.&lt;br&gt;
+If you are interested in acting as a mentor and inspiring the next generation of open source developers, please respond using this &lt;a href=&#34;https://docs.google.com/forms/d/e/1FAIpQLSdxlngmo_fM2PPIiucjNb4Dx2AxEZOv8GeRYfbwqym9_4nbAA/viewform&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;form&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Come join us in September!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>In-Person and Virtual Events for 2025</title>

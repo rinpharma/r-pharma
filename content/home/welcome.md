@@ -38,6 +38,12 @@ design:
 #  icon_pack: fas
 #  icon: door-open
 
+cta:
+  url: 'https://events.zoom.us/ev/AhJgNAEgFp0gVZG2EFBctyctEm8CstaLIEhxRlQMdtnGW3kbCTuI~ArOl6K2ZzYqVlcryttKbAVtgnsvE6g6mByAhuOim9_vxpcQ-lh-mJvL1Ag'
+  label: genAI Day Registration
+  icon_pack: fas
+  icon: door-open
+
 # cta_alt:
 #   url: 'https://www.eventbrite.com/e/diversity-alliance-hackathon-tickets-1027083142327'
 #  label: Diversity Alliance Hackathon
@@ -47,3 +53,5 @@ design:
 The conference is a scientifically & industry oriented, collegial event focused on the use of R in the development of pharmaceuticals.  
 
 We are excited to announce that R/Pharma 2025 virtual conference will run from Nov 3-7.  Call for talks is now closed.  We'll be reaching out to presenters early August.
+
+genAI Day will be held on August 19th.  Click below to register!

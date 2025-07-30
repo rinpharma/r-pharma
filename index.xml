@@ -5,12 +5,113 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>R/Pharma</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Fri, 25 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Wed, 30 Jul 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
       <title>R/Pharma</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>R/Pharma GenAI Day</title>
+      <link>/post/2025-07-30-genai/</link>
+      <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>/post/2025-07-30-genai/</guid>
+      <description>&lt;p&gt;We&amp;rsquo;re so excited to announce the lineup for the second &lt;strong&gt;R/Pharma genAI day&lt;/strong&gt;, the single day event focused on examples of using generative artificial intelligence (GenAI) with an emphasis in the drug development space and clinical domain.&lt;/p&gt;
+&lt;p&gt;The virtual Single Day Event (August 19th) will be focused on various applications of GenAI such as accelerating the learning of open source languages and supporting late-stage reporting tasks. The day will consist of a workshop, talks, and a panel discussion/hangout.&lt;/p&gt;
+&lt;p&gt;Free registration: &lt;a href=&#34;https://events.zoom.us/ev/AhJgNAEgFp0gVZG2EFBctyctEm8CstaLIEhxRlQMdtnGW3kbCTuI~ArOl6K2ZzYqVlcryttKbAVtgnsvE6g6mByAhuOim9_vxpcQ-lh-mJvL1Ag&#34;&gt;https://events.zoom.us/ev/AhJgNAEgFp0gVZG2EFBctyctEm8CstaLIEhxRlQMdtnGW3kbCTuI~ArOl6K2ZzYqVlcryttKbAVtgnsvE6g6mByAhuOim9_vxpcQ-lh-mJvL1Ag&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;See below for the program (all times in ET).&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Time&lt;/th&gt;
+&lt;th&gt;Speaker&lt;/th&gt;
+&lt;th&gt;Title&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;10:00-10:40AM&lt;/td&gt;
+&lt;td&gt;tbc (Posit)&lt;/td&gt;
+&lt;td&gt;Workshop: Harnessing LLMs for Data Analysis&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;10:40-11:00AM&lt;/td&gt;
+&lt;td&gt;Break&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;10:00-11:20AM&lt;/td&gt;
+&lt;td&gt;Ercan Suekuer (Roche)&lt;/td&gt;
+&lt;td&gt;tbc&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;11:20-11:40AM&lt;/td&gt;
+&lt;td&gt;Ari Siggaard Knoph &amp;amp; Anthony Stefan Rajecki-Doyle (Novo Nordisk)&lt;/td&gt;
+&lt;td&gt;Building an AI Pair Programmer for ADaM&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;11:40-12:00PM&lt;/td&gt;
+&lt;td&gt;Sam Parmar (Pfizer)&lt;/td&gt;
+&lt;td&gt;Enabling genAI Capabilities for Statistical Programmers&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;12:00-1:00PM&lt;/td&gt;
+&lt;td&gt;Eric Nantz, Jared Woolfolk&lt;/td&gt;
+&lt;td&gt;GenAI R/Pharma Hangout (Please note: this session is not recorded)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1:00-1:20PM&lt;/td&gt;
+&lt;td&gt;Emily Yates (Formation Bio)&lt;/td&gt;
+&lt;td&gt;Maximizing LLM Potential: How Data Structure and Context Drive Quality Insights&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1:20-1:40PM&lt;/td&gt;
+&lt;td&gt;Devin Pastoor (A2-AI)&lt;/td&gt;
+&lt;td&gt;Agents and MCP and RAG, oh my! Where is the GenAI Yellow-Brick-Road Leading?&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1:40-2:00PM&lt;/td&gt;
+&lt;td&gt;Vincent Shen (Roche)&lt;/td&gt;
+&lt;td&gt;Customized GenAI coding assistant leveraging multi-agent framework&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2:00-2:20PM&lt;/td&gt;
+&lt;td&gt;Break&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2:20-2:40PM&lt;/td&gt;
+&lt;td&gt;Jay Timmerman (Biogen)&lt;/td&gt;
+&lt;td&gt;Inside an AI Project: From Idea to Value&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2:40-3:00PM&lt;/td&gt;
+&lt;td&gt;Vina Ro and Ian M Sturdy (Eli Lilly)&lt;/td&gt;
+&lt;td&gt;Natural Language to Code: AI-Powered Automation for CDISC-Compliant Datasets&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2:20-2:40PM&lt;/td&gt;
+&lt;td&gt;Jake Gagnon (Biogen)&lt;/td&gt;
+&lt;td&gt;Considerations of LLM’s benefits and risks&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2:20-2:40PM&lt;/td&gt;
+&lt;td&gt;tbc&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2:00-2:30PM&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Q/A Wrap Up&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;genAI Day will also have an Expo. It&amp;rsquo;s a chance for you to show off your awesome open source contributions (packages, applications, youTube channel, etc). If you are interested in submitting contents for an expo booth please use the following link: &lt;a href=&#34;https://docs.google.com/forms/d/e/1FAIpQLScs1oxOn-XmiGCC8Ds11Jaz1EstESZlmhdT9QUvImHomPLBgA/viewform?usp=header&#34;&gt;https://docs.google.com/forms/d/e/1FAIpQLScs1oxOn-XmiGCC8Ds11Jaz1EstESZlmhdT9QUvImHomPLBgA/viewform?usp=header&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This form will guide you through the details we&amp;rsquo;ll need (description, some images and a short video).&lt;/p&gt;
+&lt;p&gt;We look forward to seeing you on Tuesday, August 19th!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Diversity Alliance Hackathon</title>

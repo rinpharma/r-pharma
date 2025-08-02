@@ -15,7 +15,7 @@ The meeting will run from 10:00AM-3:00PM ET on August 19th, with talks focusing 
 
 ## In-Person Summit
 
-R/Pharma is excited to announce that we are partnering again with Posit PBC to host our in-person program at posit::conf(2025), happening at the Hyatt Regency Seattle. The Summit will be on Monday Sep 15th 2025. The Summit can be booked via the posit::conf(2025) registration page: [https://posit.co/blog/register-for-r-pharma-at-posit-conf-2025/](https://posit.co/blog/register-for-r-pharma-at-posit-conf-2025/).
+R/Pharma is excited to announce that we are partnering again with Posit PBC to host our in-person program at posit::conf(2025), happening at the Hyatt Regency Atlanta GA. The Summit will be on Monday Sep 15th 2025. The Summit can be booked via the posit::conf(2025) registration page: [https://posit.co/blog/register-for-r-pharma-at-posit-conf-2025/](https://posit.co/blog/register-for-r-pharma-at-posit-conf-2025/).
 
 The Summit can be booked independently of posit::conf(2025), or bundled with a posit::conf(2025) ticket, workshop or both.
 

@@ -17,7 +17,7 @@ See below for the program (all times in ET).
 |:-----------------:|---------------------|---------------------------------|
 | 10:00-10:40AM | tbc (Posit) | Workshop: Harnessing LLMs for Data Analysis |
 | 10:40-11:00AM | Break |  |
-| 11:00-11:20AM | Ercan Suekuer (Roche) | tbc |
+| 11:00-11:20AM | Olga Mierzwa-Sulima & Jakub Nowicki (Appsilon) | Interactive and Instant: GenAI-driven Creation of Clinical Trial Applications |
 | 11:20-11:40AM | Ari Siggaard Knoph & Anthony Stefan Rajecki-Doyle (Novo Nordisk) | Building an AI Pair Programmer for ADaM |
 | 11:40-12:00PM | Sam Parmar (Pfizer) | Enabling genAI Capabilities for Statistical Programmers |
 | 12:00-1:00PM | Eric Nantz, Jared Woolfolk | GenAI R/Pharma Hangout (Please note: this session is not recorded) |

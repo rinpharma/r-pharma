@@ -145,6 +145,14 @@ meta <- list(
     url = "rinpharma2018"
     #titles = c("Workshops", "Day 1", "Day 2", "Day 3"),
     #subtitles = c("5 Oct - 9 Oct", "13 Oct [10:00am - 2:10 pm ET]", "14 Oct [10:00am - 2:20 pm ET]", "15 Oct [10:00am - 2:10 pm ET]")
+  ),
+  genAI2025 = list(
+    type = "genai",
+    year = 2025,
+    title = "R/Pharma genAI Day 2025",
+    data = d_all %>%
+      filter(Event == "genAI Day 2025"),
+    url = "rinpharma2018"
   )
 )
 

@@ -15,7 +15,7 @@ See below for the program (all times in ET).
 
 | Time | Speaker | Title |
 |:-----------------:|---------------------|---------------------------------|
-| 10:00-10:40AM | tbc (Posit) | Workshop: Harnessing LLMs for Data Analysis |
+| 10:00-10:40AM | Garrick Aden-Buie (Posit) | Workshop: Harnessing LLMs for Data Analysis |
 | 10:40-11:00AM | Break |  |
 | 11:00-11:20AM | Olga Mierzwa-Sulima & Jakub Nowicki (Appsilon) | Interactive and Instant: GenAI-driven Creation of Clinical Trial Applications |
 | 11:20-11:40AM | Ari Siggaard Knoph & Anthony Stefan Rajecki-Doyle (Novo Nordisk) | Building an AI Pair Programmer for ADaM |
@@ -28,7 +28,7 @@ See below for the program (all times in ET).
 | 2:20-2:40PM | Jay Timmerman (Biogen) | Inside an AI Project: From Idea to Value |
 | 2:40-3:00PM | Vina Ro and Ian M Sturdy (Eli Lilly) | Natural Language to Code: AI-Powered Automation for CDISC-Compliant Datasets |
 | 3:00-3:20PM | Jake Gagnon (Biogen) | Considerations of LLM’s benefits and risks |
-| 3:20-3:40PM | tbc |  |
+| 3:20-3:40PM | Tom Mock (Posit) | Shiny Perspective: AI Apps and Positron-Assisted Development |
 | 3:40-4:00PM |  | Q/A Wrap Up |
 
 genAI Day will also have an Expo. It's a chance for you to show off your awesome open source contributions (packages, applications, youTube channel, etc). If you are interested in submitting contents for an expo booth please use the following link: <https://docs.google.com/forms/d/e/1FAIpQLScs1oxOn-XmiGCC8Ds11Jaz1EstESZlmhdT9QUvImHomPLBgA/viewform?usp=header>

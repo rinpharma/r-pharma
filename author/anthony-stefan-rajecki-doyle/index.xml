@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anthony Stefan Rajecki-Doyle | R/Pharma</title>
+    <link>/author/anthony-stefan-rajecki-doyle/</link>
+      <atom:link href="/author/anthony-stefan-rajecki-doyle/index.xml" rel="self" type="application/rss+xml" />
+    <description>Anthony Stefan Rajecki-Doyle</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Sun, 17 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>Anthony Stefan Rajecki-Doyle</title>
+      <link>/author/anthony-stefan-rajecki-doyle/</link>
+    </image>
+    
+    <item>
+      <title>Building an AI Pair Programmer for ADaM</title>
+      <link>/publication/rinpharma_506/</link>
+      <pubDate>Sun, 17 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_506/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

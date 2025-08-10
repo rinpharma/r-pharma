@@ -5,12 +5,20 @@
     <link>/author/jay-timmerman/</link>
       <atom:link href="/author/jay-timmerman/index.xml" rel="self" type="application/rss+xml" />
     <description>Jay Timmerman</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Thu, 16 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Sun, 17 Aug 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
       <title>Jay Timmerman</title>
       <link>/author/jay-timmerman/</link>
     </image>
+    
+    <item>
+      <title>Inside an AI Project: From Idea to Value</title>
+      <link>/publication/rinpharma_513/</link>
+      <pubDate>Sun, 17 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_513/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Enhance R Overview</title>

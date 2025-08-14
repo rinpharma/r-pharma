@@ -37,6 +37,14 @@
     </item>
     
     <item>
+      <title>Building the Future of Data Apps: LLMs Meet Shiny</title>
+      <link>/publication/rinpharma_503/</link>
+      <pubDate>Sun, 17 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_503/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Considerations of LLM’s benefits and risks</title>
       <link>/publication/rinpharma_515/</link>
       <pubDate>Sun, 17 Aug 2025 00:00:00 +0000</pubDate>
@@ -57,14 +65,6 @@
       <link>/publication/rinpharma_507/</link>
       <pubDate>Sun, 17 Aug 2025 00:00:00 +0000</pubDate>
       <guid>/publication/rinpharma_507/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Harnessing LLMs for Data Analysis</title>
-      <link>/publication/rinpharma_503/</link>
-      <pubDate>Sun, 17 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>/publication/rinpharma_503/</guid>
       <description></description>
     </item>
     
@@ -138,7 +138,7 @@
 &lt;tr&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;10:00-10:40AM&lt;/td&gt;
 &lt;td&gt;Garrick Aden-Buie (Posit)&lt;/td&gt;
-&lt;td&gt;Workshop: Harnessing LLMs for Data Analysis&lt;/td&gt;
+&lt;td&gt;Interactive Session: Building the Future of Data Apps: LLMs Meet Shiny&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;10:40-11:00AM&lt;/td&gt;

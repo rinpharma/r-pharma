@@ -15,7 +15,7 @@ See below for the program (all times in ET).
 
 | Time | Speaker | Title |
 |:-----------------:|---------------------|---------------------------------|
-| 10:00-10:40AM | Garrick Aden-Buie (Posit) | Workshop: Harnessing LLMs for Data Analysis |
+| 10:00-10:40AM | Garrick Aden-Buie (Posit) | Interactive Session: Building the Future of Data Apps: LLMs Meet Shiny |
 | 10:40-11:00AM | Break |  |
 | 11:00-11:20AM | Olga Mierzwa-Sulima & Jakub Nowicki (Appsilon) | Interactive and Instant: GenAI-driven Creation of Clinical Trial Applications |
 | 11:20-11:40AM | Ari Siggaard Knoph & Anthony Stefan Rajecki-Doyle (Novo Nordisk) | Building an AI Pair Programmer for ADaM |

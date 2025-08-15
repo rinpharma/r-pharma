@@ -28,7 +28,7 @@ See below for the program (all times in ET).
 | 2:20-2:40PM | Jay Timmerman (Biogen) | Inside an AI Project: From Idea to Value |
 | 2:40-3:00PM | Vina Ro and Ian M Sturdy (Eli Lilly) | Natural Language to Code: AI-Powered Automation for CDISC-Compliant Datasets |
 | 3:00-3:20PM | Jake Gagnon (Biogen) | Considerations of LLM’s benefits and risks |
-| 3:20-3:40PM | Tom Mock (Posit) | Shiny Perspective: AI Apps and Positron-Assisted Development |
+| 3:20-3:40PM | Thomas Mock (Posit) | Shiny Perspective: AI Apps and Positron-Assisted Development |
 | 3:40-4:00PM |  | Q/A Wrap Up |
 
 genAI Day will also have an Expo. It's a chance for you to show off your awesome open source contributions (packages, applications, youTube channel, etc). If you are interested in submitting contents for an expo booth please use the following link: <https://docs.google.com/forms/d/e/1FAIpQLScs1oxOn-XmiGCC8Ds11Jaz1EstESZlmhdT9QUvImHomPLBgA/viewform?usp=header>

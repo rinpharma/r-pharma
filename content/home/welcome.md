@@ -39,8 +39,8 @@ design:
 #  icon: door-open
 
 cta:
-  url: 'https://events.zoom.us/ev/AhJgNAEgFp0gVZG2EFBctyctEm8CstaLIEhxRlQMdtnGW3kbCTuI~ArOl6K2ZzYqVlcryttKbAVtgnsvE6g6mByAhuOim9_vxpcQ-lh-mJvL1Ag'
-  label: genAI Day Registration
+  url: 'https://events.zoom.us/ev/Ai-geyS63AOzr-Tskeu2jwsPAZkX9yQixTAJuQzNT-h_rw24wX-p~AnyGxi92zGyWPS_7xPj-Oax9RjoaU3pZS0DjeX45ML084eyqq4qo6O7BMg'
+  label: R/Pharma 2025 Registration
   icon_pack: fas
   icon: door-open
 
@@ -52,6 +52,6 @@ cta:
 
 The conference is a scientifically & industry oriented, collegial event focused on the use of R in the development of pharmaceuticals.  
 
-We are excited to announce that R/Pharma 2025 virtual conference will run from Nov 3-7.  Call for talks is now closed.  We'll be reaching out to presenters early August.
+We are excited to announce that R/Pharma 2025 virtual conference will run from Nov 3-7.  Call for talks is now closed.  We'll be reaching out to presenters late August.
 
-genAI Day will be held on August 19th.  Click below to register!
+Registration is now open.  Click below to register!

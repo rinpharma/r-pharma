@@ -5,12 +5,76 @@
     <link>/publication-type/2/</link>
       <atom:link href="/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Thu, 31 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Thu, 06 Nov 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
       <title>2</title>
       <link>/publication-type/2/</link>
     </image>
+    
+    <item>
+      <title>GSK’s journey to Clinical Study Reporting Using Open Source</title>
+      <link>/publication/rinpharma_581/</link>
+      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_581/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sam Wardens Keynote (APAC Replay)</title>
+      <link>/publication/rinpharma_597/</link>
+      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_597/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Practical AI for data science</title>
+      <link>/publication/rinpharma_557/</link>
+      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_557/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simon Couchs Keynote (APAC Replay)</title>
+      <link>/publication/rinpharma_576/</link>
+      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_576/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An R Package cgmguru for Automated Glycemic Event Detection From Continuous Glucose Monitoring Data</title>
+      <link>/publication/rinpharma_546/</link>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_546/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>From Harmony to Hybrid: Charting a Practical Course for R Adoption in Pharma</title>
+      <link>/publication/rinpharma_533/</link>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_533/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Improving precision healthcare for under-represented and genetically diverse global populations</title>
+      <link>/publication/rinpharma_543/</link>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_543/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Open-Source Culture and Data Strategy in SHIONOGI: A New Value-Creation Model for Pharma</title>
+      <link>/publication/rinpharma_524/</link>
+      <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_524/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Accelerating GSK’s Open-Source Journey with Gen AI</title>

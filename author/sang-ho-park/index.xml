@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sang Ho Park | R/Pharma</title>
+    <link>/author/sang-ho-park/</link>
+      <atom:link href="/author/sang-ho-park/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sang Ho Park</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Tue, 04 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>Sang Ho Park</title>
+      <link>/author/sang-ho-park/</link>
+    </image>
+    
+    <item>
+      <title>An R Package cgmguru for Automated Glycemic Event Detection From Continuous Glucose Monitoring Data</title>
+      <link>/publication/rinpharma_546/</link>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_546/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

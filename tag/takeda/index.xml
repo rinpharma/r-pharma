@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Takeda | R/Pharma</title>
+    <link>/tag/takeda/</link>
+      <atom:link href="/tag/takeda/index.xml" rel="self" type="application/rss+xml" />
+    <description>Takeda</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Tue, 04 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>Takeda</title>
+      <link>/tag/takeda/</link>
+    </image>
+    
+    <item>
+      <title>Enhancing Efficiency in e-CRT Creation for PMDA Through R Shiny App Development Using Vibe Coding</title>
+      <link>/publication/rinpharma_536/</link>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_536/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Risk Assessment Deep Dive</title>
+      <link>/publication/rinpharma_527/</link>
+      <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_527/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

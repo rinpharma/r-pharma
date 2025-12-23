@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Peng Zhang | R/Pharma</title>
+    <link>/author/peng-zhang/</link>
+      <atom:link href="/author/peng-zhang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Peng Zhang</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Tue, 04 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>Peng Zhang</title>
+      <link>/author/peng-zhang/</link>
+    </image>
+    
+    <item>
+      <title>Emerging trend of LLM development in R and implementation</title>
+      <link>/publication/rinpharma_534/</link>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_534/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leverage template-based automated reporting on DMC materials preparation</title>
+      <link>/publication/rinpharma_529/</link>
+      <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_529/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

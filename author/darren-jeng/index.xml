@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Darren Jeng | R/Pharma</title>
+    <link>/author/darren-jeng/</link>
+      <atom:link href="/author/darren-jeng/index.xml" rel="self" type="application/rss+xml" />
+    <description>Darren Jeng</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Thu, 06 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>Darren Jeng</title>
+      <link>/author/darren-jeng/</link>
+    </image>
+    
+    <item>
+      <title>Putting the R in RWD</title>
+      <link>/publication/rinpharma_585/</link>
+      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_585/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

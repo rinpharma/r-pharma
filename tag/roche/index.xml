@@ -5,12 +5,68 @@
     <link>/tag/roche/</link>
       <atom:link href="/tag/roche/index.xml" rel="self" type="application/rss+xml" />
     <description>Roche</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Sun, 17 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Fri, 07 Nov 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
       <title>Roche</title>
       <link>/tag/roche/</link>
     </image>
+    
+    <item>
+      <title>SDTM programming in R using {sdtm.oak} package</title>
+      <link>/publication/rinpharma_598/</link>
+      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_598/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>autoslideR: Streamlining slide deck generation for clinical reporting events</title>
+      <link>/publication/rinpharma_584/</link>
+      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_584/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building the Ultimate R AI Assistant</title>
+      <link>/publication/rinpharma_589/</link>
+      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_589/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beyond {gtsummary}: How the {crane} Package Extends the Framework for Pharmaceutical Reporting</title>
+      <link>/publication/rinpharma_562/</link>
+      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_562/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>From Harmony to Hybrid: Charting a Practical Course for R Adoption in Pharma</title>
+      <link>/publication/rinpharma_533/</link>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_533/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>autoslideR: Streamlining slide deck generation for clinical reporting events</title>
+      <link>/publication/rinpharma_531/</link>
+      <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_531/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hands on with Cardinal: Harmonizing Clinical Reporting with Open‑Source TLGs</title>
+      <link>/publication/rinpharma_522/</link>
+      <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_522/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Customized GenAI coding assistant leveraging multi-agent framework</title>

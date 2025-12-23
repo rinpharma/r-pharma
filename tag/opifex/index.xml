@@ -5,12 +5,20 @@
     <link>/tag/opifex/</link>
       <atom:link href="/tag/opifex/index.xml" rel="self" type="application/rss+xml" />
     <description>Opifex</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Tue, 26 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Wed, 05 Nov 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
       <title>Opifex</title>
       <link>/tag/opifex/</link>
     </image>
+    
+    <item>
+      <title>Build Model Context Protocol servers and clients in R</title>
+      <link>/publication/rinpharma_565/</link>
+      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_565/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Unleash your Shiny apps with JavaScript</title>

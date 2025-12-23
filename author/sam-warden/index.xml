@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sam Warden | R/Pharma</title>
+    <link>/author/sam-warden/</link>
+      <atom:link href="/author/sam-warden/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sam Warden</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Thu, 06 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>Sam Warden</title>
+      <link>/author/sam-warden/</link>
+    </image>
+    
+    <item>
+      <title>GSK’s journey to Clinical Study Reporting Using Open Source</title>
+      <link>/publication/rinpharma_581/</link>
+      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_581/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sam Wardens Keynote (APAC Replay)</title>
+      <link>/publication/rinpharma_597/</link>
+      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_597/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

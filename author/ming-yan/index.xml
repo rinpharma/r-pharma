@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ming Yan | R/Pharma</title>
+    <link>/author/ming-yan/</link>
+      <atom:link href="/author/ming-yan/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ming Yan</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Thu, 06 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>Ming Yan</title>
+      <link>/author/ming-yan/</link>
+    </image>
+    
+    <item>
+      <title>The Dependency Whisperer: AI That Sees What You Might Miss</title>
+      <link>/publication/rinpharma_591/</link>
+      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_591/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

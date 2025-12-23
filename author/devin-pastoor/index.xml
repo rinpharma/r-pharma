@@ -5,12 +5,28 @@
     <link>/author/devin-pastoor/</link>
       <atom:link href="/author/devin-pastoor/index.xml" rel="self" type="application/rss+xml" />
     <description>Devin Pastoor</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Sun, 17 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Thu, 06 Nov 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
       <title>Devin Pastoor</title>
       <link>/author/devin-pastoor/</link>
     </image>
+    
+    <item>
+      <title>A Guided Tour to Building and Integrating LLM Based Tooling with R</title>
+      <link>/publication/rinpharma_579/</link>
+      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_579/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GenAI in Production - moving beyond prototypes</title>
+      <link>/publication/rinpharma_588/</link>
+      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_588/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Agents and MCP and RAG, oh my! Where is the GenAI Yellow-Brick-Road Leading?</title>

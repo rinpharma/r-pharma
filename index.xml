@@ -5,12 +5,492 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>R/Pharma</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Tue, 19 Aug 2025 10:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Fri, 07 Nov 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
       <title>R/Pharma</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>Bayesian Survival and Multistate Models using R and Stan</title>
+      <link>/publication/rinpharma_601/</link>
+      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_601/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>datasetjson - Read and write CDISC Dataset JSON formatted datasets in R and Python</title>
+      <link>/publication/rinpharma_599/</link>
+      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_599/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>From Data to Insights: A Hands-On Workshop with {teal} for Clinical Data Exploration</title>
+      <link>/publication/rinpharma_602/</link>
+      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_602/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python for Clinical Study Report and Submission</title>
+      <link>/publication/rinpharma_600/</link>
+      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_600/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SDTM programming in R using {sdtm.oak} package</title>
+      <link>/publication/rinpharma_598/</link>
+      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_598/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Guided Tour to Building and Integrating LLM Based Tooling with R</title>
+      <link>/publication/rinpharma_579/</link>
+      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_579/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>autoslideR: Streamlining slide deck generation for clinical reporting events</title>
+      <link>/publication/rinpharma_584/</link>
+      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_584/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BayesERtools: R package for exposure-response analysis with Bayesian approaches</title>
+      <link>/publication/rinpharma_592/</link>
+      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_592/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building the Ultimate R AI Assistant</title>
+      <link>/publication/rinpharma_589/</link>
+      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_589/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GenAI in Production - moving beyond prototypes</title>
+      <link>/publication/rinpharma_588/</link>
+      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_588/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generating Synthetic Data with synthpop in R</title>
+      <link>/publication/rinpharma_586/</link>
+      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_586/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GSK’s journey to Clinical Study Reporting Using Open Source</title>
+      <link>/publication/rinpharma_581/</link>
+      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_581/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leveraging ellmer and GPT to Integrate AI Agents into Shiny Applications for Accelerating Trials</title>
+      <link>/publication/rinpharma_583/</link>
+      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_583/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Putting the R in RWD</title>
+      <link>/publication/rinpharma_585/</link>
+      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_585/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R Validation Discussion: Metric Repos for Open Quality Assessment</title>
+      <link>/publication/rinpharma_596/</link>
+      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_596/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sam Wardens Keynote (APAC Replay)</title>
+      <link>/publication/rinpharma_597/</link>
+      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_597/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Dependency Whisperer: AI That Sees What You Might Miss</title>
+      <link>/publication/rinpharma_591/</link>
+      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_591/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Web-Based R Application for Forecasting Patient Enrollment in Clinical Trials</title>
+      <link>/publication/rinpharma_555/</link>
+      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_555/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beyond Training: Evolving Strategies to Teach and Support R Adoption in Pharma</title>
+      <link>/publication/rinpharma_560/</link>
+      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_560/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beyond {gtsummary}: How the {crane} Package Extends the Framework for Pharmaceutical Reporting</title>
+      <link>/publication/rinpharma_562/</link>
+      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_562/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Build Model Context Protocol servers and clients in R</title>
+      <link>/publication/rinpharma_565/</link>
+      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_565/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Code Review for Compliance: Best Practices for Validated R Workflows in Pharma</title>
+      <link>/publication/rinpharma_554/</link>
+      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_554/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>duckplyr: Analyze large data with DuckDB and dplyr compatibility</title>
+      <link>/publication/rinpharma_559/</link>
+      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_559/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Integrating Collaborative Programming with Automated Traceability and Reproducibility in Pharma</title>
+      <link>/publication/rinpharma_568/</link>
+      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_568/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MedxR Package - Bridging Regulatory Drug Data from the FDA and Health Canada into R</title>
+      <link>/publication/rinpharma_552/</link>
+      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_552/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mosaic: Open-Source, ARS-Driven Automation of Standard TFLs</title>
+      <link>/publication/rinpharma_567/</link>
+      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_567/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Practical AI for data science</title>
+      <link>/publication/rinpharma_557/</link>
+      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_557/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R-Classification: Unleashing Predictive Power with tidymodels</title>
+      <link>/publication/rinpharma_578/</link>
+      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_578/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reach for R Low Hanging Fruit for Faster Results</title>
+      <link>/publication/rinpharma_550/</link>
+      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_550/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>risk.assessr:  extending its use in the package validation process</title>
+      <link>/publication/rinpharma_553/</link>
+      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_553/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simon Couchs Keynote (APAC Replay)</title>
+      <link>/publication/rinpharma_576/</link>
+      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_576/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TabPFN: A Deep-Learning Solution for Tabular Data</title>
+      <link>/publication/rinpharma_569/</link>
+      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_569/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Validating Shiny Apps in Regulated Environments</title>
+      <link>/publication/rinpharma_561/</link>
+      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_561/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>{llumen}: An agentic LLM framework for biomedical documents, databases &amp; foundation models</title>
+      <link>/publication/rinpharma_564/</link>
+      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_564/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Advanced Clinical Reporting with officer and flextable</title>
+      <link>/publication/rinpharma_538/</link>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_538/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An R Package cgmguru for Automated Glycemic Event Detection From Continuous Glucose Monitoring Data</title>
+      <link>/publication/rinpharma_546/</link>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_546/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An R package to consolidate pretest probability models and guidelines for CAD</title>
+      <link>/publication/rinpharma_535/</link>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_535/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Creating Polished, Branded Documents with Quarto</title>
+      <link>/publication/rinpharma_539/</link>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_539/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Emerging trend of LLM development in R and implementation</title>
+      <link>/publication/rinpharma_534/</link>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_534/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enhancing Efficiency in e-CRT Creation for PMDA Through R Shiny App Development Using Vibe Coding</title>
+      <link>/publication/rinpharma_536/</link>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_536/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploring AI tools in clinical trial data analysis</title>
+      <link>/publication/rinpharma_545/</link>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_545/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>From Harmony to Hybrid: Charting a Practical Course for R Adoption in Pharma</title>
+      <link>/publication/rinpharma_533/</link>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_533/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How to use pointblank to understand, validate, and document your data</title>
+      <link>/publication/rinpharma_541/</link>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_541/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Improving precision healthcare for under-represented and genetically diverse global populations</title>
+      <link>/publication/rinpharma_543/</link>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_543/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interactive and Reproducible Reports with Quarto</title>
+      <link>/publication/rinpharma_548/</link>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_548/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Polars: The Blazing Fast Python Framework for Modern Clinical Trial Data Exploration</title>
+      <link>/publication/rinpharma_540/</link>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_540/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using Analysis Results Data using {cards} for PMDA Oncology inqueries</title>
+      <link>/publication/rinpharma_549/</link>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_549/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>{meRlin} - context-aware AI assistant for clinical programming</title>
+      <link>/publication/rinpharma_537/</link>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_537/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>autoslideR: Streamlining slide deck generation for clinical reporting events</title>
+      <link>/publication/rinpharma_531/</link>
+      <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_531/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Debugging Stan Programs</title>
+      <link>/publication/rinpharma_519/</link>
+      <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_519/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic Creation of Kaplan-Meier Plots and Summary Measure Tables for Survival Data with R Shiny</title>
+      <link>/publication/rinpharma_530/</link>
+      <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_530/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flexible Clinical Trial Design, Simulation, and Analysis with the R Package rpact</title>
+      <link>/publication/rinpharma_518/</link>
+      <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_518/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Getting Started with LLM APIs in R</title>
+      <link>/publication/rinpharma_521/</link>
+      <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_521/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hands on with Cardinal: Harmonizing Clinical Reporting with Open‑Source TLGs</title>
+      <link>/publication/rinpharma_522/</link>
+      <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_522/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introduction to building (better) R packages</title>
+      <link>/publication/rinpharma_520/</link>
+      <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_520/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leverage template-based automated reporting on DMC materials preparation</title>
+      <link>/publication/rinpharma_529/</link>
+      <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_529/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Open-Source Culture and Data Strategy in SHIONOGI: A New Value-Creation Model for Pharma</title>
+      <link>/publication/rinpharma_524/</link>
+      <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_524/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Risk Assessment Deep Dive</title>
+      <link>/publication/rinpharma_527/</link>
+      <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_527/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Side-by-side by Design: Pharma Data Handling with Merge, Join, Match, and Hash in R</title>
+      <link>/publication/rinpharma_526/</link>
+      <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_526/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Strategically Assisting Statistical programmers To succeed in R (SAS2R)</title>
+      <link>/publication/rinpharma_525/</link>
+      <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_525/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>genAI Day 2025</title>

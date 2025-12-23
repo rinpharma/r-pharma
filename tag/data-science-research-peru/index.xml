@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Science Research Peru | R/Pharma</title>
+    <link>/tag/data-science-research-peru/</link>
+      <atom:link href="/tag/data-science-research-peru/index.xml" rel="self" type="application/rss+xml" />
+    <description>Data Science Research Peru</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Wed, 05 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
+      <title>Data Science Research Peru</title>
+      <link>/tag/data-science-research-peru/</link>
+    </image>
+    
+    <item>
+      <title>MedxR Package - Bridging Regulatory Drug Data from the FDA and Health Canada into R</title>
+      <link>/publication/rinpharma_552/</link>
+      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_552/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

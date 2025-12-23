@@ -5,12 +5,28 @@
     <link>/tag/pfizer/</link>
       <atom:link href="/tag/pfizer/index.xml" rel="self" type="application/rss+xml" />
     <description>Pfizer</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Sun, 17 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© R/Pharma 2025</copyright><lastBuildDate>Thu, 06 Nov 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/logo_hu7da996d8ce7178f65929875a2132de7e_457633_300x300_fit_lanczos_2.png</url>
       <title>Pfizer</title>
       <link>/tag/pfizer/</link>
     </image>
+    
+    <item>
+      <title>Putting the R in RWD</title>
+      <link>/publication/rinpharma_585/</link>
+      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_585/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Web-Based R Application for Forecasting Patient Enrollment in Clinical Trials</title>
+      <link>/publication/rinpharma_555/</link>
+      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/rinpharma_555/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Enabling GenAI Capabilities for Statistical Programmers</title>
